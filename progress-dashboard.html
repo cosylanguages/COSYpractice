@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress by course | COSYpractice</title>
+    <meta name="description" content="Cross-course progress with CEFR level-up tracking, based on spaced-repetition mastery.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYpractice/progress-dashboard.html">
+    <meta property="og:title" content="Progress by course | COSYpractice">
+    <meta property="og:description" content="Cross-course progress with CEFR level-up tracking, based on spaced-repetition mastery.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYpractice/progress-dashboard.html">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#FAF7F2">
+    <link rel="icon" href="images/logo.png">
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/shell.css">
+    
+    <style>
+        .pg-app { max-width: 880px; margin: 0 auto; padding: 24px 16px 64px; }
+        .pg-back { color: var(--teal,#26695e); text-decoration:none; font-weight:700; }
+        .pg-app h1 { font-family:var(--font-serif,Georgia,serif); font-size:1.7rem; margin:8px 0 4px; }
+        .pg-sub { color: var(--ink-muted,#5a5a50); margin:0 0 16px; font-size:.95rem; }
+        .pg-streak { display:inline-flex; gap:6px; align-items:center; background:#fff3e0; border:1px solid #f0c674; color:#8a5a00; padding:6px 12px; border-radius:999px; font-weight:800; }
+        .pg-toolbar { display:flex; gap:10px; flex-wrap:wrap; margin:16px 0; }
+        .pg-course { margin: 24px 0; }
+        .pg-course h2 { font-size:1.15rem; margin:0 0 8px; text-transform:capitalize; }
+        .pg-level { background: var(--warm-white,#fffdf8); border:1px solid var(--border,rgba(74,107,80,.2)); border-radius:12px; padding:12px 14px; margin:8px 0; }
+        .pg-level-row { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:8px; }
+        .pg-level-name { font-weight:800; }
+        .pg-bar { height:10px; background:#eee3d6; border-radius:6px; overflow:hidden; }
+        .pg-bar > span { display:block; height:100%; background:linear-gradient(90deg,#3a8a5b,#5bb07e); transition:width .4s ease; }
+        .pg-meta { font-size:.82rem; color: var(--ink-muted,#5a5a50); margin-top:6px; }
+        .pg-badge { font-size:.72rem; font-weight:800; padding:3px 8px; border-radius:999px; }
+        .pg-badge.ready { background:#e6f4ec; color:#1e5e36; }
+        .pg-badge.progress { background:#fff3e0; color:#8a5a00; }
+        .pg-badge.locked { background:#f0ece4; color:#7a7468; }
+        .pg-error { color:#b5562f; font-weight:700; }
+        .skip-link{position:absolute;left:-9999px;top:0;z-index:100}
+        .skip-link:focus{left:8px;top:8px;background:var(--teal,#26695e);color:#fff;padding:8px 12px;border-radius:8px}
+    html[data-theme="dark"] .pg-level{background:#1a241d}
+        html[data-theme="dark"] .pg-bar{background:#2a3a2f}
+        html[data-theme="dark"] .pg-streak{background:#3a3012;color:#f3dfa0;border-color:#8a6a1a}
+        html[data-theme="dark"] .pg-badge.ready{background:#173a28;color:#9fe0b4}
+        html[data-theme="dark"] .pg-badge.progress{background:#3a3012;color:#f3dfa0}
+        html[data-theme="dark"] .pg-badge.locked{background:#26302a;color:#9fb0a3}
+    </style>
+</head>
+<body class="pm">
+<nav id="cosy-nav" aria-label="COSY sites"></nav>
+    <main class="pg-app">
+        <a href="#main" class="skip-link">Skip to Content</a>
+        <a href="index.html" class="pg-back">← Back to Practice</a>
+        <h1>📊 Cross-Course Progress</h1>
+        <p class="pg-sub" id="pg-sub">Loading CEFR outcomes…</p>
+
+        <div class="pg-toolbar">
+            <span class="pg-streak" id="pg-streak">🔥 0 day streak</span>
+            <button type="button" class="btn btn-secondary" id="pg-seed">Seed demo data</button>
+            <button type="button" class="btn btn-secondary" id="pg-reset">Reset progress</button>
+        </div>
+
+        <div id="pg-courses"></div>
+        <p class="pg-error" id="pg-error" hidden></p>
+    </main>
+    <script src="_engine/progress.js"></script>
+    <script>
+    (function () {
+        'use strict';
+        var store = new window.COSYProgress();
+        var coursesEl = document.getElementById('pg-courses');
+        var subEl = document.getElementById('pg-sub');
+        var errEl = document.getElementById('pg-error');
+        var streakEl = document.getElementById('pg-streak');
+
+        function fail(msg) { errEl.textContent = msg; errEl.hidden = false; subEl.textContent = 'Could not load outcomes'; }
+
+        function renderStreak() {
+            var s = store.getStreakInfo();
+            streakEl.textContent = '🔥 ' + s.streakDays + ' day streak · ' + s.todayCount + ' today';
+        }
+
+        function render(data) {
+            subEl.textContent = 'Level-up rule: ≥80% of lessons reviewed AND average mastery ≥3 (mature).';
+            coursesEl.innerHTML = '';
+            var courses = (data && data.courses) ? data.courses : {};
+            Object.keys(courses).forEach(function (course) {
+                var wrap = document.createElement('section'); wrap.className = 'pg-course';
+                var h = document.createElement('h2'); h.textContent = course + ' course'; wrap.appendChild(h);
+                courses[course].forEach(function (lv) {
+                    var st = store.getLevelStatus(course, lv.level, lv.lessons || 0);
+                    var row = document.createElement('div'); row.className = 'pg-level';
+                    var top = document.createElement('div'); top.className = 'pg-level-row';
+                    var name = document.createElement('span'); name.className = 'pg-level-name';
+                    name.textContent = lv.level;
+                    var badge = document.createElement('span');
+                    if (st.readyToLevelUp) { badge.className = 'pg-badge ready'; badge.textContent = '✓ Ready to level up'; }
+                    else if (st.reviewed > 0) { badge.className = 'pg-badge progress'; badge.textContent = 'In progress'; }
+                    else { badge.className = 'pg-badge locked'; badge.textContent = 'Not started'; }
+                    top.appendChild(name); top.appendChild(badge);
+                    var bar = document.createElement('div'); bar.className = 'pg-bar';
+                    var fill = document.createElement('span'); fill.style.width = st.reviewPct + '%'; bar.appendChild(fill);
+                    var meta = document.createElement('div'); meta.className = 'pg-meta';
+                    meta.textContent = st.reviewed + ' / ' + st.total + ' lessons reviewed · mastery ' + st.masteryAvg + '/5 · ' + st.mature + ' mature';
+                    row.appendChild(top); row.appendChild(bar); row.appendChild(meta);
+                    wrap.appendChild(row);
+                });
+                coursesEl.appendChild(wrap);
+            });
+            renderStreak();
+        }
+
+        function load() {
+            fetch('data/levels/cefr-outcomes.json').then(function (r) {
+                if (!r.ok) throw new Error('outcomes not found');
+                return r.json();
+            }).then(render).catch(function (e) { fail(e.message); });
+        }
+
+        document.getElementById('pg-seed').addEventListener('click', function () {
+            // seed plausible progress so the dashboard is demonstrable
+            store.reset();
+            fetch('data/levels/cefr-outcomes.json').then(function (r) { return r.json(); }).then(function (data) {
+                var c = data.courses || {};
+                // fully-mastered level -> 'ready to level up'
+                if (c.general && c.general[0]) store.seedDemo('general', c.general[0].level, c.general[0].lessons, 0.95, 4);
+                // in-progress level (60% reviewed, mastery 2)
+                if (c.general && c.general[1]) store.seedDemo('general', c.general[1].level, Math.round(c.general[1].lessons * 0.6), 0.8, 2);
+                // professional: 85% reviewed, mastery 3 -> ready to level up
+                if (c.professional && c.professional[0]) store.seedDemo('professional', c.professional[0].level, Math.round(c.professional[0].lessons * 0.85), 0.9, 3);
+                // barely started
+                if (c.spoken && c.spoken[0]) store.seedDemo('spoken', c.spoken[0].level, Math.max(2, Math.round(c.spoken[0].lessons * 0.2)), 0.6, 1);
+                store.recordSessionCompletion();
+                load();
+            }).catch(function () { load(); });
+        });
+        document.getElementById('pg-reset').addEventListener('click', function () {
+            store.reset(); load();
+        });
+
+        load();
+    })();
+    </script>
+<footer id="cosy-footer"></footer>
+<script src="js/shell.js"></script>
+</body>
+</html>

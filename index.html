@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-translate-key="practice_title">Free practice | COSYlanguages</title>
+  <meta name="description" content="Vocabulary, grammar and speaking exercises in 13 languages. A daily challenge, COSY points and streaks. Free, no account needed.">
+  <link rel="canonical" href="https://cosylanguages.github.io/COSYpractice/">
+  <meta property="og:title" content="Free practice | COSYlanguages">
+  <meta property="og:description" content="Vocabulary, grammar and speaking exercises in 13 languages. A daily challenge, COSY points and streaks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosylanguages.github.io/COSYpractice/">
+  <meta property="og:image" content="https://cosylanguages.github.io/COSYpractice/images/logo.png">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="icon" href="images/logo.png">
+  <script src="js/theme-init.js"></script>
+  <link rel="preload" href="fonts/fraunces-latin-soft-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/commissioner-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/core.css">
+  <link rel="stylesheet" href="css/practice-new.css">
+  <link rel="stylesheet" href="css/daily.css">
+  <link rel="stylesheet" href="css/shell.css">
+  <link rel="stylesheet" href="css/practice-modern.css">
+</head>
+<body class="practice-page-new pm">
+
+<a href="#main-content" class="skip-link">Skip to content</a>
+<nav id="cosy-nav" aria-label="COSY sites"></nav>
+
+<div class="page">
+
+  <header class="pm-hero" aria-label="Practice overview">
+    <div class="pm-hero-copy">
+      <p class="pm-kicker">Free practice</p>
+      <h1 class="pm-title" data-translate-key="tool_practice_title">Practise a little, every day.</h1>
+      <p class="pm-lede" data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises in 13 languages. Earn COSY points, keep a streak, and let the weak spots come back until they stick.</p>
+    </div>
+    <div class="streak-ring-wrap pm-streak">
+      <div class="streak-ring">
+        <svg width="88" height="88" aria-hidden="true">
+          <circle cx="44" cy="44" r="36" fill="none" stroke="var(--border)" stroke-width="4"/>
+          <circle id="streak-arc" cx="44" cy="44" r="36" fill="none" stroke="var(--cosy-color-lamp, #F3C969)" stroke-width="5" stroke-dasharray="226" stroke-dashoffset="226" stroke-linecap="round"/>
+        </svg>
+        <div class="streak-ring-inner">
+          <span id="streak-val" class="sri-val">0</span>
+          <span class="sri-lbl">DAYS</span>
+        </div>
+      </div>
+      <span class="streak-ring-sub">Current streak</span>
+    </div>
+  </header>
+
+<main id="main-content" class="practice-container">
+  <noscript><p class="pm-noscript">Practice needs JavaScript. Please enable it to start.</p></noscript>
+
+  <!-- 1. Start a session -->
+  <section id="setup-section" class="setup-panel setup-panel-spaced" aria-labelledby="setup-title">
+    <h2 id="setup-title" class="sec-title">Start a session <span>Pick what you want to practise</span></h2>
+
+    <div class="setup-grid">
+      <div class="setup-full">
+        <label class="field-label" data-translate-key="select_practice_language">Language</label>
+        <div id="lang-pills" class="lang-pills"></div>
+      </div>
+
+      <div class="steps-2-5-panel steps-container-grid">
+        <div>
+          <label class="field-label" data-translate-key="category_label">Category</label>
+          <div id="cat-pills" class="cat-pills">
+            <div class="cat-pill active" data-value="Vocabulary">Vocabulary 📖</div>
+            <div class="cat-pill" data-value="Grammar">Grammar 📐</div>
+            <div class="cat-pill" data-value="Speaking">Speaking 🗣️</div>
+            <div class="cat-pill" data-value="Pronunciation">Pronunciation 🔊</div>
+            <div class="cat-pill" data-value="Concept-Check">Concept check 💡</div>
+          </div>
+        </div>
+        <div>
+          <label class="field-label" for="level-filter" data-translate-key="select_level">Level</label>
+          <select id="level-filter" onchange="window.cosyPractice.updateThemes()" class="styled-select">
+            <option value="all" data-translate-key="level_all">All levels</option>
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="theme-filter" data-translate-key="select_theme">Theme</label>
+          <select id="theme-filter" onchange="window.cosyPractice.updateSubThemes()" class="styled-select">
+            <option value="all" data-translate-key="theme_all">All themes</option>
+          </select>
+        </div>
+        <div id="subtheme-filter-wrap" class="subtheme-wrap-hidden">
+          <label class="field-label" for="subtheme-filter">Sub-theme</label>
+          <select id="subtheme-filter" class="styled-select"><option value="">All sub-themes</option></select>
+        </div>
+        <div id="room-filter-wrap" style="display: none;">
+          <label class="field-label" for="room-filter">Room</label>
+          <select id="room-filter" class="styled-select" aria-label="Filter by room"><option value="all">All rooms</option></select>
+        </div>
+      </div>
+    </div>
+
+    <div id="setup-error-msg" class="setup-error-banner error-banner-hidden" hidden role="alert">
+      <span class="error-banner-icon">⚠️</span>
+      <span class="error-banner-text" id="setup-error-text">No exercises found for this combination. Try "All themes" or a different level.</span>
+      <button type="button" onclick="window.cosyPractice.startPractice()" class="btn-retry-sm">Retry</button>
+    </div>
+
+    <div class="start-bar">
+      <button type="button" onclick="window.cosyPractice.startPractice()" class="btn-start" data-translate-key="start_practice">Start practice 🚀</button>
+      <button type="button" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" id="projector-setup-toggle" title="Projector / classroom mode (key: P)">
+        <span>📺</span> <span class="proj-label">Projector mode</span>
+      </button>
+    </div>
+
+    <details id="theme-progress-panel" class="theme-progress-panel pm-details">
+      <summary>Your progress by theme</summary>
+      <div id="progress-trackers-list" class="progress-trackers-list"></div>
+    </details>
+  </section>
+
+  <!-- Today's numbers -->
+  <div id="stats-section" class="dash-stats-row">
+    <div id="stats-summary-grid" class="dash-stats-grid" style="display: none;">
+      <div class="dash-stat"><div class="ds-icon">✨</div><div><div id="setup-total-score" class="ds-val">0</div><div class="ds-lbl">Total score</div></div></div>
+      <div class="dash-stat"><div class="ds-icon">✅</div><div><div id="total-correct" class="ds-val">0</div><div class="ds-lbl">Correct today</div></div></div>
+      <div class="dash-stat"><div class="ds-icon">📚</div><div><div id="total-sessions" class="ds-val">0</div><div class="ds-lbl">Sessions</div></div></div>
+      <div class="dash-stat stat-target-accent"><div class="ds-icon">🎯</div><div><div id="daily-xp-val" class="ds-val">0 / 50 XP</div><div class="ds-lbl">Daily target</div></div></div>
+      <span id="total-pts" class="stat-hidden-val">0</span>
+    </div>
+    <div id="stats-empty-state" class="stats-empty-banner">Start your first session to begin your streak 🔥</div>
+  </div>
+
+  <!-- Practice Engine Area -->
+  <div id="practice-section" class="practice-engine hidden">
+    <div class="pe-topbar">
+      <div class="pe-info">
+        <div class="pe-session-label">Current Session</div>
+        <div id="pe-session-title" class="pe-session-title">Practice</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <button type="button" id="pe-projector-toggle" onclick="cosyPracticeEngine.toggleProjectorMode()" class="btn-outline" style="color:#fff; border-color:rgba(255,255,255,0.3); padding: 5px 12px; font-size: 0.8rem;" title="Toggle Projector / Classroom Presentation Mode (Key: P)">📺 Projector</button>
+      </div>
+      <div class="pe-counters pe-counters-rel">
+        <div class="pe-counter combo-wrap-hidden" id="combo-wrap">
+          <div id="combo-count" class="pec-val text-amber">0</div>
+          <div class="pec-lbl text-amber">Combo 🔥</div>
+        </div>
+        <div class="pe-counter">
+          <div id="score-count" class="pec-val">0</div>
+          <div class="pec-lbl">Points</div>
+        </div>
+        <div class="pe-counter">
+          <div id="streak-count" class="pec-val">0</div>
+          <div class="pec-lbl">Streak</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pe-progress-bar">
+      <div id="progress-fill" class="pe-progress-fill"></div>
+    </div>
+
+    <div class="pe-body">
+      <div id="pe-progress-text" class="pe-progress-text pe-progress-subtext"></div>
+      <div id="pe-body-content">
+        <!-- Content injected by JS -->
+      </div>
+
+      <div id="pe-fb" class="pe-feedback"></div>
+
+      <div class="pe-controls">
+        <button type="button" id="pe-next" onclick="cosyPractice.nextQ()" class="pe-btn-next pe-btn-next-hidden" data-translate-key="next" data-i18n="button.next">Next Word</button>
+        <button type="button" id="pe-hint" onclick="cosyPractice.showHint()" class="pe-btn-hint" data-i18n="button.hint">Hint 💡</button>
+        <button type="button" id="exit-practice-btn" onclick="cosyPractice.showSummary()" class="pe-btn-exit" data-translate-key="exit_btn" data-i18n="button.exitPractice">Exit Practice</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 2. Quick start -->
+  <section id="quickstart-section" aria-labelledby="qs-title">
+    <h2 id="qs-title" class="sec-title">Quick start <span>One tap, no setup</span></h2>
+    <div class="quickstart-grid">
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'vocab', 'all', 'all')">
+        <span class="qs-icon">🇬🇧</span><span class="qs-name">English vocabulary</span><span class="qs-sub">Essential words</span>
+      </button>
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('fr', 'vocab', 'all', 'all')">
+        <span class="qs-icon">🇫🇷</span><span class="qs-name">Vocabulaire français</span><span class="qs-sub">Les mots essentiels</span>
+      </button>
+      <button type="button" class="qs-card qs-card-teal" onclick="window.cosyPractice.quickStart('en', 'grammar', 'starter', 'some-vs-any')">
+        <span class="qs-icon">🥣</span><span class="qs-name">Some or any?</span><span class="qs-sub">English grammar · A1</span>
+      </button>
+      <button type="button" class="qs-card qs-card-coral" onclick="window.cosyPractice.quickStart('en', 'grammar', 'starter', 'to-be')">
+        <span class="qs-icon">🎭</span><span class="qs-name">To be</span><span class="qs-sub">English grammar · A1</span>
+      </button>
+      <button type="button" class="qs-card qs-card-blue" onclick="window.cosyPractice.quickStart('en', 'grammar', 'intermediate', 'present-perfect-vs-continuous')">
+        <span class="qs-icon">⏳</span><span class="qs-name">Present perfect</span><span class="qs-sub">Simple or continuous · B1</span>
+      </button>
+      <a href="types/concept-check/index.html?lang=en&amp;unit=to-be" class="qs-card qs-card-teal qs-card-link">
+        <span class="qs-icon">💡</span><span class="qs-name">Concept check</span><span class="qs-sub">Is the meaning clear?</span>
+      </a>
+      <button type="button" class="qs-card qs-card-gold" onclick="window.cosyPractice.openWheel()">
+        <span class="qs-icon">🎡</span><span class="qs-name">Spin the wheel</span><span class="qs-sub">Let fate decide</span>
+      </button>
+      <button type="button" class="qs-card qs-card-coral" onclick="window.cosyPractice.startMistakeReview()">
+        <span class="qs-icon">🎯</span><span class="qs-name">Weak spots</span><span class="qs-sub">Drill your mistakes</span>
+      </button>
+      <button type="button" class="qs-card qs-card-teal" onclick="window.cosyPractice.startSRSReview()">
+        <span class="qs-icon">🧠</span><span class="qs-name">Memory review</span><span class="qs-sub">Spaced repetition</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Daily Challenge Section -->
+  <section id="daily-challenge" class="daily-challenge-page" style="margin: 3rem 0;">
+    <div class="challenge-card">
+      <div class="card-header">
+        <div class="card-header-top">
+          <span id="dayBadge" class="day-badge">Today</span>
+          <span id="typeBadge" class="day-type-badge">Daily Challenge</span>
+          <span id="cardNum" class="card-num">#01</span>
+        </div>
+        <h2 id="challengeTitle" class="challenge-title">Daily Challenge 🏆</h2>
+        <p id="challengeSubtitle" class="challenge-subtitle">Complete today's special task to earn bonus points!</p>
+        <div id="dateLine" class="date-line"></div>
+      </div>
+
+      <!-- Level Tabs -->
+      <div class="level-tabs">
+        <button type="button" id="tab-a" class="ltab" onclick="window.setLevel('a')">A1 - Beginner</button>
+        <button type="button" id="tab-b" class="ltab on" onclick="window.setLevel('b')">B1 - Intermediate</button>
+        <button type="button" id="tab-c" class="ltab" onclick="window.setLevel('c')">C1 - Advanced</button>
+      </div>
+
+      <!-- Task Panels -->
+      <div class="task-panels">
+        <div class="task-block">
+          <div class="task-block-label">Today's Prompt</div>
+          <div id="speakingPrompt" class="task-prompt">Loading prompt...</div>
+          <div id="speakingTip" class="task-tip">💡 Tip: Focus on fluency and structural clarity.</div>
+        </div>
+
+        <!-- Micro Block -->
+        <div class="micro-block" onclick="window.toggleMicro()">
+          <div class="micro-header">
+            <div>
+              <div id="microLabel" class="micro-label">Micro-task</div>
+              <div id="microTitle" class="micro-title">Quick Drill</div>
+            </div>
+            <span class="micro-chevron">▼</span>
+          </div>
+          <div class="micro-body">
+            <p id="microInstruction" class="micro-instruction"></p>
+            <div id="microExample" class="micro-example"></div>
+          </div>
+        </div>
+
+        <!-- Timer Row -->
+        <div class="timer-row">
+          <div id="timerDisplay" class="timer-display">2:00</div>
+          <div class="timer-btns">
+            <button type="button" id="startBtn" class="tbtn go" onclick="window.startTimer()">▶ Start Timer</button>
+            <button type="button" id="stopBtn" class="tbtn stop" onclick="window.stopTimer()" disabled>⏸ Pause</button>
+          </div>
+        </div>
+
+        <div class="bar-wrap">
+          <div id="timerBar" class="bar" style="width: 100%;"></div>
+        </div>
+
+        <div id="doneBanner" class="done-banner">🎉 Time's up! Great job practice session completed.</div>
+
+        <!-- Completion Action Row -->
+        <div class="complete-row">
+          <button type="button" id="btnComplete" class="dc-btn" onclick="window.markComplete()" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 700;">Complete Challenge (+50 XP) ⚔️</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Streak & Week Grid Summary -->
+    <div class="top-row" style="margin-top: 2rem;">
+      <div class="streak-pill">🔥 <span id="streakCount">0</span> Day Streak</div>
+      <div id="todayPill" class="today-pill">⏳ Today's task pending</div>
+    </div>
+
+    <div class="week-section">
+      <div class="week-label">Weekly Progress</div>
+      <div id="weekGrid" class="week-grid"></div>
+    </div>
+  </section>
+
+
+  <!-- Wheel Container -->
+  <div id="wheel-container" class="wheel-section wheel-section-hidden">
+    <h2 class="sec-title">Spin the Wheel 🎡</h2>
+    <div class="wheel-wrap">
+      <div class="wheel-pointer">▼</div>
+      <canvas id="wheel-canvas" width="200" height="200" class="wheel-canvas"></canvas>
+    </div>
+    <button type="button" id="spin-btn" class="wheel-btn">SPIN! 🚀</button>
+    <div id="wheel-result" class="wheel-result"></div>
+    <button type="button" onclick="cosyPractice.closeWheel()" class="btn-outline btn-outline-top-spaced">Close</button>
+  </div>
+
+
+  <!-- Stats + Mistakes Grid -->
+  <div id="activity-section" class="two-col">
+    <div class="info-card">
+      <h3 class="sec-title">Recent Activity 🕒</h3>
+      <div id="recent-list" class="recent-list"></div>
+    </div>
+    <div class="info-card">
+      <h3 class="sec-title">Weak Spots ✏️</h3>
+      <div id="mistake-list" class="mistake-list"></div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<!-- Duolingo-style Sliding Bottom Bar -->
+<div id="pe-bottom-bar" class="pe-bottom-bar">
+  <div class="pe-bb-content">
+    <div id="pe-bb-icon" class="pe-bb-icon"></div>
+    <div class="pe-bb-text">
+      <div id="pe-bb-title" class="pe-bb-title"></div>
+      <div id="pe-bb-desc" class="pe-bb-desc"></div>
+    </div>
+  </div>
+  <button type="button" id="pe-bb-btn" class="pe-bb-action-btn" onclick="cosyPracticeEngine.nextQuestion()">Continue</button>
+</div>
+
+<div id="summary-modal" class="modal-overlay modal-overlay-hidden">
+  <div id="session-summary" class="modal-content glass">
+    <h2 data-translate-key="session_summary_title">Session Summary 🎉</h2>
+    <div class="summary-stats">
+      <div class="stat-item">
+        <p data-translate-key="session_points">Session Points:</p>
+        <span id="final-score" class="stat-value">0</span>
+        <span class="stat-emoji">✨</span>
+      </div>
+      <div class="stat-item">
+        <p>Accuracy Rate:</p>
+        <span id="final-accuracy" class="stat-value">100%</span>
+        <span class="stat-emoji">🎯</span>
+      </div>
+      <div class="stat-item">
+        <p data-translate-key="total_score_label">Total Points:</p>
+        <span id="final-total-score" class="stat-value">0</span>
+        <span class="stat-emoji">🌟</span>
+      </div>
+      <div class="stat-item">
+        <p data-translate-key="streak_label">Current Streak:</p>
+        <span id="final-streak" class="stat-value">0</span>
+        <span class="stat-emoji">🔥</span>
+      </div>
+    </div>
+    <div id="speaking-club-bridge-card" class="speaking-bridge-card">
+      <span class="bridge-tag-teal">🗣️ Take Vocabulary Live</span>
+      <h3 id="bridge-card-title" class="bridge-title">Join a COSY Speaking Club Event</h3>
+      <p id="bridge-card-desc" class="bridge-desc">Practice your vocabulary in live A2–C2 discussions with fellow learners!</p>
+      <a id="bridge-card-link" href="https://cosylanguages.github.io/COSYevents/" class="btn-primary bridge-btn">Explore Speaking Clubs →</a>
+    </div>
+
+    <div class="modal-action-flex">
+      <button type="button" onclick="cosyPractice.startMistakeReview()" class="btn-outline btn-flex-1">Review Weak Spots ✏️</button>
+      <button type="button" onclick="cosyPractice.endSession()" class="btn-primary btn-flex-1" data-translate-key="back_to_menu">Back to Menu 🏠</button>
+    </div>
+  </div>
+</div>
+
+<footer id="cosy-footer"></footer>
+
+<div id="answer-flash" class="answer-flash"></div>
+<div id="toast" class="pm-toast" role="status" aria-live="polite"></div>
+
+<!-- Scripts: data and helpers first, then the engine, then the hub -->
+<script src="js/languages.js"></script>
+<script src="js/phonology_data.js"></script>
+<script src="js/theme-data.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/cosy-core.js"></script>
+<script src="js/practice-i18n.js"></script>
+<script src="js/shell.js"></script>
+<script src="_engine/core.js"></script>
+<script src="_engine/renderers.js"></script>
+<script src="data/vocab_confusion_pairs.js"></script>
+<script src="data/grammar_confusion_pairs.js"></script>
+<script src="data/french_grammar_confusion_pairs.js"></script>
+<script src="hub.js"></script>
+<script src="types/vocabulary/vocabulary.js"></script>
+<script src="types/writing/daily_data.js"></script>
+<script src="types/writing/writing.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* COSYpractice modern layer: loaded last, overrides legacy hub styles. */
+.page { max-width: 1180px; padding: 1.5rem clamp(1rem, 4vw, 2rem) 4rem; margin-inline: auto; }
+.daily-challenge-page, .daily-challenge-page .page { background: transparent; }
+.daily-challenge-page .page { max-width: 1180px; }
+
+[hidden], .setup-error-banner[hidden], .error-banner-hidden { display: none !important; }
+.pe-bottom-bar:not(.active) { visibility: hidden; }
+
+.pm-hero { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 1.5rem; padding: clamp(1.25rem, 4vw, 2.5rem) 0 1.5rem; text-align: left; }
+.pm-kicker { margin: 0 0 .4rem; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--ink-muted, #5a5a50); }
+.pm-title { margin: 0; font-family: var(--font-serif, Georgia, serif); font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.08; font-weight: 600; color: var(--ink, #1c1917); text-align: left; }
+.pm-lede { margin: .75rem 0 0; max-width: 56ch; font-size: 1.08rem; line-height: 1.55; color: var(--ink-soft, #44403c); }
+.pm-streak { justify-self: end; display: flex; flex-direction: column; align-items: center; gap: .35rem; padding: .9rem 1.1rem; background: var(--warm-white, #fffdf8); border: 1px solid var(--border, rgba(74,107,80,.2)); border-radius: 22px; }
+@media (max-width: 640px) {
+  .pm-hero { grid-template-columns: 1fr; }
+  .pm-streak { justify-self: start; flex-direction: row; gap: .9rem; }
+}
+
+.pm-details { border: 1px solid var(--border, rgba(74,107,80,.2)); border-radius: 18px; background: var(--warm-white, #fffdf8); padding: .25rem 1rem; }
+.pm-details > summary { cursor: pointer; padding: .75rem 0; font-weight: 700; }
+.pm-toast { position: fixed; left: 50%; bottom: 1.25rem; transform: translateX(-50%); max-width: calc(100vw - 2rem); padding: .65rem 1.1rem; border-radius: 999px; background: var(--ink, #1c1917); color: #fff; font-size: .95rem; z-index: 200; }
+.pm-toast:empty { display: none; }
+.pm-noscript { padding: 1rem; border-radius: 14px; background: #fff3cd; color: #5b4500; }
+.stats-empty-banner { border-radius: 16px; }
+.btn-retry-sm { border-radius: 999px; }
+
+.quickstart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .9rem; }
+
+html[data-theme="dark"] .pm-title { color: #e8f0e9; }
+html[data-theme="dark"] .pm-lede, html[data-theme="dark"] .pm-kicker { color: #b8c7bb; }
+html[data-theme="dark"] .pm-streak, html[data-theme="dark"] .pm-details { background: #1a241d; border-color: rgba(255,255,255,.12); }
+html[data-theme="dark"] .pm-toast { background: #e8f0e9; color: #141b16; }
+html[data-theme="dark"] .daily-challenge-page { background: transparent; }
+
+/* Dark mode: the legacy sheet defines its palette in :root; remap it. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --cream: #101712; --warm-white: #1a241d; --ink: #e8f0e9; --ink-muted: #b8c7bb; --ink-faint: #9fb0a3;
+  --border: rgba(255,255,255,.13); --border-hover: rgba(255,255,255,.28);
+  --teal: #6fd0bf; --teal-light: #173a34; --teal-dark: #8fe0d1;
+  --gold: #f3c969; --gold-light: #3a3012; --coral: #ff9a76; --coral-light: #402219;
+  --plum: #d3a8e6; --plum-light: #2d2036; --blue: #8fb6f0; --blue-light: #1b2a42;
+  --green: #86d39a; --green-light: #1a3322;
+}
+html[data-theme="dark"] body, html[data-theme="dark"] .page { background: var(--cream); color: var(--ink); }
+/* Surfaces that use --ink as a dark fill must stay dark when --ink turns light. */
+html[data-theme="dark"] :is(.btn-start, .pe-topbar, .lang-pill.active, .fpill.active, #toast, .nav-cta, .cta-section, .course-card.dark, .daily-challenge, .pe-btn-next, .wheel-btn, .pe-bb-action-btn, .lang-more-wrap.active .lang-more-select) { background: #0b110d; color: #e8f0e9; border-color: rgba(255,255,255,.2); }
+html[data-theme="dark"] .btn-start { background: #f3c969; color: #1c1917; border-color: #f3c969; }
+html[data-theme="dark"] .lang-pill.active { background: #e8f0e9; color: #101712; }
+html[data-theme="dark"] .dc-btn { background: #f3c969; color: #1c1917; }
+html[data-theme="dark"] .task-tip { background: #3a3012; color: #f3dfa0; border-color: #f3c969; }
+html[data-theme="dark"] :is(#microTaskSelect, .micro-task, .micro-task-select, .micro-select) { background: #2d2036; color: #e8d2f2; }
+html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(255,255,255,.12); } html[data-theme="dark"] .micro-title { color: #e8d2f2; }

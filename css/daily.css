@@ -1,0 +1,464 @@
+/*
+  Daily Challenge Page Styles
+*/
+
+.daily-challenge-page {
+    background-color: #FFFEFB;
+}
+
+.daily-challenge-page .page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--ink-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: var(--ink);
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.day-badge {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: var(--teal-faint);
+    color: var(--teal);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+#pageTitle {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: var(--ink-muted);
+    font-size: 1.1rem;
+}
+
+.date-line {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--ink-faint);
+}
+
+/* Streak + Today Pills */
+.top-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.streak-pill, .today-pill {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.streak-pill {
+    background: #FAEEE8;
+    color: #C4522A;
+    border: 1px solid rgba(196,82,42,.15);
+}
+
+.today-pill {
+    background: #E6F4F1;
+    color: #2D7D6F;
+    border: 1px solid rgba(45,125,111,.15);
+}
+
+/* Week Grid */
+.week-section {
+    background: var(--surface-color);
+    border: 1px solid var(--border);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.week-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+}
+
+.day-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.day-name {
+    font-size: 0.7rem;
+    color: var(--ink-muted);
+}
+
+.day-dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+    transition: all 0.2s;
+}
+
+.day-dot.current {
+    border-color: var(--teal);
+    color: var(--teal);
+    font-weight: 600;
+}
+
+.day-dot.done {
+    background: var(--teal);
+    border-color: var(--teal);
+    color: white;
+}
+
+/* Languages Row */
+.languages-row {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.languages-label {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    margin-bottom: 0.8rem;
+}
+
+.lang-flags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.lang-pill {
+    background: var(--surface-color);
+    border: 1px solid var(--border);
+    padding: 0.4rem 0.8rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+}
+
+/* Challenge Card */
+.challenge-card {
+    background: var(--surface-color);
+    border: 1px solid var(--border);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+    margin-bottom: 3rem;
+}
+
+.card-header {
+    background: var(--warm-white);
+    padding: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.day-type-badge {
+    background: var(--plum-faint);
+    color: var(--plum);
+    padding: 0.3rem 0.8rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.card-num {
+    font-family: 'Fraunces', serif;
+    font-size: 1.2rem;
+    color: var(--ink-faint);
+}
+
+.challenge-title {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.challenge-subtitle {
+    color: var(--ink-muted);
+    font-size: 1.1rem;
+}
+
+/* Level Tabs */
+.level-tabs {
+    display: flex;
+    background: var(--warm-white);
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.ltab {
+    flex: 1;
+    background: none;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ltab.on {
+    background: var(--surface-color);
+    color: var(--ink);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Task Panels */
+.task-panels {
+    padding: 2rem;
+}
+
+.task-block {
+    margin-bottom: 2rem;
+}
+
+.task-block-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    margin-bottom: 1rem;
+}
+
+.task-prompt {
+    font-size: 1.3rem;
+    font-family: 'Fraunces', serif;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+
+.task-tip {
+    background: #FDF6E3;
+    border-left: 3px solid #B07D2B;
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
+    color: #856404;
+    border-radius: 0 8px 8px 0;
+}
+
+/* Micro Block */
+.micro-block {
+    background: #F2ECF7;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.micro-header {
+    padding: 1.2rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.micro-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--plum);
+    margin-bottom: 0.2rem;
+}
+
+.micro-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--plum);
+}
+
+.micro-chevron {
+    color: var(--plum);
+    transition: transform 0.3s;
+}
+
+.micro-block.open .micro-chevron {
+    transform: rotate(180deg);
+}
+
+.micro-body {
+    display: none;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.micro-block.open .micro-body {
+    display: block;
+}
+
+.micro-instruction {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: var(--ink);
+}
+
+.micro-example {
+    background: rgba(255,255,255,0.5);
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+/* Timer */
+.timer-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.timer-display {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    font-weight: 600;
+    min-width: 120px;
+}
+
+.timer-btns {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tbtn {
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.tbtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.tbtn.go { background: var(--teal); color: white; }
+.tbtn.stop { background: var(--coral); color: white; }
+
+.bar-wrap {
+    height: 6px;
+    background: var(--border);
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.bar {
+    height: 100%;
+    background: var(--teal);
+    transition: width 1s linear;
+}
+
+.done-banner {
+    display: none;
+    background: #E6F4F1;
+    color: #2D7D6F;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Complete Button */
+.complete-row {
+    margin-top: 3rem;
+}
+
+/* How Section */
+.how-section {
+    text-align: center;
+}
+
+.how-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+}
+
+.step-num {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.step-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.step-desc {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    #pageTitle { font-size: 2rem; }
+    .week-grid { gap: 0.2rem; }
+    .timer-row { flex-direction: column; align-items: center; gap: 1rem; text-align: center; }
+    .timer-display { font-size: 2.5rem; }
+    .challenge-title { font-size: 1.5rem; }
+    .task-prompt { font-size: 1.1rem; }
+}
