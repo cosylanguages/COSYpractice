@@ -11,10 +11,11 @@ Live at https://cosylanguages.github.io/COSYpractice/
 - `js/shell.js`: top bar and footer shared with the other COSY sites. Theme and language live in localStorage and follow the reader across COSY sites.
 - `i18n/`: interface strings for the same 5 languages.
 
-## Data
-Lesson content is not duplicated here. At run time the page reads:
+## Data & Content Integration
+Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
 - `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
-- grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
+- Spaced repetition (SRS) algorithms and practice tools shared with **COSYtools**
+- Grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
 - `data/vocabulary/<level>/<theme>.js` and `data/grammar/<level>/<theme>.js` are bundled here (about 38 MB) and loaded on demand per session.
 
 ## Develop
