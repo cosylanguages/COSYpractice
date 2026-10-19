@@ -23,7 +23,7 @@
  "footer_h5_explore": "Explore",
  "level_all": "All Levels",
  "next": "Next",
- "pm_kicker": "Free practice",
+ "pm_kicker": "100% Free • Zero Tracking • No Account Needed",
  "practice.startPractice": "Start Practice",
  "practice_title": "Practice 💡",
  "select_level": "Select Level 📊",
@@ -34,7 +34,7 @@
  "start_practice": "Start Practice 🚀",
  "streak_label": "Streak",
  "theme_all": "All Themes",
- "tool_practice_desc": "Vocabulary, grammar and speaking exercises in 5 languages. Earn COSY points, keep a streak, and let the weak spots come back until they stick.",
+ "tool_practice_desc": "Vocabulary, grammar and speaking exercises in 5 languages powered directly by COSYdata & COSYtools. Earn COSY points, keep a streak, and let the weak spots come back until they stick.",
  "tool_practice_title": "Practise a little, every day.",
  "total_score_label": "Total: 🏆",
  "ui.a1_beginner_c2f8": "A1 - Beginner",
@@ -106,5 +106,86 @@
  "ui.weak_spots_8c52": "Weak spots",
  "ui.weak_spots_eeb7": "Weak Spots ✏️",
  "ui.weekly_progress_d995": "Weekly Progress",
- "ui.your_progress_by_theme_cd7f": "Your progress by theme"
+  "ui.your_progress_by_theme_cd7f": "Your progress by theme",
+  "_phrases": {
+    "Combo 🔥": "Combo 🔥",
+    "Exit Practice": "Exit Practice",
+    "Hint 💡": "Hint 💡",
+    "Next Word": "Next Word",
+    "Next": "Next",
+    "📖 Choice": "📖 Choice",
+    "🔊 Listen": "🔊 Listen",
+    "🔍 Find the Mistake": "🔍 Find the Mistake",
+    "Find the mistake in this sentence:": "Find the mistake in this sentence:",
+    "🔍 Identify the correct sentence to fix the error:": "🔍 Identify the correct sentence to fix the error:",
+    "🧩 Sentence Cloze": "🧩 Sentence Cloze",
+    "❌ Incorrect.": "❌ Incorrect.",
+    "Tap mic to speak": "Tap mic to speak",
+    "Check": "Check",
+    "Clear 🔄": "Clear 🔄",
+    "Check Scramble ✅": "Check Scramble ✅",
+    "✅ True": "✅ True",
+    "❌ False": "❌ False",
+    "Skip & Mark Done ✅": "Skip & Mark Done ✅",
+    "Submit Recording 🚀": "Submit Recording 🚀",
+    "🔊 Play Audio": "🔊 Play Audio",
+    "📖 Open Lesson Manual 🚀": "📖 Open Lesson Manual 🚀",
+    "Grammar Hint:": "Grammar Hint:",
+    "Start Practice 🚀": "Start Practice 🚀",
+    "Loading... ⏳": "Loading... ⏳",
+    "No sessions yet: start practising!": "No sessions yet: start practising!",
+    "No mistakes saved yet: well done!": "No mistakes saved yet: well done!",
+    "Join a Live COSY Speaking Club Event 🎉": "Join a Live COSY Speaking Club Event 🎉",
+    "Practice your new vocabulary in live A2–C2 conversations!": "Practice your new vocabulary in live A2–C2 conversations!"
+  },
+  "_patterns": [
+    [
+      "^Question (\\d+) of (\\d+)$",
+      "Question $1 of $2"
+    ],
+    [
+      "^Word (\\d+) of (\\d+)$",
+      "Word $1 of $2"
+    ],
+    [
+      "^\\+?(\\d+) PTS(.*)$",
+      "+$1 PTS$2"
+    ],
+    [
+      "^✅ Correct! \\+(\\d+) pts$",
+      "✅ Correct! +$1 pts"
+    ],
+    [
+      "^❌ Answer: (.*)$",
+      "❌ Answer: $1"
+    ],
+    [
+      "^💡 Hint: (.*)$",
+      "💡 Hint: $1"
+    ],
+    [
+      "^Recording( \\(simulated\\))?: (\\d+:\\d+)$",
+      "Recording: $2"
+    ],
+    [
+      "^Recorded successfully \\((\\d+)s\\)$",
+      "Recorded successfully ($1s)"
+    ]
+  ],
+  "_cats": {
+    "vocabulary": "vocabulary",
+    "vocab": "vocabulary",
+    "grammar": "grammar",
+    "speaking": "speaking",
+    "pronunciation": "pronunciation",
+    "concept-check": "concept check"
+  },
+  "_levels": {
+    "starter": "starter",
+    "elementary": "elementary",
+    "intermediate": "intermediate",
+    "upper_intermediate": "upper intermediate",
+    "advanced": "advanced",
+    "proficiency": "proficiency"
+  }
 }
