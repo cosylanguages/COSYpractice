@@ -1,0 +1,1736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immersion &amp; memory tools | COSYpractice</title>
+    <meta name="description" content="Interactive monolingual immersion, spaced repetition curves, visual memory mapping and brain-type tips.">
+    <link rel="canonical" href="https://cosylanguages.github.io/COSYpractice/cognitive-immersion.html">
+    <meta property="og:title" content="Immersion &amp; memory tools | COSYpractice">
+    <meta property="og:description" content="Interactive monolingual immersion, spaced repetition curves, visual memory mapping and brain-type tips.">
+    <meta property="og:url" content="https://cosylanguages.github.io/COSYpractice/cognitive-immersion.html">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#FAF7F2">
+    <link rel="icon" href="images/logo.png">
+    <script src="js/theme-init.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/shell.css">
+    <style>
+        .cognitive-hero {
+            padding: 6rem 2rem 3rem;
+            background: linear-gradient(135deg, var(--cream), var(--cream-dark));
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+        .cognitive-hero h1 {
+            font-family: var(--font-serif);
+            font-size: 2.8rem;
+            color: var(--sage-deep);
+            margin-bottom: 0.5rem;
+        }
+        .cognitive-hero .hero-badge {
+            display: inline-block;
+            background: var(--coral-light);
+            color: var(--coral);
+            font-weight: 700;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .cognitive-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+        .cog-section {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 2.5rem;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow-sm);
+        }
+        .cog-section-title {
+            font-family: var(--font-serif);
+            font-size: 1.8rem;
+            color: var(--sage-deep);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .cog-section-desc {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        /* ── Monolingual Immersion Checklist ── */
+        .planner-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 2rem;
+        }
+        @media (max-width: 768px) {
+            .planner-grid { grid-template-columns: 1fr; }
+        }
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.25rem;
+            border-radius: 14px;
+            background: var(--cream);
+            border: 1px solid var(--border);
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .checklist-item:hover {
+            border-color: var(--sage);
+            background: var(--sage-pale);
+        }
+        .checklist-item input[type="checkbox"] {
+            width: 1.35rem;
+            height: 1.35rem;
+            accent-color: var(--sage-dark);
+            cursor: pointer;
+            margin-top: 0.15rem;
+        }
+        .checklist-content h4 {
+            margin: 0 0 0.25rem 0;
+            font-family: var(--font-sans);
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--sage-deep);
+        }
+        .checklist-content p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: var(--ink-soft);
+            line-height: 1.4;
+        }
+        .planner-progress-card {
+            background: var(--sage-mist);
+            border: 1px dashed var(--sage);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .progress-dial {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin-bottom: 1.5rem;
+        }
+        .dial-circle {
+            fill: none;
+            stroke: rgba(107, 143, 113, 0.15);
+            stroke-width: 10;
+        }
+        .dial-fill {
+            fill: none;
+            stroke: var(--sage-dark);
+            stroke-width: 10;
+            stroke-dasharray: 314;
+            stroke-dashoffset: 314;
+            transition: stroke-dashoffset 0.4s ease;
+            stroke-linecap: round;
+        }
+        .dial-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: var(--font-sans);
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--sage-deep);
+        }
+        .progress-status-title {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+            color: var(--sage-deep);
+        }
+        .progress-status-desc {
+            font-size: 0.85rem;
+            color: var(--ink-soft);
+            line-height: 1.4;
+        }
+
+        /* ── Cognitive Delay Simulator ── */
+        .simulator-box {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .sim-controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .sim-btn {
+            background: var(--sage-dark);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+            font-family: var(--font-sans);
+        }
+        .sim-btn:hover {
+            background: var(--sage-deep);
+            transform: translateY(-2px);
+        }
+        .sim-btn.secondary {
+            background: var(--cream-dark);
+            color: var(--ink);
+            border: 1px solid var(--border);
+        }
+        .sim-btn.secondary:hover {
+            background: var(--border);
+        }
+        .sim-display {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .sim-word-bubble {
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--sage-deep);
+            margin-bottom: 1.5rem;
+            animation: pulse-word 1.5s infinite;
+        }
+        .sim-tracks {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            width: 100%;
+            text-align: left;
+        }
+        @media (max-width: 600px) {
+            .sim-tracks { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+        .sim-track {
+            background: var(--cream);
+            border-radius: 12px;
+            padding: 1.25rem;
+            border: 1px solid var(--border);
+            position: relative;
+        }
+        .sim-track.active-track {
+            border-color: var(--coral);
+            box-shadow: 0 0 10px rgba(196, 82, 42, 0.1);
+        }
+        html[data-theme="dark"] .cog-section {
+            background: var(--warm-white);
+        }
+        html[data-theme="dark"] .sim-display {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .vac-mnemonic {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .cognate-table-wrap {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] #speedtest-results {
+            background: var(--cream-dark);
+        }
+        html[data-theme="dark"] .chart-legend {
+            background: var(--cream-dark);
+        }
+        .sim-track-title {
+            font-family: var(--font-sans);
+            font-weight: 800;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .sim-steps {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sim-step {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            margin-bottom: 0.75rem;
+            color: var(--ink-faint);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            opacity: 0.3;
+            transition: opacity 0.3s, color 0.3s;
+        }
+        .sim-step.completed {
+            opacity: 1;
+            color: var(--ink);
+        }
+        .sim-step-icon {
+            font-size: 1rem;
+        }
+        .sim-timer {
+            font-family: var(--font-sans);
+            font-weight: 800;
+            font-size: 1.4rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        /* ── Brain Type Tabs ── */
+        .brain-tabs-header {
+            display: flex;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 2rem;
+            gap: 0.5rem;
+            overflow-x: auto;
+            padding-bottom: 2px;
+        }
+        .brain-tab-btn {
+            background: none;
+            border: none;
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            font-weight: 700;
+            padding: 0.75rem 1.25rem;
+            cursor: pointer;
+            color: var(--ink-faint);
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+        .brain-tab-btn:hover {
+            color: var(--sage);
+        }
+        .brain-tab-btn.active-tab {
+            color: var(--sage-dark);
+            border-bottom-color: var(--sage-dark);
+        }
+        .brain-pane {
+            display: none;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        .brain-pane.active-pane {
+            display: block;
+        }
+
+        /* ── Visual Cards ── */
+        .visual-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        .visual-assoc-card {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+        }
+        .vac-word {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            color: var(--sage-deep);
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .vac-translation {
+            color: var(--coral);
+            font-weight: 700;
+            font-size: 0.9rem;
+            margin-bottom: 0.75rem;
+        }
+        .vac-mnemonic {
+            background: #fff;
+            border-left: 4px solid var(--sage-dark);
+            padding: 0.75rem 1rem;
+            border-radius: 0 10px 10px 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: var(--ink-soft);
+        }
+
+        /* ── Structural Brain ── */
+        .structural-formula-box {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .structural-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1.5rem 0;
+        }
+        .flow-node {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 0.75rem 1.25rem;
+            font-weight: 700;
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+        .flow-node.highlight {
+            background: var(--sage-pale);
+            border-color: var(--sage);
+            color: var(--sage-deep);
+        }
+        .flow-arrow {
+            font-size: 1.25rem;
+            color: var(--sage-soft);
+        }
+
+        /* ── Auditory Brain ── */
+        .audio-wave-graphic {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            margin: 1.5rem 0;
+        }
+        .wave-bar {
+            width: 6px;
+            background: var(--sage);
+            border-radius: 3px;
+            animation: waveBounce 1.2s ease-in-out infinite alternate;
+        }
+        .wave-bar:nth-child(2n) { animation-delay: 0.2s; height: 30px; }
+        .wave-bar:nth-child(3n) { animation-delay: 0.4s; height: 50px; }
+        .wave-bar:nth-child(4n) { animation-delay: 0.1s; height: 20px; }
+        .wave-bar:nth-child(5n) { animation-delay: 0.5s; height: 60px; }
+
+        /* ── Draggable/Flipping tactile ── */
+        .tactile-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+        .tactile-flip-card {
+            height: 160px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+        .tfc-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .tactile-flip-card:hover .tfc-inner, .tactile-flip-card.flipped .tfc-inner {
+            transform: rotateY(180deg);
+        }
+        .tfc-front, .tfc-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1.5rem;
+            box-sizing: border-box;
+            box-shadow: var(--shadow-sm);
+        }
+        .tfc-front {
+            background: var(--cream);
+            color: var(--sage-deep);
+        }
+        .tfc-back {
+            background: var(--sage-dark);
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        /* ── SVG Charts & Timelines ── */
+        .chart-box {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .svg-chart-container {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            margin: 1.5rem 0;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .svg-chart-container svg {
+            width: 100%;
+            height: 100%;
+        }
+        .chart-legend {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+
+        /* ── Etymological Cognate Table ── */
+        .cognate-table-wrap {
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            margin: 1.5rem 0;
+            background: white;
+        }
+        .cognate-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .cognate-table th, .cognate-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .cognate-table th {
+            background: var(--cream-dark);
+            color: var(--sage-deep);
+            font-family: var(--font-sans);
+            font-weight: 800;
+        }
+        .cognate-table tr:last-child td {
+            border-bottom: none;
+        }
+        .cognate-root {
+            font-weight: 700;
+            color: var(--coral);
+        }
+
+        /* ── Progression Matrix ── */
+        .timeline-matrix {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            position: relative;
+            margin: 2rem 0;
+        }
+        .tm-card {
+            background: var(--cream);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            position: relative;
+            text-align: center;
+        }
+        .tm-card::before {
+            content: "➔";
+            position: absolute;
+            right: -1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--sage);
+            font-size: 1.5rem;
+            z-index: 10;
+        }
+        .tm-card:last-child::before {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .tm-card::before {
+                content: "▼";
+                right: auto;
+                left: 50%;
+                top: auto;
+                bottom: -1.25rem;
+                transform: translateX(-50%);
+            }
+        }
+        .tm-badge {
+            background: var(--sage-dark);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 0.25rem 0.50rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+        .tm-title {
+            font-family: var(--font-sans);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--sage-deep);
+            margin-bottom: 0.5rem;
+        }
+        .tm-desc {
+            font-size: 0.8rem;
+            color: var(--ink-soft);
+            line-height: 1.4;
+        }
+
+        /* Animations */
+        @keyframes pulse-word {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); }
+        }
+        @keyframes waveBounce {
+            from { height: 10px; }
+            to { height: 70px; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    
+        html[data-theme="dark"] .cognitive-hero { background: linear-gradient(135deg, #101712, #172019); }
+    </style>
+</head>
+<body class="pm">
+<nav id="cosy-nav" aria-label="COSY sites"></nav>
+
+<header class="cognitive-hero">
+    <nav class="cosy-breadcrumbs breadcrumbs-centered" aria-label="Breadcrumb">
+        <a href="https://cosylanguages.github.io/COSYlanguages/">Home</a>
+        <span class="sep">/</span>
+        <a href="index.html">Free practice</a>
+        <span class="sep">/</span>
+        <span class="current">Cognitive Accelerator</span>
+    </nav>
+    <div class="hero-badge">Neuro-Linguistics Hub</div>
+    <h1>Immersion &amp; Memory Tools</h1>
+    <p class="hero-sub hero-sub-constrained">
+        An interactive exploration of monolingual language learning, spaced repetition curves, visual memory mapping, and cognitive brain-type adaptors. Learn directly without translation fallback.
+    </p>
+</header>
+
+<main class="cognitive-container">
+
+    <!-- Section 1: Full Monolingual Immersion -->
+    <section class="cog-section">
+        <h2 class="cog-section-title">🌊 Full Monolingual Immersion</h2>
+        <p class="cog-section-desc">
+            Traditional learning treats a foreign language as a code that must be decoded back into your first language (L1). Direct concept assimilation operates entirely on target-language mapping. Instead of learning that <em>mela</em> is the translation of "apple", your brain maps the auditory sound <strong>/ˈmela/</strong> directly to the crisp, sweet fruit 🍎 itself. By doing this, you bypass L1 cognitive translation for more natural recall.
+        </p>
+
+        <div class="planner-grid">
+            <div>
+                <h3 class="text-serif-deep">Digital Immersion Checklist</h3>
+                <p class="text-soft-spaced">
+                    Check off each action below to see how immersive your environment is. Every unchecked box represents L1 translation leakage!
+                </p>
+
+                <div class="checklist-item" onclick="toggleCheck('chk-os')">
+                    <input type="checkbox" id="chk-os" onclick="event.stopPropagation(); updateImmersionProgress(true);">
+                    <div class="checklist-content">
+                        <h4>Mobile &amp; OS Language Flip 📱</h4>
+                        <p>Change your phone, browser, and computer interface to your target language. Yields 150+ daily micro-exposures.</p>
+                    </div>
+                </div>
+
+                <div class="checklist-item" onclick="toggleCheck('chk-social')">
+                    <input type="checkbox" id="chk-social" onclick="event.stopPropagation(); updateImmersionProgress(true);">
+                    <div class="checklist-content">
+                        <h4>Native Audio &amp; Podcasts 📻</h4>
+                        <p>Play native podcasts, local radio, or songs in the background. Retrains your brain’s acoustic phoneme filters.</p>
+                    </div>
+                </div>
+
+                <div class="checklist-item" onclick="toggleCheck('chk-read')">
+                    <input type="checkbox" id="chk-read" onclick="event.stopPropagation(); updateImmersionProgress(true);">
+                    <div class="checklist-content">
+                        <h4>Interactive Reading (No Translate) 📖</h4>
+                        <p>Read news or short books. Guess unknown words from context and emojis without ever using translation tools.</p>
+                    </div>
+                </div>
+
+                <div class="checklist-item" onclick="toggleCheck('chk-video')">
+                    <input type="checkbox" id="chk-video" onclick="event.stopPropagation(); updateImmersionProgress(true);">
+                    <div class="checklist-content">
+                        <h4>Target Language Media with TL Subtitles 🎬</h4>
+                        <p>Watch YouTube or series strictly with target-language subtitles. Never use L1 translation text overlays.</p>
+                    </div>
+                </div>
+
+                <div class="checklist-item" onclick="toggleCheck('chk-labels')">
+                    <input type="checkbox" id="chk-labels" onclick="event.stopPropagation(); updateImmersionProgress(true);">
+                    <div class="checklist-content">
+                        <h4>Physical Environment Labeling 🏷️</h4>
+                        <p>Place handwritten sticky notes with target words directly onto physical home appliances (e.g., <em>frigorifero</em> on your fridge).</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Progress Card -->
+            <div class="planner-progress-card">
+                <div class="progress-dial">
+                    <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle class="dial-circle" cx="60" cy="60" r="50" />
+                        <circle class="dial-fill" id="progress-dial-fill" cx="60" cy="60" r="50" />
+                    </svg>
+                    <div class="dial-text" id="dial-pct">0%</div>
+                </div>
+                <h4 class="progress-status-title" id="status-title">Dormant Learner 💤</h4>
+                <p class="progress-status-desc" id="status-desc">Your daily environment is heavily saturated with L1 translations. Try checking some boxes above to boost immersion!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Cognitive Delay Simulator -->
+    <section class="cog-section">
+        <h2 class="cog-section-title">⏱️ Monolingual vs. Translation Cognitive Simulator</h2>
+        <p class="cog-section-desc">
+            How much time do you lose by translating? Run the simulation or test your direct-concept recognition reflexes dynamically below.
+        </p>
+
+        <div class="brain-tabs-header tabs-header-spaced">
+            <button type="button" class="brain-tab-btn active-tab" id="sim-tab-simulator" onclick="switchSimulatorMode('simulator')">🤖 Concept Pathway Simulator</button>
+            <button type="button" class="brain-tab-btn" id="sim-tab-speedtest" onclick="switchSimulatorMode('speedtest')">⚡ Direct Concept Speed Test</button>
+        </div>
+
+        <!-- Mode A: Concept Pathway Simulator -->
+        <div id="mode-simulator-view" class="simulator-box">
+            <div class="sim-controls">
+                <button type="button" class="sim-btn" onclick="startCognitiveSimulation('sole')">Simulate 'Sole ☀️' (Italian)</button>
+                <button type="button" class="sim-btn secondary" onclick="startCognitiveSimulation('chien')">Simulate 'Chien 🐕' (French)</button>
+                <button type="button" class="sim-btn secondary" onclick="startCognitiveSimulation('mela')">Simulate 'Mela 🍎' (Italian)</button>
+            </div>
+
+            <div class="sim-display">
+                <div id="sim-prompt-word" class="sim-word-bubble">Click a button to start</div>
+
+                <div class="sim-tracks sim-tracks-hidden" id="sim-tracks-box">
+                    <div class="sim-track" id="track-translation">
+                        <div class="sim-track-title text-coral">
+                            <span>Translation Route</span>
+                            <span id="timer-trans">0.0s</span>
+                        </div>
+                        <ul class="sim-steps">
+                            <li class="sim-step" id="step-t1"><span class="sim-step-icon">👁️</span> Heard word</li>
+                            <li class="sim-step" id="step-t2"><span class="sim-step-icon">🔄</span> Searched L1 vocabulary dictionary</li>
+                            <li class="sim-step" id="step-t3"><span class="sim-step-icon">🧠</span> Translated word to first language</li>
+                            <li class="sim-step" id="step-t4"><span class="sim-step-icon">💬</span> Formulated response concept</li>
+                            <li class="sim-step" id="step-t5"><span class="sim-step-icon">🔄</span> Translated L1 response back to TL</li>
+                            <li class="sim-step" id="step-t6"><span class="sim-step-icon">⚠️</span> Spoken! (6.2s delay - Awkward silence)</li>
+                        </ul>
+                    </div>
+
+                    <div class="sim-track" id="track-monolingual">
+                        <div class="sim-track-title text-sage-dark">
+                            <span>Direct route (target language only)</span>
+                            <span id="timer-mono">0.0s</span>
+                        </div>
+                        <ul class="sim-steps">
+                            <li class="sim-step" id="step-m1"><span class="sim-step-icon">👁️</span> Heard word</li>
+                            <li class="sim-step" id="step-m2"><span class="sim-step-icon">💡</span> Direct concept trigger in brain</li>
+                            <li class="sim-step" id="step-m3"><span class="sim-step-icon">⚡</span> Spoken! (0.4s reaction - Fluent, instant)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="sim-summary" class="sim-timer sim-summary-hidden"></div>
+            </div>
+        </div>
+
+        <!-- Mode B: Direct Concept Speed Test Game -->
+        <div id="mode-speedtest-view" class="simulator-box sim-view-hidden">
+            <div id="speedtest-intro">
+                <p class="speedtest-text-soft">
+                    Can you connect the foreign word directly to the physical concept (emoji) without reciting its English name? Test your sub-second neural reaction pathways below!
+                </p>
+                <button type="button" class="sim-btn" onclick="startSpeedTest()">Start Concept Speed Test 🚀</button>
+            </div>
+
+            <div id="speedtest-gameplay" class="speedtest-gameplay-box">
+                <div class="speedtest-header-bar">
+                    <span id="speedtest-progress">Question 1/5</span>
+                    <span id="speedtest-timer" class="speedtest-timer-text">Time: 0.00s</span>
+                </div>
+                <div id="speedtest-word" class="sim-word-bubble speedtest-bubble-spaced">---</div>
+
+                <div id="speedtest-options" class="speedtest-options-grid">
+                    <!-- Dynamically generated choice buttons -->
+                </div>
+            </div>
+
+            <div id="speedtest-results" class="speedtest-results-box">
+                <h3 class="speedtest-title-serif" id="speedtest-results-title">Test Complete!</h3>
+                <div class="speedtest-brain-icon">🧠⚡</div>
+                <p id="speedtest-results-stats" class="speedtest-stats-text"></p>
+                <p id="speedtest-results-feedback" class="speedtest-feedback-text"></p>
+
+                <div class="flex-center-wrap">
+                    <button type="button" class="sim-btn" onclick="startSpeedTest()">Retry Test 🔁</button>
+                    <button type="button" class="sim-btn secondary" onclick="switchSimulatorMode('simulator')">Back to Simulator 🤖</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Brain-Type Customizer -->
+    <section class="cog-section">
+        <h2 class="cog-section-title">🧠 Cognitive Brain-Type Adaptation Engine</h2>
+        <p class="cog-section-desc">
+            Every brain processes linguistic patterns differently. Toggle your cognitive learning style below to load highly customized mnemonic formats, logical rules, or auditory schemas.
+        </p>
+
+        <div class="brain-tabs-header">
+            <button type="button" class="brain-tab-btn active-tab" onclick="switchBrainTab('visual')">🎨 Visual Brain</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('structural')">📐 Structural/Analytical</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('auditory')">🔊 Auditory/Mnemonic</button>
+            <button type="button" class="brain-tab-btn" onclick="switchBrainTab('tactile')">🧩 Tactile/Kinesthetic</button>
+        </div>
+
+        <!-- Visual Brain -->
+        <div class="brain-pane active-pane" id="pane-visual">
+            <h3 class="text-serif-deep">Visual-Association Mnemonic Cards</h3>
+            <p class="text-soft-spaced">
+                Visual brains need spatial and pictorial cues. Each card pairs a word with an instant visual scene instead of a dry L1 translation.
+            </p>
+            <div class="visual-cards-grid" id="static-visual-cards">
+                <div class="visual-assoc-card">
+                    <div class="vac-word">Mariposa 🦋 <span class="vac-faint-text">/maɾiˈposa/</span></div>
+                    <div class="vac-translation">Butterfly (Spanish)</div>
+                    <div class="vac-mnemonic">
+                        <strong>Mental Image Association:</strong> Imagine a girl named <strong>Mary</strong> elegant-posing (<strong>mariposa</strong>) in a field while giant, colorful butterfly wings emerge from her back!
+                    </div>
+                </div>
+                <div class="visual-assoc-card">
+                    <div class="vac-word">Chuchoter 🤫 <span class="vac-faint-text">/ʃy.ʃɔ.te/</span></div>
+                    <div class="vac-translation">Whisper (French)</div>
+                    <div class="vac-mnemonic">
+                        <strong>Mental Image Association:</strong> Think of a train conductor pointing to a quiet sign and saying <strong>"Shh, show tay!"</strong> (<strong>chuchoter</strong>) to whisper-quiet passengers.
+                    </div>
+                </div>
+                <div class="visual-assoc-card">
+                    <div class="vac-word">Sussurrare 🌬️ <span class="vac-faint-text">/sus.sur.ˈra.re/</span></div>
+                    <div class="vac-translation">Whisper/Sough (Italian)</div>
+                    <div class="vac-mnemonic">
+                        <strong>Mental Image Association:</strong> Picture a gentle wind blowing through dry leaves, making a quiet <strong>"sussur...rare"</strong> sound in a quiet forest.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Personal Mnemonic Notebook -->
+            <div class="mnemonic-notebook-box">
+                <h3 class="ci-card-heading">
+                    📓 Personal Mnemonic Notebook
+                </h3>
+                <p class="ci-desc-subtle">
+                    The absolute best mnemonics are those formulated by your own brain! Build your personal, translation-free dictionary of visual mnemonics below.
+                </p>
+
+                <form id="mnemonic-form" onsubmit="addPersonalMnemonic(event)" class="mnemonic-form-grid">
+                    <div>
+                        <label for="m-word" class="form-field-label">Word / Phrase</label>
+                        <input type="text" id="m-word" required placeholder="e.g. Papillon 🦋" class="form-input-styled">
+                    </div>
+                    <div>
+                        <label for="m-meaning" class="form-field-label">Direct Meaning</label>
+                        <input type="text" id="m-meaning" required placeholder="e.g. Butterfly (French)" class="form-input-styled">
+                    </div>
+                    <div>
+                        <label for="m-association" class="form-field-label">Visual Mental Association</label>
+                        <input type="text" id="m-association" required placeholder="e.g. Picture a papillon dog flying with butterfly wings!" class="form-input-styled">
+                    </div>
+                    <button type="submit" class="sim-btn btn-submit-fit">Add Card ➕</button>
+                </form>
+
+                <div id="personal-mnemonics-list" class="visual-cards-grid">
+                    <!-- Dynamic personal mnemonic cards render here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Structural Brain -->
+        <div class="brain-pane" id="pane-structural">
+            <h3 class="ci-card-heading-simple">Syntax Formula &amp; Logic Equations</h3>
+            <p class="ci-desc-md">
+                Analytical brains excel when languages are modeled as mathematical or structural systems. Bypassing L1 feels natural when words are organized as clear variables.
+            </p>
+            <div class="structural-formula-box">
+                <h4 class="ci-title-reset">Compound Past Negative Equation (French)</h4>
+                <div class="structural-flow">
+                    <div class="flow-node">Subject</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node highlight">ne (pas-split)</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node">Auxiliary Verb</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node highlight">pas (pas-split)</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node">Past Participle</div>
+                </div>
+                <p class="ci-desc-simple">
+                    <strong>Example:</strong> <em>Je</em> (Subject) + <em>ne</em> + <em>suis</em> (Aux) + <em>pas</em> + <em>venu</em> (Participle) = <strong>Je ne suis pas venu.</strong>
+                </p>
+            </div>
+
+            <div class="structural-formula-box">
+                <h4 class="ci-title-reset">Case Declension Logical Algorithm (Russian Prep. Case)</h4>
+                <div class="structural-flow">
+                    <div class="flow-node">Location / Topic (в, на, о)</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node">Noun Root</div>
+                    <div class="flow-arrow">+</div>
+                    <div class="flow-node highlight">Suffix "-е"</div>
+                </div>
+                <p class="ci-desc-simple">
+                    <strong>Example:</strong> <em>о</em> (Topic) + <em>парк</em> (Park Root) + <em>е</em> (Suffix) = <strong>о парке</strong> (about the park).
+                </p>
+            </div>
+        </div>
+
+        <!-- Auditory Brain -->
+        <div class="brain-pane" id="pane-auditory">
+            <h3 class="ci-card-heading-simple">Rhythmic Cadences &amp; Phoneme Tuning</h3>
+            <p class="ci-desc-md">
+                Auditory brains absorb vocabulary through rhythm, melodic tone peaks, and rhyme patterns.
+            </p>
+            <div class="audio-wave-graphic">
+                <div class="wave-bar"></div>
+                <div class="wave-bar ci-bar-35"></div>
+                <div class="wave-bar ci-bar-55"></div>
+                <div class="wave-bar ci-bar-25"></div>
+                <div class="wave-bar ci-bar-65"></div>
+                <div class="wave-bar ci-bar-40"></div>
+                <div class="wave-bar ci-bar-15"></div>
+            </div>
+            <div class="ci-grid-2col">
+                <div class="ci-card-cream">
+                    <h4 class="ci-title-margin">Greek Syllabic Rhythms</h4>
+                    <p class="ci-desc-reset">
+                        Greek stress accents completely change word meanings. Associate accent stresses with high/low melody:
+                        <br><strong>πα-ρα-κα-ΛΩ</strong> (Rise on last: request) ≠ <strong>ΠΑ-ρα-κα-λω</strong> (Irregular melody).
+                    </p>
+                </div>
+                <div class="ci-card-cream">
+                    <h4 class="ci-title-margin">Italian Sound Matching</h4>
+                    <p class="ci-desc-reset">
+                        Phonetic rhymes for remembering word endings:
+                        <br><em>"All relative plurals ending in <strong>-i</strong> match the masculine plural key!"</em>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tactile Brain -->
+        <div class="brain-pane" id="pane-tactile">
+            <h3 class="ci-card-heading-simple">Tactile Card Flipping Simulation</h3>
+            <p class="ci-desc-md">
+                Tactile and kinesthetic learners absorb through physical touch and action. Hover or click below to simulate flipping real, physical cards!
+            </p>
+            <div class="tactile-grid">
+                <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="tfc-inner">
+                        <div class="tfc-front">
+                            <span class="ci-icon-lg">🍏</span>
+                            <strong class="ci-text-lg">La mela</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
+                        </div>
+                        <div class="tfc-back">
+                            <strong class="ci-text-lg">Italian noun (f)</strong>
+                            <p class="ci-desc-note">Crisp green or red pomaceous fruit, rich in fiber.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="tfc-inner">
+                        <div class="tfc-front">
+                            <span class="ci-icon-lg">🐕</span>
+                            <strong class="ci-text-lg">Le chien</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
+                        </div>
+                        <div class="tfc-back">
+                            <strong class="ci-text-lg">French noun (m)</strong>
+                            <p class="ci-desc-note">A domesticated canine mammal, loyal companion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tactile-flip-card" onclick="this.classList.toggle('flipped')">
+                    <div class="tfc-inner">
+                        <div class="tfc-front">
+                            <span class="ci-icon-lg">🏡</span>
+                            <strong class="ci-text-lg">La casa</strong>
+                            <span class="ci-desc-faint">Click to flip</span>
+                        </div>
+                        <div class="tfc-back">
+                            <strong class="ci-text-lg">Italian/Spanish (f)</strong>
+                            <p class="ci-desc-note">A house, residential structure where people live.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Data Visualizations -->
+    <section class="cog-section">
+        <h2 class="cog-section-title">📊 Memory Performance &amp; Timeline Analytics</h2>
+        <p class="cog-section-desc">
+            Visualizing the mathematical progression of memory retention over time. Unreviewed material collapses rapidly into memory regression, whereas spaced intervals produce steady retention progression.
+        </p>
+
+        <div class="chart-box">
+            <h3 class="ci-heading-center">Interactive Forgetting Curve Slider</h3>
+            <p class="ci-desc-center">
+                Adjust the review intervals below to visualize how spaced reviews actively combat memory decay and secure long-term retrieval!
+            </p>
+
+            <div class="ci-text-center-max">
+                <label for="curve-slider" class="ci-label-bold" id="slider-interval-label">Review Interval: No Reviews</label>
+                <input type="range" id="curve-slider" min="1" max="5" value="5" class="ci-slider">
+                <div class="ci-flex-between">
+                    <span>No Reviews</span>
+                    <span>1 Review</span>
+                    <span>2 Reviews</span>
+                    <span>3 Reviews</span>
+                    <span>Spaced Repetition Mastery</span>
+                </div>
+            </div>
+
+            <div class="svg-chart-container">
+                <svg id="forgetting-chart" viewBox="0 0 600 250">
+                    <!-- Grid Lines -->
+                    <line x1="50" y1="20" x2="50" y2="210" stroke="#eee" stroke-width="2"/>
+                    <line x1="50" y1="210" x2="570" y2="210" stroke="#eee" stroke-width="2"/>
+                    <line x1="50" y1="115" x2="570" y2="115" stroke="#fcfcfc" stroke-width="1" stroke-dasharray="4"/>
+                    <line x1="50" y1="20" x2="570" y2="20" stroke="#fcfcfc" stroke-width="1" stroke-dasharray="4"/>
+
+                    <!-- Y-Axis labels -->
+                    <text x="15" y="25" fill="#888" font-size="10" font-weight="700">100%</text>
+                    <text x="20" y="120" fill="#888" font-size="10" font-weight="700">50%</text>
+                    <text x="25" y="215" fill="#888" font-size="10" font-weight="700">0%</text>
+
+                    <!-- X-Axis labels -->
+                    <text x="50" y="230" fill="#888" font-size="10" font-weight="700">Day 0</text>
+                    <text x="135" y="230" fill="#888" font-size="10" font-weight="700">Day 1</text>
+                    <text x="220" y="230" fill="#888" font-size="10" font-weight="700">Day 3</text>
+                    <text x="305" y="230" fill="#888" font-size="10" font-weight="700">Day 7</text>
+                    <text x="390" y="230" fill="#888" font-size="10" font-weight="700">Day 14</text>
+                    <text x="475" y="230" fill="#888" font-size="10" font-weight="700">Day 30</text>
+
+                    <!-- Chart Line Path (will be manipulated dynamically via JS) -->
+                    <path id="chart-path" d="" fill="none" stroke-width="4" stroke-linecap="round"/>
+
+                    <!-- Dynamic Dots -->
+                    <g id="chart-dots"></g>
+                </svg>
+            </div>
+
+            <div class="chart-legend ci-card">
+                <div class="legend-item ci-flex-row">
+                    <div class="legend-color ci-mt-xs" id="legend-color-box"></div>
+                    <div>
+                        <strong class="ci-label" id="legend-label-title">Loading simulation...</strong>
+                        <span id="legend-label-text" class="ci-desc"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="ci-section-title">Etymological Cognate &amp; Progression Table</h3>
+        <p class="ci-desc-md">
+            Seeing etymological progressions acts as a magnificent structural mnemonic. Romance and Germanic structures evolved from common roots, allowing structural minds to guess meanings without translating!
+        </p>
+
+        <div class="cognate-table-wrap">
+            <table class="cognate-table">
+                <thead>
+                    <tr>
+                        <th>Root Theme</th>
+                        <th>Latin / Ancient Root</th>
+                        <th>Italian 🇮🇹</th>
+                        <th>French 🇫🇷</th>
+                        <th>Spanish 🇪🇸</th>
+                        <th>English 🇬🇧</th>
+                        <th>Russian 🇷🇺</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Father</strong></td>
+                        <td class="cognate-root">Pater / πατήρ</td>
+                        <td class="vocab-word">padre</td>
+                        <td class="vocab-word">père</td>
+                        <td class="vocab-word">padre</td>
+                        <td class="vocab-word">father</td>
+                        <td class="vocab-word">отец</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Water</strong></td>
+                        <td class="cognate-root">Aqua / ὕδωρ</td>
+                        <td class="vocab-word">acqua</td>
+                        <td class="vocab-word">eau</td>
+                        <td class="vocab-word">agua</td>
+                        <td class="vocab-word">water</td>
+                        <td class="vocab-word">вода</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Night</strong></td>
+                        <td class="cognate-root">Nox / νύξ</td>
+                        <td class="vocab-word">notte</td>
+                        <td class="vocab-word">nuit</td>
+                        <td class="vocab-word">noche</td>
+                        <td class="vocab-word">night</td>
+                        <td class="vocab-word">ночь</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mother</strong></td>
+                        <td class="cognate-root">Mater / μήτηρ</td>
+                        <td class="vocab-word">madre</td>
+                        <td class="vocab-word">mère</td>
+                        <td class="vocab-word">madre</td>
+                        <td class="vocab-word">mother</td>
+                        <td class="vocab-word">мать</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="ci-section-title">Immersion Milestones Progression Matrix</h3>
+        <p class="ci-desc-md">
+            The timeline of cognitive transition. Bypassing L1 translation is a gradual shift where the brain rewires itself step-by-step.
+        </p>
+
+        <div class="timeline-matrix">
+            <div class="tm-card">
+                <div class="tm-badge">Day 1 - 15</div>
+                <div class="tm-title">Acoustic Sound Tuning</div>
+                <div class="tm-desc">Your brain retrains its auditory filters, learning to distinguish boundaries between words in continuous target speech.</div>
+            </div>
+            <div class="tm-card">
+                <div class="tm-badge">Day 16 - 60</div>
+                <div class="tm-title">Passive Comprehension</div>
+                <div class="tm-desc">Highly recurring words spark direct concept matches (emoji-like links) in your mind before your L1 can formulate translation.</div>
+            </div>
+            <div class="tm-card">
+                <div class="tm-badge">Day 61 - 180</div>
+                <div class="tm-title">Monolingual Intuition</div>
+                <div class="tm-desc">Phrases and common expressions roll out of your tongue naturally. You "feel" if grammar is right or wrong without reciting rules.</div>
+            </div>
+            <div class="tm-card">
+                <div class="tm-badge">Day 181+</div>
+                <div class="tm-title">Active Native Flow</div>
+                <div class="tm-desc">Your inner monologue is now completely active in your target language. You speak directly, bypassing translation gaps entirely.</div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer id="cosy-footer"></footer>
+<script src="js/shell.js"></script>
+<script>
+    // Checklist State
+    function toggleCheck(id) {
+        const chk = document.getElementById(id);
+        if (chk) {
+            chk.checked = !chk.checked;
+            updateImmersionProgress(true);
+        }
+    }
+
+    function updateImmersionProgress(save = true) {
+        const checkboxes = ['chk-os', 'chk-social', 'chk-read', 'chk-video', 'chk-labels'];
+        let checkedCount = 0;
+        const state = {};
+
+        checkboxes.forEach(id => {
+            const chk = document.getElementById(id);
+            if (chk?.checked) {
+                checkedCount++;
+                state[id] = true;
+            } else {
+                state[id] = false;
+            }
+        });
+
+        if (save) {
+            try {
+                localStorage.setItem('cosy_immersion_checklist', JSON.stringify(state));
+            } catch (e) {
+                console.error("Failed to save checklist state:", e);
+            }
+        }
+
+        const pct = (checkedCount / checkboxes.length) * 100;
+
+        // Update Dial SVG
+        const fill = document.getElementById('progress-dial-fill');
+        if (fill) {
+            // stroke-dasharray = 314 (full circumference)
+            const offset = 314 - (pct / 100) * 314;
+            fill.style.strokeDashoffset = offset;
+        }
+
+        // Update Dial Text
+        document.getElementById('dial-pct').textContent = `${Math.round(pct)}%`;
+
+        // Update Status Description
+        const titles = [
+            "Dormant Learner 💤",
+            "Passive Observer 👁️",
+            "Environment Builder 🛠️",
+            "Cognitive Synthesizer ⚡",
+            "Semi-Native Immersionist 🌊",
+            "Full Digital Native 👑"
+        ];
+        const descs = [
+            "Your daily environment is heavily saturated with L1 translations. Try checking some boxes above to boost immersion!",
+            "You are starting to break the translation fallback cycle. Great start!",
+            "Multiple exposure channels are active. Your ears are beginning to tune into native sound patterns!",
+            "Incredible environment! Your cognitive delay is shrinking rapidly with every passing day.",
+            "You have constructed a wonderful cocoon of monolingual stimuli. Native-like thinking is very close!",
+            "Supreme immersion! Your brain is now forced to think, dream, and process life entirely in your target language."
+        ];
+
+        document.getElementById('status-title').textContent = titles[checkedCount];
+        document.getElementById('status-desc').textContent = descs[checkedCount];
+    }
+
+    // Simulator Mode Switcher
+    function switchSimulatorMode(mode) {
+        const tabSim = document.getElementById('sim-tab-simulator');
+        const tabSpeed = document.getElementById('sim-tab-speedtest');
+        const viewSim = document.getElementById('mode-simulator-view');
+        const viewSpeed = document.getElementById('mode-speedtest-view');
+
+        if (mode === 'simulator') {
+            tabSim.classList.add('active-tab');
+            tabSpeed.classList.remove('active-tab');
+            viewSim.style.display = 'block';
+            viewSpeed.style.display = 'none';
+        } else {
+            tabSim.classList.remove('active-tab');
+            tabSpeed.classList.add('active-tab');
+            viewSim.style.display = 'none';
+            viewSpeed.style.display = 'block';
+        }
+    }
+
+    // Cognitive Delay Simulation Engine
+    let simulationActive = false;
+    function startCognitiveSimulation(wordKey) {
+        if (simulationActive) return;
+        simulationActive = true;
+
+        const wordBub = document.getElementById('sim-prompt-word');
+        const tracksBox = document.getElementById('sim-tracks-box');
+        const summaryBox = document.getElementById('sim-summary');
+
+        tracksBox.style.display = 'grid';
+        summaryBox.style.display = 'none';
+
+        const words = {
+            sole: { text: "Sole ☀️", transEnd: 6.2, monoEnd: 0.4 },
+            chien: { text: "Chien 🐕", transEnd: 5.8, monoEnd: 0.5 },
+            mela: { text: "Mela 🍎", transEnd: 6.4, monoEnd: 0.3 }
+        };
+
+        const config = words[wordKey] || words.sole;
+        wordBub.textContent = `Prompt: "${config.text}"`;
+
+        // Reset steps
+        document.querySelectorAll('.sim-step').forEach(el => el.classList.remove('completed'));
+
+        // Simulation timers
+        let timeTrans = 0.0;
+        let timeMono = 0.0;
+        document.getElementById('timer-trans').textContent = "0.0s";
+        document.getElementById('timer-mono').textContent = "0.0s";
+
+        // Monolingual path run
+        let mInterval = setInterval(() => {
+            timeMono += 0.1;
+            document.getElementById('timer-mono').textContent = `${timeMono.toFixed(1)}s`;
+
+            if (timeMono >= 0.1) document.getElementById('step-m1').classList.add('completed');
+            if (timeMono >= 0.25) document.getElementById('step-m2').classList.add('completed');
+            if (timeMono >= config.monoEnd) {
+                document.getElementById('step-m3').classList.add('completed');
+                clearInterval(mInterval);
+            }
+        }, 100);
+
+        // Translation path run
+        let tInterval = setInterval(() => {
+            timeTrans += 0.1;
+            document.getElementById('timer-trans').textContent = `${timeTrans.toFixed(1)}s`;
+
+            const stepDelays = [0.2, 1.4, 2.6, 3.8, 5.0, config.transEnd];
+            stepDelays.forEach((delay, idx) => {
+                if (timeTrans >= delay) {
+                    document.getElementById(`step-t${idx + 1}`).classList.add('completed');
+                }
+            });
+
+            if (timeTrans >= config.transEnd) {
+                clearInterval(tInterval);
+                simulationActive = false;
+
+                // Show summary
+                summaryBox.style.display = 'block';
+                const diffVal = (config.transEnd - config.monoEnd);
+                const difference = diffVal.toFixed(1);
+                let speedMsg = "";
+                if (diffVal > 0) {
+                    speedMsg = `In this quick test, the direct route was <strong>${difference} seconds faster</strong> than translating.`;
+                } else {
+                    speedMsg = `In this quick test, the direct route and translation route completed with comparable times.`;
+                }
+                summaryBox.innerHTML = `
+                    🎉 <strong>Simulation Finished!</strong><br>
+                    ${speedMsg}<br>
+                    <span class="ci-subtitle">Direct concept mapping helps streamline your conversational recall.</span>
+                `;
+            }
+        }, 100);
+    }
+
+    // Speed Test Game variables and Logic
+    const speedTestPool = [
+        { word: "Sole ☀️", choices: ["☀️", "🌧️", "🐕", "🍎"], correct: "☀️", lang: "Italian" },
+        { word: "Chien 🐕", choices: ["🐈", "🐕", "🦉", "🦋"], correct: "🐕", lang: "French" },
+        { word: "Mela 🍎", choices: ["🍋", "🍇", "🍎", "🍐"], correct: "🍎", lang: "Italian" },
+        { word: "Mariposa 🦋", choices: ["🐝", "🐞", "🦋", "🕷️"], correct: "🦋", lang: "Spanish" },
+        { word: "Casa 🏡", choices: ["🚗", "🌲", "⛵", "🏡"], correct: "🏡", lang: "Spanish/Italian" },
+        { word: "Eau 💧", choices: ["🔥", "💧", "💨", "🌱"], correct: "💧", lang: "French" },
+        { word: "Noche 🌙", choices: ["☀️", "⚡", "🌈", "🌙"], correct: "🌙", lang: "Spanish" },
+        { word: "Livre 📖", choices: ["✏️", "🎨", "📖", "🔑"], correct: "📖", lang: "French" }
+    ];
+
+    let speedTestCurrentIndex = 0;
+    let speedTestQuestions = [];
+    let speedTestTimes = [];
+    let speedTestTimerInterval = null;
+    let speedTestQuestionStartTime = 0;
+
+    function startSpeedTest() {
+        document.getElementById('speedtest-intro').style.display = 'none';
+        document.getElementById('speedtest-results').style.display = 'none';
+        document.getElementById('speedtest-gameplay').style.display = 'block';
+
+        // Shuffle pool and select 5 questions
+        speedTestQuestions = [...speedTestPool].sort(() => 0.5 - Math.random()).slice(0, 5);
+        speedTestCurrentIndex = 0;
+        speedTestTimes = [];
+
+        loadSpeedTestQuestion();
+    }
+
+    function loadSpeedTestQuestion() {
+        if (speedTestCurrentIndex >= speedTestQuestions.length) {
+            endSpeedTest();
+            return;
+        }
+
+        const current = speedTestQuestions[speedTestCurrentIndex];
+        document.getElementById('speedtest-progress').textContent = `Question ${speedTestCurrentIndex + 1}/${speedTestQuestions.length}`;
+        document.getElementById('speedtest-word').textContent = current.word.split(' ')[0]; // Hide emoji in word to test recognition!
+
+        // Generate options
+        const optionsBox = document.getElementById('speedtest-options');
+        optionsBox.innerHTML = '';
+
+        // Shuffle current.choices
+        const shuffledChoices = [...current.choices].sort(() => 0.5 - Math.random());
+
+        shuffledChoices.forEach(choice => {
+            const btn = document.createElement('button');
+            btn.className = 'sim-btn secondary';
+            btn.style.fontSize = '2rem';
+            btn.style.padding = '1rem';
+            btn.innerHTML = choice;
+            btn.onclick = () => handleSpeedTestChoice(choice, current.correct);
+            optionsBox.appendChild(btn);
+        });
+
+        // Start Question Timer
+        speedTestQuestionStartTime = performance.now();
+        if (speedTestTimerInterval) clearInterval(speedTestTimerInterval);
+
+        speedTestTimerInterval = setInterval(() => {
+            const elapsed = (performance.now() - speedTestQuestionStartTime) / 1000;
+            document.getElementById('speedtest-timer').textContent = `Time: ${elapsed.toFixed(2)}s`;
+        }, 30);
+    }
+
+    function handleSpeedTestChoice(selected, correct) {
+        clearInterval(speedTestTimerInterval);
+        const elapsed = (performance.now() - speedTestQuestionStartTime) / 1000;
+
+        // If incorrect, add a 2.0-second "Translation Penalty"!
+        const penalty = (selected === correct) ? 0 : 2.0;
+        const totalTimeForQuestion = elapsed + penalty;
+        speedTestTimes.push({
+            time: elapsed,
+            penalty: penalty,
+            total: totalTimeForQuestion,
+            correct: selected === correct
+        });
+
+        speedTestCurrentIndex++;
+        loadSpeedTestQuestion();
+    }
+
+    function endSpeedTest() {
+        if (speedTestTimerInterval) clearInterval(speedTestTimerInterval);
+        document.getElementById('speedtest-gameplay').style.display = 'none';
+        document.getElementById('speedtest-results').style.display = 'block';
+
+        const totalReactionTime = speedTestTimes.reduce((acc, curr) => acc + curr.time, 0);
+        const totalPenalties = speedTestTimes.reduce((acc, curr) => acc + curr.penalty, 0);
+        const overallScore = totalReactionTime + totalPenalties;
+        const correctCount = speedTestTimes.filter(t => t.correct).length;
+
+        document.getElementById('speedtest-results-stats').innerHTML = `
+            Accuracy: ${correctCount}/5 Correct<br>
+            Raw Reaction Time: ${totalReactionTime.toFixed(2)}s<br>
+            Translation Penalties: +${totalPenalties.toFixed(1)}s
+        `;
+
+        let feedbackTitle = "";
+        let feedbackDesc = "";
+
+        if (correctCount === 5 && overallScore < 4.0) {
+            feedbackTitle = "⚡ Fast Direct Recall! ⚡";
+            feedbackDesc = `Your raw reaction average is ${(totalReactionTime/5).toFixed(2)}s per word with 100% accuracy. You are bypassing L1 translations completely and connecting words directly to physical concepts. Keep this up!`;
+        } else if (correctCount >= 4 && overallScore < 7.0) {
+            feedbackTitle = "🌊 Fluent Concept Synthesizer 🌊";
+            feedbackDesc = `Average reaction time is ${(totalReactionTime/5).toFixed(2)}s. You're exhibiting quick direct-concept comprehension. Fantastic work!`;
+        } else {
+            feedbackTitle = "🐢 Translation Fallback Zone 🐢";
+            feedbackDesc = `Average overall speed is ${(overallScore/5).toFixed(2)}s (including penalties). Your brain is likely running dictionary search algorithms translating back to English. Flip more devices to your target language using our Digital Immersion Checklist above!`;
+        }
+
+        document.getElementById('speedtest-results-title').textContent = feedbackTitle;
+        document.getElementById('speedtest-results-feedback').textContent = feedbackDesc;
+    }
+
+    // Brain Type Tabs Switcher
+    function switchBrainTab(tabId) {
+        document.querySelectorAll('.brain-tab-btn').forEach(btn => {
+            btn.classList.remove('active-tab');
+        });
+        document.querySelectorAll('.brain-pane').forEach(pane => {
+            pane.classList.remove('active-pane');
+        });
+
+        // Activate button
+        const activeBtn = Array.from(document.querySelectorAll('.brain-tab-btn')).find(btn => btn.textContent.toLowerCase().includes(tabId));
+        if (activeBtn) activeBtn.classList.add('active-tab');
+
+        // Activate pane
+        const activePane = document.getElementById(`pane-${tabId}`);
+        if (activePane) activePane.classList.add('active-pane');
+    }
+
+    // SVG Chart Dynamic Manipulation with Slider Interval Mapping
+    const sliderCurves = {
+        "1": {
+            label: "No Reviews",
+            title: "Memory Forgetting Curve 📉",
+            desc: "Without reviews, memory retention collapses rapidly within 30 days due to standard biological neural decay. Only about 2% is retained.",
+            color: "var(--rose)",
+            path: "M 50,20 Q 135,140 220,180 T 390,205 T 475,210",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 115, val: "50%"},
+                {x: 220, y: 180, val: "20%"},
+                {x: 305, y: 200, val: "10%"},
+                {x: 390, y: 205, val: "5%"},
+                {x: 475, y: 210, val: "2%"}
+            ]
+        },
+        "2": {
+            label: "1 Review (Day 1)",
+            title: "Single Passive Recovery Curve 📉",
+            desc: "A single review on Day 1 boosts retention back to 100%, but because it is not spaced iteratively, the decay curve remains steep, fading down to 15% by Day 30.",
+            color: "var(--coral)",
+            path: "M 50,20 L 135,20 Q 220,110 305,150 T 475,190",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 100, val: "55%"},
+                {x: 305, y: 140, val: "30%"},
+                {x: 390, y: 170, val: "20%"},
+                {x: 475, y: 190, val: "15%"}
+            ]
+        },
+        "3": {
+            label: "2 Reviews (Days 1, 3)",
+            title: "Iterative Reinforcement Curve 📈",
+            desc: "Adding a second review on Day 3 strengthens memory consolidation pathways. By widening the decay slope, the final retention level is elevated to 45% by Day 30.",
+            color: "var(--honey)",
+            path: "M 50,20 L 135,20 L 220,25 Q 305,80 390,110 T 475,130",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 25, val: "97% (Review 2)"},
+                {x: 305, y: 70, val: "70%"},
+                {x: 390, y: 105, val: "55%"},
+                {x: 475, y: 130, val: "45%"}
+            ]
+        },
+        "4": {
+            label: "3 Reviews (Days 1, 3, 7)",
+            title: "Multi-Interval Consolidation Curve 📈",
+            desc: "Reviewing on Days 1, 3, and 7 prompts deep contextual mapping. The memory decay is arrested effectively, ensuring a robust 75% retention after 30 days.",
+            color: "var(--sage)",
+            path: "M 50,20 L 135,20 L 220,25 L 305,20 Q 390,50 475,70",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 25, val: "97% (Review 2)"},
+                {x: 305, y: 20, val: "100% (Review 3)"},
+                {x: 390, y: 45, val: "85%"},
+                {x: 475, y: 70, val: "75%"}
+            ]
+        },
+        "5": {
+            label: "Spaced Repetition Practice (Intervals: 1, 3, 7, 14, 30)",
+            title: "Spaced Repetition Curve 🚀",
+            desc: "Iterative spaced repetition practice reinforces recall over time, strengthening memory retention across scheduled review intervals.",
+            color: "var(--sage-dark)",
+            path: "M 50,20 L 135,20 L 220,25 L 305,20 L 390,25 L 475,20",
+            dots: [
+                {x: 50, y: 20, val: "100%"},
+                {x: 135, y: 20, val: "100% (Review 1)"},
+                {x: 220, y: 25, val: "97% (Review 2)"},
+                {x: 305, y: 20, val: "100% (Review 3)"},
+                {x: 390, y: 25, val: "97% (Review 4)"},
+                {x: 475, y: 20, val: "100% (Stable)"}
+            ]
+        }
+    };
+
+    function onSliderChange(value) {
+        const config = sliderCurves[value];
+        if (!config) return;
+
+        // Update Slider Label
+        const labelEl = document.getElementById('slider-interval-label');
+        if (labelEl) {
+            labelEl.textContent = `Review Interval: ${config.label}`;
+        }
+
+        // Path
+        const pathEl = document.getElementById('chart-path');
+        if (pathEl) {
+            pathEl.setAttribute('d', config.path);
+            pathEl.setAttribute('stroke', config.color);
+        }
+
+        // Legend title, description & color
+        const titleEl = document.getElementById('legend-label-title');
+        const descEl = document.getElementById('legend-label-text');
+        const colorBox = document.getElementById('legend-color-box');
+
+        if (titleEl) titleEl.textContent = config.title;
+        if (descEl) descEl.textContent = config.desc;
+        if (colorBox) colorBox.style.backgroundColor = config.color;
+
+        // Dots & text values
+        const dotsContainer = document.getElementById('chart-dots');
+        if (dotsContainer) {
+            dotsContainer.innerHTML = "";
+            config.dots.forEach(dot => {
+                const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                circle.setAttribute("cx", dot.x);
+                circle.setAttribute("cy", dot.y);
+                circle.setAttribute("r", 6);
+                circle.setAttribute("fill", config.color);
+                circle.setAttribute("stroke", "#fff");
+                circle.setAttribute("stroke-width", "2");
+
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", dot.x - 10);
+                text.setAttribute("y", dot.y - 12);
+                text.setAttribute("fill", "var(--ink)");
+                text.setAttribute("font-size", "9px");
+                text.setAttribute("font-weight", "700");
+                text.textContent = dot.val;
+
+                dotsContainer.appendChild(circle);
+                dotsContainer.appendChild(text);
+            });
+        }
+    }
+
+    // Personal Mnemonic Notebook Logic
+    let personalMnemonics = [];
+
+    function loadPersonalMnemonics() {
+        try {
+            const stored = localStorage.getItem('cosy_personal_mnemonics');
+            if (stored) {
+                personalMnemonics = JSON.parse(stored);
+            }
+        } catch (e) {
+            console.error("Failed to load personal mnemonics:", e);
+        }
+        renderPersonalMnemonics();
+    }
+
+    function savePersonalMnemonics() {
+        try {
+            localStorage.setItem('cosy_personal_mnemonics', JSON.stringify(personalMnemonics));
+        } catch (e) {
+            console.error("Failed to save personal mnemonics:", e);
+        }
+    }
+
+    function renderPersonalMnemonics() {
+        const listEl = document.getElementById('personal-mnemonics-list');
+        if (!listEl) return;
+
+        listEl.innerHTML = '';
+
+        if (personalMnemonics.length === 0) {
+            listEl.innerHTML = `
+                <div class="ci-grid-full">
+                    No personal mnemonics added yet. Use the form above to capture your first association!
+                </div>
+            `;
+            return;
+        }
+
+        personalMnemonics.forEach((item, index) => {
+            const card = document.createElement('div');
+            card.className = 'visual-assoc-card';
+            card.style.animation = 'fadeIn 0.3s ease-in-out';
+            card.innerHTML = `
+                <button onclick="deletePersonalMnemonic(${index})" aria-label="Delete card" class="ci-btn-delete">🗑️</button>
+                <div class="vac-word ci-pr-md">${escapeHTML(item.word)}</div>
+                <div class="vac-translation">${escapeHTML(item.meaning)}</div>
+                <div class="vac-mnemonic">
+                    <strong>Mental Image Association:</strong> ${escapeHTML(item.association)}
+                </div>
+            `;
+            listEl.appendChild(card);
+        });
+    }
+
+    function addPersonalMnemonic(event) {
+        event.preventDefault();
+        const wordInput = document.getElementById('m-word');
+        const meaningInput = document.getElementById('m-meaning');
+        const assocInput = document.getElementById('m-association');
+
+        if (!wordInput || !meaningInput || !assocInput) return;
+
+        const newItem = {
+            word: wordInput.value.trim(),
+            meaning: meaningInput.value.trim(),
+            association: assocInput.value.trim()
+        };
+
+        personalMnemonics.push(newItem);
+        savePersonalMnemonics();
+        renderPersonalMnemonics();
+
+        // Clear fields
+        wordInput.value = '';
+        meaningInput.value = '';
+        assocInput.value = '';
+    }
+
+    function deletePersonalMnemonic(index) {
+        personalMnemonics.splice(index, 1);
+        savePersonalMnemonics();
+        renderPersonalMnemonics();
+    }
+
+    function escapeHTML(str) {
+        return str
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    // Initialize with spaced repetition on page load
+    document.addEventListener("DOMContentLoaded", () => {
+        onSliderChange("5");
+
+        // Restore checklist state from localStorage
+        try {
+            const savedStateStr = localStorage.getItem('cosy_immersion_checklist');
+            if (savedStateStr) {
+                const state = JSON.parse(savedStateStr);
+                Object.keys(state).forEach(id => {
+                    const chk = document.getElementById(id);
+                    if (chk) {
+                        chk.checked = !!state[id];
+                    }
+                });
+            }
+        } catch (e) {
+            console.error("Failed to load checklist state:", e);
+        }
+        updateImmersionProgress(false);
+
+        // Load personal mnemonics
+        loadPersonalMnemonics();
+    });
+</script>
+<script src="js/cognitive-immersion.js"></script>
+</body>
+</html>

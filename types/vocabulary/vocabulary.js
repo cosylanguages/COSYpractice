@@ -353,7 +353,7 @@
     async function ensureDataLoaded(lang, level, cat, theme) {
         const targetLang = (lang || 'en').toLowerCase();
         if (window.COSY && window.COSY.loadLanguageData) {
-            await window.COSY.loadLanguageData(targetLang, level);
+            await window.COSY.loadLanguageData(targetLang, level, theme);
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
         }

@@ -183,7 +183,7 @@
         }
 
         if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
+            themeSelect.innerHTML = '<option value="all">' + ((window.t && window.t('theme_all')) || 'All Themes') + '</option>';
 
             if (window.COSY_THEMES_SCHEMA && window.COSY_THEMES_SCHEMA.themes) {
                 Object.keys(window.COSY_THEMES_SCHEMA.themes).sort().forEach(t => {
@@ -206,7 +206,7 @@
             return;
         }
 
-        themeSelect.innerHTML = '<option value="all">All Themes</option>';
+        themeSelect.innerHTML = '<option value="all">' + ((window.t && window.t('theme_all')) || 'All Themes') + '</option>';
         if (window.COSY_THEME_TREE) {
             Object.keys(window.COSY_THEME_TREE).forEach(t => {
                 const opt = document.createElement('option');
@@ -720,11 +720,13 @@
     }
 
     function initSetupUI() {
+        ['cosyI18nReady', 'cosyLanguageChanged'].forEach(ev => document.addEventListener(ev, () => { try { updateThemes(); } catch (e) { /* setup not ready */ } }));
         // Render progress trackers
         renderThemeProgressTrackers();
 
         // Populate Languages with persistence (main languages visible, others in menu)
-        const storedLang = localStorage.getItem('cosy_practice_last_lang') || 'en';
+        let storedLang = localStorage.getItem('cosy_practice_last_lang') || 'en';
+        if (!(window.COSY_LANGUAGES || []).some(l => l.code === storedLang)) storedLang = 'en';
         selectedLang = storedLang;
 
         const langContainer = document.getElementById('lang-pills');
@@ -738,6 +740,7 @@
                 `<div class="lang-pill ${l.code === selectedLang ? 'active' : ''}" data-value="${l.code}">${l.icon || l.flag || ''} ${l.native}</div>`
             ).join('');
 
+            if (comingSoonLangs.length) {
             html += `
                 <div class="lang-more-wrap ${isSelectedInMore ? 'active' : ''}">
                     <select id="more-lang-select" class="lang-more-select" aria-label="More Languages (Coming Soon)">
@@ -749,6 +752,7 @@
                     </select>
                 </div>
             `;
+            }
 
             langContainer.innerHTML = html;
 

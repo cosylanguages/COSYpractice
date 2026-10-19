@@ -37,7 +37,7 @@
       COSY._toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2800);
     },
 
-    async loadLanguageData(lang, levelId) {
+    async loadLanguageData(lang, levelId, theme) {
         const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
         let levelsToLoad = (levelId === 'all')
             ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
@@ -50,23 +50,44 @@
             window[key][lang] = window[key][lang] || [];
         });
 
-        // Attempt remote COSYdata fetch first for centralized vocabulary
-        try {
+        // Vocabulary lives in COSYdata (index.json maps each entry to a theme file such as "a2/home/rooms.json").
+        // Each request has its own timeout, a chosen level only loads that level's files, and "all levels"
+        // loads random theme files in parallel batches until the pool is big enough for a session.
+        async function getJSON(url, ms) {
             const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 1500);
-            const indexRes = await fetch(`${COSYDATA_BASE}vocabulary/${lang}/index.json`, { signal: controller.signal });
-            clearTimeout(timeoutId);
-            if (indexRes.ok) {
-                const indexData = await indexRes.json();
-                const themeFiles = [...new Set(Object.values(indexData))];
-                const themeFetches = themeFiles.map(tf =>
-                    fetch(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`, { signal: controller.signal })
-                        .then(r => r.ok ? r.json() : null)
-                        .catch(() => null)
-                );
-                const themeResults = await Promise.all(themeFetches);
-                const loadedEntries = [];
+            const timer = setTimeout(() => controller.abort(), ms);
+            try {
+                const res = await fetch(url, { signal: controller.signal });
+                return res.ok ? await res.json() : null;
+            } catch (e) { return null; } finally { clearTimeout(timer); }
+        }
+        const asObj = (x) => (typeof x === 'string' ? { text: x } : x);
+        function normalizeItem(item) {
+            if (Array.isArray(item.definitions)) item.definitions = item.definitions.map(asObj);
+            if (Array.isArray(item.examples)) item.examples = item.examples.map(asObj);
+            return item;
+        }
+        try {
+            const indexData = await getJSON(`${COSYDATA_BASE}vocabulary/${lang}/index.json`, 10000);
+            if (indexData) {
+                let themeFiles = [...new Set(Object.values(indexData))];
+                if (levelId && levelId !== 'all') {
+                    const short = String(window.levelIdToShort ? window.levelIdToShort(levelId) : levelId).toLowerCase();
+                    const matching = themeFiles.filter(f => String(f).split('/')[0].toLowerCase().split('_').includes(short));
+                    if (matching.length) themeFiles = matching;
+                } else {
+                    themeFiles.sort(() => Math.random() - 0.5);
+                }
+                const TARGET_ITEMS = ((levelId && levelId !== 'all') || (theme && theme !== 'all')) ? Infinity : 900;
+                const BATCH = 16;
+                const themeResults = [];
+                let loadedCount = 0;
+                for (let i = 0; i < themeFiles.length && loadedCount < TARGET_ITEMS; i += BATCH) {
+                    const batch = await Promise.all(themeFiles.slice(i, i + BATCH).map(tf => getJSON(`${COSYDATA_BASE}vocabulary/${lang}/${tf}`, 20000)));
+                    batch.forEach(r => { if (r) { themeResults.push(r); loadedCount += Array.isArray(r) ? r.length : 1; } });
+                }
                 const seenIds = new Set(window.vocabularyData[lang].map(e => e.id || e.word));
+                const loadedEntries = [];
 
                 for (const tData of themeResults) {
                     if (!tData) continue;
@@ -92,6 +113,7 @@
                             }
                         }
 
+                        normalizeItem(item);
                         window.vocabularyData[lang].push(item);
                         loadedEntries.push(item);
 

@@ -37,9 +37,15 @@
         const dateStr = today.toISOString().split('T')[0];
 
         // Update header info
-        const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        document.getElementById('dayBadge').textContent = dayNames[dayOfWeek];
-        document.getElementById('dateLine').textContent = today.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+        const paintDate = () => {
+            const code = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
+            const loc = code === 'en' ? 'en-GB' : code;
+            document.getElementById('dayBadge').textContent = today.toLocaleDateString(loc, { weekday: 'long' });
+            document.getElementById('dateLine').textContent = today.toLocaleDateString(loc, { day: 'numeric', month: 'long', year: 'numeric' });
+        };
+        paintDate();
+        document.addEventListener('cosyI18nReady', paintDate);
+        document.addEventListener('cosyLanguageChanged', paintDate);
 
         // Load Challenge
         const category = window.DAILY_SCHEDULE[dayOfWeek];

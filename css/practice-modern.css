@@ -51,3 +51,5 @@ html[data-theme="dark"] .dc-btn { background: #f3c969; color: #1c1917; }
 html[data-theme="dark"] .task-tip { background: #3a3012; color: #f3dfa0; border-color: #f3c969; }
 html[data-theme="dark"] :is(#microTaskSelect, .micro-task, .micro-task-select, .micro-select) { background: #2d2036; color: #e8d2f2; }
 html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(255,255,255,.12); } html[data-theme="dark"] .micro-title { color: #e8d2f2; }
+
+.sec-title > span:first-child { font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; }
