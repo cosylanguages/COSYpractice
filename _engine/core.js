@@ -116,7 +116,17 @@
         }, 1200);
     }
 
+    function triggerHaptic(isCorrect = true) {
+        if ('vibrate' in navigator) {
+            try {
+                if (isCorrect) navigator.vibrate(40);
+                else navigator.vibrate([60, 40, 60]);
+            } catch (e) {}
+        }
+    }
+
     function showBottomFeedback(isCorrect, title, desc, autoAdvanceMs = null) {
+        triggerHaptic(isCorrect);
         const bar = document.getElementById('pe-bottom-bar');
         const iconEl = document.getElementById('pe-bb-icon');
         const titleEl = document.getElementById('pe-bb-title');

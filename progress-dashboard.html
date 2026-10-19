@@ -12,7 +12,15 @@
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#FAF7F2">
     <link rel="icon" href="images/logo.png">
+    <link rel="manifest" href="manifest.json">
     <script src="js/theme-init.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js').catch(() => {});
+        });
+      }
+    </script>
     <link rel="stylesheet" href="css/core.css">
     <link rel="stylesheet" href="css/shell.css">
     
