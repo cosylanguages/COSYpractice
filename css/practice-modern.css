@@ -53,3 +53,7 @@ html[data-theme="dark"] :is(#microTaskSelect, .micro-task, .micro-task-select, .
 html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(255,255,255,.12); } html[data-theme="dark"] .micro-title { color: #e8d2f2; }
 
 .sec-title > span:first-child { font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; }
+
+/* While a session is running, keep the screen focused: hide the recent-activity / weak-spots cards */
+body:has(#practice-section:not(.hidden)) #activity-section,
+body:has(#practice-section:not(.hidden)) #speaking-club-bridge-card{display:none !important}

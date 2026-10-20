@@ -350,6 +350,29 @@
     /* ══════════════════════════════════════
        DATA LOADING
     ══════════════════════════════════════ */
+    async function loadSpeakingPhrases(lang) {
+        window.speakingData = window.speakingData || {};
+        if (window.speakingData[lang] && window.speakingData[lang].fluency && window.speakingData[lang].fluency.length) return;
+        const base = 'https://cosylanguages.github.io/COSYdata/functional-phrases/' + lang + '/';
+        const getJ = async (u) => { try { const r = await fetch(u); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+        const idx = await getJ(base + 'index.json');
+        const out = [];
+        if (idx) {
+            const files = [...new Set(Object.values(idx))];
+            const parts = await Promise.all(files.map(f => getJ(base + f)));
+            parts.forEach(list => (Array.isArray(list) ? list : []).forEach(it => {
+                if (!it || !it.phrase) return;
+                const sit = (it.situation || it.domain || 'general').replace(/-/g, ' ');
+                out.push({
+                    id: it.id, language: lang, level: it.level || 'A1', theme: it.situation || it.domain || 'general',
+                    topic: 'Say this aloud and make it your own (' + sit + '): \u201c' + it.phrase + '\u201d',
+                    phrase: it.phrase
+                });
+            }));
+        }
+        window.speakingData[lang] = Object.assign(window.speakingData[lang] || {}, { fluency: out });
+    }
+
     async function ensureDataLoaded(lang, level, cat, theme) {
         const targetLang = (lang || 'en').toLowerCase();
         if (window.COSY && window.COSY.loadLanguageData) {
@@ -357,6 +380,9 @@
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
         }
+
+        // Speaking prompts come from COSYdata/functional-phrases (situational phrases by level)
+        if (/^speaking$/i.test(cat || '')) await loadSpeakingPhrases(targetLang);
 
         // Dynamically load standalone topic datasets if requested
         if (theme && theme !== 'all') {
@@ -620,6 +646,8 @@
             });
 
             pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme, subTheme, category: 'Speaking' });
+            // Speaking situations use their own names, so a general theme pick must not empty the session
+            if (!pool.length) pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme: 'all', subTheme: 'all', category: 'Speaking' });
         } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
             const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [toShortLevelCode(level)];
 

@@ -78,6 +78,22 @@
                 } else {
                     themeFiles.sort(() => Math.random() - 0.5);
                 }
+                // A chosen theme only needs the files that actually hold its entries (themes-index.json maps theme -> entry ids)
+                if (theme && theme !== 'all') {
+                    const tIdx = await getJSON(`${COSYDATA_BASE}vocabulary/${lang}/themes-index.json`, 10000);
+                    if (tIdx) {
+                        const key = String(theme).replace(/^group:/, '').toLowerCase();
+                        const ids = new Set();
+                        Object.keys(tIdx).forEach(k => {
+                            const kl = k.toLowerCase();
+                            if (kl === key || kl.startsWith(key + '/') || kl === key.replace(/-/g, '_') || kl === key.replace(/_/g, '-')) (tIdx[k] || []).forEach(id => ids.add(id));
+                        });
+                        const files = new Set();
+                        ids.forEach(id => { if (indexData[id]) files.add(indexData[id]); });
+                        const narrowed = themeFiles.filter(f => files.has(f));
+                        if (narrowed.length) themeFiles = narrowed;
+                    }
+                }
                 const TARGET_ITEMS = ((levelId && levelId !== 'all') || (theme && theme !== 'all')) ? Infinity : 900;
                 const BATCH = 16;
                 const themeResults = [];
@@ -159,24 +175,8 @@
         const levelLow = level.toLowerCase();
         const langLow = lang.toLowerCase();
 
-        const standardPath = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}.json`;
-        const v2Path = `https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/curriculums/${lang}/general/${levelUp}_v2.json`;
-
-        try {
-            const res = await fetch(standardPath);
-            const data = res.ok ? await res.json() : await fetch(v2Path).then(r => r.ok ? r.json() : null);
-            if (data && data.units) {
-                const units = data.units;
-                window.curriculumData = window.curriculumData || {};
-                const key = `${langLow}_${levelLow}`;
-                window.curriculumData[key] = units;
-                if (window.cosyDays) window.cosyDays.state.curriculum = units;
-                return units;
-            }
-        } catch (e) {
-            console.warn(`Failed to load curriculum for ${lang} ${level}:`, e);
-        }
-
+        // The curriculum JSON (formerly COSYplatform) is not published anywhere, so don't fire dead requests;
+        // anything already in window.curriculumData is still honoured.
         const key = `${langLow}_${levelLow}`;
         return (window.curriculumData && window.curriculumData[key]) || [];
     },
