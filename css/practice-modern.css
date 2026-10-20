@@ -57,3 +57,9 @@ html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(2
 /* While a session is running, keep the screen focused: hide the recent-activity / weak-spots cards */
 body:has(#practice-section:not(.hidden)) #activity-section,
 body:has(#practice-section:not(.hidden)) #speaking-club-bridge-card{display:none !important}
+
+/* Dark-mode contrast lifts */
+html[data-theme="dark"] .tbtn.go { background: #2f6f55; color: #fff; }
+html[data-theme="dark"] .tbtn.stop { background: transparent; color: #cfe3d2; border: 1px solid rgba(255,255,255,.25); }
+html[data-theme="dark"] .pg-back, html[data-theme="dark"] .ccq-back { color: #9fd3aa; }
+html[data-theme="dark"] .hero-badge, html[data-theme="dark"] .vac-translation, html[data-theme="dark"] .cognate-root { color: #cfe3d2; }
