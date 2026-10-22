@@ -11,11 +11,13 @@
  *
  * A meaningCheck item may be:
  *   - an inline CCQ object {targetItem, language, ccq, answer, distractor?}
- *   - a string referencing a standalone CCQ file -> https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/{lang}/ccq/{ref}.json
+ *   - a string referencing a standalone CCQ file -> data/grammar-reference/{lang}/ccq/{ref}.json (this site's own deploy,
+ *     exported from the private COSYmanuals repo by scripts/export_practice_data.py)
  */
 (function () {
     'use strict';
 
+    var SCRIPT_SRC = (document.currentScript && document.currentScript.src) || window.location.href;
     var params = new URLSearchParams(window.location.search);
     var lang = params.get('lang') || 'en';
     var unit = params.get('unit') || 'to-be';
@@ -51,8 +53,8 @@
         if (!Array.isArray(meaningCheck)) return [];
         return Promise.all(meaningCheck.map(function (mc) {
             if (typeof mc === 'string') {
-                // standalone reference: https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/{lang}/ccq/{ref}.json
-                var url = 'https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/' + lang + '/ccq/' + mc + '.json';
+                // standalone reference: data/grammar-reference/{lang}/ccq/{ref}.json, resolved from this script's URL
+                var url = new URL('../../data/grammar-reference/' + lang + '/ccq/' + mc + '.json', SCRIPT_SRC).href;
                 return fetch(url).then(function (r) {
                     if (!r.ok) throw new Error('CCQ not found: ' + url);
                     return r.json();

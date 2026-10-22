@@ -8,6 +8,14 @@
 
     window.phonologyData = window.phonologyData || {};
 
+    // The data lives in this site's own deploy (data/grammar-reference/), exported from the private COSYmanuals repo
+    // (scripts/export_practice_data.py). The path is resolved from this script's URL so it works under any base path.
+    const SCRIPT_SRC = (document.currentScript && document.currentScript.src) || '';
+    function dataUrl(rel) {
+        return SCRIPT_SRC ? new URL('../data/grammar-reference/' + rel, SCRIPT_SRC).href
+                          : getPrefix() + 'data/grammar-reference/' + rel;
+    }
+
     function getPrefix() {
         if (window.COSY && typeof window.COSY.getPrefix === 'function') {
             return window.COSY.getPrefix();
@@ -33,7 +41,7 @@
         const result = { sounds: [], stress: [], intonation: [] };
 
         const fetchPromises = categories.map(async (cat) => {
-            const path = `https://raw.githubusercontent.com/cosylanguages/COSYmanuals/main/data/grammar/reference/${langLow}/phonology/${cat}.json`;
+            const path = dataUrl(`${langLow}/phonology/${cat}.json`);
             try {
                 const res = await fetch(path);
                 if (res.ok) {

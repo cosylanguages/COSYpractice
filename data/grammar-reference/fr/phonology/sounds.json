@@ -1,0 +1,271 @@
+{
+  "language": "fr",
+  "category": "sounds",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "voyelles_et_consonnes_base",
+      "label": "Voyelles et consonnes de base",
+      "level": "A1",
+      "emoji": "🔤",
+      "definition": "Les sons fondamentaux de la langue française",
+      "rules": [
+        "Le français possède 16 sons voyelles distincts et 17 consonnes.",
+        "Les voyelles françaises sont très nettes et ne se réduisent pas en son flou."
+      ],
+      "examples": [
+        {
+          "t": "Une table /tabl/, un livre /livʁ/",
+          "m": "Prononciation claire des voyelles"
+        },
+        {
+          "t": "Café /kafe/, zéro /zeʁo/",
+          "m": "Consonnes et voyelles fondamentales"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonnes_finales_muettes",
+      "label": "Consonnes finales muettes et voyelles U/OU/I",
+      "level": "A1",
+      "emoji": "🔇",
+      "definition": "Règle des consonnes finales muettes et distinction des sons [y], [u], [i]",
+      "rules": [
+        "En général, les consonnes finales D, P, S, T, X, Z sont muettes. Les consonnes C, R, F, L (règle CaReFuL) se prononcent souvent en fin de mot.",
+        "Le son [y] (lettre U comme dans 'tu') se prononce avec les lèvres arrondies vers l'avant, très différent du son [u] ('ou') et [i] ('il')."
+      ],
+      "examples": [
+        {
+          "t": "Un chat (T muet), des enfants (S et T muets) vs Un sac (C prononcé)",
+          "m": "Consonnes finales muettes"
+        },
+        {
+          "t": "Tu [ty] vs Tout [tu] vs Lit [li]",
+          "m": "Distinction entre U, OU et I"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "h_aspire_et_muet",
+      "label": "H aspiré vs H muet",
+      "level": "A1",
+      "emoji": "🔤",
+      "definition": "Distinction entre le H muet qui permet l'élision/liaison et le H aspiré qui les bloque",
+      "rules": [
+        "Le H muet n'a pas de valeur consonantique : il permet l'élision (l'homme) et la liaison (les_hommes).",
+        "Le H aspiré bloque l'élision et la liaison : on conserve l'article entier (le héros, les héros sans liaison)."
+      ],
+      "examples": [
+        {
+          "t": "L'homme [lɔm], les_hommes [lezɔm]",
+          "m": "H muet : élision et liaison obligatoires"
+        },
+        {
+          "t": "Le héros [lə eʁo], les héros [le eʁo]",
+          "m": "H aspiré : élision et liaison interdites"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "elision_de_base",
+      "label": "Élision de base",
+      "level": "A1",
+      "emoji": "✂️",
+      "definition": "Suppression de la voyelle finale des petits mots devant une voyelle ou un H muet",
+      "rules": [
+        "Les petits mots monosyllabiques (le, la, je, que, ne, de) remplacent leur voyelle finale par une apostrophe (') devant un mot commençant par une voyelle ou un H muet.",
+        "Exemples d'élision : le ➔ l' (l'ami), la ➔ l' (l'école), je ➔ j' (j'ai), que ➔ qu' (qu'il), ne ➔ n' (n'est pas), de ➔ d' (d'accord)."
+      ],
+      "examples": [
+        {
+          "t": "L'ami, l'école, j'ai, d'accord",
+          "m": "Élision devant voyelle"
+        },
+        {
+          "t": "L'homme, n'hésite pas, qu'habite-t-il ?",
+          "m": "Élision devant H muet"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "prononciation_t_devant_i_tion_tie",
+      "label": "Prononciation du T devant I (-tion, -tie, -tiel)",
+      "level": "A2",
+      "emoji": "💬",
+      "definition": "Changement de son de la lettre T prononcée [s] devant I suivi d'une autre voyelle",
+      "rules": [
+        "Devant I suivi d'une voyelle (-tion, -tie, -tiel, -tieux), la lettre T se prononce généralement [s] : nation [nasjɔ̃], patient [pasjɑ̃], essentiel [esɑ̃sjɛl].",
+        "Exception : quand la lettre T est précédée d'un S, elle conserve son son d'origine [t] : question [kɛstjɔ̃], digestion [diʒɛstjɔ̃]."
+      ],
+      "examples": [
+        {
+          "t": "Nation [nasjɔ̃], Patient [pasjɑ̃], Démocratie [demokʁasi]",
+          "m": "T se prononce [s] devant I + voyelle"
+        },
+        {
+          "t": "Question [kɛstjɔ̃], Suggestion [syʒɛstjɔ̃]",
+          "m": "T reste [t] après la lettre S"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "voyelles_nasales",
+      "label": "Les voyelles nasales",
+      "level": "A2",
+      "emoji": "👃",
+      "definition": "Sons vocaliques articulés en laissant passer l'air par la bouche et le nez",
+      "rules": [
+        "Les combinaisons voyelle + N ou M forment une voyelle nasale quand elles sont suivies d'une consonne ou en fin de mot.",
+        "Les trois principales nasales sont [ɑ̃] (an/en), [ɛ̃] (in/ain/ein) et [ɔ̃] (on)."
+      ],
+      "examples": [
+        {
+          "t": "Un blanc /blɑ̃/, le temps /tɑ̃/",
+          "m": "Voyelle nasale [ɑ̃]"
+        },
+        {
+          "t": "Un vin /vɛ̃/, le pain /pɛ̃/, un bonbon /bɔ̃bɔ̃/",
+          "m": "Voyelles nasales [ɛ̃] et [ɔ̃]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "semi_voyelles_et_finales_ent",
+      "label": "Semi-voyelles et terminaisons -ENT",
+      "level": "A2",
+      "emoji": "🔀",
+      "definition": "Prononciation des semi-consonnes [j], [w], [ɥ] et de la terminaison -ENT des verbes",
+      "rules": [
+        "Les combinaisons i/y + voyelle ([j]), ou + voyelle ([w]) et u + voyelle ([ɥ]) créent des semi-voyelles rapides.",
+        "La terminaison `-ent` de la 3e personne du pluriel des verbes est complètement muette (ex. ils parlent /il paʁl/ et non pas /parlɑ̃/)."
+      ],
+      "examples": [
+        {
+          "t": "Un travail [tʁavaj], oui [wi], la nuit [nɥi]",
+          "m": "Prononciation des semi-voyelles [j], [w], [ɥ]"
+        },
+        {
+          "t": "Ils mangent [il mɑ̃ʒ] vs Un moment [œ̃ momɑ̃]",
+          "m": "-ENT muet au verbe vs -ENT nasal au nom"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "e_caduc_muet",
+      "label": "Le E caduc (ou muet)",
+      "level": "B1",
+      "emoji": "🔇",
+      "definition": "Prononciation et chute de la voyelle « e » instable dans la parole courante",
+      "rules": [
+        "Le « e » instable se prononce [ə] ou s'efface selon sa position dans le mot et la phrase.",
+        "À l'intérieur d'un mot ou d'un groupe, un « e » tombe souvent s'il est précédé d'une seule consonne prononcée (règle des trois consonnes)."
+      ],
+      "examples": [
+        {
+          "t": "Un samedi ➔ /samdi/, la boulangerie ➔ /bulɑ̃ʒʁi/",
+          "m": "Chute du E caduc à l'intérieur d'un mot"
+        },
+        {
+          "t": "Je ne sais pas ➔ /ʒən sɛ pa/ ou /ʒsɛ pa/",
+          "m": "Elision du E dans la conversation orale"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "distinction_e_ouvert_ferme",
+      "label": "E ouvert [ɛ] et E fermé [e]",
+      "level": "B1",
+      "emoji": "🎼",
+      "definition": "Distinction systématique entre É fermé et È/Ê/AI ouvert",
+      "rules": [
+        "Le E fermé [e] s'écrit généralement É, ER en fin de mot ou EZ (parler, vous mangez, été).",
+        "Le E ouvert [ɛ] s'écrit È, Ê, AI, EI ou E devant deux consonnes (frère, fête, maison, merci)."
+      ],
+      "examples": [
+        {
+          "t": "Un été /ete/, vous chantez /ʃɑ̃te/",
+          "m": "Prononciation du E fermé [e]"
+        },
+        {
+          "t": "La mère /mɛʁ/, la tête /tɛt/, le lait /lɛ/",
+          "m": "Prononciation du E ouvert [ɛ]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "liaisons_facultatives_style",
+      "label": "Liaisons facultatives et registres",
+      "level": "B2",
+      "emoji": "📜",
+      "definition": "Liaisons stylitiques et facultatives selon le niveau de langue",
+      "rules": [
+        "Les liaisons facultatives s'emploient dans le registre soutenu ou la lecture formelle (ex. après le verbe être, après les prépositions polysyllabiques).",
+        "Leur fréquence augmente avec la formalité du discours et diminue en français familier."
+      ],
+      "examples": [
+        {
+          "t": "Ils sont_arrivés /il sɔ̃taʁive/ (style soutenu)",
+          "m": "Liaison facultative après le verbe"
+        },
+        {
+          "t": "Pendant_un mois /pɑ̃dɑ̃tœ̃ mwa/",
+          "m": "Liaison facultative après préposition"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "assimilation_sonorite_articulatoire",
+      "label": "Assimilation de sonorité",
+      "level": "C1",
+      "emoji": "🔄",
+      "definition": "Modification de sonorité des consonnes en contact rapide",
+      "rules": [
+        "L'assimilation régressive assourdit une consonne sonore devant une consonne sourde (ex. un médecin /metsɛ̃/, une médecine /metsin/).",
+        "Elle sonorise une consonne sourde devant une consonne sonore (ex. un passeport /paspɔʁ/ vs un aneecdote /anɛɡdɔt/)."
+      ],
+      "examples": [
+        {
+          "t": "Médecin ➔ [mɛtsɛ̃] (D assourdi en T)",
+          "m": "Assimilation régressive d'assourdissement"
+        },
+        {
+          "t": "Anecdote ➔ [anɛɡdɔt] (C sonorisé en G)",
+          "m": "Assimilation régressive de sonorisation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "orthoepie_variations_diatopiques",
+      "label": "Orthoépie et diction littéraire",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Règles d'orthoépie, diction théâtrale et distinctions régionales neutres",
+      "rules": [
+        "L'orthoépie traditionnelle maintient la distinction entre le A antérieur [a] et le A postérieur [ɑ] (patte vs pâte) et entre Brin [bʁɛ̃] et Brun [bʁœ̃].",
+        "La diction poétique ou théâtrale restaure la prononciation du E caduc pour maintenir le nombre de syllabes métriques."
+      ],
+      "examples": [
+        {
+          "t": "Brin [bʁɛ̃] vs Brun [bʁœ̃], Patte [pat] vs Pâte [pɑt]",
+          "m": "Distinctions voyelles traditionnelles en orthoépie"
+        },
+        {
+          "t": "Le jour // se lève ➔ 4 syllabes en déclamation",
+          "m": "Maintien du E caduc en diction littéraire"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

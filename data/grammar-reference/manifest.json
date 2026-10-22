@@ -1,0 +1,22 @@
+{
+ "count": 16,
+ "files": {
+  "el/phonology/intonation.json": "9d896477a1f3e00739b37de02808d6a75bdf81eacbb418532ba672d3c0161efb",
+  "el/phonology/sounds.json": "53c08469aa7a3595a82f9eb3e364f4c3f4cae25157f09bfccfb1ab75db7545a0",
+  "el/phonology/stress.json": "fc912a1b90fa19edc6192e3811a90c0a14444d06c4ce12bbb646e13af0c9e552",
+  "en/ccq/used-to-past-now.json": "6444516f0e1941b7df315e62c758ce9076eb56138ecd5373a76fef27b2318848",
+  "en/phonology/intonation.json": "4a8278812471cc4d7e382839fc1c1ae74d1dda6339957d1839b05d61315fe350",
+  "en/phonology/sounds.json": "f90b8dd5cd85c4db4e9748ff18f6f22a0826d392a50c401e5ad09b23dd3ca54d",
+  "en/phonology/stress.json": "474f2763643ddd6aef015de634c26af7fe1b495a3cb1c116594d4ec91c040584",
+  "fr/phonology/intonation.json": "bd4ba95b1b1e33255462d02a8e2151bc8a0388183f0ba9f43b1043c9f8f28742",
+  "fr/phonology/sounds.json": "c8f4139e860c4f211d965f2f3f8b9721cb688af86281ccc2db6513e7b2b00a31",
+  "fr/phonology/stress.json": "5ba75fa2e1d9cfc61e19f33e8ae438d992f5d24ae082683ef0eda439ef6abee5",
+  "it/phonology/intonation.json": "4dd8e64893546a6ba47b0e42d18fb9b88780d8f20c62143b37728040623ce24b",
+  "it/phonology/sounds.json": "856c5ec086ee6870efbb22222297670c4c4c1e82fe94aa142b77871d0de94740",
+  "it/phonology/stress.json": "fe3cc2f04c6cb10b666a6d4bf04be5b60de13bcbce94b7f9d1c4e4a2d9c7ff36",
+  "ru/phonology/intonation.json": "0a8c3935cd961d9faf775bb0af20f387bb1d7f101b179a4897b9d09cbd45134f",
+  "ru/phonology/sounds.json": "a4cd11f7c3e31ca85403c49a91691f4c1f19810c82e655cb9780dd97369e0ae7",
+  "ru/phonology/stress.json": "9391169abc3fac27969c899f9b3637a7fded9a6a3561c960c1c710213ae30cfb"
+ },
+ "source": "COSYmanuals data/grammar/reference"
+}

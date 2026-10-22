@@ -1,0 +1,205 @@
+{
+  "language": "en",
+  "category": "stress",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "word_stress",
+      "label": "Word Stress & Syllable Prominence",
+      "level": "starter",
+      "emoji": "🔊",
+      "definition": "Stressing syllables in multi-syllable words",
+      "rules": [
+        "Most 2-syllable nouns stress the first syllable (DOC-tor, TEA-cher).",
+        "-teen numbers stress the second syllable (thir-TEEN), -ty numbers stress the first (THIR-ty)."
+      ],
+      "examples": [
+        {
+          "t": "DOC-tor, BU-si-ness",
+          "m": "First-syllable noun stress"
+        },
+        {
+          "t": "thir-TEEN vs THIR-ty",
+          "m": "-teen vs -ty contrast"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "sentence_stress_schwa",
+      "label": "Sentence Stress & Schwa /ə/",
+      "level": "starter",
+      "emoji": "🗣️",
+      "definition": "Prominence of content words and weak forms",
+      "rules": [
+        "Content words (nouns, main verbs, adjectives) are stressed.",
+        "Function words are unstressed and often use the schwa sound /ə/."
+      ],
+      "examples": [
+        {
+          "t": "about /əˈbaʊt/, doctor /ˈdɒk.tə/",
+          "m": "Schwa /ə/ in unstressed syllables"
+        },
+        {
+          "t": "Where do you LIVE?",
+          "m": "Sentence stress on content word"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "suffix_stress_patterns",
+      "label": "Suffix Stress Patterns",
+      "level": "A2",
+      "emoji": "📌",
+      "definition": "Predictable stress shifts caused by specific word suffixes",
+      "rules": [
+        "Suffixes like -tion, -sion, and -ic place primary stress on the syllable immediately preceding them.",
+        "Neutral suffixes like -ful, -less, and -ly do not alter the root word's stress position."
+      ],
+      "examples": [
+        {
+          "t": "in-for-MA-tion, eco-NOM-ic",
+          "m": "Stress on syllable before -tion or -ic"
+        },
+        {
+          "t": "CARE-ful, HAP-pi-ly",
+          "m": "Unchanged stress root with neutral suffixes"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "rhythm_stress_timing",
+      "label": "Stress-Timed Rhythm",
+      "level": "A2",
+      "emoji": "🥁",
+      "definition": "Rhythmic structure where stressed syllables occur at regular time intervals",
+      "rules": [
+        "English is a stress-timed language: the time between stressed syllables remains relatively constant regardless of how many unstressed words sit between them.",
+        "Unstressed syllables are compressed and spoken faster to maintain sentence beat."
+      ],
+      "examples": [
+        {
+          "t": "CATS / EAT / FISH ➔ 1... 2... 3...",
+          "m": "Three content words stressed equally"
+        },
+        {
+          "t": "The CATS have been EATING the FISH ➔ 1... 2... 3...",
+          "m": "Same duration despite added functional words"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "compound_word_stress",
+      "label": "Compound & Functional Stress",
+      "level": "B1",
+      "emoji": "🔀",
+      "definition": "Stress distinctions in compound nouns, phrasal verbs, and noun-verb pairs",
+      "rules": [
+        "Compound nouns usually stress the first word (BLACK-board), while adjective + noun phrases stress the second word (black BOARD).",
+        "Noun-verb homographs stress the first syllable as a noun (EX-port) and the second as a verb (ex-PORT)."
+      ],
+      "examples": [
+        {
+          "t": "GREEN-house (building for plants) vs green HOUSE (house painted green)",
+          "m": "Compound noun vs adjective phrase stress"
+        },
+        {
+          "t": "an IN-crease (noun) vs to in-CREASE (verb)",
+          "m": "Noun vs verb stress shift"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "stress_shifts_word_families",
+      "label": "Stress Shifts in Word Families",
+      "level": "B1",
+      "emoji": "🔄",
+      "definition": "Movement of primary stress across related derivatives of the same root word",
+      "rules": [
+        "Adding derivational suffixes can shift primary stress to different syllables across a word family.",
+        "Vowel quality changes when stress shifts (stressed vowels become full, unstressed vowels become schwa /ə/)."
+      ],
+      "examples": [
+        {
+          "t": "PHO-to-graph /ˈfəʊtəɡrɑːf/ ➔ pho-TOG-ra-pher /fəˈtɒɡrəfə/ ➔ pho-to-GRAPH-ic /ˌfəʊtəˈɡræfɪk/",
+          "m": "Primary stress movement across derivatives"
+        },
+        {
+          "t": "CLIM-ate /ˈklaɪmət/ ➔ cli-MAT-ic /klaɪˈmætɪk/",
+          "m": "Vowel change with stress shift"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "secondary_stress_clash_avoidance",
+      "label": "Secondary Stress & Stress Shift",
+      "level": "B2",
+      "emoji": "⚖️",
+      "definition": "Secondary stress marks in long words and stress retraction to avoid adjacent stress clashes",
+      "rules": [
+        "Polysyllabic words often carry a secondary stress /ˌ/ in addition to primary stress /ˈ/ (e.g. /ˌɪntəˈnæʃnəl/).",
+        "When a word with final primary stress precedes a stressed noun, its stress shifts backward to avoid a stress clash (e.g., thir-TEEN ➔ THIR-teen MEN)."
+      ],
+      "examples": [
+        {
+          "t": "thir-TEEN ➔ THIR-teen books",
+          "m": "Stress retraction to avoid stress clash"
+        },
+        {
+          "t": "in-for-MA-tion /ˌɪnfəˈmeɪʃn/",
+          "m": "Secondary stress on first syllable"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "nuclear_stress_pragmatics",
+      "label": "Nuclear Stress & Pragmatic Focus",
+      "level": "C1",
+      "emoji": "🎯",
+      "definition": "Location of the tonic syllable (nuclear stress) to signal discourse focus, presupposition, and contrast",
+      "rules": [
+        "The tonic syllable (nucleus) defaults to the last content word of an intonation phrase, but shifts to signal contrast, correction, or narrow focus.",
+        "Given information receives low prominence, while new or contrastive information receives nuclear stress."
+      ],
+      "examples": [
+        {
+          "t": "John bought a BLUE car. (Default nucleus on last content word)",
+          "m": "Default neutral nuclear stress"
+        },
+        {
+          "t": "JOHN bought a blue car. (Focus on who bought it)",
+          "m": "Nuclear stress shift for pragmatic focus"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "rhetorical_prosody_cadence",
+      "label": "Rhetorical Prosody & Metrical Cadence",
+      "level": "C2",
+      "emoji": "🎙️",
+      "definition": "Manipulating stress distribution, rhythmic feet, and speech tempo for persuasive oratory",
+      "rules": [
+        "Formal public speaking uses deliberate stress alignment, extended pauses, and rhythmic parallelism to enhance rhetorical impact.",
+        "Metrical variation creates emphasis by contrasting isometric stress cadence with sudden accelerations or decelerations."
+      ],
+      "examples": [
+        {
+          "t": "'ASK NOT / what your COUNTRY / can DO for YOU'",
+          "m": "Rhetorical parallel stress structure"
+        },
+        {
+          "t": "'WE shall FIGHT on the BEACHES, / WE shall FIGHT on the LANDING GROUNDS'",
+          "m": "Anaphora reinforced by nuclear stress alignment"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

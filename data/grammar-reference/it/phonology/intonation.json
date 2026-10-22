@@ -1,0 +1,193 @@
+{
+  "language": "it",
+  "category": "intonation",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "intonazione_base_domande",
+      "label": "Intonazione dichiarativa e interrogativa",
+      "level": "A1",
+      "emoji": "📈",
+      "definition": "Andamento della voce nelle affermazioni e nelle domande semplici",
+      "rules": [
+        "Le frasi dichiarative terminano con un tono discendente ↘.",
+        "Le domande sì/no senza pronome interrogativo terminano con una curva ascendente ↗ sul finale."
+      ],
+      "examples": [
+        {
+          "t": "Sei italiano? ↗",
+          "m": "Domanda diretta con tono ascendente"
+        },
+        {
+          "t": "Sono italiano. ↘",
+          "m": "Affermazione con tono discendente"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_domande_aperte_esclamazioni",
+      "label": "Intonazione con pronomi interrogativi ed esclamazioni",
+      "level": "A1",
+      "emoji": "❓",
+      "definition": "Mélodie delle domande aperte (chi, dove, come, quando) e delle frasi esclamative",
+      "rules": [
+        "Nelle domande che iniziano con un pronome o avverbio interrogativo (chi, dove, come, perché), il picco d'intonazione è sul pronome e la frase scende ↘.",
+        "Nelle esclamazioni la voce sale rapidamente e poi scende con enfasi ↗↘."
+      ],
+      "examples": [
+        {
+          "t": "Dove vai? ↘, Come ti chiami? ↘",
+          "m": "Intonazione discendente nelle domande aperte"
+        },
+        {
+          "t": "Che bella giornata! ↗↘",
+          "m": "Mélodie esclamativa"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_sospensione_liste",
+      "label": "Intonazione di sospensione ed enumerazione",
+      "level": "A2",
+      "emoji": "📋",
+      "definition": "Andamento tonale nelle liste di elementi e nelle frasi sospese",
+      "rules": [
+        "Nelle enumerazioni, la voce sale leggermente su ogni elemento e scende solo sull'ultimo ↗↗↘.",
+        "Nelle proposizioni sospese o coordinate, l'intonazione rimane media per indicare che il discorso prosegue."
+      ],
+      "examples": [
+        {
+          "t": "Ho comprato pane ↗, latte ↗ e formaggio ↘.",
+          "m": "Intonazione di lista con chiusura finale"
+        },
+        {
+          "t": "Se vieni domani ↗, andiamo al mare ↘.",
+          "m": "Tono di sospensione nella proposizione ipotetica"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_alternativa_cortesia",
+      "label": "Intonazione alternativa e di cortesia",
+      "level": "A2",
+      "emoji": "☕",
+      "definition": "Andamento della voce nelle domande con scelta (o / oppure) e nelle richieste gentili",
+      "rules": [
+        "Nelle domande con scelta binaria, la voce sale sul primo elemento e scende sul secondo ↗↘.",
+        "Nelle richieste di cortesia, l'intonazione sale con una curva dolce e prolungata per ammorbidire la richiesta."
+      ],
+      "examples": [
+        {
+          "t": "Prendi un tè ↗ o un caffè ↘?",
+          "m": "Intonazione di domanda alternativa"
+        },
+        {
+          "t": "Potrebbe chiudere la finestra, per favore? ↗",
+          "m": "Intonazione di cortesia"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_espressiva_sfumature",
+      "label": "Intonazione espressiva ed enfatica",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Variazioni di altezza tonale per esprimere enfasi, sorpresa o contrasto",
+      "rules": [
+        "L'intonazione di contrasto sposta il picco d'altezza sulla parola da evidenziare.",
+        "Le domande esclamative o di sorpresa presentano un'escursione tonale più ampia e rapida."
+      ],
+      "examples": [
+        {
+          "t": "Voglio il libro ROSSO ↗, non quello blu ↘.",
+          "m": "Intonazione di contrasto sulla parola chiave"
+        },
+        {
+          "t": "Davvero l'hai fatto?! ↗💥",
+          "m": "Escursione tonale per esprimere sorpresa o incredulità"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_ironia_subordinate",
+      "label": "Intonazione dell'ironia e dei periodi complessi",
+      "level": "B1",
+      "emoji": "🎼",
+      "definition": "Variazioni intonative per l'ironia, il sarcasmo e la strutturazione di periodi articolati",
+      "rules": [
+        "L'ironia o il disaccordo velato si esprimono con un tono piattello o un rallentamento innaturale dell'intonazione.",
+        "Nelle proposizioni subordinate concessive o ipotetiche complesse, la protasi ha intonazione ascendente ↗ e l'apodosi discendente ↘."
+      ],
+      "examples": [
+        {
+          "t": "Ma bravissimo... ↘ (detto con ironia)",
+          "m": "Intonazione appiattita per esprimere ironia"
+        },
+        {
+          "t": "Sebbene piovesse a dirotto ↗, siamo usciti lo stesso ↘.",
+          "m": "Curva intonativa di periodo complesso"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_periodo_ipotetico_concessione",
+      "label": "Intonazione del periodo ipotetico del 3° tipo",
+      "level": "B2",
+      "emoji": "📐",
+      "definition": "Profili intonativi nelle frasi ipotetiche dell'impossibilità e nelle concessioni",
+      "rules": [
+        "Nelle ipotesi dell'impossibilità (congiuntivo trapassato + condizionale passato), l'intonazione sale marcatamente sulla protasi e scende sulla frase principale.",
+        "Nelle concessive introdotte da 'per quanto', 'benché', l'intonazione sospensiva segnala il contrasto imminente."
+      ],
+      "examples": [
+        {
+          "t": "Se lo avessi saputo prima ↗, non sarei venuto ↘.",
+          "m": "Intonazione del periodo ipotetico dell'impossibilità"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_argomentativa_persuasione",
+      "label": "Intonazione del discorso argomentativo",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Mododulazione intonativa nella persuasione oratoria e nel dibattito formale",
+      "rules": [
+        "Nel discorso persuasivo, la voce utilizza toni medi fermi con picchi accentuativi calibrati sulle premesse e una marcata cadenza conclusiva.",
+        "Le contrapposizioni argomentative utilizzano una modulazione alternata di toni alti e bassi."
+      ],
+      "examples": [
+        {
+          "t": "Da un lato abbiamo la tradizione ↗, dall'altro l'innovazione indispensabile ↘.",
+          "m": "Contrasto intonativo argomentativo"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonazione_recitazione_dizione",
+      "label": "Intonazione della recitazione e tono aulico",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Regolazione melodica della recitazione teatrale, della lettura poetica e del tono aulico",
+      "rules": [
+        "La recitazione teatrale classica evita le inflessioni piatte del parlato quotidiano, estendendo l'arco intonativo sull'intera frase.",
+        "Il tono aulico mantiene una sostenuta continuità tonale fino alla pausa conclusiva."
+      ],
+      "examples": [
+        {
+          "t": "Essere, o non essere, questo è il problema... ↗↘",
+          "m": "Intonazione drammatica teatrale"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

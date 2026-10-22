@@ -1,0 +1,10 @@
+{
+  "question": "Does the person still do this now?",
+  "targetStructure": "used-to",
+  "options": [
+    "No",
+    "Yes"
+  ],
+  "correctOptionIndex": 0,
+  "explanation": "'Used to' describes a past state or habit that is no longer true now."
+}

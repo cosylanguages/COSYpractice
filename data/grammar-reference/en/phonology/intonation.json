@@ -1,0 +1,201 @@
+{
+  "language": "en",
+  "category": "intonation",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "basic_intonation",
+      "label": "Rising & Falling Intonation",
+      "level": "starter",
+      "emoji": "📈",
+      "definition": "Pitch movement in statements and questions",
+      "rules": [
+        "Yes/No questions end with rising intonation ↗.",
+        "Wh- questions and statements end with falling intonation ↘."
+      ],
+      "examples": [
+        {
+          "t": "Are you ready? ↗",
+          "m": "Yes/No rising intonation"
+        },
+        {
+          "t": "Where do you live? ↘",
+          "m": "Wh- falling intonation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "connected_speech",
+      "label": "Connected Speech & Linking",
+      "level": "elementary",
+      "emoji": "🌊",
+      "definition": "Consonant-to-vowel linking in natural speech",
+      "rules": [
+        "Final consonants link smoothly to initial vowels of the next word.",
+        "Words flow together in continuous speech streams."
+      ],
+      "examples": [
+        {
+          "t": "An apple ➔ /ənæp.əl/",
+          "m": "Consonant-vowel link"
+        },
+        {
+          "t": "Stand up ➔ /stændʌp/",
+          "m": "Consonant-vowel link"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "tag_question_intonation",
+      "label": "Question Tag Intonation",
+      "level": "A2",
+      "emoji": "❓",
+      "definition": "Pitch variations determining whether a question tag asks or confirms",
+      "rules": [
+        "Falling intonation ↘ on a question tag indicates checking agreement rather than asking a genuine question.",
+        "Rising intonation ↗ on a question tag indicates a genuine request for information."
+      ],
+      "examples": [
+        {
+          "t": "It's cold today, isn't it? ↘",
+          "m": "Falling tag intonation seeking agreement"
+        },
+        {
+          "t": "You haven't seen my keys, have you? ↗",
+          "m": "Rising tag intonation asking a real question"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "choice_politeness_intonation",
+      "label": "Choice & Polite Request Intonation",
+      "level": "A2",
+      "emoji": "☕",
+      "definition": "Intonation contours in alternative questions and courteous requests",
+      "rules": [
+        "In choice questions with 'or', pitch rises on the first option and falls on the final option ↗↘.",
+        "Polite requests use a rising or fall-rising intonation to sound open and friendly rather than demanding."
+      ],
+      "examples": [
+        {
+          "t": "Would you like tea ↗ or coffee ↘?",
+          "m": "Rising on first option, falling on final choice"
+        },
+        {
+          "t": "Could you open the door, please? ↗",
+          "m": "Rising intonation for polite requests"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "contrastive_tonic_intonation",
+      "label": "Contrastive & Tonic Intonation",
+      "level": "B1",
+      "emoji": "🎯",
+      "definition": "Shifting nucleus stress and pitch contour to highlight specific information or express nuance",
+      "rules": [
+        "Moving tonic stress to non-standard words shifts contrastive focus to correct information or highlight alternatives.",
+        "Fall-rise intonation ↘↗ expresses reservation, uncertainty, or polite disagreement."
+      ],
+      "examples": [
+        {
+          "t": "I wanted RED shoes, not black. 🎯",
+          "m": "Contrastive stress on the color adjective"
+        },
+        {
+          "t": "Well, she is nice... ↘↗",
+          "m": "Fall-rise pitch expressing hesitation or qualification"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "thought_groups_parentheticals",
+      "label": "Thought Groups & Chunking",
+      "level": "B1",
+      "emoji": "🧩",
+      "definition": "Dividing speech into meaningful intonation units (thought groups) and lower pitch for parentheticals",
+      "rules": [
+        "Long sentences are broken into thought groups (intonavial phrases), with each group having its own pitch movement and pause.",
+        "Parenthetical remarks, commentary, or non-defining clauses are spoken at a lower pitch and faster tempo."
+      ],
+      "examples": [
+        {
+          "t": "If you need help ↗ / just give me a call ↘.",
+          "m": "Thought group pause between subordinate and main clause"
+        },
+        {
+          "t": "My sister, (who lives in Paris), ↘ is visiting today.",
+          "m": "Lower pitch for non-defining relative clause"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "attitudinal_intonation_nuance",
+      "label": "Attitudinal Intonation Contours",
+      "level": "B2",
+      "emoji": "🎭",
+      "definition": "Expressing subtle emotions, sarcasm, skepticism, or surprise through pitch movement",
+      "rules": [
+        "Rise-fall intonation ↗↘ expresses strong enthusiasm, approval, or dramatic emphasis.",
+        "High-fall intonation indicates finality and certainty, whereas low-rise conveys skepticism or incomplete thought."
+      ],
+      "examples": [
+        {
+          "t": "That's BRILLIANT! ↗↘",
+          "m": "Rise-fall expressing enthusiasm"
+        },
+        {
+          "t": "You think so...? ↘↗",
+          "m": "Low-rise pitch signaling skepticism"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "discourse_intonation_key",
+      "label": "Discourse Intonation & Pitch Key",
+      "level": "C1",
+      "emoji": "🎼",
+      "definition": "Structuring spoken discourse using high, mid, and low pitch keys to manage conversation flow",
+      "rules": [
+        "High pitch key initiates a new topic or contrasts with previous expectations.",
+        "Mid key maintains topic continuity, while low key signals background information or topic closure."
+      ],
+      "examples": [
+        {
+          "t": "[HIGH KEY] MOVING ON to the next point...",
+          "m": "High pitch key introducing a new discourse section"
+        },
+        {
+          "t": "[LOW KEY] as I mentioned earlier...",
+          "m": "Low pitch key for background reference"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "stylistic_rhetorical_intonation",
+      "label": "Stylistic & Rhetorical Pitch Movement",
+      "level": "C2",
+      "emoji": "📢",
+      "definition": "High-level intonational styling in formal lectures, media broadcasting, and persuasive public speech",
+      "rules": [
+        "Broadcasters and public speakers use extended pitch range and rhythmic pauses (cadence) to sustain listener engagement.",
+        "Parallel syntactic structures are mirrored intonationally to reinforce logical arguments."
+      ],
+      "examples": [
+        {
+          "t": "We shall pay ANY price ↗, bear ANY burden ↗, meet ANY hardship ↘.",
+          "m": "Parallel rising contours culminating in a conclusive fall"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

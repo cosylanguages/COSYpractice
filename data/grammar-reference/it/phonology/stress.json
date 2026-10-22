@@ -1,0 +1,193 @@
+{
+  "language": "it",
+  "category": "stress",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "accento_piane_tronche",
+      "label": "Accento tonico e parole piane e tronche",
+      "level": "A1",
+      "emoji": "🔊",
+      "definition": "La posizione principale dell'accento tonico nelle parole italiane",
+      "rules": [
+        "La maggior parte delle parole italiane è piana: l'accento cade sulla penultima sillaba.",
+        "Nelle parole tronche l'accento cade sull'ultima sillaba e l'accento grafico è obbligatorio."
+      ],
+      "examples": [
+        {
+          "t": "Cà-sa, ma-mà-na, li-brè-ria",
+          "m": "Parole piane con accento sulla penultima sillaba"
+        },
+        {
+          "t": "Caffè, città, perché, virtù",
+          "m": "Parole tronche con accento grafico sull'ultima sillaba"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accento_fonico_aperto_chiuso",
+      "label": "Accento fonico aperto e chiuso",
+      "level": "A1",
+      "emoji": "🎼",
+      "definition": "Accento grave (aperto) ed acuto (chiuso) sulle vocali E ed O",
+      "rules": [
+        "L'accento grave (è, ò) indica suono aperto [ɛ, ɔ], come in 'è' (verbo essere) o 'caffè'.",
+        "L'accento acuto (é, ó) indica suono chiuso [e, o], come in 'perché' o 'ventitré'."
+      ],
+      "examples": [
+        {
+          "t": "Lui è [ɛ] (aperto) vs Perché [e] (chiuso)",
+          "m": "Accento grave vs accento acuto su E"
+        },
+        {
+          "t": "Però [ɔ] (aperto) vs Botte [o] (chiuso)",
+          "m": "Accento aperto e chiuso su O"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "parole_sdrucciole",
+      "label": "Parole sdrucciole e bisdrucciole",
+      "level": "A2",
+      "emoji": "📐",
+      "definition": "Accento sulla terzultima o quartultima sillaba",
+      "rules": [
+        "Nelle parole sdrucciole l'accento cade sulla terzultima sillaba (es. tàvola, mòdulo).",
+        "Nelle forme verbali con pronomi clitici l'accento può cadere sulla quartultima sillaba (parole bisdrucciole)."
+      ],
+      "examples": [
+        {
+          "t": "Tà-vo-la, me-di-co, mu-si-ca",
+          "m": "Parole sdrucciole con accento sulla terzultima"
+        },
+        {
+          "t": "Pàr-la-mi-lo, por-ta-te-ce-lo",
+          "m": "Parole bisdrucciole con accento sulla quartultima"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accento_verbi_coniugati",
+      "label": "Accento nei verbi coniugati",
+      "level": "A2",
+      "emoji": "🔄",
+      "definition": "Spostamento dell'accento tonico nelle persone della coniugazione verbale",
+      "rules": [
+        "Nel presente indicativo delle prime tre persone e della 3ª plurale, l'accento cade sulla radice del verbo (es. io pàrlo, loro pàrlano).",
+        "Nelle forme della 1ª e 2ª persona plurale (noi, voi), l'accento si sposta sulla desinenza verbale (parliàmo, parlàte)."
+      ],
+      "examples": [
+        {
+          "t": "Io abìto, tu abìti, loro abìtano",
+          "m": "Accento sulla radice (sdrucciola alla 3ª plurale)"
+        },
+        {
+          "t": "Noi abitiamo, voi abitate",
+          "m": "Accento spostato sulla desinenza"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accento_differenziale",
+      "label": "Accento differenziale e omografi",
+      "level": "B1",
+      "emoji": "⚖️",
+      "definition": "Uso dell'accento per distinguere parole con diverso significato o funzione grammaticale",
+      "rules": [
+        "L'accento tonico distingue parole omografe ma non omofone (es. àncora vs ancòra).",
+        "L'accento grafico differenziale distingue monosillabi omofoni con diverse funzioni (es. dà verbo vs da preposizione, sì affermazione vs si riflessivo)."
+      ],
+      "examples": [
+        {
+          "t": "L'àncora della nave vs Non è ancòra arrivato",
+          "m": "Distinzione di significato tramite posizione dell'accento"
+        },
+        {
+          "t": "Lui mi dà un libro vs Viene da Roma",
+          "m": "Accento grafico differenziale su monosillabi"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "raddoppiamento_fonosintattico",
+      "label": "Raddoppiamento fonosintattico",
+      "level": "B1",
+      "emoji": "⚡",
+      "definition": "Raddoppiamento della consonante iniziale della parola seguente nella pronuncia",
+      "rules": [
+        "Nella pronuncia parlata standard, dopo una parola tronca accentata (città, perché) o dopo alcuni monosillabi forti (a, da, che, e, o, ma, già, più), la consonante iniziale della parola successiva viene raddoppiata.",
+        "Questo fenomeno è automatico ed essenziale per il ritmo naturale della frase."
+      ],
+      "examples": [
+        {
+          "t": "Andiamo a casa ➔ /anˈdjaːmo ak ˈkaːsa/",
+          "m": "Raddoppiamento dopo la preposizione 'a'"
+        },
+        {
+          "t": "Città pulita ➔ /tʃitˈta ppulˈliːta/, Più bello ➔ /pju bˈbɛllo/",
+          "m": "Raddoppiamento dopo parola tronca o monosillabo forte"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "evitamento_scontro_accenti",
+      "label": "Retrazione dell'accento e ritmo",
+      "level": "B2",
+      "emoji": "🔄",
+      "definition": "Fenomeno di spostamento retrogrado dell'accento per evitare lo scontro accentuativo",
+      "rules": [
+        "Quando due sillabe toniche si trovano in adiacenza immediata (es. farà béne), l'accento della prima parola può arretrare per mantenere l'isocronia ritmica.",
+        "Il ritmo della frase italiana tende ad alternare con regolarità le sillabe forti (toniche) e deboli (atone)."
+      ],
+      "examples": [
+        {
+          "t": "Farà bene ➔ /FÀra bene/ (retrazione accentuativa)",
+          "m": "Arretramento dell'accento per evitare scontro tonico"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "prosodia_oratoria_cadenza",
+      "label": "Prosodia oratoria e cadenza ritmica",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Struttura prosodica del discorso formale, persuasivo e accademico",
+      "rules": [
+        "La prosodia oratoria italiana organizza il discorso in unita intonative bilanciate (isocronia dei gruppi ritmici).",
+        "L'enfasi oratoria si ottiene rallentando la dizione sulla parola chiave e distanziando le sillabe toniche."
+      ],
+      "examples": [
+        {
+          "t": "È un dovere FONDAMENTALE ↗ / per la nostra COMUNITÀ. ↘",
+          "m": "Bilanciamento prosodico del discorso solenne"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "metrica_letteraria_prosodia",
+      "label": "Metrica e prosodia poetica italiana",
+      "level": "C2",
+      "emoji": "📜",
+      "definition": "Accentuazione e struttura metrica del verso italiano (endecasillabo e sinalefe)",
+      "rules": [
+        "L'endecasillabo è il verso principe della poesia italiana, con accento principale obbligatorio sulla decima sillaba e accenti secondari sulla 4ª o 6ª.",
+        "La sinalefe fonde la vocale finale di una parola con la vocale iniziale della successiva in un'unica sillaba metrica."
+      ],
+      "examples": [
+        {
+          "t": "Nel mezzo del cammin di nostra vita (accenti su 4ª, 7ª, 10ª)",
+          "m": "Endecasillabo dantesco"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

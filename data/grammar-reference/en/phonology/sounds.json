@@ -1,0 +1,322 @@
+{
+  "language": "en",
+  "category": "sounds",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "vowels_consonants",
+      "label": "Vowels & Consonants",
+      "level": "starter",
+      "emoji": "🔤",
+      "definition": "Core phoneme system of English",
+      "rules": [
+        "English has 5 vowel letters (A, E, I, O, U) representing 20 distinct vowel sounds.",
+        "Consonants can be voiced or unvoiced."
+      ],
+      "examples": [
+        {
+          "t": "Ship /ɪ/ vs Sheep /iː/",
+          "m": "Short vs long vowel"
+        },
+        {
+          "t": "Think /θ/ vs This /ð/",
+          "m": "Unvoiced vs voiced dental fricative"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "magic_e_rule",
+      "label": "The Silent-E / Magic-E Rule",
+      "level": "A1",
+      "emoji": "🪄",
+      "definition": "A single silent e at the end of a word changes the preceding short vowel into a long vowel that says its letter name",
+      "rules": [
+        "When a word ends in vowel + consonant + silent e (VCE pattern), the final e is unpronounced.",
+        "The silent e makes the preceding vowel long (it 'says its name'): a➔/eɪ/, i➔/aɪ/, o➔/əʊ/ or /oʊ/, u➔/juː/ or /uː/."
+      ],
+      "examples": [
+        {
+          "t": "Kit /kɪt/ ➔ Kite /kaɪt/",
+          "m": "Short /ɪ/ becomes long /aɪ/"
+        },
+        {
+          "t": "Hop /hɒp/ ➔ Hope /həʊp/, Cut /kʌt/ ➔ Cute /kjuːt/",
+          "m": "Short /ɒ/ and /ʌ/ become long /əʊ/ and /juː/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonant_digraphs",
+      "label": "Common Consonant Digraphs",
+      "level": "A1",
+      "emoji": "🧩",
+      "definition": "Two consonant letters written together that make a single new consonant sound",
+      "rules": [
+        "SH makes the /ʃ/ sound (shoe, shop, fish).",
+        "CH makes the /ʧ/ sound (chair, cheese, watch).",
+        "PH makes the /f/ sound (phone, photo, elephant).",
+        "WH makes the /w/ sound (white, wheel) or /h/ sound (who, whole).",
+        "NG makes the /ŋ/ nasal sound at the end of syllables (sing, long, English)."
+      ],
+      "examples": [
+        {
+          "t": "Shop /ʃɒp/, Chair /ʧeə(r)/, Phone /fəʊn/",
+          "m": "Digraphs SH /ʃ/, CH /ʧ/, PH /f/"
+        },
+        {
+          "t": "White /waɪt/, Song /sɒŋ/",
+          "m": "Digraphs WH /w/ and NG /ŋ/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "silent_letters",
+      "label": "Silent Letters",
+      "level": "starter",
+      "emoji": "🔇",
+      "definition": "Unpronounced letters in common words",
+      "rules": [
+        "Silent K in know, knee, knife.",
+        "Silent L in listen, talk, walk, half.",
+        "Silent W in write, answer, wrong.",
+        "Silent B in climb, comb."
+      ],
+      "examples": [
+        {
+          "t": "I know the answer.",
+          "m": "Silent K and W"
+        },
+        {
+          "t": "Listen to the music.",
+          "m": "Silent T"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "ed_s_endings",
+      "label": "Pronunciation of -ed and -s Endings",
+      "level": "A1",
+      "emoji": "🔀",
+      "definition": "Pronunciation rules for regular past tense -ed and plural/verb -s endings",
+      "rules": [
+        "-ed is pronounced /ɪd/ after /t/ or /d/ (wanted, needed), /t/ after unvoiced sounds (worked, stopped), and /d/ after voiced sounds (played, lived).",
+        "-s / -es is pronounced /ɪz/ after sibilants /s, z, ʃ, ʧ, ʤ/ (buses, watches), /s/ after unvoiced sounds (cats, books), and /z/ after voiced sounds (dogs, runs)."
+      ],
+      "examples": [
+        {
+          "t": "Wanted /ɪd/, Worked /t/, Played /d/",
+          "m": "Three pronunciations of -ed"
+        },
+        {
+          "t": "Cats /s/, Dogs /z/, Buses /ɪz/",
+          "m": "Three pronunciations of -s"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "r_controlled_vowels",
+      "label": "R-Controlled Vowels",
+      "level": "A2",
+      "emoji": "🌀",
+      "definition": "Vowel sounds modified and controlled by a following letter R",
+      "rules": [
+        "When a vowel is followed by R, the letter R changes the vowel sound into a distinct r-controlled vowel.",
+        "AR makes /ɑː/ or /ɑːr/ (car, star, park). OR makes /ɔː/ or /ɔːr/ (for, born, short).",
+        "ER, IR, UR blend into the same /ɜː/ or /ɜːr/ sound (her, bird, turn). AIR and EAR form vowel glides (fair /feə(r)/, near /nɪə(r)/)."
+      ],
+      "examples": [
+        {
+          "t": "Car /kɑː(r)/, For /fɔː(r)/",
+          "m": "R-controlled AR /ɑː/ and OR /ɔː/"
+        },
+        {
+          "t": "Bird /bɜːd/, Turn /tɜːn/, Fair /feə(r)/",
+          "m": "R-controlled IR/UR /ɜː/ and AIR /eə/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "diphthongs_vowel_length",
+      "label": "Diphthongs & Vowel Duration",
+      "level": "A2",
+      "emoji": "🎵",
+      "definition": "Gliding vowel sounds and vowel length before voiced consonants",
+      "rules": [
+        "Diphthongs move from one vowel sound to another within the same syllable (e.g. /eɪ/, /aɪ/, /əʊ/, /aʊ/).",
+        "Vowels are pronounced slightly longer before voiced consonants (e.g., bad /bæːd/) than before voiceless ones (e.g., bat /bæt/)."
+      ],
+      "examples": [
+        {
+          "t": "Play /pleɪ/, Time /taɪm/, Home /hoʊm/",
+          "m": "Diphthong glides"
+        },
+        {
+          "t": "Cap /kæp/ vs Cab /kæːb/",
+          "m": "Vowel shortening before voiceless /p/ vs lengthening before voiced /b/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "glottal_stop_assimilation",
+      "label": "Glottal Stop & Consonant Assimilation",
+      "level": "A2",
+      "emoji": "✂️",
+      "definition": "Glottal replacement of /t/ and sound fusion across word boundaries",
+      "rules": [
+        "Final /t/ is frequently replaced or reinforced by a glottal stop /ʔ/ before consonants or in casual speech (e.g. cat food /kæʔ fʊd/).",
+        "Assimilation occurs when sounds blend across word boundaries, such as /t/ + /j/ becoming /ʧ/ (would you ➔ /wʊdʒuː/)."
+      ],
+      "examples": [
+        {
+          "t": "Football ➔ /ˈfʊʔbɔːl/, Not now ➔ /nɒʔ naʊ/",
+          "m": "Glottal stop replacement of final /t/"
+        },
+        {
+          "t": "Nice to meet you ➔ /miːtʃuː/",
+          "m": "Assimilation of /t/ and /j/"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "tion_sion_cian_endings",
+      "label": "Suffix Sound Shifts: -tion, -sion, -cian",
+      "level": "B1",
+      "emoji": "🗣️",
+      "definition": "Pronunciation of suffix endings -tion, -sion, and -cian as /ʃən/ or /ʒən/",
+      "rules": [
+        "-tion and -cian are pronounced /ʃən/ (nation /ˈneɪʃən/, musician /mjuːˈzɪʃən/).",
+        "-sion is pronounced /ʃən/ after consonants (discussion /dɪˈskʌʃən/) and /ʒən/ after vowels (vision /ˈvɪʒən/, decision /dɪˈsɪʒən/).",
+        "Stress falls on the syllable immediately preceding these suffixes."
+      ],
+      "examples": [
+        {
+          "t": "Nation /ˈneɪʃən/, Musician /mjuːˈzɪʃən/",
+          "m": "-tion and -cian pronounced /ʃən/"
+        },
+        {
+          "t": "Discussion /dɪˈskʌʃən/ vs Vision /ˈvɪʒən/",
+          "m": "-sion pronounced /ʃən/ after consonant vs /ʒən/ after vowel"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonant_clusters_elision",
+      "label": "Consonant Clusters & Elision",
+      "level": "B1",
+      "emoji": "⚡",
+      "definition": "Complex consonant combinations and sound dropping in natural speech",
+      "rules": [
+        "Consonant clusters occur when two or three consonants appear together without intervening vowels (e.g., /str/, /kts/).",
+        "Elision involves dropping weak sounds (like /t/ or /d/) in rapid speech when flanked by other consonants."
+      ],
+      "examples": [
+        {
+          "t": "Street /striːt/, Texts /teksts/",
+          "m": "Initial and final consonant clusters"
+        },
+        {
+          "t": "Next door ➔ /neks dɔːr/, Last night ➔ /lɑːs naɪt/",
+          "m": "Elision of final /t/ before another consonant"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "weak_strong_forms_intrusion",
+      "label": "Weak Forms & Linking Intrusion",
+      "level": "B1",
+      "emoji": "🔗",
+      "definition": "Weak pronunciation of structural words and intrusive linking sounds /r, w, j/",
+      "rules": [
+        "Function words (auxiliaries, prepositions, articles) use weak schwa forms in connected speech, switching to strong forms only for emphasis.",
+        "When a word ending in a vowel meets a word beginning with a vowel, intrusive /r/, /w/, or /j/ glides link them smoothly."
+      ],
+      "examples": [
+        {
+          "t": "Fish and chips ➔ /fɪʃ ən ʧɪps/, Must go ➔ /məs ɡəʊ/",
+          "m": "Weak form of 'and' and 'must'"
+        },
+        {
+          "t": "Go away ➔ /ɡəʊ ʷ əˈweɪ/, Media event ➔ /ˈmiːdiə ʳ ɪˈvent/",
+          "m": "Intrusive /w/ and /r/ linking glides"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "coarticulation_epenthesis",
+      "label": "Coarticulation & Epenthesis",
+      "level": "B2",
+      "emoji": "🔬",
+      "definition": "Advanced articulatory overlap and sound insertion in fluid continuous speech",
+      "rules": [
+        "Coarticulation causes neighboring phonetic segments to adjust their place or manner of articulation simultaneously (e.g., labialization of consonants before /w/ or /uː/).",
+        "Epenthesis inserts a brief transitional consonant sound, such as inserting a subtle /p/ between /m/ and /t/ in 'warmth' /wɔːmpθ/."
+      ],
+      "examples": [
+        {
+          "t": "Warmth /wɔːmpθ/, Something /ˈsʌmpθɪŋ/",
+          "m": "Epenthetic /p/ insertion"
+        },
+        {
+          "t": "Ten bags ➔ /tem bæɡz/, Good boy ➔ /ɡʊb bɔɪ/",
+          "m": "Place assimilation in fluent coarticulation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "sociolinguistic_phonetics_accents",
+      "label": "Sociolinguistic Phonetic Variation",
+      "level": "C1",
+      "emoji": "🌐",
+      "definition": "Phonetic shifts across major regional accents and sociolinguistic registers",
+      "rules": [
+        "Systematic phonetic contrasts separate major international standards, such as rhoticity in General American vs non-rhotic Received Pronunciation.",
+        "Vowel shifts like the TRAP-BATH split in Southern British English contrast short /æ/ in 'cat' with broad /ɑː/ in 'dance' and 'path'."
+      ],
+      "examples": [
+        {
+          "t": "Car: RP /kɑː/ (non-rhotic) vs GA /kɑːr/ (rhotic)",
+          "m": "Rhoticity contrast"
+        },
+        {
+          "t": "Dance: RP /dɑːns/ vs GA /dæns/",
+          "m": "TRAP-BATH vowel split"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "phonological_stylistics_metrics",
+      "label": "Phonological Stylistics & Aesthetics",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Articulatory aesthetics, sound symbolism, alliteration, and metrical structures in formal speech",
+      "rules": [
+        "Phonological stylistics analyzes how acoustic properties (euphony, cacophony, sibilance) create emotional texture in literature and public rhetoric.",
+        "Metrical cadence in formal English depends on regular stress feet (iambs, trochees, dactyls) balancing spoken energy."
+      ],
+      "examples": [
+        {
+          "t": "Soft sibilance: 'Silently Slipped the Silver Serpent'",
+          "m": "Sibilant alliteration creating acoustic texture"
+        },
+        {
+          "t": "Iambic cadence: 'To BE or NOT to BE'",
+          "m": "Regular alternating stress feet"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

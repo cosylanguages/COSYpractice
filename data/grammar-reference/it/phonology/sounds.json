@@ -1,0 +1,197 @@
+{
+  "language": "it",
+  "category": "sounds",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "vocali_e_consonanti",
+      "label": "Vocali e consonanti italiane",
+      "level": "A1",
+      "emoji": "🔤",
+      "definition": "I suoni base dell'alfabeto e della pronuncia italiana",
+      "rules": [
+        "L'italiano ha 7 suoni vocalici tonici (a, e aperta/chiusa, i, o aperta/chiusa, u).",
+        "Ogni lettera scritta corrisponde quasi sempre a un singolo suono chiaro."
+      ],
+      "examples": [
+        {
+          "t": "Caffè /ɛ/ aperto vs Peré /e/ chiuso",
+          "m": "Distinzione tra E aperta ed E chiusa"
+        },
+        {
+          "t": "Casa, sole, mare",
+          "m": "Pronuncia limpida delle vocali italiane"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "pronuncia_s_z_h_muta",
+      "label": "Pronuncia di S, Z e H muta",
+      "level": "A1",
+      "emoji": "🔠",
+      "definition": "Regole di pronuncia per la S sorda/sonora, la Z sorda/sonora e la H muta",
+      "rules": [
+        "La S è sorda [s] a inizio parola prima di vocale (sole), sonora [z] tra due vocali (rosa, casa).",
+        "La H è sempre totalmente muta in italiano (hanno, hotel) e serve solo a indurire C e G o a distinguere forme verbali."
+      ],
+      "examples": [
+        {
+          "t": "Sole [s] vs Rosa [z]",
+          "m": "S sorda all'inizio vs S sonora intervocalica"
+        },
+        {
+          "t": "Ho [o], hanno [anno], hotel [otel]",
+          "m": "H totalmente muta"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "consonanti_doppie",
+      "label": "Consonanti doppie (Geminate)",
+      "level": "A2",
+      "emoji": "👯",
+      "definition": "La differenza di durata e forza tra consonanti scempie e doppie",
+      "rules": [
+        "Le consonanti doppie si pronunciano con maggiore durata e un'interruzione di pressione dell'aria.",
+        "La presenza della doppia consone può cambiare completamente il significato della parola."
+      ],
+      "examples": [
+        {
+          "t": "Pala /pala/ vs Palla /palːa/",
+          "m": "Consonante semplice vs consonante doppia"
+        },
+        {
+          "t": "Cano /vano/ vs Canno /anno/, Note vs Notte",
+          "m": "Opposizione fonologica e di significato"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "gruppi_sc_dittonghi_iati",
+      "label": "Gruppo SC, dittonghi e iati",
+      "level": "A2",
+      "emoji": "🧩",
+      "definition": "Pronuncia del gruppo SC e articolazione di dittonghi e iati",
+      "rules": [
+        "Il gruppo SC ha suono dolce [ʃ] davanti ad E e I (scena, sciare) e suono duro [sk] davanti ad A, O, U, H (scala, scheda).",
+        "Un dittongo unisce due vocali in una sola sillaba (piede, uomo), mentre lo iato separa due vocali in due sillabe distinte (pa-u-ra, po-e-ta)."
+      ],
+      "examples": [
+        {
+          "t": "Pesce [peʃʃe] vs Pesca [peska]",
+          "m": "SC dolce vs SC duro"
+        },
+        {
+          "t": "Piede [pje-de] (dittongo) vs Paura [pa-u-ra] (iato)",
+          "m": "Dittongo vs iato"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "suoni_dolci_duri_c_g",
+      "label": "Suoni dolci e duri di C, G e gruppi speciali",
+      "level": "B1",
+      "emoji": "🔍",
+      "definition": "La pronuncia di C e G davanti alle vocali e i suoni di GN e GLI",
+      "rules": [
+        "Le lettere C e G hanno suono duro [k, g] davanti ad A, O, U e davanti alla H (chi, ghi).",
+        "Le lettere C e G hanno suono dolce [ʧ, ʤ] davanti ad E, I. Il gruppo GLI ha suono palatale [ʎ] e GN ha suono palatale [ɲ]."
+      ],
+      "examples": [
+        {
+          "t": "Ciao /ʧao/, Giro /ʤiro/ vs Chianti /kianti/, Gatto /gatto/",
+          "m": "Suono dolce vs suono duro di C e G"
+        },
+        {
+          "t": "Famiglia /famiʎa/, Legno /leɲo/",
+          "m": "Pronuncia palatale dei gruppi GLI e GN"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "assimilazione_intrinsecamente_doppie",
+      "label": "Consonanti intrinsecamente intense",
+      "level": "B1",
+      "emoji": "⚡",
+      "definition": "Consonanti che nella pronuncia standard tra vocali sono sempre intense (doppie)",
+      "rules": [
+        "In posizione intervocalica, i suoni [ʃ] (sc+i/e), [ɲ] (gn), [ʎ] (gli), [ʦ/ʣ] (z) si pronunciano sempre come consonanti intense o doppie.",
+        "Le parole con il suffisso -zione si pronunciano sempre con la Z intensa [tːs] (es. stazione /statːsjoːne/)."
+      ],
+      "examples": [
+        {
+          "t": "Piscina [piʃˈʃiːna], Ogni [ˈoɲɲi]",
+          "m": "Pronuncia intensa intervocalica di SC e GN"
+        },
+        {
+          "t": "Stazione [statːsjoːne], Azione [atːsjoːne]",
+          "m": "Z intensa nei suffissi in -zione"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "varianti_regionali_dizione_neutra",
+      "label": "Varianti regionali e dizione neutra",
+      "level": "B2",
+      "emoji": "🌐",
+      "definition": "Differenze fonetiche tra italiano neutro da dizione e italiano parlato regionale",
+      "rules": [
+        "L'italiano neutro (standard ortoepico) distingue la E ed O aperta/chiusa secondo la norma tradizionale (es. pésca frutto vs pèsca azione).",
+        "Le varianti regionali (settentrionale, centrale, meridionale) presentano sonorizzazioni della S intervocalica o gorgia toscana."
+      ],
+      "examples": [
+        {
+          "t": "Pésca (atto di pescare) vs Pèsca (frutto)",
+          "m": "Opposizione fonematica di dizione neutra"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "assimilazione_fonetica_regolativa",
+      "label": "Assimilazione fonetica in sintagmi",
+      "level": "C1",
+      "emoji": "🔬",
+      "definition": "Fenomeni di assimilazione consonantica regrediente nella catena parlata",
+      "rules": [
+        "Il prefisso in- o con- assimila la nasale /n/ in bilabiale /m/ davanti a consonanti bilabiali [p, b, m] (es. in+possibile ➔ impossibile).",
+        "La nasale n si dentalizza o velarizza davanti a consonanti velari [k, g] (es. banca /baŋka/)."
+      ],
+      "examples": [
+        {
+          "t": "In- + possibile ➔ Impossibile [imposˈsiːbile]",
+          "m": "Assimilazione bilabiale della nasale"
+        },
+        {
+          "t": "Banca [ˈbaŋka], Con Marco [kom ˈmarko]",
+          "m": "Assimilazione velare e labiale nel parlato continuo"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "ortoepia_fonetica_letteraria",
+      "label": "Ortoepia e fonetica letteraria",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Regole tradizionali dell'ortoepia classica e dizione teatrale italiana",
+      "rules": [
+        "L'ortoepia classica stabilisce la corretta apertura vocalica nel vocabolario colto e l'eliminazione dei regionalismi espressivi.",
+        "Nella recitazione classica si mantiene il rigore delle consonanti geminate e la chiarezza dei timbri vocalici."
+      ],
+      "examples": [
+        {
+          "t": "Scienza [ˈʃɛntsa] con E aperta e Z intensa",
+          "m": "Pronuncia ortoepica classica"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

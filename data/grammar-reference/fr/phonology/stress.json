@@ -1,0 +1,193 @@
+{
+  "language": "fr",
+  "category": "stress",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "accent_de_groupe",
+      "label": "Accent tonique de groupe",
+      "level": "A1",
+      "emoji": "🔊",
+      "definition": "L'accentuation de la dernière syllabe du groupe rythmique en français",
+      "rules": [
+        "En français, l'accent n'est pas fixe sur les mots isolés, mais porte sur la dernière syllabe du groupe de mots (groupe rythmique).",
+        "La dernière syllabe accentuée est légèrement plus longue et plus haute."
+      ],
+      "examples": [
+        {
+          "t": "Un chat ➔ un CHAT",
+          "m": "Accent sur la syllabe unique"
+        },
+        {
+          "t": "Un petit chat noir ➔ un petit chat NOIR",
+          "m": "Accent sur la dernière syllabe du groupe rythmique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "syllabation_ouverte",
+      "label": "Syllabation ouverte et découpage",
+      "level": "A1",
+      "emoji": "✂️",
+      "definition": "Tendance du français à découper les mots en syllabes ouvertes (terminées par une voyelle)",
+      "rules": [
+        "Le français privilégie les syllabes ouvertes qui se terminent par un son voyelle (Consonne + Voyelle / CV-CV).",
+        "Dans la phrase liée, la consonne finale d'un mot s'attache à la voyelle initiale du mot suivant pour former une nouvelle syllabe."
+      ],
+      "examples": [
+        {
+          "t": "Cinéma ➔ ci-né-ma (CV-CV-CV)",
+          "m": "Découpage en syllabes ouvertes"
+        },
+        {
+          "t": "Il habite à Paris ➔ i-la-bi-ta-pa-ri",
+          "m": "Syllabation ouverte continue dans la phrase"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accent_insistance",
+      "label": "Accent d'insistance",
+      "level": "A2",
+      "emoji": "💥",
+      "definition": "Accent expressif placé en début de mot pour marquer l'émotion ou le contraste",
+      "rules": [
+        "L'accent d'insistance frappe la première ou deuxième syllabe d'un mot pour exprimer un sentiment fort ou une opposition.",
+        "Il s'ajoute à l'accent tonique normal qui reste à la fin du groupe rythmique."
+      ],
+      "examples": [
+        {
+          "t": "C'est FORmidable ! 💥",
+          "m": "Accent d'insistance sur la première syllabe d'un adjectif"
+        },
+        {
+          "t": "C'est ABsolument interdit. 💥",
+          "m": "Insistance expressive sur l'adverbe"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "allongement_syllabique",
+      "label": "Allongement de la syllabe accentuée",
+      "level": "A2",
+      "emoji": "⏳",
+      "definition": "Durée prolongée de la voyelle dans la dernière syllabe accentuée du groupe",
+      "rules": [
+        "La dernière voyelle d'un groupe rythmique s'allonge particulièrement si elle est suivie d'une consonne allongeante ([v], [z], [ʒ], [ʁ] ou [vʁ]).",
+        "L'allongement syllabique sert de signal acoustique de fin de groupe ou de fin de phrase."
+      ],
+      "examples": [
+        {
+          "t": "Une belle chaise ➔ /ʃɛːz/",
+          "m": "Allongement devant [z]"
+        },
+        {
+          "t": "Il arrive ➔ /aʁiːv/",
+          "m": "Allongement devant [v]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accentuation_rythme_phrase",
+      "label": "Rythme et groupes d'intonation",
+      "level": "B1",
+      "emoji": "📊",
+      "definition": "Organisation de la phrase complexe en unités rythmiques équilibrées",
+      "rules": [
+        "Les phrases longues se découpent en plusieurs groupes rythmiques de 3 à 7 syllabes.",
+        "Chaque groupe rythmique se termine par une syllabe accentuée qui porte une montée ou une descente mélodique."
+      ],
+      "examples": [
+        {
+          "t": "Quand j'étais petit ↗ / j'habitais à Paris. ↘",
+          "m": "Découpage en deux groupes rythmiques avec accent de fin de groupe"
+        },
+        {
+          "t": "Si vous voulez réussir ↗ / il faut pratiquer régulièrement. ↘",
+          "m": "Régularité des groupes rythmiques dans une phrase complexe"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accentuation_mise_en_relief",
+      "label": "Accent de mise en relief et césure",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Mise en valeur d'un élément d'information par focalisation et pause rythmique",
+      "rules": [
+        "La mise en relief (ex. 'C'est... qui/que', 'Moi, je...') crée un groupe rythmique autonome avec son propre accent principal.",
+        "La pause (césure) après un élément focalisé permet de détacher l'information importante."
+      ],
+      "examples": [
+        {
+          "t": "C'est PIERRE ↗ / qui a gagné le concours. ↘",
+          "m": "Accentuation du sujet mis en relief"
+        },
+        {
+          "t": "Moi ↗ / je ne suis pas d'accord. ↘",
+          "m": "Détachement et accent du pronom tonique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "accent_didactique_intellectuel",
+      "label": "Accent d'insistance intellectuel et didactique",
+      "level": "B2",
+      "emoji": "💡",
+      "definition": "Accentuation de la première consonne pour contraster des concepts scientifiques ou argumentatifs",
+      "rules": [
+        "Dans l'argumentation ou la conférence, l'accent d'insistance didactique frappe la première consonne du mot pour faire ressortir une opposition conceptuelle.",
+        "Il se distingue de l'accent d'insistance affectif par sa brièveté et sa clarté consonantique."
+      ],
+      "examples": [
+        {
+          "t": "Il ne s'agit pas de SIMplifier ↗, mais de CLARifier. ↘",
+          "m": "Accent didactique sur les consonnes initiales [s] et [kl]"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "rythme_oratoire_pauses",
+      "label": "Cadence oratoire et équilibre rythmique",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Structuration rythmique binaire ou ternaire du discours formel et oratoire",
+      "rules": [
+        "Le discours oratoire s'appuie sur le rythme binaire (période à deux membres) ou ternaire (trois éléments d'égale durée syllabique).",
+        "Les pauses breath-group (pauses respiratoires) s'insèrent aux frontières majeures de propositions."
+      ],
+      "examples": [
+        {
+          "t": "Je suis venu ↗, j'ai vu ↗, j'ai vaincu. ↘",
+          "m": "Cadence ternaire classique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "versification_metrique_prosodie",
+      "label": "Versification et prosodie poétique",
+      "level": "C2",
+      "emoji": "📜",
+      "definition": "Règles prosodiques de la versification classique française (alexandrin et césure)",
+      "rules": [
+        "L'alexandrin est un vers de 12 syllabes articulé en deux hémistiches de 6 syllabes séparés par une césure.",
+        "Le 'e' muet compte pour une syllabe devant une consonne et s'élide devant une voyelle ou en fin de vers."
+      ],
+      "examples": [
+        {
+          "t": "Toujours aimer, / toujours souffrir, / toujours mourir. (6 / 6)",
+          "m": "Alexandrin avec césure à l'hémistiche"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}

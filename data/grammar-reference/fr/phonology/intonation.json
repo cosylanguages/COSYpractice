@@ -1,0 +1,193 @@
+{
+  "language": "fr",
+  "category": "intonation",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "intonation_base",
+      "label": "Intonation de base",
+      "level": "A1",
+      "emoji": "📈",
+      "definition": "Mouvement de la voix dans les déclarations et les questions simples",
+      "rules": [
+        "Les phrases déclaratives et les questions avec mot interrogatif se terminent par une intonation descendante ↘.",
+        "Les questions fermées (auxquelles on répond par oui ou non) utilisent une intonation montante ↗."
+      ],
+      "examples": [
+        {
+          "t": "Tu viens demain ? ↗",
+          "m": "Question fermée à intonation montante"
+        },
+        {
+          "t": "Où vas-tu ? ↘ / Je vais au marché. ↘",
+          "m": "Question ouverte et affirmation à intonation descendante"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_questions_est_ce_que",
+      "label": "Intonation des questions structurées",
+      "level": "A1",
+      "emoji": "❓",
+      "definition": "Mélodie des questions avec « est-ce que » et avec inversion du sujet",
+      "rules": [
+        "Dans les questions avec « est-ce que », la voix monte sur « est-ce que » puis remonte en fin de phrase.",
+        "Dans les questions avec inversion (ex. Vient-il ?), le sommet mélodique se situe sur le verbe inversé."
+      ],
+      "examples": [
+        {
+          "t": "Est-ce que tu as faim ? ↗",
+          "m": "Mélodie de la question avec est-ce que"
+        },
+        {
+          "t": "Comprenez-vous cette règle ? ↗",
+          "m": "Mélodie de la question avec inversion"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "liaison_enchainement",
+      "label": "Liaisons et enchaînements",
+      "level": "A2",
+      "emoji": "🔗",
+      "definition": "Continuité du son entre les mots dans la parole liée",
+      "rules": [
+        "La liaison consiste à prononcer une consonne finale habituellement muette devant une voyelle (ex. les_amis /lezami/).",
+        "L'enchaînement vocalique ou consonantique relie naturellement la consonne finale prononcée au mot suivant sans pause."
+      ],
+      "examples": [
+        {
+          "t": "Un petit_enfant /pətitɑ̃fɑ̃/, des_univerités /dezynivɛʁsite/",
+          "m": "Liaison obligatoire après un déterminant ou un adjectif"
+        },
+        {
+          "t": "Elle habite à Paris /ɛlabitapari/",
+          "m": "Enchaînement consonantique continu"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "liaisons_obligatoires_interdites",
+      "label": "Liaisons obligatoires vs interdites",
+      "level": "A2",
+      "emoji": "🚫",
+      "definition": "Règles strictes régissant la présence ou l'absence de liaison en français",
+      "rules": [
+        "La liaison est obligatoire entre le déterminant et le nom (les_enfants), le pronom et le verbe (ils_ont) ou l'adjectif et le nom (grand_arbre).",
+        "La liaison est interdite après la conjonction 'et', après un nom au singulier (un enfant // adorable) et devant le H aspiré (les // héros)."
+      ],
+      "examples": [
+        {
+          "t": "Ils_ont deux_amis. (Liaisons obligatoires)",
+          "m": "Exemples de liaisons obligatoires"
+        },
+        {
+          "t": "Un homme et // une femme ; Des // héros. (Liaisons interdites)",
+          "m": "Exemples de liaisons interdites"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_nuances_et_modalites",
+      "label": "Intonation expressive et nuances",
+      "level": "B1",
+      "emoji": "🎭",
+      "definition": "Mouvements intonatifs exprimant le doute, la surprise, l'ironie ou la politesse",
+      "rules": [
+        "L'intonation de doute ou d'hésitation utilise un ton soutenu ou légèrement montant-descendant.",
+        "L'intonation de politesse ou d'atténuation adoucit la fin de phrase par une courbe descendante douce."
+      ],
+      "examples": [
+        {
+          "t": "Ah bon ? Vous croyez ? ↗↘",
+          "m": "Mouvement intonatif exprimant le doute ou l'étonnement"
+        },
+        {
+          "t": "Pourriez-vous m'aider, s'il vous plaît ? ↗",
+          "m": "Intonation adoucie pour une demande polie"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "enchainement_et_schema_subordination",
+      "label": "Mélodie des subordinations et parenthèses",
+      "level": "B1",
+      "emoji": "🎼",
+      "definition": "Schéma intonatif des phrases complexes avec propositions subordonnées",
+      "rules": [
+        "La proposition subordonnée placée en tête de phrase se termine par une montée mélodique (continuité ↗), suivie d'une descente sur la principale (conclusion ↘).",
+        "Les incises et parenthèses se prononcent sur un registre de voix plus bas et plus rapide."
+      ],
+      "examples": [
+        {
+          "t": "Bien qu'il fasse froid ↗, nous sommes sortis nous promener. ↘",
+          "m": "Schéma mélodique montée/descente d'une phrase subordonnée"
+        },
+        {
+          "t": "Cette solution, (pensa-t-il), ↘ était la meilleure.",
+          "m": "Registre bas pour l'incise"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_ironie_sarcasme",
+      "label": "Intonation de l'ironie et du sarcasme",
+      "level": "B2",
+      "emoji": "😏",
+      "definition": "Contours mélodiques caractérisant le second degré et le sous-entendu",
+      "rules": [
+        "L'ironie se caractérise par une mélodie exagérément amplifiée ou au contraire un ton monocorde et plat.",
+        "L'allongement de la voyelle accentuée associé à un ton montant-descendant signale l'intention sarcastique."
+      ],
+      "examples": [
+        {
+          "t": "C'est vraiment... charmant ! ↗↘ (ironique)",
+          "m": "Allongement et mélodie sarcastique"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_oratoire_concession",
+      "label": "Intonation oratoire et argumentative",
+      "level": "C1",
+      "emoji": "🏛️",
+      "definition": "Schémas intonatifs pour la concession, la réfutation et le débat d'idées",
+      "rules": [
+        "La concession (ex. 'Certes...') adopte une courbe descendante ferme, suivie immédiatement d'une reprise montante sur la contre-argumentation ('mais...').",
+        "La réfutation s'appuie sur une hausse de hauteur tonale (tonique élevée) sur le connecteur d'opposition."
+      ],
+      "examples": [
+        {
+          "t": "Certes, le projet est coûteux ↘ ; MAIS il est indispensable. ↗",
+          "m": "Schéma intonatif de concession et réfutation"
+        }
+      ],
+      "practice_links": null
+    },
+    {
+      "id": "intonation_style_litteraire_diction",
+      "label": "Mélodie de la diction littéraire et théâtrale",
+      "level": "C2",
+      "emoji": "🎭",
+      "definition": "Prosodie supérieure de la lecture publique, de la déclamation et du discours académique",
+      "rules": [
+        "La diction poétique et académique s'appuie sur une amplitude mélodique contrôlée, évitant les chutes tonales abruptes.",
+        "Le maintien d'un registre médium soutenu préserve l'équilibre esthétique des grandes périodes de la prose littéraire."
+      ],
+      "examples": [
+        {
+          "t": "Longtemps, je me suis couché de bonne heure. ↗↘",
+          "m": "Prosodie équilibrée de l'incipit littéraire"
+        }
+      ],
+      "practice_links": null
+    }
+  ]
+}
