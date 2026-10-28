@@ -92,7 +92,10 @@
     };
 
     const startTimer = (displayId, duration, onEnd) => {
-        clearInterval(gameTimerInterval);
+        if (gameTimerInterval) {
+            clearInterval(gameTimerInterval);
+            gameTimerInterval = null;
+        }
         let timeLeft = duration;
         let totalTime = duration;
         const display = document.getElementById(displayId);
@@ -125,14 +128,22 @@
                 playGameSound('timer-tick');
             }
             if (timeLeft <= 0) {
-                clearInterval(gameTimerInterval);
+                if (gameTimerInterval) {
+                    clearInterval(gameTimerInterval);
+                    gameTimerInterval = null;
+                }
                 playGameSound('error');
                 if (onEnd) onEnd();
             }
         }, 1000);
     };
 
-    const stopTimer = () => clearInterval(gameTimerInterval);
+    const stopTimer = () => {
+        if (gameTimerInterval) {
+            clearInterval(gameTimerInterval);
+            gameTimerInterval = null;
+        }
+    };
 
     let audioCtx = null;
     const initAudio = () => {

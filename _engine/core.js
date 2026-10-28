@@ -371,6 +371,8 @@
         }, 400);
     }
 
+    let isKeydownAttached = false;
+
     const engine = {
         state: loadState(),
         session: null,
@@ -403,8 +405,10 @@
             this.updateUI();
             this.populateRecentAndMistakes();
 
-            // Global interactive keyboard controls & shortcuts (supports Presenter Remotes & Classroom Keyboards)
-            document.addEventListener('keydown', (e) => {
+            if (!isKeydownAttached) {
+                isKeydownAttached = true;
+                // Global interactive keyboard controls & shortcuts (supports Presenter Remotes & Classroom Keyboards)
+                document.addEventListener('keydown', (e) => {
                 // Toggle Projector Mode with 'P' key
                 if ((e.key === 'p' || e.key === 'P') && !e.ctrlKey && !e.metaKey && !e.altKey) {
                     if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
@@ -544,6 +548,7 @@
                     window.cosyPractice.startPractice();
                 }
             });
+            }
         },
 
         toggleProjectorMode() {

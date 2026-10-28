@@ -84,61 +84,74 @@
 
     const renderers = {
         renderQuestion(q, session, lang) {
-            const form = q.form || q.type;
-            let html = `<div class="pe-task-type">${taskTypeLabel(form)}</div>`;
-            html += `<div class="pe-question">${formatQuestionText(q)}</div>`;
-
-            // Visual helper (Emoji/Word)
-            if (q.item && form !== 'sc' && form !== 'mp') {
-                const isHiddenWord = (form === 'ls' || form === 'type' || form === 'op' || form === 'np');
-                html += `<div class="pe-question-card">
-                            <div class="pe-card-emoji">${isHiddenWord && form === 'ls' ? '🔊' : (q.item.emoji || '💡')}</div>
-                            <div class="pe-card-word">${isHiddenWord ? '???' : (q.item.word || q.item.text || '')}</div>`;
-
-                if (q.item.transcription && !isHiddenWord) {
-                    html += `<div class="pe-card-transcription">${q.item.transcription}</div>`;
-                }
-
-                const regionVal = q.region || q.item.region;
-                if (regionVal) {
-                    html += `<div class="pe-region-tag" style="margin-top:4px;"><span class="region-badge" style="background:var(--warm-white, #fdfbf7); border:1px solid var(--border, #e2d9cc); padding:2px 8px; border-radius:12px; font-size:0.75rem; color:var(--ink-light, #5c5549); font-weight:600;">📍 ${regionVal}</span></div>`;
-                }
-
-                const wordToSpeak = (q.item.word || q.item.text || (typeof q.ans === 'string' ? q.ans : '') || '').replace(/'/g, "\\'");
-                html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
-
-                const links = q.practice_links || q.item?.practice_links;
-                const isAuthenticated = window.COSY && typeof window.COSY.isUserAuthenticated === 'function' ? window.COSY.isUserAuthenticated() : false;
-                if (links && links.length > 0 && isAuthenticated) {
-                    const rawLink = links[0];
-                    const finalHref = (rawLink.startsWith('http://') || rawLink.startsWith('https://') || rawLink.startsWith('/')) ? rawLink : `https://cosylanguages.github.io/COSYmanuals/${rawLink}`;
-                    html += `<div style="margin-top:10px;"><a href="${finalHref}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
-                }
-
-                html += `</div>`;
+            if (!q) {
+                return `<div class="pe-card-fallback error-fallback-card" style="padding:1.5rem; text-align:center;">
+                    <p style="color:var(--coral, #C4522A); font-weight:600;">Question data missing or invalid.</p>
+                </div>`;
             }
 
-            if (form === 'mc') {
-                html += this.renderMC(q, session, lang);
-            } else if (form === 'tf') {
-                html += this.renderTF();
-            } else if (form === 'type' || form === 'op' || form === 'np') {
-                html += this.renderType();
-            } else if (form === 'sc') {
-                html += this.renderScramble(q);
-            } else if (form === 'conv') {
-                html += this.renderConv(q);
-            } else if (form === 'ls') {
-                html += this.renderLS(q, session, lang);
-            } else if (form === 'mp') {
-                html += this.renderMP(q, session, lang);
-            } else if (form === 'cloze') {
-                html += this.renderCloze(q, session, lang);
-            } else if (form === 'find_mistake') {
-                html += this.renderFindMistake(q, session, lang);
-            }
+            try {
+                const form = q.form || q.type || 'mc';
+                let html = `<div class="pe-task-type">${taskTypeLabel(form)}</div>`;
+                html += `<div class="pe-question">${formatQuestionText(q)}</div>`;
 
-            return html;
+                // Visual helper (Emoji/Word)
+                if (q.item && form !== 'sc' && form !== 'mp') {
+                    const isHiddenWord = (form === 'ls' || form === 'type' || form === 'op' || form === 'np');
+                    html += `<div class="pe-question-card">
+                                <div class="pe-card-emoji">${isHiddenWord && form === 'ls' ? '🔊' : (q.item.emoji || '💡')}</div>
+                                <div class="pe-card-word">${isHiddenWord ? '???' : (q.item.word || q.item.text || '')}</div>`;
+
+                    if (q.item.transcription && !isHiddenWord) {
+                        html += `<div class="pe-card-transcription">${q.item.transcription}</div>`;
+                    }
+
+                    const regionVal = q.region || q.item.region;
+                    if (regionVal) {
+                        html += `<div class="pe-region-tag" style="margin-top:4px;"><span class="region-badge" style="background:var(--warm-white, #fdfbf7); border:1px solid var(--border, #e2d9cc); padding:2px 8px; border-radius:12px; font-size:0.75rem; color:var(--ink-light, #5c5549); font-weight:600;">📍 ${regionVal}</span></div>`;
+                    }
+
+                    const wordToSpeak = (q.item.word || q.item.text || (typeof q.ans === 'string' ? q.ans : '') || '').replace(/'/g, "\\'");
+                    html += `<button class="btn-outline pe-card-speak-btn" onclick="window.cosyPracticeEngine.speakText('${wordToSpeak}', '${lang}')">🔊 Listen <span class="keycap-badge">S</span></button>`;
+
+                    const links = q.practice_links || q.item?.practice_links;
+                    const isAuthenticated = window.COSY && typeof window.COSY.isUserAuthenticated === 'function' ? window.COSY.isUserAuthenticated() : false;
+                    if (links && links.length > 0 && isAuthenticated) {
+                        const rawLink = links[0];
+                        const finalHref = (rawLink.startsWith('http://') || rawLink.startsWith('https://') || rawLink.startsWith('/')) ? rawLink : `https://cosylanguages.github.io/COSYmanuals/${rawLink}`;
+                        html += `<div style="margin-top:10px;"><a href="${finalHref}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
+                    }
+
+                    html += `</div>`;
+                }
+
+                if (form === 'mc') {
+                    html += this.renderMC(q, session, lang);
+                } else if (form === 'tf') {
+                    html += this.renderTF();
+                } else if (form === 'type' || form === 'op' || form === 'np') {
+                    html += this.renderType();
+                } else if (form === 'sc') {
+                    html += this.renderScramble(q);
+                } else if (form === 'conv') {
+                    html += this.renderConv(q);
+                } else if (form === 'ls') {
+                    html += this.renderLS(q, session, lang);
+                } else if (form === 'mp') {
+                    html += this.renderMP(q, session, lang);
+                } else if (form === 'cloze') {
+                    html += this.renderCloze(q, session, lang);
+                } else if (form === 'find_mistake') {
+                    html += this.renderFindMistake(q, session, lang);
+                }
+
+                return html;
+            } catch (err) {
+                console.error('[Renderers] renderQuestion exception:', err, q);
+                return `<div class="pe-card-fallback error-fallback-card" style="padding:1.5rem; text-align:center;">
+                    <p style="color:var(--coral, #C4522A); font-weight:600;">Unable to render question component.</p>
+                </div>`;
+            }
         },
 
         renderFindMistake(q, session, lang) {
@@ -227,7 +240,11 @@
         },
 
         renderScramble(q) {
-            const words = q.ans.split(' ').sort(() => Math.random() - 0.5);
+            const answerText = (q && q.ans) ? String(q.ans) : '';
+            if (!answerText) {
+                return `<div style="text-align:center; padding:1rem; color:var(--ink-light,#5c5549);">No scramble tokens available.</div>`;
+            }
+            const words = answerText.split(' ').sort(() => Math.random() - 0.5);
             return `<div class="scramble-container">
                       <div id="sc-assembly" class="scramble-assembly"></div>
                       <div id="sc-tokens" class="scramble-tokens">
