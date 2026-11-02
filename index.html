@@ -61,6 +61,84 @@
 <main id="main-content" class="practice-container">
   <noscript><p class="pm-noscript" data-i18n="ui.practice_needs_javascript_pl_931a">Practice needs JavaScript. Please enable it to start.</p></noscript>
 
+  <!-- Daily Challenge Section -->
+  <section id="daily-challenge" class="daily-challenge-page" style="margin: 0 0 3rem 0;">
+    <div class="challenge-card">
+      <div class="card-header">
+        <div class="card-header-top">
+          <span id="dayBadge" class="day-badge" data-i18n="ui.today_1dd1">Today</span>
+          <span id="typeBadge" class="day-type-badge" data-i18n="ui.daily_challenge_d53a">Daily Challenge</span>
+          <span id="cardNum" class="card-num">#01</span>
+        </div>
+        <h2 id="challengeTitle" class="challenge-title" data-i18n="ui.daily_challenge_57db">Daily Challenge 🏆</h2>
+        <p id="challengeSubtitle" class="challenge-subtitle" data-i18n="ui.complete_today_s_special_tas_9350">Complete today's special task to earn bonus points!</p>
+        <div id="dateLine" class="date-line"></div>
+      </div>
+
+      <!-- Level Tabs -->
+      <div class="level-tabs">
+        <button type="button" id="tab-a" class="ltab" onclick="window.setLevel('a')" data-i18n="ui.a1_beginner_c2f8">A1 - Beginner</button>
+        <button type="button" id="tab-b" class="ltab on" onclick="window.setLevel('b')" data-i18n="ui.b1_intermediate_498d">B1 - Intermediate</button>
+        <button type="button" id="tab-c" class="ltab" onclick="window.setLevel('c')" data-i18n="ui.c1_advanced_55e5">C1 - Advanced</button>
+      </div>
+
+      <!-- Task Panels -->
+      <div class="task-panels">
+        <div class="task-block">
+          <div class="task-block-label" data-i18n="ui.today_s_prompt_e7af">Today's Prompt</div>
+          <div id="speakingPrompt" class="task-prompt">Loading prompt...</div>
+          <div id="speakingTip" class="task-tip">💡 Tip: Focus on fluency and structural clarity.</div>
+        </div>
+
+        <!-- Micro Block -->
+        <div class="micro-block" onclick="window.toggleMicro()">
+          <div class="micro-header">
+            <div>
+              <div id="microLabel" class="micro-label" data-i18n="ui.micro_task_4917">Micro-task</div>
+              <div id="microTitle" class="micro-title">Quick Drill</div>
+            </div>
+            <span class="micro-chevron">▼</span>
+          </div>
+          <div class="micro-body">
+            <p id="microInstruction" class="micro-instruction"></p>
+            <div id="microExample" class="micro-example"></div>
+          </div>
+        </div>
+
+        <!-- Timer Row -->
+        <div class="timer-row">
+          <div id="timerDisplay" class="timer-display">2:00</div>
+          <div class="timer-btns">
+            <button type="button" id="startBtn" class="tbtn go" onclick="window.startTimer()" data-i18n="ui.start_timer_6a36">▶ Start Timer</button>
+            <button type="button" id="stopBtn" class="tbtn stop" onclick="window.stopTimer()" disabled data-i18n="ui.pause_555e">⏸ Pause</button>
+          </div>
+        </div>
+
+        <div class="bar-wrap">
+          <div id="timerBar" class="bar" style="width: 100%;"></div>
+        </div>
+
+        <div id="doneBanner" class="done-banner" data-i18n="ui.time_s_up_great_job_practic_6bde">🎉 Time's up! Great job practice session completed.</div>
+
+        <!-- Completion Action Row -->
+        <div class="complete-row">
+          <button type="button" id="btnComplete" class="dc-btn" onclick="window.markComplete()" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 700;" data-i18n="ui.complete_challenge_50_xp_6f9b">Complete Challenge (+50 XP) ⚔️</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Streak & Week Grid Summary -->
+    <div class="top-row" style="margin-top: 2rem;">
+      <div class="streak-pill">🔥 <span id="streakCount">0</span> <span data-i18n="ui.day_streak_1efa">Day Streak</span></div>
+      <div id="todayPill" class="today-pill" data-i18n="ui.today_s_task_pending_46ff">⏳ Today's task pending</div>
+    </div>
+
+    <div class="week-section">
+      <div class="week-label" data-i18n="ui.weekly_progress_d995">Weekly Progress</div>
+      <div id="weekGrid" class="week-grid"></div>
+    </div>
+  </section>
+
   <!-- 1. Start a session -->
   <section id="setup-section" class="setup-panel setup-panel-spaced" aria-labelledby="setup-title">
     <h2 id="setup-title" class="sec-title"><span data-i18n="ui.start_a_session_95a6">Start a session</span> <span data-i18n="ui.pick_what_you_want_to_practi_dac1">Pick what you want to practise</span></h2>
@@ -216,85 +294,6 @@
       </button>
     </div>
   </section>
-
-  <!-- Daily Challenge Section -->
-  <section id="daily-challenge" class="daily-challenge-page" style="margin: 3rem 0;">
-    <div class="challenge-card">
-      <div class="card-header">
-        <div class="card-header-top">
-          <span id="dayBadge" class="day-badge" data-i18n="ui.today_1dd1">Today</span>
-          <span id="typeBadge" class="day-type-badge" data-i18n="ui.daily_challenge_d53a">Daily Challenge</span>
-          <span id="cardNum" class="card-num">#01</span>
-        </div>
-        <h2 id="challengeTitle" class="challenge-title" data-i18n="ui.daily_challenge_57db">Daily Challenge 🏆</h2>
-        <p id="challengeSubtitle" class="challenge-subtitle" data-i18n="ui.complete_today_s_special_tas_9350">Complete today's special task to earn bonus points!</p>
-        <div id="dateLine" class="date-line"></div>
-      </div>
-
-      <!-- Level Tabs -->
-      <div class="level-tabs">
-        <button type="button" id="tab-a" class="ltab" onclick="window.setLevel('a')" data-i18n="ui.a1_beginner_c2f8">A1 - Beginner</button>
-        <button type="button" id="tab-b" class="ltab on" onclick="window.setLevel('b')" data-i18n="ui.b1_intermediate_498d">B1 - Intermediate</button>
-        <button type="button" id="tab-c" class="ltab" onclick="window.setLevel('c')" data-i18n="ui.c1_advanced_55e5">C1 - Advanced</button>
-      </div>
-
-      <!-- Task Panels -->
-      <div class="task-panels">
-        <div class="task-block">
-          <div class="task-block-label" data-i18n="ui.today_s_prompt_e7af">Today's Prompt</div>
-          <div id="speakingPrompt" class="task-prompt">Loading prompt...</div>
-          <div id="speakingTip" class="task-tip">💡 Tip: Focus on fluency and structural clarity.</div>
-        </div>
-
-        <!-- Micro Block -->
-        <div class="micro-block" onclick="window.toggleMicro()">
-          <div class="micro-header">
-            <div>
-              <div id="microLabel" class="micro-label" data-i18n="ui.micro_task_4917">Micro-task</div>
-              <div id="microTitle" class="micro-title">Quick Drill</div>
-            </div>
-            <span class="micro-chevron">▼</span>
-          </div>
-          <div class="micro-body">
-            <p id="microInstruction" class="micro-instruction"></p>
-            <div id="microExample" class="micro-example"></div>
-          </div>
-        </div>
-
-        <!-- Timer Row -->
-        <div class="timer-row">
-          <div id="timerDisplay" class="timer-display">2:00</div>
-          <div class="timer-btns">
-            <button type="button" id="startBtn" class="tbtn go" onclick="window.startTimer()" data-i18n="ui.start_timer_6a36">▶ Start Timer</button>
-            <button type="button" id="stopBtn" class="tbtn stop" onclick="window.stopTimer()" disabled data-i18n="ui.pause_555e">⏸ Pause</button>
-          </div>
-        </div>
-
-        <div class="bar-wrap">
-          <div id="timerBar" class="bar" style="width: 100%;"></div>
-        </div>
-
-        <div id="doneBanner" class="done-banner" data-i18n="ui.time_s_up_great_job_practic_6bde">🎉 Time's up! Great job practice session completed.</div>
-
-        <!-- Completion Action Row -->
-        <div class="complete-row">
-          <button type="button" id="btnComplete" class="dc-btn" onclick="window.markComplete()" style="width: 100%; padding: 1rem; font-size: 1.1rem; font-weight: 700;" data-i18n="ui.complete_challenge_50_xp_6f9b">Complete Challenge (+50 XP) ⚔️</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Streak & Week Grid Summary -->
-    <div class="top-row" style="margin-top: 2rem;">
-      <div class="streak-pill">🔥 <span id="streakCount">0</span> <span data-i18n="ui.day_streak_1efa">Day Streak</span></div>
-      <div id="todayPill" class="today-pill" data-i18n="ui.today_s_task_pending_46ff">⏳ Today's task pending</div>
-    </div>
-
-    <div class="week-section">
-      <div class="week-label" data-i18n="ui.weekly_progress_d995">Weekly Progress</div>
-      <div id="weekGrid" class="week-grid"></div>
-    </div>
-  </section>
-
 
   <!-- Wheel Container -->
   <div id="wheel-container" class="wheel-section wheel-section-hidden">
