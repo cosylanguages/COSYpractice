@@ -607,10 +607,9 @@
             if (document.getElementById('total-correct')) document.getElementById('total-correct').textContent = s.todayCorrect;
             if (document.getElementById('total-sessions')) document.getElementById('total-sessions').textContent = s.sessions;
 
-            const dailyXP = (s.todayCorrect || 0) * 10;
             const dailyXPValEl = document.getElementById('daily-xp-val');
             if (dailyXPValEl) {
-                dailyXPValEl.textContent = `${dailyXP} / 50 XP`;
+                dailyXPValEl.textContent = `${s.todayCorrect || 0} / 5`;
             }
 
             const arc = document.getElementById('streak-arc');

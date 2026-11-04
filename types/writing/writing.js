@@ -193,7 +193,6 @@
         }
 
         state.lastCompleted = todayStr;
-        state.totalPts += 50; // Daily challenge reward
         if (!state.weeklyProgress.includes(todayStr)) {
             state.weeklyProgress.push(todayStr);
         }
@@ -202,13 +201,9 @@
         updateUI();
         renderWeekGrid();
 
-        // Update nav if exists
-        const navPts = document.getElementById('nav-pts');
-        if (navPts) navPts.textContent = state.totalPts.toLocaleString();
-
         // Success feedback
         const btn = document.getElementById('btnComplete');
-        btn.textContent = '🎉 Awesome! +50 Points earned';
+        btn.textContent = '🎉 Awesome! Challenge completed';
         btn.disabled = true;
 
         // Dispatch event for any listeners (like nav)
