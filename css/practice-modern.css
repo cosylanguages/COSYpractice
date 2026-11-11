@@ -45,14 +45,272 @@ html[data-theme="dark"] {
 html[data-theme="dark"] body, html[data-theme="dark"] .page { background: var(--cream); color: var(--ink); }
 /* Surfaces that use --ink as a dark fill must stay dark when --ink turns light. */
 html[data-theme="dark"] :is(.btn-start, .pe-topbar, .lang-pill.active, .fpill.active, #toast, .nav-cta, .cta-section, .course-card.dark, .daily-challenge, .pe-btn-next, .wheel-btn, .pe-bb-action-btn, .lang-more-wrap.active .lang-more-select) { background: #0b110d; color: #e8f0e9; border-color: rgba(255,255,255,.2); }
-html[data-theme="dark"] .btn-start { background: #f3c969; color: #1c1917; border-color: #f3c969; }
+html[data-theme="dark"] .btn-start { background: #f3c969; color: #1c1917; border-color: #f3c969; font-weight: 700; }
 html[data-theme="dark"] .lang-pill.active { background: #e8f0e9; color: #101712; }
-html[data-theme="dark"] .dc-btn { background: #f3c969; color: #1c1917; }
+html[data-theme="dark"] .dc-btn { background: #f3c969; color: #1c1917; font-weight: 700; }
 html[data-theme="dark"] .task-tip { background: #3a3012; color: #f3dfa0; border-color: #f3c969; }
 html[data-theme="dark"] :is(#microTaskSelect, .micro-task, .micro-task-select, .micro-select) { background: #2d2036; color: #e8d2f2; }
 html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(255,255,255,.12); } html[data-theme="dark"] .micro-title { color: #e8d2f2; }
 
+/* ── HUB CARDS & CONTAINERS DARK MODE OVERRIDES ── */
+html[data-theme="dark"] .dash-hero {
+  background: linear-gradient(135deg, #18221b 0%, #121813 100%);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+html[data-theme="dark"] .dash-stat {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .dash-stat:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+html[data-theme="dark"] .setup-panel {
+  background: #18221b;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .qs-card {
+  background: linear-gradient(135deg, #1b261e 0%, #141c16 100%);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .qs-card:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+html[data-theme="dark"] .qs-name {
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .qs-sub {
+  color: #a8baa9;
+}
+html[data-theme="dark"] .info-card {
+  background: #18221b;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .speaking-bridge-card {
+  background: linear-gradient(135deg, #162a24, #121d18);
+  border-color: #26695e;
+}
+html[data-theme="dark"] .bridge-title {
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .styled-select {
+  background-color: #1a261f;
+  border-color: rgba(255, 255, 255, 0.16);
+  color: #e8f0e9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23A8BAA9' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+html[data-theme="dark"] .styled-select option {
+  background: #1a261f;
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .lang-pill {
+  background: #1a261f;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #c8d8c9;
+}
+html[data-theme="dark"] .lang-pill:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+html[data-theme="dark"] .lang-more-select {
+  background-color: #1a261f;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #c8d8c9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A8BAA9' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+html[data-theme="dark"] .lang-more-select option {
+  background: #1a261f;
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .cat-pill {
+  background: #1a261f;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #c8d8c9;
+}
+html[data-theme="dark"] .cat-pill:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+html[data-theme="dark"] .btn-outline {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #c8d8c9;
+}
+html[data-theme="dark"] .btn-outline:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.05);
+}
+html[data-theme="dark"] .setup-error-banner {
+  background-color: #381b16;
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #fca5a5;
+}
+
 .sec-title > span:first-child { font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; }
+
+/* ── EXERCISE ENGINE & QUESTION CONTRAST ── */
+html[data-theme="dark"] .practice-engine {
+  background: #18221b;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .pe-question-card {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .pe-question .q-word {
+  background: #19382e;
+  color: #79ddcb;
+  border-color: #3b8e7e;
+}
+html[data-theme="dark"] .pe-question .q-target {
+  background: rgba(255, 255, 255, 0.06);
+  color: #c8d8c9;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+html[data-theme="dark"] .pe-question .q-definition {
+  color: #c8d8c9;
+}
+html[data-theme="dark"] .mc-opt {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .mc-opt:hover:not(:disabled) {
+  background: #183329;
+  border-color: #6fd0bf;
+  color: #6fd0bf;
+}
+html[data-theme="dark"] .mc-opt.correct {
+  background: #1a3322;
+  border-color: #86d39a;
+  color: #86d39a;
+}
+html[data-theme="dark"] .mc-opt.wrong {
+  background: #3b1e19;
+  border-color: #ff9a76;
+  color: #ff9a76;
+}
+html[data-theme="dark"] .type-input {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.18);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .type-input:focus {
+  border-color: #6fd0bf;
+  outline: none;
+}
+html[data-theme="dark"] .type-input.correct {
+  background: #1a3322;
+  border-color: #86d39a;
+  color: #86d39a;
+}
+html[data-theme="dark"] .type-input.wrong {
+  background: #3b1e19;
+  border-color: #ff9a76;
+  color: #ff9a76;
+}
+html[data-theme="dark"] .tf-btn {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #c8d8c9;
+}
+html[data-theme="dark"] .tf-btn-true:hover:not(:disabled) {
+  background: #1a3322;
+  border-color: #86d39a;
+  color: #86d39a;
+}
+html[data-theme="dark"] .tf-btn-false:hover:not(:disabled) {
+  background: #3b1e19;
+  border-color: #ff9a76;
+  color: #ff9a76;
+}
+html[data-theme="dark"] .tf-btn.correct {
+  background: #1a3322;
+  border-color: #86d39a;
+  color: #86d39a;
+}
+html[data-theme="dark"] .tf-btn.wrong {
+  background: #3b1e19;
+  border-color: #ff9a76;
+  color: #ff9a76;
+}
+html[data-theme="dark"] .pe-bottom-bar.correct {
+  background-color: #12281a;
+  border-top-color: #86d39a;
+}
+html[data-theme="dark"] .pe-bottom-bar.correct .pe-bb-title {
+  color: #86d39a;
+}
+html[data-theme="dark"] .pe-bottom-bar.correct .pe-bb-desc {
+  color: #c8e6d0;
+}
+html[data-theme="dark"] .pe-bottom-bar.incorrect {
+  background-color: #331714;
+  border-top-color: #ff9a76;
+}
+html[data-theme="dark"] .pe-bottom-bar.incorrect .pe-bb-title {
+  color: #ff9a76;
+}
+html[data-theme="dark"] .pe-bottom-bar.incorrect .pe-bb-desc {
+  color: #f7c3b5;
+}
+html[data-theme="dark"] .pe-bb-action-btn {
+  background: #f3c969;
+  color: #1c1917;
+  font-weight: 700;
+}
+
+/* ── DAILY CHALLENGE STYLES & CONTRAST ── */
+html[data-theme="dark"] .challenge-card {
+  background: #18221b;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .card-header {
+  background: #1e2a21;
+  border-color: rgba(255, 255, 255, 0.12);
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .challenge-title {
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .challenge-subtitle {
+  color: #a8baa9;
+}
+html[data-theme="dark"] .level-tabs {
+  background: #18221b;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+html[data-theme="dark"] .ltab {
+  color: #a8baa9;
+}
+html[data-theme="dark"] .ltab.on {
+  background: #243528;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+html[data-theme="dark"] .day-badge {
+  background: #16362d;
+  color: #72dac6;
+}
+html[data-theme="dark"] .day-type-badge {
+  background: #33233b;
+  color: #e2b9f7;
+}
+html[data-theme="dark"] .micro-instruction {
+  color: #e8f0e9;
+}
+html[data-theme="dark"] .micro-example {
+  background: rgba(0, 0, 0, 0.25);
+  color: #d8e5d9;
+}
 
 /* While a session is running, keep the screen focused: hide the recent-activity / weak-spots cards */
 body:has(#practice-section:not(.hidden)) #activity-section,
