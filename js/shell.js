@@ -13,7 +13,7 @@
     hub: HUB,
     courses: HUB + 'courses/index.html',
     practice: ROOT,
-    blog: 'https://cosylanguages.github.io/COSYblog/',
+    blog: 'https://cosylanguages.github.io/COSYmagazine/',
     tools: 'https://cosylanguages.github.io/COSYtools/',
     games: 'https://cosylanguages.github.io/COSYgames/',
     events: 'https://cosylanguages.github.io/COSYevents/',

@@ -175,26 +175,26 @@
             // Complex Tenses & Inversion
             { id: "no-sooner-than-inversion", label: "no sooner...than", group: "Inversion", level: "c1",
               q: "No sooner ___ the building than the explosion occurred.", opts: ["had they left", "they had left", "did they leave", "were they leaving"], ans: 0,
-              type: "mc", ruleHint: "'No sooner' requires past perfect inversion followed by 'than'.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/inversion.html"] },
+              type: "mc", ruleHint: "'No sooner' requires past perfect inversion followed by 'than'.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/inversion-after-negative-and-limiting-adverbials.html"] },
             { id: "cleft-sentences", label: "cleft sentences", group: "Emphasis", level: "c1",
               q: "What surprised us most ___ his complete lack of remorse.", opts: ["was", "were", "is", "been"], ans: 0,
-              type: "mc", ruleHint: "Wh-cleft sentences isolate a key element for rhetorical emphasis (What... + was + noun phrase).", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/cleft-sentences.html"] },
+              type: "mc", ruleHint: "Wh-cleft sentences isolate a key element for rhetorical emphasis (What... + was + noun phrase).", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/cleft-sentences-for-emphasis.html"] },
             { id: "whether-vs-if", label: "whether vs if", group: "Formal Structures", level: "c1",
               q: "We need to discuss ___ or not we should accept the proposal.", opts: ["whether", "if", "unless", "provided"], ans: 0,
-              type: "mc", ruleHint: "Use 'whether' directly before 'or not' or after prepositions in formal register.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/formal-structures.html"] }
+              type: "mc", ruleHint: "Use 'whether' directly before 'or not' or after prepositions in formal register.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c1/topics/formulaic-subjunctive-and-formal-hedging-structures.html"] }
         ],
 
         c2: [
             // Nuance & Near-Synonyms
             { id: "historic-vs-historical", label: "historic vs historical", group: "Nuance", level: "c2",
               q: "The treaty signing was a ___ event that changed world politics.", opts: ["historic", "historical", "historian", "historically"], ans: 0,
-              type: "mc", ruleHint: "'Historic' = famous or influential in history. 'Historical' = relating to the study/period of history.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/nuance.html"] },
+              type: "mc", ruleHint: "'Historic' = famous or influential in history. 'Historical' = relating to the study/period of history.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/near-native-information-packaging-and-focal-adjustments.html"] },
             { id: "affect-vs-effect", label: "affect vs effect", group: "Near-Synonyms", level: "c2",
               q: "The new policy will significantly ___ public healthcare, and its full ___ will be evaluated next year.", opts: ["affect / effect", "effect / affect", "affect / affect", "effect / effect"], ans: 0,
-              type: "mc", ruleHint: "'Affect' is usually a verb (to influence); 'effect' is usually a noun (the result).", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/near-synonyms.html"] },
+              type: "mc", ruleHint: "'Affect' is usually a verb (to influence); 'effect' is usually a noun (the result).", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/litotes-double-negatives-and-philosophical-stance.html"] },
             { id: "assure-vs-ensure-vs-insure", label: "assure vs ensure vs insure", group: "Near-Synonyms", level: "c2",
               q: "Please ___ that all doors are locked, and I ___ you that the building is secure.", opts: ["ensure / assure", "assure / ensure", "insure / ensure", "ensure / insure"], ans: 0,
-              type: "mc", ruleHint: "'Ensure' = make certain something happens. 'Assure' = remove doubt from a person's mind.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/near-synonyms.html"] }
+              type: "mc", ruleHint: "'Ensure' = make certain something happens. 'Assure' = remove doubt from a person's mind.", practice_links: ["https://cosylanguages.github.io/COSYmanuals/manuals/en/grammar/c2/topics/litotes-double-negatives-and-philosophical-stance.html"] }
         ]
     };
 
