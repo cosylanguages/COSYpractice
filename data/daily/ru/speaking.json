@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ru:speaking:1",
+    "prompt": "Какое ваше любимое время года и почему?",
+    "topic": "nature",
+    "level": "A2"
+  },
+  {
+    "id": "ru:speaking:2",
+    "prompt": "Как вы предпочитаете проводить выходные дни?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "ru:speaking:3",
+    "prompt": "Какое традиционное блюдо вы любите готовить или есть?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "ru:speaking:4",
+    "prompt": "Какую музыку вы обычно слушаете для отдыха или работы?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ru:speaking:5",
+    "prompt": "Где вам комфортнее жить: в большом городе или в тихом поселке?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ru:speaking:6",
+    "prompt": "Расскажите о ярком воспоминании из вашего детства.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "ru:speaking:7",
+    "prompt": "Какая книга или фильм произвели на вас глубокое впечатление?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ru:speaking:8",
+    "prompt": "Почему вы решили изучать новый иностранный язык?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "ru:speaking:9",
+    "prompt": "Как вы справляетесь со стрессом и усталостью после учебы или работы?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ru:speaking:10",
+    "prompt": "Если бы вы могли отправиться в путешествие в любую точку мира, куда бы вы поехали?",
+    "topic": "travel",
+    "level": "B1-B2"
+  }
+]

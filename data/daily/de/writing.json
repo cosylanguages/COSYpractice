@@ -1,0 +1,62 @@
+[
+  {
+    "id": "de:writing:1",
+    "prompt": "Schreiben Sie einen kurzen Absatz über Ihren idealen Tag.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "de:writing:2",
+    "prompt": "Schreiben Sie eine informelle E-Mail, um einen Freund zum Abendessen einzuladen.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "de:writing:3",
+    "prompt": "Beschreiben Sie die Landschaft Ihrer Heimatstadt.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "de:writing:4",
+    "prompt": "Schreiben Sie eine kurze Rezension über ein Buch oder einen Film.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "de:writing:5",
+    "prompt": "Erklären Sie, warum regelmäßige Bewegung wichtig für die Gesundheit ist.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "de:writing:6",
+    "prompt": "Verfassen Sie eine kurze Dankesnachricht an einen Kollegen.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "de:writing:7",
+    "prompt": "Nennen Sie drei Tipps für mehr Umweltschutz im Haushalt.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "de:writing:8",
+    "prompt": "Schreiben Sie den Anfang einer Geschichte, die am Bahnhof beginnt.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "de:writing:9",
+    "prompt": "Beschreiben Sie eine traditionelle Feier in Ihrem Land.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "de:writing:10",
+    "prompt": "Schreiben Sie einen Brief an Ihr zukünftiges Ich in zehn Jahren.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ka:speaking:1",
+    "prompt": "რომელია თქვენი საყვარელი ადგილი მოგზაურობისთვის და რატომ?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "ka:speaking:2",
+    "prompt": "როგორ გირჩევნიათ უქმე დღეების გატარება?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "ka:speaking:3",
+    "prompt": "რომელია თქვენი საყვარელი ქართული კერძი?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "ka:speaking:4",
+    "prompt": "რა როლს თამაშობს მუსიკა თქვენს ყოველდღიურ ცხოვრებაში?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ka:speaking:5",
+    "prompt": "დიდ ქალაქში ცხოვრება გირჩევნიათ თუ სოფელში?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ka:speaking:6",
+    "prompt": "გვიამბეთ თქვენი ბავშვობის გამორჩეული მოგონების შესახებ.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "ka:speaking:7",
+    "prompt": "რომელმა წიგნმა ან ფილმმა მოახდინა თქვენზე დიდი შთაბეჭდილება?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ka:speaking:8",
+    "prompt": "რატომ გადაწყვიტეთ ახალი უცხო ენის შესწავლა?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "ka:speaking:9",
+    "prompt": "როგორ უმკლავდებით დაღლილობას სამუშაო დღის შემდეგ?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ka:speaking:10",
+    "prompt": "დროში მოგზაურობა რომ შეგძლებოდათ, რომელ ეპოქას ეწვეოდით?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "br:writing:1",
+    "prompt": "Skrivit ur pennad berr diwar-benn ho devezh klok ideal.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "br:writing:2",
+    "prompt": "Skrivit ur gemennadenn verr evit pediñ ur c'havan d'evañ ur banne kafe.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "br:writing:3",
+    "prompt": "Taolennit gweledva ho kêr pe ho kouer c'hendel.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "br:writing:4",
+    "prompt": "Skrivit ur burutelladenn verr diwar-benn ur levr ho peus lennet n'eus ket pell.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "br:writing:5",
+    "prompt": "Displegit perak eo pouezus ober sport e-pad ar sizhun.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "br:writing:6",
+    "prompt": "Skrivit ur gerig trugarez d'ur c'henlabourer.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "br:writing:7",
+    "prompt": "Kinnigit tri alioù evit gwareziñ an endro er gêr.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "br:writing:8",
+    "prompt": "Skrivit deroū un istor a c'hoarvez war an aod e Breizh.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "br:writing:9",
+    "prompt": "Taolennit gouel hengounel pe Fest-Noz eus ho bro.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "br:writing:10",
+    "prompt": "Skrivit al lizher d'ho me ho-unan a-benn dek vloaz.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

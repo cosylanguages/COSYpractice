@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pt:speaking:1",
+    "prompt": "Qual é o seu lugar favorito para viajar e por quê?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "pt:speaking:2",
+    "prompt": "Como você prefere passar um fim de semana relaxante?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "pt:speaking:3",
+    "prompt": "Qual é o seu prato favorito da culinária lusófona?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "pt:speaking:4",
+    "prompt": "Qual é a importância da música no seu dia a dia?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "pt:speaking:5",
+    "prompt": "Você prefere morar numa cidade grande ou no interior?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "pt:speaking:6",
+    "prompt": "Conte uma lembrança marcante da sua infância.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "pt:speaking:7",
+    "prompt": "Que livro ou filme inspirou você recentemente?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "pt:speaking:8",
+    "prompt": "Quais são as principais vantagens de aprender um novo idioma?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "pt:speaking:9",
+    "prompt": "Como você lida com o cansaço e o estresse do trabalho?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "pt:speaking:10",
+    "prompt": "Se pudesse viajar no tempo, para qual época você iria?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pt:writing:1",
+    "prompt": "Escreva um curto parágrafo sobre o seu dia ideal.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "pt:writing:2",
+    "prompt": "Escreva uma mensagem informal convidando um amigo para tomar café.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "pt:writing:3",
+    "prompt": "Descreva a paisagem da sua cidade natal.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "pt:writing:4",
+    "prompt": "Escreva uma breve resenha de um livro ou filme recente.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "pt:writing:5",
+    "prompt": "Explique a importância de praticar exercícios físicos.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "pt:writing:6",
+    "prompt": "Redija uma mensagem formal de agradecimento a um colega de trabalho.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "pt:writing:7",
+    "prompt": "Apresente três dicas para economizar energia em casa.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "pt:writing:8",
+    "prompt": "Escreva o início de uma história que se passa numa praia ao entardecer.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "pt:writing:9",
+    "prompt": "Descreva uma tradição cultural ou festa típica do seu país.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "pt:writing:10",
+    "prompt": "Escreva uma carta para o seu eu do futuro daqui a dez anos.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

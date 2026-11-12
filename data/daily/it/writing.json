@@ -1,0 +1,62 @@
+[
+  {
+    "id": "it:writing:1",
+    "prompt": "Scrivi un breve paragrafo sulla tua giornata ideale.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "it:writing:2",
+    "prompt": "Scrivi un'email informale per invitare un amico a prendere un caffè.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "it:writing:3",
+    "prompt": "Descrivi la vista dalla finestra della tua camera da letto.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "it:writing:4",
+    "prompt": "Scrivi una breve recensione di un libro che hai letto di recente.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "it:writing:5",
+    "prompt": "Spiega l'importanza di fare attività fisica regolarmente.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "it:writing:6",
+    "prompt": "Redigi un breve messaggio formale di ringraziamento a un professore.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "it:writing:7",
+    "prompt": "Elenca tre consigli per proteggere l'ambiente nella vita quotidiana.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "it:writing:8",
+    "prompt": "Scrivi l'inizio di una storia ambientata in una stazione ferroviaria.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "it:writing:9",
+    "prompt": "Descrivi una festa o ricorrenza tradizionale del tuo paese.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "it:writing:10",
+    "prompt": "Scrivi una lettera aperta proponendo idee per migliorare il tuo quartiere.",
+    "topic": "community",
+    "level": "B1-B2"
+  }
+]

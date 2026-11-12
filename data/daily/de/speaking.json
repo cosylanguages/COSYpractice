@@ -1,0 +1,62 @@
+[
+  {
+    "id": "de:speaking:1",
+    "prompt": "Was ist Ihr Lieblingsort für den Urlaub und warum?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "de:speaking:2",
+    "prompt": "Wie verbringen Sie am liebsten ein ruhiges Wochenende?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "de:speaking:3",
+    "prompt": "Was ist Ihr Lieblingsgericht und kochen Sie oft selbst?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "de:speaking:4",
+    "prompt": "Welche Rolle spielt Musik in Ihrem Alltag?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "de:speaking:5",
+    "prompt": "Wohnen Sie lieber in einer Großstadt oder auf dem Land?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "de:speaking:6",
+    "prompt": "Erzählen Sie von einer schönen Kindheitserinnerung.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "de:speaking:7",
+    "prompt": "Welches Buch oder welcher Film hat Sie besonders inspiriert?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "de:speaking:8",
+    "prompt": "Warum haben Sie sich entschieden, Deutsch zu lernen?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "de:speaking:9",
+    "prompt": "Wie entspannen Sie sich nach einem anstrengenden Arbeitstag?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "de:speaking:10",
+    "prompt": "Wenn Sie eine Zeitreise machen könnten, wohin würden Sie reisen?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

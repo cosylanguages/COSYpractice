@@ -1,0 +1,62 @@
+[
+  {
+    "id": "el:speaking:1",
+    "prompt": "Ποιο είναι το αγαπημένο σας μέρος για διακοπές στην Ελλάδα και γιατί;",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "el:speaking:2",
+    "prompt": "Πώς προτιμάτε να περνάτε ένα χαλαρό Σαββατοκύριακο;",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "el:speaking:3",
+    "prompt": "Ποιο είναι το αγαπημένο σας ελληνικό φαγητό;",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "el:speaking:4",
+    "prompt": "Τι ρόλο παίζει η μουσική καθημερινά στη ζωή σας;",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "el:speaking:5",
+    "prompt": "Προτιμάτε τη ζωή στην πόλη ή στο χωριό; Εξηγήστε τους λόγους.",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "el:speaking:6",
+    "prompt": "Περιγράψτε μια όμορφη ανάμνηση από τα παιδικά σας χρόνια.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "el:speaking:7",
+    "prompt": "Ποια ταινία ή βιβλίο σας επηρέασε περισσότερο;",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "el:speaking:8",
+    "prompt": "Γιατί αποφασίσατε να μάθετε μια νέα ξένη γλώσσα;",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "el:speaking:9",
+    "prompt": "Πώς διαχειρίζεστε το άγχος μετά από μια κουραστική μέρα;",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "el:speaking:10",
+    "prompt": "Αν μπορούσατε να ταξιδέψετε στο χρόνο, σε ποια εποχή θα πηγαίνατε;",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cv:speaking:1",
+    "prompt": "Кая кайма юрататьӗр канма тата мӗншӗн?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "cv:speaking:2",
+    "prompt": "Кану кунӗсене епле ирттерме юрататӑр?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "cv:speaking:3",
+    "prompt": "Мӗнле чӑваш наци апачӗ сире чи питӗ килӗшет?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "cv:speaking:4",
+    "prompt": "Кӗвӗ сирӗн пурнӑҫра мӗнле вырӑн йышӑнать?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "cv:speaking:5",
+    "prompt": "Хулара е ялта пурӑнма юрататӑр унпа мӗншӗн?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "cv:speaking:6",
+    "prompt": "Ачалӑхран асра юлнӑ пӗр ачаш калав каласа парӑр.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "cv:speaking:7",
+    "prompt": "Хайхи кӗнеке е фильм сире тарӑн шухӑша ячӗ?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "cv:speaking:8",
+    "prompt": "Ҫӗнӗ чӗлхе вӗреннин мӗнле уссисем бар?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "cv:speaking:9",
+    "prompt": "Ӗҫ кунӗ хыҫҫӑн епле канӑҫ тупатӑр?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "cv:speaking:10",
+    "prompt": "Вӑхӑт машини пулсан ҫӗршывӑн хайхи ӗмӗрне ҫитетӗр чӗп?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

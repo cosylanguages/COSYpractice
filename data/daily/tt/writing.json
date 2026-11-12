@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tt:writing:1",
+    "prompt": "Үзегезнең камил көнегез турында кыскача языгыз.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "tt:writing:2",
+    "prompt": "Дусыгызны чәйгә чакырып кыска гына хат языгыз.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "tt:writing:3",
+    "prompt": "Туган авылыгызның яки шәһәрегезнең табигатен сүрәтләгез.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "tt:writing:4",
+    "prompt": "Укыган китабыгыз турында кыска бәяләмә языгыз.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "tt:writing:5",
+    "prompt": "Сәламәт тормыш рәвеше алып баруның әһәмиятен аңлатыгыз.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "tt:writing:6",
+    "prompt": "Хезмәттәшегезгә ярдәме өчен рәхмәт хаты языгыз.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "tt:writing:7",
+    "prompt": "Табигатьне саклау буенча өч файдалы киңәш тәкъдим итегез.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "tt:writing:8",
+    "prompt": "Казанда башланган кызыклы хикәя башы языгыз.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "tt:writing:9",
+    "prompt": "Татар халкының милли бәйрәме Сабантуй турында языгыз.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "tt:writing:10",
+    "prompt": "Келәчәктәге үзегезгә ун елдан соңга хат языгыз.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

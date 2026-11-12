@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cv:writing:1",
+    "prompt": "Хӑвӑрӑн чи лайӑх кунӑр ҫинчен кӗске абзац ҫырӑр.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "cv:writing:2",
+    "prompt": "Тӑвана е юлташа чей ӗҫме йыхравласа кӗске ҫыру ҫырӑр.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "cv:writing:3",
+    "prompt": "Тӑван ялӑр е хулӑр ҫутҫанталӑкне ҫырса кӑтартӑр.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "cv:writing:4",
+    "prompt": "Вуланӑ кӗнеке е пӑхнӑ фильм ҫинчен кӗске пит ҫырӑр.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "cv:writing:5",
+    "prompt": "Спортпа аппаланнин усӑллӑ енӗсене ӑнлантарса ҫырӑр.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "cv:writing:6",
+    "prompt": "Ӗҫтешӗре пулӑшнӑшӑн тав сӑмахӗ ҫырса ярӑр.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "cv:writing:7",
+    "prompt": "Ҫутҫанталӑка сыхламалли виҫӗ канаш сӗнӗр.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "cv:writing:8",
+    "prompt": "Акатуй уявӗ пирки кӑсӑклӑ калав пуҫламӑшӗ ҫырӑр.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "cv:writing:9",
+    "prompt": "Чӑвашсен традициллӗ йӑла-гула заҫинчен ҫырса кӑтартӑр.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "cv:writing:10",
+    "prompt": "Пуласлӑхри хӑвӑра вунӑ ҫултан вулӑнакан ҫыру ҫырӑр.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

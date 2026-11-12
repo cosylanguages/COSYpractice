@@ -1,0 +1,62 @@
+[
+  {
+    "id": "es:writing:1",
+    "prompt": "Escribe un párrafo breve sobre tu día ideal.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "es:writing:2",
+    "prompt": "Escribe un correo informal invitando a un amigo a cenar.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "es:writing:3",
+    "prompt": "Describe el paisaje de tu ciudad o pueblo natal.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "es:writing:4",
+    "prompt": "Escribe una breve reseña de una película que hayas visto recientemente.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "es:writing:5",
+    "prompt": "Explica por qué es importante mantener una rutina saludable.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "es:writing:6",
+    "prompt": "Redacta un mensaje de agradecimiento formal a un colega.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "es:writing:7",
+    "prompt": "Propón tres consejos prácticos para cuidar el medio ambiente.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "es:writing:8",
+    "prompt": "Escribe el comienzo de una historia que ocurre en un tren nocturno.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "es:writing:9",
+    "prompt": "Describe una tradición o festividad popular de tu país.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "es:writing:10",
+    "prompt": "Escribe una carta a tu 'yo' del futuro dentro de diez años.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

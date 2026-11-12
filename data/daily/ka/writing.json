@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ka:writing:1",
+    "prompt": "დაწერეთ მოკლე აბზაცი თქვენი იდეალური დღის შესახებ.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "ka:writing:2",
+    "prompt": "დაწერეთ მოკლე შეტყობინება მეგობართან ყავაზე დასაპატიჟებლად.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "ka:writing:3",
+    "prompt": "აღწერეთ თქვენი მშობლიური ქალაქის ან სოფლის პეიზაჟი.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ka:writing:4",
+    "prompt": "დაწერეთ მოკლე რეცენზია ბოლოს წაკითხული წიგნის შესახებ.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "ka:writing:5",
+    "prompt": "ახსენით ჯანსაღი ცხოვრების წესის მნიშვნელობა.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "ka:writing:6",
+    "prompt": "დაწერეთ სამადლობელი წერილი კოლეგას დახმარებისთვის.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "ka:writing:7",
+    "prompt": "შეამოთავაზეთ სამი რჩევა გარემოს დასაცავად.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ka:writing:8",
+    "prompt": "დაწერეთ მოთხრობის დასაწყისი, რომელიც მთიან სოფელში ხდება.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ka:writing:9",
+    "prompt": "აღწერეთ ტრადიციული ქართული დღესასწაული.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ka:writing:10",
+    "prompt": "დაწერეთ წერილი საკუთარ თავს 10 წლის შემდეგ.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

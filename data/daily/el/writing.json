@@ -1,0 +1,62 @@
+[
+  {
+    "id": "el:writing:1",
+    "prompt": "Γράψτε μια μικρή παράγραφο για την ιδανική σας μέρα.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "el:writing:2",
+    "prompt": "Συντάξτε ένα σύντομο μήνυμα προσκαλώντας έναν φίλο για καφέ.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "el:writing:3",
+    "prompt": "Περιγράψτε το τοπίο της πόλης ή του χωριού σας.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "el:writing:4",
+    "prompt": "Γράψτε μια σύντομη κριτική για ένα βιβλίο που διαβάσατε πρόσφατα.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "el:writing:5",
+    "prompt": "Εξηγήστε γιατί είναι σημαντική η καθημερινή σωματική άσκηση.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "el:writing:6",
+    "prompt": "Συντάξτε ένα ευχαριστήριο μήνυμα προς έναν συνάδελφο.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "el:writing:7",
+    "prompt": "Προτείνετε τρεις συμβουλές για την προστασία του περιβάλλοντος.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "el:writing:8",
+    "prompt": "Γράψτε την αρχή μιας ιστορίας που διαδραματίζεται σε ένα νησί.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "el:writing:9",
+    "prompt": "Περιγράψτε μια παραδοσιακή γιορτή του τόπου σας.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "el:writing:10",
+    "prompt": "Γράψτε ένα γράμμα στον εαυτό σας μετά από δέκα χρόνια.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

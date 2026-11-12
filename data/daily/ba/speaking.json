@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ba:speaking:1",
+    "prompt": "Һеҙҙең сәйәхәт итергә иң яратҡан урынығыҙ ҡайҙа?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "ba:speaking:2",
+    "prompt": "Ял көндәрен тик үткәрергә яратаһығыҙмы?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "ba:speaking:3",
+    "prompt": "Һеҙҙең иң яратҡан башҡорт милли ашығыҙ кайһы?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "ba:speaking:4",
+    "prompt": "Музыка һеҙҙең тормошоғоҙҙа ниндәй урын алып тора?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ba:speaking:5",
+    "prompt": "Ҡалаламы, әллә ауылдамы йәшәү яҡшыраҡ?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ba:speaking:6",
+    "prompt": "Балалыҡ йылдарығыҙҙан бер матур иҫтәлек һөйләгеҙ.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "ba:speaking:7",
+    "prompt": "Ҡайһы китап йәки фильм һеҙгә тәрән тәьҫир яһаны?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ba:speaking:8",
+    "prompt": "Яңы тел өйрәнеүҙең ниндәй файҙалары бар?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "ba:speaking:9",
+    "prompt": "Эш көнөнән һуң нисек ял итәһегеҙ?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ba:speaking:10",
+    "prompt": "Ваҡыт машинаһы булһа, ҡайһы дәүергә сәйәхәт итер инегеҙ?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

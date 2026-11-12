@@ -1,0 +1,62 @@
+[
+  {
+    "id": "br:speaking:1",
+    "prompt": "Pelec'h eo ho lec'h karet evit mont da vakañsiñ ha perak?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "br:speaking:2",
+    "prompt": "Penaos e plij deoc'h tremen ar finsun?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "br:speaking:3",
+    "prompt": "Peseurt meuz breizhat a blij deoc meurañ?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "br:speaking:4",
+    "prompt": "Peseurt roll e c'hoari ar sonerezh en ho buhez pemdeziek?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "br:speaking:5",
+    "prompt": "Ha gwelloc'h e kavot bevañ er meazioù pe e-barzh ur gêr vras?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "br:speaking:6",
+    "prompt": "Kontaouit ur c'hoari pe ur eñvor eus ho bugaleaj.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "br:speaking:7",
+    "prompt": "Peseurt levr pe film en deus bet ul levezon bras warnoc'h?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "br:speaking:8",
+    "prompt": "Perak eo talvoudus deskiñ ur yezh nevez?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "br:speaking:9",
+    "prompt": "Penaos e dizourger goude ur sizhunvezh labour stank?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "br:speaking:10",
+    "prompt": "Ma c'hallfec'h gober ur veaj er mizer, da betra ez afec'h?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

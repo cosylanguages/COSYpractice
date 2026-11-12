@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hy:speaking:1",
+    "prompt": "Ո՞րն է Ձեր սիրելի վայրը ճանապարհորդելու համար և ինչո՞ւ:",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "hy:speaking:2",
+    "prompt": "Ինչպե՞ս եք նախընտրում անցկացնել հանգստյան օրերը:",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "hy:speaking:3",
+    "prompt": "Ո՞րն է Ձեր սիրելի ավանդական հայկական ճաշատեսակը:",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "hy:speaking:4",
+    "prompt": "Ի՞նչ դեր է խաղում երաժշտությունը Ձեր առօրյայում:",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "hy:speaking:5",
+    "prompt": "Նախընտրում եք ապրել մեծ քաղաքո՞ւմ, թե՞ գյուղական համայնքում:",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "hy:speaking:6",
+    "prompt": "Պատմեք Ձեր մանկության ամենավառ հուշերից մեկի մասին:",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "hy:speaking:7",
+    "prompt": "Ո՞ր գիրքը կամ ֆիլմն է Ձեզ վրա մեծ ազդեցություն թողել:",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "hy:speaking:8",
+    "prompt": "Որո՞նք են նոր օտար լեզու սովորելու առավելությունները:",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "hy:speaking:9",
+    "prompt": "Ինչպե՞ս եք հաղթահարում հոգնածությունը աշխատանքային օրվանից հետո:",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "hy:speaking:10",
+    "prompt": "Եթե կարողանայիք ճանապարհորդել ժամանակի մեջ, ո՞ր դարաշրջան կգնայիք:",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

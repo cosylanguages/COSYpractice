@@ -1,0 +1,62 @@
+[
+  {
+    "id": "it:speaking:1",
+    "prompt": "Qual è la tua città preferita da visitare e cosa ti piace di più?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "it:speaking:2",
+    "prompt": "Come ami trascorrere il fine settimana in relax?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "it:speaking:3",
+    "prompt": "Qual è il tuo piatto italiano preferito e sai cucinarlo?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "it:speaking:4",
+    "prompt": "Quali generi musicali ascolti quando studi o lavori?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "it:speaking:5",
+    "prompt": "Preferisci vivere in una metropoli o in un piccolo borgo?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "it:speaking:6",
+    "prompt": "Racconta un bel ricordo legato alla tua famiglia.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "it:speaking:7",
+    "prompt": "Quale film ti ha fatto riflettere di più negli ultimi anni?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "it:speaking:8",
+    "prompt": "Perché hai deciso di imparare una nuova lingua straniera?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "it:speaking:9",
+    "prompt": "Come trovi l'equilibrio tra lavoro e tempo libero?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "it:speaking:10",
+    "prompt": "Se potessi scegliere un superpotere, quale sceglieresti e perché?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

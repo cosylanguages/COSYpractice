@@ -1,0 +1,62 @@
+[
+  {
+    "id": "es:speaking:1",
+    "prompt": "¿Cuál es tu lugar favorito para viajar y qué te gusta hacer allí?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "es:speaking:2",
+    "prompt": "¿Cómo prefieres pasar un fin de semana tranquilo en casa?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "es:speaking:3",
+    "prompt": "¿Cuál es tu plato tradicional hispano favorito?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "es:speaking:4",
+    "prompt": "¿Qué papel juega la música en tu rutina diaria?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "es:speaking:5",
+    "prompt": "¿Prefieres vivir en una gran ciudad o en el campo? Explica por qué.",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "es:speaking:6",
+    "prompt": "Cuenta un recuerdo bonito de tu infancia.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "es:speaking:7",
+    "prompt": "¿Qué libro o película te ha inspirado más recientemente?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "es:speaking:8",
+    "prompt": "¿Cuáles son las mayores ventajas de aprender un nuevo idioma?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "es:speaking:9",
+    "prompt": "¿Cómo manejas el estrés después de un día de trabajo o estudio?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "es:speaking:10",
+    "prompt": "Si pudieras viajar en el tiempo, ¿a qué época irías y qué harías?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

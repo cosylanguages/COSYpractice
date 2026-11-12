@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hy:writing:1",
+    "prompt": "Գրեք կարճ պարբերություն Ձեր իդեալական օրվա մասին:",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "hy:writing:2",
+    "prompt": "Գրեք կարճ հաղորդագրություն ընկերոջը՝ սուրճ խմելու հրավիրելով:",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "hy:writing:3",
+    "prompt": "Նկարագրեք Ձեր ծննդավայրի բնապատկերը:",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "hy:writing:4",
+    "prompt": "Գրեք կարճ կարծիք վերջերս կարդացած գրքի կամ դիտած ֆիլմի մասին:",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "hy:writing:5",
+    "prompt": "Բացատրեք առողջ ապրելակերպի և մարզումների կարևորությունը:",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "hy:writing:6",
+    "prompt": "Գրեք շնորհակալական նամակ գործընկերոջը օգնության համար:",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "hy:writing:7",
+    "prompt": "Առաջարկեք երեք խորհուրդ շրջակա միջավայրը պահպանելու համար:",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "hy:writing:8",
+    "prompt": "Գրեք պատմվածքի սկիզբ, որը տեղի է ունենում լեռնային գյուղում:",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "hy:writing:9",
+    "prompt": "Նկարագրեք հայկական ավանդական տոնակատարություններից մեկը:",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "hy:writing:10",
+    "prompt": "Գրեք նամակ Ձեզ՝ ապագային տաս տարի անց:",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

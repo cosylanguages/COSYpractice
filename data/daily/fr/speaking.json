@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fr:speaking:1",
+    "prompt": "Quel est votre endroit préféré pour passer les vacances et pourquoi ?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "fr:speaking:2",
+    "prompt": "Comment préférez-vous passer un dimanche pluvieux ?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "fr:speaking:3",
+    "prompt": "Quelle est votre recette de cuisine préférée ?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "fr:speaking:4",
+    "prompt": "Quel rôle joue la musique dans votre vie quotidienne ?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "fr:speaking:5",
+    "prompt": "Préférez-vous vivre en ville ou à la campagne ?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "fr:speaking:6",
+    "prompt": "Racontez un souvenir d'enfance marquant.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "fr:speaking:7",
+    "prompt": "Quel livre ou film a changé votre façon de penser ?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "fr:speaking:8",
+    "prompt": "Quels sont les avantages d'apprendre une nouvelle langue ?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "fr:speaking:9",
+    "prompt": "Comment gérez-vous le stress au travail ou dans les études ?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "fr:speaking:10",
+    "prompt": "Si vous pouviez voyager dans le temps, à quelle époque iriez-vous ?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fr:writing:1",
+    "prompt": "Écrivez un paragraphe décrivant votre journée idéale.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "fr:writing:2",
+    "prompt": "Rédigez un court courriel d'invitation à un ami pour un dîner.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "fr:writing:3",
+    "prompt": "Décrivez le paysage de votre ville ou village natal.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "fr:writing:4",
+    "prompt": "Écrivez une critique d'un livre ou d'un film récent.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "fr:writing:5",
+    "prompt": "Expliquez pourquoi il est important d'avoir une routine matinale.",
+    "topic": "habits",
+    "level": "B1"
+  },
+  {
+    "id": "fr:writing:6",
+    "prompt": "Rédigez un message de remerciement à un collègue.",
+    "topic": "professional",
+    "level": "A2-B1"
+  },
+  {
+    "id": "fr:writing:7",
+    "prompt": "Partagez trois conseils pour réduire le gaspillage alimentaire.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "fr:writing:8",
+    "prompt": "Écrivez une histoire courte qui commence par une nuit d'orage.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "fr:writing:9",
+    "prompt": "Décrivez une tradition culturelle que vous aimez célébrer.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "fr:writing:10",
+    "prompt": "Écrivez une lettre à votre futur vous dans dix ans.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

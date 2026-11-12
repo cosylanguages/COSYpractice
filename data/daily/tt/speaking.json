@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tt:speaking:1",
+    "prompt": "Сезнең сәяхәт итәргә иң яраткан урыныгыз кайда һәм ярату сәбәбегез нинди?",
+    "topic": "travel",
+    "level": "A2"
+  },
+  {
+    "id": "tt:speaking:2",
+    "prompt": "Ял көннәрен ничек үткәрергә яратасыз?",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "tt:speaking:3",
+    "prompt": "Сезнең иң яраткан татар милли ашыгыз кайсы?",
+    "topic": "food",
+    "level": "A1-A2"
+  },
+  {
+    "id": "tt:speaking:4",
+    "prompt": "Музыка сезнең тормышыгызда нинди урын алып тора?",
+    "topic": "music",
+    "level": "A2-B1"
+  },
+  {
+    "id": "tt:speaking:5",
+    "prompt": "Шәһәрдәме, әллә авылдамы яшәү уңайлырак?",
+    "topic": "lifestyle",
+    "level": "A2-B1"
+  },
+  {
+    "id": "tt:speaking:6",
+    "prompt": "Balалыгыз турында гүзәл бер истәлек сөйләгез.",
+    "topic": "memories",
+    "level": "B1"
+  },
+  {
+    "id": "tt:speaking:7",
+    "prompt": "Кайсы китап яки фильм сезгә тирән тәэсир ясады?",
+    "topic": "entertainment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "tt:speaking:8",
+    "prompt": "Яңа тел өйрәнүнең нинди файдалары бар?",
+    "topic": "language_learning",
+    "level": "B1"
+  },
+  {
+    "id": "tt:speaking:9",
+    "prompt": "Эш көненнән соң ничек ял итәсез?",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "tt:speaking:10",
+    "prompt": "Вакыт машинасы булса, кайсы дәвергә сәяхәт итәр идегез?",
+    "topic": "imagination",
+    "level": "B1-B2"
+  }
+]

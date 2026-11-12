@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ba:writing:1",
+    "prompt": "Үҙегеҙҙең камил көнөгөҙ тураһында ҡыҫҡаса язығыҙ.",
+    "topic": "lifestyle",
+    "level": "A2"
+  },
+  {
+    "id": "ba:writing:2",
+    "prompt": "Иптәшегеҙҙе сәйгә саҡырып ҡыҫҡа хат язығыҙ.",
+    "topic": "communication",
+    "level": "A2"
+  },
+  {
+    "id": "ba:writing:3",
+    "prompt": "Туған ауылығыҙҙың йәки ҡалағыҙҙың тәбиғәтен һүрәтләгеҙ.",
+    "topic": "descriptive",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ba:writing:4",
+    "prompt": "Уҡыған китабығыҙ тураһында ҡыҫҡа баһалама язығыҙ.",
+    "topic": "review",
+    "level": "B1"
+  },
+  {
+    "id": "ba:writing:5",
+    "prompt": "Сәләмәт тормош рәүеше алып барыуҙың әһәмиәтен аңлатығыҙ.",
+    "topic": "health",
+    "level": "B1"
+  },
+  {
+    "id": "ba:writing:6",
+    "prompt": "Хеҙмәттәшегеҙгә ярҙамы өсөн рәхмәт хаты язығыҙ.",
+    "topic": "professional",
+    "level": "B1"
+  },
+  {
+    "id": "ba:writing:7",
+    "prompt": "Тәбиғәтте һаҡлау буйынса өс файҙалы кәңәш тәҡдим итегеҙ.",
+    "topic": "environment",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ba:writing:8",
+    "prompt": "Урал тауҙарында башланған ҡыҙыҡлы хикәйә башы язығыҙ.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "ba:writing:9",
+    "prompt": "Башҡорт халҡының милли байрамы һабантуй тураһында язығыҙ.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "ba:writing:10",
+    "prompt": "Киләсәктәге үҙегеҙгә ун йылдан һуңға хат язығыҙ.",
+    "topic": "personal",
+    "level": "B1-B2"
+  }
+]

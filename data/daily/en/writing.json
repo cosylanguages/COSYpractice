@@ -1,0 +1,182 @@
+[
+  {
+    "id": "en:writing:1",
+    "prompt": "Write a short paragraph reflecting on a goal you set for yourself this year and your progress so far.",
+    "topic": "reflection",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:2",
+    "prompt": "Compose a polite email to a colleague or instructor requesting a brief deadline extension for a project.",
+    "topic": "professional",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:3",
+    "prompt": "Write a descriptive essay about your ideal living space, focusing on its design, light, and atmosphere.",
+    "topic": "descriptive",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:4",
+    "prompt": "Write a short opinion piece on whether public transportation should be free for all city residents.",
+    "topic": "opinion",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:5",
+    "prompt": "Describe a childhood memory in vivid detail, highlighting sensory details like sounds, scents, and colors.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:6",
+    "prompt": "Write a review of a restaurant or cafe you visited recently, detailing the service, food, and ambiance.",
+    "topic": "review",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:7",
+    "prompt": "Write a letter to a friend living abroad, updating them on recent news in your life and asking about theirs.",
+    "topic": "epistolary",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:8",
+    "prompt": "Draft three practical suggestions for reducing plastic waste in household daily routines.",
+    "topic": "problem_solving",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:9",
+    "prompt": "Write a persuasive paragraph encouraging people to read more books in their spare time.",
+    "topic": "persuasive",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:10",
+    "prompt": "Describe a mentor or teacher who positively influenced your educational or career journey.",
+    "topic": "reflection",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:11",
+    "prompt": "Write a fictional story opening set in a quiet mountain village on a snowy evening.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:12",
+    "prompt": "Discuss the advantages and disadvantages of online remote learning compared to classroom instruction.",
+    "topic": "essay",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:13",
+    "prompt": "Write a thank-you note to a colleague who helped you complete a challenging task at work.",
+    "topic": "professional",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:14",
+    "prompt": "Reflect on how artificial intelligence tools might shape future career paths in your field.",
+    "topic": "technology",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:15",
+    "prompt": "Describe a favorite holiday tradition in your culture and explain why it remains meaningful.",
+    "topic": "culture",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:16",
+    "prompt": "Write a short blog post sharing tips for managing time effectively when balancing study and work.",
+    "topic": "productivity",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:17",
+    "prompt": "Draft a product review evaluating a technological device or gadget you use regularly.",
+    "topic": "review",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:18",
+    "prompt": "Write a paragraph explaining why keeping a daily journal can benefit mental health and clarity.",
+    "topic": "wellbeing",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:19",
+    "prompt": "Imagine you are traveling through time. Describe the first five minutes after arriving in the year 2125.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:20",
+    "prompt": "Write a short formal summary of an article or news report you read recently.",
+    "topic": "summary",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:21",
+    "prompt": "Describe how your town or city has changed over the past decade in terms of infrastructure and culture.",
+    "topic": "descriptive",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:22",
+    "prompt": "Write a guide explaining how to prepare your favorite simple meal step by step.",
+    "topic": "instructional",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:23",
+    "prompt": "Argue for or against the idea that social media age limits should be raised to eighteen.",
+    "topic": "argumentative",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:24",
+    "prompt": "Write a short poem or free-verse stanza inspired by the changing of seasons.",
+    "topic": "creative",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:25",
+    "prompt": "Draft an inquiry email to a university admissions officer asking about scholarship options.",
+    "topic": "formal_email",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:26",
+    "prompt": "Write a brief reflection on what courage means to you in everyday situations.",
+    "topic": "reflection",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:27",
+    "prompt": "Describe an unforgettable concert, play, or live event you attended.",
+    "topic": "narrative",
+    "level": "A2-B1"
+  },
+  {
+    "id": "en:writing:28",
+    "prompt": "Propose three strategies for urban planning to make cities more pedestrian-friendly.",
+    "topic": "problem_solving",
+    "level": "B2-C1"
+  },
+  {
+    "id": "en:writing:29",
+    "prompt": "Write a message to your future self ten years from now, asking questions and sharing hopes.",
+    "topic": "personal",
+    "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:30",
+    "prompt": "Summarize the key takeaways from a book that influenced your personal perspective on life.",
+    "topic": "reflection",
+    "level": "B1-B2"
+  }
+]
