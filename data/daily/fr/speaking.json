@@ -58,5 +58,53 @@
     "prompt": "Si vous pouviez voyager dans le temps, à quelle époque iriez-vous ?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "fr:speaking:c1",
+    "prompt": "Présentez-vous : donnez votre prénom, votre ville d'origine et vos passe-temps favoris.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c2",
+    "prompt": "Décrivez ce qu'il y a sur votre table ou dans votre sac en trois phrases simples.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c3",
+    "prompt": "Quel est votre endroit préféré pour passer les vacances et pourquoi ?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c4",
+    "prompt": "Comment préférez-vous passer un dimanche pluvieux en hiver ?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c5",
+    "prompt": "Quel rôle joue la musique ou l'art dans votre quotidien et votre inspiration ?",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c6",
+    "prompt": "Quels sont selon vous les plus grands avantages d'apprendre une langue étrangère à l'âge adulte ?",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c7",
+    "prompt": "Dans quelle mesure l'essor des nouvelles technologies redéfinit-il les relations humaines contemporaines ?",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "fr:speaking:c8",
+    "prompt": "Analysez l'impact des expressions idiomatiques sur la transmission de l'identité culturelle.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]

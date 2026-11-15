@@ -178,5 +178,77 @@
     "prompt": "Imagine your ideal weekend. Describe how you would spend Saturday and Sunday.",
     "topic": "lifestyle",
     "level": "A2-B1"
+  },
+  {
+    "id": "en:speaking:c1",
+    "prompt": "Introduce yourself: say your name, where you are from, and what languages you are learning.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c2",
+    "prompt": "Describe three items currently on your desk or in your room.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c3",
+    "prompt": "Talk about your favourite meal: what is it and when do you usually eat it?",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c4",
+    "prompt": "Describe your typical morning routine and what helps you wake up smoothly.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c5",
+    "prompt": "Talk about a recent trip or holiday you enjoyed: where did you go and who was with you?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c6",
+    "prompt": "How do you like to spend a rainy Sunday afternoon?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c7",
+    "prompt": "How has modern technology transformed how you stay in touch with friends and family?",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c8",
+    "prompt": "Describe a challenge you faced recently and how you managed to overcome it.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c9",
+    "prompt": "Do you prefer living in a bustling metropolitan city or a peaceful town? Explain your view.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c10",
+    "prompt": "To what extent does speaking multiple languages alter an individual's worldview or cognitive perception?",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c11",
+    "prompt": "Critique the role of algorithms in shaping contemporary public discourse and culture.",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "en:speaking:c12",
+    "prompt": "Discuss the balance between preserving linguistic heritage and adopting global lingua francas.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]

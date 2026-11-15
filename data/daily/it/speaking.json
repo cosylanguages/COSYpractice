@@ -58,5 +58,53 @@
     "prompt": "Se potessi scegliere un superpotere, quale sceglieresti e perché?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "it:speaking:c1",
+    "prompt": "Presentati: di' il tuo nome, da dove vieni e cosa ti piace fare nel tempo libero.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c2",
+    "prompt": "Descrivi cosa vedi intorno a te in questo momento usando parole semplici.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c3",
+    "prompt": "Qual è la tua città preferita da visitare e cosa ti piace di più?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c4",
+    "prompt": "Come ami trascorrere il fine settimana per rilassarti dopo il lavoro o lo studio?",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c5",
+    "prompt": "Quali generi musicali ascolti quando studi e come influenzano la tua concentrazione?",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c6",
+    "prompt": "Preferisci vivere in una metropoli dinamica o in un piccolo borgo storico? Spiega i motivi.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c7",
+    "prompt": "In che modo l'esperienza di apprendere una lingua modifica la nostra percezione delle altre culture?",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "it:speaking:c8",
+    "prompt": "Valuta criticamente i vantaggi e i rischi dell'intelligenza artificiale nella conservazione del patrimonio linguistico.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]

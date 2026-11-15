@@ -58,5 +58,53 @@
     "prompt": "Scrivi una lettera aperta proponendo idee per migliorare il tuo quartiere.",
     "topic": "community",
     "level": "B1-B2"
+  },
+  {
+    "id": "it:writing:c1",
+    "prompt": "Scrivi tre frasi semplici sulla tua routine quotidiana.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c2",
+    "prompt": "Fai una lista delle tue cinque cose preferite da fare durante le vacanze.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c3",
+    "prompt": "Scrivi un breve paragrafo sulla tua giornata ideale.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c4",
+    "prompt": "Scrivi un'email informale per invitare un amico a prendere un caffè.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c5",
+    "prompt": "Scrivi una breve recensione di un libro o di un film che ti ha particolarmente colpito.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c6",
+    "prompt": "Spiega in un paragrafo argomentativo l'importanza di dedicare tempo a un hobby creativo.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c7",
+    "prompt": "Elabora una riflessione critica sul rapporto tra sostenibilità urbana e benessere psicologico dei cittadini.",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "it:writing:c8",
+    "prompt": "Scrivi un saggio breve sul ruolo della narrazione letteraria nell'interpretazione del presente.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]

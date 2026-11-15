@@ -58,5 +58,53 @@
     "prompt": "Écrivez une lettre à votre futur vous dans dix ans.",
     "topic": "personal",
     "level": "B1-B2"
+  },
+  {
+    "id": "fr:writing:c1",
+    "prompt": "Écrivez trois phrases simples pour décrire votre journée type.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c2",
+    "prompt": "Rédigez une courte liste de vos cinq activités préférées du week-end.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c3",
+    "prompt": "Écrivez un paragraphe décrivant votre journée idéale.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c4",
+    "prompt": "Rédigez un court courriel d'invitation à un ami pour un dîner.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c5",
+    "prompt": "Rédigez une critique concise d'un livre ou d'un film marquant que vous avez découvert récemment.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c6",
+    "prompt": "Expliquez dans un texte structuré pourquoi une routine matinale équilibrée favorise le bien-être.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c7",
+    "prompt": "Rédigez un essai argumentatif analysant les répercussions du travail à distance sur la cohésion sociale.",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "fr:writing:c8",
+    "prompt": "Proposez une réflexion critique sur la protection de la diversité linguistique à l'ère numérique.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]

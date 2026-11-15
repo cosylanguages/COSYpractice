@@ -178,5 +178,53 @@
     "prompt": "Summarize the key takeaways from a book that influenced your personal perspective on life.",
     "topic": "reflection",
     "level": "B1-B2"
+  },
+  {
+    "id": "en:writing:c1",
+    "prompt": "Write 3-4 simple sentences about what you do every morning.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c2",
+    "prompt": "Write a short shopping list with 5 things you need to buy and why.",
+    "level": "A0-A1",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c3",
+    "prompt": "Write a short paragraph describing your ideal relaxing day from morning to evening.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c4",
+    "prompt": "Compose a brief message inviting a friend for coffee or a weekend walk.",
+    "level": "A2",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c5",
+    "prompt": "Write a short reflective paragraph on a personal goal you set this year and your progress.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c6",
+    "prompt": "Compose a polite, concise email requesting a brief deadline extension for a project.",
+    "level": "B1-B2",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c7",
+    "prompt": "Write a persuasive opinion piece on whether public transit should be free in major urban centers.",
+    "level": "C1-C2",
+    "curated": true
+  },
+  {
+    "id": "en:writing:c8",
+    "prompt": "Draft a critical synthesis examining how artificial intelligence could reshape creative disciplines.",
+    "level": "C1-C2",
+    "curated": true
   }
 ]
