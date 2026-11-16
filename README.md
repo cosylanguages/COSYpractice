@@ -18,6 +18,22 @@ Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
 - Grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
 - `data/vocabulary/<level>/<theme>.js` and `data/grammar/<level>/<theme>.js` are bundled here (about 38 MB) and loaded on demand per session.
 
+## Daily elements
+This repository owns the daily speaking and writing prompts (`data/daily/<lang>/speaking.json`,
+`writing.json`) and the rotating Daily Challenge. The other daily elements live where they belong;
+the page links out to them instead of copying their content.
+
+| Element | Owner |
+|---|---|
+| Speaking and writing prompts, Daily Challenge | COSYpractice (`data/daily/<lang>/`, `hub.js`) |
+| Word, verb, verb + preposition, phrasal verb and idiom of the day | [COSYdata](https://github.com/cosylanguages/COSYdata) |
+| Fun fact and the hub daily strip | [COSYlanguages](https://github.com/cosylanguages/COSYlanguages) |
+| Cultural spotlights | [COSYevents](https://github.com/cosylanguages/COSYevents) |
+
+The page mounts the shared directory from COSYlanguages with
+`<div data-daily-directory data-self="practice">`. Validate the prompts with
+`node scripts/validate-daily-prompts.js`.
+
 ## Develop
 `python3 -m http.server 8000` and open http://localhost:8000/. Nothing to install.
 
