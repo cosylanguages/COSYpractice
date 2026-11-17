@@ -1,0 +1,15 @@
+{
+  "appId": "io.github.cosylanguages.cosypractice",
+  "appName": "COSYpractice",
+  "webDir": "../www",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

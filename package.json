@@ -1,0 +1,16 @@
+{
+  "name": "cosypractice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "COSYpractice — free vocabulary, grammar and speaking practice (static, client-side).",
+  "scripts": {
+    "validate:daily": "node scripts/validate-daily-prompts.js",
+    "vendor:cosydata": "node scripts/vendor-cosydata.js",
+    "app:build": "node scripts/build-app.js",
+    "app:sources": "node scripts/generate-app-sources.js",
+    "check:app-bundle": "node scripts/build-app.js --check"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}
