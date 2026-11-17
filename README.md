@@ -13,7 +13,7 @@ Live at https://cosylanguages.github.io/COSYpractice/
 
 ## Data & Content Integration
 Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
-- `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
+- `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/). `schemas/themes.json` is snapshotted to `data/cosydata/themes.json` so the theme picker works offline; refresh it with `npm run vendor:cosydata`.
 - Spaced repetition (SRS) algorithms and practice tools shared with **COSYtools**
 - Grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
 - `data/vocabulary/<level>/<theme>.js` and `data/grammar/<level>/<theme>.js` are bundled here (about 38 MB) and loaded on demand per session.
@@ -33,6 +33,24 @@ the page links out to them instead of copying their content.
 The page mounts the shared directory from COSYlanguages with
 `<div data-daily-directory data-self="practice">`. Validate the prompts with
 `node scripts/validate-daily-prompts.js`.
+
+## Native Apps (Android, iOS, Windows/macOS/Linux)
+
+The same client-side code is wrapped as native apps with no fork of the web app. A single
+generated bundle, `native/www`, feeds both shells:
+
+- **Mobile** — Capacitor (`native/capacitor`) for Android and iOS, app id
+  `io.github.cosylanguages.cosypractice`.
+- **Desktop** — Electron + electron-builder (`native/electron`) for Windows, macOS, and
+  Linux.
+
+```bash
+npm run app:build        # build native/www (git-ignored)
+npm run app:sources      # regenerate icon/splash masters
+npm run vendor:cosydata  # refresh the offline COSYdata theme schema snapshot
+```
+
+See [`docs/NATIVE_APPS.md`](docs/NATIVE_APPS.md) for the full build, sync, and CI workflow.
 
 ## Develop
 `python3 -m http.server 8000` and open http://localhost:8000/. Nothing to install.
