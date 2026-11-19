@@ -13,6 +13,9 @@
     let timerInterval = null;
     let timeLeft = 120;
     const TOTAL_TIME = 120;
+    let dailyCtx = null;   // { category, dayOfYear, today } for today
+    let dailyData = null;  // today's data from COSY_DailySource, or null: the English DAILY_BANK is shown instead
+    let rendered = false;
 
     // Load state from localStorage
     function loadState() {
@@ -50,17 +53,66 @@
         // Load Challenge
         const category = window.DAILY_SCHEDULE[dayOfWeek];
         const bank = window.DAILY_BANK[category];
-        // For simplicity, we use day of year to cycle through bank items if more than 1
+        // Day of year cycles through the English bank, and picks from the data files
         const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
         currentChallenge = bank[dayOfYear % bank.length];
+        const source = window.COSY_DailySource;
+        const pickIdx = source ? source.occurrenceIndex(today, window.DAILY_SCHEDULE) : dayOfYear;
+        dailyCtx = { category: category, dayOfYear: dayOfYear, pickIdx: pickIdx, today: today };
 
-        renderChallenge();
         updateUI();
         renderWeekGrid();
+
+        // Prompts and words come from the COSY data in the learner's language. The interface language is only known
+        // once the i18n file has loaded (it announces itself with cosyI18nReady), so wait for that instead of loading
+        // English first and flashing it. Without the i18n script there is nothing to wait for.
+        document.addEventListener('cosyI18nReady', loadDaily);
+        document.addEventListener('cosyLanguageChanged', loadDaily);
+        if (!window.COSY_I18N) loadDaily();
+        // never leave "Loading prompt..." on screen if the interface language never reports in
+        setTimeout(function () { if (!rendered) loadDaily(); }, 4000);
+    }
+
+    let loadSeq = 0;
+    function loadDaily() {
+        const source = window.COSY_DailySource;
+        if (!source || !dailyCtx) { renderChallenge(); return Promise.resolve(); }
+        const lang = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
+        const seq = ++loadSeq;  // a slower, older response must not overwrite a newer one
+        return source.loadData(lang, dailyCtx.category, dailyCtx.today)
+            .catch(function () { return null; })
+            .then(function (data) {
+                if (seq !== loadSeq) return;
+                dailyData = data;
+                renderChallenge();
+            });
+    }
+
+    function label(key, fallback) {
+        return (window.t && window.t(key)) || fallback;
+    }
+
+    function renderFlatChallenge(c) {
+        document.getElementById('typeBadge').textContent = c.badge;
+        document.getElementById('cardNum').textContent = c.id;
+        document.getElementById('challengeTitle').textContent = c.title;
+        document.getElementById('challengeSubtitle').textContent = c.subtitle;
+        document.getElementById('speakingPrompt').textContent = c.prompt;
+        document.getElementById('speakingTip').textContent = c.tip;
+        document.getElementById('microLabel').textContent = label('ui.micro_task_4917', 'Micro-task');
+        document.getElementById('microTitle').textContent = c.micro.title;
+        document.getElementById('microInstruction').textContent = c.micro.instruction;
+        document.getElementById('microExample').textContent = c.micro.example ? (label('daily.example', 'Example') + ': ' + c.micro.example) : '';
     }
 
     function renderChallenge() {
+        rendered = true;
         const promptEl = document.getElementById('speakingPrompt');
+
+        // data files first (learner's language); the English bank below is the fallback
+        const source = window.COSY_DailySource;
+        const flat = source && dailyData && dailyCtx ? source.buildChallenge(dailyCtx.category, dailyData, currentLevel, dailyCtx.dayOfYear, dailyCtx.pickIdx) : null;
+        if (flat) { renderFlatChallenge(flat); return; }
 
         if (!currentChallenge || !currentChallenge.levels || !currentChallenge.levels[currentLevel]) {
             if (promptEl) promptEl.textContent = "Today's prompt is unavailable right now. Try again in a moment.";

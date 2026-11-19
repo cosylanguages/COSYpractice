@@ -68,3 +68,7 @@ These files were initialised with 10 placeholder prompts per language (30 for En
 - [ ] Review `data/daily/tt/speaking.json` prompts for standard literary Tatar orthography and phrasing.
 - [ ] Review `data/daily/tt/writing.json` prompts for clarity.
 - [ ] Expand speaking and writing from 10 to 30 prompts per file.
+
+### Interface strings for the Daily Challenge (`i18n/<lang>.json`, keys `daily.*`)
+- [ ] Native-speaker review of the 27 `daily.*` strings in `i18n/fr.json`, `i18n/it.json`, `i18n/ru.json` and `i18n/el.json`
+  (card titles and subtitles, tips, micro-task wording). They were written without a native check; English is the fallback in `types/writing/daily_source.js`.

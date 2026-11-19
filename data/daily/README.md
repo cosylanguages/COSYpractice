@@ -17,6 +17,9 @@ One short prompt per entry, per language: `data/daily/<lang>/speaking.json` and 
   match the learner's level band, rotating by day of year.
 - **Consumers:** the daily strip (`COSYlanguages/js/daily-strip.js`), which reads `https://cosylanguages.github.io/COSYpractice/data/daily/<lang>/<type>.json`.
   Until 2026-11 these files lived in COSYdata (`daily/<lang>/`); the strip still falls back to that location.
-- **Not the same as the Daily Challenge.** `types/writing/daily_data.js` (`DAILY_BANK`) holds full challenges with tips and
-  micro-tasks. These files are the lighter one-line prompts shown in the strip. Unifying the two is a possible follow-up.
+- **The Daily Challenge on the Practice homepage** (`types/writing/daily_source.js`) also reads these files. Speaking and writing days
+  take their prompt from here for the learner's language and level (curated prompts first); the vocabulary day shows the word of the day and
+  the grammar day the verb + preposition of the day (else the verb of the day) from the COSYdata calendars. The English `DAILY_BANK` in
+  `types/writing/daily_data.js` is only the fallback when a language has no data or the network fails. Test with `node scripts/test-daily-source.js`.
+  The generic tips and micro-task wording are `daily.*` keys in `i18n/<lang>.json`.
 - COSYdata holds vocabulary only: idioms, words and other dictionary-backed slots are generated there.
