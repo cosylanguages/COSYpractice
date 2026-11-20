@@ -65,22 +65,26 @@ Every language carries two kinds of speaking card.
 
 General cards are written for **all ages**. Every band has a card for young learners, teens, adults and seniors, with
 one deliberate exception: there is no C1-C2 card tagged `young`, because an advanced young learner is rare and the
-strip then serves the B1-B2 card instead (see the preference order below). Nothing in either track assumes a gender,
+strip then serves the B1-B2 card instead (see the ranking table below). Nothing in either track assumes a gender,
 a relationship status, or an adult life: prompts say "work or school", "the people you live with", "your household".
 
 ### How the strip chooses a card
 
-`COSYlanguages/js/daily-strip.js` takes the learner's level band, then walks these steps in order and stops at the
-first that has a card:
+`COSYlanguages/js/daily-strip.js` first works out the audience: a container's own `data-audience`, else the site-wide
+preference in `localStorage` (`cosy_audience_preference`: `children`, `teens`, `adults`, `seniors`, mapped onto
+`young`, `teen`, `adult`, `senior`), else `<html data-audience>`. It then ranks cards by two things — how well the
+audience fits, and how close the level is to the chosen band — and takes the best:
 
-1. the chosen band, a card written for the requested audience (`data-audience`)
-2. the nearest band that has a card for that audience
-3. the chosen band, any audience
-4. anything, nearest band first
+| | same band | nearest band first |
+|---|---|---|
+| names this audience | 1st | 4th |
+| names no audience (neutral) | 2nd | 5th |
+| names other audiences only | 3rd | 6th |
 
 Age comes before level on purpose. A twelve-year-old who picks C1-C2 is better served a B1-B2 card about school than
-an adult-only card about compulsory voting, because a level measures language, not maturity. `data-track="general"`
-hides exam tasks and `data-track="exam"` hides course material; unset means both.
+an adult-only card about compulsory voting, because a level measures language, not maturity. The "what this level
+expects" guide describes the card actually shown, not the band the learner clicked, so the two never disagree.
+`data-track="general"` hides exam tasks and `data-track="exam"` hides course material; unset means both.
 
 - `"curated": true` marks hand-written prompts that were written for one level band (`A0-A1`, `A2`, `B1-B2`, `C1-C2`). When any curated
   prompt matches the learner's band, the strip chooses among those only; otherwise it chooses among all matching entries.
