@@ -635,5 +635,496 @@
       "Peseurt danvez eo ar muiañ diaes da notennañ gant justis?",
       "Ha setu an implijerien a-du ganeoc'h?"
     ]
+  },
+  {
+    "id": "br:speaking:x1",
+    "prompt": "Anvit tri objed war ar skeudenn hag evit da belec'h emaint: war an daol, dindan an daol, e-kichen ar werenn.",
+    "topic": "deskrivadur ur skeudenn",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Poelladenn gomz · Deskrivadur",
+    "task": "Deskrivadur ur skeudenn",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Peseurt niver a levrioù zo war an daol?",
+      "Pe liv eo ar sac'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:x2",
+    "prompt": "Kontait ur gontadenn gant tri skeudenn: piv zo e pep skeudenn, petra a ra ha penaos e echuiñ ar gontadenn?",
+    "topic": "kontadenn gant skeudennoù",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Poelladenn gomz · Monolog",
+    "task": "Kontadenn gant skeudennoù",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Petra a c'hoarvez goude?",
+      "Penaos en em sant an dud?"
+    ]
+  },
+  {
+    "id": "br:speaking:x3",
+    "prompt": "Anviñ a ran pevar tra: ur bus, ur marc'h-houarn, un tren hag un aval. Pehini zo disheñvel ha perak?",
+    "topic": "kavout an hini disheñvel",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Kavout an hini disheñvel",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Gallout a reer o strollañ en un doare all?",
+      "Pehini a implijit ar muiañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:x4",
+    "prompt": "Penaos eo an amzer hiziv? Petra a zo gwisket ganeoc'h? Petra a welit er straed?",
+    "topic": "an amzer",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Poelladenn gomz · Deskrivadur",
+    "task": "An amzer",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Petra a wiskit pa vez glav?",
+      "Peseurt amzer a blij deoc'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:x5",
+    "prompt": "Ho klas en deus un endervezh dieub. Komzit diwar-benn pevar oberenn ha dibabit asambles ar gwellañ.",
+    "topic": "diviz asambles",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Diviz asambles",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Perak eo ar gwellañ dibab?",
+      "Petra zo ret kas ganeoc'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:x6",
+    "prompt": "Penaos e plij deoc'h tremen ar beurevezh? Petra a rit peurliesañ, gant piv ha perak e plij deoc'h?",
+    "topic": "diwar-benn ar boazioù",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Poelladenn gomz · Monolog",
+    "task": "Diwar-benn ar boazioù",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "C'hoant hoc'h eus da esaeañ un dra all?",
+      "Alies hoc'h eus ur beurevezh dieub?"
+    ]
+  },
+  {
+    "id": "br:speaking:x7",
+    "prompt": "Ar wech diwezhañ ma oac'h er stal, petra a brenit? Petra a zibabit ha perak?",
+    "topic": "er stal",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Poelladenn gomz · Deskrivadur",
+    "task": "Er stal",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ar priz en deus souezhet ac'hanoc'h?",
+      "Pelec'h e implijit anezhañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:x8",
+    "prompt": "Ar stal en deus gwerzhet dilhad gant ar vent fall deoc'h. Merkit ar gudenn ha goulennit an eskemm.",
+    "topic": "eskemm dilhad",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Eskemm dilhad",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ar gwerzher a ginnig ur vent all. Penaos e respontit?",
+      "Ma vez tremenet an amzer da zisteurel?"
+    ]
+  },
+  {
+    "id": "br:speaking:x9",
+    "prompt": "Ar wech diwezhañ, peseurt diaester hoc'h eus bet ha penaos hoc'h eus e drec'het? Peseurt pazennoù hoc'h eus graet ha petra hoc'h eus desket?",
+    "topic": "trec'hiñ un diaester",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Poelladenn gomz · Monolog",
+    "task": "Trec'hiñ un diaester",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Petra a oa ar muiañ diaes er penn-kentañ?",
+      "Peseurt alioù a rofec'h da unan all?"
+    ]
+  },
+  {
+    "id": "br:speaking:x10",
+    "prompt": "Pehini zo gwelloc'h: ul levr paper pe ul levr elektronek? Sellit ouzh an div gostezenn hag lavarit ho soñj.",
+    "topic": "keñveriañ ha reiñ soñj",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Poelladenn gomz · Arguzenn",
+    "task": "Keñveriañ ha reiñ soñj",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Pehini zo gwelloc'h evit ar vugale?",
+      "Petra a vo cheñchet en amzer da zont?"
+    ]
+  },
+  {
+    "id": "br:speaking:x11",
+    "prompt": "Keñveriit div luc'hskeudenn: en unan e labour an dud en ur burev, en hini all e labour an dud er-maez. Merkit an diforc'hioù.",
+    "topic": "keñveriañ div skeudenn",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Poelladenn gomz · Deskrivadur",
+    "task": "Keñveriañ div skeudenn",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Peseurt labour a blij deoc'h?",
+      "Al lec'h labour en deus levezon war ar frouezh?"
+    ]
+  },
+  {
+    "id": "br:speaking:x12",
+    "prompt": "Ar park eus ar gêr a rank bezañ gwellaet. Kinnigit div reolenn ha merkit ar vad hag an droug eus pep hini.",
+    "topic": "kudenn ha diskoulm",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Kudenn ha diskoulm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Piv a c'hall bezañ a-enep?",
+      "Peseurt arc'hant zo ret?"
+    ]
+  },
+  {
+    "id": "br:speaking:x13",
+    "prompt": "Gallout a ra ar spered-intentet kemer plas ar c'hrouadur denel? Priziit e vevennoù hag e heuliadoù.",
+    "topic": "diviz difetis",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Diviz difetis",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Penaos gwareziñ ar gwirioù aozer?",
+      "Petra zo dibar d'ar c'hrouadur denel?"
+    ]
+  },
+  {
+    "id": "br:speaking:x14",
+    "prompt": "Peseurt arc'hant a rank ar Stad lakaat er sevenadur? Keñveriit gant ar yec'hed ha difennit ho sav-poent.",
+    "topic": "arguzenn frammet",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Poelladenn gomz · Arguzenn",
+    "task": "Arguzenn frammet",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Piv a verk ar priorelezhioù?",
+      "Penaos jediñ an arc'hant foran?"
+    ]
+  },
+  {
+    "id": "br:speaking:x15",
+    "prompt": "Ar skol a cheñch an doare da briziañ arnodennoù. Aozit ur prezegenn teir munut evit difenn ar ginnig.",
+    "topic": "prezegenn gendrec'hus",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Poelladenn gomz · Monolog",
+    "task": "Prezegenn gendrec'hus",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Petra a cheñchfec'h da gentañ?",
+      "Ar gerent a vo a-du?"
+    ]
+  },
+  {
+    "id": "br:speaking:x16",
+    "prompt": "Al labour a-stroll zo atav gwelloc'h eget al labour hiniennel? Divizit gant skouerioù diaes.",
+    "topic": "diviz kemplezh",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Poelladenn gomz · Diviz",
+    "task": "Diviz kemplezh",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Pegoulz eo efedusoc'h al labour hiniennel?",
+      "Piv zo kablus er stroll?"
+    ]
+  },
+  {
+    "id": "br:speaking:gx1",
+    "prompt": "Sellit ouzh div doare da vont d'al labour: ar bus hag ar marc'h-houarn. Pehini zo buanoc'h evidoc'h? Pehini zo marc'had-mat? Pehini a blij deoc'h ar muiañ, ha perak?",
+    "topic": "Keñveriañ div dra pemdeziek",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Keñveriañ div dra pemdeziek",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Pehini zo gwelloc'h pa vez glav?",
+      "Pehini zo yac'husoc'h?",
+      "Pehini a zibabfec'h warc'hoazh?"
+    ]
+  },
+  {
+    "id": "br:speaking:gx2",
+    "prompt": "Gaoulennatait ur c'heneil diwar e zevezh boas. Goulennit pemp tra: pegoulz e sav, petra a zebr, penaos e veaj, petra a ra da noz ha petra a blij dezhañ ar muiañ. Pehini eus e respontoù a lavar ar muiañ diwar e benn?",
+    "topic": "Gaoulennata unan bennak diwar e zevezh",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Gaoulennata unan bennak diwar e zevezh",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Peseurt respont en deus souezhet ac'hanoc'h?",
+      "Penaos eo disheñvel e zevezh diouzh ho hini?",
+      "Petra a cheñchfec'h en e boazioù?"
+    ]
+  },
+  {
+    "id": "br:speaking:gx3",
+    "prompt": "C'hoari-rol: ret eo deoc'h lavarout d'ur amezeg eo re uhel e sonerezh da noz. Bezit seven, merkit ar gudenn ha kinnigit un diskoulm. Petra a lavarfec'h da gentañ?",
+    "topic": "C'hoari ur gaoz diaes",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "C'hoari ur gaoz diaes",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ha ma tro an amezeg droug ennañ?",
+      "Penaos e skrivfec'h an dra-se?",
+      "Pegoulz eo ret kemenn rener ar savadur?"
+    ]
+  },
+  {
+    "id": "br:speaking:gx4",
+    "prompt": "Keñveriit div sav-poent diwar-benn al labour a-bell: espern an amzer beaj met gwanañ a ra spered ar stroll. Pehini eo an arguzenn greñvañ, ha peseurt prouenn a ziskoulmfe ar goulenn?",
+    "topic": "Keñveriañ div arguzenn",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Keñveriañ div arguzenn",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Petra a cheñchfe ho soñj?",
+      "Penaos e savfec'h ur studiadenn evit e wiriañ?",
+      "Hag hervez ar vicher eo ar respont?"
+    ]
+  },
+  {
+    "id": "br:speaking:gy1",
+    "prompt": "Divizet hon eus gant ur mignon aozañ lein asambles. Petra a zebrimp, piv a zegaso petra, ha da bet eur e kejimp?",
+    "topic": "Ober ur steuñv asambles",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Ober ur steuñv asambles",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Piv a ra petra?",
+      "Peseurt boued a rankomp prenañ?",
+      "Piv a c'hall dont diwezhatoc'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:gy2",
+    "prompt": "Gant ur mignon, steuñvit ur veaj un devezh: da belec'h ez eomp, penaos, petra a gasimp ganeomp ha penaos e tremenimp an deiz?",
+    "topic": "Steuñviñ ur veaj",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Steuñviñ ur veaj",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ma cheñch an amzer, ha cheñch a raio ar steuñv?",
+      "Peseurt arc'hant zo ret?",
+      "Pegoulz eo ar gwellañ?"
+    ]
   }
 ]

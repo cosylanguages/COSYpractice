@@ -49,11 +49,15 @@ practised.
 
 Every language carries two kinds of speaking card.
 
-- **Exam track** (`track` absent or `"exam"`) — modelled on a real exam task, with `exam`, `part` and `task`. 396 cards.
+- **Exam track** (`track` absent or `"exam"`) — modelled on a real exam task, with `exam`, `part` and `task`. 538 cards.
 - **General-course track** (`"track": "general"`) — no exam at all. The card teaches speaking for its own sake:
   brainstorm a list, analyse a headline, describe a room, compare two options, role-play a shop return, solve a small
-  problem, plan something together, present a proposal. 172 cards, so learners who are not preparing for an exam
+  problem, plan something together, present a proposal. 240 cards, so learners who are not preparing for an exam
   still get daily practice.
+
+Both tracks are complete for every band and every language: at least **8 exam cards** and **4 general cards** per
+CEFR band per language, and the general track uses all twelve activities in all fourteen languages. So whichever
+level a learner picks, in whichever language, there is real practice written for it.
 
 ```json
 { "id": "en:speaking:g1",
@@ -99,10 +103,10 @@ expects" guide describes the card actually shown, not the band the learner click
 
 - `"curated": true` marks hand-written prompts that were written for one level band (`A0-A1`, `A2`, `B1-B2`, `C1-C2`). When any curated
   prompt matches the learner's band, the strip chooses among those only; otherwise it chooses among all matching entries.
-  Coverage per band: English, French, Italian, Russian and Greek 10 exam prompts; Spanish, German and Portuguese 8;
-  Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash 4. The general track adds 3-4 cards per band per language
-  (English, French, Italian, Russian, Greek, Spanish, German, Portuguese 12-13; Armenian, Georgian, Tatar, Bashkir,
-  Breton, Chuvash 9).
+  Coverage per band: every language carries at least 8 curated exam prompts per band (English 13-19, French, Italian,
+  Russian and Greek 10-12, German, Spanish and Portuguese 8-11, Armenian, Georgian, Tatar, Bashkir, Breton and
+  Chuvash 8). The general track adds at least 4 cards per band per language. Writing follows the same shape with a
+  floor of 6 curated exam cards and 4 general cards per band.
 - Exam models in use: IELTS, TOEFL iBT, Cambridge (Pre A1 Starters, Movers, Key, Preliminary, First, Advanced,
   Proficiency), Trinity ISE, ECPE, DELF/DALF, TCF, DELE, SIELE, Goethe-Zertifikat, ÖSD, telc, CILS, CELI, CAPLE,
   Celpe-Bras, ТРКИ (ТЭУ/ТБУ/ТРКИ-1–4), Ελληνομάθεια, the Armenian, Georgian, Tatar, Bashkir and Chuvash state language
@@ -110,7 +114,15 @@ expects" guide describes the card actually shown, not the band the learner click
   describing at A0-A1, narrating and transacting at A2, arguing and comparing at B1-B2, evaluating and synthesising at C1-C2.
 - Check the files with `node scripts/validate-daily-prompts.js` (ids, prompts, level tags, the required exam/part/task
   scaffolding, and the curated-band rule: every language needs curated speaking prompts for every band, and the core
-  languages every band of writing too).
+  languages every band of writing too). Then run `node scripts/test-speaking-coverage.js` and
+  `node scripts/test-writing-coverage.js`, which hold the content floors: at least 8 curated exam cards and 4 general
+  cards per band per language for speaking, 6 and 4 for writing, and all twelve activities present in all fourteen
+  languages on each track. The writing check also fails if a curated card is missing its genre, word target, time
+  limit or self-check list.
+- Writing cards carry `genre`, `word_min`/`word_max`, `write_minutes` and a 2–3 point `checklist`; the strip renders
+  them as chips, a word target, a time limit and a "Before you finish, check" list. Exam writing tasks follow the
+  IELTS Task 1/2, TOEFL integrated and academic-discussion, Cambridge, DELF/DALF, Goethe, DELE and ТРКИ shapes at the
+  length each band is expected to produce (A0-A1: 10-40 words, A2: 25-90, B1-B2: 80-280, C1-C2: 140-300).
 - `level` is a CEFR tag or range (`A2`, `A2-B1`, `B1-B2`). The daily strip on COSYlanguages picks among the prompts that
   match the learner's level band, rotating by day of year.
 - **Consumers:** the daily strip (`COSYlanguages/js/daily-strip.js`), which reads `https://cosylanguages.github.io/COSYpractice/data/daily/<lang>/<type>.json`.

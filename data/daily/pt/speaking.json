@@ -1080,5 +1080,182 @@
       "Que disciplina é mais difícil de avaliar com justiça?",
       "Os empregadores concordariam consigo?"
     ]
+  },
+  {
+    "id": "pt:speaking:p1",
+    "prompt": "Está numa agência de viagens e quer mudar um voo que foi cancelado. Explique a situação, negocie alternativas e confirme a nova reserva.",
+    "topic": "interação com o examinador",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE (B2)",
+    "part": "Produção e interação orais · Interação",
+    "task": "Interação com o examinador",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Aceitaria um voo com escala?",
+      "Que compensação pediria?"
+    ]
+  },
+  {
+    "id": "pt:speaking:p2",
+    "prompt": "Leia a afirmação «o turismo de massas destrói os centros históricos» e faça uma síntese de 1 minuto seguida de um comentário crítico de 2 minutos.",
+    "topic": "síntese e comentário",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE (C1)",
+    "part": "Produção e interação orais · Síntese e comentário",
+    "task": "Síntese e comentário",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "Que soluções existem para as cidades?",
+      "Quem deve pagar por elas?"
+    ]
+  },
+  {
+    "id": "pt:speaking:p3",
+    "prompt": "A partir de uma notícia sobre transporte público gratuito, discuta com o examinador as vantagens, os custos e a viabilidade da medida na sua cidade.",
+    "topic": "interação a partir de um texto",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Celpe-Bras",
+    "part": "Interação face a face · Elemento 4",
+    "task": "Interação a partir de um texto",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quem pagaria a conta?",
+      "Que cidade já tentou isso?"
+    ]
+  },
+  {
+    "id": "pt:speaking:p4",
+    "prompt": "Explique ao examinador como chegar da sua casa à estação de comboios mais próxima: que ruas apanhar, que transporte usar e quanto tempo demora.",
+    "topic": "dar instruções",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE (A2)",
+    "part": "Produção e interação orais · Instruções",
+    "task": "Dar instruções",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "E se não houver autocarros?",
+      "A que horas há mais trânsito?"
+    ]
+  },
+  {
+    "id": "pt:speaking:gx1",
+    "prompt": "Olhe para duas formas de ir ao trabalho: o autocarro e a bicicleta. Qual é mais rápido para si? Qual é mais barato? De qual gosta mais, e por quê?",
+    "topic": "Comparar duas coisas do dia a dia",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Comparar duas coisas do dia a dia",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qual é melhor quando chove?",
+      "Qual é mais saudável?",
+      "O que escolheria amanhã?"
+    ]
+  },
+  {
+    "id": "pt:speaking:gx2",
+    "prompt": "Entreviste um colega sobre o seu dia normal. Faça cinco perguntas: a que horas se levanta, o que come, como se desloca, o que faz à noite e do que gosta mais. Qual das respostas dele lhe diz mais sobre ele?",
+    "topic": "Entrevistar alguém sobre o seu dia",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Entrevistar alguém sobre o seu dia",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Que resposta o surpreendeu?",
+      "Em que o dia dele é diferente do seu?",
+      "O que mudaria na rotina dele?"
+    ]
+  },
+  {
+    "id": "pt:speaking:gx3",
+    "prompt": "Jogo de papéis: tem de dizer a um vizinho que a música dele está demasiado alta à noite. Seja educado, explique o problema e sugira uma solução. O que diria exatamente primeiro?",
+    "topic": "Representar uma conversa difícil",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Representar uma conversa difícil",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "E se o vizinho ficar zangado?",
+      "Como o diria por escrito?",
+      "Quando é que se deve avisar o condomínio?"
+    ]
+  },
+  {
+    "id": "pt:speaking:gx4",
+    "prompt": "Compare duas posições sobre o teletrabalho: poupa deslocações mas enfraquece o espírito de equipa. Qual argumento é mais sólido e que prova resolveria a questão?",
+    "topic": "Comparar dois argumentos",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Comparar dois argumentos",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "O que o faria mudar de opinião?",
+      "Como desenharia um estudo para o testar?",
+      "A resposta muda conforme a profissão?"
+    ]
   }
 ]

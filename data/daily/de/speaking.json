@@ -1080,5 +1080,184 @@
       "Welches Fach ist am schwersten gerecht zu benoten?",
       "Würden Arbeitgeber Ihnen zustimmen?"
     ]
+  },
+  {
+    "id": "de:speaking:p1",
+    "prompt": "Stellen Sie sich vor: Name, Alter, Wohnort, Beruf oder Schule, Sprachen und Hobbys. Fragen Sie danach Ihren Partner dasselbe.",
+    "topic": "sich vorstellen",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Sprechen Teil 1 · Sich vorstellen",
+    "task": "Sich vorstellen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Buchstabieren Sie bitte Ihren Nachnamen.",
+      "Wo haben Sie Deutsch gelernt?"
+    ]
+  },
+  {
+    "id": "de:speaking:p2",
+    "prompt": "Sie sind neu im Kurs. Sprechen Sie Ihre Partnerin an, stellen Sie sich vor und fragen Sie sie nach ihrer Arbeit, ihrem Wohnort und ihren Interessen.",
+    "topic": "kontaktaufnahme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B1",
+    "part": "Sprechen Teil 1 · Kontaktaufnahme",
+    "task": "Kontaktaufnahme",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Wie sind Sie auf diesen Kurs gekommen?",
+      "Was machen Sie in Ihrer Freizeit?"
+    ]
+  },
+  {
+    "id": "de:speaking:p3",
+    "prompt": "Sie brauchen im Kurs einen Stift und ein Blatt Papier. Bitten Sie Ihren Partner höflich darum und reagieren Sie auf seine Bitten.",
+    "topic": "bitten formulieren",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch A1",
+    "part": "Mündliche Prüfung · Teil 3 · Bitten und Reagieren",
+    "task": "Bitten formulieren",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Wie fragen Sie höflich nach dem Weg?",
+      "Was sagen Sie, wenn Sie etwas nicht verstehen?"
+    ]
+  },
+  {
+    "id": "de:speaking:p4",
+    "prompt": "Sie treffen einen Kollegen im Zug. Beginnen Sie ein Gespräch: fragen Sie nach seinem Ziel, seiner Arbeit und seinem Wochenende.",
+    "topic": "kontaktaufnahme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch B1",
+    "part": "Mündliche Prüfung · Teil 1 · Kontaktaufnahme",
+    "task": "Kontaktaufnahme",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Wie beenden Sie das Gespräch höflich?",
+      "Welche Themen vermeiden Sie mit Fremden?"
+    ]
+  },
+  {
+    "id": "de:speaking:gx1",
+    "prompt": "Schauen Sie zwei Wege zur Arbeit an: den Bus und das Fahrrad. Welcher ist für Sie schneller? Welcher ist billiger? Welchen mögen Sie lieber, und warum?",
+    "topic": "Zwei Alltagsdinge vergleichen",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Zwei Alltagsdinge vergleichen",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Welcher ist bei Regen besser?",
+      "Welcher ist gesünder?",
+      "Was würden Sie morgen wählen?"
+    ]
+  },
+  {
+    "id": "de:speaking:gx2",
+    "prompt": "Befragen Sie einen Partner zu seinem normalen Tag. Stellen Sie fünf Fragen: wann er aufsteht, was er isst, wie er fährt, was er abends macht und was ihm am besten gefällt. Welche seiner Antworten sagt am meisten über ihn aus?",
+    "topic": "Jemanden über seinen Tag befragen",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Jemanden über seinen Tag befragen",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Welche Antwort hat Sie überrascht?",
+      "Wie unterscheidet sich sein Tag von Ihrem?",
+      "Was würden Sie an seiner Routine ändern?"
+    ]
+  },
+  {
+    "id": "de:speaking:gx3",
+    "prompt": "Rollenspiel: Sie müssen einem Nachbarn sagen, dass seine Musik nachts zu laut ist. Seien Sie höflich, erklären Sie das Problem und schlagen Sie eine Lösung vor. Was genau würden Sie zuerst sagen?",
+    "topic": "Ein schwieriges Gespräch spielen",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein schwieriges Gespräch spielen",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Was, wenn der Nachbar wütend wird?",
+      "Wie würden Sie es schriftlich formulieren?",
+      "Wann sollte man den Hausmeister einschalten?"
+    ]
+  },
+  {
+    "id": "de:speaking:gx4",
+    "prompt": "Vergleichen Sie zwei Positionen zum Homeoffice: Es spart Pendelzeit, schwächt aber den Teamgeist. Welches Argument ist stärker, und welcher Beleg würde die Frage entscheiden?",
+    "topic": "Zwei Argumente vergleichen",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Zwei Argumente vergleichen",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Was würde Sie umstimmen?",
+      "Wie würden Sie eine Studie dazu gestalten?",
+      "Hängt die Antwort vom Beruf ab?"
+    ]
   }
 ]

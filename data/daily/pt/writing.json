@@ -58,5 +58,1003 @@
     "prompt": "Escreva uma carta para o seu eu do futuro daqui a dez anos.",
     "topic": "personal",
     "level": "B1-B2"
+  },
+  {
+    "id": "pt:writing:wx1",
+    "prompt": "Preenche um formulário de inscrição num curso de português: nome, apelido, nacionalidade, idade, morada e língua materna.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Formulário",
+    "task": "Preencher um formulário",
+    "genre": "Formulário",
+    "word_min": 20,
+    "word_max": 30,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx2",
+    "prompt": "Escreve uma mensagem ao teu vizinho: vais sair no fim de semana, pede-lhe para regar as plantas e diz-lhe onde está a chave.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Mensagem",
+    "task": "Mensagem breve",
+    "genre": "Mensagem",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx3",
+    "prompt": "Estás de férias. Escreve um postal a um amigo: onde estás, com quem, que tempo faz e o que visitaste.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Postal",
+    "task": "Postal",
+    "genre": "Postal",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx4",
+    "prompt": "Apresenta-te em cinco frases: o teu nome, a tua idade, o teu trabalho ou estudos, a tua cidade e o que gostas de fazer.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Apresentar-se",
+    "task": "Apresentação",
+    "genre": "Texto curto",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx5",
+    "prompt": "Escreve um convite para o teu aniversário: o dia, a hora, o lugar e o que os teus amigos devem trazer.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Convite",
+    "task": "Convite",
+    "genre": "Mensagem",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx6",
+    "prompt": "Descreve uma fotografia da tua família em cinco frases: quem são, onde estão e o que estão a fazer.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE",
+    "part": "Produção escrita · Descrever uma fotografia",
+    "task": "Descrição",
+    "genre": "Texto curto",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx7",
+    "prompt": "Escreve uma mensagem a um amigo para o convidar a passar o fim de semana em tua casa. Diz quando vir, o que trazer e o que vão fazer juntos.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Tarefa 1 · Mensagem",
+    "task": "Mensagem",
+    "genre": "Mensagem",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx8",
+    "prompt": "Conta um fim de semana inesquecível em três parágrafos curtos: onde foste, com quem e o que aconteceu.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Tarefa 2 · Relato",
+    "task": "Relato no passado",
+    "genre": "Relato",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx9",
+    "prompt": "Escreve um email a um amigo que chega à tua cidade. Dá-lhe três conselhos sobre transportes, lojas e lugares a visitar.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Tarefa 3 · Correio eletrónico",
+    "task": "Email informal",
+    "genre": "Email",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx10",
+    "prompt": "Compraste um objeto com defeito. Escreve à loja: descreve o objeto, explica o problema e pede uma troca.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Reclamação",
+    "task": "Reclamação",
+    "genre": "Mensagem",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx11",
+    "prompt": "Descreve o teu bairro para um amigo estrangeiro: o que há, como é de dia e de noite e porque gostas dele.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Descrição de um lugar",
+    "task": "Descrição",
+    "genre": "Texto curto",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx12",
+    "prompt": "Escreve uma mensagem para agradecer um presente a um familiar. Diz o que era, porque gostas e como o vais usar.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE",
+    "part": "Produção escrita · Agradecimento",
+    "task": "Agradecimento",
+    "genre": "Mensagem",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wx13",
+    "prompt": "Escreve uma carta a um amigo a contar como mudou a tua vida no último ano. Explica duas mudanças e como te sentes.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE",
+    "part": "Produção escrita · Tarefa 1 · Carta",
+    "task": "Carta pessoal",
+    "genre": "Carta",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx14",
+    "prompt": "As redes sociais aproximam ou isolam as pessoas? Dá a tua opinião e justifica-a com exemplos.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE",
+    "part": "Produção escrita · Tarefa 2 · Redação",
+    "task": "Redação argumentativa",
+    "genre": "Ensaio",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx15",
+    "prompt": "Escreve à câmara municipal a propor uma horta comunitária no teu bairro. Apresenta o projeto, os benefícios e os meios necessários.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE",
+    "part": "Produção escrita · Tarefa 1 · Carta formal",
+    "task": "Carta formal",
+    "genre": "Carta",
+    "word_min": 200,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx16",
+    "prompt": "Escreve um artigo sobre o telemóvel na escola para a revista do teu liceu. Analisa vantagens e riscos e propõe uma conclusão.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE",
+    "part": "Produção escrita · Tarefa 2 · Artigo",
+    "task": "Artigo de opinião",
+    "genre": "Artigo",
+    "word_min": 200,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx17",
+    "prompt": "Escreve um texto para o jornal da tua escola sobre a redução do horário de trabalho. Defende uma posição com argumentos.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Celpe-Bras",
+    "part": "Tarefa 1 · Texto do género pedido",
+    "task": "Texto argumentativo",
+    "genre": "Texto",
+    "word_min": 180,
+    "word_max": 220,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx18",
+    "prompt": "Escreve uma carta de leitor a comentar um artigo sobre o turismo de massas na tua região. Concorda ou discorda com razões.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Celpe-Bras",
+    "part": "Tarefa 2 · Texto do género pedido",
+    "task": "Carta de leitor",
+    "genre": "Carta",
+    "word_min": 180,
+    "word_max": 220,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wx19",
+    "prompt": "Escreve um ensaio sobre se a ligação permanente torna o pensamento profundo mais difícil. Discute duas perspetivas e toma posição.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DUPLE",
+    "part": "Produção escrita · Tarefa 1 · Ensaio",
+    "task": "Ensaio",
+    "genre": "Ensaio",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wx20",
+    "prompt": "Escreve à tua empresa a propor uma semana de trabalho de quatro dias. Indica vantagens, riscos e um período de teste.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DUPLE",
+    "part": "Produção escrita · Tarefa 2 · Carta formal",
+    "task": "Carta formal",
+    "genre": "Carta",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wx21",
+    "prompt": "Sintetiza dois textos com posições opostas sobre o uso de ecrãs na infância, sem tomar partido.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DUPLE",
+    "part": "Produção escrita · Síntese",
+    "task": "Síntese",
+    "genre": "Síntese",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wx22",
+    "prompt": "A inteligência artificial pode produzir uma obra de arte autêntica? Desenvolve uma reflexão crítica e fundamentada.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Celpe-Bras",
+    "part": "Tarefa 3 · Texto argumentativo",
+    "task": "Ensaio crítico",
+    "genre": "Ensaio",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wx23",
+    "prompt": "Analisa um texto dado: resume a tese, avalia a argumentação e comenta o estilo.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Celpe-Bras",
+    "part": "Tarefa 4 · Texto do género pedido",
+    "task": "Análise",
+    "genre": "Análise",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wx24",
+    "prompt": "Escreve um artigo de fundo sobre a proteção da diversidade linguística na era digital, confrontando dois pontos de vista.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DUPLE",
+    "part": "Produção escrita · Artigo de fundo",
+    "task": "Artigo de fundo",
+    "genre": "Artigo",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx1",
+    "prompt": "Descreve o teu quarto em cinco frases: o que há, onde estão as coisas e do que gostas mais.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "O meu quarto",
+    "activity": "describe",
+    "genre": "Descrição",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx2",
+    "prompt": "Escreve uma mensagem a um amigo a propor encontrarem-se depois das aulas. Diz quando, onde e o que vão fazer.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Mensagem a um amigo",
+    "activity": "personal-message",
+    "genre": "Mensagem",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx3",
+    "prompt": "Escreve três frases sobre hoje: o que fizeste, o que comeste e como te sentes.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Três frases sobre hoje",
+    "activity": "journal",
+    "genre": "Diário",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx4",
+    "prompt": "Escreve quatro instruções curtas para preparar um chá. Começa cada frase com um verbo no infinitivo.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Dar instruções",
+    "activity": "instruct",
+    "genre": "Instruções",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada frase começa com maiúscula e termina com ponto final.",
+      "Respondeste a todas as partes da tarefa.",
+      "Verifica a ortografia das palavras do dia a dia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx5",
+    "prompt": "Escreve uma história curta sobre um dia em que tudo correu mal. Usa o pretérito perfeito e pelo menos três expressões de tempo.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Um dia que correu mal",
+    "activity": "narrate",
+    "genre": "Relato",
+    "word_min": 60,
+    "word_max": 90,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx6",
+    "prompt": "Escreve um email a um hotel a pedir um quarto para duas noites. Pergunta pelo preço, pelo pequeno-almoço e pelo estacionamento.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Escrever a um hotel",
+    "activity": "formal-message",
+    "genre": "Email",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx7",
+    "prompt": "Escreve uma crítica curta a um café: o que pediste, como foi o serviço e se voltarias.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Criticar um café",
+    "activity": "review",
+    "genre": "Crítica",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx8",
+    "prompt": "Explica em cinco passos como chegar de tua casa à estação mais próxima. Usa vira à esquerda, segue em frente e ao lado de.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Explicar um caminho",
+    "activity": "explain",
+    "genre": "Indicações",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Deste toda a informação que a tarefa pede.",
+      "Ligaste as ideias com porque, e, mas ou por isso.",
+      "Começaste e terminaste a mensagem com cortesia."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx9",
+    "prompt": "Escreve um texto para o site da escola a convencer os alunos a juntarem-se a um clube. Dá três razões e responde a uma objeção.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Junta-te ao nosso clube",
+    "activity": "persuade",
+    "genre": "Texto persuasivo",
+    "word_min": 120,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx10",
+    "prompt": "Lê um artigo curto sobre o sono e resume as suas três ideias principais em cem palavras, sem copiar as formulações.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Resumir um artigo",
+    "activity": "summarise",
+    "genre": "Resumo",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx11",
+    "prompt": "Escreve uma carta de reclamação a uma empresa por uma entrega atrasada. Descreve o problema, o transtorno e o resultado que esperas.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Carta de reclamação",
+    "activity": "formal-message",
+    "genre": "Carta formal",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx12",
+    "prompt": "Descreve um lugar importante para ti com detalhes sensoriais (visão, som, cheiro) e explica porque importa.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Um lugar que importa",
+    "activity": "describe",
+    "genre": "Descrição",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx13",
+    "prompt": "Escreve uma crónica a defender a proibição de carros no centro da tua cidade. Responde ao argumento contrário mais forte.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Carros fora do centro",
+    "activity": "persuade",
+    "genre": "Crónica",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx14",
+    "prompt": "Resume um relatório de duas páginas sobre o teletrabalho em cento e cinquenta palavras: mantém o argumento e as provas, elimina os exemplos.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Condensar um relatório",
+    "activity": "summarise",
+    "genre": "Resumo",
+    "word_min": 140,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx15",
+    "prompt": "Escreve uma cena curta em que duas pessoas discutem sem nunca nomear o motivo da discussão.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "A discussão sem tema",
+    "activity": "creative-writing",
+    "genre": "Cena",
+    "word_min": 200,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx16",
+    "prompt": "Escreve uma crítica a um documentário, avaliando a argumentação, as provas e o enviesamento.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Criticar um documentário",
+    "activity": "review",
+    "genre": "Crítica",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "A tua posição é clara na introdução e na conclusão.",
+      "Trataste um argumento contrário.",
+      "O registo e o tom mantêm-se constantes."
+    ]
+  },
+  {
+    "id": "pt:writing:wgx17",
+    "prompt": "Escreve um aviso para o placard do teu prédio sobre uma mudança no dia de recolha do lixo. Diz o que muda, quando começa e o que os moradores devem fazer.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Aviso do prédio",
+    "activity": "inform",
+    "genre": "Aviso",
+    "word_min": 90,
+    "word_max": 120,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Cada parágrafo desenvolve uma só ideia.",
+      "Deste uma razão e um exemplo para a tua opinião.",
+      "Usaste conectores como no entanto, portanto e além disso."
+    ]
   }
 ]

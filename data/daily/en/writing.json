@@ -183,48 +183,1592 @@
     "id": "en:writing:c1",
     "prompt": "Write 3-4 simple sentences about what you do every morning.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Writing · Short text",
+    "task": "Short text",
+    "genre": "Short sentences",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
   },
   {
     "id": "en:writing:c2",
     "prompt": "Write a short shopping list with 5 things you need to buy and why.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Writing · List",
+    "task": "List",
+    "genre": "List",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
   },
   {
     "id": "en:writing:c3",
     "prompt": "Write a short paragraph describing your ideal relaxing day from morning to evening.",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing Part 6 · Short text",
+    "task": "Description",
+    "genre": "Short text",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
   },
   {
     "id": "en:writing:c4",
     "prompt": "Compose a brief message inviting a friend for coffee or a weekend walk.",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing Part 6 · Invitation",
+    "task": "Invitation",
+    "genre": "Message",
+    "word_min": 40,
+    "word_max": 60,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
   },
   {
     "id": "en:writing:c5",
     "prompt": "Write a short reflective paragraph on a personal goal you set this year and your progress.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Writing Part 2 · Reflective text",
+    "task": "Reflective text",
+    "genre": "Article",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
   },
   {
     "id": "en:writing:c6",
     "prompt": "Compose a polite, concise email requesting a brief deadline extension for a project.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Writing Part 2 · Formal email",
+    "task": "Formal email",
+    "genre": "Email",
+    "word_min": 140,
+    "word_max": 190,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
   },
   {
     "id": "en:writing:c7",
     "prompt": "Write a persuasive opinion piece on whether public transit should be free in major urban centers.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C1 Advanced",
+    "part": "Writing Part 1 · Opinion essay",
+    "task": "Opinion essay",
+    "genre": "Essay",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
   },
   {
     "id": "en:writing:c8",
     "prompt": "Draft a critical synthesis examining how artificial intelligence could reshape creative disciplines.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C2 Proficiency",
+    "part": "Writing Part 2 · Critical synthesis",
+    "task": "Critical synthesis",
+    "genre": "Essay",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx1",
+    "prompt": "Look at a picture of a family in a kitchen. Write four sentences: who you can see, what they are doing, and where the plates are.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Reading & Writing · Write about the picture",
+    "task": "Picture sentences",
+    "genre": "Short sentences",
+    "word_min": 10,
+    "word_max": 25,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx2",
+    "prompt": "Answer five questions about you in full sentences: your name, your age, your school, your favourite food and your best friend.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Reading & Writing · Answer about you",
+    "task": "Personal answers",
+    "genre": "Short answers",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx3",
+    "prompt": "Your friend is coming to your house on Saturday. Write a message: what time to come, what to bring, and what you will do together.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Reading & Writing Part 6 · Write a message",
+    "task": "Short message",
+    "genre": "Message",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx4",
+    "prompt": "Write about a picture of a park. Say what the weather is like, who is there, and what two people are doing.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Reading & Writing Part 5 · Write about the picture",
+    "task": "Picture description",
+    "genre": "Description",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx5",
+    "prompt": "Read five short definitions and write the missing word in each sentence. Then write one more sentence of your own with each word.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Reading & Writing Part 4 · Complete the sentences",
+    "task": "Word completion",
+    "genre": "Gap sentences",
+    "word_min": 10,
+    "word_max": 20,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx6",
+    "prompt": "Look at six pictures of classroom objects and write the word for each one. Then write a sentence with three of them.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Reading & Writing Part 3 · Write the words",
+    "task": "Spelling",
+    "genre": "Word list",
+    "word_min": 10,
+    "word_max": 20,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx7",
+    "prompt": "Write a postcard from a holiday. Say where you are, who you are with, what the weather is like and what you did yesterday.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Writing · Postcard",
+    "task": "Postcard",
+    "genre": "Postcard",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx8",
+    "prompt": "Write a short invitation to a birthday party: the day, the time, the place and what your friend should bring.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Writing · Invitation",
+    "task": "Invitation",
+    "genre": "Message",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx9",
+    "prompt": "Write five sentences about your family: who they are, how old they are, what they look like and what they like doing.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Writing · My family",
+    "task": "Describe people",
+    "genre": "Short text",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx10",
+    "prompt": "Write five sentences about your favourite toy or game: what it is, what colour it is, where you keep it and why you like it.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Writing · My favourite thing",
+    "task": "Describe an object",
+    "genre": "Short text",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wx11",
+    "prompt": "Write a note to your neighbour. Say you will be away for the weekend, ask them to water your plants, and tell them where the key is.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Reading & Writing Part 6 · Write a note",
+    "task": "Note",
+    "genre": "Note",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx12",
+    "prompt": "Write a short story that begins: \"When I opened the door, I could not believe my eyes.\" Say what happened and how it ended.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Reading & Writing Part 7 · Write a short story",
+    "task": "Story",
+    "genre": "Story",
+    "word_min": 35,
+    "word_max": 50,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx13",
+    "prompt": "Write an email to a friend about a new café in your town. Say where it is, what you ate and whether you recommend it.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Reading & Writing Part 6 · Email to a friend",
+    "task": "Informal email",
+    "genre": "Email",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx14",
+    "prompt": "Complete a form for a sports club: personal details, which sport you want to do, your experience and why you are joining.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE Foundation",
+    "part": "Writing Task 1 · Form",
+    "task": "Form filling",
+    "genre": "Form",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx15",
+    "prompt": "Write an email to a friend who is moving to your town. Give advice about transport, shops and one thing they should not worry about.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE Foundation",
+    "part": "Writing Task 2 · Email",
+    "task": "Informal email",
+    "genre": "Email",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx16",
+    "prompt": "A friend invited you to dinner on Friday. Write a reply: thank them, say if you can come, and offer to bring something.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing · Invitation reply",
+    "task": "Reply",
+    "genre": "Message",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx17",
+    "prompt": "Write a message to a hotel. You left a bag in your room. Describe the bag, say when you stayed and ask what you should do.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing · Lost property",
+    "task": "Report",
+    "genre": "Message",
+    "word_min": 30,
+    "word_max": 45,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx18",
+    "prompt": "Write about last weekend in three short paragraphs: where you went, who you were with and what you enjoyed most.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing · About last weekend",
+    "task": "Narrative",
+    "genre": "Short text",
+    "word_min": 40,
+    "word_max": 60,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx19",
+    "prompt": "Describe your favourite place in your town for a school magazine: where it is, what you can do there and why you like it.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE Foundation",
+    "part": "Writing Task 2 · Description",
+    "task": "Description",
+    "genre": "Short text",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx20",
+    "prompt": "Write a thank-you message to a family member for a present. Say what it was, why you like it and how you will use it.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Writing · Thank-you message",
+    "task": "Thank-you",
+    "genre": "Message",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wx21",
+    "prompt": "Write an email to a language school. Ask about course dates, prices and accommodation, and explain what level you are.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Writing Part 1 · Email",
+    "task": "Formal email",
+    "genre": "Email",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx22",
+    "prompt": "Write an article for a student magazine about the best way to learn a language. Give two or three practical ideas and say why they work.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Writing Part 2 · Article",
+    "task": "Article",
+    "genre": "Article",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx23",
+    "prompt": "Write an essay discussing two of these ways to reduce traffic in cities: public transport, cycling lanes, congestion charges. Say which is more effective and why.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Writing Part 1 · Essay",
+    "task": "Essay",
+    "genre": "Essay",
+    "word_min": 140,
+    "word_max": 190,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx24",
+    "prompt": "Write a review of a film or series you watched recently for a website. Say what it is about, who would enjoy it, and whether it is worth the time.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Writing Part 2 · Review",
+    "task": "Review",
+    "genre": "Review",
+    "word_min": 140,
+    "word_max": 190,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx25",
+    "prompt": "Describe a bar chart showing the number of hours people in four countries spend online per week. Summarise the main features and make comparisons.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS Academic",
+    "part": "Writing Task 1 · Report",
+    "task": "Data report",
+    "genre": "Report",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx26",
+    "prompt": "Some people think university education should be free for everyone. To what extent do you agree or disagree? Give reasons and examples from your own knowledge.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS Academic",
+    "part": "Writing Task 2 · Essay",
+    "task": "Discursive essay",
+    "genre": "Essay",
+    "word_min": 250,
+    "word_max": 280,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx27",
+    "prompt": "Read a short passage arguing that remote work harms productivity, then listen to a lecture that disagrees. Summarise the lecture's points and explain how they challenge the passage.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Writing · Integrated task",
+    "task": "Integrated writing",
+    "genre": "Summary essay",
+    "word_min": 150,
+    "word_max": 225,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx28",
+    "prompt": "Your professor asks: \"Should companies allow employees to choose their own working hours?\" Write a post that states your view and responds to a classmate's point.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Writing · Academic discussion",
+    "task": "Discussion post",
+    "genre": "Post",
+    "word_min": 100,
+    "word_max": 150,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx29",
+    "prompt": "Your school wants to improve its library. Write a report: describe the current situation, suggest two changes and explain the expected benefits.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Writing Part 2 · Report",
+    "task": "Report",
+    "genre": "Report",
+    "word_min": 140,
+    "word_max": 190,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx30",
+    "prompt": "Write an email to a shop about a laptop that stopped working after a week. Explain the problem, say what you want and stay polite.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Writing Part 1 · Email of complaint",
+    "task": "Complaint",
+    "genre": "Email",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wx31",
+    "prompt": "Write an essay on the claim that constant connectivity has made deep thinking harder. Discuss two perspectives and state your own position.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C1 Advanced",
+    "part": "Writing Part 1 · Essay",
+    "task": "Essay",
+    "genre": "Essay",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx32",
+    "prompt": "Write a proposal to your employer for a four-day working week. Outline the benefits, address the risks and recommend a trial period.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C1 Advanced",
+    "part": "Writing Part 2 · Proposal",
+    "task": "Proposal",
+    "genre": "Proposal",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx33",
+    "prompt": "Write an essay on the tension between freedom of expression and social cohesion. Refer to two of the given texts and reach a reasoned conclusion.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C2 Proficiency",
+    "part": "Writing Part 1 · Essay",
+    "task": "Essay",
+    "genre": "Essay",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx34",
+    "prompt": "Write a review of a book that changed how you think about a social issue. Evaluate its argument, its style and its limits.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C2 Proficiency",
+    "part": "Writing Part 2 · Review",
+    "task": "Review",
+    "genre": "Review",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx35",
+    "prompt": "Describe a line graph showing changes in electricity generation from coal, gas and renewables in one country between 1990 and 2020. Identify the main trends and contrasts.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS Academic",
+    "part": "Writing Task 1 · Report",
+    "task": "Data report",
+    "genre": "Report",
+    "word_min": 150,
+    "word_max": 190,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx36",
+    "prompt": "Scientific research is increasingly funded by private companies. Do the advantages outweigh the disadvantages? Support your answer with evidence and examples.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS Academic",
+    "part": "Writing Task 2 · Essay",
+    "task": "Discursive essay",
+    "genre": "Essay",
+    "word_min": 250,
+    "word_max": 290,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx37",
+    "prompt": "Summarise a lecture that challenges a reading's claims about the causes of urban decline, and explain the relationship between the two sources.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Writing · Integrated task",
+    "task": "Integrated writing",
+    "genre": "Summary essay",
+    "word_min": 200,
+    "word_max": 250,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx38",
+    "prompt": "Your professor asks whether governments should fund space exploration instead of ocean research. Write a post that argues a position and engages with a classmate's counterargument.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Writing · Academic discussion",
+    "task": "Discussion post",
+    "genre": "Post",
+    "word_min": 150,
+    "word_max": 200,
+    "write_minutes": 10,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx39",
+    "prompt": "Write a report for a conference organiser evaluating last year's event and recommending changes to the programme, venue and pricing.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge C1 Advanced",
+    "part": "Writing Part 2 · Report",
+    "task": "Report",
+    "genre": "Report",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wx40",
+    "prompt": "Write an essay arguing for or against treating access to the internet as a basic human right. Anticipate the strongest objection and answer it.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE IV",
+    "part": "Writing Task 2 · Argumentative essay",
+    "task": "Argumentative essay",
+    "genre": "Essay",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wgx1",
+    "prompt": "Describe your bedroom in five sentences: what is in it, where things are and which thing you like best.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Describe your room",
+    "activity": "describe",
+    "genre": "Description",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wgx2",
+    "prompt": "Write a short message to a friend asking them to meet you after school. Say when, where and what you will do.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Message a friend",
+    "activity": "personal-message",
+    "genre": "Message",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wgx3",
+    "prompt": "Write three sentences about today: what you did, what you ate and how you feel.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Three lines about today",
+    "activity": "journal",
+    "genre": "Journal",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wgx4",
+    "prompt": "Write four short instructions for making a cup of tea. Start each one with a verb.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Give instructions",
+    "activity": "instruct",
+    "genre": "Instructions",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Every sentence starts with a capital letter and ends with a full stop.",
+      "You answered every part of the task.",
+      "Check the spelling of everyday words."
+    ]
+  },
+  {
+    "id": "en:writing:wgx5",
+    "prompt": "Write a short story about a day when everything went wrong. Use the past simple and at least three time expressions.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "A day that went wrong",
+    "activity": "narrate",
+    "genre": "Story",
+    "word_min": 60,
+    "word_max": 90,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wgx6",
+    "prompt": "Write an email to a hotel asking about a room for two nights. Ask about the price, breakfast and parking.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ask a hotel",
+    "activity": "formal-message",
+    "genre": "Email",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wgx7",
+    "prompt": "Write a short review of a café you know. Say what you ordered, what the service was like and whether you would go back.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Review a café",
+    "activity": "review",
+    "genre": "Review",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wgx8",
+    "prompt": "Explain how to get from your home to the nearest station in five steps. Use words like turn left, go straight and next to.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Give directions",
+    "activity": "explain",
+    "genre": "Directions",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "You wrote all the information the task asks for.",
+      "You joined ideas with because, and, but or so.",
+      "You started and finished the message politely."
+    ]
+  },
+  {
+    "id": "en:writing:wgx9",
+    "prompt": "Write a short text for your school website persuading students to join a club. Give three reasons and answer one objection.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Join our club",
+    "activity": "persuade",
+    "genre": "Persuasive text",
+    "word_min": 120,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wgx10",
+    "prompt": "Read a short article about sleep and summarise its three main points in 100 words, without copying the wording.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Summarise an article",
+    "activity": "summarise",
+    "genre": "Summary",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wgx11",
+    "prompt": "Write a letter of complaint to a company about a delayed delivery. Describe the problem, the inconvenience and the outcome you want.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Letter of complaint",
+    "activity": "formal-message",
+    "genre": "Formal letter",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wgx12",
+    "prompt": "Describe a place that matters to you, using sensory detail (sight, sound, smell) and explaining why it matters.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "A place that matters",
+    "activity": "describe",
+    "genre": "Description",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
+  },
+  {
+    "id": "en:writing:wgx13",
+    "prompt": "Write an opinion column arguing that your city should ban cars from its centre. Address the strongest counterargument.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Ban cars from the centre",
+    "activity": "persuade",
+    "genre": "Opinion column",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wgx14",
+    "prompt": "Summarise a two-page report on remote work in 150 words, keeping the argument and the evidence but cutting the examples.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Compress a report",
+    "activity": "summarise",
+    "genre": "Summary",
+    "word_min": 140,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wgx15",
+    "prompt": "Write a short scene in which two people disagree without ever naming the subject of the disagreement.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "The unnamed argument",
+    "activity": "creative-writing",
+    "genre": "Scene",
+    "word_min": 200,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wgx16",
+    "prompt": "Write a critical review of a documentary, evaluating its argument, its use of evidence and its bias.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Review a documentary",
+    "activity": "review",
+    "genre": "Review",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Your position is clear in the introduction and the conclusion.",
+      "You addressed a counterargument.",
+      "Register and tone stay consistent throughout."
+    ]
+  },
+  {
+    "id": "en:writing:wgx17",
+    "prompt": "Write a notice for your building's noticeboard about a change to the bin collection day. Say what changed, when it starts and what residents must do.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Noticeboard update",
+    "activity": "inform",
+    "genre": "Notice",
+    "word_min": 90,
+    "word_max": 120,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Each paragraph has one main idea.",
+      "You gave a reason and an example for your opinion.",
+      "You used linking words such as however, therefore and in addition."
+    ]
   }
 ]

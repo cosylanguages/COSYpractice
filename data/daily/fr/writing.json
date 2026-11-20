@@ -63,48 +63,1196 @@
     "id": "fr:writing:c1",
     "prompt": "Écrivez trois phrases simples pour décrire votre journée type.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Texte court",
+    "task": "Texte court",
+    "genre": "Texte court",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
   },
   {
     "id": "fr:writing:c2",
     "prompt": "Rédigez une courte liste de vos cinq activités préférées du week-end.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Liste",
+    "task": "Liste",
+    "genre": "Liste",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
   },
   {
     "id": "fr:writing:c3",
     "prompt": "Écrivez un paragraphe décrivant votre journée idéale.",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Description",
+    "task": "Description",
+    "genre": "Texte court",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
   },
   {
     "id": "fr:writing:c4",
     "prompt": "Rédigez un court courriel d'invitation à un ami pour un dîner.",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Invitation",
+    "task": "Invitation",
+    "genre": "Courriel",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
   },
   {
     "id": "fr:writing:c5",
     "prompt": "Rédigez une critique concise d'un livre ou d'un film marquant que vous avez découvert récemment.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Critique",
+    "task": "Critique",
+    "genre": "Critique",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
   },
   {
     "id": "fr:writing:c6",
     "prompt": "Expliquez dans un texte structuré pourquoi une routine matinale équilibrée favorise le bien-être.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte structuré",
+    "genre": "Texte",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
   },
   {
     "id": "fr:writing:c7",
     "prompt": "Rédigez un essai argumentatif analysant les répercussions du travail à distance sur la cohésion sociale.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai",
+    "task": "Essai",
+    "genre": "Essai",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
   },
   {
     "id": "fr:writing:c8",
     "prompt": "Proposez une réflexion critique sur la protection de la diversité linguistique à l'ère numérique.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Réflexion critique",
+    "task": "Réflexion critique",
+    "genre": "Essai",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx1",
+    "prompt": "Remplissez une fiche d'inscription à un cours de français : nom, prénom, nationalité, âge, adresse et langue maternelle.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Exercice 1 · Formulaire",
+    "task": "Remplir un formulaire",
+    "genre": "Formulaire",
+    "word_min": 20,
+    "word_max": 30,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx2",
+    "prompt": "Vous êtes en vacances. Écrivez une carte postale à un ami : où vous êtes, avec qui, quel temps il fait et ce que vous avez visité.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Exercice 2 · Carte postale",
+    "task": "Carte postale",
+    "genre": "Carte postale",
+    "word_min": 30,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx3",
+    "prompt": "Écrivez un message à votre voisin : vous partez ce week-end, demandez-lui d'arroser vos plantes et dites-lui où est la clé.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Exercice 3 · Message",
+    "task": "Message simple",
+    "genre": "Message",
+    "word_min": 30,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx4",
+    "prompt": "Décrivez une photo de votre famille en cinq phrases : qui est sur la photo, où ils sont et ce qu'ils font.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Décrire une image",
+    "task": "Description",
+    "genre": "Texte court",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx5",
+    "prompt": "Présentez-vous en cinq phrases : votre nom, votre âge, votre travail ou vos études, votre ville et ce que vous aimez faire.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Se présenter",
+    "task": "Présentation",
+    "genre": "Texte court",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx6",
+    "prompt": "Écrivez une invitation pour votre anniversaire : le jour, l'heure, le lieu et ce que vos amis doivent apporter.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Production écrite · Invitation",
+    "task": "Invitation",
+    "genre": "Message",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wx7",
+    "prompt": "Écrivez un message à un ami pour l'inviter à passer le week-end chez vous. Dites quand venir, ce qu'il faut apporter et ce que vous ferez ensemble.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message amical",
+    "genre": "Message",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx8",
+    "prompt": "Racontez un week-end mémorable en trois courts paragraphes : où vous êtes allé, avec qui et ce qui s'est passé.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Exercice 2 · Récit",
+    "task": "Récit au passé",
+    "genre": "Récit",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx9",
+    "prompt": "Écrivez un courriel à un ami qui arrive dans votre ville. Donnez-lui trois conseils sur les transports, les magasins et les lieux à visiter.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Courriel",
+    "task": "Courriel informel",
+    "genre": "Courriel",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx10",
+    "prompt": "Vous avez acheté un objet cassé. Écrivez au magasin : décrivez l'objet, expliquez le problème et demandez un échange.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Réclamation simple",
+    "task": "Réclamation",
+    "genre": "Message",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx11",
+    "prompt": "Décrivez votre quartier pour un ami étranger : ce qu'on y trouve, comment il est le jour et le soir, et pourquoi vous l'aimez.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Description de lieu",
+    "task": "Description",
+    "genre": "Texte court",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx12",
+    "prompt": "Écrivez un message pour remercier un proche d'un cadeau. Dites ce que c'était, pourquoi il vous plaît et comment vous allez l'utiliser.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Production écrite · Remerciement",
+    "task": "Remerciement",
+    "genre": "Message",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wx13",
+    "prompt": "Certains pensent que les réseaux sociaux rapprochent les gens, d'autres qu'ils les isolent. Donnez votre opinion et justifiez-la avec des exemples.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Essai argumentatif",
+    "task": "Essai",
+    "genre": "Essai",
+    "word_min": 160,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx14",
+    "prompt": "Écrivez à une école de langues pour demander des informations sur les cours, les tarifs et le logement, et expliquez votre niveau.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Courriel formel",
+    "task": "Courriel formel",
+    "genre": "Courriel",
+    "word_min": 160,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx15",
+    "prompt": "Écrivez une lettre à la mairie pour proposer de créer un jardin partagé dans votre quartier. Présentez le projet, ses bénéfices et les moyens nécessaires.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre",
+    "word_min": 220,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx16",
+    "prompt": "Le télétravail est-il une chance pour l'équilibre de vie ou une source d'isolement ? Développez une argumentation nuancée.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumentatif",
+    "task": "Essai",
+    "genre": "Essai",
+    "word_min": 220,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx17",
+    "prompt": "Rédigez un article pour le journal de votre école sur les habitudes de lecture des jeunes. Appuyez-vous sur des exemples concrets.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Article de presse",
+    "task": "Article",
+    "genre": "Article",
+    "word_min": 220,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx18",
+    "prompt": "Rédigez le compte rendu d'une réunion de quartier sur la circulation : rappelez les positions exprimées et proposez une synthèse.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Compte rendu",
+    "task": "Compte rendu",
+    "genre": "Rapport",
+    "word_min": 220,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wx19",
+    "prompt": "Rédigez une synthèse de deux textes qui s'opposent sur l'usage des écrans chez les enfants, sans prendre position.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse de documents",
+    "genre": "Synthèse",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx20",
+    "prompt": "À partir des mêmes documents, rédigez un essai argumenté sur le rôle de l'école dans l'éducation au numérique.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx21",
+    "prompt": "Rédigez un texte argumenté sur la place de la langue française dans un monde dominé par l'anglais. Prenez position et anticipez l'objection principale.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte argumenté",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx22",
+    "prompt": "Rédigez le compte rendu critique d'un rapport sur la culture à l'école : résumez sa thèse et évaluez ses limites.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Compte rendu critique",
+    "task": "Compte rendu critique",
+    "genre": "Rapport",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx23",
+    "prompt": "Écrivez un article de fond sur la protection de la diversité linguistique à l'ère numérique, en confrontant deux points de vue.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Article de fond",
+    "task": "Article de fond",
+    "genre": "Article",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wx24",
+    "prompt": "L'intelligence artificielle peut-elle produire une œuvre d'art authentique ? Développez une réflexion critique et nuancée.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Essai critique",
+    "task": "Essai critique",
+    "genre": "Essai",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx1",
+    "prompt": "Décrivez votre chambre en cinq phrases : ce qu'il y a, où sont les objets et ce que vous préférez.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Décrire ma chambre",
+    "activity": "describe",
+    "genre": "Description",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx2",
+    "prompt": "Écrivez un message à un ami pour lui proposer de vous retrouver après les cours. Dites quand, où et ce que vous ferez.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Message à un ami",
+    "activity": "personal-message",
+    "genre": "Message",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx3",
+    "prompt": "Écrivez trois phrases sur aujourd'hui : ce que vous avez fait, ce que vous avez mangé et comment vous vous sentez.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Trois phrases sur ma journée",
+    "activity": "journal",
+    "genre": "Journal",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx4",
+    "prompt": "Écrivez quatre courtes instructions pour préparer un thé. Commencez chaque phrase par un verbe à l'infinitif.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Donner des instructions",
+    "activity": "instruct",
+    "genre": "Instructions",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque phrase commence par une majuscule et finit par un point.",
+      "Vous avez répondu à toutes les parties de la consigne.",
+      "Vérifiez l'orthographe des mots du quotidien."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx5",
+    "prompt": "Racontez une journée où tout a mal tourné. Utilisez le passé composé et au moins trois indicateurs de temps.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Une journée qui a mal tourné",
+    "activity": "narrate",
+    "genre": "Récit",
+    "word_min": 60,
+    "word_max": 90,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx6",
+    "prompt": "Écrivez un courriel à un hôtel pour demander une chambre pour deux nuits. Posez des questions sur le prix, le petit-déjeuner et le parking.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Écrire à un hôtel",
+    "activity": "formal-message",
+    "genre": "Courriel",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx7",
+    "prompt": "Écrivez une courte critique d'un café que vous connaissez : ce que vous avez commandé, le service et si vous y retourneriez.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Critique d'un café",
+    "activity": "review",
+    "genre": "Critique",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx8",
+    "prompt": "Expliquez comment aller de chez vous à la gare la plus proche en cinq étapes. Utilisez tournez à gauche, allez tout droit et à côté de.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Expliquer un itinéraire",
+    "activity": "explain",
+    "genre": "Itinéraire",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Vous avez donné toutes les informations demandées.",
+      "Vous avez relié les idées avec parce que, et, mais ou donc.",
+      "Vous avez commencé et terminé le message poliment."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx9",
+    "prompt": "Écrivez un texte pour le site de votre école afin de convaincre les élèves de rejoindre un club. Donnez trois raisons et répondez à une objection.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Rejoignez notre club",
+    "activity": "persuade",
+    "genre": "Texte persuasif",
+    "word_min": 120,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx10",
+    "prompt": "Lisez un court article sur le sommeil et résumez ses trois idées principales en cent mots, sans reprendre les formulations.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Résumer un article",
+    "activity": "summarise",
+    "genre": "Résumé",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx11",
+    "prompt": "Écrivez une lettre de réclamation à une entreprise au sujet d'une livraison en retard. Décrivez le problème, la gêne causée et le dédommagement attendu.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Lettre de réclamation",
+    "activity": "formal-message",
+    "genre": "Lettre formelle",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx12",
+    "prompt": "Décrivez un lieu qui compte pour vous, avec des détails sensoriels (vue, sons, odeurs) et expliquez pourquoi il compte.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Un lieu qui compte",
+    "activity": "describe",
+    "genre": "Description",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx13",
+    "prompt": "Rédigez une tribune pour défendre l'interdiction des voitures dans le centre de votre ville. Répondez à l'argument contraire le plus fort.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Interdire les voitures du centre",
+    "activity": "persuade",
+    "genre": "Tribune",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx14",
+    "prompt": "Résumez un rapport de deux pages sur le télétravail en cent cinquante mots, en gardant l'argumentation et les preuves mais en supprimant les exemples.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Condenser un rapport",
+    "activity": "summarise",
+    "genre": "Résumé",
+    "word_min": 140,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx15",
+    "prompt": "Écrivez une courte scène où deux personnes se disputent sans jamais nommer le sujet du désaccord.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "La dispute sans sujet",
+    "activity": "creative-writing",
+    "genre": "Scène",
+    "word_min": 200,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx16",
+    "prompt": "Rédigez une critique d'un documentaire en évaluant son argumentation, ses preuves et ses partis pris.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Critique d'un documentaire",
+    "activity": "review",
+    "genre": "Critique",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Votre position est claire dans l'introduction et la conclusion.",
+      "Vous avez traité un argument contraire.",
+      "Le registre et le ton restent constants."
+    ]
+  },
+  {
+    "id": "fr:writing:wgx17",
+    "prompt": "Rédigez un avis pour le panneau de votre immeuble sur un changement du jour de ramassage des poubelles. Dites ce qui change, quand cela commence et ce que les habitants doivent faire.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Avis pour l'immeuble",
+    "activity": "inform",
+    "genre": "Avis",
+    "word_min": 90,
+    "word_max": 120,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Chaque paragraphe développe une seule idée.",
+      "Vous avez donné une raison et un exemple pour votre opinion.",
+      "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ]
   }
 ]

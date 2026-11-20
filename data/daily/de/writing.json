@@ -58,5 +58,1003 @@
     "prompt": "Schreiben Sie einen Brief an Ihr zukünftiges Ich in zehn Jahren.",
     "topic": "personal",
     "level": "B1-B2"
+  },
+  {
+    "id": "de:writing:wx1",
+    "prompt": "Füllen Sie ein Anmeldeformular für einen Deutschkurs aus: Name, Vorname, Nationalität, Alter, Adresse und Muttersprache.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Schreiben · Teil 1 · Formular",
+    "task": "Formular ausfüllen",
+    "genre": "Formular",
+    "word_min": 20,
+    "word_max": 30,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx2",
+    "prompt": "Schreiben Sie eine kurze Mitteilung an Ihre Nachbarin: Sie fahren am Wochenende weg, bitten Sie um das Gießen der Blumen und sagen Sie, wo der Schlüssel liegt.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Schreiben · Teil 2 · Mitteilung",
+    "task": "Kurze Mitteilung",
+    "genre": "Mitteilung",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx3",
+    "prompt": "Sie sind im Urlaub. Schreiben Sie eine Postkarte an eine Freundin: wo Sie sind, mit wem, wie das Wetter ist und was Sie gesehen haben.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Schreiben · Teil 3 · Postkarte",
+    "task": "Postkarte",
+    "genre": "Postkarte",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx4",
+    "prompt": "Stellen Sie sich in fünf Sätzen vor: Ihr Name, Ihr Alter, Ihr Beruf oder Ihr Studium, Ihre Stadt und was Sie gern machen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Schreiben · Über mich",
+    "task": "Sich vorstellen",
+    "genre": "Kurztext",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx5",
+    "prompt": "Schreiben Sie eine Einladung zu Ihrem Geburtstag: Tag, Uhrzeit, Ort und was Ihre Freunde mitbringen sollen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Schreiben · Einladung",
+    "task": "Einladung",
+    "genre": "Mitteilung",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx6",
+    "prompt": "Schreiben Sie eine Nachricht an Ihren Lehrer: Sie sind krank, können nicht zum Kurs kommen und fragen nach den Hausaufgaben.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "ÖSD A1",
+    "part": "Schreiben · Aufgabe 2 · Mitteilung",
+    "task": "Kurze Mitteilung",
+    "genre": "Mitteilung",
+    "word_min": 25,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wx7",
+    "prompt": "Schreiben Sie eine E-Mail an einen Freund: Sie laden ihn für das Wochenende ein, sagen Sie, was Sie zusammen machen wollen und was er mitbringen soll.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Schreiben · Teil 1 · E-Mail",
+    "task": "Informelle E-Mail",
+    "genre": "E-Mail",
+    "word_min": 40,
+    "word_max": 60,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx8",
+    "prompt": "Schreiben Sie eine Mitteilung an Ihre Kursgruppe: Der Unterricht fällt aus, Sie schlagen einen neuen Termin vor und fragen, wer Zeit hat.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Schreiben · Teil 2 · Mitteilung",
+    "task": "Mitteilung",
+    "genre": "Mitteilung",
+    "word_min": 40,
+    "word_max": 60,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx9",
+    "prompt": "Schreiben Sie einen Brief an eine Freundin über Ihren letzten Urlaub: wo Sie waren, was Sie erlebt haben und wie es Ihnen gefallen hat.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch A2",
+    "part": "Schreiben · Aufgabe 1 · Brief",
+    "task": "Persönlicher Brief",
+    "genre": "Brief",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx10",
+    "prompt": "Schreiben Sie eine E-Mail an ein Hotel: Sie möchten ein Zimmer für zwei Nächte buchen und fragen nach Preis, Frühstück und Parkplatz.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch A2",
+    "part": "Schreiben · Aufgabe 2 · E-Mail",
+    "task": "E-Mail an eine Firma",
+    "genre": "E-Mail",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx11",
+    "prompt": "Erzählen Sie in drei kurzen Absätzen von einem Wochenende, das Sie nie vergessen werden: wo Sie waren, mit wem und was passiert ist.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Schreiben · Erzählung",
+    "task": "Erzählung",
+    "genre": "Kurztext",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx12",
+    "prompt": "Schreiben Sie eine E-Mail an einen Freund, der in Ihre Stadt zieht. Geben Sie drei Tipps zu Verkehr, Geschäften und Freizeit.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "ÖSD A2",
+    "part": "Schreiben · Aufgabe 1 · E-Mail",
+    "task": "Informelle E-Mail",
+    "genre": "E-Mail",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx13",
+    "prompt": "Sie haben eine Einladung bekommen. Schreiben Sie eine Antwort: Sie bedanken sich, sagen zu oder ab und begründen Ihre Entscheidung.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B1",
+    "part": "Schreiben · Teil 1 · E-Mail",
+    "task": "Persönliche E-Mail",
+    "genre": "E-Mail",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx14",
+    "prompt": "Schreiben Sie Ihre Meinung zum Thema „Handyverbot in der Schule“ für ein Online-Forum. Begründen Sie Ihre Position mit Beispielen.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B1",
+    "part": "Schreiben · Teil 2 · Meinung",
+    "task": "Meinungsäußerung",
+    "genre": "Stellungnahme",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx15",
+    "prompt": "Schreiben Sie einen Forenbeitrag zur Frage, ob Homeoffice die Work-Life-Balance verbessert. Nennen Sie Argumente und Beispiele.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B2",
+    "part": "Schreiben · Teil 1 · Forenbeitrag",
+    "task": "Forenbeitrag",
+    "genre": "Stellungnahme",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx16",
+    "prompt": "Schreiben Sie einen Brief an die Stadtverwaltung und schlagen Sie einen Gemeinschaftsgarten in Ihrem Viertel vor. Erklären Sie Nutzen und Kosten.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B2",
+    "part": "Schreiben · Teil 2 · Formeller Brief",
+    "task": "Formeller Brief",
+    "genre": "Brief",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx17",
+    "prompt": "Schreiben Sie einen Beschwerdebrief an ein Reiseunternehmen: Beschreiben Sie das Problem, die Unannehmlichkeiten und was Sie erwarten.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch B2",
+    "part": "Schreiben · Aufgabe 1 · Beschwerde",
+    "task": "Beschwerdebrief",
+    "genre": "Brief",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx18",
+    "prompt": "Sollten Universitäten kostenlos sein? Schreiben Sie einen argumentativen Text mit These, Gegenargument und Schlussfolgerung.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "ÖSD B2",
+    "part": "Schreiben · Aufgabe 2 · Argumentation",
+    "task": "Argumentativer Text",
+    "genre": "Essay",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wx19",
+    "prompt": "Schreiben Sie einen Essay zu der Frage, ob ständige Erreichbarkeit tiefes Denken erschwert. Diskutieren Sie zwei Perspektiven und nehmen Sie Stellung.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C1",
+    "part": "Schreiben · Teil 1 · Essay",
+    "task": "Essay",
+    "genre": "Essay",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wx20",
+    "prompt": "Schreiben Sie einen Brief an Ihren Arbeitgeber und schlagen Sie eine Vier-Tage-Woche vor. Nennen Sie Vorteile, Risiken und einen Testzeitraum.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C1",
+    "part": "Schreiben · Teil 2 · Formeller Brief",
+    "task": "Formeller Brief",
+    "genre": "Brief",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wx21",
+    "prompt": "Schreiben Sie einen Essay über das Spannungsfeld zwischen Meinungsfreiheit und gesellschaftlichem Zusammenhalt. Beziehen Sie zwei Perspektiven ein.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C2",
+    "part": "Schreiben · Aufgabe 1 · Essay",
+    "task": "Essay",
+    "genre": "Essay",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wx22",
+    "prompt": "Analysieren Sie einen vorgegebenen Text: Fassen Sie die These zusammen, prüfen Sie die Argumentation und bewerten Sie die sprachliche Gestaltung.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C2",
+    "part": "Schreiben · Aufgabe 2 · Textanalyse",
+    "task": "Textanalyse",
+    "genre": "Analyse",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wx23",
+    "prompt": "Erörtern Sie, ob Wissenschaft stärker öffentlich oder privat finanziert werden sollte. Wägen Sie Vor- und Nachteile ab.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "ÖSD C1",
+    "part": "Schreiben · Aufgabe 1 · Erörterung",
+    "task": "Erörterung",
+    "genre": "Essay",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wx24",
+    "prompt": "Nehmen Sie Stellung zur Forderung, den Autoverkehr aus Innenstädten zu verbannen. Gehen Sie auf den stärksten Einwand ein.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "telc Deutsch C1",
+    "part": "Schreiben · Aufgabe 2 · Stellungnahme",
+    "task": "Stellungnahme",
+    "genre": "Essay",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wgx1",
+    "prompt": "Beschreiben Sie Ihr Zimmer in fünf Sätzen: was darin ist, wo die Dinge stehen und was Ihnen am besten gefällt.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Mein Zimmer beschreiben",
+    "activity": "describe",
+    "genre": "Beschreibung",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wgx2",
+    "prompt": "Schreiben Sie eine kurze Nachricht an einen Freund und schlagen Sie vor, sich nach der Schule zu treffen. Sagen Sie wann, wo und was Sie machen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nachricht an einen Freund",
+    "activity": "personal-message",
+    "genre": "Mitteilung",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wgx3",
+    "prompt": "Schreiben Sie drei Sätze über heute: was Sie gemacht haben, was Sie gegessen haben und wie Sie sich fühlen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Drei Sätze über heute",
+    "activity": "journal",
+    "genre": "Tagebuch",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wgx4",
+    "prompt": "Schreiben Sie vier kurze Anweisungen für einen Tee. Beginnen Sie jeden Satz mit einem Verb.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Anweisungen geben",
+    "activity": "instruct",
+    "genre": "Anleitung",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Satz beginnt mit einem Großbuchstaben und endet mit einem Punkt.",
+      "Sie haben alle Teile der Aufgabe beantwortet.",
+      "Prüfen Sie die Rechtschreibung der Alltagswörter."
+    ]
+  },
+  {
+    "id": "de:writing:wgx5",
+    "prompt": "Schreiben Sie eine kurze Geschichte über einen Tag, an dem alles schiefging. Verwenden Sie das Perfekt und mindestens drei Zeitangaben.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Tag, der schiefging",
+    "activity": "narrate",
+    "genre": "Erzählung",
+    "word_min": 60,
+    "word_max": 90,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx6",
+    "prompt": "Schreiben Sie eine E-Mail an ein Hotel und fragen Sie nach einem Zimmer für zwei Nächte. Fragen Sie nach Preis, Frühstück und Parkplatz.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Hotel anschreiben",
+    "activity": "formal-message",
+    "genre": "E-Mail",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx7",
+    "prompt": "Schreiben Sie eine kurze Rezension über ein Café: was Sie bestellt haben, wie der Service war und ob Sie wiederkommen würden.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Café bewerten",
+    "activity": "review",
+    "genre": "Rezension",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx8",
+    "prompt": "Erklären Sie in fünf Schritten den Weg von Ihrem Zuhause zum nächsten Bahnhof. Verwenden Sie links abbiegen, geradeaus und neben.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Den Weg erklären",
+    "activity": "explain",
+    "genre": "Wegbeschreibung",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Sie haben alle geforderten Informationen gegeben.",
+      "Sie haben Ideen mit weil, und, aber oder deshalb verbunden.",
+      "Sie haben die Nachricht höflich begonnen und beendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx9",
+    "prompt": "Schreiben Sie einen Text für die Schulwebsite, der Schüler überzeugt, einem Club beizutreten. Nennen Sie drei Gründe und entkräften Sie einen Einwand.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Komm in unseren Club",
+    "activity": "persuade",
+    "genre": "Werbetext",
+    "word_min": 120,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx10",
+    "prompt": "Lesen Sie einen kurzen Artikel über Schlaf und fassen Sie seine drei Hauptpunkte in hundert Wörtern zusammen, ohne Formulierungen zu kopieren.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Einen Artikel zusammenfassen",
+    "activity": "summarise",
+    "genre": "Zusammenfassung",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx11",
+    "prompt": "Schreiben Sie einen Beschwerdebrief an eine Firma wegen einer verspäteten Lieferung. Beschreiben Sie das Problem, die Unannehmlichkeiten und Ihr Ziel.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Beschwerdebrief",
+    "activity": "formal-message",
+    "genre": "Formeller Brief",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx12",
+    "prompt": "Beschreiben Sie einen Ort, der Ihnen wichtig ist, mit Sinneseindrücken (Bild, Klang, Geruch) und erklären Sie, warum er zählt.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Ort, der zählt",
+    "activity": "describe",
+    "genre": "Beschreibung",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
+  },
+  {
+    "id": "de:writing:wgx13",
+    "prompt": "Schreiben Sie einen Kommentar, der dafür argumentiert, Autos aus der Innenstadt zu verbannen. Gehen Sie auf den stärksten Einwand ein.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Autos aus der Innenstadt",
+    "activity": "persuade",
+    "genre": "Kommentar",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wgx14",
+    "prompt": "Fassen Sie einen zweiseitigen Bericht über Homeoffice in hundertfünfzig Wörtern zusammen: Argument und Belege bleiben, Beispiele entfallen.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Einen Bericht verdichten",
+    "activity": "summarise",
+    "genre": "Zusammenfassung",
+    "word_min": 140,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wgx15",
+    "prompt": "Schreiben Sie eine kurze Szene, in der zwei Menschen streiten, ohne das Thema des Streits je zu nennen.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Der Streit ohne Thema",
+    "activity": "creative-writing",
+    "genre": "Szene",
+    "word_min": 200,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wgx16",
+    "prompt": "Schreiben Sie eine kritische Rezension einer Dokumentation und bewerten Sie Argumentation, Belege und Einseitigkeit.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Eine Dokumentation bewerten",
+    "activity": "review",
+    "genre": "Rezension",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ihre Position ist in der Einleitung und im Schluss klar.",
+      "Sie haben ein Gegenargument behandelt.",
+      "Register und Ton bleiben durchgehend konstant."
+    ]
+  },
+  {
+    "id": "de:writing:wgx17",
+    "prompt": "Schreiben Sie einen Aushang für das Brett in Ihrem Haus über eine Änderung des Tages der Müllabfuhr. Sagen Sie, was sich ändert, wann es beginnt und was die Bewohner tun müssen.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Aushang im Haus",
+    "activity": "inform",
+    "genre": "Aushang",
+    "word_min": 90,
+    "word_max": 120,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Jeder Absatz hat einen Hauptgedanken.",
+      "Sie haben einen Grund und ein Beispiel für Ihre Meinung gegeben.",
+      "Sie haben Konnektoren wie jedoch, deshalb und außerdem verwendet."
+    ]
   }
 ]

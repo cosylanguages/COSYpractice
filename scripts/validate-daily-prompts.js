@@ -47,12 +47,15 @@ const EXAM_OWNERS = {
   en: /\b(IELTS|TOEFL|Cambridge|Trinity|ECPE)\b/,
   br: /\bDAB\b|Diplom war ar Brezhoneg/
 };
-const MIN_PER_BAND = { speaking: 3, writing: 1 };
+const MIN_PER_BAND = { speaking: 3, writing: 2 };
 const TRACKS = ['exam', 'general'];
 // General-course speaking is organised by the activity a learner actually does, not by an exam task.
 const ACTIVITIES = ['brainstorm', 'analyse', 'describe', 'compare', 'discuss', 'narrate', 'role-play',
   'problem-solving', 'interview', 'plan', 'present', 'identify'];
 const AUDIENCES = ['young', 'teen', 'adult', 'senior'];
+// General-course writing is organised by what the learner actually produces.
+const WRITING_ACTIVITIES = ['describe', 'narrate', 'inform', 'persuade', 'explain', 'instruct',
+  'summarise', 'review', 'personal-message', 'formal-message', 'creative-writing', 'journal'];
 const errors = [];
 
 for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root, d)).isDirectory()).sort()) {
@@ -122,12 +125,53 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
           if (owner !== lang && re.test(text)) errors.push(`${at}: names a ${owner} exam on a ${lang} card`);
         }
       }
+
+      // Curated writing cards carry the task scaffolding the strip renders: the exam (or the activity on the
+      // general track), the part, the task type, the genre, a word target and a time limit, plus a self-check.
+      if (type === 'writing' && e.curated) {
+        if (typeof e.task !== 'string' || !e.task.trim()) errors.push(`${at}: curated writing needs a task`);
+        if (typeof e.genre !== 'string' || !e.genre.trim()) errors.push(`${at}: curated writing needs a genre`);
+
+        const track = e.track === undefined ? 'exam' : e.track;
+        if (!TRACKS.includes(track)) errors.push(`${at}: invalid track "${e.track}"`);
+        if (track === 'exam') {
+          if (typeof e.exam !== 'string' || !e.exam.trim()) errors.push(`${at}: curated writing needs an exam`);
+          if (typeof e.part !== 'string' || !e.part.trim()) errors.push(`${at}: curated writing needs a part`);
+        } else {
+          if (e.exam !== undefined || e.part !== undefined) errors.push(`${at}: general writing card must not name an exam`);
+          if (!WRITING_ACTIVITIES.includes(e.activity)) {
+            errors.push(`${at}: general writing card needs an activity (${WRITING_ACTIVITIES.join(', ')})`);
+          }
+        }
+
+        for (const key of ['word_min', 'word_max', 'write_minutes']) {
+          if (!Number.isInteger(e[key]) || e[key] <= 0) errors.push(`${at}: ${key} must be a positive integer`);
+        }
+        if (Number.isInteger(e.word_min) && Number.isInteger(e.word_max) && e.word_min > e.word_max) {
+          errors.push(`${at}: word_min must not exceed word_max`);
+        }
+        if (!Array.isArray(e.checklist) || e.checklist.length < 2) {
+          errors.push(`${at}: curated writing needs a checklist of at least two points`);
+        } else if (e.checklist.some((c) => typeof c !== 'string' || c.trim().length < 5)) {
+          errors.push(`${at}: checklist entries must be short sentences`);
+        }
+        if (!Array.isArray(e.audience) || e.audience.length === 0) {
+          errors.push(`${at}: curated writing needs an audience list`);
+        } else if (e.audience.some((a) => !AUDIENCES.includes(a))) {
+          errors.push(`${at}: audience must use ${AUDIENCES.join(', ')}`);
+        }
+
+        const text = [e.exam, e.part, e.task, e.genre, e.prompt, ...(Array.isArray(e.checklist) ? e.checklist : [])].join(' ');
+        for (const [owner, re] of Object.entries(EXAM_OWNERS)) {
+          if (owner !== lang && re.test(text)) errors.push(`${at}: names a ${owner} exam on a ${lang} card`);
+        }
+      }
     });
 
     for (const [band, re] of Object.entries(BANDS)) {
       const curated = data.filter((e) => e.curated && re.test(String(e.level).toUpperCase()));
-      // Writing is not yet curated outside the core languages; speaking is curated for every language.
-      const required = type === 'speaking' || CORE.includes(lang) ? MIN_PER_BAND[type] : 0;
+      // Both tracks are curated for every language: a learner at any level always gets a task written for it.
+      const required = MIN_PER_BAND[type];
       if (curated.length < required) {
         errors.push(`${rel}: needs ${required} curated prompt(s) for band ${band}, has ${curated.length}`);
       }

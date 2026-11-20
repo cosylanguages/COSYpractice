@@ -58,5 +58,1003 @@
     "prompt": "Skrivit al lizher d'ho me ho-unan a-benn dek vloaz.",
     "topic": "personal",
     "level": "B1-B2"
+  },
+  {
+    "id": "br:writing:wx1",
+    "prompt": "Leunit ur follenn enskrivañ evit ur c'hentel brezhoneg: anv, anv-familh, broadeliezh, oad, chomlec'h ha yezh vamm.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · Oberenn 1 · Follenn",
+    "task": "Leuniañ ur follenn",
+    "genre": "Follenn",
+    "word_min": 20,
+    "word_max": 30,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx2",
+    "prompt": "Skrivit ur gemennadenn d'ho amezeg: mont a rit kuit evit ar sizhunvezh, goulennit outañ dourañ ar bleunioù ha lavarit dezhañ pelec'h emañ an alc'hwez.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · Oberenn 2 · Kemennadenn",
+    "task": "Kemennadenn verr",
+    "genre": "Kemennadenn",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx3",
+    "prompt": "En ho vakañsoù emaoc'h. Skrivit ur gartenn-bost d'ur mignon: pelec'h emaoc'h, gant piv, penaos eo an amzer ha petra hoc'h eus gwelet.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · Oberenn 3 · Kartenn-bost",
+    "task": "Kartenn-bost",
+    "genre": "Kartenn-bost",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx4",
+    "prompt": "En em ginnit e pemp frazenn: ho anv, hoc'h oad, ho labour pe ho studioù, ho kêr ha petra a blij deoc'h ober.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · En em ginnig",
+    "task": "En em ginnig",
+    "genre": "Testenn verr",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx5",
+    "prompt": "Skrivit ur bedadenn evit ho pennbloaz: an deiz, an eur, al lec'h ha petra a rank ho mignoned degas.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · Pedadenn",
+    "task": "Pedadenn",
+    "genre": "Kemennadenn",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx6",
+    "prompt": "Deskrivit ur poltred eus ho tiegezh e pemp frazenn: piv zo warnañ, pelec'h emaint ha petra a reont.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 1",
+    "part": "Skrivañ · Deskrivañ ur poltred",
+    "task": "Deskrivadenn",
+    "genre": "Testenn verr",
+    "word_min": 25,
+    "word_max": 40,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wx7",
+    "prompt": "Skrivit ur gemennadenn d'ur mignon evit e bediñ da dremen ar sizhunvezh-diwezhañ en ho ti. Lavarit pegoulz dont, petra da zegas ha petra a reot asambl.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Oberenn 1 · Kemennadenn",
+    "task": "Kemennadenn",
+    "genre": "Kemennadenn",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx8",
+    "prompt": "Danevellit ur sizhunvezh-diwezhañ dic'houzout e tri rannbennad berr: pelec'h oc'h bet, gant piv ha petra a c'hoarvezas.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Oberenn 2 · Danevell",
+    "task": "Danevell en amzer dremenet",
+    "genre": "Danevell",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx9",
+    "prompt": "Skrivit ul lizher d'ur mignon a zeu d'ho kêr. Roit tri ali diwar-benn an treuzdougen, ar stalioù hag al lec'hioù da weladenniñ.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Oberenn 3 · Lizher",
+    "task": "Lizher dizofisiel",
+    "genre": "Lizher",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx10",
+    "prompt": "Prenet hoc'h eus un dra torret. Skrivit d'ar stal: deskrivit an dra, displegit ar gudenn ha goulennit un eskemm.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Klemm",
+    "task": "Klemm",
+    "genre": "Kemennadenn",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx11",
+    "prompt": "Deskrivit ho karter d'ur mignon estren: petra zo ennañ, penaos eo diouzh an deiz ha diouzh an noz ha perak e plij deoc'h.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Deskrivañ ul lec'h",
+    "task": "Deskrivadenn",
+    "genre": "Testenn verr",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx12",
+    "prompt": "Skrivit ur gemennadenn evit trugarekaat ur c'har d'un donezon. Lavarit petra oa, perak e plij deoc'h ha penaos e implijot anezhañ.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 2",
+    "part": "Skrivañ · Trugarez",
+    "task": "Trugarez",
+    "genre": "Kemennadenn",
+    "word_min": 60,
+    "word_max": 80,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wx13",
+    "prompt": "Skrivit ul lizher d'ur mignon diwar-benn penaos eo cheñchet ho puhez er bloaz tremenet. Displegit daou cheñchamant ha deskrivit ho santadurioù.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Skrivañ · Oberenn 1 · Lizher",
+    "task": "Lizher personel",
+    "genre": "Lizher",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx14",
+    "prompt": "Ar rouedadoù sokial a dostae pe a zistag an dud? Roit ho soñj ha diazezañ anezhañ gant skouerioù.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Skrivañ · Oberenn 2 · Soñj",
+    "task": "Testenn arguzennek",
+    "genre": "Skrid",
+    "word_min": 150,
+    "word_max": 180,
+    "write_minutes": 35,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx15",
+    "prompt": "Skrivit d'ar maerdi ha kinnigit sevel ul liorzh kumun en ho karter. Kinnigit ar raktres, e vad hag ar binvioù rekis.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 1 · Lizher ofisiel",
+    "task": "Lizher ofisiel",
+    "genre": "Lizher",
+    "word_min": 200,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx16",
+    "prompt": "Skrivit ur pennad diwar-benn al labour a-bell evit kelaouenn ho embregerezh. Dielfennit ar mad hag ar riskloù ha klozit gant ur gentan.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 2 · Pennad",
+    "task": "Pennad",
+    "genre": "Pennad",
+    "word_min": 200,
+    "word_max": 250,
+    "write_minutes": 45,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx17",
+    "prompt": "Skrivit ur c'hinnig d'unan eus ho kenseurted a fell dezhañ deskiñ brezhoneg. Deskrivit ar programm, an termenoù hag an doareoù da bleustriñ.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 3 · Kinnig",
+    "task": "Kinnig",
+    "genre": "Testenn",
+    "word_min": 180,
+    "word_max": 220,
+    "write_minutes": 40,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx18",
+    "prompt": "Gourc'hemennit d'ho kenseurt evit e bromosion. Notennit e oberoù ha goulennit berzh dezhañ en e gefridi nevez.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 3",
+    "part": "Skrivañ · Oberenn 3 · Gourc'hemennoù",
+    "task": "Gourc'hemennoù",
+    "genre": "Lizher",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx19",
+    "prompt": "Skrivit ur skrid diwar-benn hag-eñ e lak ar c'henstagadur padus diaesoc'h ar soñjal don. Komzit eus daou sav-poent ha roit ho sav-poent.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 4 · Skrid",
+    "task": "Skrid",
+    "genre": "Skrid",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx20",
+    "prompt": "Skrivit d'ho implijer ha kinnigit ur sizhunvezh labour pevar deiz. Meneget ar mad, ar riskloù ha kinnigit ur prantad arnod.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 5 · Lizher micherel",
+    "task": "Lizher micherel",
+    "genre": "Lizher",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx21",
+    "prompt": "Skrivit ur skrid diwar-benn ar c'henzalc'h etre frankiz ar gomz ha kohezion ar gevredigezh. Implijit daou sav-poent ha tizhit ur gentan poellek.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 6 · Skrid buruteller",
+    "task": "Skrid buruteller",
+    "genre": "Skrid",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx22",
+    "prompt": "Dielfennit un destenn roet: diverrit he tezenn, priziit he arguzennoù ha komzit eus he stil.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 7 · Dielfennadur",
+    "task": "Dielfennadur",
+    "genre": "Dielfennadur",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx23",
+    "prompt": "Sintezit div destenn gant sav-poentoù enebet diwar-benn implij ar skrammoù er vugaleaj, hep kemer ur sav-poent.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 8 · Sintezenn",
+    "task": "Sintezenn",
+    "genre": "Sintezenn",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wx24",
+    "prompt": "Skrivit ur vurutelladenn eus un teulfilm, o priziañ e arguzennoù, e brouennoù hag e reizhder.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Diplom war ar Brezhoneg · DAB 4",
+    "part": "Skrivañ · Oberenn 9 · Burutelladenn",
+    "task": "Burutelladenn",
+    "genre": "Burutelladenn",
+    "word_min": 250,
+    "word_max": 300,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx1",
+    "prompt": "Deskrivit ho kambr e pemp frazenn: petra zo enni, pelec'h emañ an traoù ha petra a blij ar muiañ deoc'h.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Ma c'hambr",
+    "activity": "describe",
+    "genre": "Deskrivadenn",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wgx2",
+    "prompt": "Skrivit ur gemennadenn d'ur mignon evit kinnig en em gavout goude ar skol. Lavarit pegoulz, pelec'h ha petra a reot.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Kemennadenn d'ur mignon",
+    "activity": "personal-message",
+    "genre": "Kemennadenn",
+    "word_min": 20,
+    "word_max": 35,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wgx3",
+    "prompt": "Skrivit teir frazenn diwar-benn hiziv: petra hoc'h eus graet, petra hoc'h eus debret ha penaos en em santit.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Teir frazenn diwar-benn hiziv",
+    "activity": "journal",
+    "genre": "Deizlevr",
+    "word_min": 15,
+    "word_max": 30,
+    "write_minutes": 8,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wgx4",
+    "prompt": "Skrivit peder gourc'hemenn verr evit aozañ un tasad te. Krogit pep frazenn gant ur verb.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Reiñ gourc'hemennoù",
+    "activity": "instruct",
+    "genre": "Gourc'hemennoù",
+    "word_min": 20,
+    "word_max": 40,
+    "write_minutes": 10,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep frazenn a grog gant ur bennlizherenn vras ha echuiñ gant ur poent.",
+      "Respontet hoc'h eus da bep lodenn eus an oberenn.",
+      "Gwiritit doare-skrivañ ar gerioù pemdez."
+    ]
+  },
+  {
+    "id": "br:writing:wgx5",
+    "prompt": "Skrivit un istor berr diwar-benn un deiz ma yeas pep tra fall. Implijit an amzer dremenet ha teir eztaoladenn amzer d'an nebeutañ.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Un deiz a yeas fall",
+    "activity": "narrate",
+    "genre": "Danevell",
+    "word_min": 60,
+    "word_max": 90,
+    "write_minutes": 15,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wgx6",
+    "prompt": "Skrivit ul lizher d'un leti evit goulenn ur gambr evit div nozvezh. Goulennit diwar-benn ar priz, ar beure-mat hag ar parklec'h.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Skrivañ d'un leti",
+    "activity": "formal-message",
+    "genre": "Lizher",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wgx7",
+    "prompt": "Skrivit ur vurutelladenn verr eus ur c'hafe: petra hoc'h eus gourc'hemennet, penaos e oa ar servij ha distreiñ a rafec'h.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Burutellañ ur c'hafe",
+    "activity": "review",
+    "genre": "Burutelladenn",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wgx8",
+    "prompt": "Deskrivit e pemp pazenn penaos mont eus ho ti d'an ti-gar tostañ. Implijit troit a-gleiz, it eeun ha e-kichen.",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Deskrivañ an hent",
+    "activity": "explain",
+    "genre": "Hentoù",
+    "word_min": 50,
+    "word_max": 70,
+    "write_minutes": 12,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Roet hoc'h eus an holl ditour a c'houlenn an oberenn.",
+      "Liammet hoc'h eus an ideoù gant abalamour, ha, met pe neuze.",
+      "Kroget ha klozet hoc'h eus ar gemennadenn en un doare seven."
+    ]
+  },
+  {
+    "id": "br:writing:wgx9",
+    "prompt": "Skrivit un destenn evit lec'hienn ar skol evit lakaat ar skolidi da zont d'ur c'hlub. Roit tri abeg ha respontit d'un enebadenn.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Deuit d'hor c'hlub",
+    "activity": "persuade",
+    "genre": "Testenn arguzennek",
+    "word_min": 120,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx10",
+    "prompt": "Lennit ur pennad berr diwar-benn ar c'housk ha diverrit e dri soñj pennañ e kant ger, hep eilañ an eztaoladennoù.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Diverrañ ur pennad",
+    "activity": "summarise",
+    "genre": "Diverradenn",
+    "word_min": 90,
+    "word_max": 110,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx11",
+    "prompt": "Skrivit ul lizher klemm d'un embregerezh diwar-benn un treuzkas diwezhat. Deskrivit ar gudenn, an nec'hamant hag ar pezh a c'hortozit.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Lizher klemm",
+    "activity": "formal-message",
+    "genre": "Lizher ofisiel",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx12",
+    "prompt": "Deskrivit ul lec'h a bouez evidoc'h gant munudoù santel (gweled, trouz, c'hwezh) ha displegit perak e talvez.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ul lec'h a bouez",
+    "activity": "describe",
+    "genre": "Deskrivadenn",
+    "word_min": 140,
+    "word_max": 180,
+    "write_minutes": 30,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx13",
+    "prompt": "Skrivit ur golumenn evit difenn berzañ ar c'harbedoù e kreiz ho kêr. Respontit d'an arguzenn enep kreñañ.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Karbedoù er-maez eus ar c'hreiz",
+    "activity": "persuade",
+    "genre": "Kolumenn",
+    "word_min": 240,
+    "word_max": 280,
+    "write_minutes": 45,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx14",
+    "prompt": "Diverrit un danevell div bajenn diwar-benn al labour a-bell e kant hanter-kant ger: derc'hel an arguzenn hag ar brouennoù, lemel ar skouerioù.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Koazhañ un danevell",
+    "activity": "summarise",
+    "genre": "Diverradenn",
+    "word_min": 140,
+    "word_max": 160,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx15",
+    "prompt": "Skrivit un arvest berr ma tabut daou zen hep menegiñ biskoazh danvez an tabut.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "An tabut hep danvez",
+    "activity": "creative-writing",
+    "genre": "Arvest",
+    "word_min": 200,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx16",
+    "prompt": "Skrivit ur vurutelladenn eus un teulfilm, o priziañ e arguzennoù, e brouennoù hag e reizhder.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Burutellañ un teulfilm",
+    "activity": "review",
+    "genre": "Burutelladenn",
+    "word_min": 220,
+    "word_max": 260,
+    "write_minutes": 40,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Splann eo ho sav-poent en degasadenn hag er c'hlozadenn.",
+      "Talbennet hoc'h eus ur c'henarguz.",
+      "Kendalc'het e vez an ton hag ar reizhder e-pad an destenn."
+    ]
+  },
+  {
+    "id": "br:writing:wgx17",
+    "prompt": "Skrivit ur c'hemenn evit banell ho ti diwar-benn ur cheñchamant en deiz dastum ar poubellioù. Lavarit petra a cheñch, pegoulz e krog ha petra a rank an annezidi ober.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Kemenn war ar banell",
+    "activity": "inform",
+    "genre": "Kemennadenn",
+    "word_min": 90,
+    "word_max": 120,
+    "write_minutes": 20,
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Pep rannbennad a ziorren ur soñj bennañ.",
+      "Roet hoc'h eus ur abeg hag ur skouer evit ho soñj.",
+      "Implijet hoc'h eus liammoù evel koulskoude, neuze ha ouzhpenn."
+    ]
   }
 ]

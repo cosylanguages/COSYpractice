@@ -105,7 +105,7 @@
   },
   {
     "id": "it:speaking:c3",
-    "prompt": "Qual è la tua città preferita da visitare e cosa ti piace di più?",
+    "prompt": "Descrivi la tua città preferita da visitare: dove si trova, cosa si può fare lì e perché la preferisci ad altre città.",
     "level": "A2",
     "curated": true,
     "track": "exam",
@@ -1249,6 +1249,183 @@
       "Come misureresti una buona istruzione?",
       "Quale materia è più difficile da valutare in modo giusto?",
       "I datori di lavoro sarebbero d'accordo con te?"
+    ]
+  },
+  {
+    "id": "it:speaking:p1",
+    "prompt": "Sei appena arrivato in una nuova città. Parla con l'esaminatore: presentati, spiega perché sei qui e chiedi informazioni sui trasporti.",
+    "topic": "dialogo guidato",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A2",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Dialogo guidato",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Da quanto tempo sei in Italia?",
+      "Cosa ti piace di questa città?"
+    ]
+  },
+  {
+    "id": "it:speaking:p2",
+    "prompt": "Hai prenotato una camera d'albergo ma la stanza non corrisponde. Parla con il receptionist, spiega il problema e chiedi una soluzione.",
+    "topic": "dialogo su una situazione",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS B1",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Dialogo su una situazione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Accetteresti un cambio di camera?",
+      "Come chiederesti un rimborso?"
+    ]
+  },
+  {
+    "id": "it:speaking:p3",
+    "prompt": "Discuti con l'esaminatore: è giusto che le città vietino le auto nel centro storico? Porta esempi e rispondi alle obiezioni.",
+    "topic": "interazione e argomentazione",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 3",
+    "part": "Prova orale · Interazione",
+    "task": "Interazione e argomentazione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quali alternative proponi?",
+      "Chi verrebbe penalizzato?"
+    ]
+  },
+  {
+    "id": "it:speaking:p4",
+    "prompt": "«Il patrimonio culturale appartiene all'umanità, non agli Stati.» Discuti questa tesi, considerando restituzioni, musei e identità nazionale.",
+    "topic": "argomentazione critica",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 5",
+    "part": "Prova orale · Argomentazione critica",
+    "task": "Argomentazione critica",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "Chi decide cosa restituire?",
+      "Che ruolo hanno i musei oggi?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx1",
+    "prompt": "Guarda due modi per andare al lavoro: l'autobus e la bicicletta. Quale è più veloce per te? Quale costa meno? Quale preferisci e perché?",
+    "topic": "Confrontare due cose quotidiane",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Confrontare due cose quotidiane",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quale è meglio quando piove?",
+      "Quale è più sano?",
+      "Cosa sceglieresti domani?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx2",
+    "prompt": "Intervista un compagno sulla sua giornata normale. Fai cinque domande: a che ora si alza, cosa mangia, come si sposta, cosa fa la sera e cosa gli piace di più. Quale delle sue risposte ti dice di più su di lui?",
+    "topic": "Intervistare qualcuno sulla sua giornata",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Intervistare qualcuno sulla sua giornata",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Quale risposta ti ha sorpreso?",
+      "In cosa la sua giornata è diversa dalla tua?",
+      "Cosa cambieresti della sua routine?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx3",
+    "prompt": "Gioco di ruolo: devi dire a un vicino che la sua musica è troppo alta di notte. Sii gentile, spiega il problema e proponi una soluzione. Cosa diresti esattamente per prima cosa?",
+    "topic": "Recitare una conversazione difficile",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Recitare una conversazione difficile",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "E se il vicino si arrabbia?",
+      "Come lo diresti per iscritto?",
+      "Quando è giusto avvisare l'amministratore?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx4",
+    "prompt": "Confronta due posizioni sul lavoro a distanza: fa risparmiare gli spostamenti ma indebolisce lo spirito di squadra. Quale argomento è più solido e quale prova risolverebbe la questione?",
+    "topic": "Confrontare due argomenti",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Confrontare due argomenti",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Cosa ti farebbe cambiare idea?",
+      "Come progetteresti uno studio per verificarlo?",
+      "La risposta cambia secondo il mestiere?"
     ]
   }
 ]

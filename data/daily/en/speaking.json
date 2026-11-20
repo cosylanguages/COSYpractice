@@ -1455,5 +1455,487 @@
       "Which subject is hardest to grade fairly?",
       "Would employers agree with you?"
     ]
+  },
+  {
+    "id": "en:speaking:c45",
+    "prompt": "Look at a picture of a table. Tell me what is on it, and say where each thing is: on the table, under the table, next to the cup.",
+    "topic": "say what an object is and where it is",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Part 2 · Object cards",
+    "task": "Say what an object is and where it is",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "How many cups are on the table?",
+      "What colour is the bag?"
+    ]
+  },
+  {
+    "id": "en:speaking:c46",
+    "prompt": "Here are three pictures. Tell the story: who is in each picture, what are they doing, and how does the story end? Use the present tense.",
+    "topic": "tell a simple story from pictures",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Part 2 · Picture story",
+    "task": "Tell a simple story from pictures",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What happens next?",
+      "How do the people feel at the end?"
+    ]
+  },
+  {
+    "id": "en:speaking:c47",
+    "prompt": "I will name four things: a bus, a bike, a train and a banana. Which one is different, and why? Then try four more things of your own.",
+    "topic": "choose and explain",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Part 3 · Odd one out",
+    "task": "Choose and explain",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Is there another way to group them?",
+      "Which one do you use most?"
+    ]
+  },
+  {
+    "id": "en:speaking:c48",
+    "prompt": "Your class has one free afternoon. Talk with your partner about four activities and choose the best one together. Say why you agree or disagree.",
+    "topic": "collaborative decision",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 2 · Discussion",
+    "task": "Collaborative decision",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Why is that the best choice?",
+      "What will you need to bring?"
+    ]
+  },
+  {
+    "id": "en:speaking:c49",
+    "prompt": "Tell me about your favourite way to spend a free evening. What do you usually do, who are you with, and why do you enjoy it?",
+    "topic": "talking about habits and preferences",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 1 · Interview",
+    "task": "Talking about habits and preferences",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Would you like to try something different?",
+      "How often do you have a free evening?"
+    ]
+  },
+  {
+    "id": "en:speaking:c50",
+    "prompt": "Describe this photograph for about one minute: what you can see, what the people are doing, and how the scene makes you feel.",
+    "topic": "describe a photograph",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Part 2 · Extended turn",
+    "task": "Describe a photograph",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Would you like to be in this photograph?",
+      "What might happen next?"
+    ]
+  },
+  {
+    "id": "en:speaking:c51",
+    "prompt": "Here are some ideas for a school trip. Talk together about the good and bad points of each one, then decide which two are best.",
+    "topic": "collaborative task",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Part 3 · Discussion",
+    "task": "Collaborative task",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 120,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Which idea would be cheapest?",
+      "What could go wrong?"
+    ]
+  },
+  {
+    "id": "en:speaking:c52",
+    "prompt": "Compare these two photographs: one shows people working in an office, the other shows people working outdoors. Say what the people are doing and how the two situations differ.",
+    "topic": "compare two photographs",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Part 2 · Long turn",
+    "task": "Compare two photographs",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Which job would you prefer, and why?",
+      "How important is the workplace for productivity?"
+    ]
+  },
+  {
+    "id": "en:speaking:c53",
+    "prompt": "Some people believe a university degree guarantees a good career. To what extent do you agree, and what else matters to employers?",
+    "topic": "discussion on the topic",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Part 4 · Discussion",
+    "task": "Discussion on the topic",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Has this changed in the last twenty years?",
+      "What advice would you give a school-leaver?"
+    ]
+  },
+  {
+    "id": "en:speaking:c54",
+    "prompt": "You read a short text about \"planned obsolescence\" and heard a lecture on it. Summarise the concept, then explain how the example in the lecture illustrates it.",
+    "topic": "academic concept summary",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Speaking Task 3 · Read–Listen–Speak",
+    "task": "Academic concept summary",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How does the lecture example fit the reading?",
+      "Can you think of a product like this?"
+    ]
+  },
+  {
+    "id": "en:speaking:c55",
+    "prompt": "Listen to a short lecture on how cities reduce traffic. Summarise the two strategies the speaker describes, using the details from the lecture.",
+    "topic": "lecture summary",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Speaking Task 4 · Listen–Speak",
+    "task": "Lecture summary",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Which strategy did the speaker prefer?",
+      "What evidence supported it?"
+    ]
+  },
+  {
+    "id": "en:speaking:c56",
+    "prompt": "Tell me about a project or piece of work you are proud of. What was your role, what did you have to negotiate, and what would you do differently now?",
+    "topic": "personal interview",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C1 Advanced (CAE)",
+    "part": "Part 1 · Interview",
+    "task": "Personal interview",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What did you learn about yourself?",
+      "How do you judge whether a project succeeded?"
+    ]
+  },
+  {
+    "id": "en:speaking:c57",
+    "prompt": "Describe a time you had to change your mind about something you believed strongly. What convinced you, and how did the change affect your behaviour afterwards?",
+    "topic": "personal interview",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C2 Proficiency (CPE)",
+    "part": "Part 1 · Interview",
+    "task": "Personal interview",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Is changing your mind a weakness or a strength?",
+      "How do you weigh new evidence?"
+    ]
+  },
+  {
+    "id": "en:speaking:c58",
+    "prompt": "Your committee must choose one principle to guide a new public library: accessibility, innovation or tradition. Discuss the three with your partner and reach a decision.",
+    "topic": "collaborative decision with abstract prompt",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C2 Proficiency (CPE)",
+    "part": "Part 2 · Collaborative task",
+    "task": "Collaborative decision with abstract prompt",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 120,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Which principle would be hardest to fund?",
+      "How would you persuade a sceptical council?"
+    ]
+  },
+  {
+    "id": "en:speaking:c59",
+    "prompt": "Present a topic of your choice for two minutes, then defend your position as the examiner challenges it with counterarguments.",
+    "topic": "interactive topic discussion",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE III",
+    "part": "Topic task",
+    "task": "Interactive topic discussion",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "What is the strongest objection to your view?",
+      "How would you answer it?"
+    ]
+  },
+  {
+    "id": "en:speaking:c60",
+    "prompt": "Discuss whether a society can be judged by how it treats its weakest members. Use examples and consider at least one opposing view.",
+    "topic": "extended abstract conversation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE IV",
+    "part": "Conversation task",
+    "task": "Extended abstract conversation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "What would a critic of that idea say?",
+      "How would you measure it in practice?"
+    ]
+  },
+  {
+    "id": "en:speaking:c61",
+    "prompt": "You are asked to recommend one way for a company to cut costs: reducing staff, moving offices or outsourcing support. Present your recommendation and justify it.",
+    "topic": "structured presentation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "ECPE",
+    "part": "Part 2 · Presentation with options",
+    "task": "Structured presentation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 120,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What are the risks of your choice?",
+      "How would you handle staff resistance?"
+    ]
+  },
+  {
+    "id": "en:speaking:c62",
+    "prompt": "Discuss the claim that remote work has weakened workplace culture. Present arguments on both sides and state your own conclusion.",
+    "topic": "extended discussion",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "ECPE",
+    "part": "Part 3 · Extended discussion",
+    "task": "Extended discussion",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What evidence would change your view?",
+      "How might culture be rebuilt remotely?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx1",
+    "prompt": "Look at two ways of getting to work: the bus and the bicycle. Which is faster for you? Which is cheaper? Which do you like more, and why?",
+    "topic": "Compare two everyday things",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Compare two everyday things",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which one is better in the rain?",
+      "Which one is healthier?",
+      "What would you choose tomorrow?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx2",
+    "prompt": "Interview a partner about their normal day. Ask five questions: what time they get up, what they eat, how they travel, what they do in the evening, and what they like best. Which of their answers tells you the most about them?",
+    "topic": "Interview someone about their day",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Interview someone about their day",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Which answer surprised you?",
+      "How is their day different from yours?",
+      "What would you change in their routine?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx3",
+    "prompt": "Role-play: you must tell a neighbour that their music is too loud at night. Be polite, explain the problem and suggest a solution. What exactly would you say first?",
+    "topic": "Play a difficult conversation",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Play a difficult conversation",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "What if the neighbour becomes angry?",
+      "How would you say it in writing?",
+      "When is it right to involve the building manager?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx4",
+    "prompt": "Compare two views on remote work: it saves commuting time but weakens team spirit. Which argument is stronger, and what evidence would settle the question?",
+    "topic": "Compare two arguments",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Compare two arguments",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What would change your mind?",
+      "How would you design a study to test it?",
+      "Does the answer differ by job type?"
+    ]
   }
 ]

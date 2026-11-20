@@ -105,7 +105,7 @@
   },
   {
     "id": "fr:speaking:c3",
-    "prompt": "Quel est votre endroit préféré pour passer les vacances et pourquoi ?",
+    "prompt": "Décrivez votre endroit préféré pour passer les vacances : où se trouve-t-il, que peut-on y faire et pourquoi le préférez-vous à d'autres endroits ?",
     "level": "A2",
     "curated": true,
     "track": "exam",
@@ -1249,6 +1249,183 @@
       "Comment mesureriez-vous une bonne éducation ?",
       "Quelle matière est la plus difficile à noter justement ?",
       "Les employeurs seraient-ils d'accord avec vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:p1",
+    "prompt": "Bonjour, asseyez-vous. Parlez-moi de vous : votre nom, votre ville, votre travail ou vos études, et ce que vous aimez faire le soir.",
+    "topic": "se présenter et parler de soi",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 1 · Entretien dirigé",
+    "task": "Se présenter et parler de soi",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Depuis quand habitez-vous ici ?",
+      "Quelle langue parlez-vous à la maison ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:p2",
+    "prompt": "Parlez-moi de votre parcours : ce que vous avez étudié, comment vous avez choisi votre métier ou vos études, et ce que vous aimeriez faire ensuite.",
+    "topic": "entretien dirigé",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 1 · Entretien dirigé",
+    "task": "Entretien dirigé",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Qu'est-ce qui a été le plus difficile dans ce choix ?",
+      "Referiez-vous le même parcours ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:p3",
+    "prompt": "Vous voulez vous inscrire à un cours du soir. Posez des questions à l'examinateur sur les horaires, le prix et le niveau requis, puis décidez ensemble.",
+    "topic": "interaction avec le candidat",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TCF",
+    "part": "Tâche 2 · Exercice en interaction",
+    "task": "Interaction avec le candidat",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quel niveau faut-il pour commencer ?",
+      "Que se passe-t-il si je manque un cours ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:p4",
+    "prompt": "« Le travail à distance rend les équipes plus efficaces mais moins solidaires. » Exposez votre point de vue et répondez aux objections.",
+    "topic": "argumenter sur un sujet abstrait",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TCF",
+    "part": "Tâche 3 · Expression d'un point de vue",
+    "task": "Argumenter sur un sujet abstrait",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Comment mesurer la solidarité d'une équipe ?",
+      "Que perd-on vraiment à distance ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx1",
+    "prompt": "Regardez deux façons d'aller au travail : le bus et le vélo. Lequel est plus rapide pour vous ? Lequel est moins cher ? Lequel préférez-vous, et pourquoi ?",
+    "topic": "Comparer deux objets du quotidien",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Comparer deux objets du quotidien",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Lequel est mieux quand il pleut ?",
+      "Lequel est meilleur pour la santé ?",
+      "Que choisiriez-vous demain ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx2",
+    "prompt": "Interrogez un partenaire sur sa journée habituelle. Posez cinq questions : à quelle heure il se lève, ce qu'il mange, comment il se déplace, ce qu'il fait le soir et ce qu'il préfère. Laquelle de ses réponses vous en apprend le plus sur lui ?",
+    "topic": "Interroger quelqu'un sur sa journée",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Interroger quelqu'un sur sa journée",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Quelle réponse vous a surpris ?",
+      "En quoi sa journée diffère-t-elle de la vôtre ?",
+      "Que changeriez-vous dans sa routine ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx3",
+    "prompt": "Jeu de rôle : vous devez dire à un voisin que sa musique est trop forte la nuit. Soyez poli, expliquez le problème et proposez une solution. Que diriez-vous exactement en premier ?",
+    "topic": "Jouer une conversation difficile",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Jouer une conversation difficile",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Et si le voisin se fâche ?",
+      "Comment le diriez-vous par écrit ?",
+      "Quand faut-il prévenir le gardien ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx4",
+    "prompt": "Comparez deux points de vue sur le télétravail : il économise les trajets mais affaiblit l'esprit d'équipe. Quel argument est le plus solide, et quelle preuve trancherait la question ?",
+    "topic": "Comparer deux arguments",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Comparer deux arguments",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qu'est-ce qui vous ferait changer d'avis ?",
+      "Comment concevriez-vous une étude pour le tester ?",
+      "La réponse change-t-elle selon le métier ?"
     ]
   }
 ]

@@ -1080,5 +1080,181 @@
       "¿Qué asignatura es más difícil de calificar con justicia?",
       "¿Estarían de acuerdo los empleadores contigo?"
     ]
+  },
+  {
+    "id": "es:speaking:p1",
+    "prompt": "Describe la imagen: qué ves, qué están haciendo las personas y qué crees que ha pasado antes. Después valora si te gustaría estar allí.",
+    "topic": "describir y valorar una imagen",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE B1",
+    "part": "Tarea 3 · Descripción de una imagen",
+    "task": "Describir y valorar una imagen",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué te sugiere esta escena?",
+      "¿Crees que es una situación habitual hoy?"
+    ]
+  },
+  {
+    "id": "es:speaking:p2",
+    "prompt": "El ayuntamiento propone tres medidas para el barrio: más zonas verdes, más aparcamiento o un centro cultural. Valóralas y llega a un acuerdo con el examinador.",
+    "topic": "valorar y negociar propuestas",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE B2",
+    "part": "Tarea 3 · Valoración de propuestas",
+    "task": "Valorar y negociar propuestas",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Qué medida es más urgente?",
+      "¿Cómo la financiarías?"
+    ]
+  },
+  {
+    "id": "es:speaking:p3",
+    "prompt": "¿Crees que las redes sociales mejoran o empeoran las relaciones personales? Expón tu opinión con ejemplos y considera la postura contraria.",
+    "topic": "opinión y argumentación",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "SIELE",
+    "part": "Tarea 3 · Opinión",
+    "task": "Opinión y argumentación",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Ha cambiado tu opinión en los últimos años?",
+      "¿Qué harías para mejorar la situación?"
+    ]
+  },
+  {
+    "id": "es:speaking:p4",
+    "prompt": "«La inteligencia artificial debería regularse como la energía nuclear.» Defiende o refuta esta afirmación con argumentos, ejemplos y una conclusión clara.",
+    "topic": "argumentación compleja",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "SIELE",
+    "part": "Tarea 5 · Expresión oral",
+    "task": "Argumentación compleja",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "¿Qué límites pondrías?",
+      "¿Quién debería vigilarlos?"
+    ]
+  },
+  {
+    "id": "es:speaking:gx1",
+    "prompt": "Mira dos formas de ir al trabajo: el autobús y la bicicleta. ¿Cuál es más rápida para ti? ¿Cuál es más barata? ¿Cuál te gusta más y por qué?",
+    "topic": "Comparar dos cosas cotidianas",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Comparar dos cosas cotidianas",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Cuál es mejor cuando llueve?",
+      "¿Cuál es más saludable?",
+      "¿Qué elegirías mañana?"
+    ]
+  },
+  {
+    "id": "es:speaking:gx2",
+    "prompt": "Entrevista a un compañero sobre su día normal. Haz cinco preguntas: a qué hora se levanta, qué come, cómo se desplaza, qué hace por la noche y qué le gusta más. ¿Cuál de sus respuestas te dice más sobre él?",
+    "topic": "Entrevistar a alguien sobre su día",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Entrevistar a alguien sobre su día",
+    "activity": "interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Qué respuesta te sorprendió?",
+      "¿En qué se diferencia su día del tuyo?",
+      "¿Qué cambiarías de su rutina?"
+    ]
+  },
+  {
+    "id": "es:speaking:gx3",
+    "prompt": "Juego de rol: tienes que decirle a un vecino que su música está demasiado alta por la noche. Sé educado, explica el problema y propón una solución. ¿Qué dirías exactamente primero?",
+    "topic": "Representar una conversación difícil",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Representar una conversación difícil",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "¿Y si el vecino se enfada?",
+      "¿Cómo lo dirías por escrito?",
+      "¿Cuándo conviene avisar al portero?"
+    ]
+  },
+  {
+    "id": "es:speaking:gx4",
+    "prompt": "Compara dos posturas sobre el teletrabajo: ahorra desplazamientos pero debilita el espíritu de equipo. ¿Qué argumento es más sólido y qué prueba resolvería la cuestión?",
+    "topic": "Comparar dos argumentos",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Comparar dos argumentos",
+    "activity": "compare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué te haría cambiar de opinión?",
+      "¿Cómo diseñarías un estudio para comprobarlo?",
+      "¿Cambia la respuesta según el oficio?"
+    ]
   }
 ]
