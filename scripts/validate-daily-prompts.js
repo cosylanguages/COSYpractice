@@ -9,11 +9,16 @@
  * task at each level.
  *
  * Curated speaking entries also carry the exam-style scaffolding the strip renders:
+ *   exam           exam the task is modelled on, and the level ("IELTS", "DELF B1", "DAB 2")
+ *   part           the speaking part of that exam ("Part 2 · Long turn (cue card)")
  *   task           short name of the task type ("Cue card talk", "Structured argument")
- *   exam           exam the task is modelled on ("IELTS Part 2", "DELF B1"), optional
  *   prep_seconds   preparation time before speaking
  *   speak_seconds  target speaking time
  *   follow_ups     one or two examiner-style follow-up questions
+ *
+ * exam and part are required so a learner always sees which exam task they are practising; the
+ * part names must match the real structure of each exam (IELTS Part 1/2/3, DELF/DALF exposé and
+ * entretien, Goethe Sprechen Teil 1-3, DELE Tarea 1-4, CILS Parte, ТРКИ задания, and so on).
  */
 'use strict';
 const fs = require('fs');
@@ -46,7 +51,8 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
 
       if (type === 'speaking' && e.curated) {
         if (typeof e.task !== 'string' || !e.task.trim()) errors.push(`${at}: curated speaking needs a task`);
-        if (e.exam !== undefined && (typeof e.exam !== 'string' || !e.exam.trim())) errors.push(`${at}: exam must be a non-empty string`);
+        if (typeof e.exam !== 'string' || !e.exam.trim()) errors.push(`${at}: curated speaking needs an exam`);
+        if (typeof e.part !== 'string' || !e.part.trim()) errors.push(`${at}: curated speaking needs a part`);
         for (const key of ['prep_seconds', 'speak_seconds']) {
           if (!Number.isInteger(e[key]) || e[key] <= 0) errors.push(`${at}: ${key} must be a positive integer`);
         }
