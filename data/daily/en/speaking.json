@@ -1937,5 +1937,119 @@
       "How would you design a study to test it?",
       "Does the answer differ by job type?"
     ]
+  },
+  {
+    "id": "en:speaking:g15",
+    "prompt": "Tell me about your morning. What time do you get up? What do you eat? What do you do first?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "My morning",
+    "topic": "My morning",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "What do you do after breakfast?",
+      "Is your morning busy or quiet?",
+      "What would you change about it?"
+    ]
+  },
+  {
+    "id": "en:speaking:g16",
+    "prompt": "Think of two shops near you. Which one is cheaper? Which one is friendlier? Which do you go to more often, and why?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Two shops",
+    "topic": "Two shops",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What do you usually buy there?",
+      "Is there a shop you avoid?",
+      "What makes a shop good?"
+    ]
+  },
+  {
+    "id": "en:speaking:g17",
+    "prompt": "Plan a free Saturday with a friend. What will you do in the morning, afternoon and evening? Who brings what?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Weekend plan",
+    "activity": "plan",
+    "topic": "Weekend plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What if it rains?",
+      "Which part are you most looking forward to?",
+      "How much will it cost?"
+    ]
+  },
+  {
+    "id": "en:speaking:g18",
+    "prompt": "Present a small change that would make your street or workplace better. What is it, who does it help, and what would it cost?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "A small proposal",
+    "activity": "present",
+    "topic": "A small proposal",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Who would object, and how would you answer them?",
+      "What is the first step?",
+      "How would you measure success?"
+    ]
+  },
+  {
+    "id": "en:speaking:g19",
+    "prompt": "Should public spaces stay free of advertising? Defend your position, then answer the strongest objection to it.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Public space",
+    "activity": "discuss",
+    "topic": "Public space",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Who pays for public space if not advertisers?",
+      "Where would you draw the line?",
+      "Does your answer change for schools or hospitals?"
+    ]
   }
 ]

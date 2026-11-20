@@ -1256,5 +1256,200 @@
       "¿Cómo diseñarías un estudio para comprobarlo?",
       "¿Cambia la respuesta según el oficio?"
     ]
+  },
+  {
+    "id": "es:speaking:c33",
+    "prompt": "¿Dónde vive? Describa su casa: ¿cuántas habitaciones tiene y qué hay en su habitación?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "La vivienda",
+    "exam": "DELE A1",
+    "part": "Tarea 2 · Conversación con el examinador",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Qué le gusta de su casa?",
+      "¿Qué quiere cambiar?"
+    ]
+  },
+  {
+    "id": "es:speaking:c34",
+    "prompt": "Está en una tienda. Necesita pan, leche y manzanas. Pregunte el precio y diga qué va a comprar.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "En la tienda",
+    "exam": "SIELE",
+    "part": "Tarea 1 · Descripción",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Quiere comprar algo más?",
+      "¿Le parece caro el precio?"
+    ]
+  },
+  {
+    "id": "es:speaking:c35",
+    "prompt": "Debata: ¿deberían las ciudades prohibir el coche en el centro? Valore los argumentos económicos y los de salud pública.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Debate urbano",
+    "exam": "DELE C2",
+    "part": "Tarea 2 · Debate",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Cómo mediría el éxito de la medida?"
+    ]
+  },
+  {
+    "id": "es:speaking:c36",
+    "prompt": "Exponga su punto de vista: ¿debe el Estado financiar la cultura en tiempos de crisis? Justifique con ejemplos concretos.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Monólogo argumentativo",
+    "exam": "DELE C1",
+    "part": "Tarea 1 · Monólogo",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Qué recortaría antes que la cultura?"
+    ]
+  },
+  {
+    "id": "es:speaking:g15",
+    "prompt": "Cuente cómo es su mañana. ¿A qué hora se levanta? ¿Qué desayuna? ¿Qué hace primero?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Mi mañana",
+    "topic": "Mi mañana",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Qué hace después del desayuno?",
+      "¿Su mañana es tranquila o llena?",
+      "¿Qué cambiaría?"
+    ]
+  },
+  {
+    "id": "es:speaking:g16",
+    "prompt": "Piense en dos tiendas cerca de casa. ¿Cuál es más barata? ¿Dónde es más amable la gente? ¿A cuál va más a menudo y por qué?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Dos tiendas",
+    "topic": "Dos tiendas",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Qué compra allí normalmente?",
+      "¿Hay alguna tienda que evite?",
+      "¿Qué hace buena a una tienda?"
+    ]
+  },
+  {
+    "id": "es:speaking:g17",
+    "prompt": "Planifique un sábado libre con un amigo. ¿Qué harán por la mañana, la tarde y la noche? ¿Quién trae qué?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Un sábado libre",
+    "topic": "Un sábado libre",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Y si llueve?",
+      "¿Qué parte espera con más ganas?",
+      "¿Cuánto costará?"
+    ]
+  },
+  {
+    "id": "es:speaking:c37",
+    "prompt": "Cuente una experiencia reciente que le gustó: dónde fue, con quién y qué pasó.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "task": "Experiencia reciente",
+    "exam": "DELE A2",
+    "part": "Tarea 1 · Monólogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Repetiría la experiencia?"
+    ]
+  },
+  {
+    "id": "es:speaking:c38",
+    "prompt": "Imagine una foto de una familia en un parque. Describa qué ve: quiénes son, qué hacen y cómo es el lugar.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "task": "Describir una escena",
+    "exam": "SIELE",
+    "part": "Tarea 2 · Descripción de una imagen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Le gustaría estar allí? ¿Por qué?"
+    ]
   }
 ]

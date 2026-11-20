@@ -1126,5 +1126,258 @@
       "Peseurt arc'hant zo ret?",
       "Pegoulz eo ar gwellañ?"
     ]
+  },
+  {
+    "id": "br:speaking:c17",
+    "prompt": "Pegoulz e savit? Petra a rit diouzh ar beure? Da bet eur e it da gousket da noz?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "Ritm pemdeziek",
+    "exam": "DAB 1 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Monolog",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Piv a fard ar merenn-vintin?",
+      "D'ar sizhun dibenn e savit ken abred?"
+    ]
+  },
+  {
+    "id": "br:speaking:c18",
+    "prompt": "Er stal e c'houlennit bara, laezh hag avaloù. Goulennit ar prizioù ha livirit pegement a baeit.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "Goulenn ar prizioù",
+    "exam": "DAB 1 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Diviz",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Petra all a garefec'h prenañ?",
+      "Kavout a rit ar prizioù ker?"
+    ]
+  },
+  {
+    "id": "br:speaking:g11",
+    "prompt": "Digorit ho sac'h. Anvit pevar traezenn zo ennañ. Pe liv int? Peseurt hini a rit gantañ ar muiañ?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Traoù ar sac'h",
+    "activity": "identify",
+    "topic": "Traoù ar sac'h",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Petra a vank en ho sac'h?",
+      "Peseurt traezenn hoc'h eus implijet hiziv?"
+    ]
+  },
+  {
+    "id": "br:speaking:c19",
+    "prompt": "Deskrivit ur mignon tost: penaos eo an den-se, penaos hoc'h eus e anavezet ha petra a rit asambles?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "task": "Deskrivañ ur mignon",
+    "exam": "DAB 2 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Deskrivadur",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Pegoulz hoc'h eus e weladennet ar wech diwezhañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:c20",
+    "prompt": "Pellgomz a rit d'ar medisin evit kemer ur randevou. Livirit hoc'h anv, an abeg ha dibabit un eur.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "task": "Randevou gant ar medisin",
+    "exam": "DAB 2 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Diviz",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Un eur diouzh ar beure a blij deoc'h?",
+      "Lezit ho niverenn bellgomz."
+    ]
+  },
+  {
+    "id": "br:speaking:g12",
+    "prompt": "Deskrivit ho meuz muiañ-karet: eus petra eo graet, piv a fard anezhañ ha pegoulz e tebrit anezhañ?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Meuz muiañ-karet",
+    "activity": "describe",
+    "topic": "Meuz muiañ-karet",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Desket hoc'h eus e fardañ?",
+      "D'ar gouelioù e fardit anezhañ ivez?"
+    ]
+  },
+  {
+    "id": "br:speaking:c21",
+    "prompt": "Lod a lavar e c'haller deskiñ ur yezh estren en ur sellout ouzh filmoù. Ha c'hwi a zo a-du? E peseurt mod e talvez?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "task": "Deskiñ yezh gant filmoù",
+    "exam": "DAB 3 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Arguzenn",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Penaos hoc'h eus desket-c'hwi?"
+    ]
+  },
+  {
+    "id": "br:speaking:c22",
+    "prompt": "Ur mignon a c'houlenn ali diwar-benn ur c'hinnig labour nevez: ar goproù zo uhel met ret eo dilojañ. Goulennit outañ ha displegit ar vad eus an div zibab.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "task": "Ali diwar-benn ur c'hinnig labour",
+    "exam": "DAB 3 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Diviz",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Petra a rafec'h en e blas?"
+    ]
+  },
+  {
+    "id": "br:speaking:g13",
+    "prompt": "Dav eo deskiñ ur yezh estren d'ar vugale adalek ar vugaleaj? Petra a soñjit ha perak?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ar vugale hag ar yezhoù",
+    "activity": "discuss",
+    "topic": "Ar vugale hag ar yezhoù",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Pegoulz hoc'h eus kroget da zeskiñ yezhoù?",
+      "Petra a ro-se d'ar vugale?"
+    ]
+  },
+  {
+    "id": "br:speaking:c23",
+    "prompt": "Peseurt muzul e tle ar media bezañ dizalc'h diouzh ar politikerezh? Displegit ho sav-poent.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Dizalc'hted ar media",
+    "exam": "DAB 4 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Diviz",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Piv a dle termeniñ ar vevennoù?"
+    ]
+  },
+  {
+    "id": "br:speaking:c24",
+    "prompt": "Digeriñ a rit un diviz war an tezenn «dav eo kelenn ar brederouriezh er skol». Livirit ur pennad teir munut evit he difenn pe he nac'hañ.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Digeriñ un diviz",
+    "exam": "DAB 4 · Diplom war ar Brezhoneg",
+    "part": "Poelladenn gomz · Monolog",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "Petra a rofe-se d'ar skolidi?"
+    ]
+  },
+  {
+    "id": "br:speaking:g14",
+    "prompt": "Dielfennit al levr pe ar film ho peus lennet pe gwelet nevez zo: peseurt mennozh a fell d'an aozer tremen ha penaos e ra?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Dielfenn ur levr pe ur film",
+    "activity": "analyse",
+    "topic": "Dielfenn ur levr pe ur film",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Peseurt santad hoc'h eus bet?",
+      "Ha kinnig a rafec'h anezhañ d'ar re all?"
+    ]
   }
 ]

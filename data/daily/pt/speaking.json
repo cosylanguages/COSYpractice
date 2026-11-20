@@ -1257,5 +1257,179 @@
       "Como desenharia um estudo para o testar?",
       "A resposta muda conforme a profissão?"
     ]
+  },
+  {
+    "id": "pt:speaking:c33",
+    "prompt": "Onde vive? Descreva a sua casa: quantos quartos tem e o que há no seu quarto?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "A casa",
+    "exam": "CAPLE CIPLE (A1)",
+    "part": "Produção e interação orais · Descrição",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "O que gosta na sua casa?",
+      "O que gostaria de mudar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c34",
+    "prompt": "Está numa loja. Precisa de pão, leite e maçãs. Pergunte o preço e diga o que vai comprar.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "Na loja",
+    "exam": "Celpe-Bras",
+    "part": "Interação face a face · Elemento 3",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quer comprar mais alguma coisa?",
+      "Acha o preço caro?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c35",
+    "prompt": "Debata: devem as cidades proibir o automóvel no centro? Pese os argumentos económicos e os de saúde pública.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Debate urbano",
+    "exam": "CAPLE DUPLE (C2)",
+    "part": "Produção e interação orais · Discussão especulativa",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Como mediria o sucesso da medida?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c36",
+    "prompt": "Defenda uma posição: deve o Estado financiar a cultura em tempo de crise? Justifique com exemplos concretos.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Argumentação",
+    "exam": "CAPLE DAPLE (C1)",
+    "part": "Produção e interação orais · Argumentação matizada",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "O que cortaria antes da cultura?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g15",
+    "prompt": "Conte como é a sua manhã. A que horas se levanta? O que toma no pequeno-almoço? O que faz primeiro?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "A minha manhã",
+    "topic": "A minha manhã",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "O que faz depois do pequeno-almoço?",
+      "A sua manhã é calma ou cheia?",
+      "O que mudaria?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g16",
+    "prompt": "Pense em duas lojas perto de casa. Qual é mais barata? Onde são mais simpáticos? A qual vai mais vezes e porquê?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Duas lojas",
+    "topic": "Duas lojas",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "O que compra lá normalmente?",
+      "Há alguma loja que evita?",
+      "O que faz uma loja ser boa?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g17",
+    "prompt": "Planeie um sábado livre com um amigo. O que farão de manhã, à tarde e à noite? Quem traz o quê?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Um sábado livre",
+    "topic": "Um sábado livre",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "E se chover?",
+      "Que parte espera com mais vontade?",
+      "Quanto vai custar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c37",
+    "prompt": "Conte uma experiência recente de que gostou: onde foi, com quem e o que aconteceu.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "task": "Experiência recente",
+    "exam": "CAPLE DEPLE (A2)",
+    "part": "Produção e interação orais · Narração",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Repetiria a experiência?"
+    ]
   }
 ]

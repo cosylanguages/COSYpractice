@@ -1427,5 +1427,119 @@
       "Come progetteresti uno studio per verificarlo?",
       "La risposta cambia secondo il mestiere?"
     ]
+  },
+  {
+    "id": "it:speaking:g15",
+    "prompt": "Racconti la sua mattina. A che ora si alza? Cosa mangia? Cosa fa per prima cosa?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "La mia mattina",
+    "topic": "La mia mattina",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cosa fa dopo colazione?",
+      "La sua mattina è tranquilla o piena?",
+      "Cosa cambierebbe?"
+    ]
+  },
+  {
+    "id": "it:speaking:g16",
+    "prompt": "Pensi a due negozi vicino a casa. Quale è più economico? Quale è più accogliente? Dove va più spesso, e perché?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Due negozi",
+    "topic": "Due negozi",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa compra di solito lì?",
+      "C'è un negozio che evita?",
+      "Cosa rende buono un negozio?"
+    ]
+  },
+  {
+    "id": "it:speaking:g17",
+    "prompt": "Pianifichi un sabato libero con un amico. Cosa farete la mattina, il pomeriggio e la sera? Chi porta cosa?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Un sabato libero",
+    "activity": "plan",
+    "topic": "Un sabato libero",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "E se piove?",
+      "Quale momento aspetta di più?",
+      "Quanto costerà?"
+    ]
+  },
+  {
+    "id": "it:speaking:g18",
+    "prompt": "Presenti un piccolo cambiamento che migliorerebbe la sua strada o il suo lavoro. Cos'è, a chi serve e quanto costerebbe?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Una piccola proposta",
+    "activity": "present",
+    "topic": "Una piccola proposta",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi si opporrebbe e come risponderebbe?",
+      "Qual è il primo passo?",
+      "Come misurerebbe il successo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g19",
+    "prompt": "Gli spazi pubblici devono restare senza pubblicità? Difenda la sua posizione, poi risponda all'obiezione più forte.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Lo spazio pubblico",
+    "activity": "discuss",
+    "topic": "Lo spazio pubblico",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi paga lo spazio pubblico se non gli inserzionisti?",
+      "Dove traccerebbe il limite?",
+      "La risposta cambia per scuole o ospedali?"
+    ]
   }
 ]

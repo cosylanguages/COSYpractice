@@ -1259,5 +1259,158 @@
       "Wie würden Sie eine Studie dazu gestalten?",
       "Hängt die Antwort vom Beruf ab?"
     ]
+  },
+  {
+    "id": "de:speaking:c33",
+    "prompt": "Wo wohnen Sie? Beschreiben Sie Ihre Wohnung: Wie viele Zimmer haben Sie und was ist in Ihrem Zimmer?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "Wohnung und Alltag",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Sprechen Teil 1 · Sich vorstellen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Was gefällt Ihnen an Ihrer Wohnung?",
+      "Was möchten Sie ändern?"
+    ]
+  },
+  {
+    "id": "de:speaking:c34",
+    "prompt": "Sie sind im Supermarkt. Sie brauchen Brot, Milch und Äpfel. Fragen Sie nach dem Preis und sagen Sie, was Sie kaufen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "task": "Einkaufen",
+    "exam": "telc Deutsch A1",
+    "part": "Mündliche Prüfung · Teil 2 · Alltagsgespräch",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Möchten Sie noch etwas kaufen?",
+      "Ist der Preis in Ordnung für Sie?"
+    ]
+  },
+  {
+    "id": "de:speaking:c35",
+    "prompt": "Halten Sie einen kurzen Vortrag zum Thema «Sollen Städte den Autoverkehr in Zentren verbieten?». Nennen Sie Argumente und ein Beispiel.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Vortrag halten",
+    "exam": "Goethe-Zertifikat C2",
+    "part": "Sprechen Teil 1 · Vortrag",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wie würden Sie die Maßnahme finanzieren?"
+    ]
+  },
+  {
+    "id": "de:speaking:c36",
+    "prompt": "Diskutieren Sie: Ist es Aufgabe der Schule, über Medienkompetenz zu unterrichten, oder der Eltern? Bewerten Sie beide Positionen.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "task": "Kontrovers diskutieren",
+    "exam": "Goethe-Zertifikat C1",
+    "part": "Sprechen Teil 2 · Diskussion",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wo ziehen Sie die Grenze?"
+    ]
+  },
+  {
+    "id": "de:speaking:g15",
+    "prompt": "Erzählen Sie von Ihrem Morgen. Wann stehen Sie auf? Was frühstücken Sie? Was machen Sie zuerst?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Mein Morgen",
+    "topic": "Mein Morgen",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Was machen Sie nach dem Frühstück?",
+      "Ist Ihr Morgen ruhig oder voll?",
+      "Was würden Sie ändern?"
+    ]
+  },
+  {
+    "id": "de:speaking:g16",
+    "prompt": "Denken Sie an zwei Geschäfte in Ihrer Nähe. Welches ist billiger? Wo sind die Leute freundlicher? Wohin gehen Sie öfter, und warum?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Zwei Geschäfte",
+    "topic": "Zwei Geschäfte",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Was kaufen Sie dort meistens?",
+      "Gibt es ein Geschäft, das Sie meiden?",
+      "Was macht ein Geschäft gut?"
+    ]
+  },
+  {
+    "id": "de:speaking:g17",
+    "prompt": "Planen Sie einen freien Samstag mit einem Freund. Was machen Sie morgens, nachmittags und abends? Wer bringt was mit?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein freier Samstag",
+    "topic": "Ein freier Samstag",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Und wenn es regnet?",
+      "Auf welchen Teil freuen Sie sich am meisten?",
+      "Was kostet das?"
+    ]
   }
 ]

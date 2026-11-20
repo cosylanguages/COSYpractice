@@ -1427,5 +1427,119 @@
       "Comment concevriez-vous une étude pour le tester ?",
       "La réponse change-t-elle selon le métier ?"
     ]
+  },
+  {
+    "id": "fr:speaking:g15",
+    "prompt": "Racontez votre matinée. À quelle heure vous levez-vous ? Que mangez-vous ? Que faites-vous en premier ?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Ma matinée",
+    "topic": "Ma matinée",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Que faites-vous après le petit-déjeuner ?",
+      "Votre matinée est-elle calme ou chargée ?",
+      "Que changeriez-vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g16",
+    "prompt": "Pensez à deux magasins près de chez vous. Lequel est moins cher ? Lequel est plus accueillant ? Où allez-vous le plus souvent, et pourquoi ?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Deux magasins",
+    "topic": "Deux magasins",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'achetez-vous là-bas ?",
+      "Y a-t-il un magasin que vous évitez ?",
+      "Qu'est-ce qui fait un bon magasin ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g17",
+    "prompt": "Planifiez un samedi libre avec un ami. Que ferez-vous le matin, l'après-midi et le soir ? Qui apporte quoi ?",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Un samedi libre",
+    "activity": "plan",
+    "topic": "Un samedi libre",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Et s'il pleut ?",
+      "Quel moment attendez-vous le plus ?",
+      "Combien cela coûtera-t-il ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g18",
+    "prompt": "Présentez un petit changement qui améliorerait votre rue ou votre travail. Qu'est-ce que c'est, à qui cela sert, et combien cela coûterait ?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Une petite proposition",
+    "activity": "present",
+    "topic": "Une petite proposition",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui s'y opposerait, et comment répondriez-vous ?",
+      "Quelle est la première étape ?",
+      "Comment mesureriez-vous le succès ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g19",
+    "prompt": "Les espaces publics doivent-ils rester sans publicité ? Défendez votre position, puis répondez à l'objection la plus forte.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "L'espace public",
+    "activity": "discuss",
+    "topic": "L'espace public",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui paie l'espace public sinon les annonceurs ?",
+      "Où traceriez-vous la limite ?",
+      "Votre réponse change-t-elle pour les écoles ou les hôpitaux ?"
+    ]
   }
 ]

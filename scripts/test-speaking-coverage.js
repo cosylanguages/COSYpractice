@@ -13,8 +13,8 @@ const BANDS = {
 };
 const ACTIVITIES = ['brainstorm', 'analyse', 'describe', 'compare', 'discuss', 'narrate', 'role-play',
   'problem-solving', 'interview', 'plan', 'present', 'identify'];
-const MIN_EXAM = 8;
-const MIN_GENERAL = 4;
+const MIN_EXAM = 10;
+const MIN_GENERAL = 5;
 
 const errors = [];
 const langs = fs.readdirSync(root).filter((d) => fs.statSync(path.join(root, d)).isDirectory()).sort();
