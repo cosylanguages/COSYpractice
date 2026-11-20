@@ -64,9 +64,16 @@
     "prompt": "Presentati: di' il tuo nome, da dove vieni e cosa ti piace fare nel tempo libero.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 1 · Dialogo con l'esaminatore",
     "task": "Presentazione personale",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -79,9 +86,16 @@
     "prompt": "Descrivi cosa vedi intorno a te in questo momento usando parole semplici.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 2 · Monologo",
     "task": "Descrizione semplice",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -94,9 +108,16 @@
     "prompt": "Qual è la tua città preferita da visitare e cosa ti piace di più?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Descrivere un luogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -109,9 +130,16 @@
     "prompt": "Come ami trascorrere il fine settimana per rilassarti dopo il lavoro o lo studio?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Racconto al passato",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -124,9 +152,15 @@
     "prompt": "Quali generi musicali ascolti quando studi e come influenzano la tua concentrazione?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B1",
     "part": "Parte 2 · Monologo",
     "task": "Opinione e giustificazione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -139,9 +173,15 @@
     "prompt": "Preferisci vivere in una metropoli dinamica o in un piccolo borgo storico? Spiega i motivi.",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B2",
     "part": "Parte 2 · Monologo",
     "task": "Prendere posizione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -154,9 +194,14 @@
     "prompt": "In che modo l'esperienza di apprendere una lingua modifica la nostra percezione delle altre culture?",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 2 · Monologo",
     "task": "Argomentazione strutturata",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -169,9 +214,14 @@
     "prompt": "Valuta criticamente i vantaggi e i rischi dell'intelligenza artificiale nella conservazione del patrimonio linguistico.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 2 · Monologo",
     "task": "Argomentazione strutturata",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -185,9 +235,16 @@
     "topic": "presentazioni",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 1 · Dialogo con l'esaminatore",
     "task": "Presentazione personale",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -201,9 +258,16 @@
     "topic": "casa",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CELI Impatto",
     "part": "Prova orale · Dialogo",
     "task": "Descrizione semplice",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -217,9 +281,16 @@
     "topic": "famiglia",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 2 · Monologo",
     "task": "Parlare delle persone",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -233,9 +304,16 @@
     "topic": "cibo",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CELI Impatto",
     "part": "Prova orale · Monologo",
     "task": "Temi quotidiani",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -249,9 +327,16 @@
     "topic": "orari",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 1 · Dialogo con l'esaminatore",
     "task": "Ore e abitudini",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -265,9 +350,16 @@
     "topic": "al bar",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A1",
     "part": "Parte 1 · Dialogo con l'esaminatore",
     "task": "Funzioni: fare acquisti",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -281,9 +373,16 @@
     "topic": "tempo e vestiti",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CELI Impatto",
     "part": "Prova orale · Monologo",
     "task": "Descrizione del quotidiano",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -297,9 +396,16 @@
     "topic": "i numeri",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CELI Impatto",
     "part": "Prova orale · Monologo",
     "task": "Numeri e quantità",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -313,9 +419,16 @@
     "topic": "quartiere",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Descrivere un'immagine",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -329,9 +442,16 @@
     "topic": "lo scorso weekend",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 1",
     "part": "Prova orale · Dialogo",
     "task": "Funzioni: reclamo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -345,9 +465,16 @@
     "topic": "una foto",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Descrivere un'immagine",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -361,9 +488,16 @@
     "topic": "reso in negozio",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 1",
     "part": "Prova orale · Dialogo",
     "task": "Funzioni: reclamo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -377,9 +511,16 @@
     "topic": "cucinare o uscire",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Esprimere preferenze",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -393,9 +534,16 @@
     "topic": "progetti estivi",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Parlare di progetti",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -409,9 +557,16 @@
     "topic": "spostamenti",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 1",
     "part": "Prova orale · Monologo",
     "task": "Abitudini quotidiane",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -425,9 +580,16 @@
     "topic": "una serata",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS A2",
     "part": "Parte 2 · Monologo",
     "task": "Racconto e valutazione",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -441,9 +603,15 @@
     "topic": "una competenza",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B1",
     "part": "Parte 2 · Monologo",
     "task": "Monologo",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -457,9 +625,15 @@
     "topic": "gli esami",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B2",
     "part": "Parte 3 · Argomentazione",
     "task": "Prendere posizione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -473,9 +647,15 @@
     "topic": "lavoro di squadra",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B2",
     "part": "Parte 3 · Argomentazione",
     "task": "Argomentare",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -489,9 +669,15 @@
     "topic": "traffico",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 2",
     "part": "Prova orale · Monologo",
     "task": "Problema e soluzione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -505,9 +691,15 @@
     "topic": "un rimpianto",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B2",
     "part": "Parte 2 · Monologo",
     "task": "Racconto con riflessione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -521,9 +713,15 @@
     "topic": "scuola o immersione",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 2",
     "part": "Prova orale · Dialogo",
     "task": "Confrontare",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -537,9 +735,15 @@
     "topic": "lavoro a distanza",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CELI 2",
     "part": "Prova orale · Monologo",
     "task": "Analizzare un cambiamento",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -553,9 +757,15 @@
     "topic": "patrimonio locale",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS B2",
     "part": "Parte 3 · Argomentazione",
     "task": "Dibattito",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -569,9 +779,14 @@
     "topic": "lingue e globalizzazione",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 2 · Monologo",
     "task": "Argomentazione strutturata",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -585,9 +800,14 @@
     "topic": "lingua e pubblicità",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C2",
     "part": "Parte 2 · Monologo",
     "task": "Discussione astratta",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -601,9 +821,14 @@
     "topic": "opere e musei",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 2 · Monologo",
     "task": "Discorso argomentato",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -617,9 +842,14 @@
     "topic": "traduzione automatica",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C2",
     "part": "Parte 3 · Argomentazione",
     "task": "Valutazione critica",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -633,9 +863,14 @@
     "topic": "lezioni online",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 3 · Argomentazione",
     "task": "Dibattito accademico",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -649,9 +884,14 @@
     "topic": "politica linguistica",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C2",
     "part": "Parte 2 · Monologo",
     "task": "Analisi di politiche",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -665,9 +905,14 @@
     "topic": "turismo di massa",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C1",
     "part": "Parte 2 · Monologo",
     "task": "Argomentazione articolata",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -681,14 +926,315 @@
     "topic": "intelligenza artificiale",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CILS C2",
     "part": "Parte 3 · Argomentazione",
     "task": "Discussione speculativa",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Bisogna etichettare i testi prodotti da una macchina?",
       "Che cos'è una voce autentica?"
+    ]
+  },
+  {
+    "id": "it:speaking:g1",
+    "prompt": "Guardati intorno. Nomina cinque oggetti che vedi e di' di che colore sono.",
+    "topic": "Guardare e nominare",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Guardare e nominare",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qual è il più grande?",
+      "Quale usi ogni giorno?"
+    ]
+  },
+  {
+    "id": "it:speaking:g2",
+    "prompt": "Descrivi il tuo angolo preferito di casa. Cosa c'è e perché ti piace?",
+    "topic": "Descrivere il proprio angolo preferito",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Descrivere il proprio angolo preferito",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ci vai per rilassarti o per lavorare?",
+      "Cambieresti qualcosa?"
+    ]
+  },
+  {
+    "id": "it:speaking:g3",
+    "prompt": "Nomina più oggetti che puoi che si trovano in cucina. Prova a dirne dieci.",
+    "topic": "Nominare il più possibile",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nominare il più possibile",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quali usi di più?",
+      "Quale è pericoloso per un bambino?"
+    ]
+  },
+  {
+    "id": "it:speaking:g4",
+    "prompt": "Scegli una foto sul tuo telefono e racconta la sua storia: dove è stata scattata, chi c'è e cosa è successo.",
+    "topic": "Raccontare una foto",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Raccontare una foto",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perché hai tenuto questa foto?",
+      "Cosa è successo subito dopo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g5",
+    "prompt": "Organizza una piccola festa con un amico. Decidete il giorno, il cibo e chi invitare.",
+    "topic": "Organizzare insieme",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Organizzare insieme",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa potrebbe andare storto?",
+      "Chi farà cosa?"
+    ]
+  },
+  {
+    "id": "it:speaking:g6",
+    "prompt": "Hai perso la borsa sull'autobus. Spiega cosa è successo e cosa farai adesso.",
+    "topic": "Risolvere un problema",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Risolvere un problema",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "A chi chiederesti aiuto?",
+      "Cosa faresti per primo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g7",
+    "prompt": "È meglio imparare da soli o con altre persone? Porta esempi dalla tua esperienza.",
+    "topic": "Discutere una questione quotidiana",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutere una questione quotidiana",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quando funziona meglio lavorare da soli?",
+      "Cosa hai imparato da qualcuno?"
+    ]
+  },
+  {
+    "id": "it:speaking:g8",
+    "prompt": "Pensa a un negozio che conosci bene. Come dispone i prodotti e come cambia quello che compri?",
+    "topic": "Analizzare un negozio",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizzare un negozio",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quali trucchi noti di più?",
+      "Funzionano su di te?"
+    ]
+  },
+  {
+    "id": "it:speaking:g9",
+    "prompt": "Proponi cinque modi per rendere la tua strada o il tuo quartiere più piacevole per chi ci abita.",
+    "topic": "Idee per la propria strada",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Idee per la propria strada",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quale idea costerebbe meno?",
+      "Chi dovrebbe essere d'accordo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g10",
+    "prompt": "Prendi un titolo di cronaca recente. Analizza le parole usate e cosa ti fanno credere.",
+    "topic": "Analizzare un titolo di giornale",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizzare un titolo di giornale",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Un'altra parola cambierebbe il senso?",
+      "A chi giova questa impostazione?"
+    ]
+  },
+  {
+    "id": "it:speaking:g11",
+    "prompt": "Lo spazio pubblico deve restare senza pubblicità? Sostieni la tua posizione e rispondi all'obiezione più forte.",
+    "topic": "Discutere lo spazio pubblico",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutere lo spazio pubblico",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi pagherebbe altrimenti?",
+      "Dove metteresti il limite?"
+    ]
+  },
+  {
+    "id": "it:speaking:g12",
+    "prompt": "Presenta un progetto che migliorerebbe il tuo quartiere. Di' cosa è, a chi serve e quanto costa.",
+    "topic": "Presentare una proposta",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Presentare una proposta",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Come convinceresti un vicino scettico?",
+      "Qual è il primo passo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g13",
+    "prompt": "Alcuni dicono che gli studenti hanno troppo poco tempo libero. Sei d'accordo? Porta ragioni e un esempio dalla tua settimana.",
+    "topic": "Discutere scuola e tempo libero",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutere scuola e tempo libero",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quale attività terresti se dovessi rinunciare a una?",
+      "Cosa renderebbe la tua settimana più facile?"
+    ]
+  },
+  {
+    "id": "it:speaking:g14",
+    "prompt": "La scuola premia i voti più della curiosità. Analizza cosa insegna agli studenti e quanto costa loro.",
+    "topic": "Analizzare cosa premia la scuola",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizzare cosa premia la scuola",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Come misureresti una buona istruzione?",
+      "Quale materia è più difficile da valutare in modo giusto?"
     ]
   }
 ]

@@ -65,9 +65,16 @@
     "topic": "apresentação",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Apresentação",
     "task": "Apresentação pessoal",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "casa",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Descrição",
     "task": "Descrição simples",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "família",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Interação",
     "task": "Falar de pessoas",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "comida",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Tema do dia a dia",
     "task": "Temas do dia a dia",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "horários",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 1",
     "task": "Horas e rotinas",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "no café",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Situação simulada",
     "task": "Atos de fala: comprar",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "tempo e roupa",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE CIPLE (A1)",
     "part": "Produção e interação orais · Descrição",
     "task": "Descrição do quotidiano",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "números",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 2",
     "task": "Números e quantidades",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -193,9 +249,16 @@
     "topic": "bairro",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DEPLE (A2)",
     "part": "Produção e interação orais · Descrição de lugar",
     "task": "Descrever um lugar",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -209,9 +272,16 @@
     "topic": "o fim de semana passado",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 1",
     "task": "Narrar no passado",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -225,9 +295,16 @@
     "topic": "uma fotografia",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DEPLE (A2)",
     "part": "Produção e interação orais · Descrição de imagem",
     "task": "Descrever uma imagem",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -241,9 +318,16 @@
     "topic": "troca na loja",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DEPLE (A2)",
     "part": "Produção e interação orais · Situação simulada",
     "task": "Atos de fala: reclamação",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -257,9 +341,16 @@
     "topic": "cozinhar ou sair",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 2",
     "task": "Exprimir preferências",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -273,9 +364,16 @@
     "topic": "planos de verão",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DEPLE (A2)",
     "part": "Produção e interação orais · Planos",
     "task": "Falar de planos",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -289,9 +387,16 @@
     "topic": "deslocações",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 3",
     "task": "Rotinas diárias",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -305,9 +410,16 @@
     "topic": "uma saída",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DEPLE (A2)",
     "part": "Produção e interação orais · Narração",
     "task": "Narrar e avaliar",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -321,9 +433,15 @@
     "topic": "uma competência",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B1)",
     "part": "Produção e interação orais · Monólogo",
     "task": "Monólogo",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -337,9 +455,15 @@
     "topic": "os exames",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B2)",
     "part": "Produção e interação orais · Tomada de posição",
     "task": "Tomar posição",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -353,9 +477,15 @@
     "topic": "trabalho de equipa",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 2",
     "task": "Argumentar",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -369,9 +499,15 @@
     "topic": "trânsito",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B1)",
     "part": "Produção e interação orais · Problema e solução",
     "task": "Problema e solução",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -385,9 +521,15 @@
     "topic": "um arrependimento",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B2)",
     "part": "Produção e interação orais · Narração com reflexão",
     "task": "Narrar com reflexão",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -401,9 +543,15 @@
     "topic": "escola ou imersão",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Celpe-Bras",
     "part": "Interação face a face · Elemento 3",
     "task": "Comparar",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -417,9 +565,15 @@
     "topic": "teletrabalho",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B2)",
     "part": "Produção e interação orais · Análise de tendência",
     "task": "Analisar uma tendência",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -433,9 +587,15 @@
     "topic": "património local",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DIPLE (B2)",
     "part": "Produção e interação orais · Debate",
     "task": "Debate",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -449,9 +609,14 @@
     "topic": "línguas e globalização",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DAPLE (C1)",
     "part": "Produção e interação orais · Argumentação",
     "task": "Argumentação estruturada",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -465,9 +630,14 @@
     "topic": "língua e publicidade",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DUPLE (C2)",
     "part": "Produção e interação orais · Discussão abstrata",
     "task": "Discussão abstrata",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -481,9 +651,14 @@
     "topic": "museus e obras",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DAPLE (C1)",
     "part": "Produção e interação orais · Discurso persuasivo",
     "task": "Discurso persuasivo",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -497,9 +672,14 @@
     "topic": "tradução automática",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DUPLE (C2)",
     "part": "Produção e interação orais · Avaliação crítica",
     "task": "Avaliação crítica",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -513,9 +693,14 @@
     "topic": "aulas online",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DAPLE (C1)",
     "part": "Produção e interação orais · Debate académico",
     "task": "Debate académico",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -529,9 +714,14 @@
     "topic": "política linguística",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DUPLE (C2)",
     "part": "Produção e interação orais · Análise de políticas",
     "task": "Análise de políticas",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -545,9 +735,14 @@
     "topic": "turismo de massas",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DAPLE (C1)",
     "part": "Produção e interação orais · Argumentação matizada",
     "task": "Argumentação matizada",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -561,14 +756,315 @@
     "topic": "inteligência artificial",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "CAPLE DUPLE (C2)",
     "part": "Produção e interação orais · Discussão especulativa",
     "task": "Discussão especulativa",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Deveriam os textos criados por máquinas ser identificados?",
       "O que é uma voz autêntica?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g1",
+    "prompt": "Olhe à sua volta. Nomeie cinco objetos que vê e diga de que cor são.",
+    "topic": "Olhar e nomear",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Olhar e nomear",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qual é o maior?",
+      "Qual usa todos os dias?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g2",
+    "prompt": "Descreva o seu canto preferido em casa. O que há lá e porque gosta dele?",
+    "topic": "Descrever o seu canto preferido",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Descrever o seu canto preferido",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Vai lá para descansar ou para trabalhar?",
+      "Mudaria alguma coisa?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g3",
+    "prompt": "Nomeie o máximo de objetos que conseguir que existem numa cozinha. Tente dizer dez.",
+    "topic": "Nomear o máximo possível",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nomear o máximo possível",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quais usa mais?",
+      "Qual é perigoso para uma criança?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g4",
+    "prompt": "Escolha uma fotografia no telemóvel e conte a sua história: onde foi tirada, quem aparece e o que aconteceu.",
+    "topic": "Contar a história de uma fotografia",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Contar a história de uma fotografia",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Porque guardou esta fotografia?",
+      "O que aconteceu logo depois?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g5",
+    "prompt": "Planeie uma pequena festa com um amigo. Decidam o dia, a comida e quem convidar.",
+    "topic": "Planear em conjunto",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Planear em conjunto",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "O que pode correr mal?",
+      "Quem fará o quê?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g6",
+    "prompt": "Perdeu a sua mala no autocarro. Explique o que aconteceu e diga o que vai fazer agora.",
+    "topic": "Resolver um problema",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Resolver um problema",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "A quem pediria ajuda?",
+      "O que faria primeiro?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g7",
+    "prompt": "É melhor aprender sozinho ou com outras pessoas? Dê razões a partir da sua experiência.",
+    "topic": "Discutir uma questão do dia a dia",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutir uma questão do dia a dia",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quando funciona melhor trabalhar sozinho?",
+      "O que aprendeu com outra pessoa?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g8",
+    "prompt": "Pense numa loja que conhece bem. Como organiza os produtos e como isso muda o que compra?",
+    "topic": "Analisar uma loja",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analisar uma loja",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Que truques nota mais?",
+      "Funcionam consigo?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g9",
+    "prompt": "Sugira cinco formas de tornar a sua rua ou o seu bairro mais agradável para quem lá vive.",
+    "topic": "Ideias para a sua rua",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ideias para a sua rua",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Que ideia custaria menos?",
+      "Quem teria de concordar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g10",
+    "prompt": "Pegue num título de notícia recente. Analise as palavras usadas e aquilo em que o fazem acreditar.",
+    "topic": "Analisar um título",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analisar um título",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Outra palavra mudaria o sentido?",
+      "A quem beneficia este enquadramento?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g11",
+    "prompt": "Deve o espaço público ficar sem publicidade? Defenda a sua posição e responda à objeção mais forte.",
+    "topic": "Discutir o espaço público",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutir o espaço público",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quem pagaria de outra forma?",
+      "Onde poria o limite?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g12",
+    "prompt": "Apresente um projeto que melhoraria o seu bairro. Diga o que é, a quem ajuda e quanto custa.",
+    "topic": "Apresentar uma proposta",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Apresentar uma proposta",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Como convenceria um vizinho cético?",
+      "Qual é o primeiro passo?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g13",
+    "prompt": "Alguns dizem que os estudantes têm pouco tempo livre. Concorda? Dê razões e um exemplo da sua semana.",
+    "topic": "Discutir escola e tempo livre",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutir escola e tempo livre",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Que atividade manteria se tivesse de desistir de uma?",
+      "O que tornaria a sua semana mais fácil?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g14",
+    "prompt": "A escola premeia as notas mais do que a curiosidade. Analise o que isso ensina aos alunos e o que lhes custa.",
+    "topic": "Analisar o que a escola premeia",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analisar o que a escola premeia",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Como mediria uma boa educação?",
+      "Que disciplina é mais difícil de avaliar com justiça?"
     ]
   }
 ]

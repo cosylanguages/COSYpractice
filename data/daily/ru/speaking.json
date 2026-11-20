@@ -64,9 +64,16 @@
     "prompt": "Представьтесь: расскажите, как вас зовут, откуда вы и чем увлекаетесь.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Монолог: о себе",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -79,9 +86,16 @@
     "prompt": "Назовите пять предметов, которые находятся рядом с вами прямо сейчас.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Простое описание",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -94,9 +108,16 @@
     "prompt": "Какое ваше любимое время года и почему оно вам так нравится?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Бытовой вопрос",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -109,9 +130,16 @@
     "prompt": "Как вы обычно проводите свои выходные дни: дома или на прогулках?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Бытовой вопрос",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -124,9 +152,15 @@
     "prompt": "Какую роль музыка и чтение книг играют в вашей повседневной жизни?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-1 (TORFL-I, B1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Мнение и обоснование",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -139,9 +173,15 @@
     "prompt": "Где вам комфортнее жить: в динамичном мегаполисе или в спокойном пригороде?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Мнение и обоснование",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -154,9 +194,14 @@
     "prompt": "Как освоение нескольких языковых систем влияет на гибкость мышления и восприятие культурных нюансов?",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Структурированное рассуждение",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -169,9 +214,14 @@
     "prompt": "Оцените влияние современных цифровых коммуникаций на богатство и эволюцию литературного языка.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Структурированное рассуждение",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -185,9 +235,16 @@
     "topic": "знакомство",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Монолог: о себе",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -201,9 +258,16 @@
     "topic": "дом",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Простое описание",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -217,9 +281,16 @@
     "topic": "семья",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 1 · Беседа по теме",
     "task": "О людях",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -233,9 +304,16 @@
     "topic": "еда",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Бытовые темы",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -249,9 +327,16 @@
     "topic": "распорядок",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Время и привычки",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -265,9 +350,16 @@
     "topic": "в кафе",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 3 · Ролевая игра",
     "task": "Речевые акты: покупка",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -281,9 +373,16 @@
     "topic": "погода и одежда",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Описание повседневности",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -297,9 +396,16 @@
     "topic": "числа и цены",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ТЭУ (TEL A1)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Числа и количество",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -313,9 +419,16 @@
     "topic": "район",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Описание места",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -329,9 +442,16 @@
     "topic": "прошлые выходные",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Рассказ о прошлом",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -345,9 +465,16 @@
     "topic": "фотография",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Описание изображения",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -361,9 +488,16 @@
     "topic": "возврат в магазине",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 3 · Ролевая игра",
     "task": "Речевые акты: претензия",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -377,9 +511,16 @@
     "topic": "готовить или в кафе",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Выражение предпочтений",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -393,9 +534,16 @@
     "topic": "планы на лето",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 1 · Беседа по теме",
     "task": "Планы на будущее",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -409,9 +557,16 @@
     "topic": "дорога",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Ежедневные привычки",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -425,9 +580,16 @@
     "topic": "вечер с друзьями",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ТБУ (TBL A2)",
     "part": "Задание 2 · Монолог по картинке",
     "task": "Рассказ и оценка",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -441,9 +603,15 @@
     "topic": "навык",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-1 (TORFL-I, B1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Монолог по теме",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -457,9 +625,15 @@
     "topic": "экзамены",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Аргументированное мнение",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -473,9 +647,15 @@
     "topic": "работа в команде",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Согласие / несогласие",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -489,9 +669,15 @@
     "topic": "пробки",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-1 (TORFL-I, B1)",
     "part": "Задание 2 · Дискуссия",
     "task": "Проблема и решение",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -505,9 +691,15 @@
     "topic": "сожаление",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Рассказ с рефлексией",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -521,9 +713,15 @@
     "topic": "школа или среда",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-1 (TORFL-I, B1)",
     "part": "Задание 2 · Дискуссия",
     "task": "Сравнение",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -537,9 +735,15 @@
     "topic": "удалённая работа",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Анализ тенденции",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -553,9 +757,15 @@
     "topic": "местное наследие",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-2 (TORFL-II, B2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Аргументация",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -569,9 +779,14 @@
     "topic": "языки и глобализация",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Структурированное рассуждение",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -585,9 +800,14 @@
     "topic": "язык рекламы",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-4 (TORFL-IV, C2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Абстрактная дискуссия",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -601,9 +821,14 @@
     "topic": "музеи и артефакты",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Убеждающая речь",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -617,9 +842,14 @@
     "topic": "машинный перевод",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-4 (TORFL-IV, C2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Критическая оценка",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -633,9 +863,14 @@
     "topic": "онлайн-лекции",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 2 · Дискуссия",
     "task": "Академическая аргументация",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -649,9 +884,14 @@
     "topic": "языковая политика",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-4 (TORFL-IV, C2)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Анализ политики",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -665,9 +905,14 @@
     "topic": "массовый туризм",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-3 (TORFL-III, C1)",
     "part": "Задание 1 · Монолог по теме",
     "task": "Взвешенная аргументация",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -681,14 +926,315 @@
     "topic": "искусственный интеллект",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ТРКИ-4 (TORFL-IV, C2)",
     "part": "Задание 2 · Дискуссия",
     "task": "Спекулятивная дискуссия",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Нужно ли маркировать тексты, созданные машиной?",
       "Что такое подлинный голос автора?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g1",
+    "prompt": "Оглянитесь вокруг. Назовите пять предметов, которые вы видите, и скажите, какого они цвета.",
+    "topic": "Посмотреть и назвать",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Посмотреть и назвать",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Какой из них самый большой?",
+      "Каким вы пользуетесь каждый день?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g2",
+    "prompt": "Опишите ваше любимое место дома. Что там есть и почему оно вам нравится?",
+    "topic": "Описать любимое место",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Описать любимое место",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Вы идёте туда отдыхать или работать?",
+      "Вы бы что-то изменили?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g3",
+    "prompt": "Назовите как можно больше предметов, которые есть на кухне. Постарайтесь назвать десять.",
+    "topic": "Назвать как можно больше",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Назвать как можно больше",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Какими вы пользуетесь чаще?",
+      "Какой опасен для ребёнка?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g4",
+    "prompt": "Выберите фотографию в телефоне и расскажите её историю: где она сделана, кто на ней и что произошло.",
+    "topic": "Рассказать историю фотографии",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Рассказать историю фотографии",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Почему вы сохранили эту фотографию?",
+      "Что случилось сразу после?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g5",
+    "prompt": "Спланируйте небольшой праздник с другом. Решите, какой будет день, еда и кого пригласить.",
+    "topic": "Спланировать вместе",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Спланировать вместе",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Что может пойти не так?",
+      "Кто чем займётся?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g6",
+    "prompt": "Вы потеряли сумку в автобусе. Объясните, что случилось, и скажите, что вы будете делать.",
+    "topic": "Решить небольшую проблему",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Решить небольшую проблему",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "К кому вы обратитесь за помощью?",
+      "Что вы сделаете первым делом?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g7",
+    "prompt": "Что лучше: учиться одному или с другими людьми? Приведите примеры из своего опыта.",
+    "topic": "Обсудить бытовой вопрос",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Обсудить бытовой вопрос",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Когда работать одному лучше?",
+      "Чему вы научились у другого человека?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g8",
+    "prompt": "Вспомните магазин, который вы хорошо знаете. Как в нём расположены товары и как это влияет на ваши покупки?",
+    "topic": "Проанализировать магазин",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Проанализировать магазин",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Какие приёмы вы замечаете?",
+      "Действуют ли они на вас?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g9",
+    "prompt": "Предложите пять способов сделать вашу улицу или район удобнее для жителей.",
+    "topic": "Идеи для своей улицы",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Идеи для своей улицы",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Какая идея обойдётся дешевле всего?",
+      "С кем нужно договориться?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g10",
+    "prompt": "Возьмите недавний новостной заголовок. Проанализируйте слова в нём и то, во что они заставляют поверить.",
+    "topic": "Проанализировать заголовок",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Проанализировать заголовок",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Другое слово изменило бы смысл?",
+      "Кому выгодна такая подача?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g11",
+    "prompt": "Должно ли общественное пространство оставаться без рекламы? Защитите свою позицию и ответьте на главное возражение.",
+    "topic": "Обсудить общественное пространство",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Обсудить общественное пространство",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Кто тогда будет платить?",
+      "Где вы проведёте границу?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g12",
+    "prompt": "Представьте проект, который улучшил бы ваш район. Скажите, что это, кому это помогает и сколько стоит.",
+    "topic": "Представить предложение",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Представить предложение",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Как убедить сомневающегося соседа?",
+      "Каков первый шаг?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g13",
+    "prompt": "Некоторые говорят, что у школьников слишком мало свободного времени. Вы согласны? Приведите причины и пример из своей недели.",
+    "topic": "Обсудить учёбу и свободное время",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Обсудить учёбу и свободное время",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Какое занятие вы бы оставили, если бы пришлось от одного отказаться?",
+      "Что сделало бы вашу неделю легче?"
+    ]
+  },
+  {
+    "id": "ru:speaking:g14",
+    "prompt": "Школа поощряет оценки больше, чем любознательность. Проанализируйте, чему это учит учеников и чего им стоит.",
+    "topic": "Проанализировать, что поощряет школа",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Проанализировать, что поощряет школа",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Как бы вы измеряли хорошее образование?",
+      "Какой предмет труднее всего оценивать справедливо?"
     ]
   }
 ]

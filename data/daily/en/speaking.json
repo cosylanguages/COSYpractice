@@ -184,9 +184,16 @@
     "prompt": "Introduce yourself: say your name, where you are from, and what languages you are learning.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge Pre A1 Starters",
     "part": "Part 4 · Personal questions",
     "task": "Personal introduction",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -199,9 +206,16 @@
     "prompt": "Describe three items currently on your desk or in your room.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge Pre A1 Starters",
     "part": "Part 3 · Object cards",
     "task": "Describing objects",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -214,9 +228,16 @@
     "prompt": "Talk about your favourite meal: what is it and when do you usually eat it?",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE Foundation",
     "part": "Conversation task",
     "task": "Everyday topics",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -229,9 +250,16 @@
     "prompt": "Describe your typical morning routine and what helps you wake up smoothly.",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 1 · Interview",
     "task": "Describing routines",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -244,9 +272,16 @@
     "prompt": "Talk about a recent trip or holiday you enjoyed: where did you go and who was with you?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 1 · Interview",
     "task": "Narrating a past event",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -259,9 +294,16 @@
     "prompt": "How do you like to spend a rainy Sunday afternoon?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 1 · Interview",
     "task": "Expressing preferences",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -274,9 +316,15 @@
     "prompt": "How has modern technology transformed how you stay in touch with friends and family?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge B1 Preliminary",
     "part": "Part 1 · Interview",
     "task": "Discussing change",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -289,9 +337,15 @@
     "prompt": "Describe a challenge you faced recently and how you managed to overcome it.",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge B2 First",
     "part": "Part 1 · Interview",
     "task": "Narrating a challenge",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -304,9 +358,15 @@
     "prompt": "Do you prefer living in a bustling metropolitan city or a peaceful town? Explain your view.",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE II",
     "part": "Topic task",
     "task": "Comparing lifestyles",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -319,9 +379,14 @@
     "prompt": "To what extent does speaking multiple languages alter an individual's worldview or cognitive perception?",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 4 · Discussion",
     "task": "Structured argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -334,9 +399,14 @@
     "prompt": "Critique the role of algorithms in shaping contemporary public discourse and culture.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 4 · Discussion",
     "task": "Critical analysis",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -349,9 +419,14 @@
     "prompt": "Discuss the balance between preserving linguistic heritage and adopting global lingua francas.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 4 · Discussion",
     "task": "Structured argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -365,9 +440,16 @@
     "topic": "introductions",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 1 · Introduction and interview",
     "task": "Personal introduction",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -381,9 +463,16 @@
     "topic": "home",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A1 Movers",
     "part": "Part 1 · Find the differences",
     "task": "Describing your surroundings",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -397,9 +486,16 @@
     "topic": "family",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE Foundation",
     "part": "Topic task",
     "task": "Talking about people",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -413,9 +509,16 @@
     "topic": "food",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge Pre A1 Starters",
     "part": "Part 4 · Personal questions",
     "task": "Everyday topics",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -429,9 +532,16 @@
     "topic": "daily times",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE Foundation",
     "part": "Conversation task",
     "task": "Telling the time and routines",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -445,9 +555,16 @@
     "topic": "café request",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A1 Movers",
     "part": "Part 4 · Personal questions",
     "task": "Functional language: transactions",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -461,9 +578,16 @@
     "topic": "weather and clothes",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge Pre A1 Starters",
     "part": "Part 4 · Personal questions",
     "task": "Simple description",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -477,9 +601,16 @@
     "topic": "numbers and prices",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge Pre A1 Starters",
     "part": "Part 1 · Scene picture",
     "task": "Numbers and quantities",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -493,9 +624,16 @@
     "topic": "neighbourhood",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 1 · Introduction and interview",
     "task": "Describing a place",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -509,9 +647,16 @@
     "topic": "last weekend",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 1 · Interview",
     "task": "Narrating a past event",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -525,9 +670,16 @@
     "topic": "holiday photo",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE I",
     "part": "Conversation task",
     "task": "Describing a picture",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -541,9 +693,16 @@
     "topic": "returning an item",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 2 · Discussion",
     "task": "Functional language: complaints",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -557,9 +716,16 @@
     "topic": "cooking or eating out",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 2 · Discussion",
     "task": "Expressing preferences",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -573,9 +739,16 @@
     "topic": "next summer",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge A2 Key",
     "part": "Part 1 · Interview",
     "task": "Talking about plans",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -589,9 +762,16 @@
     "topic": "getting around",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE I",
     "part": "Topic task",
     "task": "Everyday routines",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -605,9 +785,16 @@
     "topic": "a shop visit",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 1 · Introduction and interview",
     "task": "Narrating a past event",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -621,9 +808,15 @@
     "topic": "a skill",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 2 · Long turn (cue card)",
     "task": "Cue card talk",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -637,9 +830,15 @@
     "topic": "exams",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 3 · Discussion",
     "task": "Opinion and justification",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -653,9 +852,15 @@
     "topic": "teamwork",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "TOEFL iBT",
     "part": "Speaking Task 1 · Independent",
     "task": "Agree / disagree",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -669,9 +874,15 @@
     "topic": "city traffic",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge B2 First",
     "part": "Part 3 · Collaborative task",
     "task": "Problem and solution",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -685,9 +896,15 @@
     "topic": "a regret",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Trinity ISE II",
     "part": "Conversation task",
     "task": "Narration with reflection",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -701,9 +918,15 @@
     "topic": "school vs abroad",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Cambridge B1 Preliminary",
     "part": "Part 4 · General conversation",
     "task": "Comparing and contrasting",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -717,9 +940,15 @@
     "topic": "remote work",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "TOEFL iBT",
     "part": "Speaking Task 2 · Read–Listen–Speak",
     "task": "Discussing a trend",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -733,9 +962,15 @@
     "topic": "local heritage",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 3 · Discussion",
     "task": "Argumentation",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -749,9 +984,14 @@
     "topic": "language and globalisation",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 4 · Discussion",
     "task": "Structured argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -765,9 +1005,14 @@
     "topic": "advertising language",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C2 Proficiency (CPE)",
     "part": "Part 3 · Long turn and follow-up",
     "task": "Abstract discussion",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -781,9 +1026,14 @@
     "topic": "compulsory voting",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 3 · Discussion",
     "task": "Synthesis and position",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -797,9 +1047,14 @@
     "topic": "AI translation",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "IELTS",
     "part": "Part 3 · Discussion",
     "task": "Evaluating a claim",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -813,9 +1068,14 @@
     "topic": "museums",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 2 · Long turn",
     "task": "Persuasive speech",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -829,9 +1089,14 @@
     "topic": "online lectures",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C1 Advanced (CAE)",
     "part": "Part 3 · Collaborative task",
     "task": "Academic argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -845,9 +1110,14 @@
     "topic": "language policy",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "C2 Proficiency (CPE)",
     "part": "Part 3 · Long turn and follow-up",
     "task": "Policy analysis",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -861,14 +1131,315 @@
     "topic": "tourism",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ECPE",
     "part": "Part 4 · Expressing opinions",
     "task": "Balanced argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Who should pay for the upkeep of those centres?",
       "Is there a sustainable number of visitors?"
+    ]
+  },
+  {
+    "id": "en:speaking:g1",
+    "prompt": "Look around the room you are in. Name five things you can see and say what colour they are.",
+    "topic": "Look and name",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Look and name",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which one is the biggest?",
+      "Which one do you use every day?"
+    ]
+  },
+  {
+    "id": "en:speaking:g2",
+    "prompt": "Describe your favourite place in your home. What is in it, and why do you like it?",
+    "topic": "Describe your favourite spot",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Describe your favourite spot",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Do you go there to relax or to work?",
+      "Would you change anything about it?"
+    ]
+  },
+  {
+    "id": "en:speaking:g3",
+    "prompt": "Name as many things as you can that you find in a kitchen. Try to say ten.",
+    "topic": "Name as many as you can",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Name as many as you can",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which of them do you use most?",
+      "Which one is dangerous for children?"
+    ]
+  },
+  {
+    "id": "en:speaking:g4",
+    "prompt": "Choose a photo on your phone and tell its story: where it was taken, who is in it, and what happened.",
+    "topic": "Tell the story of a photo",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Tell the story of a photo",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Why did you keep this photo?",
+      "What happened just after it was taken?"
+    ]
+  },
+  {
+    "id": "en:speaking:g5",
+    "prompt": "Plan a small celebration with a friend. Decide the day, the food and who to invite.",
+    "topic": "Plan something together",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Plan something together",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What could go wrong, and how would you fix it?",
+      "Who will do which job?"
+    ]
+  },
+  {
+    "id": "en:speaking:g6",
+    "prompt": "You have lost your bag on the bus. Explain what happened and say what you will do next.",
+    "topic": "Solve a small problem",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Solve a small problem",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Who would you ask for help?",
+      "What would you do first?"
+    ]
+  },
+  {
+    "id": "en:speaking:g7",
+    "prompt": "Is it better to learn something alone or with other people? Give reasons from your own experience.",
+    "topic": "Discuss an everyday question",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuss an everyday question",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "When does working alone work better?",
+      "What have you learned from someone else?"
+    ]
+  },
+  {
+    "id": "en:speaking:g8",
+    "prompt": "Think about a shop you know well. How does it arrange its products, and how does that change what you buy?",
+    "topic": "Analyse how a shop is arranged",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyse how a shop is arranged",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Which tricks do you notice most?",
+      "Does it work on you?"
+    ]
+  },
+  {
+    "id": "en:speaking:g9",
+    "prompt": "Suggest five ways to make your street or neighbourhood friendlier for the people who live there.",
+    "topic": "Brainstorm ideas for your street",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Brainstorm ideas for your street",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Which idea would cost the least?",
+      "Who would need to agree?"
+    ]
+  },
+  {
+    "id": "en:speaking:g10",
+    "prompt": "Take a news headline you have seen recently. Analyse the words it uses and what they make you feel or believe.",
+    "topic": "Analyse a headline",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyse a headline",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Would another word change the meaning?",
+      "Who benefits from that framing?"
+    ]
+  },
+  {
+    "id": "en:speaking:g11",
+    "prompt": "Should public spaces stay free of advertising? Argue your position and answer the strongest objection to it.",
+    "topic": "Discuss public space",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuss public space",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Who pays for public space if not advertisers?",
+      "Where would you draw the line?"
+    ]
+  },
+  {
+    "id": "en:speaking:g12",
+    "prompt": "Present a short proposal for a project that would improve your community. Say what it is, who it helps and what it costs.",
+    "topic": "Present a proposal",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Present a proposal",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "How would you persuade a sceptical neighbour?",
+      "What is the first step?"
+    ]
+  },
+  {
+    "id": "en:speaking:g13",
+    "prompt": "Some people say students have too little free time. Do you agree? Give reasons and an example from your own week.",
+    "topic": "Discuss school and free time",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuss school and free time",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Which activity would you keep if you had to give one up?",
+      "What would make your week easier?"
+    ]
+  },
+  {
+    "id": "en:speaking:g14",
+    "prompt": "Schools reward exam results more than curiosity. Analyse what this teaches students and what it costs them.",
+    "topic": "Analyse how schools measure success",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyse how schools measure success",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "How would you measure a good education?",
+      "Which subject is hardest to grade fairly?"
     ]
   }
 ]

@@ -27,6 +27,9 @@ Curated speaking prompts carry the exam-style scaffolding the daily strip render
 | `prep_seconds` | Preparation time before speaking |
 | `speak_seconds` | Target speaking time |
 | `follow_ups` | One or two examiner-style follow-up questions |
+| `track` | `"exam"` (default) or `"general"` — a general-course card has no exam and no part |
+| `activity` | For general cards, the speaking activity: `brainstorm`, `analyse`, `describe`, `compare`, `discuss`, `narrate`, `role-play`, `problem-solving`, `interview`, `plan`, `present`, `identify` |
+| `audience` | Who the card suits: any of `young`, `teen`, `adult`, `senior`. Empty means everyone |
 
 `exam` and `part` are required: a learner always sees which real exam task they are practising. Part names follow each
 exam's own structure — IELTS Part 1/2/3; Cambridge Pre A1 Starters (4 parts), A1 Movers (4), A2 Key (2), B1
@@ -42,10 +45,49 @@ Bashkir and Chuvash state language exams, and the Breton **Diplom war ar Brezhon
 any other language's exam, and likewise for every other language, so the exam chip always matches the language being
 practised.
 
+### Two tracks: exam and general course
+
+Every language carries two kinds of speaking card.
+
+- **Exam track** (`track` absent or `"exam"`) — modelled on a real exam task, with `exam`, `part` and `task`. 396 cards.
+- **General-course track** (`"track": "general"`) — no exam at all. The card teaches speaking for its own sake:
+  brainstorm a list, analyse a headline, describe a room, compare two options, role-play a shop return, solve a small
+  problem, plan something together, present a proposal. 172 cards, so learners who are not preparing for an exam
+  still get daily practice.
+
+```json
+{ "id": "en:speaking:g1", "prompt": "Name as many things as you can in a kitchen, then say which you use most.",
+  "topic": "Name as many as you can", "level": "A0-A1", "curated": true,
+  "track": "general", "task": "Name as many as you can", "activity": "brainstorm",
+  "audience": ["young", "teen", "adult", "senior"],
+  "prep_seconds": 10, "speak_seconds": 45, "follow_ups": ["Which do you use every day?"] }
+```
+
+General cards are written for **all ages**. Every band has a card for young learners, teens, adults and seniors, with
+one deliberate exception: there is no C1-C2 card tagged `young`, because an advanced young learner is rare and the
+strip then serves the B1-B2 card instead (see the preference order below). Nothing in either track assumes a gender,
+a relationship status, or an adult life: prompts say "work or school", "the people you live with", "your household".
+
+### How the strip chooses a card
+
+`COSYlanguages/js/daily-strip.js` takes the learner's level band, then walks these steps in order and stops at the
+first that has a card:
+
+1. the chosen band, a card written for the requested audience (`data-audience`)
+2. the nearest band that has a card for that audience
+3. the chosen band, any audience
+4. anything, nearest band first
+
+Age comes before level on purpose. A twelve-year-old who picks C1-C2 is better served a B1-B2 card about school than
+an adult-only card about compulsory voting, because a level measures language, not maturity. `data-track="general"`
+hides exam tasks and `data-track="exam"` hides course material; unset means both.
+
 - `"curated": true` marks hand-written prompts that were written for one level band (`A0-A1`, `A2`, `B1-B2`, `C1-C2`). When any curated
   prompt matches the learner's band, the strip chooses among those only; otherwise it chooses among all matching entries.
-  Coverage per band: English, French, Italian, Russian and Greek 10 curated prompts; Spanish, German and Portuguese 8;
-  Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash 4.
+  Coverage per band: English, French, Italian, Russian and Greek 10 exam prompts; Spanish, German and Portuguese 8;
+  Armenian, Georgian, Tatar, Bashkir, Breton and Chuvash 4. The general track adds 3-4 cards per band per language
+  (English, French, Italian, Russian, Greek, Spanish, German, Portuguese 12-13; Armenian, Georgian, Tatar, Bashkir,
+  Breton, Chuvash 9).
 - Exam models in use: IELTS, TOEFL iBT, Cambridge (Pre A1 Starters, Movers, Key, Preliminary, First, Advanced,
   Proficiency), Trinity ISE, ECPE, DELF/DALF, TCF, DELE, SIELE, Goethe-Zertifikat, ÖSD, telc, CILS, CELI, CAPLE,
   Celpe-Bras, ТРКИ (ТЭУ/ТБУ/ТРКИ-1–4), Ελληνομάθεια, the Armenian, Georgian, Tatar, Bashkir and Chuvash state language

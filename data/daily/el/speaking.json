@@ -64,9 +64,16 @@
     "prompt": "Παρουσιάστε τον εαυτό σας: πείτε το όνομά σας, από πού είστε και τι σας αρέσει να κάνετε.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Παρουσίαση εαυτού",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -79,9 +86,16 @@
     "prompt": "Περιγράψτε τρία αντικείμενα που βρίσκονται στο δωμάτιό σας αυτή τη στιγμή.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Απλή περιγραφή",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -94,9 +108,16 @@
     "prompt": "Ποιο είναι το αγαπημένο σας μέρος για διακοπές στην Ελλάδα και γιατί;",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Καθημερινή ερώτηση",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -109,9 +130,16 @@
     "prompt": "Πώς προτιμάτε να περνάτε ένα χαλαρό Σαββατοκύριακο με φίλους;",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Καθημερινή ερώτηση",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -124,9 +152,15 @@
     "prompt": "Τι ρόλο παίζει η μουσική καθημερινά στη διάθεση και τη συγκέντρωσή σας;",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Άποψη και τεκμηρίωση",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -139,9 +173,15 @@
     "prompt": "Προτιμάτε τη ζωή σε μια μεγάλη πόλη ή σε ένα παραθαλάσσιο χωριό; Εξηγήστε.",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Άποψη και τεκμηρίωση",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -154,9 +194,14 @@
     "prompt": "Σε ποιο βαθμό η πολυγλωσσία διευρύνει την κριτική σκέψη και τη διαπολιτισμική ενσυναίσθηση;",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Δομημένη επιχειρηματολογία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -169,9 +214,14 @@
     "prompt": "Αναλύστε την επίδραση της ψηφιακής τεχνολογίας στη διατήρηση των γλωσσικών παραδόσεων.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Δομημένη επιχειρηματολογία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -185,9 +235,16 @@
     "topic": "γνωριμία",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Παρουσίαση εαυτού",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -201,9 +258,16 @@
     "topic": "σπίτι",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Απλή περιγραφή",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -217,9 +281,16 @@
     "topic": "οικογένεια",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Μιλώντας για ανθρώπους",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -233,9 +304,16 @@
     "topic": "φαγητό",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Καθημερινά θέματα",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -249,9 +327,16 @@
     "topic": "ωράριο",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Ώρες και συνήθειες",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -265,9 +350,16 @@
     "topic": "στο καφέ",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Γλωσσικές πράξεις: αγορές",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -281,9 +373,16 @@
     "topic": "καιρός και ρούχα",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Περιγραφή καθημερινότητας",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -297,9 +396,16 @@
     "topic": "αριθμοί",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Αριθμοί και ποσά",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -313,9 +419,16 @@
     "topic": "γειτονιά",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Περιγραφή τόπου",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -329,9 +442,16 @@
     "topic": "το προηγούμενο Σαββατοκύριακο",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Αφήγηση στο παρελθόν",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -345,9 +465,16 @@
     "topic": "μια φωτογραφία",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Περιγραφή εικόνας",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -361,9 +488,16 @@
     "topic": "επιστροφή σε κατάστημα",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Γλωσσικές πράξεις: παράπονο",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -377,9 +511,16 @@
     "topic": "μαγείρεμα ή έξοδος",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Έκφραση προτιμήσεων",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -393,9 +534,16 @@
     "topic": "καλοκαιρινά σχέδια",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Μιλώντας για σχέδια",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -409,9 +557,16 @@
     "topic": "μετακινήσεις",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Καθημερινές συνήθειες",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -425,9 +580,16 @@
     "topic": "μια βραδιά",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Α2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Αφήγηση και αξιολόγηση",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -441,9 +603,15 @@
     "topic": "μια δεξιότητα",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Μονόλογος",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -457,9 +625,15 @@
     "topic": "εξετάσεις",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Τεκμηριωμένη άποψη",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -473,9 +647,15 @@
     "topic": "ομαδική εργασία",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Επιχειρηματολογία",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -489,9 +669,15 @@
     "topic": "κυκλοφορία",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Πρόβλημα και λύση",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -505,9 +691,15 @@
     "topic": "μια μετάνοια",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Αφήγηση με στοχασμό",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -521,9 +713,15 @@
     "topic": "σχολείο ή εξωτερικό",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Σύγκριση",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -537,9 +735,15 @@
     "topic": "τηλεργασία",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Ανάλυση τάσης",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -553,9 +757,15 @@
     "topic": "τοπική κληρονομιά",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Β2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Επιχειρηματολογία",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -569,9 +779,14 @@
     "topic": "γλώσσες και παγκοσμιοποίηση",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Δομημένη επιχειρηματολογία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -585,9 +800,14 @@
     "topic": "γλώσσα και διαφήμιση",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Αφηρημένη συζήτηση",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -601,9 +821,14 @@
     "topic": "μουσεία και εκθέματα",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Πειστική ομιλία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -617,9 +842,14 @@
     "topic": "μηχανική μετάφραση",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Κριτική αξιολόγηση",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -633,9 +863,14 @@
     "topic": "διαδικτυακές διαλέξεις",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Ακαδημαϊκή επιχειρηματολογία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -649,9 +884,14 @@
     "topic": "γλωσσική πολιτική",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Ανάλυση πολιτικής",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -665,9 +905,14 @@
     "topic": "μαζικός τουρισμός",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ1",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Ισορροπημένη επιχειρηματολογία",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -681,14 +926,315 @@
     "topic": "τεχνητή νοημοσύνη",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Ελληνομάθεια Γ2",
     "part": "Ενότητα 4 · Προφορική εξέταση",
     "task": "Εικαστική συζήτηση",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Πρέπει να σημαίνονται τα κείμενα που φτιάχνει μηχανή;",
       "Τι είναι αυθεντική φωνή;"
+    ]
+  },
+  {
+    "id": "el:speaking:g1",
+    "prompt": "Κοιτάξτε γύρω σας. Ονομάστε πέντε αντικείμενα που βλέπετε και πείτε τι χρώμα έχουν.",
+    "topic": "Κοιτάζω και ονομάζω",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Κοιτάζω και ονομάζω",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ποιο είναι το μεγαλύτερο;",
+      "Ποιο χρησιμοποιείτε κάθε μέρα;"
+    ]
+  },
+  {
+    "id": "el:speaking:g2",
+    "prompt": "Περιγράψτε το αγαπημένο σας σημείο στο σπίτι. Τι έχει και γιατί σας αρέσει;",
+    "topic": "Περιγράφω το αγαπημένο μου σημείο",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Περιγράφω το αγαπημένο μου σημείο",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Πηγαίνετε εκεί για να χαλαρώσετε ή να δουλέψετε;",
+      "Θα αλλάζατε κάτι;"
+    ]
+  },
+  {
+    "id": "el:speaking:g3",
+    "prompt": "Ονομάστε όσο πιο πολλά αντικείμενα μπορείτε που βρίσκονται σε μια κουζίνα. Προσπαθήστε να πείτε δέκα.",
+    "topic": "Ονομάζω όσο πιο πολλά μπορώ",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Ονομάζω όσο πιο πολλά μπορώ",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ποια χρησιμοποιείτε περισσότερο;",
+      "Ποιο είναι επικίνδυνο για ένα παιδί;"
+    ]
+  },
+  {
+    "id": "el:speaking:g4",
+    "prompt": "Διαλέξτε μια φωτογραφία στο κινητό σας και πείτε την ιστορία της: πού τραβήχτηκε, ποιος είναι μέσα και τι έγινε.",
+    "topic": "Διηγούμαι μια φωτογραφία",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Διηγούμαι μια φωτογραφία",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Γιατί κρατήσατε αυτή τη φωτογραφία;",
+      "Τι έγινε αμέσως μετά;"
+    ]
+  },
+  {
+    "id": "el:speaking:g5",
+    "prompt": "Σχεδιάστε μια μικρή γιορτή με έναν φίλο. Αποφασίστε τη μέρα, το φαγητό και ποιους θα καλέσετε.",
+    "topic": "Σχεδιάζω μαζί",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Σχεδιάζω μαζί",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Τι μπορεί να πάει στραβά;",
+      "Ποιος θα κάνει τι;"
+    ]
+  },
+  {
+    "id": "el:speaking:g6",
+    "prompt": "Χάσατε την τσάντα σας στο λεωφορείο. Εξηγήστε τι έγινε και πείτε τι θα κάνετε τώρα.",
+    "topic": "Λύνω ένα μικρό πρόβλημα",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Λύνω ένα μικρό πρόβλημα",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Σε ποιον θα ζητούσατε βοήθεια;",
+      "Τι θα κάνατε πρώτα;"
+    ]
+  },
+  {
+    "id": "el:speaking:g7",
+    "prompt": "Είναι καλύτερο να μαθαίνει κανείς μόνος ή με άλλους; Δώστε λόγους από την εμπειρία σας.",
+    "topic": "Συζητώ ένα καθημερινό θέμα",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Συζητώ ένα καθημερινό θέμα",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Πότε δουλεύετε καλύτερα μόνος;",
+      "Τι μάθατε από κάποιον άλλο;"
+    ]
+  },
+  {
+    "id": "el:speaking:g8",
+    "prompt": "Σκεφτείτε ένα μαγαζί που ξέρετε καλά. Πώς τακτοποιεί τα προϊόντα του και πώς αλλάζει αυτό τις αγορές σας;",
+    "topic": "Αναλύω ένα μαγαζί",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Αναλύω ένα μαγαζί",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ποια κόλπα προσέχετε περισσότερο;",
+      "Λειτουργούν πάνω σας;"
+    ]
+  },
+  {
+    "id": "el:speaking:g9",
+    "prompt": "Προτείνετε πέντε τρόπους για να γίνει ο δρόμος ή η γειτονιά σας πιο φιλική για όσους μένουν εκεί.",
+    "topic": "Ιδέες για τη γειτονιά μου",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ιδέες για τη γειτονιά μου",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ποια ιδέα θα κόστιζε λιγότερο;",
+      "Ποιος θα έπρεπε να συμφωνήσει;"
+    ]
+  },
+  {
+    "id": "el:speaking:g10",
+    "prompt": "Πάρτε έναν πρόσφατο τίτλο ειδήσεων. Αναλύστε τις λέξεις του και τι σας κάνουν να πιστεύετε.",
+    "topic": "Αναλύω έναν τίτλο",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Αναλύω έναν τίτλο",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Μια άλλη λέξη θα άλλαζε το νόημα;",
+      "Ποιος ωφελείται από αυτή τη διατύπωση;"
+    ]
+  },
+  {
+    "id": "el:speaking:g11",
+    "prompt": "Πρέπει ο δημόσιος χώρος να μένει χωρίς διαφήμιση; Υποστηρίξτε τη θέση σας και απαντήστε στην ισχυρότερη αντίρρηση.",
+    "topic": "Συζητώ τον δημόσιο χώρο",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Συζητώ τον δημόσιο χώρο",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Ποιος θα πλήρωνε διαφορετικά;",
+      "Πού θα βάζατε το όριο;"
+    ]
+  },
+  {
+    "id": "el:speaking:g12",
+    "prompt": "Παρουσιάστε ένα σχέδιο που θα βελτίωνε τη γειτονιά σας. Πείτε τι είναι, σε ποιον βοηθά και πόσο κοστίζει.",
+    "topic": "Παρουσιάζω μια πρόταση",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Παρουσιάζω μια πρόταση",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Πώς θα πείθατε έναν δύσπιστο γείτονα;",
+      "Ποιο είναι το πρώτο βήμα;"
+    ]
+  },
+  {
+    "id": "el:speaking:g13",
+    "prompt": "Κάποιοι λένε ότι οι μαθητές έχουν πολύ λίγο ελεύθερο χρόνο. Συμφωνείτε; Δώστε λόγους και ένα παράδειγμα από τη δική σας εβδομάδα.",
+    "topic": "Συζήτηση για σχολείο και ελεύθερο χρόνο",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Συζήτηση για σχολείο και ελεύθερο χρόνο",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ποια δραστηριότητα θα κρατούσατε αν έπρεπε να αφήσετε μία;",
+      "Τι θα έκανε την εβδομάδα σας πιο εύκολη;"
+    ]
+  },
+  {
+    "id": "el:speaking:g14",
+    "prompt": "Το σχολείο επιβραβεύει τους βαθμούς περισσότερο από την περιέργεια. Αναλύστε τι μαθαίνει αυτό στους μαθητές και τι τους κοστίζει.",
+    "topic": "Ανάλυση του τι επιβραβεύει το σχολείο",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Ανάλυση του τι επιβραβεύει το σχολείο",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Πώς θα μετρούσατε μια καλή εκπαίδευση;",
+      "Ποιο μάθημα είναι δυσκολότερο να βαθμολογηθεί δίκαια;"
     ]
   }
 ]

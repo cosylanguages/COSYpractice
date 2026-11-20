@@ -65,9 +65,16 @@
     "topic": "წარდგენა",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A1",
     "part": "ზეპირი ნაწილი · მონოლოგი",
     "task": "თვითწარდგენა",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "სახლი",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A1",
     "part": "ზეპირი ნაწილი · აღწერა",
     "task": "მარტივი აღწერა",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "ოჯახი",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A1",
     "part": "ზეპირი ნაწილი · მონოლოგი",
     "task": "ადამიანებზე საუბარი",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "საკვები",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A1",
     "part": "ზეპირი ნაწილი · დიალოგი",
     "task": "ყოველდღიური თემები",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "უბანი",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A2",
     "part": "ზეპირი ნაწილი · აღწერა",
     "task": "ადგილის აღწერა",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "გასული შაბათ-კვირა",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A2",
     "part": "ზეპირი ნაწილი · მონოლოგი",
     "task": "წარსულის მოყოლა",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "ფოტოსურათი",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A2",
     "part": "ზეპირი ნაწილი · აღწერა",
     "task": "სურათის აღწერა",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "დაბრუნება მაღაზიაში",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · A2",
     "part": "ზეპირი ნაწილი · დიალოგი",
     "task": "მეტყველების აქტები: საჩივარი",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "უნარი",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · B1",
     "part": "ზეპირი ნაწილი · მონოლოგი",
     "task": "მონოლოგი",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "გამოცდები",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · B2",
     "part": "ზეპირი ნაწილი · არგუმენტაცია",
     "task": "დასაბუთებული აზრი",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "გუნდური მუშაობა",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · B2",
     "part": "ზეპირი ნაწილი · არგუმენტაცია",
     "task": "არგუმენტირება",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "მოძრაობა",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · B1",
     "part": "ზეპირი ნაწილი · დიალოგი",
     "task": "პრობლემა და გადაწყვეტა",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "ენები და გლობალიზაცია",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · C1",
     "part": "ზეპირი ნაწილი · არგუმენტაცია",
     "task": "სტრუქტურირებული არგუმენტაცია",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "ენა და რეკლამა",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · C2",
     "part": "ზეპირი ნაწილი · დისკუსია",
     "task": "აბსტრაქტული დისკუსია",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "მუზეუმები და ექსპონატები",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · C1",
     "part": "ზეპირი ნაწილი · მონოლოგი",
     "task": "დამაჯერებელი გამოსვლა",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "ხელოვნური ინტელექტი",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "ქართული ენის ცოდნის სერტიფიცირების გამოცდა · C2",
     "part": "ზეპირი ნაწილი · დისკუსია",
     "task": "სპეკულაციური დისკუსია",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "უნდა აღინიშნოს თუ არა მანქანის შექმნილი ტექსტები?",
       "რა არის ნამდვილი ხმა?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g1",
+    "prompt": "მიმოიხედეთ ირგვლივ. დაასახელეთ ხუთი საგანი, რომელსაც ხედავთ, და თქვით, რა ფერისაა ისინი.",
+    "topic": "ყურება და დასახელება",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "ყურება და დასახელება",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "რომელია ყველაზე დიდი?",
+      "რომელს იყენებთ ყოველდღე?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g2",
+    "prompt": "აღწერეთ თქვენი საყვარელი კუთხე სახლში. რა არის იქ და რატომ მოგწონთ?",
+    "topic": "საყვარელი კუთხის აღწერა",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "საყვარელი კუთხის აღწერა",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "იქ მიდიხართ დასასვენებლად თუ სამუშაოდ?",
+      "რამეს შეიცვლიდით?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g3",
+    "prompt": "აირჩიეთ ფოტო თქვენს ტელეფონში და უამბეთ მისი ისტორია: სად გადაიღეს, ვინ არის მასზე და რა მოხდა.",
+    "topic": "ფოტოს ისტორიის მოყოლა",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "ფოტოს ისტორიის მოყოლა",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "რატომ შეინახეთ ეს ფოტო?",
+      "რა მოხდა მაშინვე შემდეგ?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g4",
+    "prompt": "ავტობუსში ჩანთა დაგეკარგათ. ახსენით, რა მოხდა, და თქვით, რას გააკეთებთ ახლა.",
+    "topic": "პატარა პრობლემის გადაჭრა",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "პატარა პრობლემის გადაჭრა",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "ვის სთხოვდით დახმარებას?",
+      "რას გააკეთებდით პირველ რიგში?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g5",
+    "prompt": "რომელი ჯობია: მარტო სწავლა თუ სხვებთან ერთად? მოიყვანეთ მიზეზები თქვენი გამოცდილებიდან.",
+    "topic": "ყოველდღიური საკითხის განხილვა",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "ყოველდღიური საკითხის განხილვა",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "როდის მუშაობს მარტო მუშაობა უკეთ?",
+      "რა ისწავლეთ სხვა ადამიანისგან?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g6",
+    "prompt": "შემოგვთავაზეთ ხუთი გზა, რომ თქვენი ქუჩა ან უბანი უფრო მოსახერხებელი გახდეს იქ მცხოვრებთათვის.",
+    "topic": "იდეები ჩემი ქუჩისთვის",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "იდეები ჩემი ქუჩისთვის",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "რომელი იდეა ყველაზე იაფი იქნება?",
+      "ვის უნდა დაეთანხმოს?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g7",
+    "prompt": "აიღეთ ცოტა ხნის წინ წაკითხული სიახლის სათაური. გააანალიზეთ მისი სიტყვები და რისი დაჯერებას გაიძულებთ.",
+    "topic": "სათაურის ანალიზი",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "სათაურის ანალიზი",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "სხვა სიტყვა შეცვლიდა მნიშვნელობას?",
+      "ვის აწყობს ეს ფორმულირება?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g8",
+    "prompt": "წარმოადგინეთ პროექტი, რომელიც თქვენს უბანს გააუმჯობესებდა. თქვით, რა არის ის, ვის ეხმარება და რა ღირს.",
+    "topic": "წინადადების წარდგენა",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "წინადადების წარდგენა",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "როგორ დაარწმუნებდით სკეპტიკურ მეზობელს?",
+      "რა არის პირველი ნაბიჯი?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g9",
+    "prompt": "ზოგი ამბობს, რომ მოსწავლეებს ძალიან ცოტა თავისუფალი დრო აქვთ. ეთანხმებით? მოიყვანეთ მიზეზები და მაგალითი თქვენი კვირიდან.",
+    "topic": "სკოლისა და თავისუფალი დროის განხილვა",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "სკოლისა და თავისუფალი დროის განხილვა",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "რომელ საქმიანობას შეინარჩუნებდით, ერთზე უნდა უარი გეთქვათ?",
+      "რა გახდიდა თქვენს კვირას უფრო მარტივს?"
+    ]
+  },
+  {
+    "id": "ka:speaking:g10",
+    "prompt": "სკოლა ნიშნებს უფრო აფასებს, ვიდრე ცნობისმოყვარეობას. გააანალიზეთ, რას ასწავლის ეს მოსწავლეებს და რა უჯდებათ მათ.",
+    "topic": "სკოლის ღირებულებების ანალიზი",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "სკოლის ღირებულებების ანალიზი",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "როგორ გაზომავდით კარგ განათლებას?",
+      "რომელი საგნის სამართლიანად შეფასებაა ყველაზე ძნელი?"
     ]
   }
 ]

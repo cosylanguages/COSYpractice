@@ -65,9 +65,16 @@
     "topic": "Vorstellung",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A1",
     "part": "Sprechen Teil 1 · Sich vorstellen",
     "task": "Sich vorstellen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "Zuhause",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A1",
     "part": "Sprechen Teil 2 · Alltagsfragen",
     "task": "Einfache Beschreibung",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "Familie",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "ÖSD Zertifikat A1",
     "part": "Mündliche Prüfung · Kontaktgespräch",
     "task": "Über Personen sprechen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "Essen",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A1",
     "part": "Sprechen Teil 2 · Alltagsfragen",
     "task": "Alltagsthemen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "Tagesablauf",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch A1",
     "part": "Mündliche Prüfung · Teil 1 · Sich vorstellen",
     "task": "Uhrzeiten und Gewohnheiten",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "im Café",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A1",
     "part": "Sprechen Teil 3 · Bitten und Reagieren",
     "task": "Sprachhandlungen: kaufen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "Wetter und Kleidung",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch A1",
     "part": "Mündliche Prüfung · Teil 2 · Alltagsgespräch",
     "task": "Alltagsbeschreibung",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "Zahlen und Preise",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A1",
     "part": "Sprechen Teil 2 · Alltagsfragen",
     "task": "Zahlen und Mengen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -193,9 +249,16 @@
     "topic": "Wohnviertel",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A2",
     "part": "Sprechen Teil 2 · Über ein Thema sprechen",
     "task": "Einen Ort beschreiben",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -209,9 +272,16 @@
     "topic": "letztes Wochenende",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch A2",
     "part": "Mündliche Prüfung · Teil 1 · Kontaktaufnahme",
     "task": "Vergangenes erzählen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -225,9 +295,16 @@
     "topic": "ein Foto",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "ÖSD Zertifikat A2",
     "part": "Mündliche Prüfung · Bildbeschreibung",
     "task": "Ein Bild beschreiben",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -241,9 +318,16 @@
     "topic": "Umtausch im Geschäft",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A2",
     "part": "Sprechen Teil 3 · Gemeinsam etwas planen",
     "task": "Sprachhandlungen: reklamieren",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -257,9 +341,16 @@
     "topic": "kochen oder ausgehen",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch A2",
     "part": "Mündliche Prüfung · Teil 3 · Gemeinsam planen",
     "task": "Vorlieben ausdrücken",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -273,9 +364,16 @@
     "topic": "Sommerpläne",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A2",
     "part": "Sprechen Teil 3 · Gemeinsam etwas planen",
     "task": "Über Pläne sprechen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -289,9 +387,16 @@
     "topic": "Wege",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch A2",
     "part": "Mündliche Prüfung · Teil 2 · Alltagsgespräch",
     "task": "Alltagsroutinen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -305,9 +410,16 @@
     "topic": "ein Abend mit Freunden",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat A2",
     "part": "Sprechen Teil 2 · Über ein Thema sprechen",
     "task": "Erzählen und bewerten",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -321,9 +433,15 @@
     "topic": "eine Fähigkeit",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat B1",
     "part": "Sprechen Teil 2 · Präsentation",
     "task": "Monolog",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -337,9 +455,15 @@
     "topic": "Prüfungen",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat B2",
     "part": "Sprechen Teil 1 · Vortrag",
     "task": "Stellung nehmen",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -353,9 +477,15 @@
     "topic": "Teamarbeit",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch B2",
     "part": "Mündliche Prüfung · Teil 2 · Diskussion",
     "task": "Argumentieren",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -369,9 +499,15 @@
     "topic": "Verkehr",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat B1",
     "part": "Sprechen Teil 3 · Feedback und Fragen",
     "task": "Problem und Lösung",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -385,9 +521,15 @@
     "topic": "eine Entscheidung",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat B2",
     "part": "Sprechen Teil 1 · Vortrag",
     "task": "Erzählen mit Reflexion",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -401,9 +543,15 @@
     "topic": "Schule oder Ausland",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch B1",
     "part": "Mündliche Prüfung · Teil 3 · Gemeinsam etwas planen",
     "task": "Vergleichen",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -417,9 +565,15 @@
     "topic": "Homeoffice",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat B2",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Einen Trend analysieren",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -433,9 +587,15 @@
     "topic": "lokales Erbe",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "telc Deutsch B2",
     "part": "Mündliche Prüfung · Teil 2 · Diskussion",
     "task": "Debatte",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -449,9 +609,14 @@
     "topic": "Sprachen und Globalisierung",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C1",
     "part": "Sprechen Teil 1 · Vortrag",
     "task": "Strukturierte Erörterung",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -465,9 +630,14 @@
     "topic": "Sprache und Werbung",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C2",
     "part": "Sprechen Teil 1 · Vortrag",
     "task": "Abstrakte Diskussion",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -481,9 +651,14 @@
     "topic": "Museen und Kunstwerke",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C1",
     "part": "Sprechen Teil 1 · Vortrag",
     "task": "Überzeugungsrede",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -497,9 +672,14 @@
     "topic": "maschinelle Übersetzung",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C2",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Kritische Bewertung",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -513,9 +693,14 @@
     "topic": "Online-Vorlesungen",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C1",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Akademische Argumentation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -529,9 +714,14 @@
     "topic": "Sprachpolitik",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C2",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Politikanalyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -545,9 +735,14 @@
     "topic": "Massentourismus",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C1",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Abwägende Argumentation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -561,14 +756,315 @@
     "topic": "künstliche Intelligenz",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Goethe-Zertifikat C2",
     "part": "Sprechen Teil 2 · Diskussion",
     "task": "Spekulative Diskussion",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Sollten maschinell erzeugte Texte gekennzeichnet werden?",
       "Was ist eine authentische Stimme?"
+    ]
+  },
+  {
+    "id": "de:speaking:g1",
+    "prompt": "Schauen Sie sich um. Nennen Sie fünf Dinge, die Sie sehen, und sagen Sie, welche Farbe sie haben.",
+    "topic": "Schauen und benennen",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Schauen und benennen",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Welches ist das größte?",
+      "Welches benutzen Sie jeden Tag?"
+    ]
+  },
+  {
+    "id": "de:speaking:g2",
+    "prompt": "Beschreiben Sie Ihren Lieblingsplatz zu Hause. Was gibt es dort, und warum mögen Sie ihn?",
+    "topic": "Lieblingsplatz beschreiben",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Lieblingsplatz beschreiben",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Gehen Sie dorthin zum Ausruhen oder zum Arbeiten?",
+      "Würden Sie etwas ändern?"
+    ]
+  },
+  {
+    "id": "de:speaking:g3",
+    "prompt": "Nennen Sie so viele Dinge wie möglich, die es in einer Küche gibt. Versuchen Sie, zehn zu sagen.",
+    "topic": "So viel wie möglich benennen",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "So viel wie möglich benennen",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Welche benutzen Sie am meisten?",
+      "Welches ist für ein Kind gefährlich?"
+    ]
+  },
+  {
+    "id": "de:speaking:g4",
+    "prompt": "Wählen Sie ein Foto auf Ihrem Handy und erzählen Sie seine Geschichte: wo es aufgenommen wurde, wer darauf ist und was passiert ist.",
+    "topic": "Die Geschichte eines Fotos erzählen",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Die Geschichte eines Fotos erzählen",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Warum haben Sie dieses Foto behalten?",
+      "Was geschah kurz danach?"
+    ]
+  },
+  {
+    "id": "de:speaking:g5",
+    "prompt": "Planen Sie ein kleines Fest mit einem Freund. Entscheiden Sie den Tag, das Essen und wen Sie einladen.",
+    "topic": "Gemeinsam planen",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Gemeinsam planen",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Was könnte schiefgehen?",
+      "Wer macht welche Aufgabe?"
+    ]
+  },
+  {
+    "id": "de:speaking:g6",
+    "prompt": "Sie haben Ihre Tasche im Bus verloren. Erklären Sie, was passiert ist, und sagen Sie, was Sie jetzt tun.",
+    "topic": "Ein kleines Problem lösen",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein kleines Problem lösen",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Wen würden Sie um Hilfe bitten?",
+      "Was würden Sie zuerst tun?"
+    ]
+  },
+  {
+    "id": "de:speaking:g7",
+    "prompt": "Ist es besser, allein oder mit anderen zu lernen? Geben Sie Gründe aus Ihrer Erfahrung.",
+    "topic": "Eine Alltagsfrage diskutieren",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Eine Alltagsfrage diskutieren",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Wann klappt Alleinarbeit besser?",
+      "Was haben Sie von jemand anderem gelernt?"
+    ]
+  },
+  {
+    "id": "de:speaking:g8",
+    "prompt": "Denken Sie an ein Geschäft, das Sie gut kennen. Wie ordnet es seine Waren an, und wie beeinflusst das Ihren Einkauf?",
+    "topic": "Ein Geschäft analysieren",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Geschäft analysieren",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Welche Tricks bemerken Sie am meisten?",
+      "Wirken sie bei Ihnen?"
+    ]
+  },
+  {
+    "id": "de:speaking:g9",
+    "prompt": "Schlagen Sie fünf Wege vor, wie Ihre Straße oder Ihr Viertel für die Anwohner freundlicher wird.",
+    "topic": "Ideen für Ihre Straße",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ideen für Ihre Straße",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Welche Idee kostet am wenigsten?",
+      "Wer müsste zustimmen?"
+    ]
+  },
+  {
+    "id": "de:speaking:g10",
+    "prompt": "Nehmen Sie eine aktuelle Schlagzeile. Analysieren Sie die Wörter und was sie Sie glauben lassen.",
+    "topic": "Eine Schlagzeile analysieren",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Eine Schlagzeile analysieren",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Würde ein anderes Wort die Bedeutung ändern?",
+      "Wem nützt diese Formulierung?"
+    ]
+  },
+  {
+    "id": "de:speaking:g11",
+    "prompt": "Sollte öffentlicher Raum werbefrei bleiben? Vertreten Sie Ihre Position und beantworten Sie den stärksten Einwand.",
+    "topic": "Öffentlichen Raum diskutieren",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Öffentlichen Raum diskutieren",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wer würde sonst zahlen?",
+      "Wo würden Sie die Grenze ziehen?"
+    ]
+  },
+  {
+    "id": "de:speaking:g12",
+    "prompt": "Stellen Sie ein Projekt vor, das Ihr Viertel verbessern würde. Sagen Sie, was es ist, wem es hilft und was es kostet.",
+    "topic": "Einen Vorschlag vorstellen",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Einen Vorschlag vorstellen",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wie würden Sie einen skeptischen Nachbarn überzeugen?",
+      "Was ist der erste Schritt?"
+    ]
+  },
+  {
+    "id": "de:speaking:g13",
+    "prompt": "Manche sagen, Schüler haben zu wenig Freizeit. Stimmen Sie zu? Geben Sie Gründe und ein Beispiel aus Ihrer Woche.",
+    "topic": "Schule und Freizeit diskutieren",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Schule und Freizeit diskutieren",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Welche Aktivität würden Sie behalten, wenn Sie eine aufgeben müssten?",
+      "Was würde Ihre Woche leichter machen?"
+    ]
+  },
+  {
+    "id": "de:speaking:g14",
+    "prompt": "Schule belohnt Noten mehr als Neugier. Analysieren Sie, was das Schüler lehrt und was es sie kostet.",
+    "topic": "Analysieren, was Schule belohnt",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analysieren, was Schule belohnt",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wie würden Sie gute Bildung messen?",
+      "Welches Fach ist am schwersten gerecht zu benoten?"
     ]
   }
 ]

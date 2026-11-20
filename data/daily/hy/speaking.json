@@ -65,9 +65,16 @@
     "topic": "ներկայացում",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա1",
     "part": "Բանավոր մաս · Մենախոսություն",
     "task": "Ինքնաներկայացում",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "տուն",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա1",
     "part": "Բանավոր մաս · Նկարագրություն",
     "task": "Պարզ նկարագրություն",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "ընտանիք",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա1",
     "part": "Բանավոր մաս · Մենախոսություն",
     "task": "Մարդկանց մասին",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "ուտելիք",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա1",
     "part": "Բանավոր մաս · Երկխոսություն",
     "task": "Առօրյա թեմաներ",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "թաղամաս",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա2",
     "part": "Բանավոր մաս · Նկարագրություն",
     "task": "Վայրի նկարագրություն",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "անցած հանգստյան օրերը",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա2",
     "part": "Բանավոր մաս · Մենախոսություն",
     "task": "Անցյալի պատմում",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "լուսանկար",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա2",
     "part": "Բանավոր մաս · Նկարագրություն",
     "task": "Պատկերի նկարագրություն",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "խանութում վերադարձ",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Ա2",
     "part": "Բանավոր մաս · Երկխոսություն",
     "task": "Խոսքային գործողություններ՝ բողոք",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "հմտություն",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Բ1",
     "part": "Բանավոր մաս · Մենախոսություն",
     "task": "Մենախոսություն",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "քննություններ",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Բ2",
     "part": "Բանավոր մաս · Փաստարկում",
     "task": "Հիմնավորված կարծիք",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "համագործակցություն",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Բ2",
     "part": "Բանավոր մաս · Փաստարկում",
     "task": "Փաստարկում",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "երթևեկություն",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Բ1",
     "part": "Բանավոր մաս · Երկխոսություն",
     "task": "Խնդիր և լուծում",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "լեզուներ և գլոբալացում",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Գ1",
     "part": "Բանավոր մաս · Փաստարկում",
     "task": "Կառուցվածքային փաստարկում",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "լեզուն և գովազդը",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Գ2",
     "part": "Բանավոր մաս · Քննարկում",
     "task": "Վերացական քննարկում",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "թանգարաններ և ցուցանմուշներ",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Գ1",
     "part": "Բանավոր մաս · Մենախոսություն",
     "task": "Համոզիչ ելույթ",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "արհեստական բանականություն",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Հայոց լեզվի իմացության քննություն · Գ2",
     "part": "Բանավոր մաս · Քննարկում",
     "task": "Սպեկուլյատիվ քննարկում",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Պե՞տք է նշել մեքենայի ստեղծած տեքստերը։",
       "Ի՞նչ է ինքնատիպ ձայնը։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g1",
+    "prompt": "Նայեք ձեր շուրջը։ Անվանեք հինգ առարկա, որ տեսնում եք, և ասեք, թե ինչ գույն ունեն։",
+    "topic": "Նայել և անվանել",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Նայել և անվանել",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ո՞րն է ամենամեծը։",
+      "Ո՞րն եք օգտագործում ամեն օր։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g2",
+    "prompt": "Նկարագրեք ձեր սիրելի անկյունը տանը։ Ի՞նչ կա այնտեղ, և ինչո՞ւ է ձեզ դուր գալիս։",
+    "topic": "Նկարագրել սիրելի անկյունը",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Նկարագրել սիրելի անկյունը",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Գնո՞ւմ եք այնտեղ հանգստանալու, թե աշխատելու։",
+      "Ինչ-որ բան կփոխե՞ք։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g3",
+    "prompt": "Ընտրեք լուսանկար ձեր հեռախոսից և պատմեք դրա պատմությունը՝ որտեղ է արվել, ով է դրա վրա և ինչ է պատահել։",
+    "topic": "Պատմել լուսանկարի պատմությունը",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Պատմել լուսանկարի պատմությունը",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ինչո՞ւ եք պահել այս լուսանկարը։",
+      "Ի՞նչ պատահեց անմիջապես հետո։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g4",
+    "prompt": "Դուք կորցրել եք ձեր պայուսակը ավտոբուսում։ Բացատրեք, թե ինչ է պատահել, և ասեք, թե ինչ եք անելու հիմա։",
+    "topic": "Լուծել փոքր խնդիր",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Լուծել փոքր խնդիր",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ո՞ւմից կխնդրեք օգնություն։",
+      "Ի՞նչ կանեք առաջին հերթին։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g5",
+    "prompt": "Ի՞նչն է ավելի լավ՝ սովորել մենա՞կ, թե՞ ուրիշների հետ։ Բերեք պատճառներ ձեր փորձից։",
+    "topic": "Քննարկել առօրյա հարց",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Քննարկել առօրյա հարց",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ե՞րբ է մենակ աշխատելն ավելի լավ։",
+      "Ի՞նչ եք սովորել մեկ ուրիշից։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g6",
+    "prompt": "Առաջարկեք հինգ եղանակ, որպեսզի ձեր փողոցը կամ թաղամասը ավելի հարմարավետ դառնա այնտեղ ապրողների համար։",
+    "topic": "Գաղափարներ իմ փողոցի համար",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Գաղափարներ իմ փողոցի համար",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ո՞ր գաղափարը կարժենա ամենաքիչը։",
+      "Ո՞ւմ հետ պետք է համաձայնվել։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g7",
+    "prompt": "Վերցրեք վերջերս տեսած լրատվական վերնագիր։ Վերլուծեք դրա բառերը և այն, ինչին նրանք ստիպում են հավատալ։",
+    "topic": "Վերլուծել վերնագիր",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Վերլուծել վերնագիր",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Այլ բառը կփոխե՞ր իմաստը։",
+      "Ո՞ւմ է ձեռնտու այդ ձևակերպումը։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g8",
+    "prompt": "Ներկայացրեք մի նախագիծ, որը կբարելավեր ձեր թաղամասը։ Ասեք՝ ինչ է այն, ում է օգնում և որքան արժե։",
+    "topic": "Ներկայացնել առաջարկ",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Ներկայացնել առաջարկ",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Ինչպե՞ս կհամոզեիք կասկածամիտ հարևանին։",
+      "Ո՞րն է առաջին քայլը։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g9",
+    "prompt": "Ոմանք ասում են, որ աշակերտները շատ քիչ ազատ ժամանակ ունեն։ Համաձա՞յն եք։ Բերեք պատճառներ և օրինակ ձեր շաբաթից։",
+    "topic": "Քննարկել դպրոցն ու ազատ ժամանակը",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Քննարկել դպրոցն ու ազատ ժամանակը",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ո՞ր զբաղմունքը կպահեիք, եթե ստիպված լինեիք մեկից հրաժարվել։",
+      "Ի՞նչը ձեր շաբաթը կդարձնի ավելի հեշտ։"
+    ]
+  },
+  {
+    "id": "hy:speaking:g10",
+    "prompt": "Դպրոցը գնահատականներն ավելի է խրախուսում, քան հետաքրքրասիրությունը։ Վերլուծեք՝ ինչ է դա սովորեցնում աշակերտներին և ինչ արժե նրանց։",
+    "topic": "Վերլուծել, թե դպրոցն ինչն է գնահատում",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Վերլուծել, թե դպրոցն ինչն է գնահատում",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Ինչպե՞ս կչափեիք լավ կրթությունը։",
+      "Ո՞ր առարկան է ամենադժվարը արդար գնահատել։"
     ]
   }
 ]

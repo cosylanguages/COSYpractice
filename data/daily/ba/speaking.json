@@ -65,9 +65,16 @@
     "topic": "танышыу",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A1",
     "part": "Ауыҙ-тел өлөшө · Монолог",
     "task": "Үҙеңде таныштырыу",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "өй",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A1",
     "part": "Ауыҙ-тел өлөшө · Һүрәтләү",
     "task": "Ябай һүрәтләү",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "ғаилә",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A1",
     "part": "Ауыҙ-тел өлөшө · Монолог",
     "task": "Кешеләр тураһында",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "аҙыҡ",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A1",
     "part": "Ауыҙ-тел өлөшө · Диалог",
     "task": "Көндәлек темалар",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "квартал",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A2",
     "part": "Ауыҙ-тел өлөшө · Һүрәтләү",
     "task": "Урынды һүрәтләү",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "үткән ял көндәре",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A2",
     "part": "Ауыҙ-тел өлөшө · Монолог",
     "task": "Үткәнде һөйләү",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "фотоһүрәт",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A2",
     "part": "Ауыҙ-тел өлөшө · Һүрәтләү",
     "task": "Рәсемде һүрәтләү",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "кибеттә кире ҡайтарыу",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · A2",
     "part": "Ауыҙ-тел өлөшө · Диалог",
     "task": "Һөйләм ғәмәлдәре: зарланыу",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "күнекмә",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · B1",
     "part": "Ауыҙ-тел өлөшө · Монолог",
     "task": "Монолог",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "имтихандар",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · B2",
     "part": "Ауыҙ-тел өлөшө · Бәхәс",
     "task": "Нигеҙләнгән фекер",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "командала эшләү",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · B2",
     "part": "Ауыҙ-тел өлөшө · Бәхәс",
     "task": "Аргументлау",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "юл хәрәкәте",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · B1",
     "part": "Ауыҙ-тел өлөшө · Диалог",
     "task": "Проблема һәм сиселеш",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "телдәр һәм глобалләшеү",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · C1",
     "part": "Ауыҙ-тел өлөшө · Бәхәс",
     "task": "Структуралы аргумент",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "тел һәм реклама",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · C2",
     "part": "Ауыҙ-тел өлөшө · Фекер алышыу",
     "task": "Абстракт фекерләшеү",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "музейҙар һәм экспонаттар",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · C1",
     "part": "Ауыҙ-тел өлөшө · Монолог",
     "task": "Ышандырғыс сығыш",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "яһалма интеллект",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Башҡорт теле буйынса дәүләт имтиханы · C2",
     "part": "Ауыҙ-тел өлөшө · Фекер алышыу",
     "task": "Фәрәзле фекерләшеү",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Машина эшләгән тексттарҙы билдәләргә кәрәкме?",
       "Ысын тауыш нимә ул?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g1",
+    "prompt": "Тирә-яғығыҙға ҡарағыҙ. Күргән биш әйберҙе атағыҙ һәм уларҙың төҫөн әйтегеҙ.",
+    "topic": "Ҡарау һәм атау",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Ҡарау һәм атау",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Шуларҙың ҡайһыһы иң ҙуры?",
+      "Ҡайһыһын көн һайын ҡулланаһығыҙ?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g2",
+    "prompt": "Өйөгөҙҙәге яратҡан мөйөшөгөҙҙө һүрәтләгеҙ. Унда нимә бар һәм ни өсөн һеҙгә оҡшай?",
+    "topic": "Яратҡан мөйөштө һүрәтләү",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Яратҡан мөйөштө һүрәтләү",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Унда ял итергәме әллә эшләргәме бараһығыҙ?",
+      "Нимәнелер үҙгәртер инегеҙме?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g3",
+    "prompt": "Телефонығыҙҙағы бер фотоны һайлағыҙ һәм уның тарихын һөйләгеҙ: ҡайҙа төшөрөлгән, кем бар унда һәм нимә булған.",
+    "topic": "Фото тарихын һөйләү",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Фото тарихын һөйләү",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ни өсөн был фотоны һаҡлағыҙ?",
+      "Унан һуң шунда уҡ нимә булды?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g4",
+    "prompt": "Автобуста сумкағыҙҙы юғалттығыҙ. Нимә булғанын аңлатығыҙ һәм хәҙер нимә эшләйәсәгегеҙҙе әйтегеҙ.",
+    "topic": "Бәләкәй мәсьәләне сисеү",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Бәләкәй мәсьәләне сисеү",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Кемдән ярҙам һорар инегеҙ?",
+      "Башта нимә эшләр инегеҙ?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g5",
+    "prompt": "Яңғыҙ өйрәнеү яҡшыраҡмы әллә башҡалар менәнме? Тәжрибәгеҙҙән сәбәптәр килтерегеҙ.",
+    "topic": "Көндәлек һорауҙы фекер алышыу",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Көндәлек һорауҙы фекер алышыу",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ҡасан яңғыҙ эшләү яҡшыраҡ?",
+      "Башҡа кешенән нимә өйрәндегеҙ?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g6",
+    "prompt": "Урамығыҙ йәки кварталығыҙ унда йәшәүселәр өсөн уңайлыраҡ булһын өсөн биш ысул тәҡдим итегеҙ.",
+    "topic": "Урам өсөн идеялар",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Урам өсөн идеялар",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Ҡайһы идея иң арзанға төшөр?",
+      "Кем менән килешергә кәрәк?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g7",
+    "prompt": "Яҡындағы яңылыҡтарҙан бер башламды алығыҙ. Ундағы һүҙҙәрҙе һәм улар һеҙҙе нимәгә ышанырға мәжбүр итеүен анализлағыҙ.",
+    "topic": "Исемдәмен анализлау",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Исемдәмен анализлау",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Башҡа һүҙ мәғәнәне үҙгәртер инеме?",
+      "Был тәғбир кемгә файҙалы?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g8",
+    "prompt": "Кварталығыҙҙы яҡшырта торған проектты тәҡдим итегеҙ. Ул нимә, кемгә ярҙам итә һәм күпме тора — әйтегеҙ.",
+    "topic": "Тәҡдимде тәҡдим итеү",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Тәҡдимде тәҡдим итеү",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Шикләнгән күршегеҙҙе нисек ышанырға мәжбүр итер инегеҙ?",
+      "Беренсе аҙым ниндәй?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g9",
+    "prompt": "Ҡайһы берәүҙәр әйтә: уҡыусыларҙың буш ваҡыты бик аҙ. Һеҙ ризамы? Тәжрибәгеҙҙән сәбәптәр һәм бер миҫал килтерегеҙ.",
+    "topic": "Мәктәп һәм буш ваҡыт тураһында фекер алышыу",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Мәктәп һәм буш ваҡыт тураһында фекер алышыу",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Берәүенән баш тартырға тура килһә, ҡайһы шөғөлдө ҡалдырыр инегеҙ?",
+      "Аҙнағыҙҙы нимә еңеләйтер ине?"
+    ]
+  },
+  {
+    "id": "ba:speaking:g10",
+    "prompt": "Мәктәп билдәләрҙе ҡыҙыҡһыныусанлыҡтан артыҡ баһалай. Был уҡыусыларға нимә өйрәтә һәм уларға нимәгә төшә — анализлағыҙ.",
+    "topic": "Мәктәп нимәне баһалай икәнен анализлау",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Мәктәп нимәне баһалай икәнен анализлау",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Яҡшы белемде нисек үлсәр инегеҙ?",
+      "Ҡайһы фәнде ғәҙел баһалау иң ҡыйын?"
     ]
   }
 ]

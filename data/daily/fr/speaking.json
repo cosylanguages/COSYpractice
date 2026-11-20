@@ -64,9 +64,16 @@
     "prompt": "Présentez-vous : donnez votre prénom, votre ville d'origine et vos passe-temps favoris.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 1 · Entretien dirigé",
     "task": "Se présenter",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -79,9 +86,16 @@
     "prompt": "Décrivez ce qu'il y a sur votre table ou dans votre sac en trois phrases simples.",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 1 · Entretien dirigé",
     "task": "Description simple",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -94,9 +108,16 @@
     "prompt": "Quel est votre endroit préféré pour passer les vacances et pourquoi ?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Exprimer ses goûts",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -109,9 +130,16 @@
     "prompt": "Comment préférez-vous passer un dimanche pluvieux en hiver ?",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Exprimer ses goûts",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -124,9 +152,15 @@
     "prompt": "Quel rôle joue la musique ou l'art dans votre quotidien et votre inspiration ?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B1",
     "part": "Part 3 · Expression d'un point de vue",
     "task": "Avis et justification",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -139,9 +173,15 @@
     "prompt": "Quels sont selon vous les plus grands avantages d'apprendre une langue étrangère à l'âge adulte ?",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 1 · Monologue suivi",
     "task": "Avis et justification",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -154,9 +194,14 @@
     "prompt": "Dans quelle mesure l'essor des nouvelles technologies redéfinit-il les relations humaines contemporaines ?",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 1 · Exposé",
     "task": "Argumentation structurée",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -169,9 +214,14 @@
     "prompt": "Analysez l'impact des expressions idiomatiques sur la transmission de l'identité culturelle.",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 1 · Exposé",
     "task": "Argumentation structurée",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -185,9 +235,16 @@
     "topic": "présentation",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 1 · Entretien dirigé",
     "task": "Entretien dirigé",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -201,9 +258,16 @@
     "topic": "logement",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 2 · Échange d'informations",
     "task": "Description simple",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -217,9 +281,16 @@
     "topic": "famille",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "TCF",
     "part": "Tâche 1 · Entretien dirigé",
     "task": "Parler de ses proches",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -233,9 +304,16 @@
     "topic": "repas",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 2 · Échange d'informations",
     "task": "Thèmes du quotidien",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -249,9 +327,16 @@
     "topic": "horaires",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 1 · Entretien dirigé",
     "task": "Heures et habitudes",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -265,9 +350,16 @@
     "topic": "au café",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 3 · Dialogue simulé",
     "task": "Actes de parole : acheter",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -281,9 +373,16 @@
     "topic": "météo et vêtements",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 2 · Échange d'informations",
     "task": "Description du quotidien",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -297,9 +396,16 @@
     "topic": "les nombres",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A1",
     "part": "Part 2 · Échange d'informations",
     "task": "Nombres et quantités",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -313,9 +419,16 @@
     "topic": "quartier",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Décrire un lieu",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -329,9 +442,16 @@
     "topic": "week-end passé",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Récit au passé",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -345,9 +465,16 @@
     "topic": "photo de vacances",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Décrire une image",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -361,9 +488,16 @@
     "topic": "retour au magasin",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 3 · Exercice en interaction",
     "task": "Actes de parole : réclamation",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -377,9 +511,16 @@
     "topic": "cuisine ou restaurant",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Exprimer ses goûts",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -393,9 +534,16 @@
     "topic": "projets d'été",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "TCF",
     "part": "Tâche 1 · Entretien dirigé",
     "task": "Parler de ses projets",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -409,9 +557,16 @@
     "topic": "trajets",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Habitudes quotidiennes",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -425,9 +580,16 @@
     "topic": "une sortie",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF A2",
     "part": "Part 2 · Monologue suivi",
     "task": "Récit et appréciation",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -441,9 +603,15 @@
     "topic": "une compétence",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B1",
     "part": "Part 3 · Expression d'un point de vue",
     "task": "Monologue suivi",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -457,9 +625,15 @@
     "topic": "les examens",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 1 · Monologue suivi",
     "task": "Prise de position",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -473,9 +647,15 @@
     "topic": "travail d'équipe",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 2 · Exercice en interaction",
     "task": "Argumenter",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -489,9 +669,15 @@
     "topic": "circulation",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B1",
     "part": "Part 2 · Exercice en interaction",
     "task": "Problème et solution",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -505,9 +691,15 @@
     "topic": "un regret",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 1 · Monologue suivi",
     "task": "Récit et réflexion",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -521,9 +713,15 @@
     "topic": "école ou immersion",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B1",
     "part": "Part 3 · Expression d'un point de vue",
     "task": "Comparer",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -537,9 +735,15 @@
     "topic": "télétravail",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 1 · Monologue suivi",
     "task": "Analyser une évolution",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -553,9 +757,15 @@
     "topic": "patrimoine local",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DELF B2",
     "part": "Part 2 · Exercice en interaction",
     "task": "Plaidoyer",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -569,9 +779,14 @@
     "topic": "langues et mondialisation",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 1 · Exposé",
     "task": "Argumentation structurée",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -585,9 +800,14 @@
     "topic": "langue et publicité",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C2",
     "part": "Part 2 · Développement argumenté",
     "task": "Discussion abstraite",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -601,9 +821,14 @@
     "topic": "artefacts et musées",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 1 · Exposé",
     "task": "Discours argumenté",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -617,9 +842,14 @@
     "topic": "traduction automatique",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C2",
     "part": "Part 2 · Développement argumenté",
     "task": "Évaluation critique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -633,9 +863,14 @@
     "topic": "cours en ligne",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 2 · Entretien",
     "task": "Débat académique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -649,9 +884,14 @@
     "topic": "politique linguistique",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C2",
     "part": "Part 2 · Développement argumenté",
     "task": "Analyse de politique publique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -665,9 +905,14 @@
     "topic": "tourisme de masse",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C1",
     "part": "Part 1 · Exposé",
     "task": "Argumentation nuancée",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -681,14 +926,315 @@
     "topic": "intelligence artificielle",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DALF C2",
     "part": "Part 1 · Compte rendu",
     "task": "Discussion spéculative",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Faut-il étiqueter les textes produits par une machine ?",
       "Qu'est-ce qu'une voix authentique ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g1",
+    "prompt": "Regardez autour de vous. Nommez cinq objets que vous voyez et dites de quelle couleur ils sont.",
+    "topic": "Regarder et nommer",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Regarder et nommer",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Lequel est le plus grand ?",
+      "Lequel utilisez-vous chaque jour ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g2",
+    "prompt": "Décrivez votre endroit préféré chez vous. Qu'y a-t-il, et pourquoi l'aimez-vous ?",
+    "topic": "Décrire son endroit préféré",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Décrire son endroit préféré",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Y allez-vous pour vous détendre ou pour travailler ?",
+      "Changeriez-vous quelque chose ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g3",
+    "prompt": "Nommez le plus d'objets possible que l'on trouve dans une cuisine. Essayez d'en dire dix.",
+    "topic": "Nommer le plus possible",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nommer le plus possible",
+    "activity": "brainstorm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Lesquels utilisez-vous le plus ?",
+      "Lequel est dangereux pour un enfant ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g4",
+    "prompt": "Choisissez une photo sur votre téléphone et racontez son histoire : où elle a été prise, qui est dessus et ce qui s'est passé.",
+    "topic": "Raconter une photo",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Raconter une photo",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Pourquoi avez-vous gardé cette photo ?",
+      "Que s'est-il passé juste après ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g5",
+    "prompt": "Planifiez une petite fête avec un ami. Décidez le jour, la nourriture et les personnes à inviter.",
+    "topic": "Planifier ensemble",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Planifier ensemble",
+    "activity": "plan",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'est-ce qui pourrait mal se passer ?",
+      "Qui fera quoi ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g6",
+    "prompt": "Vous avez perdu votre sac dans le bus. Expliquez ce qui s'est passé et ce que vous allez faire.",
+    "topic": "Résoudre un problème",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Résoudre un problème",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "À qui demanderiez-vous de l'aide ?",
+      "Que feriez-vous en premier ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g7",
+    "prompt": "Vaut-il mieux apprendre seul ou avec d'autres ? Donnez des raisons tirées de votre expérience.",
+    "topic": "Discuter d'une question du quotidien",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuter d'une question du quotidien",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quand le travail seul est-il plus efficace ?",
+      "Qu'avez-vous appris grâce à quelqu'un ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g8",
+    "prompt": "Pensez à un magasin que vous connaissez. Comment dispose-t-il ses produits, et comment cela change-t-il vos achats ?",
+    "topic": "Analyser l'agencement d'un magasin",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyser l'agencement d'un magasin",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quelles astuces remarquez-vous le plus ?",
+      "Cela fonctionne-t-il sur vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g9",
+    "prompt": "Proposez cinq façons de rendre votre rue ou votre quartier plus agréable pour ses habitants.",
+    "topic": "Trouver des idées pour sa rue",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Trouver des idées pour sa rue",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quelle idée coûterait le moins cher ?",
+      "Qui devrait être d'accord ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g10",
+    "prompt": "Prenez un titre d'actualité récent. Analysez les mots employés et ce qu'ils vous font croire.",
+    "topic": "Analyser un titre de presse",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyser un titre de presse",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Un autre mot changerait-il le sens ?",
+      "À qui profite ce cadrage ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g11",
+    "prompt": "L'espace public doit-il rester sans publicité ? Défendez votre position et répondez à l'objection la plus forte.",
+    "topic": "Discuter de l'espace public",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuter de l'espace public",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui paierait sinon ?",
+      "Où fixeriez-vous la limite ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g12",
+    "prompt": "Présentez un projet qui améliorerait votre quartier. Dites ce que c'est, à qui cela sert et combien cela coûte.",
+    "topic": "Présenter une proposition",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Présenter une proposition",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Comment convaincre un voisin sceptique ?",
+      "Quelle est la première étape ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g13",
+    "prompt": "Certains disent que les élèves ont trop peu de temps libre. Êtes-vous d'accord ? Donnez des raisons et un exemple de votre semaine.",
+    "topic": "Discuter école et temps libre",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuter école et temps libre",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quelle activité garderiez-vous si vous deviez en abandonner une ?",
+      "Que rendrait votre semaine plus facile ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g14",
+    "prompt": "L'école récompense les notes plus que la curiosité. Analysez ce que cela enseigne aux élèves et ce que cela leur coûte.",
+    "topic": "Analyser ce que l'école valorise",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyser ce que l'école valorise",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Comment mesureriez-vous une bonne éducation ?",
+      "Quelle matière est la plus difficile à noter justement ?"
     ]
   }
 ]

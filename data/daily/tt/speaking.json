@@ -65,9 +65,16 @@
     "topic": "танышу",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A1",
     "part": "Авызча өлеш · Монолог",
     "task": "Үзеңне таныштыру",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "өй",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A1",
     "part": "Авызча өлеш · Тасвирлау",
     "task": "Гади тасвирлау",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "гаилә",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A1",
     "part": "Авызча өлеш · Монолог",
     "task": "Кешеләр турында",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "ашамлык",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A1",
     "part": "Авызча өлеш · Диалог",
     "task": "Көндәлек темалар",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "квартал",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A2",
     "part": "Авызча өлеш · Тасвирлау",
     "task": "Урынны тасвирлау",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "үткән ял көннәре",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A2",
     "part": "Авызча өлеш · Монолог",
     "task": "Үткәнне сөйләү",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "фотосурәт",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A2",
     "part": "Авызча өлеш · Тасвирлау",
     "task": "Рәсемне тасвирлау",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "кибеттә кире кайтару",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · A2",
     "part": "Авызча өлеш · Диалог",
     "task": "Сөйләм гамәлләре: зарлану",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "күнекмә",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · B1",
     "part": "Авызча өлеш · Монолог",
     "task": "Монолог",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "имтиханнар",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · B2",
     "part": "Авызча өлеш · Бәхәс",
     "task": "Нигезләнгән фикер",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "командада эшләү",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · B2",
     "part": "Авызча өлеш · Бәхәс",
     "task": "Аргументлау",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "юл хәрәкәте",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · B1",
     "part": "Авызча өлеш · Диалог",
     "task": "Проблема һәм чишелеш",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "телләр һәм глобальләшү",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · C1",
     "part": "Авызча өлеш · Бәхәс",
     "task": "Структуралы аргумент",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "тел һәм реклама",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · C2",
     "part": "Авызча өлеш · Фикер алышу",
     "task": "Абстракт фикерләшү",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "музейлар һәм экспонатлар",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · C1",
     "part": "Авызча өлеш · Монолог",
     "task": "Ышандыргыч чыгыш",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "ясалма интеллект",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Татар теле буенча дәүләт имтиханы · C2",
     "part": "Авызча өлеш · Фикер алышу",
     "task": "Фәрәзле фикерләшү",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Машина ясаган текстларны билгеләргә кирәкме?",
       "Чын тавыш нәрсә ул?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g1",
+    "prompt": "Тирә-ягыгызга карагыз. Күргән биш әйберне атагыз һәм аларның төсен әйтегез.",
+    "topic": "Карау һәм атау",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Карау һәм атау",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Шуларның кайсысы иң зурысы?",
+      "Кайсысын көн саен кулланасыз?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g2",
+    "prompt": "Өегездәге яраткан почмагыгызны тасвирлагыз. Анда нәрсә бар һәм ни өчен сезгә ошый?",
+    "topic": "Яраткан почмакны тасвирлау",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Яраткан почмакны тасвирлау",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Анда ял итәргәме әллә эшләргәме барасыз?",
+      "Нәрсәне дә булса үзгәртер идегезме?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g3",
+    "prompt": "Телефоныгыздагы бер фотоны сайлагыз һәм аның тарихын сөйләгез: кайда төшерелгән, кем бар анда һәм нәрсә булган.",
+    "topic": "Фото тарихын сөйләү",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Фото тарихын сөйләү",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ни өчен бу фотоны сакладыгыз?",
+      "Аннан соң шундук нәрсә булды?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g4",
+    "prompt": "Автобуста сумкагызны югалттыгыз. Нәрсә булганын аңлатыгыз һәм хәзер нәрсә эшләячәгегезне әйтегез.",
+    "topic": "Кечкенә мәсьәләне чишү",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Кечкенә мәсьәләне чишү",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Кемнән ярдәм сорар идегез?",
+      "Башта нәрсә эшләр идегез?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g5",
+    "prompt": "Ялгыз өйрәнү яхшыракмы әллә башкалар беләнме? Тәҗрибәгездән сәбәпләр китерегез.",
+    "topic": "Көндәлек сорауны фикер алышу",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Көндәлек сорауны фикер алышу",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Кайчан ялгыз эшләү яхшырак?",
+      "Башка кешедән нәрсә өйрәндегез?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g6",
+    "prompt": "Урамыгыз яки кварталыгыз анда яшәүчеләр өчен уңайлырак булсын өчен биш ысул тәкъдим итегез.",
+    "topic": "Урам өчен идеяләр",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Урам өчен идеяләр",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Кайсы идея иң арзанга төшәр?",
+      "Кем белән килешергә кирәк?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g7",
+    "prompt": "Якындагы яңалыклардан бер башламны алыгыз. Андагы сүзләрне һәм алар сезне нәрсәгә ышандыруын анализлагыз.",
+    "topic": "Исемнәмәне анализлау",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Исемнәмәне анализлау",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Башка сүз мәгънәне үзгәртер идеме?",
+      "Бу тәгъбир кемгә файдалы?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g8",
+    "prompt": "Кварталыгызны яхшырта торган проектны тәкъдим итегез. Ул нәрсә, кемгә ярдәм итә һәм күпме тора — әйтегез.",
+    "topic": "Тәкъдимне тәкъдим итү",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Тәкъдимне тәкъдим итү",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Шикләнгән күршегезне ничек ышандырыр идегез?",
+      "Беренче адым нинди?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g9",
+    "prompt": "Кайберәүләр әйтә: укучыларның буш вакыты бик аз. Сез ризамы? Тәҗрибәгездән сәбәпләр һәм бер мисал китерегез.",
+    "topic": "Мәктәп һәм буш вакыт турында фикер алышу",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Мәктәп һәм буш вакыт турында фикер алышу",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Берсеннән баш тартырга туры килсә, кайсы шөгыльне калдырыр идегез?",
+      "Атнагызны нәрсә җиңеләйтер иде?"
+    ]
+  },
+  {
+    "id": "tt:speaking:g10",
+    "prompt": "Мәктәп билгеләрне кызыксынучанлыктан артык бәяли. Бу укучыларга нәрсә өйрәтә һәм аларга нәрсәгә төшә — анализлагыз.",
+    "topic": "Мәктәп нәрсәне бәяли икәнен анализлау",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Мәктәп нәрсәне бәяли икәнен анализлау",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Яхшы белемне ничек үлчәр идегез?",
+      "Кайсы фәнне гадел бәяләү иң кыен?"
     ]
   }
 ]

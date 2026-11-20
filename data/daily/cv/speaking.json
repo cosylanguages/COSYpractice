@@ -65,9 +65,16 @@
     "topic": "паллаштарни",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A1",
     "part": "Калаҫу пайӗ · Монолог",
     "task": "Хӑвна паллаштарни",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "ҫурт",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A1",
     "part": "Калаҫу пайӗ · Ҫырса кӑтартасси",
     "task": "Ансат ҫырса кӑтартасси",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "ҫемье",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A1",
     "part": "Калаҫу пайӗ · Монолог",
     "task": "Ҫынсем ҫинчен",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "апат",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A1",
     "part": "Калаҫу пайӗ · Диалог",
     "task": "Кунсеренхи темӑсем",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "квартал",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A2",
     "part": "Калаҫу пайӗ · Ҫырса кӑтартасси",
     "task": "Вырӑна ҫырса кӑтартасси",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "иртнӗ кану кунӗсем",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A2",
     "part": "Калаҫу пайӗ · Монолог",
     "task": "Иртни ҫинчен каласа пани",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "фотоӳкерчӗк",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A2",
     "part": "Калаҫу пайӗ · Ҫырса кӑтартасси",
     "task": "Ӳкерчӗке ҫырса кӑтартасси",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "магазинра тавӑрни",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · A2",
     "part": "Калаҫу пайӗ · Диалог",
     "task": "Пуплев ӗҫӗсем: ӳпкев",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "ӗҫлев",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · B1",
     "part": "Калаҫу пайӗ · Монолог",
     "task": "Монолог",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "экзаменсем",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · B2",
     "part": "Калаҫу пайӗ · Тавлашу",
     "task": "Никӗсленӗ шухӑш",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "уша ҫынсемпе ӗҫлени",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · B2",
     "part": "Калаҫу пайӗ · Тавлашу",
     "task": "Аргументлани",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "ҫул ҫӳревӗ",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · B1",
     "part": "Калаҫу пайӗ · Диалог",
     "task": "Йывӑрлӑх тата татса пани",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "чӗлхесем тата глобаллӗх",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · C1",
     "part": "Калаҫу пайӗ · Тавлашу",
     "task": "Йӗркеленӗ аргумент",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "чӗлхе тата реклама",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · C2",
     "part": "Калаҫу пайӗ · Сӳтсе явни",
     "task": "Абстракт сӳтсе явни",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "музейсем тата экспонатсем",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · C1",
     "part": "Калаҫу пайӗ · Монолог",
     "task": "Ӑнлантарса паракан калаҫу",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "ясалма интеллект",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "Чӑваш чӗлхипе патшалӑх экзаменӗ · C2",
     "part": "Калаҫу пайӗ · Сӳтсе явни",
     "task": "Шухӑшласа сӳтсе явни",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Машина тунӑ текстсене паллӑ тумалла-и?",
       "Чӑн сасӑ мӗн вӑл?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g1",
+    "prompt": "Таврана пӑхӑр. Курнӑ пилӗк япалана калӑр тата вӗсен тӗсне калӑр.",
+    "topic": "Пӑхни тата ятлани",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Пӑхни тата ятлани",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Вӗсенчен хӑшӗ чи пысӑкки?",
+      "Хӑшне кунсерен усӑ куратӑр?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g2",
+    "prompt": "Килте юратнӑ кӗтеҫӗре сӑнлӑр. Унта мӗн пур тата мӗншӗн сире килӗшет?",
+    "topic": "Юратнӑ кӗтесе сӑнлани",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Юратнӑ кӗтесе сӑнлани",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Унта канамашкӑн-и е ӗҫлемешкӗн-и каятӑр?",
+      "Мӗн те пулин улӑштарнӑ пулӑттӑр-и?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g3",
+    "prompt": "Телефонӑрти пӗр фотона суйлӑр тата унӑн историне калӑр: ӑҫта ӳкернӗ, кам унта тата мӗн пулнӑ.",
+    "topic": "Фото историне калани",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Фото историне калани",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Мӗншӗн ҫак фотона упрарӑр?",
+      "Ун хыҫҫӑн тӳрех мӗн пулчӗ?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g4",
+    "prompt": "Автобустра хутаҫуна ҫухатрӑр. Мӗн пулнине ӑнлантарӑр тата халӗ мӗн тӑвӑрӑр — калӑр.",
+    "topic": "Пӗчӗк йывӑрлӑха татса пани",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Пӗчӗк йывӑрлӑха татса пани",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Камран пулӑшу ыйтрӑр?",
+      "Малтан мӗн тӑвӑттӑр?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g5",
+    "prompt": "Пӗччен вӗренни лайӑхрах-и е урӑхсемпе пӗрле-и? Хӑвӑр опытуран сӑлтавсем илсе кӑтартӑр.",
+    "topic": "Кунсеренхи ыйтӑва сӳтсе явани",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Кунсеренхи ыйтӑва сӳтсе явани",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Хӑҫан пӗччен ӗҫлени лайӑхрах?",
+      "Урӑх ҫынран мӗн вӗрентӗр?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g6",
+    "prompt": "Улицӑра е кварталта пурӑнакансем валли майлӑрах пултӑр тесе пилӗк мел сӗнӗр.",
+    "topic": "Улица валли шухӑшсем",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Улица валли шухӑшсем",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Хӑш шухӑш чи йӳнни пулӗ?",
+      "Кампа килӗшмелле?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g7",
+    "prompt": "Юлашки хыпарсенчен пӗр заголовока илӗр. Унта мӗнле сӑмахсем пур тата вӗсем сире мӗн ҫине ӗнентернине тишкӗрӗр.",
+    "topic": "Заголовока тишкерни",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Заголовока тишкерни",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Урӑх сӑмах пӗлтерӗшне улӑштарӗччӗ-и?",
+      "Ҫак формулировкӑран кам усӑ курать?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g8",
+    "prompt": "Квартала лайӑхлатма пултаракан проектра кӑтартӑр. Вӑл мӗн, кама пулӑшать тата мӗн чухлӗ тӑрать — калӑр.",
+    "topic": "Сӗнӗве кӑтартни",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Сӗнӗве кӑтартни",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Иккӗленекен кӳршӗне мӗнле ӗнентерӗттӗр?",
+      "Пӗрремӗш утӑм мӗнле?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g9",
+    "prompt": "Хӑш-пӗрисем калаҫҫӗ: вӗренекенсен ирӗклӗ вӑхӑчӗ питӗ сахал. Эсир килӗшетӗр-и? Хӑвӑр эрнерине тӗслӗх илсе сӑлтавсем кӑтартӑр.",
+    "topic": "Шкул тата ирӗклӗ вӑхӑт ҫинчен сӳтсе явани",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Шкул тата ирӗклӗ вӑхӑт ҫинчен сӳтсе явани",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Пӗр ӗҫрен пӑрахма тивсен, хӑшне упрарӑттӑр?",
+      "Эрвенӗре мӗн ҫӑмӑллатрӗ?"
+    ]
+  },
+  {
+    "id": "cv:speaking:g10",
+    "prompt": "Шкул паллӑсене кӑсӑкланнирен ытларах хаклать. Ку вӗренекенсене мӗн вӗрентет тата вӗсене мӗн тӑрать — тишкӗрӗр.",
+    "topic": "Шкул мӗнне хакланине тишкерни",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Шкул мӗнне хакланине тишкерни",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Лайӑх пӗлӳне мӗнле виҫӗттӗр?",
+      "Хӑш предмета тӗрӗс хаклама чи йывӑр?"
     ]
   }
 ]

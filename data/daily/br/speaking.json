@@ -65,9 +65,16 @@
     "topic": "en emziskouez",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · En em ginnig",
     "task": "En em ginnig",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -81,9 +88,16 @@
     "topic": "an ti",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Deskrivadur",
     "task": "Deskrivadur simpl",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -97,9 +111,16 @@
     "topic": "ar familh",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Monolog",
     "task": "Komz eus an dud",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -113,9 +134,16 @@
     "topic": "ar boued",
     "level": "A0-A1",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Diviz",
     "task": "Temoù pemdeziek",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
@@ -129,9 +157,16 @@
     "topic": "ar c'harter",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Deskrivadur",
     "task": "Deskrivañ ul lec'h",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -145,9 +180,16 @@
     "topic": "ar sizhun dibenn tremenet",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 1 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Monolog",
     "task": "Kontañ an amzer dremenet",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -161,9 +203,16 @@
     "topic": "ur poltred",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 2 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Deskrivadur",
     "task": "Deskrivañ ur skeudenn",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -177,9 +226,16 @@
     "topic": "distreiñ er stal",
     "level": "A2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 2 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Diviz",
     "task": "Oberoù yezh: klemm",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
@@ -193,9 +249,15 @@
     "topic": "ur varregezh",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 2 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Monolog",
     "task": "Monolog",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -209,9 +271,15 @@
     "topic": "ar skolioù-arnodiñ",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 3 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Arguzenn",
     "task": "Menozh argaset",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -225,9 +293,15 @@
     "topic": "al labour a-stroll",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 3 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Arguzenn",
     "task": "Arguzenniñ",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -241,9 +315,15 @@
     "topic": "an tremen",
     "level": "B1-B2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 2 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Diviz",
     "task": "Kudenn ha diskoulm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
@@ -257,9 +337,14 @@
     "topic": "yezhoù ha bedeladur",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 3 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Arguzenn",
     "task": "Arguzenn frammet",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -273,9 +358,14 @@
     "topic": "yezh ha bruderezh",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 4 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Diviz",
     "task": "Diviz difetis",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -289,9 +379,14 @@
     "topic": "mirdioù hag oberoù arz",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 3 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Monolog",
     "task": "Diskouezh youlek",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
@@ -305,14 +400,230 @@
     "topic": "spered alvezel",
     "level": "C1-C2",
     "curated": true,
+    "track": "exam",
     "exam": "DAB 4 · Diplom war ar Brezhoneg",
     "part": "Poelladenn gomz · Diviz",
     "task": "Diviz martezeadenn",
+    "audience": [
+      "adult",
+      "senior"
+    ],
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
       "Rankout a rafe bezañ merket an testennoù graet gant ur mekanik?",
       "Petra eo ur vouezh gwirion?"
+    ]
+  },
+  {
+    "id": "br:speaking:g1",
+    "prompt": "Sellit ouzh ho tro. Lavarit pemp traezenn a welit ha livirit pe liv int.",
+    "topic": "Sellout ha lavarout",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Sellout ha lavarout",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Peseurt hini eo ar brasañ?",
+      "Peseurt hini a rit gantañ bemdez?"
+    ]
+  },
+  {
+    "id": "br:speaking:g2",
+    "prompt": "Deskrivit ho korn muiañ-karet en ho ti. Petra zo ennañ, ha perak e plij deoc'h?",
+    "topic": "Deskrivañ ho korn muiañ-karet",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Deskrivañ ho korn muiañ-karet",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Mont a rit di da ziskuizhañ pe da labourat?",
+      "Tra a gemerfec'h da cheñch?"
+    ]
+  },
+  {
+    "id": "br:speaking:g3",
+    "prompt": "Choazit ur poltred en ho pellgomz ha kontit e istor: pelec'h eo bet tapet, piv zo warnañ ha petra a zo c'hoarvezet.",
+    "topic": "Kontañ istor ur poltred",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Kontañ istor ur poltred",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perak hoc'h eus miret ar poltred-mañ?",
+      "Petra a zo c'hoarvezet war-lerc'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:g4",
+    "prompt": "Kollet hoc'h eus ho sac'h en bus. Merkit petra a zo c'hoarvezet ha livirit petra a rit bremañ.",
+    "topic": "Diskoulmañ ur gudenn vihan",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Diskoulmañ ur gudenn vihan",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Gant piv e c'houlennfec'h skoazell?",
+      "Petra a rafec'h da gentañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:g5",
+    "prompt": "Gwelloc'h eo deskiñ e-unan pe gant tud all? Roit abegoù diwar ho skiant-prenañ.",
+    "topic": "Kaozeal diwar ur goulenn pemdez",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Kaozeal diwar ur goulenn pemdez",
+    "activity": "discuss",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Pegoulz e labourer gwelloc'h e-unan?",
+      "Petra hoc'h eus desket digant un den all?"
+    ]
+  },
+  {
+    "id": "br:speaking:g6",
+    "prompt": "Kinnigit pemp doare da lakaat ho straed pe ho karter da vezañ gwelloc'h evit an dud a zo o chom eno.",
+    "topic": "Menozioù evit ho straed",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Menozioù evit ho straed",
+    "activity": "brainstorm",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Peseurt menoz a goustfe nebeutañ?",
+      "Gant piv e vefe ret bezañ a-du?"
+    ]
+  },
+  {
+    "id": "br:speaking:g7",
+    "prompt": "Kemerit ur pennad-keloù nevez. Dielfennit ar gerioù a zo ennañ hag ar pezh a laka ac'hanoc'h da grediñ.",
+    "topic": "Dielfennañ ur pennad-keloù",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Dielfennañ ur pennad-keloù",
+    "activity": "analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Ur ger all a cheñchfe ar ster?",
+      "Da biv e talvez ar c'hemennadur-se?"
+    ]
+  },
+  {
+    "id": "br:speaking:g8",
+    "prompt": "Kinnigit ur raktres a wellaio ho karter. Livirit petra eo, da biv e servij ha petra a goust.",
+    "topic": "Kinnig ur raktres",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Kinnig ur raktres",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Penaos e kendrec'hfec'h un amezeg amzouar?",
+      "Petra eo ar c'hammed kentañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:g9",
+    "prompt": "Lod a lavar ne vez ket trawalc'h a amzer vak gant ar skolidi. Ha setu c'hwi a-du? Roit abegoù hag ur skouer eus ho sizhun.",
+    "topic": "Kaozeal diwar-benn ar skol hag an amzer vak",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Kaozeal diwar-benn ar skol hag an amzer vak",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Peseurt obererezh a virfec'h ma vefe ret deoc'h lezel unan a-gostez?",
+      "Petra a lakafe ho sizhun da vezañ aesoc'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:g10",
+    "prompt": "Ar skol a bouezh an notennoù kentoc'h eget ar c'hoant-gouzout. Dielfennit petra a zesko-se d'ar skolidi ha petra a goust dezho.",
+    "topic": "Dielfennañ petra a bouezh ar skol",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Dielfennañ petra a bouezh ar skol",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Penaos e vefec'h oc'h muzuliañ un deskadurezh vat?",
+      "Peseurt danvez eo ar muiañ diaes da notennañ gant justis?"
     ]
   }
 ]

@@ -16,9 +16,14 @@
  *   speak_seconds  target speaking time
  *   follow_ups     one or two examiner-style follow-up questions
  *
- * exam and part are required so a learner always sees which exam task they are practising; the
- * part names must match the real structure of each exam (IELTS Part 1/2/3, DELF/DALF exposé and
- * entretien, Goethe Sprechen Teil 1-3, DELE Tarea 1-4, CILS Parte, ТРКИ задания, and so on).
+ * exam and part are required on exam-track cards so a learner always sees which exam task they are
+ * practising; the part names must match the real structure of each exam (IELTS Part 1/2/3, DELF/DALF
+ * exposé and entretien, Goethe Sprechen Teil 1-3, DELE Tarea 1-4, CILS Parte, ТРКИ задания, and so on).
+ * A card never names another language's exam.
+ *
+ * General-course cards (track: "general") practise speaking for its own sake and name no exam. They
+ * carry an activity instead, and every curated speaking card carries the audiences it suits, so young
+ * learners, teens, adults and seniors each get material that fits them.
  */
 'use strict';
 const fs = require('fs');
@@ -42,6 +47,11 @@ const EXAM_OWNERS = {
   br: /\bDAB\b|Diplom war ar Brezhoneg/
 };
 const MIN_PER_BAND = { speaking: 3, writing: 1 };
+const TRACKS = ['exam', 'general'];
+// General-course speaking is organised by the activity a learner actually does, not by an exam task.
+const ACTIVITIES = ['brainstorm', 'analyse', 'describe', 'compare', 'discuss', 'narrate', 'role-play',
+  'problem-solving', 'interview', 'plan', 'present', 'identify'];
+const AUDIENCES = ['young', 'teen', 'adult', 'senior'];
 const errors = [];
 
 for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root, d)).isDirectory()).sort()) {
@@ -64,8 +74,28 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
 
       if (type === 'speaking' && e.curated) {
         if (typeof e.task !== 'string' || !e.task.trim()) errors.push(`${at}: curated speaking needs a task`);
-        if (typeof e.exam !== 'string' || !e.exam.trim()) errors.push(`${at}: curated speaking needs an exam`);
-        if (typeof e.part !== 'string' || !e.part.trim()) errors.push(`${at}: curated speaking needs a part`);
+
+        const track = e.track === undefined ? 'exam' : e.track;
+        if (!TRACKS.includes(track)) errors.push(`${at}: invalid track "${e.track}"`);
+        if (track === 'exam') {
+          if (typeof e.exam !== 'string' || !e.exam.trim()) errors.push(`${at}: curated speaking needs an exam`);
+          if (typeof e.part !== 'string' || !e.part.trim()) errors.push(`${at}: curated speaking needs a part`);
+        } else {
+          // General-course cards practise speaking for its own sake: no exam, but an activity to do.
+          if (e.exam !== undefined || e.part !== undefined) errors.push(`${at}: general card must not name an exam`);
+          if (!ACTIVITIES.includes(e.activity)) {
+            errors.push(`${at}: general card needs an activity (${ACTIVITIES.join(', ')})`);
+          }
+        }
+
+        if (!Array.isArray(e.audience) || e.audience.length === 0) {
+          errors.push(`${at}: curated speaking needs an audience list`);
+        } else if (e.audience.some((a) => !AUDIENCES.includes(a))) {
+          errors.push(`${at}: audience must use ${AUDIENCES.join(', ')}`);
+        } else if (new Set(e.audience).size !== e.audience.length) {
+          errors.push(`${at}: audience has duplicates`);
+        }
+
         for (const key of ['prep_seconds', 'speak_seconds']) {
           if (!Number.isInteger(e[key]) || e[key] <= 0) errors.push(`${at}: ${key} must be a positive integer`);
         }
