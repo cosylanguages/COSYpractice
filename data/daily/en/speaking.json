@@ -1148,7 +1148,7 @@
   },
   {
     "id": "en:speaking:g1",
-    "prompt": "Look around the room you are in. Name five things you can see and say what colour they are.",
+    "prompt": "Look around the room you are in. Name five things you can see. What colour are they? Which one do you use every day?",
     "topic": "Look and name",
     "level": "A0-A1",
     "curated": true,
@@ -1165,12 +1165,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Which one is the biggest?",
-      "Which one do you use every day?"
+      "Is there anything in this room you do not like?",
+      "What is your favourite thing here?"
     ]
   },
   {
     "id": "en:speaking:g2",
-    "prompt": "Describe your favourite place in your home. What is in it, and why do you like it?",
+    "prompt": "Describe your favourite place in your home. What is in it? Why do you like it? What do you do there?",
     "topic": "Describe your favourite spot",
     "level": "A0-A1",
     "curated": true,
@@ -1187,12 +1188,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Do you go there to relax or to work?",
-      "Would you change anything about it?"
+      "Would you change anything about it?",
+      "Who else uses this place?"
     ]
   },
   {
     "id": "en:speaking:g3",
-    "prompt": "Name as many things as you can that you find in a kitchen. Try to say ten.",
+    "prompt": "Name as many things as you can that you find in a kitchen. Try to say ten. Which ones do you use every day? What do you do with them?",
     "topic": "Name as many as you can",
     "level": "A0-A1",
     "curated": true,
@@ -1208,13 +1210,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Which of them do you use most?",
-      "Which one is dangerous for children?"
+      "Which one is the most useful?",
+      "Which one is dangerous for children?",
+      "What is in your kitchen that is not in mine?"
     ]
   },
   {
     "id": "en:speaking:g4",
-    "prompt": "Choose a photo on your phone and tell its story: where it was taken, who is in it, and what happened.",
+    "prompt": "Choose a photo on your phone and tell its story. Where was it taken? Who is in it? What happened before and after?",
     "topic": "Tell the story of a photo",
     "level": "A2",
     "curated": true,
@@ -1231,12 +1234,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "Why did you keep this photo?",
-      "What happened just after it was taken?"
+      "How did you feel that day?",
+      "Would you take the same photo again?"
     ]
   },
   {
     "id": "en:speaking:g5",
-    "prompt": "Plan a small celebration with a friend. Decide the day, the food and who to invite.",
+    "prompt": "Plan a small celebration with a friend. What day will it be? What food will you have? Who will you invite?",
     "topic": "Plan something together",
     "level": "A2",
     "curated": true,
@@ -1253,12 +1257,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "What could go wrong, and how would you fix it?",
-      "Who will do which job?"
+      "Who will do which job?",
+      "How much will it cost?"
     ]
   },
   {
     "id": "en:speaking:g6",
-    "prompt": "You have lost your bag on the bus. Explain what happened and say what you will do next.",
+    "prompt": "You have lost your bag on the bus. What happened? What will you do first? Who will you ask for help?",
     "topic": "Solve a small problem",
     "level": "A2",
     "curated": true,
@@ -1274,13 +1279,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "Who would you ask for help?",
-      "What would you do first?"
+      "What would you say to the bus company?",
+      "How will you get home?",
+      "How will you stop this happening again?"
     ]
   },
   {
     "id": "en:speaking:g7",
-    "prompt": "Is it better to learn something alone or with other people? Give reasons from your own experience.",
+    "prompt": "Is it better to learn something alone or with other people? Why? Give an example from your own experience.",
     "topic": "Discuss an everyday question",
     "level": "B1-B2",
     "curated": true,
@@ -1296,12 +1302,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "When does working alone work better?",
-      "What have you learned from someone else?"
+      "What have you learned from someone else?",
+      "What would you tell someone starting today?"
     ]
   },
   {
     "id": "en:speaking:g8",
-    "prompt": "Think about a shop you know well. How does it arrange its products, and how does that change what you buy?",
+    "prompt": "Think about a shop you know well. How does it arrange its products? Why does it do that? How does it change what you buy?",
     "topic": "Analyse how a shop is arranged",
     "level": "B1-B2",
     "curated": true,
@@ -1317,12 +1324,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Which tricks do you notice most?",
-      "Does it work on you?"
+      "Does it work on you?",
+      "How would you arrange the shop differently?"
     ]
   },
   {
     "id": "en:speaking:g9",
-    "prompt": "Suggest five ways to make your street or neighbourhood friendlier for the people who live there.",
+    "prompt": "Suggest five ways to make your street or neighbourhood friendlier. What would each one change? Who would it help?",
     "topic": "Brainstorm ideas for your street",
     "level": "B1-B2",
     "curated": true,
@@ -1338,12 +1346,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Which idea would cost the least?",
-      "Who would need to agree?"
+      "Who would need to agree?",
+      "Which idea would you start with, and why?"
     ]
   },
   {
     "id": "en:speaking:g10",
-    "prompt": "Take a news headline you have seen recently. Analyse the words it uses and what they make you feel or believe.",
+    "prompt": "Take a news headline you have seen recently. Which words does it choose? What do they make you believe? What is left out?",
     "topic": "Analyse a headline",
     "level": "C1-C2",
     "curated": true,
@@ -1358,12 +1367,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Would another word change the meaning?",
-      "Who benefits from that framing?"
+      "Who benefits from that framing?",
+      "How would you rewrite it neutrally?"
     ]
   },
   {
     "id": "en:speaking:g11",
-    "prompt": "Should public spaces stay free of advertising? Argue your position and answer the strongest objection to it.",
+    "prompt": "Should public spaces stay free of advertising? Argue your position, then answer the strongest objection to it.",
     "topic": "Discuss public space",
     "level": "C1-C2",
     "curated": true,
@@ -1378,12 +1388,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Who pays for public space if not advertisers?",
-      "Where would you draw the line?"
+      "Where would you draw the line?",
+      "Does your answer change for schools or hospitals?"
     ]
   },
   {
     "id": "en:speaking:g12",
-    "prompt": "Present a short proposal for a project that would improve your community. Say what it is, who it helps and what it costs.",
+    "prompt": "Present a short proposal for a project that would improve your community. What is it? Who does it help? What does it cost?",
     "topic": "Present a proposal",
     "level": "C1-C2",
     "curated": true,
@@ -1398,7 +1409,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "How would you persuade a sceptical neighbour?",
-      "What is the first step?"
+      "What is the first step?",
+      "How would you measure success?"
     ]
   },
   {
@@ -1418,12 +1430,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Which activity would you keep if you had to give one up?",
-      "What would make your week easier?"
+      "What would make your week easier?",
+      "Is free time or homework more useful for learning?"
     ]
   },
   {
     "id": "en:speaking:g14",
-    "prompt": "Schools reward exam results more than curiosity. Analyse what this teaches students and what it costs them.",
+    "prompt": "Schools reward exam results more than curiosity. What does this teach students? What does it cost them? What would you change?",
     "topic": "Analyse how schools measure success",
     "level": "C1-C2",
     "curated": true,
@@ -1439,7 +1452,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "How would you measure a good education?",
-      "Which subject is hardest to grade fairly?"
+      "Which subject is hardest to grade fairly?",
+      "Would employers agree with you?"
     ]
   }
 ]

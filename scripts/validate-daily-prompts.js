@@ -14,7 +14,8 @@
  *   task           short name of the task type ("Cue card talk", "Structured argument")
  *   prep_seconds   preparation time before speaking
  *   speak_seconds  target speaking time
- *   follow_ups     one or two examiner-style follow-up questions
+ *   follow_ups     one or two examiner-style follow-up questions (exam cards) or up to three
+ *                  practice questions (general-course cards), and a general prompt must ask something
  *
  * exam and part are required on exam-track cards so a learner always sees which exam task they are
  * practising; the part names must match the real structure of each exam (IELTS Part 1/2/3, DELF/DALF
@@ -99,10 +100,20 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
         for (const key of ['prep_seconds', 'speak_seconds']) {
           if (!Number.isInteger(e[key]) || e[key] <= 0) errors.push(`${at}: ${key} must be a positive integer`);
         }
-        if (!Array.isArray(e.follow_ups) || e.follow_ups.length < 1 || e.follow_ups.length > 2) {
-          errors.push(`${at}: follow_ups must list one or two questions`);
+        // An exam card mirrors a real examiner, who asks one or two follow-ups. A general-course card is a
+        // practice conversation, so it carries up to three deeper questions.
+        const maxFollowUps = track === 'exam' ? 2 : 3;
+        if (!Array.isArray(e.follow_ups) || e.follow_ups.length < 1 || e.follow_ups.length > maxFollowUps) {
+          errors.push(`${at}: follow_ups must list one to ${maxFollowUps} questions`);
         } else if (e.follow_ups.some((q) => typeof q !== 'string' || q.trim().length < 5)) {
           errors.push(`${at}: follow_ups entries must be questions`);
+        }
+
+        // A general-course prompt must ask something, not just issue an order: naming ten kitchen objects is
+        // only practice if the learner then says what they are for and how often they use them. Greek and
+        // Armenian end a question with their own mark, so accept those too.
+        if (track === 'general' && !/[?;\u037E\u055E]/.test(e.prompt)) {
+          errors.push(`${at}: general prompt must contain a question`);
         }
 
         // Never name another language's exam on a card: English cards are English-exam only, etc.

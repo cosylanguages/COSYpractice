@@ -943,7 +943,7 @@
   },
   {
     "id": "it:speaking:g1",
-    "prompt": "Guardati intorno. Nomina cinque oggetti che vedi e di' di che colore sono.",
+    "prompt": "Guarda intorno a te nella stanza in cui sei. Nomina cinque cose che vedi. Di che colore sono? Quale usi ogni giorno?",
     "topic": "Guardare e nominare",
     "level": "A0-A1",
     "curated": true,
@@ -959,13 +959,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Qual è il più grande?",
-      "Quale usi ogni giorno?"
+      "Qual è la più grande?",
+      "C'è qualcosa in questa stanza che non ti piace?",
+      "Qual è il tuo oggetto preferito qui?"
     ]
   },
   {
     "id": "it:speaking:g2",
-    "prompt": "Descrivi il tuo angolo preferito di casa. Cosa c'è e perché ti piace?",
+    "prompt": "Descrivi il tuo posto preferito in casa. Cosa c'è dentro? Perché ti piace? Cosa ci fai?",
     "topic": "Descrivere il proprio angolo preferito",
     "level": "A0-A1",
     "curated": true,
@@ -981,13 +982,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Ci vai per rilassarti o per lavorare?",
-      "Cambieresti qualcosa?"
+      "Ci vai per riposare o per lavorare?",
+      "Cambieresti qualcosa?",
+      "Chi altro usa questo posto?"
     ]
   },
   {
     "id": "it:speaking:g3",
-    "prompt": "Nomina più oggetti che puoi che si trovano in cucina. Prova a dirne dieci.",
+    "prompt": "Nomina più cose che puoi che si trovano in una cucina. Prova a dirne dieci. Quali usi ogni giorno? A cosa ti servono?",
     "topic": "Nominare il più possibile",
     "level": "A0-A1",
     "curated": true,
@@ -1003,13 +1005,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Quali usi di più?",
-      "Quale è pericoloso per un bambino?"
+      "Qual è la più utile?",
+      "Qual è pericolosa per i bambini?",
+      "Cosa c'è nella tua cucina che non c'è nella mia?"
     ]
   },
   {
     "id": "it:speaking:g4",
-    "prompt": "Scegli una foto sul tuo telefono e racconta la sua storia: dove è stata scattata, chi c'è e cosa è successo.",
+    "prompt": "Scegli una foto sul tuo telefono e racconta la sua storia. Dove è stata scattata? Chi c'è? Cosa è successo prima e dopo?",
     "topic": "Raccontare una foto",
     "level": "A2",
     "curated": true,
@@ -1026,12 +1029,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "Perché hai tenuto questa foto?",
-      "Cosa è successo subito dopo?"
+      "Come ti sentivi quel giorno?",
+      "Scatteresti di nuovo la stessa foto?"
     ]
   },
   {
     "id": "it:speaking:g5",
-    "prompt": "Organizza una piccola festa con un amico. Decidete il giorno, il cibo e chi invitare.",
+    "prompt": "Organizza una piccola festa con un amico. Che giorno sarà? Cosa mangerete? Chi inviterai?",
     "topic": "Organizzare insieme",
     "level": "A2",
     "curated": true,
@@ -1047,13 +1051,14 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Cosa potrebbe andare storto?",
-      "Chi farà cosa?"
+      "Cosa potrebbe andare storto, e come lo risolveresti?",
+      "Chi farà cosa?",
+      "Quanto costerà?"
     ]
   },
   {
     "id": "it:speaking:g6",
-    "prompt": "Hai perso la borsa sull'autobus. Spiega cosa è successo e cosa farai adesso.",
+    "prompt": "Hai perso la borsa sull'autobus. Cosa è successo? Cosa farai per primo? A chi chiederai aiuto?",
     "topic": "Risolvere un problema",
     "level": "A2",
     "curated": true,
@@ -1069,13 +1074,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "A chi chiederesti aiuto?",
-      "Cosa faresti per primo?"
+      "Cosa diresti all'azienda di trasporti?",
+      "Come tornerai a casa?",
+      "Come eviterai che succeda di nuovo?"
     ]
   },
   {
     "id": "it:speaking:g7",
-    "prompt": "È meglio imparare da soli o con altre persone? Porta esempi dalla tua esperienza.",
+    "prompt": "È meglio imparare da soli o con altri? Perché? Porta un esempio della tua esperienza.",
     "topic": "Discutere una questione quotidiana",
     "level": "B1-B2",
     "curated": true,
@@ -1090,13 +1096,14 @@
     "prep_seconds": 30,
     "speak_seconds": 90,
     "follow_ups": [
-      "Quando funziona meglio lavorare da soli?",
-      "Cosa hai imparato da qualcuno?"
+      "Quando si lavora meglio da soli?",
+      "Cosa hai imparato da qualcun altro?",
+      "Cosa diresti a chi inizia oggi?"
     ]
   },
   {
     "id": "it:speaking:g8",
-    "prompt": "Pensa a un negozio che conosci bene. Come dispone i prodotti e come cambia quello che compri?",
+    "prompt": "Pensa a un negozio che conosci bene. Come dispone i prodotti? Perché lo fa? Come cambia quello che compri?",
     "topic": "Analizzare un negozio",
     "level": "B1-B2",
     "curated": true,
@@ -1112,12 +1119,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quali trucchi noti di più?",
-      "Funzionano su di te?"
+      "Funziona su di te?",
+      "Come lo disporresti diversamente?"
     ]
   },
   {
     "id": "it:speaking:g9",
-    "prompt": "Proponi cinque modi per rendere la tua strada o il tuo quartiere più piacevole per chi ci abita.",
+    "prompt": "Proponi cinque modi per rendere la tua via o il tuo quartiere più accogliente. Cosa cambierebbe ognuno? A chi servirebbe?",
     "topic": "Idee per la propria strada",
     "level": "B1-B2",
     "curated": true,
@@ -1133,12 +1141,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quale idea costerebbe meno?",
-      "Chi dovrebbe essere d'accordo?"
+      "Chi dovrebbe essere d'accordo?",
+      "Da quale idea inizieresti, e perché?"
     ]
   },
   {
     "id": "it:speaking:g10",
-    "prompt": "Prendi un titolo di cronaca recente. Analizza le parole usate e cosa ti fanno credere.",
+    "prompt": "Prendi un titolo di giornale che hai visto di recente. Quali parole sceglie? Cosa ti fanno credere? Cosa omette?",
     "topic": "Analizzare un titolo di giornale",
     "level": "C1-C2",
     "curated": true,
@@ -1153,12 +1162,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Un'altra parola cambierebbe il senso?",
-      "A chi giova questa impostazione?"
+      "A chi giova quella formulazione?",
+      "Come lo riscriveresti in modo neutro?"
     ]
   },
   {
     "id": "it:speaking:g11",
-    "prompt": "Lo spazio pubblico deve restare senza pubblicità? Sostieni la tua posizione e rispondi all'obiezione più forte.",
+    "prompt": "Gli spazi pubblici dovrebbero restare senza pubblicità? Sostieni la tua posizione, poi rispondi all'obiezione più forte.",
     "topic": "Discutere lo spazio pubblico",
     "level": "C1-C2",
     "curated": true,
@@ -1172,13 +1182,14 @@
     "prep_seconds": 45,
     "speak_seconds": 120,
     "follow_ups": [
-      "Chi pagherebbe altrimenti?",
-      "Dove metteresti il limite?"
+      "Chi paga gli spazi pubblici se non gli inserzionisti?",
+      "Dove metteresti il limite?",
+      "La tua risposta cambia per scuole o ospedali?"
     ]
   },
   {
     "id": "it:speaking:g12",
-    "prompt": "Presenta un progetto che migliorerebbe il tuo quartiere. Di' cosa è, a chi serve e quanto costa.",
+    "prompt": "Presenta una piccola proposta per un progetto che migliorerebbe il tuo quartiere. Cos'è? A chi serve? Quanto costa?",
     "topic": "Presentare una proposta",
     "level": "C1-C2",
     "curated": true,
@@ -1193,12 +1204,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Come convinceresti un vicino scettico?",
-      "Qual è il primo passo?"
+      "Qual è il primo passo?",
+      "Come misureresti il successo?"
     ]
   },
   {
     "id": "it:speaking:g13",
-    "prompt": "Alcuni dicono che gli studenti hanno troppo poco tempo libero. Sei d'accordo? Porta ragioni e un esempio dalla tua settimana.",
+    "prompt": "Alcuni dicono che gli studenti hanno troppo poco tempo libero. Sei d'accordo? Porta ragioni e un esempio della tua settimana.",
     "topic": "Discutere scuola e tempo libero",
     "level": "B1-B2",
     "curated": true,
@@ -1213,12 +1225,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quale attività terresti se dovessi rinunciare a una?",
-      "Cosa renderebbe la tua settimana più facile?"
+      "Cosa renderebbe la tua settimana più facile?",
+      "Il tempo libero o i compiti aiutano di più a imparare?"
     ]
   },
   {
     "id": "it:speaking:g14",
-    "prompt": "La scuola premia i voti più della curiosità. Analizza cosa insegna agli studenti e quanto costa loro.",
+    "prompt": "La scuola premia i voti più della curiosità. Cosa insegna questo agli studenti? Quanto costa loro? Cosa cambieresti?",
     "topic": "Analizzare cosa premia la scuola",
     "level": "C1-C2",
     "curated": true,
@@ -1234,7 +1247,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Come misureresti una buona istruzione?",
-      "Quale materia è più difficile da valutare in modo giusto?"
+      "Quale materia è più difficile da valutare in modo giusto?",
+      "I datori di lavoro sarebbero d'accordo con te?"
     ]
   }
 ]

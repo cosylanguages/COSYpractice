@@ -773,7 +773,7 @@
   },
   {
     "id": "de:speaking:g1",
-    "prompt": "Schauen Sie sich um. Nennen Sie fünf Dinge, die Sie sehen, und sagen Sie, welche Farbe sie haben.",
+    "prompt": "Schauen Sie sich in dem Raum um, in dem Sie sind. Nennen Sie fünf Dinge, die Sie sehen. Welche Farbe haben sie? Welches benutzen Sie jeden Tag?",
     "topic": "Schauen und benennen",
     "level": "A0-A1",
     "curated": true,
@@ -790,12 +790,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Welches ist das größte?",
-      "Welches benutzen Sie jeden Tag?"
+      "Gibt es hier etwas, das Ihnen nicht gefällt?",
+      "Was ist Ihr Lieblingsgegenstand in diesem Raum?"
     ]
   },
   {
     "id": "de:speaking:g2",
-    "prompt": "Beschreiben Sie Ihren Lieblingsplatz zu Hause. Was gibt es dort, und warum mögen Sie ihn?",
+    "prompt": "Beschreiben Sie Ihren Lieblingsort zu Hause. Was ist dort? Warum mögen Sie ihn? Was machen Sie dort?",
     "topic": "Lieblingsplatz beschreiben",
     "level": "A0-A1",
     "curated": true,
@@ -811,13 +812,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Gehen Sie dorthin zum Ausruhen oder zum Arbeiten?",
-      "Würden Sie etwas ändern?"
+      "Gehen Sie dorthin, um sich zu erholen oder um zu arbeiten?",
+      "Würden Sie etwas ändern?",
+      "Wer benutzt diesen Ort noch?"
     ]
   },
   {
     "id": "de:speaking:g3",
-    "prompt": "Nennen Sie so viele Dinge wie möglich, die es in einer Küche gibt. Versuchen Sie, zehn zu sagen.",
+    "prompt": "Nennen Sie so viele Dinge wie möglich, die es in einer Küche gibt. Versuchen Sie, zehn zu sagen. Welche benutzen Sie jeden Tag? Wofür brauchen Sie sie?",
     "topic": "So viel wie möglich benennen",
     "level": "A0-A1",
     "curated": true,
@@ -833,13 +835,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Welche benutzen Sie am meisten?",
-      "Welches ist für ein Kind gefährlich?"
+      "Welches ist am nützlichsten?",
+      "Welches ist für Kinder gefährlich?",
+      "Was gibt es in Ihrer Küche, das es in meiner nicht gibt?"
     ]
   },
   {
     "id": "de:speaking:g4",
-    "prompt": "Wählen Sie ein Foto auf Ihrem Handy und erzählen Sie seine Geschichte: wo es aufgenommen wurde, wer darauf ist und was passiert ist.",
+    "prompt": "Wählen Sie ein Foto auf Ihrem Handy und erzählen Sie seine Geschichte. Wo wurde es gemacht? Wer ist darauf? Was geschah davor und danach?",
     "topic": "Die Geschichte eines Fotos erzählen",
     "level": "A2",
     "curated": true,
@@ -856,12 +859,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "Warum haben Sie dieses Foto behalten?",
-      "Was geschah kurz danach?"
+      "Wie haben Sie sich an diesem Tag gefühlt?",
+      "Würden Sie dasselbe Foto heute wieder machen?"
     ]
   },
   {
     "id": "de:speaking:g5",
-    "prompt": "Planen Sie ein kleines Fest mit einem Freund. Entscheiden Sie den Tag, das Essen und wen Sie einladen.",
+    "prompt": "Planen Sie ein kleines Fest mit einem Freund. An welchem Tag findet es statt? Was werden Sie essen? Wen laden Sie ein?",
     "topic": "Gemeinsam planen",
     "level": "A2",
     "curated": true,
@@ -877,13 +881,14 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Was könnte schiefgehen?",
-      "Wer macht welche Aufgabe?"
+      "Was könnte schiefgehen, und wie würden Sie es lösen?",
+      "Wer macht was?",
+      "Wie viel wird es kosten?"
     ]
   },
   {
     "id": "de:speaking:g6",
-    "prompt": "Sie haben Ihre Tasche im Bus verloren. Erklären Sie, was passiert ist, und sagen Sie, was Sie jetzt tun.",
+    "prompt": "Sie haben Ihre Tasche im Bus verloren. Was ist passiert? Was machen Sie zuerst? Wen bitten Sie um Hilfe?",
     "topic": "Ein kleines Problem lösen",
     "level": "A2",
     "curated": true,
@@ -899,13 +904,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "Wen würden Sie um Hilfe bitten?",
-      "Was würden Sie zuerst tun?"
+      "Was würden Sie dem Busunternehmen sagen?",
+      "Wie kommen Sie nach Hause?",
+      "Wie verhindern Sie, dass das wieder passiert?"
     ]
   },
   {
     "id": "de:speaking:g7",
-    "prompt": "Ist es besser, allein oder mit anderen zu lernen? Geben Sie Gründe aus Ihrer Erfahrung.",
+    "prompt": "Ist es besser, allein oder mit anderen zu lernen? Warum? Geben Sie ein Beispiel aus Ihrer Erfahrung.",
     "topic": "Eine Alltagsfrage diskutieren",
     "level": "B1-B2",
     "curated": true,
@@ -920,13 +926,14 @@
     "prep_seconds": 30,
     "speak_seconds": 90,
     "follow_ups": [
-      "Wann klappt Alleinarbeit besser?",
-      "Was haben Sie von jemand anderem gelernt?"
+      "Wann arbeitet man allein besser?",
+      "Was haben Sie von jemand anderem gelernt?",
+      "Was würden Sie jemandem raten, der heute anfängt?"
     ]
   },
   {
     "id": "de:speaking:g8",
-    "prompt": "Denken Sie an ein Geschäft, das Sie gut kennen. Wie ordnet es seine Waren an, und wie beeinflusst das Ihren Einkauf?",
+    "prompt": "Denken Sie an ein Geschäft, das Sie gut kennen. Wie ordnet es seine Produkte an? Warum macht es das? Wie verändert das, was Sie kaufen?",
     "topic": "Ein Geschäft analysieren",
     "level": "B1-B2",
     "curated": true,
@@ -942,12 +949,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Welche Tricks bemerken Sie am meisten?",
-      "Wirken sie bei Ihnen?"
+      "Wirkt das bei Ihnen?",
+      "Wie würden Sie das Geschäft anders einrichten?"
     ]
   },
   {
     "id": "de:speaking:g9",
-    "prompt": "Schlagen Sie fünf Wege vor, wie Ihre Straße oder Ihr Viertel für die Anwohner freundlicher wird.",
+    "prompt": "Schlagen Sie fünf Wege vor, Ihre Straße oder Ihr Viertel freundlicher zu machen. Was würde jeder verändern? Wem würde er helfen?",
     "topic": "Ideen für Ihre Straße",
     "level": "B1-B2",
     "curated": true,
@@ -962,13 +970,14 @@
     "prep_seconds": 30,
     "speak_seconds": 90,
     "follow_ups": [
-      "Welche Idee kostet am wenigsten?",
-      "Wer müsste zustimmen?"
+      "Welche Idee würde am wenigsten kosten?",
+      "Wer müsste zustimmen?",
+      "Mit welcher Idee würden Sie anfangen, und warum?"
     ]
   },
   {
     "id": "de:speaking:g10",
-    "prompt": "Nehmen Sie eine aktuelle Schlagzeile. Analysieren Sie die Wörter und was sie Sie glauben lassen.",
+    "prompt": "Nehmen Sie eine Schlagzeile, die Sie kürzlich gesehen haben. Welche Wörter wählt sie? Was lassen sie Sie glauben? Was bleibt ausgespart?",
     "topic": "Eine Schlagzeile analysieren",
     "level": "C1-C2",
     "curated": true,
@@ -983,12 +992,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Würde ein anderes Wort die Bedeutung ändern?",
-      "Wem nützt diese Formulierung?"
+      "Wer profitiert von dieser Formulierung?",
+      "Wie würden Sie sie neutral umschreiben?"
     ]
   },
   {
     "id": "de:speaking:g11",
-    "prompt": "Sollte öffentlicher Raum werbefrei bleiben? Vertreten Sie Ihre Position und beantworten Sie den stärksten Einwand.",
+    "prompt": "Sollten öffentliche Räume frei von Werbung bleiben? Vertreten Sie Ihre Position und antworten Sie dann auf den stärksten Einwand.",
     "topic": "Öffentlichen Raum diskutieren",
     "level": "C1-C2",
     "curated": true,
@@ -1002,13 +1012,14 @@
     "prep_seconds": 45,
     "speak_seconds": 120,
     "follow_ups": [
-      "Wer würde sonst zahlen?",
-      "Wo würden Sie die Grenze ziehen?"
+      "Wer bezahlt öffentliche Räume, wenn nicht die Werbetreibenden?",
+      "Wo würden Sie die Grenze ziehen?",
+      "Ändert sich Ihre Antwort für Schulen oder Krankenhäuser?"
     ]
   },
   {
     "id": "de:speaking:g12",
-    "prompt": "Stellen Sie ein Projekt vor, das Ihr Viertel verbessern würde. Sagen Sie, was es ist, wem es hilft und was es kostet.",
+    "prompt": "Stellen Sie einen kleinen Vorschlag für ein Projekt vor, das Ihr Viertel verbessern würde. Was ist es? Wem hilft es? Was kostet es?",
     "topic": "Einen Vorschlag vorstellen",
     "level": "C1-C2",
     "curated": true,
@@ -1023,7 +1034,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Wie würden Sie einen skeptischen Nachbarn überzeugen?",
-      "Was ist der erste Schritt?"
+      "Was ist der erste Schritt?",
+      "Wie würden Sie Erfolg messen?"
     ]
   },
   {
@@ -1043,12 +1055,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Welche Aktivität würden Sie behalten, wenn Sie eine aufgeben müssten?",
-      "Was würde Ihre Woche leichter machen?"
+      "Was würde Ihre Woche leichter machen?",
+      "Was hilft mehr beim Lernen: Freizeit oder Hausaufgaben?"
     ]
   },
   {
     "id": "de:speaking:g14",
-    "prompt": "Schule belohnt Noten mehr als Neugier. Analysieren Sie, was das Schüler lehrt und was es sie kostet.",
+    "prompt": "Schule belohnt Noten mehr als Neugier. Was lehrt das Schüler? Was kostet es sie? Was würden Sie ändern?",
     "topic": "Analysieren, was Schule belohnt",
     "level": "C1-C2",
     "curated": true,
@@ -1064,7 +1077,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Wie würden Sie gute Bildung messen?",
-      "Welches Fach ist am schwersten gerecht zu benoten?"
+      "Welches Fach ist am schwersten gerecht zu benoten?",
+      "Würden Arbeitgeber Ihnen zustimmen?"
     ]
   }
 ]

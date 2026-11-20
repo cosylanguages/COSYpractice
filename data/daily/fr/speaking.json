@@ -943,7 +943,7 @@
   },
   {
     "id": "fr:speaking:g1",
-    "prompt": "Regardez autour de vous. Nommez cinq objets que vous voyez et dites de quelle couleur ils sont.",
+    "prompt": "Regardez autour de vous dans la pièce où vous êtes. Nommez cinq choses que vous voyez. De quelle couleur sont-elles ? Laquelle utilisez-vous chaque jour ?",
     "topic": "Regarder et nommer",
     "level": "A0-A1",
     "curated": true,
@@ -959,13 +959,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Lequel est le plus grand ?",
-      "Lequel utilisez-vous chaque jour ?"
+      "Laquelle est la plus grande ?",
+      "Y a-t-il quelque chose ici que vous n'aimez pas ?",
+      "Quel est votre objet préféré dans cette pièce ?"
     ]
   },
   {
     "id": "fr:speaking:g2",
-    "prompt": "Décrivez votre endroit préféré chez vous. Qu'y a-t-il, et pourquoi l'aimez-vous ?",
+    "prompt": "Décrivez l'endroit que vous préférez chez vous. Qu'est-ce qu'il y a dedans ? Pourquoi vous plaît-il ? Qu'est-ce que vous y faites ?",
     "topic": "Décrire son endroit préféré",
     "level": "A0-A1",
     "curated": true,
@@ -981,13 +982,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Y allez-vous pour vous détendre ou pour travailler ?",
-      "Changeriez-vous quelque chose ?"
+      "Vous y allez pour vous reposer ou pour travailler ?",
+      "Changeriez-vous quelque chose ?",
+      "Qui d'autre utilise cet endroit ?"
     ]
   },
   {
     "id": "fr:speaking:g3",
-    "prompt": "Nommez le plus d'objets possible que l'on trouve dans une cuisine. Essayez d'en dire dix.",
+    "prompt": "Nommez le plus de choses possible que l'on trouve dans une cuisine. Essayez d'en dire dix. Lesquelles utilisez-vous chaque jour ? À quoi vous servent-elles ?",
     "topic": "Nommer le plus possible",
     "level": "A0-A1",
     "curated": true,
@@ -1003,13 +1005,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Lesquels utilisez-vous le plus ?",
-      "Lequel est dangereux pour un enfant ?"
+      "Laquelle est la plus utile ?",
+      "Laquelle est dangereuse pour les enfants ?",
+      "Qu'y a-t-il dans votre cuisine qui n'est pas dans la mienne ?"
     ]
   },
   {
     "id": "fr:speaking:g4",
-    "prompt": "Choisissez une photo sur votre téléphone et racontez son histoire : où elle a été prise, qui est dessus et ce qui s'est passé.",
+    "prompt": "Choisissez une photo sur votre téléphone et racontez son histoire. Où a-t-elle été prise ? Qui est dessus ? Que s'est-il passé avant et après ?",
     "topic": "Raconter une photo",
     "level": "A2",
     "curated": true,
@@ -1026,12 +1029,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "Pourquoi avez-vous gardé cette photo ?",
-      "Que s'est-il passé juste après ?"
+      "Comment vous sentiez-vous ce jour-là ?",
+      "Prendriez-vous la même photo aujourd'hui ?"
     ]
   },
   {
     "id": "fr:speaking:g5",
-    "prompt": "Planifiez une petite fête avec un ami. Décidez le jour, la nourriture et les personnes à inviter.",
+    "prompt": "Organisez une petite fête avec un ami. Quel jour ce sera ? Qu'est-ce que vous mangerez ? Qui allez-vous inviter ?",
     "topic": "Planifier ensemble",
     "level": "A2",
     "curated": true,
@@ -1047,13 +1051,14 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Qu'est-ce qui pourrait mal se passer ?",
-      "Qui fera quoi ?"
+      "Qu'est-ce qui pourrait mal se passer, et comment le répareriez-vous ?",
+      "Qui fera quoi ?",
+      "Combien cela coûtera-t-il ?"
     ]
   },
   {
     "id": "fr:speaking:g6",
-    "prompt": "Vous avez perdu votre sac dans le bus. Expliquez ce qui s'est passé et ce que vous allez faire.",
+    "prompt": "Vous avez perdu votre sac dans le bus. Que s'est-il passé ? Que ferez-vous d'abord ? À qui demanderez-vous de l'aide ?",
     "topic": "Résoudre un problème",
     "level": "A2",
     "curated": true,
@@ -1069,13 +1074,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "À qui demanderiez-vous de l'aide ?",
-      "Que feriez-vous en premier ?"
+      "Que diriez-vous à la compagnie de bus ?",
+      "Comment rentrerez-vous chez vous ?",
+      "Comment éviterez-vous que cela se reproduise ?"
     ]
   },
   {
     "id": "fr:speaking:g7",
-    "prompt": "Vaut-il mieux apprendre seul ou avec d'autres ? Donnez des raisons tirées de votre expérience.",
+    "prompt": "Est-il préférable d'apprendre seul ou avec d'autres ? Pourquoi ? Donnez un exemple de votre expérience.",
     "topic": "Discuter d'une question du quotidien",
     "level": "B1-B2",
     "curated": true,
@@ -1090,13 +1096,14 @@
     "prep_seconds": 30,
     "speak_seconds": 90,
     "follow_ups": [
-      "Quand le travail seul est-il plus efficace ?",
-      "Qu'avez-vous appris grâce à quelqu'un ?"
+      "Quand travaille-t-on mieux seul ?",
+      "Qu'avez-vous appris grâce à quelqu'un d'autre ?",
+      "Que diriez-vous à quelqu'un qui commence aujourd'hui ?"
     ]
   },
   {
     "id": "fr:speaking:g8",
-    "prompt": "Pensez à un magasin que vous connaissez. Comment dispose-t-il ses produits, et comment cela change-t-il vos achats ?",
+    "prompt": "Pensez à un magasin que vous connaissez bien. Comment range-t-il ses produits ? Pourquoi fait-il cela ? Comment cela change-t-il ce que vous achetez ?",
     "topic": "Analyser l'agencement d'un magasin",
     "level": "B1-B2",
     "curated": true,
@@ -1112,12 +1119,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quelles astuces remarquez-vous le plus ?",
-      "Cela fonctionne-t-il sur vous ?"
+      "Cela fonctionne-t-il sur vous ?",
+      "Comment rangeriez-vous ce magasin autrement ?"
     ]
   },
   {
     "id": "fr:speaking:g9",
-    "prompt": "Proposez cinq façons de rendre votre rue ou votre quartier plus agréable pour ses habitants.",
+    "prompt": "Proposez cinq façons de rendre votre rue ou votre quartier plus agréable. Que changerait chacune ? À qui profiterait-elle ?",
     "topic": "Trouver des idées pour sa rue",
     "level": "B1-B2",
     "curated": true,
@@ -1133,12 +1141,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quelle idée coûterait le moins cher ?",
-      "Qui devrait être d'accord ?"
+      "Qui devrait être d'accord ?",
+      "Par quelle idée commenceriez-vous, et pourquoi ?"
     ]
   },
   {
     "id": "fr:speaking:g10",
-    "prompt": "Prenez un titre d'actualité récent. Analysez les mots employés et ce qu'ils vous font croire.",
+    "prompt": "Prenez un titre d'actualité que vous avez vu récemment. Quels mots choisit-il ? Que vous font-ils croire ? Que laisse-t-il de côté ?",
     "topic": "Analyser un titre de presse",
     "level": "C1-C2",
     "curated": true,
@@ -1153,12 +1162,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Un autre mot changerait-il le sens ?",
-      "À qui profite ce cadrage ?"
+      "À qui profite ce cadrage ?",
+      "Comment le réécririez-vous de façon neutre ?"
     ]
   },
   {
     "id": "fr:speaking:g11",
-    "prompt": "L'espace public doit-il rester sans publicité ? Défendez votre position et répondez à l'objection la plus forte.",
+    "prompt": "Les espaces publics devraient-ils rester sans publicité ? Défendez votre position, puis répondez à l'objection la plus forte.",
     "topic": "Discuter de l'espace public",
     "level": "C1-C2",
     "curated": true,
@@ -1172,13 +1182,14 @@
     "prep_seconds": 45,
     "speak_seconds": 120,
     "follow_ups": [
-      "Qui paierait sinon ?",
-      "Où fixeriez-vous la limite ?"
+      "Qui paie les espaces publics si ce ne sont pas les annonceurs ?",
+      "Où mettriez-vous la limite ?",
+      "Votre réponse change-t-elle pour les écoles ou les hôpitaux ?"
     ]
   },
   {
     "id": "fr:speaking:g12",
-    "prompt": "Présentez un projet qui améliorerait votre quartier. Dites ce que c'est, à qui cela sert et combien cela coûte.",
+    "prompt": "Présentez un petit projet qui améliorerait votre quartier. Qu'est-ce que c'est ? À qui cela sert-il ? Combien cela coûte-t-il ?",
     "topic": "Présenter une proposition",
     "level": "C1-C2",
     "curated": true,
@@ -1192,8 +1203,9 @@
     "prep_seconds": 45,
     "speak_seconds": 120,
     "follow_ups": [
-      "Comment convaincre un voisin sceptique ?",
-      "Quelle est la première étape ?"
+      "Comment convaincriez-vous un voisin sceptique ?",
+      "Quelle est la première étape ?",
+      "Comment mesureriez-vous le succès ?"
     ]
   },
   {
@@ -1213,12 +1225,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Quelle activité garderiez-vous si vous deviez en abandonner une ?",
-      "Que rendrait votre semaine plus facile ?"
+      "Que rendrait votre semaine plus facile ?",
+      "Le temps libre ou les devoirs servent-ils mieux l'apprentissage ?"
     ]
   },
   {
     "id": "fr:speaking:g14",
-    "prompt": "L'école récompense les notes plus que la curiosité. Analysez ce que cela enseigne aux élèves et ce que cela leur coûte.",
+    "prompt": "L'école récompense les notes plus que la curiosité. Qu'est-ce que cela enseigne aux élèves ? Que leur coûte-t-il ? Que changeriez-vous ?",
     "topic": "Analyser ce que l'école valorise",
     "level": "C1-C2",
     "curated": true,
@@ -1234,7 +1247,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Comment mesureriez-vous une bonne éducation ?",
-      "Quelle matière est la plus difficile à noter justement ?"
+      "Quelle matière est la plus difficile à noter justement ?",
+      "Les employeurs seraient-ils d'accord avec vous ?"
     ]
   }
 ]

@@ -417,7 +417,7 @@
   },
   {
     "id": "br:speaking:g1",
-    "prompt": "Sellit ouzh ho tro. Lavarit pemp traezenn a welit ha livirit pe liv int.",
+    "prompt": "Sellit ouzh ho tro er sal m'emaoc'h. Lavarit pemp traezenn a welit. Pe liv int? Peseurt hini a rit gantañ bemdez?",
     "topic": "Sellout ha lavarout",
     "level": "A0-A1",
     "curated": true,
@@ -434,12 +434,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Peseurt hini eo ar brasañ?",
-      "Peseurt hini a rit gantañ bemdez?"
+      "Ha tra zo amañ ha ne blij ket deoc'h?",
+      "Peseurt eo ho tra muiañ-karet er sal-mañ?"
     ]
   },
   {
     "id": "br:speaking:g2",
-    "prompt": "Deskrivit ho korn muiañ-karet en ho ti. Petra zo ennañ, ha perak e plij deoc'h?",
+    "prompt": "Deskrivit ho korn muiañ-karet en ho ti. Petra zo ennañ? Perak e plij deoc'h? Petra a rit eno?",
     "topic": "Deskrivañ ho korn muiañ-karet",
     "level": "A0-A1",
     "curated": true,
@@ -456,12 +457,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Mont a rit di da ziskuizhañ pe da labourat?",
-      "Tra a gemerfec'h da cheñch?"
+      "Tra a gemerfec'h da cheñch?",
+      "Piv all a ra gant al lec'h-mañ?"
     ]
   },
   {
     "id": "br:speaking:g3",
-    "prompt": "Choazit ur poltred en ho pellgomz ha kontit e istor: pelec'h eo bet tapet, piv zo warnañ ha petra a zo c'hoarvezet.",
+    "prompt": "Choazit ur poltred en ho pellgomz ha kontit e istor. Pelec'h eo bet tapet? Piv zo warnañ? Petra a zo c'hoarvezet a-raok hag goude?",
     "topic": "Kontañ istor ur poltred",
     "level": "A2",
     "curated": true,
@@ -478,12 +480,13 @@
     "speak_seconds": 60,
     "follow_ups": [
       "Perak hoc'h eus miret ar poltred-mañ?",
-      "Petra a zo c'hoarvezet war-lerc'h?"
+      "Penaos e oac'h en deiz-se?",
+      "Tapout a rafec'h ar memes poltred hiziv?"
     ]
   },
   {
     "id": "br:speaking:g4",
-    "prompt": "Kollet hoc'h eus ho sac'h en bus. Merkit petra a zo c'hoarvezet ha livirit petra a rit bremañ.",
+    "prompt": "Kollet hoc'h eus ho sac'h en bus. Petra a zo c'hoarvezet? Petra a rit da gentañ? Gant piv e c'houlennfec'h skoazell?",
     "topic": "Diskoulmañ ur gudenn vihan",
     "level": "A2",
     "curated": true,
@@ -499,13 +502,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "Gant piv e c'houlennfec'h skoazell?",
-      "Petra a rafec'h da gentañ?"
+      "Petra a lavarfec'h d'an embregerezh bus?",
+      "Penaos e tistrofec'h d'ar gêr?",
+      "Penaos e virfec'h ouzh an dra-se da c'hoarvezout en-dro?"
     ]
   },
   {
     "id": "br:speaking:g5",
-    "prompt": "Gwelloc'h eo deskiñ e-unan pe gant tud all? Roit abegoù diwar ho skiant-prenañ.",
+    "prompt": "Gwelloc'h eo deskiñ e-unan pe gant tud all? Perak? Roit ur skouer eus ho skiant-prenañ.",
     "topic": "Kaozeal diwar ur goulenn pemdez",
     "level": "B1-B2",
     "curated": true,
@@ -521,12 +525,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Pegoulz e labourer gwelloc'h e-unan?",
-      "Petra hoc'h eus desket digant un den all?"
+      "Petra hoc'h eus desket digant un den all?",
+      "Petra a lavarfec'h d'un den a grog hiziv?"
     ]
   },
   {
     "id": "br:speaking:g6",
-    "prompt": "Kinnigit pemp doare da lakaat ho straed pe ho karter da vezañ gwelloc'h evit an dud a zo o chom eno.",
+    "prompt": "Kinnigit pemp doare da lakaat ho straed pe ho karter da vezañ gwelloc'h. Petra a cheñchfe pep hini? Da biv e servijfe?",
     "topic": "Menozioù evit ho straed",
     "level": "B1-B2",
     "curated": true,
@@ -542,12 +547,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Peseurt menoz a goustfe nebeutañ?",
-      "Gant piv e vefe ret bezañ a-du?"
+      "Gant piv e vefe ret bezañ a-du?",
+      "Gant peseurt menoz e krogfec'h, ha perak?"
     ]
   },
   {
     "id": "br:speaking:g7",
-    "prompt": "Kemerit ur pennad-keloù nevez. Dielfennit ar gerioù a zo ennañ hag ar pezh a laka ac'hanoc'h da grediñ.",
+    "prompt": "Kemerit ur pennad-keloù nevez. Peseurt gerioù a choaz? Petra a laka ac'hanoc'h da grediñ? Petra a lez a-gostez?",
     "topic": "Dielfennañ ur pennad-keloù",
     "level": "C1-C2",
     "curated": true,
@@ -562,12 +568,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Ur ger all a cheñchfe ar ster?",
-      "Da biv e talvez ar c'hemennadur-se?"
+      "Da biv e talvez ar c'hemennadur-se?",
+      "Penaos e adskrivfec'h anezhañ en un doare neptu?"
     ]
   },
   {
     "id": "br:speaking:g8",
-    "prompt": "Kinnigit ur raktres a wellaio ho karter. Livirit petra eo, da biv e servij ha petra a goust.",
+    "prompt": "Kinnigit ur raktres bihan a wellaio ho karter. Petra eo? Da biv e servij? Petra a goust?",
     "topic": "Kinnig ur raktres",
     "level": "C1-C2",
     "curated": true,
@@ -582,7 +589,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Penaos e kendrec'hfec'h un amezeg amzouar?",
-      "Petra eo ar c'hammed kentañ?"
+      "Petra eo ar c'hammed kentañ?",
+      "Penaos e vuzulhfec'h ar berzh?"
     ]
   },
   {
@@ -602,12 +610,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Peseurt obererezh a virfec'h ma vefe ret deoc'h lezel unan a-gostez?",
-      "Petra a lakafe ho sizhun da vezañ aesoc'h?"
+      "Petra a lakafe ho sizhun da vezañ aesoc'h?",
+      "Petra a sikour muioc'h da zeskiñ: an amzer vak pe al labour-skol?"
     ]
   },
   {
     "id": "br:speaking:g10",
-    "prompt": "Ar skol a bouezh an notennoù kentoc'h eget ar c'hoant-gouzout. Dielfennit petra a zesko-se d'ar skolidi ha petra a goust dezho.",
+    "prompt": "Ar skol a bouezh an notennoù kentoc'h eget ar c'hoant-gouzout. Petra a zesko-se d'ar skolidi? Petra a goust dezho? Petra a cheñchfec'h?",
     "topic": "Dielfennañ petra a bouezh ar skol",
     "level": "C1-C2",
     "curated": true,
@@ -623,7 +632,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Penaos e vefec'h oc'h muzuliañ un deskadurezh vat?",
-      "Peseurt danvez eo ar muiañ diaes da notennañ gant justis?"
+      "Peseurt danvez eo ar muiañ diaes da notennañ gant justis?",
+      "Ha setu an implijerien a-du ganeoc'h?"
     ]
   }
 ]

@@ -773,7 +773,7 @@
   },
   {
     "id": "pt:speaking:g1",
-    "prompt": "Olhe à sua volta. Nomeie cinco objetos que vê e diga de que cor são.",
+    "prompt": "Olhe à sua volta na sala onde está. Nomeie cinco coisas que vê. De que cor são? Qual usa todos os dias?",
     "topic": "Olhar e nomear",
     "level": "A0-A1",
     "curated": true,
@@ -789,13 +789,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Qual é o maior?",
-      "Qual usa todos os dias?"
+      "Qual é a maior?",
+      "Há algo aqui de que não gosta?",
+      "Qual é o seu objeto preferido nesta sala?"
     ]
   },
   {
     "id": "pt:speaking:g2",
-    "prompt": "Descreva o seu canto preferido em casa. O que há lá e porque gosta dele?",
+    "prompt": "Descreva o seu lugar preferido em casa. O que há lá? Porque gosta dele? O que faz lá?",
     "topic": "Descrever o seu canto preferido",
     "level": "A0-A1",
     "curated": true,
@@ -812,12 +813,13 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Vai lá para descansar ou para trabalhar?",
-      "Mudaria alguma coisa?"
+      "Mudaria alguma coisa?",
+      "Quem mais usa este lugar?"
     ]
   },
   {
     "id": "pt:speaking:g3",
-    "prompt": "Nomeie o máximo de objetos que conseguir que existem numa cozinha. Tente dizer dez.",
+    "prompt": "Nomeie o máximo de coisas que conseguir que existem numa cozinha. Tente dizer dez. Quais usa todos os dias? Para que servem?",
     "topic": "Nomear o máximo possível",
     "level": "A0-A1",
     "curated": true,
@@ -833,13 +835,14 @@
     "prep_seconds": 10,
     "speak_seconds": 45,
     "follow_ups": [
-      "Quais usa mais?",
-      "Qual é perigoso para uma criança?"
+      "Qual é a mais útil?",
+      "Qual é perigosa para as crianças?",
+      "O que há na sua cozinha que não há na minha?"
     ]
   },
   {
     "id": "pt:speaking:g4",
-    "prompt": "Escolha uma fotografia no telemóvel e conte a sua história: onde foi tirada, quem aparece e o que aconteceu.",
+    "prompt": "Escolha uma foto no seu telemóvel e conte a sua história. Onde foi tirada? Quem está nela? O que aconteceu antes e depois?",
     "topic": "Contar a história de uma fotografia",
     "level": "A2",
     "curated": true,
@@ -855,13 +858,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "Porque guardou esta fotografia?",
-      "O que aconteceu logo depois?"
+      "Porque guardou esta foto?",
+      "Como se sentia nesse dia?",
+      "Tiraria a mesma foto hoje?"
     ]
   },
   {
     "id": "pt:speaking:g5",
-    "prompt": "Planeie uma pequena festa com um amigo. Decidam o dia, a comida e quem convidar.",
+    "prompt": "Planeie uma pequena festa com um amigo. Em que dia será? Que comida vai haver? Quem vai convidar?",
     "topic": "Planear em conjunto",
     "level": "A2",
     "curated": true,
@@ -877,13 +881,14 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "O que pode correr mal?",
-      "Quem fará o quê?"
+      "O que poderia correr mal e como o resolveria?",
+      "Quem fará o quê?",
+      "Quanto vai custar?"
     ]
   },
   {
     "id": "pt:speaking:g6",
-    "prompt": "Perdeu a sua mala no autocarro. Explique o que aconteceu e diga o que vai fazer agora.",
+    "prompt": "Perdeu a sua mala no autocarro. O que aconteceu? O que fará primeiro? A quem pedirá ajuda?",
     "topic": "Resolver um problema",
     "level": "A2",
     "curated": true,
@@ -899,13 +904,14 @@
     "prep_seconds": 15,
     "speak_seconds": 60,
     "follow_ups": [
-      "A quem pediria ajuda?",
-      "O que faria primeiro?"
+      "O que diria à empresa de transportes?",
+      "Como voltará para casa?",
+      "Como evitará que volte a acontecer?"
     ]
   },
   {
     "id": "pt:speaking:g7",
-    "prompt": "É melhor aprender sozinho ou com outras pessoas? Dê razões a partir da sua experiência.",
+    "prompt": "É melhor aprender sozinho ou com outras pessoas? Porquê? Dê um exemplo da sua experiência.",
     "topic": "Discutir uma questão do dia a dia",
     "level": "B1-B2",
     "curated": true,
@@ -920,13 +926,14 @@
     "prep_seconds": 30,
     "speak_seconds": 90,
     "follow_ups": [
-      "Quando funciona melhor trabalhar sozinho?",
-      "O que aprendeu com outra pessoa?"
+      "Quando se trabalha melhor sozinho?",
+      "O que aprendeu com outra pessoa?",
+      "O que diria a alguém que começa hoje?"
     ]
   },
   {
     "id": "pt:speaking:g8",
-    "prompt": "Pense numa loja que conhece bem. Como organiza os produtos e como isso muda o que compra?",
+    "prompt": "Pense numa loja que conhece bem. Como organiza os produtos? Porque o faz? Como isso muda o que compra?",
     "topic": "Analisar uma loja",
     "level": "B1-B2",
     "curated": true,
@@ -942,12 +949,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Que truques nota mais?",
-      "Funcionam consigo?"
+      "Funciona consigo?",
+      "Como organizaria a loja de outra forma?"
     ]
   },
   {
     "id": "pt:speaking:g9",
-    "prompt": "Sugira cinco formas de tornar a sua rua ou o seu bairro mais agradável para quem lá vive.",
+    "prompt": "Sugira cinco formas de tornar a sua rua ou o seu bairro mais agradável. O que mudaria cada uma? A quem ajudaria?",
     "topic": "Ideias para a sua rua",
     "level": "B1-B2",
     "curated": true,
@@ -963,12 +971,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Que ideia custaria menos?",
-      "Quem teria de concordar?"
+      "Quem teria de concordar?",
+      "Com que ideia começaria, e porquê?"
     ]
   },
   {
     "id": "pt:speaking:g10",
-    "prompt": "Pegue num título de notícia recente. Analise as palavras usadas e aquilo em que o fazem acreditar.",
+    "prompt": "Pegue num título de notícia que viu recentemente. Que palavras escolhe? O que o fazem acreditar? O que deixa de fora?",
     "topic": "Analisar um título",
     "level": "C1-C2",
     "curated": true,
@@ -983,12 +992,13 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Outra palavra mudaria o sentido?",
-      "A quem beneficia este enquadramento?"
+      "A quem beneficia esse enquadramento?",
+      "Como o reescreveria de forma neutra?"
     ]
   },
   {
     "id": "pt:speaking:g11",
-    "prompt": "Deve o espaço público ficar sem publicidade? Defenda a sua posição e responda à objeção mais forte.",
+    "prompt": "Os espaços públicos devem ficar sem publicidade? Defenda a sua posição e depois responda à objeção mais forte.",
     "topic": "Discutir o espaço público",
     "level": "C1-C2",
     "curated": true,
@@ -1002,13 +1012,14 @@
     "prep_seconds": 45,
     "speak_seconds": 120,
     "follow_ups": [
-      "Quem pagaria de outra forma?",
-      "Onde poria o limite?"
+      "Quem paga os espaços públicos se não forem os anunciantes?",
+      "Onde colocaria o limite?",
+      "A sua resposta muda para escolas ou hospitais?"
     ]
   },
   {
     "id": "pt:speaking:g12",
-    "prompt": "Apresente um projeto que melhoraria o seu bairro. Diga o que é, a quem ajuda e quanto custa.",
+    "prompt": "Apresente uma pequena proposta para um projeto que melhoraria o seu bairro. O que é? A quem ajuda? Quanto custa?",
     "topic": "Apresentar uma proposta",
     "level": "C1-C2",
     "curated": true,
@@ -1023,7 +1034,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Como convenceria um vizinho cético?",
-      "Qual é o primeiro passo?"
+      "Qual é o primeiro passo?",
+      "Como mediria o sucesso?"
     ]
   },
   {
@@ -1043,12 +1055,13 @@
     "speak_seconds": 90,
     "follow_ups": [
       "Que atividade manteria se tivesse de desistir de uma?",
-      "O que tornaria a sua semana mais fácil?"
+      "O que tornaria a sua semana mais fácil?",
+      "O que ajuda mais a aprender: o tempo livre ou os trabalhos de casa?"
     ]
   },
   {
     "id": "pt:speaking:g14",
-    "prompt": "A escola premeia as notas mais do que a curiosidade. Analise o que isso ensina aos alunos e o que lhes custa.",
+    "prompt": "A escola premeia as notas mais do que a curiosidade. O que ensina isso aos alunos? O que lhes custa? O que mudaria?",
     "topic": "Analisar o que a escola premeia",
     "level": "C1-C2",
     "curated": true,
@@ -1064,7 +1077,8 @@
     "speak_seconds": 120,
     "follow_ups": [
       "Como mediria uma boa educação?",
-      "Que disciplina é mais difícil de avaliar com justiça?"
+      "Que disciplina é mais difícil de avaliar com justiça?",
+      "Os empregadores concordariam consigo?"
     ]
   }
 ]
