@@ -1,13 +1,13 @@
 [
   {
     "id": "fr:writing:1",
-    "prompt": "Écrivez un paragraphe décrivant votre journée idéale.",
+    "prompt": "Décrivez votre quartier : ce que vous aimez, ce qui vous gêne et ce que vous changeriez.",
     "topic": "lifestyle",
     "level": "A2"
   },
   {
     "id": "fr:writing:2",
-    "prompt": "Rédigez un court courriel d'invitation à un ami pour un dîner.",
+    "prompt": "Rédigez un court courriel à un ami pour lui proposer de vous retrouver samedi.",
     "topic": "communication",
     "level": "A2"
   },

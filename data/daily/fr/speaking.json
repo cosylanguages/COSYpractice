@@ -1981,5 +1981,392 @@
       "Comment l'automatisation changera-t-elle la réponse ?",
       "Quel choix présente le plus de risque ?"
     ]
+  },
+  {
+    "id": "fr:speaking:c53",
+    "prompt": "Voici la photo de votre chambre. Dites-moi cinq objets que vous voyez et où ils se trouvent.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Part 2 · Échange d'informations",
+    "task": "Décrire une image",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "De quelle couleur est le lit ?",
+      "Y a-t-il une fenêtre dans la chambre ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c54",
+    "prompt": "Parlez-moi de votre meilleur ami. Comment s'appelle-t-il, quel âge a-t-il et qu'est-ce que vous faites ensemble ?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Part 1 · Entretien dirigé",
+    "task": "Parler d'une personne",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Où est-ce que vous vous retrouvez ?",
+      "Qu'est-ce que vous aimez faire ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c55",
+    "prompt": "Vous êtes dans une boulangerie. Commandez du pain et deux croissants, puis demandez le prix.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Part 3 · Dialogue simulé",
+    "task": "Dialogue au quotidien",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Vous payez comment, en espèces ou par carte ?",
+      "Vous voulez autre chose ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g20",
+    "prompt": "Racontez votre dernier anniversaire. Qu'est-ce que vous avez fait ? Qui était là ? Qu'est-ce que vous avez mangé ?",
+    "topic": "Raconter un souvenir",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Raconter un souvenir",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "C'était une belle journée ?",
+      "Quel cadeau avez-vous préféré ?",
+      "Qu'allez-vous faire l'année prochaine ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c56",
+    "prompt": "Parlez-moi du dernier film que vous avez vu. De quoi parlait-il et est-ce que vous avez aimé ?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 2 · Monologue suivi",
+    "task": "Raconter une expérience",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Avec qui l'avez-vous regardé ?",
+      "Le regarderiez-vous encore ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c57",
+    "prompt": "Vous organisez une sortie avec un ami. Parlez de deux endroits possibles, puis choisissez-en un et expliquez pourquoi.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 3 · Exercice en interaction",
+    "task": "Faire un choix",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Comment allez-vous y aller ?",
+      "Qu'est-ce que vous emportez ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c58",
+    "prompt": "Décrivez un lieu de votre ville que les touristes devraient voir. Qu'est-ce que c'est, où est-ce et pourquoi est-ce intéressant ?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 2 · Monologue suivi",
+    "task": "Décrire un lieu",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Vous y allez souvent ?",
+      "Quelle est la meilleure période pour visiter ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g21",
+    "prompt": "Décrivez votre magasin préféré. Qu'est-ce qu'on y vend ? Avec qui y allez-vous ? Pourquoi l'aimez-vous ?",
+    "topic": "Décrire un lieu",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Décrire un lieu",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Est-ce que c'est cher ?",
+      "Qu'avez-vous acheté la dernière fois ?",
+      "Aimeriez-vous travailler dans ce magasin ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c59",
+    "prompt": "Décrivez cette photographie pendant environ une minute : ce que vous voyez, ce que font les personnes et ce qu'elles peuvent ressentir.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Décrire et interpréter une image",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Aimeriez-vous être dans cette situation ?",
+      "Que s'est-il passé juste avant la photo ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c60",
+    "prompt": "Certains pensent que tous les élèves devraient apprendre un métier manuel à l'école. Dans quelle mesure êtes-vous d'accord ?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Défendre une opinion",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quels métiers seraient les plus utiles ?",
+      "Cela laisserait-il moins de temps aux autres matières ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c61",
+    "prompt": "Pourquoi certaines personnes préfèrent-elles acheter en ligne plutôt qu'en magasin, et quel effet cela a-t-il sur les centres-villes ?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Expliquer causes et conséquences",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Les villes devraient-elles protéger leurs commerces ?",
+      "Achetez-vous en ligne plus qu'avant ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g22",
+    "prompt": "Pensez à une publicité que vous avez vue récemment. À qui s'adresse-t-elle ? Que promet-elle ? Est-elle honnête, et pourquoi ?",
+    "topic": "Analyser une publicité",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyser une publicité",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Achèteriez-vous ce produit ?",
+      "Comment rendre cette publicité plus honnête ?",
+      "Qui pourrait être trompé ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g23",
+    "prompt": "Jeu de rôle : vous voulez rapporter un téléphone défectueux au magasin. Quel est le problème exactement ? Expliquez-le poliment, dites ce que vous attendez et répondez au vendeur.",
+    "topic": "Rapporter un article défectueux",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Rapporter un article défectueux",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Que ferez-vous si le magasin refuse ?",
+      "Comment rester poli si on vous accuse ?",
+      "Accepteriez-vous une réparation ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c62",
+    "prompt": "Comment les villes peuvent-elles rendre les transports publics assez attractifs pour que les gens laissent leur voiture ? Pensez au prix, à la fiabilité et au confort.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé argumenté",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Lequel de ces trois aspects compte le plus ?",
+      "Une taxe sur la congestion serait-elle juste ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c63",
+    "prompt": "Analysez si l'usage croissant de l'intelligence artificielle au travail créera des emplois plus enrichissants ou déplacera simplement la main-d'œuvre qualifiée.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Analyser une problématique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Qui profite le plus de ce changement ?",
+      "Les pouvoirs publics doivent-ils intervenir, et comment ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c64",
+    "prompt": "Dans quelle mesure les États devraient-ils encadrer les contenus que les réseaux sociaux recommandent à leurs utilisateurs ?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Argumenter et nuancer",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Où se situe la frontière entre régulation et censure ?",
+      "Les utilisateurs peuvent-ils se protéger seuls ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g24",
+    "prompt": "Présentez des arguments pour ou contre la gratuité des études universitaires. Exposez votre position, anticipez l'objection la plus forte et répondez-y. Les étudiants doivent-ils payer leurs diplômes ?",
+    "topic": "Défendre une thèse",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Défendre une thèse",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Qui devrait payer, sinon l'étudiant ?",
+      "La gratuité dévaloriserait-elle le diplôme ?",
+      "Que fait votre pays ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:g25",
+    "prompt": "Peut-on être vraiment objectif quand on présente les informations ? Discutez à partir d'un sujet que vous avez suivi récemment. Où le biais s'introduit-il le plus souvent ?",
+    "topic": "Discuter l'objectivité",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuter l'objectivité",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "L'équilibre consiste-t-il à donner la parole aux deux camps ?",
+      "Comment un lecteur peut-il juger la fiabilité ?",
+      "Votre avis a-t-il changé ?"
+    ]
   }
 ]

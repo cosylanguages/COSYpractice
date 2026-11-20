@@ -1431,5 +1431,392 @@
     "follow_ups": [
       "Repetiria a experiência?"
     ]
+  },
+  {
+    "id": "pt:speaking:c38",
+    "prompt": "Esta é a fotografia do teu quarto. Diz-me cinco coisas que vês e onde estão.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE (A1)",
+    "part": "Produção e interação orais · Descrição",
+    "task": "Descrever uma imagem",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "De que cor é a cama?",
+      "Há uma janela no quarto?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c39",
+    "prompt": "Fala-me do teu melhor amigo. Como se chama, quantos anos tem e o que fazem juntos?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE (A1)",
+    "part": "Produção e interação orais · Apresentação",
+    "task": "Falar de uma pessoa",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Onde se encontram?",
+      "O que gostam de fazer juntos?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c40",
+    "prompt": "Estás num café. Pede um café e uma torrada e depois pergunta quanto custam.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE CIPLE (A1)",
+    "part": "Produção e interação orais · Interação",
+    "task": "Diálogo do dia a dia",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Pagas em dinheiro ou com cartão?",
+      "Queres mais alguma coisa?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g18",
+    "prompt": "Conta-me o teu último aniversário. O que fizeste? Quem estava lá? O que comeste?",
+    "topic": "Contar uma memória",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Contar uma memória",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Foi um dia feliz?",
+      "Que presente gostaste mais?",
+      "O que vais fazer para o ano?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c41",
+    "prompt": "Fala-me do último filme que viste. Sobre o que era e gostaste?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE (A2)",
+    "part": "Produção e interação orais · Descrição de imagem",
+    "task": "Contar uma experiência",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Com quem o viste?",
+      "Voltarias a vê-lo?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c42",
+    "prompt": "Estás a organizar um passeio com um amigo. Fala de dois lugares possíveis e depois escolhe um e explica porquê.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE (A2)",
+    "part": "Produção e interação orais · Instruções",
+    "task": "Tomar uma decisão",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Como vão lá?",
+      "O que vão levar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c43",
+    "prompt": "Descreve um lugar da tua cidade que os turistas deviam ver. O que é, onde fica e porque é especial?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DEPLE (A2)",
+    "part": "Produção e interação orais · Descrição de lugar",
+    "task": "Descrever um lugar",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Vais lá muitas vezes?",
+      "Qual é a melhor altura para visitar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g19",
+    "prompt": "Descreve a tua loja preferida. O que vende? Com quem vais? Porque gostas dela?",
+    "topic": "Descrever um lugar",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Descrever um lugar",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "É cara?",
+      "O que compraste da última vez?",
+      "Gostarias de trabalhar numa loja assim?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c44",
+    "prompt": "Descreve esta fotografia durante cerca de um minuto: o que vês, o que as pessoas fazem e como se podem sentir.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE (B2)",
+    "part": "Produção e interação orais · Análise de tendência",
+    "task": "Descrever e interpretar uma imagem",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Gostarias de estar nesta situação?",
+      "O que aconteceu imediatamente antes da foto?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c45",
+    "prompt": "Alguns acham que todos os alunos deviam aprender um ofício manual na escola. Em que medida concordas?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE (B1)",
+    "part": "Produção e interação orais · Monólogo",
+    "task": "Defender uma opinião",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Que ofícios seriam mais úteis?",
+      "Sobraria menos tempo para as outras disciplinas?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c46",
+    "prompt": "Porque é que algumas pessoas preferem comprar online em vez de nas lojas, e que efeito tem isso nos centros das cidades?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DIPLE (B2)",
+    "part": "Produção e interação orais · Problema e solução",
+    "task": "Explicar causas e consequências",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "As cidades deviam proteger o comércio local?",
+      "Compras online mais do que antes?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g20",
+    "prompt": "Pensa num anúncio que viste recentemente. A quem se dirige? O que promete? É honesto, e porque achas isso?",
+    "topic": "Analisar um anúncio",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analisar um anúncio",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Comprarias o produto?",
+      "Como tornarias o anúncio mais honesto?",
+      "Quem pode ser enganado?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g21",
+    "prompt": "Jogo de papéis: queres devolver um telemóvel com defeito à loja. Qual é exatamente o problema? Explica-o com educação, diz o que queres e responde ao funcionário.",
+    "topic": "Devolver um produto",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Devolver um produto",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "O que farás se a loja recusar?",
+      "Como continuarás educado se te acusarem?",
+      "Aceitarias uma reparação?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c47",
+    "prompt": "Como podem as cidades tornar os transportes públicos tão atrativos que as pessoas deixem o carro em casa? Pensa no preço, na fiabilidade e no conforto.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE (C1)",
+    "part": "Produção e interação orais · Argumentação",
+    "task": "Argumentar",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Qual dos três aspetos conta mais?",
+      "Seria justo cobrar a entrada no centro?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c48",
+    "prompt": "Analisa se o uso crescente da inteligência artificial no trabalho vai criar empregos mais valiosos ou apenas deslocar trabalhadores qualificados.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE (C1)",
+    "part": "Produção e interação orais · Debate académico",
+    "task": "Análise crítica",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quem ganha mais com esta mudança?",
+      "Devem os governos intervir, e como?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c49",
+    "prompt": "Em que medida devem os Estados regular os conteúdos que as redes sociais recomendam aos seus utilizadores?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CAPLE DAPLE (C1)",
+    "part": "Produção e interação orais · Argumentação matizada",
+    "task": "Argumentar com matizes",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Onde está a fronteira entre regular e censurar?",
+      "Podem os utilizadores proteger-se sozinhos?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g22",
+    "prompt": "Apresenta argumentos a favor ou contra a abolição das propinas. Expõe a tua posição, antecipa a objeção mais forte e responde-lhe. Devem os estudantes pagar o seu curso?",
+    "topic": "Defender uma tese",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Defender uma tese",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quem devia pagar, se não o estudante?",
+      "A gratuitidade desvalorizaria o curso?",
+      "O que se passa no teu país?"
+    ]
+  },
+  {
+    "id": "pt:speaking:g23",
+    "prompt": "É possível ser realmente objetivo quando se dão as notícias? Discute a partir de um assunto que tenhas acompanhado. Onde aparece o enviesamento com mais frequência?",
+    "topic": "Discutir a objetividade",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutir a objetividade",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Equilíbrio significa dar voz aos dois lados?",
+      "Como pode o leitor avaliar a fiabilidade?",
+      "A tua opinião mudou?"
+    ]
   }
 ]

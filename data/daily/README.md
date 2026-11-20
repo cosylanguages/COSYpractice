@@ -49,15 +49,17 @@ practised.
 
 Every language carries two kinds of speaking card.
 
-- **Exam track** (`track` absent or `"exam"`) — modelled on a real exam task, with `exam`, `part` and `task`. 538 cards.
+- **Exam track** (`track` absent or `"exam"`) — modelled on a real exam task, with `exam`, `part` and `task`. 829 cards.
 - **General-course track** (`"track": "general"`) — no exam at all. The card teaches speaking for its own sake:
   brainstorm a list, analyse a headline, describe a room, compare two options, role-play a shop return, solve a small
-  problem, plan something together, present a proposal. 240 cards, so learners who are not preparing for an exam
+  problem, plan something together, present a proposal. 422 cards, so learners who are not preparing for an exam
   still get daily practice.
 
-Both tracks are complete for every band and every language: at least **8 exam cards** and **4 general cards** per
+Both tracks are complete for every band and every language: at least **12 exam cards** and **6 general cards** per
 CEFR band per language, and the general track uses all twelve activities in all fourteen languages. So whichever
-level a learner picks, in whichever language, there is real practice written for it.
+level a learner picks, in whichever language, there is real practice written for it. In practice every language
+carries 13 or more exam cards and 6 or more general cards in each band, so the daily rotation takes at least two
+weeks to repeat.
 
 ```json
 { "id": "en:speaking:g1",

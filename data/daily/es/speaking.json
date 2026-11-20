@@ -1451,5 +1451,392 @@
     "follow_ups": [
       "¿Le gustaría estar allí? ¿Por qué?"
     ]
+  },
+  {
+    "id": "es:speaking:c39",
+    "prompt": "Esta es la foto de tu habitación. Dime cinco cosas que ves y dónde están.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A1",
+    "part": "Tarea 3 · Descripción de una fotografía",
+    "task": "Describir una imagen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿De qué color es la cama?",
+      "¿Hay una ventana en la habitación?"
+    ]
+  },
+  {
+    "id": "es:speaking:c40",
+    "prompt": "Háblame de tu mejor amigo. ¿Cómo se llama, cuántos años tiene y qué hacéis juntos?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A1",
+    "part": "Tarea 1 · Presentación personal",
+    "task": "Hablar de una persona",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Dónde os encontráis?",
+      "¿Qué os gusta hacer juntos?"
+    ]
+  },
+  {
+    "id": "es:speaking:c41",
+    "prompt": "Estás en una cafetería. Pide un café y un bocadillo y luego pregunta cuánto cuestan.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A1",
+    "part": "Tarea 2 · Conversación con el examinador",
+    "task": "Diálogo cotidiano",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Pagas en efectivo o con tarjeta?",
+      "¿Quieres algo más?"
+    ]
+  },
+  {
+    "id": "es:speaking:g18",
+    "prompt": "Cuéntame tu último cumpleaños. ¿Qué hiciste? ¿Quién estaba? ¿Qué comiste?",
+    "topic": "Contar un recuerdo",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Contar un recuerdo",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Fue un día bonito?",
+      "¿Qué regalo te gustó más?",
+      "¿Qué harás el año que viene?"
+    ]
+  },
+  {
+    "id": "es:speaking:c42",
+    "prompt": "Háblame de la última película que viste. ¿De qué trataba y te gustó?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A2",
+    "part": "Tarea 1 · Monólogo",
+    "task": "Contar una experiencia",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Con quién la viste?",
+      "¿La volverías a ver?"
+    ]
+  },
+  {
+    "id": "es:speaking:c43",
+    "prompt": "Estás organizando una excursión con un amigo. Habla de dos lugares posibles y luego elige uno y explica por qué.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A2",
+    "part": "Tarea 3 · Diálogo en situación simulada",
+    "task": "Tomar una decisión",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Cómo vais a ir?",
+      "¿Qué vais a llevar?"
+    ]
+  },
+  {
+    "id": "es:speaking:c44",
+    "prompt": "Describe un lugar de tu ciudad que los turistas deberían ver. ¿Qué es, dónde está y por qué es especial?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE A2",
+    "part": "Tarea 2 · Descripción de una fotografía",
+    "task": "Describir un lugar",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Vas allí a menudo?",
+      "¿Cuál es la mejor época para visitarlo?"
+    ]
+  },
+  {
+    "id": "es:speaking:g19",
+    "prompt": "Describe tu tienda favorita. ¿Qué vende? ¿Con quién vas? ¿Por qué te gusta?",
+    "topic": "Describir un lugar",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Describir un lugar",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Es cara?",
+      "¿Qué compraste la última vez?",
+      "¿Te gustaría trabajar en una tienda así?"
+    ]
+  },
+  {
+    "id": "es:speaking:c45",
+    "prompt": "Describe esta fotografía durante un minuto: qué ves, qué hacen las personas y cómo pueden sentirse.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE B2",
+    "part": "Tarea 1 · Monólogo",
+    "task": "Describir e interpretar una imagen",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Te gustaría estar en esta situación?",
+      "¿Qué pasó justo antes de la foto?"
+    ]
+  },
+  {
+    "id": "es:speaking:c46",
+    "prompt": "Algunos piensan que todos los estudiantes deberían aprender un oficio manual en la escuela. ¿Hasta qué punto estás de acuerdo?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE B1",
+    "part": "Tarea 1 · Monólogo",
+    "task": "Defender una opinión",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué oficios serían más útiles?",
+      "¿Quedaría menos tiempo para otras asignaturas?"
+    ]
+  },
+  {
+    "id": "es:speaking:c47",
+    "prompt": "¿Por qué algunas personas prefieren comprar por internet en lugar de en las tiendas, y qué efecto tiene esto en los centros de las ciudades?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE B2",
+    "part": "Tarea 2 · Debate",
+    "task": "Explicar causas y consecuencias",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Deberían las ciudades proteger sus comercios?",
+      "¿Compras por internet más que antes?"
+    ]
+  },
+  {
+    "id": "es:speaking:g20",
+    "prompt": "Piensa en un anuncio que hayas visto hace poco. ¿A quién va dirigido? ¿Qué promete? ¿Es honesto, y por qué lo crees?",
+    "topic": "Analizar un anuncio",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizar un anuncio",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "¿Comprarías el producto?",
+      "¿Cómo sería el anuncio más honesto?",
+      "¿A quién podría engañar?"
+    ]
+  },
+  {
+    "id": "es:speaking:g21",
+    "prompt": "Juego de rol: quieres devolver un teléfono defectuoso a la tienda. ¿Cuál es exactamente el problema? Explícalo con educación, di qué quieres y responde al dependiente.",
+    "topic": "Devolver un producto",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Devolver un producto",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "¿Qué harás si la tienda se niega?",
+      "¿Cómo seguirás siendo educado si te acusan?",
+      "¿Aceptarías una reparación?"
+    ]
+  },
+  {
+    "id": "es:speaking:c48",
+    "prompt": "¿Cómo pueden las ciudades hacer el transporte público tan atractivo que la gente deje el coche en casa? Piensa en el precio, la fiabilidad y la comodidad.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE C1",
+    "part": "Tarea 2 · Debate",
+    "task": "Argumentar",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Cuál de los tres aspectos importa más?",
+      "¿Sería justo cobrar por entrar al centro?"
+    ]
+  },
+  {
+    "id": "es:speaking:c49",
+    "prompt": "Analiza si el uso creciente de la inteligencia artificial en el trabajo creará empleos más valiosos o solo desplazará a personal cualificado.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE C2",
+    "part": "Tarea 1 · Monólogo",
+    "task": "Análisis crítico",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Quién gana más con este cambio?",
+      "¿Deberían intervenir los gobiernos, y cómo?"
+    ]
+  },
+  {
+    "id": "es:speaking:c50",
+    "prompt": "¿Hasta qué punto deberían los Estados regular los contenidos que las redes sociales recomiendan a sus usuarios?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELE C1",
+    "part": "Tarea 2 · Debate",
+    "task": "Argumentar con matices",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Dónde está la frontera entre regular y censurar?",
+      "¿Pueden los usuarios protegerse solos?"
+    ]
+  },
+  {
+    "id": "es:speaking:g22",
+    "prompt": "Presenta argumentos a favor o en contra de eliminar las tasas universitarias. Expón tu posición, anticipa la objeción más fuerte y respóndela. ¿Deben los estudiantes pagar su título?",
+    "topic": "Defender una tesis",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Defender una tesis",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Quién debería pagar, si no el estudiante?",
+      "¿Restaría valor al título la gratuidad?",
+      "¿Qué hace tu país?"
+    ]
+  },
+  {
+    "id": "es:speaking:g23",
+    "prompt": "¿Se puede ser realmente objetivo al dar las noticias? Debate a partir de un tema que hayas seguido. ¿Dónde aparece el sesgo con más frecuencia?",
+    "topic": "Debatir la objetividad",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Debatir la objetividad",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Equilibrio significa dar voz a las dos partes?",
+      "¿Cómo puede un lector juzgar la fiabilidad?",
+      "¿Ha cambiado tu opinión?"
+    ]
   }
 ]

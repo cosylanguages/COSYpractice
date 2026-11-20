@@ -67,12 +67,19 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
     try { data = JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { errors.push(`${rel}: ${e.message}`); continue; }
     if (!Array.isArray(data) || !data.length) { errors.push(`${rel}: must be a non-empty array`); continue; }
     const ids = new Set();
+    const prompts = new Map();
     data.forEach((e, i) => {
       const at = `${rel}[${i}]`;
       if (!e || typeof e.id !== 'string' || !e.id) errors.push(`${at}: id missing`);
       else if (ids.has(e.id)) errors.push(`${at}: duplicate id ${e.id}`);
       else ids.add(e.id);
       if (typeof e.prompt !== 'string' || e.prompt.trim().length < 10) errors.push(`${at}: prompt missing or too short`);
+      else {
+        // The strip rotates through the pool, so a repeated prompt shows the same task twice.
+        const key = e.prompt.trim().toLowerCase().replace(/\s+/g, ' ');
+        if (prompts.has(key)) errors.push(`${at}: duplicate prompt (same as ${prompts.get(key)})`);
+        else prompts.set(key, e.id || at);
+      }
       if (typeof e.level !== 'string' || !LEVEL.test(e.level)) errors.push(`${at}: invalid level "${e.level}"`);
       if (e.curated !== undefined && typeof e.curated !== 'boolean') errors.push(`${at}: curated must be a boolean`);
 

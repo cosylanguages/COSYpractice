@@ -1,6 +1,6 @@
 # Native-speaker review: daily speaking and writing prompts
 
-These files were initialised with 10 placeholder prompts per language (30 for English) and moved from COSYdata, which now holds vocabulary only. Speaking has since been expanded to curated prompts for every CEFR band in every language, with exam-style scaffolding (`task`, `exam`, `prep_seconds`, `speak_seconds`, `follow_ups`); those additions still need a native-speaker read for wording, register and cultural fit before they are treated as final. Writing is still at 10 placeholders per language and needs the same expansion.
+These files were initialised with 10 placeholder prompts per language (30 for English) and moved from COSYdata, which now holds vocabulary only. Speaking has since been expanded twice: first to curated prompts for every CEFR band in every language, then again so that every language carries at least 13 exam and 6 general cards per band (1251 curated speaking cards in total), with exam-style scaffolding (`task`, `exam`, `prep_seconds`, `speak_seconds`, `follow_ups`). Those additions still need a native-speaker read for wording, register and cultural fit before they are treated as final. Writing is still at 10 placeholders per language and needs the same expansion.
 
 ---
 

@@ -1,13 +1,13 @@
 [
   {
     "id": "it:writing:1",
-    "prompt": "Scrivi un breve paragrafo sulla tua giornata ideale.",
+    "prompt": "Descrivi il tuo quartiere: cosa ti piace, cosa ti disturba e cosa cambieresti.",
     "topic": "lifestyle",
     "level": "A2"
   },
   {
     "id": "it:writing:2",
-    "prompt": "Scrivi un'email informale per invitare un amico a prendere un caffè.",
+    "prompt": "Scrivi una breve email a un amico per proporgli di vedervi sabato.",
     "topic": "communication",
     "level": "A2"
   },

@@ -1412,5 +1412,392 @@
       "Auf welchen Teil freuen Sie sich am meisten?",
       "Was kostet das?"
     ]
+  },
+  {
+    "id": "de:speaking:c37",
+    "prompt": "Das ist ein Foto von deinem Zimmer. Nenne fünf Dinge, die du siehst, und sag, wo sie stehen.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Sprechen Teil 2 · Alltagsfragen",
+    "task": "Bild beschreiben",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Welche Farbe hat das Bett?",
+      "Gibt es ein Fenster im Zimmer?"
+    ]
+  },
+  {
+    "id": "de:speaking:c38",
+    "prompt": "Erzähl mir von deinem besten Freund. Wie heißt er, wie alt ist er und was macht ihr zusammen?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Sprechen Teil 1 · Sich vorstellen",
+    "task": "Über eine Person sprechen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Wo trefft ihr euch?",
+      "Was macht ihr gern zusammen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c39",
+    "prompt": "Du bist im Café. Bestell einen Kaffee und ein Brötchen und frag dann, was sie kosten.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A1",
+    "part": "Sprechen Teil 3 · Bitten und Reagieren",
+    "task": "Alltagsgespräch",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Zahlst du bar oder mit Karte?",
+      "Möchtest du noch etwas?"
+    ]
+  },
+  {
+    "id": "de:speaking:g18",
+    "prompt": "Erzähl von deinem letzten Geburtstag. Was hast du gemacht? Wer war dabei? Was hast du gegessen?",
+    "topic": "Von einem Erlebnis erzählen",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Von einem Erlebnis erzählen",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "War es ein schöner Tag?",
+      "Welches Geschenk hat dir am besten gefallen?",
+      "Was machst du nächstes Jahr?"
+    ]
+  },
+  {
+    "id": "de:speaking:c40",
+    "prompt": "Erzähl mir von dem letzten Film, den du gesehen hast. Worum ging es, und hat er dir gefallen?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Sprechen Teil 2 · Über ein Thema sprechen",
+    "task": "Über eine Erfahrung berichten",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Mit wem hast du ihn gesehen?",
+      "Würdest du ihn noch einmal schauen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c41",
+    "prompt": "Du planst einen Ausflug mit einem Freund. Sprich über zwei mögliche Ziele und wähle dann eines aus.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Sprechen Teil 3 · Gemeinsam etwas planen",
+    "task": "Gemeinsam planen",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Wie kommt ihr dorthin?",
+      "Was nehmt ihr mit?"
+    ]
+  },
+  {
+    "id": "de:speaking:c42",
+    "prompt": "Beschreib einen Ort in deiner Stadt, den Touristen sehen sollten. Was ist das, wo ist er und warum ist er besonders?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat A2",
+    "part": "Sprechen Teil 2 · Über ein Thema sprechen",
+    "task": "Einen Ort beschreiben",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Gehst du oft dorthin?",
+      "Wann ist die beste Zeit für einen Besuch?"
+    ]
+  },
+  {
+    "id": "de:speaking:g19",
+    "prompt": "Beschreib dein Lieblingsgeschäft. Was verkauft es? Mit wem gehst du hin? Warum magst du es?",
+    "topic": "Einen Ort beschreiben",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Einen Ort beschreiben",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ist es teuer?",
+      "Was hast du dort letztes Mal gekauft?",
+      "Würdest du dort gern arbeiten?"
+    ]
+  },
+  {
+    "id": "de:speaking:c43",
+    "prompt": "Beschreib dieses Foto etwa eine Minute lang: was du siehst, was die Menschen tun und wie sie sich fühlen könnten.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B1",
+    "part": "Sprechen Teil 2 · Präsentation",
+    "task": "Bild beschreiben und deuten",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wärst du gern in dieser Situation?",
+      "Was ist kurz vor dem Foto passiert?"
+    ]
+  },
+  {
+    "id": "de:speaking:c44",
+    "prompt": "Manche finden, alle Schüler sollten in der Schule ein Handwerk lernen. Inwieweit stimmst du zu?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B2",
+    "part": "Sprechen Teil 2 · Diskussion",
+    "task": "Eine Position vertreten",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Welche Berufe wären am nützlichsten?",
+      "Bliebe dann weniger Zeit für andere Fächer?"
+    ]
+  },
+  {
+    "id": "de:speaking:c45",
+    "prompt": "Warum kaufen manche Menschen lieber online als im Geschäft, und welchen Einfluss hat das auf die Innenstädte?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat B2",
+    "part": "Sprechen Teil 2 · Diskussion",
+    "task": "Ursachen und Folgen erklären",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Sollten Städte ihre Geschäfte schützen?",
+      "Kaufst du mehr online als früher?"
+    ]
+  },
+  {
+    "id": "de:speaking:g20",
+    "prompt": "Denk an eine Werbung, die du kürzlich gesehen hast. An wen richtet sie sich? Was verspricht sie? Ist sie ehrlich, und warum?",
+    "topic": "Eine Werbung analysieren",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Eine Werbung analysieren",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Würdest du das Produkt kaufen?",
+      "Wie wäre die Werbung fairer?",
+      "Wer könnte getäuscht werden?"
+    ]
+  },
+  {
+    "id": "de:speaking:g21",
+    "prompt": "Rollenspiel: Du willst ein defektes Handy im Geschäft zurückgeben. Was genau ist das Problem? Erklär es höflich, sag, was du willst, und antworte dem Verkäufer.",
+    "topic": "Ein Produkt zurückgeben",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Ein Produkt zurückgeben",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Was machst du, wenn das Geschäft ablehnt?",
+      "Wie bleibst du höflich, wenn man dich beschuldigt?",
+      "Würdest du eine Reparatur akzeptieren?"
+    ]
+  },
+  {
+    "id": "de:speaking:c46",
+    "prompt": "Wie können Städte den öffentlichen Verkehr so attraktiv machen, dass Menschen ihr Auto zu Hause lassen? Denk an Preis, Zuverlässigkeit und Komfort.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C1",
+    "part": "Sprechen Teil 2 · Diskussion",
+    "task": "Argumentieren",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Was von den drei zählt am meisten?",
+      "Wäre eine Innenstadtmaut gerecht?"
+    ]
+  },
+  {
+    "id": "de:speaking:c47",
+    "prompt": "Erörtere, ob der wachsende Einsatz künstlicher Intelligenz im Beruf sinnvollere Arbeit schafft oder nur Fachkräfte verdrängt.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C2",
+    "part": "Sprechen Teil 1 · Vortrag",
+    "task": "Kritische Analyse",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wer profitiert am meisten von dieser Entwicklung?",
+      "Sollte der Staat eingreifen, und wie?"
+    ]
+  },
+  {
+    "id": "de:speaking:c48",
+    "prompt": "Inwieweit sollten Staaten regulieren, welche Inhalte soziale Netzwerke ihren Nutzern empfehlen?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Goethe-Zertifikat C1",
+    "part": "Sprechen Teil 2 · Diskussion",
+    "task": "Argumentieren mit Einwänden",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wo liegt die Grenze zwischen Regulierung und Zensur?",
+      "Können sich Nutzer selbst schützen?"
+    ]
+  },
+  {
+    "id": "de:speaking:g22",
+    "prompt": "Vertritt eine Position für oder gegen kostenlose Studiengebühren. Nenne deine Haltung, nimm den stärksten Einwand vorweg und entkräfte ihn. Sollten Studierende ihr Studium selbst bezahlen?",
+    "topic": "Eine These verteidigen",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Eine These verteidigen",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wer sollte zahlen, wenn nicht der Studierende?",
+      "Würde ein kostenloses Studium den Abschluss entwerten?",
+      "Wie ist es in deinem Land?"
+    ]
+  },
+  {
+    "id": "de:speaking:g23",
+    "prompt": "Kann man wirklich objektiv sein, wenn man Nachrichten präsentiert? Diskutiere an einem Thema, das du verfolgt hast. Wo schleicht sich Voreingenommenheit am häufigsten ein?",
+    "topic": "Über Objektivität diskutieren",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Über Objektivität diskutieren",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Heißt Ausgewogenheit, beiden Seiten gleich viel Raum zu geben?",
+      "Wie kann ein Leser Verlässlichkeit beurteilen?",
+      "Hat sich deine Sicht geändert?"
+    ]
   }
 ]

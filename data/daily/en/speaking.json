@@ -2491,5 +2491,392 @@
       "How will automation change the answer?",
       "Which choice has more risk?"
     ]
+  },
+  {
+    "id": "en:speaking:c75",
+    "prompt": "Here is a picture of a bedroom. Tell me five things you can see in it, and say where each thing is.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Part 2 · Object cards",
+    "task": "Picture description",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "What colour is the bed?",
+      "Is there a window in the room?"
+    ]
+  },
+  {
+    "id": "en:speaking:c76",
+    "prompt": "Look at these two pictures of a park. Tell me three things that are different.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Part 1 · Find the differences",
+    "task": "Spotting differences",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which park do you like better?",
+      "Is there a tree in your park?"
+    ]
+  },
+  {
+    "id": "en:speaking:c77",
+    "prompt": "Tell me about your best friend. What is their name, how old are they, and what do you do together?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Part 4 · Personal questions",
+    "task": "Describing a person",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Where do you meet your friend?",
+      "What games do you play?"
+    ]
+  },
+  {
+    "id": "en:speaking:g20",
+    "prompt": "Tell me about your last birthday. What did you do? Who was there? What did you eat?",
+    "topic": "Tell a story",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Tell a story",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Was it a happy day?",
+      "What present did you like best?",
+      "What will you do next year?"
+    ]
+  },
+  {
+    "id": "en:speaking:c78",
+    "prompt": "Tell me about the last film or programme you watched. What was it about, and did you like it?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 1 · Interview",
+    "task": "Talking about experiences",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Who did you watch it with?",
+      "Would you watch it again?"
+    ]
+  },
+  {
+    "id": "en:speaking:c79",
+    "prompt": "You are planning a day out with a friend. Talk about two places you could go, then choose one and say why.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 2 · Discussion",
+    "task": "Making a choice",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How will you travel there?",
+      "What will you take with you?"
+    ]
+  },
+  {
+    "id": "en:speaking:c80",
+    "prompt": "Describe a place in your town that visitors should see. What is it, where is it, and why is it special?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE I",
+    "part": "Topic task",
+    "task": "Describing a place",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How often do you go there?",
+      "When is the best time to visit?"
+    ]
+  },
+  {
+    "id": "en:speaking:g21",
+    "prompt": "Describe your favourite shop. What does it sell? Who do you go there with? Why do you like it?",
+    "topic": "Describe a place",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Describe a place",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Is it expensive?",
+      "What did you buy there last time?",
+      "Would you work in a shop like that?"
+    ]
+  },
+  {
+    "id": "en:speaking:c81",
+    "prompt": "Describe this photograph for about one minute: what you can see, what the people are doing, and how they might feel.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Part 2 · Extended turn",
+    "task": "Photo comparison",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Would you like to be in this situation?",
+      "What happened just before the photo?"
+    ]
+  },
+  {
+    "id": "en:speaking:c82",
+    "prompt": "Some people think every student should learn a practical trade at school. To what extent do you agree?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Part 4 · Discussion",
+    "task": "Weighing an argument",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Which trades would be most useful?",
+      "Would this leave less time for other subjects?"
+    ]
+  },
+  {
+    "id": "en:speaking:c83",
+    "prompt": "Why do some people prefer to shop online rather than in shops, and what effect does this have on town centres?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS",
+    "part": "Part 3 · Discussion",
+    "task": "Explaining causes and effects",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Should towns do more to protect their shops?",
+      "Do you shop online more than you used to?"
+    ]
+  },
+  {
+    "id": "en:speaking:g22",
+    "prompt": "Think about a recent advertisement you saw. Who is it for? What does it promise? Is it honest, and why do you think so?",
+    "topic": "Analyse an advert",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyse an advert",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Would you buy the product?",
+      "What would make the advert fairer?",
+      "Who might be misled by it?"
+    ]
+  },
+  {
+    "id": "en:speaking:g23",
+    "prompt": "Role-play: you want to return a faulty phone to a shop. What exactly is wrong with it? Explain the problem politely, say what you want, and answer the assistant's questions.",
+    "topic": "Return a faulty item",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Return a faulty item",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "What will you do if the shop says no?",
+      "How would you stay polite if they blamed you?",
+      "Would you accept a repair instead?"
+    ]
+  },
+  {
+    "id": "en:speaking:c84",
+    "prompt": "How can cities make public transport attractive enough that people leave their cars at home? Consider cost, reliability and comfort.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C1 Advanced (CAE)",
+    "part": "Part 3 · Collaborative task",
+    "task": "Collaborative problem-solving",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Which of the three matters most?",
+      "Would congestion charging be fair?"
+    ]
+  },
+  {
+    "id": "en:speaking:c85",
+    "prompt": "Consider whether the growing use of AI in the workplace will create more meaningful work or merely displace skilled labour.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C2 Proficiency (CPE)",
+    "part": "Part 3 · Long turn and follow-up",
+    "task": "Evaluating a proposition",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Who gains most from this change?",
+      "Should governments intervene, and how?"
+    ]
+  },
+  {
+    "id": "en:speaking:c86",
+    "prompt": "To what extent should governments regulate the content that social media platforms recommend to their users?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS",
+    "part": "Part 3 · Discussion",
+    "task": "Structured argument",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Where is the line between regulation and censorship?",
+      "Can users protect themselves?"
+    ]
+  },
+  {
+    "id": "en:speaking:g24",
+    "prompt": "Present a case for or against abolishing university tuition fees. State your position, anticipate the strongest objection, and respond to it. Should students pay for their own degrees?",
+    "topic": "Argue a case",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Argue a case",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Who should pay, if not the student?",
+      "Would free study lower the value of a degree?",
+      "What does your country do?"
+    ]
+  },
+  {
+    "id": "en:speaking:g25",
+    "prompt": "Is it possible to be truly objective when reporting the news? Discuss with reference to a story you have followed recently. Where does bias usually enter?",
+    "topic": "Discuss objectivity",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuss objectivity",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Does balance mean giving equal time to both sides?",
+      "How can a reader judge reliability?",
+      "Has your own view changed?"
+    ]
   }
 ]

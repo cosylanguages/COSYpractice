@@ -1981,5 +1981,392 @@
       "Come cambierà la risposta con l'automazione?",
       "Quale scelta è più rischiosa?"
     ]
+  },
+  {
+    "id": "it:speaking:c53",
+    "prompt": "Questa è la foto della tua camera. Dimmi cinque oggetti che vedi e dove si trovano.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A1",
+    "part": "Parte 2 · Monologo",
+    "task": "Descrivere un'immagine",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Di che colore è il letto?",
+      "C'è una finestra nella stanza?"
+    ]
+  },
+  {
+    "id": "it:speaking:c54",
+    "prompt": "Parlami del tuo migliore amico. Come si chiama, quanti anni ha e cosa fate insieme?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A1",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Parlare di una persona",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Dove vi incontrate?",
+      "Che cosa vi piace fare?"
+    ]
+  },
+  {
+    "id": "it:speaking:c55",
+    "prompt": "Sei in un bar. Ordina un caffè e un cornetto, poi chiedi quanto costano.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI Impatto",
+    "part": "Prova orale · Dialogo",
+    "task": "Dialogo quotidiano",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Paghi in contanti o con la carta?",
+      "Vuoi altro?"
+    ]
+  },
+  {
+    "id": "it:speaking:g20",
+    "prompt": "Racconta il tuo ultimo compleanno. Cosa hai fatto? Chi c'era? Cosa hai mangiato?",
+    "topic": "Raccontare un ricordo",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Raccontare un ricordo",
+    "activity": "narrate",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "È stata una bella giornata?",
+      "Quale regalo ti è piaciuto di più?",
+      "Cosa farai l'anno prossimo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c56",
+    "prompt": "Parlami dell'ultimo film che hai visto. Di cosa parlava e ti è piaciuto?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A2",
+    "part": "Parte 2 · Monologo",
+    "task": "Raccontare un'esperienza",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Con chi l'hai visto?",
+      "Lo guarderesti di nuovo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c57",
+    "prompt": "Stai organizzando una gita con un amico. Parla di due posti possibili, poi scegline uno e spiega perché.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A2",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Fare una scelta",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Come ci andate?",
+      "Cosa portate con voi?"
+    ]
+  },
+  {
+    "id": "it:speaking:c58",
+    "prompt": "Descrivi un posto della tua città che i turisti dovrebbero vedere. Cos'è, dov'è e perché è speciale?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 1",
+    "part": "Prova orale · Monologo",
+    "task": "Descrivere un luogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ci vai spesso?",
+      "Qual è il periodo migliore per visitarlo?"
+    ]
+  },
+  {
+    "id": "it:speaking:g21",
+    "prompt": "Descrivi il tuo negozio preferito. Cosa vende? Con chi ci vai? Perché ti piace?",
+    "topic": "Descrivere un luogo",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Descrivere un luogo",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "È caro?",
+      "Cosa hai comprato l'ultima volta?",
+      "Ti piacerebbe lavorare in un negozio così?"
+    ]
+  },
+  {
+    "id": "it:speaking:c59",
+    "prompt": "Descrivi questa fotografia per circa un minuto: cosa vedi, cosa fanno le persone e come si sentono.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS B2",
+    "part": "Parte 2 · Monologo",
+    "task": "Descrivere e interpretare un'immagine",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Ti piacerebbe essere in questa situazione?",
+      "Cosa è successo subito prima della foto?"
+    ]
+  },
+  {
+    "id": "it:speaking:c60",
+    "prompt": "Alcuni pensano che tutti gli studenti dovrebbero imparare un mestiere manuale a scuola. Sei d'accordo?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS B1",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentare un'opinione",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quali mestieri sarebbero più utili?",
+      "Rimandrebbe meno tempo alle altre materie?"
+    ]
+  },
+  {
+    "id": "it:speaking:c61",
+    "prompt": "Perché alcune persone preferiscono comprare online invece che nei negozi, e che effetto ha questo sui centri storici?",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 3",
+    "part": "Prova orale · Interazione",
+    "task": "Spiegare cause ed effetti",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Le città dovrebbero proteggere i negozi?",
+      "Compri online più di prima?"
+    ]
+  },
+  {
+    "id": "it:speaking:g22",
+    "prompt": "Pensa a una pubblicità che hai visto di recente. A chi è rivolta? Cosa promette? È onesta, e perché?",
+    "topic": "Analizzare una pubblicità",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizzare una pubblicità",
+    "activity": "analyse",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Compreresti quel prodotto?",
+      "Come renderesti la pubblicità più onesta?",
+      "Chi potrebbe essere ingannato?"
+    ]
+  },
+  {
+    "id": "it:speaking:g23",
+    "prompt": "Gioco di ruolo: vuoi restituire un telefono difettoso al negozio. Qual è esattamente il problema? Spiegalo con gentilezza, di' cosa vuoi e rispondi al commesso.",
+    "topic": "Restituire un articolo difettoso",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Restituire un articolo difettoso",
+    "activity": "role-play",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Cosa farai se il negozio rifiuta?",
+      "Come resterai gentile se ti accusano?",
+      "Accetteresti una riparazione?"
+    ]
+  },
+  {
+    "id": "it:speaking:c62",
+    "prompt": "Come possono le città rendere i mezzi pubblici abbastanza attraenti da far lasciare l'auto a casa? Considera prezzo, affidabilità e comfort.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS C1",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentazione critica",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quale dei tre aspetti conta di più?",
+      "Sarebbe giusto far pagare il traffico in centro?"
+    ]
+  },
+  {
+    "id": "it:speaking:c63",
+    "prompt": "Analizza se l'uso crescente dell'intelligenza artificiale sul lavoro creerà lavori più significativi o sposterà soltanto la manodopera qualificata.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS C2",
+    "part": "Parte 2 · Monologo",
+    "task": "Analizzare una questione",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Chi guadagna di più da questo cambiamento?",
+      "I governi dovrebbero intervenire, e come?"
+    ]
+  },
+  {
+    "id": "it:speaking:c64",
+    "prompt": "In che misura gli Stati dovrebbero regolare i contenuti che i social network consigliano ai loro utenti?",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 5",
+    "part": "Prova orale · Argomentazione critica",
+    "task": "Argomentare e sfumare",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Dove passa il confine tra regole e censura?",
+      "Gli utenti possono proteggersi da soli?"
+    ]
+  },
+  {
+    "id": "it:speaking:g24",
+    "prompt": "Presenta argomenti a favore o contro l'abolizione delle tasse universitarie. Esponi la tua posizione, prevedi l'obiezione più forte e rispondile. Gli studenti devono pagare il proprio titolo di studio?",
+    "topic": "Difendere una tesi",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Difendere una tesi",
+    "activity": "present",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Chi dovrebbe pagare, se non lo studente?",
+      "La gratuità svaluterebbe la laurea?",
+      "Cosa fa il tuo paese?"
+    ]
+  },
+  {
+    "id": "it:speaking:g25",
+    "prompt": "È possibile essere davvero obiettivi quando si danno le notizie? Discuti partendo da un fatto che hai seguito di recente. Dove entra più spesso il pregiudizio?",
+    "topic": "Discutere l'obiettività",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutere l'obiettività",
+    "activity": "discuss",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Essere equilibrati significa dare voce a entrambe le parti?",
+      "Come può un lettore giudicare l'attendibilità?",
+      "La tua opinione è cambiata?"
+    ]
   }
 ]
