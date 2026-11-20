@@ -70,8 +70,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Come si scrive il tuo nome?",
+      "Quale attività vorresti provare?"
     ]
   },
   {
@@ -85,8 +85,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Quale oggetto usi di più?",
+      "C'è qualcosa di inutile sulla tua scrivania?"
     ]
   },
   {
@@ -100,8 +100,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Ci vai da solo o in compagnia?",
+      "Qual è il periodo migliore per visitarla?"
     ]
   },
   {
@@ -115,8 +115,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Cosa fai di solito la domenica?",
+      "Preferisci restare a casa o uscire?"
     ]
   },
   {
@@ -130,8 +130,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Ascolti musica mentre lavori?",
+      "Quale forma d'arte ti emoziona di più?"
     ]
   },
   {
@@ -145,8 +145,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Che cosa è più difficile da adulti?",
+      "Che consiglio daresti a un principiante?"
     ]
   },
   {
@@ -160,8 +160,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Le tecnologie digitali avvicinano davvero le persone?",
+      "Che cosa abbiamo perso in questo cambiamento?"
     ]
   },
   {
@@ -175,8 +175,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Perché, secondo lei?",
-      "Può dirmi qualcosa in più?"
+      "Un modo di dire può invecchiare male?",
+      "Bisogna insegnare i modi di dire ai principianti?"
     ]
   },
   {

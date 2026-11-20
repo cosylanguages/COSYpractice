@@ -190,8 +190,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "How do you usually practise speaking English?",
+      "Which language is easiest for you, and why?"
     ]
   },
   {
@@ -199,14 +199,14 @@
     "prompt": "Describe three items currently on your desk or in your room.",
     "level": "A0-A1",
     "curated": true,
-    "exam": "Cambridge A1 Movers",
-    "part": "Part 2 · Picture description",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Part 3 · Object cards",
     "task": "Describing objects",
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Which of these things do you use every day?",
+      "Is there anything on your desk you never use?"
     ]
   },
   {
@@ -220,8 +220,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Who cooks it in your home?",
+      "Would you eat it every day?"
     ]
   },
   {
@@ -235,8 +235,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "What is the first thing you do after waking up?",
+      "Do you ever skip breakfast?"
     ]
   },
   {
@@ -250,8 +250,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Would you go there again?",
+      "What did you enjoy most about it?"
     ]
   },
   {
@@ -265,8 +265,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "What do you usually do on sunny weekends?",
+      "Do you prefer staying in or going out?"
     ]
   },
   {
@@ -280,8 +280,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Do you ever feel tired of being online?",
+      "How did people keep in touch before smartphones?"
     ]
   },
   {
@@ -295,8 +295,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Who helped you most?",
+      "What advice would you give to someone facing the same thing?"
     ]
   },
   {
@@ -310,8 +310,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "What do you miss about the other place?",
+      "Would your answer change in ten years?"
     ]
   },
   {
@@ -325,8 +325,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Can someone think well in a language they speak badly?",
+      "Does translation ever fully carry meaning across?"
     ]
   },
   {
@@ -340,8 +340,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Who should decide what an algorithm shows you?",
+      "Has your own feed changed your opinions?"
     ]
   },
   {
@@ -355,8 +355,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Why do you think that is?",
-      "Could you tell me a little more about that?"
+      "Should every child learn a global language?",
+      "What dies when a small language disappears?"
     ]
   },
   {
@@ -382,7 +382,7 @@
     "level": "A0-A1",
     "curated": true,
     "exam": "Cambridge A1 Movers",
-    "part": "Part 2 · Picture description",
+    "part": "Part 1 · Find the differences",
     "task": "Describing your surroundings",
     "prep_seconds": 15,
     "speak_seconds": 45,
@@ -478,7 +478,7 @@
     "level": "A0-A1",
     "curated": true,
     "exam": "Cambridge Pre A1 Starters",
-    "part": "Part 3 · Object cards",
+    "part": "Part 1 · Scene picture",
     "task": "Numbers and quantities",
     "prep_seconds": 15,
     "speak_seconds": 45,
@@ -542,7 +542,7 @@
     "level": "A2",
     "curated": true,
     "exam": "Cambridge A2 Key",
-    "part": "Part 2 · Collaborative task",
+    "part": "Part 2 · Discussion",
     "task": "Functional language: complaints",
     "prep_seconds": 20,
     "speak_seconds": 60,
@@ -558,7 +558,7 @@
     "level": "A2",
     "curated": true,
     "exam": "Cambridge A2 Key",
-    "part": "Part 2 · Collaborative task",
+    "part": "Part 2 · Discussion",
     "task": "Expressing preferences",
     "prep_seconds": 20,
     "speak_seconds": 60,
@@ -702,7 +702,7 @@
     "level": "B1-B2",
     "curated": true,
     "exam": "Cambridge B1 Preliminary",
-    "part": "Part 4 · Discussion",
+    "part": "Part 4 · General conversation",
     "task": "Comparing and contrasting",
     "prep_seconds": 60,
     "speak_seconds": 120,

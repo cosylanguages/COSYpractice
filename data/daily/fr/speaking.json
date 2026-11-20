@@ -70,8 +70,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Comment épelez-vous votre prénom ?",
+      "Quel passe-temps aimeriez-vous essayer ?"
     ]
   },
   {
@@ -85,8 +85,8 @@
     "prep_seconds": 15,
     "speak_seconds": 45,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Quel objet utilisez-vous le plus ?",
+      "Y a-t-il quelque chose d'inutile sur votre table ?"
     ]
   },
   {
@@ -100,8 +100,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Y allez-vous en famille ou entre amis ?",
+      "Quelle saison préférez-vous pour y aller ?"
     ]
   },
   {
@@ -115,8 +115,8 @@
     "prep_seconds": 20,
     "speak_seconds": 60,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Que faites-vous d'habitude le dimanche ?",
+      "Préférez-vous rester chez vous ou sortir ?"
     ]
   },
   {
@@ -130,8 +130,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Écoutez-vous de la musique en travaillant ?",
+      "Quel art vous touche le plus, et pourquoi ?"
     ]
   },
   {
@@ -145,8 +145,8 @@
     "prep_seconds": 60,
     "speak_seconds": 120,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Qu'est-ce qui est plus difficile à l'âge adulte ?",
+      "Que conseilleriez-vous à un débutant ?"
     ]
   },
   {
@@ -160,8 +160,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Les outils numériques rapprochent-ils vraiment les gens ?",
+      "Qu'avez-vous perdu avec ces changements ?"
     ]
   },
   {
@@ -175,8 +175,8 @@
     "prep_seconds": 90,
     "speak_seconds": 150,
     "follow_ups": [
-      "Pourquoi, selon vous ?",
-      "Pouvez-vous m'en dire un peu plus ?"
+      "Une expression peut-elle mal vieillir ?",
+      "Faut-il enseigner les idiomes aux débutants ?"
     ]
   },
   {
@@ -394,7 +394,7 @@
     "level": "A2",
     "curated": true,
     "exam": "TCF",
-    "part": "Tâche 3 · Expression d'un point de vue",
+    "part": "Tâche 1 · Entretien dirigé",
     "task": "Parler de ses projets",
     "prep_seconds": 20,
     "speak_seconds": 60,

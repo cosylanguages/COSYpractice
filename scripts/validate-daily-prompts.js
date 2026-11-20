@@ -28,6 +28,19 @@ const root = path.resolve(__dirname, '..', 'data', 'daily');
 const CORE = ['en', 'fr', 'it', 'ru', 'el'];
 const BANDS = { 'A0-A1': /A0|A1/, 'A2': /A2/, 'B1-B2': /B1|B2/, 'C1-C2': /C1|C2/ };
 const LEVEL = /^(A0|A1|A2|B1|B2|C1|C2)(-(A0|A1|A2|B1|B2|C1|C2))?$/;
+// Exam names that belong to one language only. A card must never name another language's exam, so an
+// English card may say IELTS/TOEFL/Cambridge but never DELF/DELE/Goethe, and so on.
+const EXAM_OWNERS = {
+  fr: /\b(DELF|DALF|TCF)\b/,
+  it: /\b(CILS|CELI)\b/,
+  ru: /(ТРКИ|ТЭУ|ТБУ|TORFL)/,
+  el: /(Ελληνομάθεια)/,
+  es: /\b(DELE|SIELE)\b/,
+  de: /\b(Goethe|ÖSD|telc)\b/,
+  pt: /\b(CAPLE|Celpe-Bras)\b/,
+  en: /\b(IELTS|TOEFL|Cambridge|Trinity|ECPE)\b/,
+  br: /\bDAB\b|Diplom war ar Brezhoneg/
+};
 const MIN_PER_BAND = { speaking: 3, writing: 1 };
 const errors = [];
 
@@ -60,6 +73,12 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
           errors.push(`${at}: follow_ups must list one or two questions`);
         } else if (e.follow_ups.some((q) => typeof q !== 'string' || q.trim().length < 5)) {
           errors.push(`${at}: follow_ups entries must be questions`);
+        }
+
+        // Never name another language's exam on a card: English cards are English-exam only, etc.
+        const text = [e.exam, e.part, e.task, e.prompt, ...(Array.isArray(e.follow_ups) ? e.follow_ups : [])].join(' ');
+        for (const [owner, re] of Object.entries(EXAM_OWNERS)) {
+          if (owner !== lang && re.test(text)) errors.push(`${at}: names a ${owner} exam on a ${lang} card`);
         }
       }
     });
