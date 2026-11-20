@@ -63,48 +63,584 @@
     "id": "it:speaking:c1",
     "prompt": "Presentati: di' il tuo nome, da dove vieni e cosa ti piace fare nel tempo libero.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Domanda quotidiana",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c2",
     "prompt": "Descrivi cosa vedi intorno a te in questo momento usando parole semplici.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Domanda quotidiana",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c3",
     "prompt": "Qual è la tua città preferita da visitare e cosa ti piace di più?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Domanda quotidiana",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c4",
     "prompt": "Come ami trascorrere il fine settimana per rilassarti dopo il lavoro o lo studio?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Domanda quotidiana",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c5",
     "prompt": "Quali generi musicali ascolti quando studi e come influenzano la tua concentrazione?",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Opinione e giustificazione",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c6",
     "prompt": "Preferisci vivere in una metropoli dinamica o in un piccolo borgo storico? Spiega i motivi.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Opinione e giustificazione",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c7",
     "prompt": "In che modo l'esperienza di apprendere una lingua modifica la nostra percezione delle altre culture?",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Argomentazione strutturata",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
   },
   {
     "id": "it:speaking:c8",
     "prompt": "Valuta criticamente i vantaggi e i rischi dell'intelligenza artificiale nella conservazione del patrimonio linguistico.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Argomentazione strutturata",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Perché, secondo lei?",
+      "Può dirmi qualcosa in più?"
+    ]
+  },
+  {
+    "id": "it:speaking:c9",
+    "prompt": "Presentati: di' il tuo nome, la città dove vivi, cosa fai e un'attività che ti piace.",
+    "topic": "presentazioni",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CILS A1",
+    "task": "Presentazione personale",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Come si scrive il tuo nome?",
+      "Cosa fai nel fine settimana?"
+    ]
+  },
+  {
+    "id": "it:speaking:c10",
+    "prompt": "Nomina cinque oggetti che hai in soggiorno e di' di che colore sono.",
+    "topic": "casa",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CELI Impatto",
+    "task": "Descrizione semplice",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quale usi ogni giorno?",
+      "Casa tua è grande o piccola?"
+    ]
+  },
+  {
+    "id": "it:speaking:c11",
+    "prompt": "Parla della tua famiglia: quante persone sono, chi sono e che cosa fanno?",
+    "topic": "famiglia",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CILS A1",
+    "task": "Parlare delle persone",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Con chi hai più confidenza?",
+      "Hai fratelli o sorelle?"
+    ]
+  },
+  {
+    "id": "it:speaking:c12",
+    "prompt": "Cosa mangi e cosa bevi a colazione? Dimmi tre cose.",
+    "topic": "cibo",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CELI Impatto",
+    "task": "Temi quotidiani",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cucini tu la mattina?",
+      "Qual è la tua bevanda preferita?"
+    ]
+  },
+  {
+    "id": "it:speaking:c13",
+    "prompt": "A che ora ti alzi, quando inizi a lavorare o a studiare e quando vai a dormire?",
+    "topic": "orari",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CILS A1",
+    "task": "Ore e abitudini",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Sei una persona mattiniera?",
+      "Cosa fai prima di dormire?"
+    ]
+  },
+  {
+    "id": "it:speaking:c14",
+    "prompt": "Sei al bar. Ordina un caffè e un panino, poi chiedi quanto costano.",
+    "topic": "al bar",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CILS A1",
+    "task": "Funzioni: fare acquisti",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ora chiedi il conto con gentilezza.",
+      "Cosa dici se vuoi dell'acqua?"
+    ]
+  },
+  {
+    "id": "it:speaking:c15",
+    "prompt": "Che tempo fa oggi e cosa indossi?",
+    "topic": "tempo e vestiti",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CILS A1",
+    "task": "Descrizione del quotidiano",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cosa metti quando piove?",
+      "Qual è la tua stagione preferita?"
+    ]
+  },
+  {
+    "id": "it:speaking:c16",
+    "prompt": "Di' i numeri da 1 a 10, poi il prezzo di tre cose che hai comprato questa settimana.",
+    "topic": "i numeri",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CELI Impatto",
+    "task": "Numeri e quantità",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quanto costa un caffè nella tua città?",
+      "Pensi che la vita sia cara oggi?"
+    ]
+  },
+  {
+    "id": "it:speaking:c17",
+    "prompt": "Descrivi il tuo quartiere: cosa c'è vicino a casa tua e cosa ti piace di questo posto?",
+    "topic": "quartiere",
+    "level": "A2",
+    "curated": true,
+    "exam": "CILS A2",
+    "task": "Descrivere un luogo",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa cambieresti del tuo quartiere?",
+      "È facile conoscere persone lì?"
+    ]
+  },
+  {
+    "id": "it:speaking:c18",
+    "prompt": "Cosa hai fatto lo scorso fine settimana? Di' dove sei andato, con chi e cosa ti è piaciuto.",
+    "topic": "lo scorso weekend",
+    "level": "A2",
+    "curated": true,
+    "exam": "CELI 1",
+    "task": "Racconto al passato",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "È stato un weekend normale per te?",
+      "Cosa farai il prossimo weekend?"
+    ]
+  },
+  {
+    "id": "it:speaking:c19",
+    "prompt": "Descrivi una foto delle tue ultime vacanze: chi c'è, dove è stata scattata e cosa succedeva.",
+    "topic": "una foto",
+    "level": "A2",
+    "curated": true,
+    "exam": "CILS A2",
+    "task": "Descrivere un'immagine",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perché hai scelto quel posto?",
+      "Ci torneresti?"
+    ]
+  },
+  {
+    "id": "it:speaking:c20",
+    "prompt": "Vuoi restituire una camicia troppo piccola. Spiega il problema e chiedi il rimborso.",
+    "topic": "reso in negozio",
+    "level": "A2",
+    "curated": true,
+    "exam": "CELI 1",
+    "task": "Funzioni: reclamo",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Il commesso ti propone una taglia più grande. Cosa rispondi?",
+      "Come resti gentile quando non sei contento?"
+    ]
+  },
+  {
+    "id": "it:speaking:c21",
+    "prompt": "Preferisci cucinare a casa o mangiare fuori? Dai due motivi della tua scelta.",
+    "topic": "cucinare o uscire",
+    "level": "A2",
+    "curated": true,
+    "exam": "CILS A2",
+    "task": "Esprimere preferenze",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Quante volte al mese mangi fuori?",
+      "Che piatto sai cucinare bene?"
+    ]
+  },
+  {
+    "id": "it:speaking:c22",
+    "prompt": "Quali sono i tuoi progetti per la prossima estate? Di' cosa farai e perché.",
+    "topic": "progetti estivi",
+    "level": "A2",
+    "curated": true,
+    "exam": "CILS A2",
+    "task": "Parlare di progetti",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Con chi passerai l'estate?",
+      "Hai già pensato a quanto costerà?"
+    ]
+  },
+  {
+    "id": "it:speaking:c23",
+    "prompt": "Come vai al lavoro o a scuola? Descrivi il tragitto e quanto tempo ci vuole.",
+    "topic": "spostamenti",
+    "level": "A2",
+    "curated": true,
+    "exam": "CELI 1",
+    "task": "Abitudini quotidiane",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "I mezzi pubblici nella tua zona sono buoni?",
+      "Cosa renderebbe il tuo tragitto più facile?"
+    ]
+  },
+  {
+    "id": "it:speaking:c24",
+    "prompt": "Racconta l'ultima serata passata con gli amici: dove siete andati e cosa avete fatto?",
+    "topic": "una serata",
+    "level": "A2",
+    "curated": true,
+    "exam": "CILS A2",
+    "task": "Racconto e valutazione",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Preferisci uscire di sera o di giorno?",
+      "Quanto hai speso?"
+    ]
+  },
+  {
+    "id": "it:speaking:c25",
+    "prompt": "Descrivi una competenza che hai imparato e che ha cambiato la tua vita quotidiana: quale, come e perché.",
+    "topic": "una competenza",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B1",
+    "task": "Monologo",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "È stata difficile all'inizio?",
+      "La consiglieresti a una persona della tua età?"
+    ]
+  },
+  {
+    "id": "it:speaking:c26",
+    "prompt": "Alcuni dicono che l'esame è il modo migliore per valutare le capacità. Sei d'accordo?",
+    "topic": "gli esami",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B2",
+    "task": "Prendere posizione",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Con cosa sostituiresti gli esami?",
+      "Come influenzano il modo di studiare?"
+    ]
+  },
+  {
+    "id": "it:speaking:c27",
+    "prompt": "Sei d'accordo: è meglio lavorare in gruppo o da soli? Motiva con esempi.",
+    "topic": "lavoro di squadra",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B2",
+    "task": "Argomentare",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Cosa fa fallire un gruppo?",
+      "Hai mai guidato un gruppo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c28",
+    "prompt": "La tua città vuole ridurre il traffico delle auto. Proponi due misure e spiega gli effetti che prevedi.",
+    "topic": "traffico",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CELI 2",
+    "task": "Problema e soluzione",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi potrebbe opporsi e perché?",
+      "Cosa ha già provato la tua città?"
+    ]
+  },
+  {
+    "id": "it:speaking:c29",
+    "prompt": "Racconta una decisione che rimpiangi e spiega cosa faresti diversamente oggi.",
+    "topic": "un rimpianto",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B2",
+    "task": "Racconto con riflessione",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Cosa hai imparato?",
+      "Impariamo più dagli errori o dai successi?"
+    ]
+  },
+  {
+    "id": "it:speaking:c30",
+    "prompt": "Confronta l'apprendimento di una lingua a scuola e vivendo all'estero.",
+    "topic": "scuola o immersione",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B1",
+    "task": "Confrontare",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Cosa sceglieresti con un budget limitato?",
+      "Qual è il vantaggio principale di ciascun metodo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c31",
+    "prompt": "Come ha cambiato il lavoro a distanza le aspettative dei dipendenti? Porta esempi.",
+    "topic": "lavoro a distanza",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CELI 2",
+    "task": "Analizzare un cambiamento",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Va bene per tutte le professioni?",
+      "Cosa perdono i datori di lavoro?"
+    ]
+  },
+  {
+    "id": "it:speaking:c32",
+    "prompt": "Un comune deve restaurare un edificio storico o costruire una palestra? Sostieni una delle due opzioni.",
+    "topic": "patrimonio locale",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CILS B2",
+    "task": "Dibattito",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Come convinceresti chi non è d'accordo?",
+      "Cosa guadagna il comune in ciascun caso?"
+    ]
+  },
+  {
+    "id": "it:speaking:c33",
+    "prompt": "La globalizzazione minaccia più lingue di quante ne metta in contatto? Discuti.",
+    "topic": "lingue e globalizzazione",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C1",
+    "task": "Argomentazione strutturata",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quali lingue sono più a rischio e perché?",
+      "Che ruolo dovrebbe avere la scuola?"
+    ]
+  },
+  {
+    "id": "it:speaking:c34",
+    "prompt": "In che misura lo Stato dovrebbe regolare per legge la lingua della pubblicità?",
+    "topic": "lingua e pubblicità",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C2",
+    "task": "Discussione astratta",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Dove finisce la persuasione e inizia la manipolazione?",
+      "L'autoregolamentazione sarebbe più efficace?"
+    ]
+  },
+  {
+    "id": "it:speaking:c35",
+    "prompt": "Apri un dibattito sulla restituzione delle opere d'arte contestate. Pronuncia un intervento introduttivo di tre minuti.",
+    "topic": "opere e musei",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C1",
+    "task": "Discorso argomentato",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Come rispondi all'obiezione della dispersione delle collezioni?",
+      "Che cosa è una proprietà legittima?"
+    ]
+  },
+  {
+    "id": "it:speaking:c36",
+    "prompt": "Valuta l'idea che la traduzione automatica renderà presto inutile imparare le lingue.",
+    "topic": "traduzione automatica",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C2",
+    "task": "Valutazione critica",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Cosa si perde quando una lingua si legge solo tramite un software?",
+      "Quali professioni sarebbero colpite per prime?"
+    ]
+  },
+  {
+    "id": "it:speaking:c37",
+    "prompt": "Un'università vuole sostituire le lezioni in aula con video online. Presenta una posizione argomentata.",
+    "topic": "lezioni online",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C1",
+    "task": "Dibattito accademico",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Che effetto avrebbe sulla valutazione degli studenti?",
+      "Cosa si perde senza l'aula?"
+    ]
+  },
+  {
+    "id": "it:speaking:c38",
+    "prompt": "Uno Stato deve proteggere per legge la propria lingua nazionale? Considera scuola, media e minoranze.",
+    "topic": "politica linguistica",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C2",
+    "task": "Analisi di politiche",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "La protezione può diventare esclusione?",
+      "Cosa ci insegna la storia delle leggi linguistiche?"
+    ]
+  },
+  {
+    "id": "it:speaking:c39",
+    "prompt": "Il turismo tiene in vita i centri storici ma li svuota di abitanti. Valuta i due aspetti e proponi una politica.",
+    "topic": "turismo di massa",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C1",
+    "task": "Argomentazione articolata",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Chi dovrebbe pagare la manutenzione di questi centri?",
+      "Esiste un numero sostenibile di visitatori?"
+    ]
+  },
+  {
+    "id": "it:speaking:c40",
+    "prompt": "L'IA generativa produce testi senza limiti. Quali conseguenze per l'autorità e la creatività umane?",
+    "topic": "intelligenza artificiale",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CILS C2",
+    "task": "Discussione speculativa",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Bisogna etichettare i testi prodotti da una macchina?",
+      "Che cos'è una voce autentica?"
+    ]
   }
 ]

@@ -58,5 +58,485 @@
     "prompt": "Si pudieras viajar en el tiempo, ¿a qué época irías y qué harías?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "es:speaking:c1",
+    "prompt": "Preséntate: di tu nombre, dónde vives, a qué te dedicas y algo que te gusta hacer.",
+    "topic": "presentación",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Presentación personal",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Cómo se escribe tu apellido?",
+      "¿Qué haces los fines de semana?"
+    ]
+  },
+  {
+    "id": "es:speaking:c2",
+    "prompt": "Nombra cinco objetos de tu salón y di de qué color son.",
+    "topic": "casa",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Descripción sencilla",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Cuál de ellos usas todos los días?",
+      "¿Tu casa es grande o pequeña?"
+    ]
+  },
+  {
+    "id": "es:speaking:c3",
+    "prompt": "Habla de tu familia: ¿cuántas personas son, quiénes son y a qué se dedican?",
+    "topic": "familia",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Hablar de personas",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Con quién tienes más confianza?",
+      "¿Tienes hermanos?"
+    ]
+  },
+  {
+    "id": "es:speaking:c4",
+    "prompt": "¿Qué comes y qué bebes en el desayuno? Dime tres cosas.",
+    "topic": "comida",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "SIELE A1",
+    "task": "Temas cotidianos",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Cocinas tú por la mañana?",
+      "¿Cuál es tu bebida favorita?"
+    ]
+  },
+  {
+    "id": "es:speaking:c5",
+    "prompt": "¿A qué hora te levantas, cuándo empiezas a trabajar o a estudiar y cuándo te acuestas?",
+    "topic": "horarios",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Horas y rutinas",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Eres una persona mañanera?",
+      "¿Qué haces antes de dormir?"
+    ]
+  },
+  {
+    "id": "es:speaking:c6",
+    "prompt": "Estás en una cafetería. Pide un café y un bocadillo y pregunta cuánto cuestan.",
+    "topic": "en la cafetería",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Funciones: comprar",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Ahora pide la cuenta con educación.",
+      "¿Qué dices si quieres agua?"
+    ]
+  },
+  {
+    "id": "es:speaking:c7",
+    "prompt": "¿Qué tiempo hace hoy y qué ropa llevas?",
+    "topic": "tiempo y ropa",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "SIELE A1",
+    "task": "Descripción del día a día",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Qué te pones cuando llueve?",
+      "¿Qué estación te gusta más?"
+    ]
+  },
+  {
+    "id": "es:speaking:c8",
+    "prompt": "Di los números del 1 al 10 y después el precio de tres cosas que compraste esta semana.",
+    "topic": "números y precios",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELE A1",
+    "task": "Números y cantidades",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "¿Cuánto cuesta un café en tu ciudad?",
+      "¿Crees que la vida está cara ahora?"
+    ]
+  },
+  {
+    "id": "es:speaking:c9",
+    "prompt": "Describe tu barrio: ¿qué hay cerca de tu casa y qué te gusta de ese lugar?",
+    "topic": "barrio",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELE A2",
+    "task": "Describir un lugar",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Qué cambiarías de tu barrio?",
+      "¿Es fácil conocer gente allí?"
+    ]
+  },
+  {
+    "id": "es:speaking:c10",
+    "prompt": "¿Qué hiciste el fin de semana pasado? Di adónde fuiste, con quién y qué te gustó.",
+    "topic": "el fin de semana pasado",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELE A2",
+    "task": "Narrar en pasado",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Fue un fin de semana normal para ti?",
+      "¿Qué harás el próximo fin de semana?"
+    ]
+  },
+  {
+    "id": "es:speaking:c11",
+    "prompt": "Describe una foto de tus últimas vacaciones: quién aparece, dónde se hizo y qué pasaba.",
+    "topic": "una foto",
+    "level": "A2",
+    "curated": true,
+    "exam": "SIELE A2",
+    "task": "Describir una imagen",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Por qué elegiste ese lugar?",
+      "¿Volverías?"
+    ]
+  },
+  {
+    "id": "es:speaking:c12",
+    "prompt": "Quieres devolver una camisa que te queda pequeña. Explica el problema y pide el reembolso.",
+    "topic": "devolución en la tienda",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELE A2",
+    "task": "Funciones: reclamar",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "El dependiente te ofrece una talla mayor. ¿Qué respondes?",
+      "¿Cómo sigues siendo educado cuando no estás contento?"
+    ]
+  },
+  {
+    "id": "es:speaking:c13",
+    "prompt": "¿Prefieres cocinar en casa o comer fuera? Da dos razones.",
+    "topic": "cocinar o salir",
+    "level": "A2",
+    "curated": true,
+    "exam": "SIELE A2",
+    "task": "Expresar preferencias",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Cuántas veces al mes comes fuera?",
+      "¿Qué plato cocinas bien?"
+    ]
+  },
+  {
+    "id": "es:speaking:c14",
+    "prompt": "¿Cuáles son tus planes para el próximo verano? Di qué harás y por qué.",
+    "topic": "planes de verano",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELE A2",
+    "task": "Hablar de planes",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Con quién pasarás el verano?",
+      "¿Has calculado cuánto costará?"
+    ]
+  },
+  {
+    "id": "es:speaking:c15",
+    "prompt": "¿Cómo vas al trabajo o a la escuela? Describe el trayecto y cuánto tarda.",
+    "topic": "desplazamientos",
+    "level": "A2",
+    "curated": true,
+    "exam": "SIELE A2",
+    "task": "Rutinas diarias",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Funciona bien el transporte público donde vives?",
+      "¿Qué haría tu trayecto más fácil?"
+    ]
+  },
+  {
+    "id": "es:speaking:c16",
+    "prompt": "Cuenta la última salida con amigos: ¿adónde fuisteis y qué hicisteis?",
+    "topic": "una salida",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELE A2",
+    "task": "Narrar y valorar",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "¿Prefieres salir de noche o de día?",
+      "¿Cuánto gastaste?"
+    ]
+  },
+  {
+    "id": "es:speaking:c17",
+    "prompt": "Describe una habilidad que aprendiste y que cambió tu día a día: cuál es, cómo la aprendiste y por qué importó.",
+    "topic": "una habilidad",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B1",
+    "task": "Monólogo",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Fue difícil al principio?",
+      "¿Se la recomendarías a alguien de tu edad?"
+    ]
+  },
+  {
+    "id": "es:speaking:c18",
+    "prompt": "Algunos dicen que el examen es la mejor forma de medir las capacidades. ¿Estás de acuerdo?",
+    "topic": "los exámenes",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B2",
+    "task": "Toma de posición",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Con qué sustituirías los exámenes?",
+      "¿Cómo influyen en la manera de estudiar?"
+    ]
+  },
+  {
+    "id": "es:speaking:c19",
+    "prompt": "¿Estás de acuerdo: es mejor trabajar en equipo que solo? Justifícalo con ejemplos.",
+    "topic": "trabajo en equipo",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "SIELE B2",
+    "task": "Argumentar",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué hace fracasar a un equipo?",
+      "¿Has dirigido alguna vez un grupo?"
+    ]
+  },
+  {
+    "id": "es:speaking:c20",
+    "prompt": "Tu ciudad quiere reducir el tráfico de coches. Propón dos medidas y explica los efectos que esperas.",
+    "topic": "el tráfico",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B1",
+    "task": "Problema y solución",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Quién podría oponerse y por qué?",
+      "¿Qué ha probado ya tu ciudad?"
+    ]
+  },
+  {
+    "id": "es:speaking:c21",
+    "prompt": "Describe una decisión de la que te arrepientes y explica qué harías de otra forma hoy.",
+    "topic": "un arrepentimiento",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B2",
+    "task": "Narración con reflexión",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué aprendiste?",
+      "¿Aprendemos más de los errores o de los éxitos?"
+    ]
+  },
+  {
+    "id": "es:speaking:c22",
+    "prompt": "Compara aprender un idioma en la escuela y aprenderlo viviendo en el extranjero.",
+    "topic": "escuela o inmersión",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B1",
+    "task": "Comparar",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Qué elegirías con poco presupuesto?",
+      "¿Cuál es la principal ventaja de cada método?"
+    ]
+  },
+  {
+    "id": "es:speaking:c23",
+    "prompt": "¿Cómo ha cambiado el teletrabajo lo que la gente espera de un empleo? Apóyate en ejemplos.",
+    "topic": "teletrabajo",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "SIELE B2",
+    "task": "Analizar una tendencia",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Sirve para todas las profesiones?",
+      "¿Qué pierden las empresas?"
+    ]
+  },
+  {
+    "id": "es:speaking:c24",
+    "prompt": "¿Debe un pueblo restaurar un edificio antiguo o construir un polideportivo? Defiende una opción.",
+    "topic": "patrimonio local",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELE B2",
+    "task": "Debate",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "¿Cómo convencerías a quien no está de acuerdo?",
+      "¿Qué gana el pueblo en cada caso?"
+    ]
+  },
+  {
+    "id": "es:speaking:c25",
+    "prompt": "La globalización amenaza más lenguas de las que conecta hablantes. Discute esta afirmación.",
+    "topic": "lenguas y globalización",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C1",
+    "task": "Argumentación estructurada",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Qué lenguas corren más riesgo y por qué?",
+      "¿Qué papel debería tener la escuela?"
+    ]
+  },
+  {
+    "id": "es:speaking:c26",
+    "prompt": "¿En qué medida debe el Estado regular por ley el lenguaje de la publicidad?",
+    "topic": "lengua y publicidad",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C2",
+    "task": "Discusión abstracta",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Dónde acaba la persuasión y empieza la manipulación?",
+      "¿Sería más eficaz la autorregulación?"
+    ]
+  },
+  {
+    "id": "es:speaking:c27",
+    "prompt": "Abres un debate sobre la devolución de obras de arte reclamadas. Pronuncia una intervención inicial de tres minutos.",
+    "topic": "museos y obras",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C1",
+    "task": "Discurso persuasivo",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Cómo respondes al argumento de la dispersión de las colecciones?",
+      "¿Qué es una propiedad legítima?"
+    ]
+  },
+  {
+    "id": "es:speaking:c28",
+    "prompt": "Evalúa la idea de que la traducción automática hará pronto innecesario aprender idiomas.",
+    "topic": "traducción automática",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C2",
+    "task": "Evaluación crítica",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Qué se pierde cuando un idioma solo se lee con un programa?",
+      "¿Qué profesiones se verían afectadas primero?"
+    ]
+  },
+  {
+    "id": "es:speaking:c29",
+    "prompt": "Una universidad quiere sustituir las clases presenciales por vídeos en línea. Presenta una posición razonada.",
+    "topic": "clases en línea",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C1",
+    "task": "Debate académico",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Cómo afectaría a la evaluación de los estudiantes?",
+      "¿Qué pierde el estudiante sin el aula?"
+    ]
+  },
+  {
+    "id": "es:speaking:c30",
+    "prompt": "¿Debe un Estado proteger su lengua nacional por ley? Considera educación, medios y derechos de las minorías.",
+    "topic": "política lingüística",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C2",
+    "task": "Análisis de políticas",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Puede la protección convertirse en exclusión?",
+      "¿Qué nos enseña la historia de las leyes lingüísticas?"
+    ]
+  },
+  {
+    "id": "es:speaking:c31",
+    "prompt": "El turismo mantiene vivos los cascos históricos pero los vacía de vecinos. Sopesa ambos lados y propone una política.",
+    "topic": "turismo de masas",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C1",
+    "task": "Argumentación matizada",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Quién debería pagar el mantenimiento de esos centros?",
+      "¿Existe un número sostenible de visitantes?"
+    ]
+  },
+  {
+    "id": "es:speaking:c32",
+    "prompt": "La IA generativa produce textos sin límite. ¿Qué consecuencias tiene para la autoría y la creatividad humanas?",
+    "topic": "inteligencia artificial",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DELE C2",
+    "task": "Discusión especulativa",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "¿Habría que etiquetar los textos creados por una máquina?",
+      "¿Qué es una voz auténtica?"
+    ]
   }
 ]

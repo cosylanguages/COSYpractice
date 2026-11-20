@@ -58,5 +58,485 @@
     "prompt": "Wenn Sie eine Zeitreise machen könnten, wohin würden Sie reisen?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "de:speaking:c1",
+    "prompt": "Stellen Sie sich vor: Ihren Namen, Ihren Wohnort, Ihren Beruf und eine Sache, die Sie gern machen.",
+    "topic": "Vorstellung",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Goethe A1",
+    "task": "Sich vorstellen",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Wie schreibt man Ihren Nachnamen?",
+      "Was machen Sie am Wochenende?"
+    ]
+  },
+  {
+    "id": "de:speaking:c2",
+    "prompt": "Nennen Sie fünf Dinge in Ihrem Zimmer und sagen Sie, welche Farbe sie haben.",
+    "topic": "Zuhause",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Goethe A1",
+    "task": "Einfache Beschreibung",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Welches davon benutzen Sie jeden Tag?",
+      "Ist Ihr Zimmer groß oder klein?"
+    ]
+  },
+  {
+    "id": "de:speaking:c3",
+    "prompt": "Erzählen Sie von Ihrer Familie: Wie viele Personen sind es, wer sind sie und was machen sie?",
+    "topic": "Familie",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "ÖSD A1",
+    "task": "Über Personen sprechen",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Mit wem sind Sie am engsten?",
+      "Haben Sie Geschwister?"
+    ]
+  },
+  {
+    "id": "de:speaking:c4",
+    "prompt": "Was essen und trinken Sie zum Frühstück? Nennen Sie drei Dinge.",
+    "topic": "Essen",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Goethe A1",
+    "task": "Alltagsthemen",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Kochen Sie morgens selbst?",
+      "Was ist Ihr Lieblingsgetränk?"
+    ]
+  },
+  {
+    "id": "de:speaking:c5",
+    "prompt": "Wann stehen Sie auf, wann beginnen Sie zu arbeiten oder zu lernen und wann gehen Sie ins Bett?",
+    "topic": "Tagesablauf",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "telc A1",
+    "task": "Uhrzeiten und Gewohnheiten",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Sind Sie ein Morgenmensch?",
+      "Was machen Sie vor dem Schlafen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c6",
+    "prompt": "Sie sind im Café. Bestellen Sie einen Kaffee und ein Brötchen und fragen Sie nach dem Preis.",
+    "topic": "im Café",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Goethe A1",
+    "task": "Sprachhandlungen: kaufen",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Bitten Sie jetzt höflich um die Rechnung.",
+      "Was sagen Sie, wenn Sie Wasser möchten?"
+    ]
+  },
+  {
+    "id": "de:speaking:c7",
+    "prompt": "Wie ist das Wetter heute und was tragen Sie?",
+    "topic": "Wetter und Kleidung",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "telc A1",
+    "task": "Alltagsbeschreibung",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Was ziehen Sie bei Regen an?",
+      "Welche Jahreszeit mögen Sie am liebsten?"
+    ]
+  },
+  {
+    "id": "de:speaking:c8",
+    "prompt": "Sagen Sie die Zahlen von 1 bis 10 und dann den Preis von drei Dingen, die Sie diese Woche gekauft haben.",
+    "topic": "Zahlen und Preise",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Goethe A1",
+    "task": "Zahlen und Mengen",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Was kostet ein Kaffee in Ihrer Stadt?",
+      "Finden Sie das Leben heute teuer?"
+    ]
+  },
+  {
+    "id": "de:speaking:c9",
+    "prompt": "Beschreiben Sie Ihr Viertel: Was ist in der Nähe Ihrer Wohnung und was gefällt Ihnen dort?",
+    "topic": "Wohnviertel",
+    "level": "A2",
+    "curated": true,
+    "exam": "Goethe A2",
+    "task": "Einen Ort beschreiben",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Was würden Sie in Ihrem Viertel ändern?",
+      "Kann man dort leicht Leute kennenlernen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c10",
+    "prompt": "Was haben Sie letztes Wochenende gemacht? Sagen Sie, wohin Sie gegangen sind, mit wem und was Ihnen gefallen hat.",
+    "topic": "letztes Wochenende",
+    "level": "A2",
+    "curated": true,
+    "exam": "telc A2",
+    "task": "Vergangenes erzählen",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "War es ein normales Wochenende für Sie?",
+      "Was machen Sie nächstes Wochenende?"
+    ]
+  },
+  {
+    "id": "de:speaking:c11",
+    "prompt": "Beschreiben Sie ein Foto von Ihrem letzten Urlaub: Wer ist darauf, wo wurde es gemacht und was ist passiert?",
+    "topic": "ein Foto",
+    "level": "A2",
+    "curated": true,
+    "exam": "ÖSD A2",
+    "task": "Ein Bild beschreiben",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Warum haben Sie diesen Ort gewählt?",
+      "Würden Sie wieder hinfahren?"
+    ]
+  },
+  {
+    "id": "de:speaking:c12",
+    "prompt": "Sie möchten ein zu kleines Hemd zurückgeben. Erklären Sie das Problem und bitten Sie um das Geld zurück.",
+    "topic": "Umtausch im Geschäft",
+    "level": "A2",
+    "curated": true,
+    "exam": "Goethe A2",
+    "task": "Sprachhandlungen: reklamieren",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Der Verkäufer bietet eine größere Größe an. Was antworten Sie?",
+      "Wie bleiben Sie höflich, wenn Sie unzufrieden sind?"
+    ]
+  },
+  {
+    "id": "de:speaking:c13",
+    "prompt": "Kochen Sie lieber zu Hause oder gehen Sie lieber essen? Nennen Sie zwei Gründe.",
+    "topic": "kochen oder ausgehen",
+    "level": "A2",
+    "curated": true,
+    "exam": "telc A2",
+    "task": "Vorlieben ausdrücken",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Wie oft gehen Sie essen?",
+      "Welches Gericht können Sie gut kochen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c14",
+    "prompt": "Was planen Sie für den nächsten Sommer? Sagen Sie, was Sie machen werden und warum.",
+    "topic": "Sommerpläne",
+    "level": "A2",
+    "curated": true,
+    "exam": "Goethe A2",
+    "task": "Über Pläne sprechen",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Mit wem verbringen Sie den Sommer?",
+      "Haben Sie schon berechnet, was es kosten wird?"
+    ]
+  },
+  {
+    "id": "de:speaking:c15",
+    "prompt": "Wie kommen Sie zur Arbeit oder zur Schule? Beschreiben Sie den Weg und wie lange er dauert.",
+    "topic": "Wege",
+    "level": "A2",
+    "curated": true,
+    "exam": "telc A2",
+    "task": "Alltagsroutinen",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Sind die öffentlichen Verkehrsmittel bei Ihnen gut?",
+      "Was würde Ihren Weg leichter machen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c16",
+    "prompt": "Erzählen Sie vom letzten Abend mit Freunden: Wohin sind Sie gegangen und was haben Sie gemacht?",
+    "topic": "ein Abend mit Freunden",
+    "level": "A2",
+    "curated": true,
+    "exam": "Goethe A2",
+    "task": "Erzählen und bewerten",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Gehen Sie lieber abends oder tagsüber aus?",
+      "Wie viel haben Sie ausgegeben?"
+    ]
+  },
+  {
+    "id": "de:speaking:c17",
+    "prompt": "Beschreiben Sie eine Fähigkeit, die Sie gelernt haben und die Ihren Alltag verändert hat: welche, wie und warum.",
+    "topic": "eine Fähigkeit",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Goethe B1",
+    "task": "Monolog",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "War es am Anfang schwer?",
+      "Würden Sie sie jemandem in Ihrem Alter empfehlen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c18",
+    "prompt": "Manche sagen, Prüfungen seien die beste Art, Leistung zu messen. Wie sehen Sie das?",
+    "topic": "Prüfungen",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Goethe B2",
+    "task": "Stellung nehmen",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wodurch würden Sie Prüfungen ersetzen?",
+      "Wie beeinflussen Prüfungen das Lernen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c19",
+    "prompt": "Sind Sie einverstanden: Arbeitet man besser im Team als allein? Begründen Sie mit Beispielen.",
+    "topic": "Teamarbeit",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "telc B2",
+    "task": "Argumentieren",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Woran scheitert ein Team?",
+      "Haben Sie schon einmal eine Gruppe geleitet?"
+    ]
+  },
+  {
+    "id": "de:speaking:c20",
+    "prompt": "Ihre Stadt will den Autoverkehr reduzieren. Schlagen Sie zwei Maßnahmen vor und erklären Sie die erwarteten Wirkungen.",
+    "topic": "Verkehr",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Goethe B1",
+    "task": "Problem und Lösung",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wer könnte dagegen sein und warum?",
+      "Was hat Ihre Stadt schon versucht?"
+    ]
+  },
+  {
+    "id": "de:speaking:c21",
+    "prompt": "Beschreiben Sie eine Entscheidung, die Sie bereuen, und erklären Sie, was Sie heute anders machen würden.",
+    "topic": "eine Entscheidung",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Goethe B2",
+    "task": "Erzählen mit Reflexion",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Was haben Sie daraus gelernt?",
+      "Lernt man mehr aus Fehlern oder aus Erfolgen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c22",
+    "prompt": "Vergleichen Sie, eine Sprache in der Schule und durch einen Auslandsaufenthalt zu lernen.",
+    "topic": "Schule oder Ausland",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "telc B1",
+    "task": "Vergleichen",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Was würden Sie mit wenig Geld wählen?",
+      "Was ist der größte Vorteil jeder Methode?"
+    ]
+  },
+  {
+    "id": "de:speaking:c23",
+    "prompt": "Wie hat Homeoffice die Erwartungen an einen Arbeitsplatz verändert? Belegen Sie Ihre Antwort mit Beispielen.",
+    "topic": "Homeoffice",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Goethe B2",
+    "task": "Einen Trend analysieren",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Passt es zu allen Berufen?",
+      "Was verlieren Arbeitgeber?"
+    ]
+  },
+  {
+    "id": "de:speaking:c24",
+    "prompt": "Soll eine Gemeinde ein altes Gebäude sanieren oder eine neue Sporthalle bauen? Vertreten Sie eine Seite.",
+    "topic": "lokales Erbe",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "telc B2",
+    "task": "Debatte",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Wie überzeugen Sie die Gegenseite?",
+      "Was gewinnt die Gemeinde in beiden Fällen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c25",
+    "prompt": "Die Globalisierung gefährdet mehr Sprachen, als sie Sprecher verbindet. Diskutieren Sie.",
+    "topic": "Sprachen und Globalisierung",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C1",
+    "task": "Strukturierte Erörterung",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Welche Sprachen sind am stärksten gefährdet und warum?",
+      "Welche Rolle sollte die Schule spielen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c26",
+    "prompt": "In welchem Maße sollte der Staat die Sprache der Werbung gesetzlich regeln?",
+    "topic": "Sprache und Werbung",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C2",
+    "task": "Abstrakte Diskussion",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wo endet Überzeugung und wo beginnt Manipulation?",
+      "Wäre Selbstregulierung wirksamer?"
+    ]
+  },
+  {
+    "id": "de:speaking:c27",
+    "prompt": "Sie eröffnen eine Debatte über die Rückgabe umstrittener Kunstwerke. Halten Sie ein dreiminütiges Eröffnungsstatement.",
+    "topic": "Museen und Kunstwerke",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C1",
+    "task": "Überzeugungsrede",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wie entkräften Sie das Argument der Zersplitterung von Sammlungen?",
+      "Was ist rechtmäßiges Eigentum?"
+    ]
+  },
+  {
+    "id": "de:speaking:c28",
+    "prompt": "Bewerten Sie die These, maschinelle Übersetzung mache das Sprachenlernen bald überflüssig.",
+    "topic": "maschinelle Übersetzung",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C2",
+    "task": "Kritische Bewertung",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Was geht verloren, wenn man eine Sprache nur über Software liest?",
+      "Welche Berufe wären zuerst betroffen?"
+    ]
+  },
+  {
+    "id": "de:speaking:c29",
+    "prompt": "Eine Universität will Vorlesungen durch Videos ersetzen. Legen Sie eine begründete Position dar und gehen Sie auf Einwände ein.",
+    "topic": "Online-Vorlesungen",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C1",
+    "task": "Akademische Argumentation",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wie sollte sich das auf die Prüfungen auswirken?",
+      "Was verliert ein Student ohne Hörsaal?"
+    ]
+  },
+  {
+    "id": "de:speaking:c30",
+    "prompt": "Soll ein Staat seine Nationalsprache gesetzlich schützen? Bedenken Sie Bildung, Medien und Minderheiten.",
+    "topic": "Sprachpolitik",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C2",
+    "task": "Politikanalyse",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Kann Schutz zu Ausgrenzung werden?",
+      "Was lehrt uns die Geschichte der Sprachgesetze?"
+    ]
+  },
+  {
+    "id": "de:speaking:c31",
+    "prompt": "Tourismus hält Altstädte am Leben, entvölkert sie aber. Wägen Sie beide Seiten ab und schlagen Sie eine Politik vor.",
+    "topic": "Massentourismus",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C1",
+    "task": "Abwägende Argumentation",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Wer sollte die Instandhaltung dieser Zentren bezahlen?",
+      "Gibt es eine vertretbare Zahl von Besuchern?"
+    ]
+  },
+  {
+    "id": "de:speaking:c32",
+    "prompt": "Generative KI erzeugt Texte ohne Grenzen. Welche Folgen hat das für Autorschaft und menschliche Kreativität?",
+    "topic": "künstliche Intelligenz",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Goethe C2",
+    "task": "Spekulative Diskussion",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Sollten maschinell erzeugte Texte gekennzeichnet werden?",
+      "Was ist eine authentische Stimme?"
+    ]
   }
 ]

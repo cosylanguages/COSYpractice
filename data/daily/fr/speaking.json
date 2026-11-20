@@ -63,48 +63,584 @@
     "id": "fr:speaking:c1",
     "prompt": "Présentez-vous : donnez votre prénom, votre ville d'origine et vos passe-temps favoris.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Question du quotidien",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c2",
     "prompt": "Décrivez ce qu'il y a sur votre table ou dans votre sac en trois phrases simples.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Question du quotidien",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c3",
     "prompt": "Quel est votre endroit préféré pour passer les vacances et pourquoi ?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Question du quotidien",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c4",
     "prompt": "Comment préférez-vous passer un dimanche pluvieux en hiver ?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Question du quotidien",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c5",
     "prompt": "Quel rôle joue la musique ou l'art dans votre quotidien et votre inspiration ?",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Avis et justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c6",
     "prompt": "Quels sont selon vous les plus grands avantages d'apprendre une langue étrangère à l'âge adulte ?",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Avis et justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c7",
     "prompt": "Dans quelle mesure l'essor des nouvelles technologies redéfinit-il les relations humaines contemporaines ?",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Argumentation structurée",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
   },
   {
     "id": "fr:speaking:c8",
     "prompt": "Analysez l'impact des expressions idiomatiques sur la transmission de l'identité culturelle.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Argumentation structurée",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Pourquoi, selon vous ?",
+      "Pouvez-vous m'en dire un peu plus ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c9",
+    "prompt": "Présentez-vous : dites votre prénom, votre ville, votre métier ou vos études et un loisir que vous aimez.",
+    "topic": "présentation",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Entretien dirigé",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Comment épelez-vous votre nom ?",
+      "Que faites-vous le week-end ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c10",
+    "prompt": "Nommez cinq objets de votre salon et dites leur couleur.",
+    "topic": "logement",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Description simple",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Lequel utilisez-vous tous les jours ?",
+      "Votre logement est-il grand ou petit ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c11",
+    "prompt": "Parlez de votre famille : combien de personnes, qui sont-elles et que font-elles ?",
+    "topic": "famille",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "TCF",
+    "task": "Parler de ses proches",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "De qui êtes-vous le plus proche ?",
+      "Avez-vous des frères et sœurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c12",
+    "prompt": "Que mangez-vous et que buvez-vous au petit-déjeuner ? Citez trois choses.",
+    "topic": "repas",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Thèmes du quotidien",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cuisinez-vous le matin ?",
+      "Quelle est votre boisson préférée ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c13",
+    "prompt": "À quelle heure vous levez-vous, quand commencez-vous le travail et quand vous couchez-vous ?",
+    "topic": "horaires",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Heures et habitudes",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Êtes-vous du matin ?",
+      "Que faites-vous avant de dormir ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c14",
+    "prompt": "Vous êtes au café. Commandez un café et un sandwich, puis demandez le prix.",
+    "topic": "au café",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Actes de parole : acheter",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Demandez l'addition poliment.",
+      "Que dites-vous si vous voulez de l'eau ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c15",
+    "prompt": "Quel temps fait-il aujourd'hui et que portez-vous ?",
+    "topic": "météo et vêtements",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Description du quotidien",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Que mettez-vous quand il pleut ?",
+      "Quelle saison préférez-vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c16",
+    "prompt": "Dites les nombres de 1 à 10, puis le prix de trois choses achetées cette semaine.",
+    "topic": "les nombres",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "DELF A1",
+    "task": "Nombres et quantités",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Combien coûte un café dans votre ville ?",
+      "Trouvez-vous la vie chère ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c17",
+    "prompt": "Décrivez votre quartier : qu'y a-t-il près de chez vous et qu'aimez-vous dans cet endroit ?",
+    "topic": "quartier",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Décrire un lieu",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'est-ce que vous changeriez dans votre quartier ?",
+      "Est-il facile d'y rencontrer des gens ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c18",
+    "prompt": "Qu'avez-vous fait le week-end dernier ? Dites où vous êtes allé, avec qui et ce qui vous a plu.",
+    "topic": "week-end passé",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Récit au passé",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Était-ce un week-end habituel ?",
+      "Que ferez-vous le week-end prochain ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c19",
+    "prompt": "Décrivez une photo de vos dernières vacances : qui est dessus, où elle a été prise et ce qui se passait.",
+    "topic": "photo de vacances",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Décrire une image",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Pourquoi avez-vous choisi cet endroit ?",
+      "Y retourneriez-vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c20",
+    "prompt": "Vous voulez rendre une chemise trop petite. Expliquez le problème et demandez un remboursement.",
+    "topic": "retour au magasin",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Actes de parole : réclamation",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Le vendeur propose une taille plus grande. Que répondez-vous ?",
+      "Comment rester poli quand on n'est pas content ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c21",
+    "prompt": "Préférez-vous cuisiner à la maison ou aller au restaurant ? Donnez deux raisons.",
+    "topic": "cuisine ou restaurant",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Exprimer ses goûts",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "À quelle fréquence allez-vous au restaurant ?",
+      "Quel plat savez-vous bien préparer ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c22",
+    "prompt": "Quels sont vos projets pour l'été prochain ? Dites ce que vous ferez et pourquoi.",
+    "topic": "projets d'été",
+    "level": "A2",
+    "curated": true,
+    "exam": "TCF",
+    "task": "Parler de ses projets",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Avec qui passerez-vous l'été ?",
+      "Avez-vous prévu le budget ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c23",
+    "prompt": "Comment allez-vous au travail ou à l'école ? Décrivez le trajet et sa durée.",
+    "topic": "trajets",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Habitudes quotidiennes",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Les transports en commun sont-ils bons chez vous ?",
+      "Qu'est-ce qui faciliterait votre trajet ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c24",
+    "prompt": "Racontez votre dernière sortie entre amis : où êtes-vous allés et qu'avez-vous fait ?",
+    "topic": "une sortie",
+    "level": "A2",
+    "curated": true,
+    "exam": "DELF A2",
+    "task": "Récit et appréciation",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Préférez-vous sortir le soir ou le jour ?",
+      "Combien avez-vous dépensé ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c25",
+    "prompt": "Décrivez une compétence que vous avez apprise et qui a changé votre quotidien : laquelle, comment et pourquoi ?",
+    "topic": "une compétence",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B1",
+    "task": "Monologue suivi",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "A-t-elle été difficile à acquérir ?",
+      "La recommanderiez-vous à quelqu'un de votre âge ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c26",
+    "prompt": "Certains affirment que l'examen est le meilleur moyen d'évaluer les compétences. Qu'en pensez-vous ?",
+    "topic": "les examens",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B2",
+    "task": "Prise de position",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Par quoi remplaceriez-vous les examens ?",
+      "Quel effet ont-ils sur la façon d'apprendre ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c27",
+    "prompt": "Êtes-vous d'accord : vaut-il mieux travailler en équipe que seul ? Justifiez avec des exemples.",
+    "topic": "travail d'équipe",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B2",
+    "task": "Argumenter",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qu'est-ce qui fait échouer une équipe ?",
+      "Avez-vous déjà dirigé un groupe ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c28",
+    "prompt": "Votre ville veut réduire la circulation automobile. Proposez deux mesures et expliquez leurs effets.",
+    "topic": "circulation",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B1",
+    "task": "Problème et solution",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui pourrait s'y opposer, et pourquoi ?",
+      "Qu'a déjà tenté votre ville ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c29",
+    "prompt": "Racontez une décision que vous regrettez et expliquez ce que vous feriez autrement aujourd'hui.",
+    "topic": "un regret",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B2",
+    "task": "Récit et réflexion",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qu'en avez-vous appris ?",
+      "Apprend-on plus de ses erreurs que de ses réussites ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c30",
+    "prompt": "Comparez l'apprentissage d'une langue à l'école et par l'immersion à l'étranger.",
+    "topic": "école ou immersion",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B1",
+    "task": "Comparer",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Que choisiriez-vous avec un budget limité ?",
+      "Quel est le principal avantage de chaque méthode ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c31",
+    "prompt": "Comment le télétravail a-t-il changé les attentes des salariés ? Appuyez-vous sur des exemples.",
+    "topic": "télétravail",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B2",
+    "task": "Analyser une évolution",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Convient-il à tous les métiers ?",
+      "Que perdent les employeurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c32",
+    "prompt": "Une commune doit-elle restaurer un bâtiment ancien ou construire un gymnase ? Défendez une option.",
+    "topic": "patrimoine local",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "DELF B2",
+    "task": "Plaidoyer",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Comment convaincre ceux qui ne sont pas d'accord ?",
+      "Que gagne la commune dans chaque cas ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c33",
+    "prompt": "La mondialisation menace-t-elle davantage les langues qu'elle ne relie leurs locuteurs ? Discutez.",
+    "topic": "langues et mondialisation",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C1",
+    "task": "Argumentation structurée",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quelles langues sont les plus menacées ?",
+      "Quel rôle pour l'école ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c34",
+    "prompt": "Dans quelle mesure faut-il encadrer par la loi la langue utilisée dans la publicité ?",
+    "topic": "langue et publicité",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C2",
+    "task": "Discussion abstraite",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Où s'arrête la persuasion et où commence la manipulation ?",
+      "L'autorégulation serait-elle plus efficace ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c35",
+    "prompt": "Vous ouvrez un débat sur la restitution des œuvres d'art contestées. Prononcez une déclaration liminaire de trois minutes.",
+    "topic": "artefacts et musées",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C1",
+    "task": "Discours argumenté",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Comment répondez-vous à l'argument de la dispersion des collections ?",
+      "Qu'est-ce qu'une propriété légitime ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c36",
+    "prompt": "Évaluez l'idée que la traduction automatique rendra bientôt inutile l'apprentissage des langues.",
+    "topic": "traduction automatique",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C2",
+    "task": "Évaluation critique",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Que perd-on quand on ne lit une langue qu'à travers un logiciel ?",
+      "Quels métiers seraient touchés en premier ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c37",
+    "prompt": "Une université veut remplacer ses cours magistraux par des vidéos en ligne. Présentez une position argumentée.",
+    "topic": "cours en ligne",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C1",
+    "task": "Débat académique",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quel effet sur l'évaluation des étudiants ?",
+      "Que perd-on sans l'amphithéâtre ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c38",
+    "prompt": "Un État doit-il protéger sa langue nationale par la loi ? Pensez à l'école, aux médias et aux minorités.",
+    "topic": "politique linguistique",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C2",
+    "task": "Analyse de politique publique",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "La protection peut-elle devenir exclusion ?",
+      "Que nous apprend l'histoire des lois linguistiques ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c39",
+    "prompt": "Le tourisme fait vivre les centres historiques mais les vide de leurs habitants. Pesez les deux aspects et proposez une politique.",
+    "topic": "tourisme de masse",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C1",
+    "task": "Argumentation nuancée",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Qui doit financer l'entretien de ces centres ?",
+      "Existe-t-il un nombre de visiteurs soutenable ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c40",
+    "prompt": "L'IA générative produit du texte à volonté. Quelles conséquences pour l'autorité et la créativité humaines ?",
+    "topic": "intelligence artificielle",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "DALF C2",
+    "task": "Discussion spéculative",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Faut-il étiqueter les textes produits par une machine ?",
+      "Qu'est-ce qu'une voix authentique ?"
+    ]
   }
 ]

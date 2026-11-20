@@ -58,5 +58,245 @@
     "prompt": "Ma c'hallfec'h gober ur veaj er mizer, da betra ez afec'h?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "br:speaking:c1",
+    "prompt": "En em ginnit: livirit hoc'h anv, e pelec'h e vevit, petra a rit hag ar pezh a blij deoc'h ober.",
+    "topic": "en emziskouez",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Brezhoneg A1",
+    "task": "En em ginnig",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Penaos e skriver ho kenvreuriez?",
+      "Petra a rit e-pad ar sizhunioù?"
+    ]
+  },
+  {
+    "id": "br:speaking:c2",
+    "prompt": "Anvit pemp traezenn en ho kambr ha livirit pe liv int.",
+    "topic": "an ti",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Brezhoneg A1",
+    "task": "Deskrivadur simpl",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Peseurt hini a rit gantañ bemdez?",
+      "Bras pe vihan eo ho kambr?"
+    ]
+  },
+  {
+    "id": "br:speaking:c3",
+    "prompt": "Komzit eus ho familh: ped den zo, piv int ha petra a reont?",
+    "topic": "ar familh",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Brezhoneg A1",
+    "task": "Komz eus an dud",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Gant piv eo aesoc'h deoc'h komz?",
+      "Breudeur pe c'hoarezed hoc'h eus?"
+    ]
+  },
+  {
+    "id": "br:speaking:c4",
+    "prompt": "Petra a zebrit ha petra a evit diouzh ar beure? Anvit tri tra.",
+    "topic": "ar boued",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Brezhoneg A1",
+    "task": "Temoù pemdeziek",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "C'hwi a vez o keginañ diouzh ar beure?",
+      "Peseurt evaj a blij deoc'h ar muiañ?"
+    ]
+  },
+  {
+    "id": "br:speaking:c5",
+    "prompt": "Deskrivit ho karter: petra zo e-kichen ho ti ha petra a blij deoc'h eno?",
+    "topic": "ar c'harter",
+    "level": "A2",
+    "curated": true,
+    "exam": "Brezhoneg A2",
+    "task": "Deskrivañ ul lec'h",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Petra a cheñchfec'h en ho karter?",
+      "Aes eo kejañ gant tud eno?"
+    ]
+  },
+  {
+    "id": "br:speaking:c6",
+    "prompt": "Petra hoc'h eus graet ar sizhun dibenn tremenet? Livirit pelec'h oc'h bet, gant piv ha petra a blijas deoc'h.",
+    "topic": "ar sizhun dibenn tremenet",
+    "level": "A2",
+    "curated": true,
+    "exam": "Brezhoneg A2",
+    "task": "Kontañ an amzer dremenet",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ur sizhun dibenn boas e oa evidoc'h?",
+      "Petra a refet ar sizhun dibenn a zeu?"
+    ]
+  },
+  {
+    "id": "br:speaking:c7",
+    "prompt": "Deskrivit ur poltred eus ho vakañsoù diwezhañ: piv zo warnañ, pelec'h eo bet tennet ha petra a c'hoarveze.",
+    "topic": "ur poltred",
+    "level": "A2",
+    "curated": true,
+    "exam": "Brezhoneg A2",
+    "task": "Deskrivañ ur skeudenn",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Perak hoc'h eus dibabet al lec'h-se?",
+      "Distreiñ a rafec'h?"
+    ]
+  },
+  {
+    "id": "br:speaking:c8",
+    "prompt": "C'hoant hoc'h eus da zistreiñ ur roched re vihan. Merkit ar gudenn ha goulennit an arc'hant en-dro.",
+    "topic": "distreiñ er stal",
+    "level": "A2",
+    "curated": true,
+    "exam": "Brezhoneg A2",
+    "task": "Oberoù yezh: klemm",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Ar gwerzher a ginn ur vent vrasoc'h. Petra a respontit?",
+      "Penaos chom seven pa n'oc'h ket laouen?"
+    ]
+  },
+  {
+    "id": "br:speaking:c9",
+    "prompt": "Deskrivit ur varregezh hoc'h eus desket hag a zo cheñchet ho puhez pemdez: pehini, penaos hag abalamour da betra e oa pouezus.",
+    "topic": "ur varregezh",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Brezhoneg B1",
+    "task": "Monolog",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Kalet e oa er penn-kentañ?",
+      "Kinnig a rafec'h anezhi d'un den eus ho oad?"
+    ]
+  },
+  {
+    "id": "br:speaking:c10",
+    "prompt": "Lod a lavar eo ar skol-arnodiñ an doare gwellañ da vuzuliañ ar varregezhioù. Ha c'hwi a zo a-du?",
+    "topic": "ar skolioù-arnodiñ",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Brezhoneg B2",
+    "task": "Menozh argaset",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Petra a lakaefec'h e-lec'h ar skolioù-arnodiñ?",
+      "Penaos e levezonont an doare da zeskiñ?"
+    ]
+  },
+  {
+    "id": "br:speaking:c11",
+    "prompt": "A-du oc'h: gwelloc'h eo labourat a-stroll eget e-unan? Roit skouerioù.",
+    "topic": "al labour a-stroll",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Brezhoneg B2",
+    "task": "Arguzenniñ",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Perak e c'hoarvez gant ur strollad c'hwitañ?",
+      "Renet hoc'h eus ur strollad biskoazh?"
+    ]
+  },
+  {
+    "id": "br:speaking:c12",
+    "prompt": "Ho kêr a fell dezhi digreskiñ tremen ar c'hirri. Kinnigit div vuzul ha merkit an efed a c'hortozit.",
+    "topic": "an tremen",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Brezhoneg B1",
+    "task": "Kudenn ha diskoulm",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Piv a c'hallfe enebiñ ha perak?",
+      "Petra he deus klasket ho kêr dija?"
+    ]
+  },
+  {
+    "id": "br:speaking:c13",
+    "prompt": "Ar bedeladur a laka muioc'h a yezhoù en arvar eget ma liamm o c'homzerien. Divizit.",
+    "topic": "yezhoù ha bedeladur",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Brezhoneg C1",
+    "task": "Arguzenn frammet",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Peseurt yezhoù zo en arvar brasañ ha perak?",
+      "Peseurt roll a dlefe bezañ gant ar skol?"
+    ]
+  },
+  {
+    "id": "br:speaking:c14",
+    "prompt": "Peseurt muzul e tle ar Stad reoliañ yezh ar bruderezh dre lezenn?",
+    "topic": "yezh ha bruderezh",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Brezhoneg C2",
+    "task": "Diviz difetis",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Pelec'h e echuiñ ar c'hendrec'hiñ ha pelec'h e krog ar maniplañ?",
+      "Gwelloc'h e vefe an emreoliñ?"
+    ]
+  },
+  {
+    "id": "br:speaking:c15",
+    "prompt": "Digeriñ a rit un diviz diwar-benn distro oberoù arz tabutet. Livirit ur pennad digoradur a dri munut.",
+    "topic": "mirdioù hag oberoù arz",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Brezhoneg C1",
+    "task": "Diskouezh youlek",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Penaos e respontit d'an arguzenn diwar-benn strewoù an dastumadoù?",
+      "Petra eo ur perc'henniezh lezennel?"
+    ]
+  },
+  {
+    "id": "br:speaking:c16",
+    "prompt": "Ar spered alvezel produktel a grou testennoù hep bevenn. Peseurt heuliadoù evit ar skriverien hag ar c'hrouadur denel?",
+    "topic": "spered alvezel",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "Brezhoneg C2",
+    "task": "Diviz martezeadenn",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Rankout a rafe bezañ merket an testennoù graet gant ur mekanik?",
+      "Petra eo ur vouezh gwirion?"
+    ]
   }
 ]

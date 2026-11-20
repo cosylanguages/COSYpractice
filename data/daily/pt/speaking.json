@@ -58,5 +58,485 @@
     "prompt": "Se pudesse viajar no tempo, para qual época você iria?",
     "topic": "imagination",
     "level": "B1-B2"
+  },
+  {
+    "id": "pt:speaking:c1",
+    "prompt": "Apresente-se: diga o seu nome, onde vive, o que faz e uma coisa de que gosta.",
+    "topic": "apresentação",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Apresentação pessoal",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Como se escreve o seu apelido?",
+      "O que faz ao fim de semana?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c2",
+    "prompt": "Diga cinco objetos da sua sala e a cor de cada um.",
+    "topic": "casa",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Descrição simples",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qual deles usa todos os dias?",
+      "A sua casa é grande ou pequena?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c3",
+    "prompt": "Fale da sua família: quantas pessoas são, quem são e o que fazem?",
+    "topic": "família",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Falar de pessoas",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Com quem tem mais afinidade?",
+      "Tem irmãos?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c4",
+    "prompt": "O que come e o que bebe ao pequeno-almoço? Diga três coisas.",
+    "topic": "comida",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Temas do dia a dia",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cozinha de manhã?",
+      "Qual é a sua bebida preferida?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c5",
+    "prompt": "A que horas se levanta, quando começa a trabalhar ou a estudar e quando se deita?",
+    "topic": "horários",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Horas e rotinas",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "É uma pessoa matinal?",
+      "O que faz antes de dormir?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c6",
+    "prompt": "Está num café. Peça um café e uma sandes e pergunte quanto custam.",
+    "topic": "no café",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Atos de fala: comprar",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Agora peça a conta com educação.",
+      "O que diz se quiser água?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c7",
+    "prompt": "Como está o tempo hoje e o que está a vestir?",
+    "topic": "tempo e roupa",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CAPLE A1",
+    "task": "Descrição do quotidiano",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "O que veste quando chove?",
+      "De que estação gosta mais?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c8",
+    "prompt": "Diga os números de 1 a 10 e depois o preço de três coisas que comprou esta semana.",
+    "topic": "números",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Números e quantidades",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quanto custa um café na sua cidade?",
+      "Acha que a vida está cara hoje?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c9",
+    "prompt": "Descreva o seu bairro: o que há perto da sua casa e do que gosta nesse lugar?",
+    "topic": "bairro",
+    "level": "A2",
+    "curated": true,
+    "exam": "CAPLE A2",
+    "task": "Descrever um lugar",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "O que mudaria no seu bairro?",
+      "É fácil conhecer pessoas aí?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c10",
+    "prompt": "O que fez no fim de semana passado? Diga onde foi, com quem e do que gostou.",
+    "topic": "o fim de semana passado",
+    "level": "A2",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Narrar no passado",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Foi um fim de semana normal para si?",
+      "O que vai fazer no próximo fim de semana?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c11",
+    "prompt": "Descreva uma fotografia das suas últimas férias: quem está, onde foi tirada e o que acontecia.",
+    "topic": "uma fotografia",
+    "level": "A2",
+    "curated": true,
+    "exam": "CAPLE A2",
+    "task": "Descrever uma imagem",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Porque escolheu esse lugar?",
+      "Voltaria lá?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c12",
+    "prompt": "Quer devolver uma camisa que é pequena. Explique o problema e peça o reembolso.",
+    "topic": "troca na loja",
+    "level": "A2",
+    "curated": true,
+    "exam": "CAPLE A2",
+    "task": "Atos de fala: reclamação",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "O vendedor oferece um tamanho maior. O que responde?",
+      "Como se mantém educado quando não está satisfeito?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c13",
+    "prompt": "Prefere cozinhar em casa ou comer fora? Dê duas razões.",
+    "topic": "cozinhar ou sair",
+    "level": "A2",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Exprimir preferências",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Quantas vezes por mês come fora?",
+      "Que prato cozinha bem?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c14",
+    "prompt": "Quais são os seus planos para o próximo verão? Diga o que vai fazer e porquê.",
+    "topic": "planos de verão",
+    "level": "A2",
+    "curated": true,
+    "exam": "CAPLE A2",
+    "task": "Falar de planos",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Com quem vai passar o verão?",
+      "Já calculou quanto vai custar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c15",
+    "prompt": "Como vai para o trabalho ou para a escola? Descreva o percurso e quanto tempo demora.",
+    "topic": "deslocações",
+    "level": "A2",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Rotinas diárias",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Os transportes públicos são bons onde vive?",
+      "O que tornaria o seu percurso mais fácil?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c16",
+    "prompt": "Conte a última saída com amigos: onde foram e o que fizeram?",
+    "topic": "uma saída",
+    "level": "A2",
+    "curated": true,
+    "exam": "CAPLE A2",
+    "task": "Narrar e avaliar",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Prefere sair à noite ou de dia?",
+      "Quanto gastou?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c17",
+    "prompt": "Descreva uma competência que aprendeu e que mudou o seu dia a dia: qual é, como a aprendeu e porque importou.",
+    "topic": "uma competência",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B1",
+    "task": "Monólogo",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Foi difícil no início?",
+      "Recomendá-la-ia a alguém da sua idade?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c18",
+    "prompt": "Alguns dizem que o exame é a melhor forma de medir capacidades. Concorda?",
+    "topic": "os exames",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B2",
+    "task": "Tomar posição",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Com o que substituiria os exames?",
+      "Como influenciam a forma de estudar?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c19",
+    "prompt": "Concorda: é melhor trabalhar em equipa do que sozinho? Justifique com exemplos.",
+    "topic": "trabalho de equipa",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Argumentar",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "O que faz uma equipa falhar?",
+      "Já liderou um grupo?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c20",
+    "prompt": "A sua cidade quer reduzir o trânsito automóvel. Proponha duas medidas e explique os efeitos esperados.",
+    "topic": "trânsito",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B1",
+    "task": "Problema e solução",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quem pode discordar e porquê?",
+      "O que já tentou a sua cidade?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c21",
+    "prompt": "Descreva uma decisão de que se arrepende e explique o que faria de outra forma hoje.",
+    "topic": "um arrependimento",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B2",
+    "task": "Narrar com reflexão",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "O que aprendeu?",
+      "Aprendemos mais com os erros ou com os êxitos?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c22",
+    "prompt": "Compare aprender uma língua na escola e aprendê-la a viver no estrangeiro.",
+    "topic": "escola ou imersão",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Celpe-Bras",
+    "task": "Comparar",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "O que escolheria com pouco dinheiro?",
+      "Qual é a maior vantagem de cada método?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c23",
+    "prompt": "Como mudou o teletrabalho o que as pessoas esperam de um emprego? Apoie-se em exemplos.",
+    "topic": "teletrabalho",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B2",
+    "task": "Analisar uma tendência",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Serve para todas as profissões?",
+      "O que perdem as empresas?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c24",
+    "prompt": "Uma vila deve restaurar um edifício antigo ou construir um pavilhão desportivo? Defenda uma opção.",
+    "topic": "património local",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "CAPLE B2",
+    "task": "Debate",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Como convenceria quem discorda?",
+      "O que ganha a vila em cada caso?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c25",
+    "prompt": "A globalização ameaça mais línguas do que liga os seus falantes. Discuta.",
+    "topic": "línguas e globalização",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C1",
+    "task": "Argumentação estruturada",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Que línguas correm mais risco e porquê?",
+      "Que papel deveria ter a escola?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c26",
+    "prompt": "Em que medida deve o Estado regular por lei a língua da publicidade?",
+    "topic": "língua e publicidade",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C2",
+    "task": "Discussão abstrata",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Onde acaba a persuasão e começa a manipulação?",
+      "A autorregulação seria mais eficaz?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c27",
+    "prompt": "Abre um debate sobre a devolução de obras de arte contestadas. Faça uma intervenção inicial de três minutos.",
+    "topic": "museus e obras",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C1",
+    "task": "Discurso persuasivo",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Como responde ao argumento da dispersão das coleções?",
+      "O que é uma propriedade legítima?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c28",
+    "prompt": "Avalie a ideia de que a tradução automática tornará em breve desnecessário aprender línguas.",
+    "topic": "tradução automática",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C2",
+    "task": "Avaliação crítica",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "O que se perde quando uma língua só se lê através de um programa?",
+      "Que profissões seriam afetadas primeiro?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c29",
+    "prompt": "Uma universidade quer substituir as aulas presenciais por vídeos online. Apresente uma posição fundamentada.",
+    "topic": "aulas online",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C1",
+    "task": "Debate académico",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Como afetaria a avaliação dos estudantes?",
+      "O que perde o estudante sem a sala de aula?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c30",
+    "prompt": "Deve um Estado proteger a sua língua nacional por lei? Considere educação, media e minorias.",
+    "topic": "política linguística",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C2",
+    "task": "Análise de políticas",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Pode a proteção tornar-se exclusão?",
+      "O que nos ensina a história das leis linguísticas?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c31",
+    "prompt": "O turismo mantém vivos os centros históricos mas esvazia-os de residentes. Pese os dois lados e proponha uma política.",
+    "topic": "turismo de massas",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C1",
+    "task": "Argumentação matizada",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quem deveria pagar a manutenção desses centros?",
+      "Existe um número sustentável de visitantes?"
+    ]
+  },
+  {
+    "id": "pt:speaking:c32",
+    "prompt": "A IA generativa produz texto sem limites. Que consequências para a autoria e a criatividade humanas?",
+    "topic": "inteligência artificial",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAPLE C2",
+    "task": "Discussão especulativa",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Deveriam os textos criados por máquinas ser identificados?",
+      "O que é uma voz autêntica?"
+    ]
   }
 ]

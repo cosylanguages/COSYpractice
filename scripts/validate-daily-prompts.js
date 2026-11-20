@@ -4,9 +4,16 @@
  *   node scripts/validate-daily-prompts.js
  *
  * Every entry needs a unique id, a prompt and a CEFR level tag (e.g. "A2", "B1-B2"). Entries flagged
- * "curated": true are preferred by the strip when one matches the learner's level band, so for the core
- * languages every band (A0-A1, A2, B1-B2, C1-C2) must have at least one curated prompt: that is what
- * guarantees a different task at each level.
+ * "curated": true are preferred by the strip when one matches the learner's level band, so every language
+ * must cover every band (A0-A1, A2, B1-B2, C1-C2) with curated prompts: that is what guarantees a different
+ * task at each level.
+ *
+ * Curated speaking entries also carry the exam-style scaffolding the strip renders:
+ *   task           short name of the task type ("Cue card talk", "Structured argument")
+ *   exam           exam the task is modelled on ("IELTS Part 2", "DELF B1"), optional
+ *   prep_seconds   preparation time before speaking
+ *   speak_seconds  target speaking time
+ *   follow_ups     one or two examiner-style follow-up questions
  */
 'use strict';
 const fs = require('fs');
@@ -16,6 +23,7 @@ const root = path.resolve(__dirname, '..', 'data', 'daily');
 const CORE = ['en', 'fr', 'it', 'ru', 'el'];
 const BANDS = { 'A0-A1': /A0|A1/, 'A2': /A2/, 'B1-B2': /B1|B2/, 'C1-C2': /C1|C2/ };
 const LEVEL = /^(A0|A1|A2|B1|B2|C1|C2)(-(A0|A1|A2|B1|B2|C1|C2))?$/;
+const MIN_PER_BAND = { speaking: 3, writing: 1 };
 const errors = [];
 
 for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root, d)).isDirectory()).sort()) {
@@ -35,12 +43,27 @@ for (const lang of fs.readdirSync(root).filter((d) => fs.statSync(path.join(root
       if (typeof e.prompt !== 'string' || e.prompt.trim().length < 10) errors.push(`${at}: prompt missing or too short`);
       if (typeof e.level !== 'string' || !LEVEL.test(e.level)) errors.push(`${at}: invalid level "${e.level}"`);
       if (e.curated !== undefined && typeof e.curated !== 'boolean') errors.push(`${at}: curated must be a boolean`);
-    });
-    if (CORE.includes(lang)) {
-      for (const [band, re] of Object.entries(BANDS)) {
-        if (!data.some((e) => e.curated && re.test(String(e.level).toUpperCase()))) {
-          errors.push(`${rel}: no curated prompt for band ${band}`);
+
+      if (type === 'speaking' && e.curated) {
+        if (typeof e.task !== 'string' || !e.task.trim()) errors.push(`${at}: curated speaking needs a task`);
+        if (e.exam !== undefined && (typeof e.exam !== 'string' || !e.exam.trim())) errors.push(`${at}: exam must be a non-empty string`);
+        for (const key of ['prep_seconds', 'speak_seconds']) {
+          if (!Number.isInteger(e[key]) || e[key] <= 0) errors.push(`${at}: ${key} must be a positive integer`);
         }
+        if (!Array.isArray(e.follow_ups) || e.follow_ups.length < 1 || e.follow_ups.length > 2) {
+          errors.push(`${at}: follow_ups must list one or two questions`);
+        } else if (e.follow_ups.some((q) => typeof q !== 'string' || q.trim().length < 5)) {
+          errors.push(`${at}: follow_ups entries must be questions`);
+        }
+      }
+    });
+
+    for (const [band, re] of Object.entries(BANDS)) {
+      const curated = data.filter((e) => e.curated && re.test(String(e.level).toUpperCase()));
+      // Writing is not yet curated outside the core languages; speaking is curated for every language.
+      const required = type === 'speaking' || CORE.includes(lang) ? MIN_PER_BAND[type] : 0;
+      if (curated.length < required) {
+        errors.push(`${rel}: needs ${required} curated prompt(s) for band ${band}, has ${curated.length}`);
       }
     }
   }

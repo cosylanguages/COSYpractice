@@ -183,72 +183,636 @@
     "id": "en:speaking:c1",
     "prompt": "Introduce yourself: say your name, where you are from, and what languages you are learning.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c2",
     "prompt": "Describe three items currently on your desk or in your room.",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c3",
     "prompt": "Talk about your favourite meal: what is it and when do you usually eat it?",
     "level": "A0-A1",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c4",
     "prompt": "Describe your typical morning routine and what helps you wake up smoothly.",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c5",
     "prompt": "Talk about a recent trip or holiday you enjoyed: where did you go and who was with you?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c6",
     "prompt": "How do you like to spend a rainy Sunday afternoon?",
     "level": "A2",
-    "curated": true
+    "curated": true,
+    "task": "Everyday question",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c7",
     "prompt": "How has modern technology transformed how you stay in touch with friends and family?",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Opinion and justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c8",
     "prompt": "Describe a challenge you faced recently and how you managed to overcome it.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Opinion and justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c9",
     "prompt": "Do you prefer living in a bustling metropolitan city or a peaceful town? Explain your view.",
     "level": "B1-B2",
-    "curated": true
+    "curated": true,
+    "task": "Opinion and justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c10",
     "prompt": "To what extent does speaking multiple languages alter an individual's worldview or cognitive perception?",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Structured argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c11",
     "prompt": "Critique the role of algorithms in shaping contemporary public discourse and culture.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Structured argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
   },
   {
     "id": "en:speaking:c12",
     "prompt": "Discuss the balance between preserving linguistic heritage and adopting global lingua francas.",
     "level": "C1-C2",
-    "curated": true
+    "curated": true,
+    "task": "Structured argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Why do you think that is?",
+      "Could you tell me a little more about that?"
+    ]
+  },
+  {
+    "id": "en:speaking:c13",
+    "prompt": "Introduce yourself: say your name, where you live, what you do, and one thing you enjoy.",
+    "topic": "introductions",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "IELTS Part 1",
+    "task": "Personal introduction",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "How do you spell your name?",
+      "What do you usually do at the weekend?"
+    ]
+  },
+  {
+    "id": "en:speaking:c14",
+    "prompt": "Name five things in your room and say what colour each one is.",
+    "topic": "home",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Cambridge A1 Movers",
+    "task": "Describing your surroundings",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which of these things do you use every day?",
+      "Is your room big or small?"
+    ]
+  },
+  {
+    "id": "en:speaking:c15",
+    "prompt": "Talk about your family. How many people are there, who are they, and what do they do?",
+    "topic": "family",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Trinity ISE Foundation",
+    "task": "Talking about people",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Who are you closest to in your family?",
+      "Do you have any brothers or sisters?"
+    ]
+  },
+  {
+    "id": "en:speaking:c16",
+    "prompt": "What do you eat and drink for breakfast? Tell me about three things.",
+    "topic": "food",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CEFR A1",
+    "task": "Everyday topics",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Do you cook breakfast yourself?",
+      "What is your favourite drink?"
+    ]
+  },
+  {
+    "id": "en:speaking:c17",
+    "prompt": "What time do you get up, when do you start work or school, and when do you go to bed?",
+    "topic": "daily times",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Trinity ISE Foundation",
+    "task": "Telling the time and routines",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Are you a morning person?",
+      "What do you do before you sleep?"
+    ]
+  },
+  {
+    "id": "en:speaking:c18",
+    "prompt": "You are in a café. Order a coffee and a sandwich, then ask how much they cost.",
+    "topic": "café request",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Cambridge A1 Movers",
+    "task": "Functional language: transactions",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Now ask for the bill politely.",
+      "What do you say if you want water?"
+    ]
+  },
+  {
+    "id": "en:speaking:c19",
+    "prompt": "What is the weather like today, and what are you wearing?",
+    "topic": "weather and clothes",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "CEFR A1",
+    "task": "Simple description",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "What do you wear when it rains?",
+      "Which season do you like best?"
+    ]
+  },
+  {
+    "id": "en:speaking:c20",
+    "prompt": "Say the numbers 1 to 10, then tell me the price of three things you bought this week.",
+    "topic": "numbers and prices",
+    "level": "A0-A1",
+    "curated": true,
+    "exam": "Cambridge Pre A1 Starters",
+    "task": "Numbers and quantities",
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "How much is a coffee in your town?",
+      "Do you think things are expensive now?"
+    ]
+  },
+  {
+    "id": "en:speaking:c21",
+    "prompt": "Describe your neighbourhood. What is near your home, and what do you like about it?",
+    "topic": "neighbourhood",
+    "level": "A2",
+    "curated": true,
+    "exam": "IELTS Part 1",
+    "task": "Describing a place",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What would you change about your area?",
+      "Is it easy to meet people there?"
+    ]
+  },
+  {
+    "id": "en:speaking:c22",
+    "prompt": "What did you do last weekend? Say where you went, who you were with, and what you enjoyed.",
+    "topic": "last weekend",
+    "level": "A2",
+    "curated": true,
+    "exam": "Cambridge A2 Key",
+    "task": "Narrating a past event",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Was it a typical weekend for you?",
+      "What are you doing next weekend?"
+    ]
+  },
+  {
+    "id": "en:speaking:c23",
+    "prompt": "Describe a photo from your last holiday: who is in it, where it was taken, and what was happening.",
+    "topic": "holiday photo",
+    "level": "A2",
+    "curated": true,
+    "exam": "Trinity ISE I",
+    "task": "Describing a picture",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Why did you choose that place?",
+      "Would you go back?"
+    ]
+  },
+  {
+    "id": "en:speaking:c24",
+    "prompt": "You want to return a shirt that is too small. Explain the problem and ask for a refund.",
+    "topic": "returning an item",
+    "level": "A2",
+    "curated": true,
+    "exam": "Cambridge A2 Key",
+    "task": "Functional language: complaints",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "The assistant offers a bigger size. What do you say?",
+      "How do you stay polite when you are unhappy?"
+    ]
+  },
+  {
+    "id": "en:speaking:c25",
+    "prompt": "Do you prefer cooking at home or eating out? Give two reasons for your choice.",
+    "topic": "cooking or eating out",
+    "level": "A2",
+    "curated": true,
+    "exam": "CEFR A2",
+    "task": "Expressing preferences",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How often do you eat out?",
+      "What dish can you cook well?"
+    ]
+  },
+  {
+    "id": "en:speaking:c26",
+    "prompt": "What are your plans for next summer? Say what you will do and why.",
+    "topic": "next summer",
+    "level": "A2",
+    "curated": true,
+    "exam": "Cambridge A2 Key",
+    "task": "Talking about plans",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Who will you spend it with?",
+      "Have you planned how much it will cost?"
+    ]
+  },
+  {
+    "id": "en:speaking:c27",
+    "prompt": "How do you travel to work or school? Describe the journey and how long it takes.",
+    "topic": "getting around",
+    "level": "A2",
+    "curated": true,
+    "exam": "Trinity ISE I",
+    "task": "Everyday routines",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Is public transport good where you live?",
+      "What would make your journey easier?"
+    ]
+  },
+  {
+    "id": "en:speaking:c28",
+    "prompt": "Describe the last time you went shopping. What did you buy, and was it a good experience?",
+    "topic": "a shop visit",
+    "level": "A2",
+    "curated": true,
+    "exam": "IELTS Part 1",
+    "task": "Narrating a past event",
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Do you prefer shopping online or in shops?",
+      "How do you decide what to buy?"
+    ]
+  },
+  {
+    "id": "en:speaking:c29",
+    "prompt": "Describe a skill you learned that changed your daily life. Say what it is, how you learned it, and why it mattered.",
+    "topic": "a skill",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "IELTS Part 2",
+    "task": "Cue card talk",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Was it difficult at the beginning?",
+      "Would you recommend it to someone your age?"
+    ]
+  },
+  {
+    "id": "en:speaking:c30",
+    "prompt": "Some people say exams are the best way to measure ability. To what extent do you agree?",
+    "topic": "exams",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "IELTS Part 3",
+    "task": "Opinion and justification",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What would you use instead of exams?",
+      "How do exams affect how students learn?"
+    ]
+  },
+  {
+    "id": "en:speaking:c31",
+    "prompt": "Do you agree or disagree: it is better to work in a team than alone? Give reasons and examples.",
+    "topic": "teamwork",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "TOEFL Independent",
+    "task": "Agree / disagree",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What makes a team fail?",
+      "Have you ever led a group?"
+    ]
+  },
+  {
+    "id": "en:speaking:c32",
+    "prompt": "Your city wants to reduce car traffic. Suggest two measures and explain the effects you expect.",
+    "topic": "city traffic",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Cambridge B2 First",
+    "task": "Problem and solution",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Who might object to your ideas, and why?",
+      "What has your city already tried?"
+    ]
+  },
+  {
+    "id": "en:speaking:c33",
+    "prompt": "Describe a decision you regret and explain what you would do differently today.",
+    "topic": "a regret",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Trinity ISE II",
+    "task": "Narration with reflection",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What did you learn from it?",
+      "Do you think people learn more from mistakes than from success?"
+    ]
+  },
+  {
+    "id": "en:speaking:c34",
+    "prompt": "Compare learning a language at school with learning it by living abroad.",
+    "topic": "school vs abroad",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "Cambridge B1 Preliminary",
+    "task": "Comparing and contrasting",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Which would you choose with limited money?",
+      "What is the biggest advantage of each?"
+    ]
+  },
+  {
+    "id": "en:speaking:c35",
+    "prompt": "How has remote work changed what people expect from a job? Support your answer with examples.",
+    "topic": "remote work",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "TOEFL Integrated",
+    "task": "Discussing a trend",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Does it suit every profession?",
+      "What do employers lose when staff work from home?"
+    ]
+  },
+  {
+    "id": "en:speaking:c36",
+    "prompt": "Should a town spend public money restoring an old building or building a new sports centre? Argue one side.",
+    "topic": "local heritage",
+    "level": "B1-B2",
+    "curated": true,
+    "exam": "IELTS Part 3",
+    "task": "Argumentation",
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "How would you persuade people who disagree?",
+      "What does the town gain in each case?"
+    ]
+  },
+  {
+    "id": "en:speaking:c37",
+    "prompt": "Globalisation has done more to endanger languages than to connect their speakers. Discuss.",
+    "topic": "language and globalisation",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAE",
+    "task": "Structured argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Which languages are most at risk, and why?",
+      "What role should schools play?"
+    ]
+  },
+  {
+    "id": "en:speaking:c38",
+    "prompt": "To what extent should governments regulate the language used in public advertising?",
+    "topic": "advertising language",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CPE",
+    "task": "Abstract discussion",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Where is the line between persuasion and manipulation?",
+      "Would self-regulation work better?"
+    ]
+  },
+  {
+    "id": "en:speaking:c39",
+    "prompt": "Summarise the arguments for and against compulsory voting, then defend your own position.",
+    "topic": "compulsory voting",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "TOEFL Academic Discussion",
+    "task": "Synthesis and position",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Does a duty to vote conflict with freedom of expression?",
+      "How would you enforce it?"
+    ]
+  },
+  {
+    "id": "en:speaking:c40",
+    "prompt": "Evaluate the claim that machine translation will soon make learning foreign languages unnecessary.",
+    "topic": "AI translation",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "IELTS Part 3",
+    "task": "Evaluating a claim",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "What is lost when a language is only read through software?",
+      "Which professions would be hit first?"
+    ]
+  },
+  {
+    "id": "en:speaking:c41",
+    "prompt": "You are opening a debate on whether museums should return contested artefacts. Give a three-minute opening statement.",
+    "topic": "museums",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CAE",
+    "task": "Persuasive speech",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "How do you answer the objection that collections would be dispersed?",
+      "What counts as legitimate ownership?"
+    ]
+  },
+  {
+    "id": "en:speaking:c42",
+    "prompt": "A university plans to replace lectures with online videos. Present a reasoned position and address the main counterarguments.",
+    "topic": "online lectures",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "TOEFL Integrated",
+    "task": "Academic argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "How should this affect assessment?",
+      "What does a student lose without a lecture hall?"
+    ]
+  },
+  {
+    "id": "en:speaking:c43",
+    "prompt": "Should a country protect its national language by law? Consider education, media and minority rights.",
+    "topic": "language policy",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "CPE",
+    "task": "Policy analysis",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Can protection turn into exclusion?",
+      "What has history taught us about language laws?"
+    ]
+  },
+  {
+    "id": "en:speaking:c44",
+    "prompt": "Tourism keeps many historic centres alive but also empties them of residents. Weigh the two sides and propose a policy.",
+    "topic": "tourism",
+    "level": "C1-C2",
+    "curated": true,
+    "exam": "ECPE",
+    "task": "Balanced argument",
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Who should pay for the upkeep of those centres?",
+      "Is there a sustainable number of visitors?"
+    ]
   }
 ]
