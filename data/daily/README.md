@@ -26,7 +26,7 @@ Curated speaking prompts carry the exam-style scaffolding the daily strip render
 | `task` | Short name of the task type ("Cue card talk", "Structured argument") |
 | `prep_seconds` | Preparation time before speaking |
 | `speak_seconds` | Target speaking time |
-| `follow_ups` | One or two examiner-style follow-up questions |
+| `follow_ups` | Examiner-style follow-ups: one or two on an exam card, up to three on a general card |
 | `track` | `"exam"` (default) or `"general"` — a general-course card has no exam and no part |
 | `activity` | For general cards, the speaking activity: `brainstorm`, `analyse`, `describe`, `compare`, `discuss`, `narrate`, `role-play`, `problem-solving`, `interview`, `plan`, `present`, `identify` |
 | `audience` | Who the card suits: any of `young`, `teen`, `adult`, `senior`. Empty means everyone |
@@ -56,12 +56,23 @@ Every language carries two kinds of speaking card.
   still get daily practice.
 
 ```json
-{ "id": "en:speaking:g1", "prompt": "Name as many things as you can in a kitchen, then say which you use most.",
+{ "id": "en:speaking:g1",
+  "prompt": "Name as many things as you can that you find in a kitchen. Try to say ten. Which ones do you use every day? What do you do with them?",
   "topic": "Name as many as you can", "level": "A0-A1", "curated": true,
   "track": "general", "task": "Name as many as you can", "activity": "brainstorm",
   "audience": ["young", "teen", "adult", "senior"],
-  "prep_seconds": 10, "speak_seconds": 45, "follow_ups": ["Which do you use every day?"] }
+  "prep_seconds": 10, "speak_seconds": 45,
+  "follow_ups": ["Which one is the most useful?", "Which one is dangerous for children?", "What is in your kitchen that is not in mine?"] }
 ```
+
+**A general prompt always asks something.** Naming ten objects is only practice if the learner then says what each one
+is for, how often they use it, and which one matters most, so the prompt carries its own questions instead of stopping
+at an order. The validator rejects a general prompt with no question mark (it accepts the Greek `;`, the Greek
+question mark `;`/`;` and the Armenian `՞`). The three follow-ups then push one step further: why, how often, what you
+would change, who it helps.
+
+Wording is pitched to the band: A0-A1 stays in the present simple with one clause per question; A2 adds the past and
+`will`; B1-B2 uses the perfect, conditionals and connectors; C1-C2 asks for concession, framing and evaluation.
 
 General cards are written for **all ages**. Every band has a card for young learners, teens, adults and seniors, with
 one deliberate exception: there is no C1-C2 card tagged `young`, because an advanced young learner is rare and the
