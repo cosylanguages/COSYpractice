@@ -202,6 +202,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What time do you get up?",
+      "What do you eat for breakfast?"
     ]
   },
   {
@@ -227,6 +231,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Which shop do you go to?",
+      "Which of these things matters most?"
     ]
   },
   {
@@ -252,6 +260,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Who is with you on that day?",
+      "What do you do in the evening?"
     ]
   },
   {
@@ -277,6 +289,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What day do you suggest?",
+      "What time do you meet?"
     ]
   },
   {
@@ -302,6 +318,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "What helped you most so far?",
+      "What will you do differently next month?"
     ]
   },
   {
@@ -327,6 +347,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "What reason will you give?",
+      "When is your new deadline?"
     ]
   },
   {
@@ -351,6 +375,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "How would the city pay for it?",
+      "Who would benefit least?"
     ]
   },
   {
@@ -375,6 +403,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Which disciplines are most at risk?",
+      "What should artists ask of these tools?"
     ]
   },
   {
@@ -400,6 +432,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What are they eating?",
+      "Where are the plates?"
     ]
   },
   {
@@ -425,6 +461,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What is your favourite food?",
+      "Who is your best friend?"
     ]
   },
   {
@@ -450,6 +490,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What time should your friend come?",
+      "What will you do together?"
     ]
   },
   {
@@ -475,6 +519,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What is the weather like?",
+      "What are the two people doing?"
     ]
   },
   {
@@ -500,6 +548,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Which word was hardest?",
+      "Can you use one of the words in a new sentence?"
     ]
   },
   {
@@ -525,6 +577,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Which word is hard to spell?",
+      "What else is in your classroom?"
     ]
   },
   {
@@ -550,6 +606,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Where are you staying?",
+      "What did you do yesterday?"
     ]
   },
   {
@@ -575,6 +635,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What time does the party start?",
+      "What should your friend bring?"
     ]
   },
   {
@@ -600,6 +664,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Who looks most like you?",
+      "What does your family like doing together?"
     ]
   },
   {
@@ -625,6 +693,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "How long have you had it?",
+      "Where do you keep it?"
     ]
   },
   {
@@ -650,6 +722,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "How long will you be away?",
+      "What should your neighbour do if it rains?"
     ]
   },
   {
@@ -675,6 +751,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Who was at the door?",
+      "How did the story end?"
     ]
   },
   {
@@ -700,6 +780,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What did you order?",
+      "Would you go back?"
     ]
   },
   {
@@ -725,6 +809,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Which sport did you choose?",
+      "How much experience do you have?"
     ]
   },
   {
@@ -750,6 +838,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Which part of town should they live in?",
+      "What should they not worry about?"
     ]
   },
   {
@@ -775,6 +867,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What will you bring?",
+      "What time will you arrive?"
     ]
   },
   {
@@ -800,6 +896,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What does the bag look like?",
+      "When did you stay at the hotel?"
     ]
   },
   {
@@ -825,6 +925,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Who were you with?",
+      "What did you enjoy most?"
     ]
   },
   {
@@ -850,6 +954,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What can you do there?",
+      "When is the best time to visit?"
     ]
   },
   {
@@ -875,6 +983,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What was the present?",
+      "How will you use it?"
     ]
   },
   {
@@ -900,6 +1012,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which dates suit you?",
+      "What is your current level?"
     ]
   },
   {
@@ -925,6 +1041,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which idea works for you?",
+      "What do learners usually get wrong?"
     ]
   },
   {
@@ -950,6 +1070,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which option costs more?",
+      "What would residents accept?"
     ]
   },
   {
@@ -975,6 +1099,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Who would enjoy it most?",
+      "What did it do badly?"
     ]
   },
   {
@@ -1000,6 +1128,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which country is highest?",
+      "What might explain the difference?"
     ]
   },
   {
@@ -1025,6 +1157,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Who should pay instead?",
+      "Would the quality of teaching change?"
     ]
   },
   {
@@ -1050,6 +1186,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which point is strongest?",
+      "Where do the two sources agree?"
     ]
   },
   {
@@ -1075,6 +1215,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "What would a classmate object?",
+      "Which jobs could not do this?"
     ]
   },
   {
@@ -1100,6 +1244,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which change costs least?",
+      "How will you measure success?"
     ]
   },
   {
@@ -1125,6 +1273,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "What do you want the shop to do?",
+      "How will you stay polite?"
     ]
   },
   {
@@ -1149,6 +1301,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Which perspective convinces you more?",
+      "What evidence would change your mind?"
     ]
   },
   {
@@ -1173,6 +1329,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "How long should the trial last?",
+      "How would you measure productivity?"
     ]
   },
   {
@@ -1197,6 +1357,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Where should the limit sit?",
+      "Which text is more persuasive?"
     ]
   },
   {
@@ -1221,6 +1385,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What is its weakest argument?",
+      "Would you recommend it to a beginner?"
     ]
   },
   {
@@ -1245,6 +1413,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Which source grew fastest?",
+      "What does the graph leave out?"
     ]
   },
   {
@@ -1269,6 +1441,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Which risk worries you most?",
+      "Who should set the research priorities?"
     ]
   },
   {
@@ -1293,6 +1469,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "How do the causes differ?",
+      "Which source is better supported?"
     ]
   },
   {
@@ -1317,6 +1497,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What is the strongest counterargument?",
+      "Who benefits most from each?"
     ]
   },
   {
@@ -1341,6 +1525,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Which change matters most?",
+      "How would you justify the cost?"
     ]
   },
   {
@@ -1365,6 +1553,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What is the strongest objection?",
+      "How do you answer it?"
     ]
   },
   {
@@ -1389,6 +1581,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Which thing do you like best?",
+      "What colour are the walls?"
     ]
   },
   {
@@ -1413,6 +1609,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "Where will you meet?",
+      "What will you do together?"
     ]
   },
   {
@@ -1437,6 +1637,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What did you eat today?",
+      "How do you feel now?"
     ]
   },
   {
@@ -1461,6 +1665,10 @@
       "Every sentence starts with a capital letter and ends with a full stop.",
       "You answered every part of the task.",
       "Check the spelling of everyday words."
+    ],
+    "follow_ups": [
+      "What do you need first?",
+      "How long does it take?"
     ]
   },
   {
@@ -1485,6 +1693,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What went wrong first?",
+      "How did the day end?"
     ]
   },
   {
@@ -1509,6 +1721,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "Which dates do you need?",
+      "Is breakfast included?"
     ]
   },
   {
@@ -1533,6 +1749,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "What did you order?",
+      "Would you go back?"
     ]
   },
   {
@@ -1557,6 +1777,10 @@
       "You wrote all the information the task asks for.",
       "You joined ideas with because, and, but or so.",
       "You started and finished the message politely."
+    ],
+    "follow_ups": [
+      "How long does the walk take?",
+      "What is next to the station?"
     ]
   },
   {
@@ -1581,6 +1805,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which objection do you answer?",
+      "Which club would you join?"
     ]
   },
   {
@@ -1605,6 +1833,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which point matters most?",
+      "What did you leave out?"
     ]
   },
   {
@@ -1629,6 +1861,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "What outcome do you want?",
+      "How has the delay affected you?"
     ]
   },
   {
@@ -1653,6 +1889,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "Which sense brings it back?",
+      "When were you last there?"
     ]
   },
   {
@@ -1676,6 +1916,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What is the strongest counterargument?",
+      "Who would be affected most?"
     ]
   },
   {
@@ -1699,6 +1943,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What did you cut first?",
+      "Which evidence must stay?"
     ]
   },
   {
@@ -1722,6 +1970,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "What is the argument really about?",
+      "How does the scene end?"
     ]
   },
   {
@@ -1745,6 +1997,10 @@
       "Your position is clear in the introduction and the conclusion.",
       "You addressed a counterargument.",
       "Register and tone stay consistent throughout."
+    ],
+    "follow_ups": [
+      "Where is the bias clearest?",
+      "What evidence is missing?"
     ]
   },
   {
@@ -1769,6 +2025,10 @@
       "Each paragraph has one main idea.",
       "You gave a reason and an example for your opinion.",
       "You used linking words such as however, therefore and in addition."
+    ],
+    "follow_ups": [
+      "When does the change start?",
+      "What must residents do?"
     ]
   }
 ]

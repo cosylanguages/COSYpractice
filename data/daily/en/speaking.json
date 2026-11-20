@@ -198,7 +198,7 @@
     "speak_seconds": 45,
     "follow_ups": [
       "How do you usually practise speaking English?",
-      "Which language is easiest for you, and why?"
+      "Which language do you like most?"
     ]
   },
   {
@@ -1188,7 +1188,7 @@
     "speak_seconds": 45,
     "follow_ups": [
       "Do you go there to relax or to work?",
-      "Would you change anything about it?",
+      "Is it a big place or a small place?",
       "Who else uses this place?"
     ]
   },
@@ -1958,7 +1958,7 @@
     "follow_ups": [
       "What do you do after breakfast?",
       "Is your morning busy or quiet?",
-      "What would you change about it?"
+      "Do you like your morning?"
     ]
   },
   {
@@ -2050,6 +2050,446 @@
       "Who pays for public space if not advertisers?",
       "Where would you draw the line?",
       "Does your answer change for schools or hospitals?"
+    ]
+  },
+  {
+    "id": "en:speaking:c63",
+    "prompt": "Look at a picture of a family in a garden. Tell me who you can see, what they are doing and what the weather is like.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge Pre A1 Starters",
+    "part": "Part 1 · Scene picture",
+    "task": "Scene description",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "How many people are in the picture?",
+      "What is the dog doing?"
+    ]
+  },
+  {
+    "id": "en:speaking:c64",
+    "prompt": "Here are four things: a cat, a dog, a chair and a bird. Which one is different, and why?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A1 Movers",
+    "part": "Part 3 · Odd one out",
+    "task": "Odd one out",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Which animal do you like best?",
+      "Do you have a pet at home?"
+    ]
+  },
+  {
+    "id": "en:speaking:c65",
+    "prompt": "Tell me about your home. How many rooms are there? Which room do you use most? What do you do there?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE Foundation",
+    "part": "Conversation task",
+    "task": "Personal conversation",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Do you have your own room?",
+      "What can you see from your window?"
+    ]
+  },
+  {
+    "id": "en:speaking:c66",
+    "prompt": "Talk about your free time. What do you do at the weekend? Who do you spend it with? What did you do last Saturday?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 1 · Interview",
+    "task": "Interview",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Do you prefer Saturdays or Sundays?",
+      "What would you like to try next?"
+    ]
+  },
+  {
+    "id": "en:speaking:c67",
+    "prompt": "A friend wants to buy a present for a teacher. Talk about three things you could buy and say which is the best idea.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge A2 Key",
+    "part": "Part 2 · Discussion",
+    "task": "Discussion",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How much would you spend?",
+      "Why is a card a good idea?"
+    ]
+  },
+  {
+    "id": "en:speaking:c68",
+    "prompt": "Choose a hobby you know well. Explain what it is, how you started it and why other people should try it.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Trinity ISE I",
+    "part": "Topic task",
+    "task": "Topic talk",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How often do you do it?",
+      "What do you need to start?"
+    ]
+  },
+  {
+    "id": "en:speaking:c69",
+    "prompt": "Describe a journey you make often. Say where you go, how you travel and what you usually see on the way.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B1 Preliminary",
+    "part": "Part 2 · Extended turn",
+    "task": "Extended turn",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What would make the journey better?",
+      "How has travel changed in your town?"
+    ]
+  },
+  {
+    "id": "en:speaking:c70",
+    "prompt": "A town wants to attract more young people. Discuss three possible ideas, then choose the one most likely to work.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "Cambridge B2 First",
+    "part": "Part 3 · Collaborative task",
+    "task": "Collaborative task",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Which idea costs the most?",
+      "Who should pay for it?"
+    ]
+  },
+  {
+    "id": "en:speaking:c71",
+    "prompt": "Some people say libraries are no longer needed because everything is online. Do you agree? Give reasons and examples.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS",
+    "part": "Part 3 · Discussion",
+    "task": "Structured argument",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "What else could a library offer?",
+      "Who uses libraries most in your country?"
+    ]
+  },
+  {
+    "id": "en:speaking:c72",
+    "prompt": "A city has a budget for one project: a new park, a sports centre or a free bus service. Discuss the options and agree on one.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "C1 Advanced (CAE)",
+    "part": "Part 3 · Collaborative task",
+    "task": "Collaborative task",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Which option helps health most?",
+      "How would you persuade a sceptical taxpayer?"
+    ]
+  },
+  {
+    "id": "en:speaking:c73",
+    "prompt": "Is it possible to be well informed without reading long-form journalism? Explain what is lost when news becomes short.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "IELTS",
+    "part": "Part 3 · Discussion",
+    "task": "Abstract discussion",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "What responsibility do platforms have?",
+      "How would you teach news literacy?"
+    ]
+  },
+  {
+    "id": "en:speaking:c74",
+    "prompt": "Some universities require students to study a subject outside their main field. Do you think this is a good policy? Explain why.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TOEFL iBT",
+    "part": "Speaking Task 1 · Independent",
+    "task": "Independent response",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What subject would you choose?",
+      "Could this delay graduation?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx5",
+    "prompt": "Look at your clothes today. Name five things you are wearing. What colour is each one? Which is your favourite?",
+    "topic": "Name and describe",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Name and describe",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "What do you wear in winter?",
+      "Who chose these clothes?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx6",
+    "prompt": "What did you eat yesterday? Name three things. Which one was the best? Who cooked it?",
+    "topic": "Talk about food",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Talk about food",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Do you cook at home?",
+      "What is your favourite drink?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx7",
+    "prompt": "Compare your town today with your town ten years ago. What has changed? What has stayed the same? Which change is best?",
+    "topic": "Compare two things",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Compare two things",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "What would you change back?",
+      "Would you like to live somewhere else?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx8",
+    "prompt": "You are meeting a friend at 6 p.m. but the bus is late and your phone is dead. What do you do? What would you say when you arrive?",
+    "topic": "Solve a small problem",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Solve a small problem",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "How do you usually plan your time?",
+      "What do you do when you are late?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx9",
+    "prompt": "Explain how to do something you are good at, step by step. What are the common mistakes? How would you teach a beginner?",
+    "topic": "Explain a process",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Explain a process",
+    "activity": "present",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "How long did it take you to learn?",
+      "What advice would you give first?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx10",
+    "prompt": "Should shops be open on Sundays? Give both sides, then say what you think and why.",
+    "topic": "Discuss an everyday question",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuss an everyday question",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Who works hardest in that debate?",
+      "How is it different in other countries?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx11",
+    "prompt": "'Cities belong to the people who walk them.' What does this claim mean, and how far do you agree with it?",
+    "topic": "Analyse an idea",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyse an idea",
+    "activity": "analyse",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Who is excluded from that claim?",
+      "What would a transport planner reply?"
+    ]
+  },
+  {
+    "id": "en:speaking:gx12",
+    "prompt": "Is it better to be a specialist or a generalist in the modern job market? Argue a position and answer the strongest objection.",
+    "topic": "Take a position",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Take a position",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "How will automation change the answer?",
+      "Which choice has more risk?"
     ]
   }
 ]

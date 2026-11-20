@@ -120,7 +120,10 @@ expects" guide describes the card actually shown, not the band the learner click
   languages on each track. The writing check also fails if a curated card is missing its genre, word target, time
   limit or self-check list.
 - Writing cards carry `genre`, `word_min`/`word_max`, `write_minutes` and a 2–3 point `checklist`; the strip renders
-  them as chips, a word target, a time limit and a "Before you finish, check" list. Exam writing tasks follow the
+  them as chips, a word target, a time limit and a "Before you finish, check" list. They may also carry `follow_ups`
+  (one or two questions): the strip shows them under a "Follow-up questions" heading, the same block the speaking tab
+  uses, so a written task can be extended after the draft. The five languages with a live page (en, fr, it, ru, el)
+  have follow-ups on every curated writing card. Exam writing tasks follow the
   IELTS Task 1/2, TOEFL integrated and academic-discussion, Cambridge, DELF/DALF, Goethe, DELE and ТРКИ shapes at the
   length each band is expected to produce (A0-A1: 10-40 words, A2: 25-90, B1-B2: 80-280, C1-C2: 140-300).
 - `level` is a CEFR tag or range (`A2`, `A2-B1`, `B1-B2`). The daily strip on COSYlanguages picks among the prompts that

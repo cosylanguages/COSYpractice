@@ -1541,5 +1541,445 @@
       "Où traceriez-vous la limite ?",
       "Votre réponse change-t-elle pour les écoles ou les hôpitaux ?"
     ]
+  },
+  {
+    "id": "fr:speaking:c41",
+    "prompt": "Vous êtes dans un magasin. Vous voulez acheter un cadeau pour un ami. Saluez le vendeur, dites ce que vous cherchez et demandez le prix.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Part 3 · Dialogue simulé",
+    "task": "Dialogue simulé",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quel est votre budget ?",
+      "Quel cadeau choisissez-vous ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c42",
+    "prompt": "Parlez de votre journée. À quelle heure vous levez-vous ? Que faites-vous le matin ? Que faites-vous le soir ?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A1",
+    "part": "Part 2 · Échange d'informations",
+    "task": "Échange d'informations",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qu'est-ce que vous aimez le plus dans votre journée ?",
+      "Que faites-vous le week-end ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c43",
+    "prompt": "Présentez votre ville. Où est-elle ? Est-elle grande ou petite ? Qu'est-ce qu'il y a à visiter ?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "TCF",
+    "part": "Tâche 1 · Entretien dirigé",
+    "task": "Entretien dirigé",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quel est votre endroit préféré dans votre ville ?",
+      "Comment allez-vous au travail ou à l'école ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c44",
+    "prompt": "Racontez vos dernières vacances. Où êtes-vous allé ? Avec qui ? Qu'avez-vous fait et qu'avez-vous aimé ?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 2 · Monologue suivi",
+    "task": "Monologue suivi",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'est-ce que vous n'avez pas aimé ?",
+      "Où voulez-vous aller l'année prochaine ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c45",
+    "prompt": "Vous voulez organiser une sortie avec un ami samedi. Proposez deux activités, demandez son avis et choisissez ensemble.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF A2",
+    "part": "Part 3 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "À quelle heure vous retrouvez-vous ?",
+      "Qui paie les billets ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c46",
+    "prompt": "Vous êtes dans un restaurant. Le plat que vous avez reçu n'est pas ce que vous avez commandé. Expliquez le problème au serveur et proposez une solution.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TCF",
+    "part": "Tâche 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'est-ce que vous dites d'abord ?",
+      "Que faites-vous si le serveur refuse ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c47",
+    "prompt": "Certains pensent que les enfants devraient apprendre une deuxième langue très tôt. Qu'en pensez-vous ? Donnez des exemples.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quel âge est le meilleur pour commencer ?",
+      "Comment l'école peut-elle aider les familles ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c48",
+    "prompt": "Vous voulez convaincre votre voisin de participer à un projet de jardin partagé. Présentez le projet, répondez à ses doutes et trouvez un accord.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui s'occupe de l'entretien ?",
+      "Comment partagez-vous les récoltes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c49",
+    "prompt": "Le télétravail est-il une chance pour tous les salariés ? Développez une réponse nuancée avec des exemples concrets.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "TCF",
+    "part": "Tâche 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quels métiers ne peuvent pas le faire ?",
+      "Comment garder le lien avec l'équipe ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c50",
+    "prompt": "Présentez une réflexion sur la place de la lecture dans une société dominée par l'image. Appuyez-vous sur des exemples précis.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "La lecture est-elle un luxe ?",
+      "Quel rôle pour l'école ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c51",
+    "prompt": "« Protéger une langue, c'est protéger une façon de penser. » Discutez cette affirmation et défendez une position argumentée.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quelles langues sont les plus menacées ?",
+      "Que peut faire un État sans contraindre ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:c52",
+    "prompt": "Une ville peut-elle être à la fois ouverte au tourisme et agréable pour ses habitants ? Analysez cette tension et prenez position.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Qui doit décider des limites ?",
+      "Quel exemple vous convainc ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx5",
+    "prompt": "Regardez vos vêtements aujourd'hui. Nommez cinq choses que vous portez. De quelle couleur est chaque chose ? Quelle est votre préférée ?",
+    "topic": "Nommer et décrire",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nommer et décrire",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Que portez-vous en hiver ?",
+      "Qui a choisi ces vêtements ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx6",
+    "prompt": "Qu'est-ce que vous avez mangé hier ? Nommez trois choses. Laquelle était la meilleure ? Qui a cuisiné ?",
+    "topic": "Parler de la nourriture",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Parler de la nourriture",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cuisinez-vous à la maison ?",
+      "Quelle est votre boisson préférée ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx7",
+    "prompt": "Comparez votre ville aujourd'hui et il y a dix ans. Qu'est-ce qui a changé ? Qu'est-ce qui est resté pareil ? Quel changement est le meilleur ?",
+    "topic": "Comparer deux choses",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Comparer deux choses",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Qu'est-ce que vous changeriez ?",
+      "Aimeriez-vous habiter ailleurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx8",
+    "prompt": "Vous avez rendez-vous avec un ami à 18 h, mais le bus est en retard et votre téléphone est déchargé. Que faites-vous ? Que dites-vous en arrivant ?",
+    "topic": "Résoudre un petit problème",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Résoudre un petit problème",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Comment organisez-vous votre temps ?",
+      "Que faites-vous quand vous êtes en retard ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx9",
+    "prompt": "Expliquez comment faire quelque chose que vous maîtrisez, étape par étape. Quelles sont les erreurs fréquentes ? Comment l'enseigneriez-vous à un débutant ?",
+    "topic": "Expliquer un processus",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Expliquer un processus",
+    "activity": "present",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Combien de temps avez-vous mis pour apprendre ?",
+      "Quel conseil donneriez-vous d'abord ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx10",
+    "prompt": "Les magasins doivent-ils être ouverts le dimanche ? Donnez les deux points de vue, puis dites ce que vous pensez et pourquoi.",
+    "topic": "Discuter d'une question quotidienne",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discuter d'une question quotidienne",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Qui travaille le plus dans ce débat ?",
+      "Comment est-ce ailleurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx11",
+    "prompt": "« La ville appartient à ceux qui la marchent. » Que signifie cette affirmation, et dans quelle mesure êtes-vous d'accord ?",
+    "topic": "Analyser une idée",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analyser une idée",
+    "activity": "analyse",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qui est exclu de cette affirmation ?",
+      "Que répondrait un urbaniste ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:gx12",
+    "prompt": "Vaut-il mieux être spécialiste ou généraliste sur le marché du travail actuel ? Défendez une position et répondez à l'objection la plus forte.",
+    "topic": "Prendre position",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Prendre position",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Comment l'automatisation changera-t-elle la réponse ?",
+      "Quel choix présente le plus de risque ?"
+    ]
   }
 ]

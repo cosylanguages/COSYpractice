@@ -82,6 +82,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "À quelle heure vous levez-vous ?",
+      "Que mangez-vous au petit-déjeuner ?"
     ]
   },
   {
@@ -107,6 +111,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Quelle activité préférez-vous ?",
+      "Avec qui la partagez-vous ?"
     ]
   },
   {
@@ -132,6 +140,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Qui est avec vous ce jour-là ?",
+      "Que faites-vous le soir ?"
     ]
   },
   {
@@ -157,6 +169,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Quel jour proposez-vous ?",
+      "À quelle heure vous retrouvez-vous ?"
     ]
   },
   {
@@ -182,6 +198,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Qu'est-ce qui vous a le plus marqué ?",
+      "Le recommanderiez-vous ?"
     ]
   },
   {
@@ -207,6 +227,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quelle habitude voulez-vous garder ?",
+      "Combien de temps y consacrez-vous ?"
     ]
   },
   {
@@ -231,6 +255,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Comment garder le lien avec les collègues ?",
+      "Quels métiers souffrent le plus ?"
     ]
   },
   {
@@ -255,6 +283,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quelles langues sont les plus menacées ?",
+      "Que peuvent faire les écoles ?"
     ]
   },
   {
@@ -280,6 +312,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Quelle est votre langue maternelle ?",
+      "Depuis combien de temps apprenez-vous ?"
     ]
   },
   {
@@ -305,6 +341,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Avec qui êtes-vous en vacances ?",
+      "Quel temps fait-il ?"
     ]
   },
   {
@@ -330,6 +370,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Combien de temps partez-vous ?",
+      "Où est la clé ?"
     ]
   },
   {
@@ -355,6 +399,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Qui est sur la photo ?",
+      "Où sont-ils ?"
     ]
   },
   {
@@ -380,6 +428,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Quel âge avez-vous ?",
+      "Que faites-vous dans la vie ?"
     ]
   },
   {
@@ -405,6 +457,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "À quelle heure commence la fête ?",
+      "Que doivent apporter vos amis ?"
     ]
   },
   {
@@ -430,6 +486,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Que faut-il apporter ?",
+      "Que ferez-vous ensemble ?"
     ]
   },
   {
@@ -455,6 +515,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Avec qui êtes-vous allé ?",
+      "Qu'est-ce qui s'est passé ?"
     ]
   },
   {
@@ -480,6 +544,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Quel transport conseillez-vous ?",
+      "Quel quartier est le plus pratique ?"
     ]
   },
   {
@@ -505,6 +573,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Quel est le problème exact ?",
+      "Quel échange demandez-vous ?"
     ]
   },
   {
@@ -530,6 +602,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Qu'y a-t-il le soir ?",
+      "Pourquoi aimez-vous ce quartier ?"
     ]
   },
   {
@@ -555,6 +631,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Quel était le cadeau ?",
+      "Comment allez-vous l'utiliser ?"
     ]
   },
   {
@@ -580,6 +660,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quels exemples donnez-vous ?",
+      "Quel réseau utilisez-vous le plus ?"
     ]
   },
   {
@@ -605,6 +689,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quelles dates vous conviennent ?",
+      "Quel est votre niveau actuel ?"
     ]
   },
   {
@@ -630,6 +718,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quel emplacement proposez-vous ?",
+      "Qui doit décider ?"
     ]
   },
   {
@@ -655,6 +747,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quels risques voyez-vous ?",
+      "Quel équilibre proposez-vous ?"
     ]
   },
   {
@@ -680,6 +776,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Que lisent les jeunes autour de vous ?",
+      "Quel exemple donnez-vous ?"
     ]
   },
   {
@@ -705,6 +805,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quelles positions s'opposent ?",
+      "Quelle synthèse proposez-vous ?"
     ]
   },
   {
@@ -729,6 +833,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quel texte est le plus solide ?",
+      "Où sont-ils d'accord ?"
     ]
   },
   {
@@ -753,6 +861,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quel rôle pour les parents ?",
+      "Quelle limite fixer ?"
     ]
   },
   {
@@ -777,6 +889,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quelle objection est la plus forte ?",
+      "Comment y répondez-vous ?"
     ]
   },
   {
@@ -801,6 +917,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quelles limites relevez-vous ?",
+      "Quelle thèse est la plus faible ?"
     ]
   },
   {
@@ -825,6 +945,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quel point de vue défendez-vous ?",
+      "Quels risques pour les langues minoritaires ?"
     ]
   },
   {
@@ -849,6 +973,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Qu'est-ce qu'une œuvre authentique ?",
+      "Quel rôle pour l'artiste ?"
     ]
   },
   {
@@ -873,6 +1001,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Quel objet préférez-vous ?",
+      "De quelle couleur sont les murs ?"
     ]
   },
   {
@@ -897,6 +1029,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Où vous retrouvez-vous ?",
+      "Que ferez-vous ensemble ?"
     ]
   },
   {
@@ -921,6 +1057,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "Qu'avez-vous mangé ?",
+      "Comment vous sentez-vous ?"
     ]
   },
   {
@@ -945,6 +1085,10 @@
       "Chaque phrase commence par une majuscule et finit par un point.",
       "Vous avez répondu à toutes les parties de la consigne.",
       "Vérifiez l'orthographe des mots du quotidien."
+    ],
+    "follow_ups": [
+      "De quoi avez-vous besoin d'abord ?",
+      "Combien de temps faut-il ?"
     ]
   },
   {
@@ -969,6 +1113,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Qu'est-ce qui a mal commencé ?",
+      "Comment la journée s'est-elle terminée ?"
     ]
   },
   {
@@ -993,6 +1141,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Quelles dates voulez-vous ?",
+      "Le petit-déjeuner est-il compris ?"
     ]
   },
   {
@@ -1017,6 +1169,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Qu'avez-vous commandé ?",
+      "Y retourneriez-vous ?"
     ]
   },
   {
@@ -1041,6 +1197,10 @@
       "Vous avez donné toutes les informations demandées.",
       "Vous avez relié les idées avec parce que, et, mais ou donc.",
       "Vous avez commencé et terminé le message poliment."
+    ],
+    "follow_ups": [
+      "Combien de temps à pied ?",
+      "Qu'y a-t-il à côté de la gare ?"
     ]
   },
   {
@@ -1065,6 +1225,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quelle objection traitez-vous ?",
+      "Quel club choisiriez-vous ?"
     ]
   },
   {
@@ -1089,6 +1253,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quel point est le plus important ?",
+      "Qu'avez-vous laissé de côté ?"
     ]
   },
   {
@@ -1113,6 +1281,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quel dédommagement attendez-vous ?",
+      "Comment la gêne s'est-elle manifestée ?"
     ]
   },
   {
@@ -1137,6 +1309,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quel sens vous ramène là-bas ?",
+      "Quand y êtes-vous allé la dernière fois ?"
     ]
   },
   {
@@ -1160,6 +1336,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Quel est l'argument contraire le plus fort ?",
+      "Qui serait touché le plus ?"
     ]
   },
   {
@@ -1183,6 +1363,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Qu'avez-vous supprimé d'abord ?",
+      "Quelle preuve doit rester ?"
     ]
   },
   {
@@ -1206,6 +1390,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "De quoi parlent-ils vraiment ?",
+      "Comment la scène se termine-t-elle ?"
     ]
   },
   {
@@ -1229,6 +1417,10 @@
       "Votre position est claire dans l'introduction et la conclusion.",
       "Vous avez traité un argument contraire.",
       "Le registre et le ton restent constants."
+    ],
+    "follow_ups": [
+      "Où le parti pris est-il le plus net ?",
+      "Quelle preuve manque ?"
     ]
   },
   {
@@ -1253,6 +1445,10 @@
       "Chaque paragraphe développe une seule idée.",
       "Vous avez donné une raison et un exemple pour votre opinion.",
       "Vous avez utilisé des connecteurs comme cependant, donc et en outre."
+    ],
+    "follow_ups": [
+      "Quand le changement commence-t-il ?",
+      "Que doivent faire les habitants ?"
     ]
   }
 ]

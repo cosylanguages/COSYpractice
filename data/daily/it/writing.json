@@ -82,6 +82,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "A che ora ti alzi?",
+      "Cosa mangi a colazione?"
     ]
   },
   {
@@ -107,6 +111,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Quale attività preferisci?",
+      "Con chi la condividi?"
     ]
   },
   {
@@ -132,6 +140,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Chi è con te quel giorno?",
+      "Cosa fai la sera?"
     ]
   },
   {
@@ -157,6 +169,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Quale giorno proponi?",
+      "A che ora vi incontrate?"
     ]
   },
   {
@@ -182,6 +198,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Cosa ti ha colpito di più?",
+      "Lo consiglieresti?"
     ]
   },
   {
@@ -207,6 +227,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale abitudine vuoi mantenere?",
+      "Quanto tempo ci dedichi?"
     ]
   },
   {
@@ -231,6 +255,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Come si mantiene il contatto con i colleghi?",
+      "Quali mestieri soffrono di più?"
     ]
   },
   {
@@ -255,6 +283,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quali lingue sono più a rischio?",
+      "Cosa possono fare le scuole?"
     ]
   },
   {
@@ -280,6 +312,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Qual è la tua lingua madre?",
+      "Da quanto tempo studi?"
     ]
   },
   {
@@ -305,6 +341,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Con chi sei in vacanza?",
+      "Che tempo fa?"
     ]
   },
   {
@@ -330,6 +370,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Quanto tempo stai via?",
+      "Dove è la chiave?"
     ]
   },
   {
@@ -355,6 +399,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Chi è nella foto?",
+      "Dove sono?"
     ]
   },
   {
@@ -380,6 +428,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Quanti anni hai?",
+      "Cosa fai nella vita?"
     ]
   },
   {
@@ -405,6 +457,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "A che ora comincia la festa?",
+      "Cosa portano i tuoi amici?"
     ]
   },
   {
@@ -430,6 +486,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Cosa bisogna portare?",
+      "Cosa farete insieme?"
     ]
   },
   {
@@ -455,6 +515,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Con chi sei andato?",
+      "Cosa è successo?"
     ]
   },
   {
@@ -480,6 +544,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Quale trasporto consigli?",
+      "Quale quartiere è più pratico?"
     ]
   },
   {
@@ -505,6 +573,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Qual è il problema esatto?",
+      "Quale cambio chiedi?"
     ]
   },
   {
@@ -530,6 +602,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Cosa c'è la sera?",
+      "Perché ti piace questo quartiere?"
     ]
   },
   {
@@ -555,6 +631,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Qual era il regalo?",
+      "Come lo userai?"
     ]
   },
   {
@@ -580,6 +660,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quali esempi dai?",
+      "Quale rete usi di più?"
     ]
   },
   {
@@ -605,6 +689,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quali date ti vanno bene?",
+      "Qual è il tuo livello attuale?"
     ]
   },
   {
@@ -630,6 +718,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale posto proponi?",
+      "Chi deve decidere?"
     ]
   },
   {
@@ -655,6 +747,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quali rischi vedi?",
+      "Quale equilibrio proponi?"
     ]
   },
   {
@@ -680,6 +776,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quali giovani leggi?",
+      "Quale esempio dai?"
     ]
   },
   {
@@ -705,6 +805,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quali posizioni si scontrano?",
+      "Quale sintesi proponi?"
     ]
   },
   {
@@ -729,6 +833,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quale testo è più solido?",
+      "Dove sono d'accordo?"
     ]
   },
   {
@@ -753,6 +861,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quale ruolo per i genitori?",
+      "Quale limite fissare?"
     ]
   },
   {
@@ -777,6 +889,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quale obiezione è più forte?",
+      "Come rispondi?"
     ]
   },
   {
@@ -801,6 +917,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quali limiti rilevi?",
+      "Quale tesi è più debole?"
     ]
   },
   {
@@ -825,6 +945,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Quale punto di vista difendi?",
+      "Quali rischi per le lingue minoritarie?"
     ]
   },
   {
@@ -849,6 +973,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Cosa è un'opera autentica?",
+      "Quale ruolo per l'artista?"
     ]
   },
   {
@@ -873,6 +1001,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Quale oggetto preferisci?",
+      "Di che colore sono i muri?"
     ]
   },
   {
@@ -897,6 +1029,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Dove vi incontrate?",
+      "Cosa farete insieme?"
     ]
   },
   {
@@ -921,6 +1057,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Cosa hai mangiato?",
+      "Come ti senti?"
     ]
   },
   {
@@ -945,6 +1085,10 @@
       "Ogni frase inizia con la maiuscola e finisce con il punto.",
       "Hai risposto a tutte le parti della consegna.",
       "Controlla l'ortografia delle parole quotidiane."
+    ],
+    "follow_ups": [
+      "Di cosa hai bisogno prima?",
+      "Quanto tempo ci vuole?"
     ]
   },
   {
@@ -969,6 +1113,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Cosa è andato storto prima?",
+      "Come è finita la giornata?"
     ]
   },
   {
@@ -993,6 +1141,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Quali date ti servono?",
+      "La colazione è compresa?"
     ]
   },
   {
@@ -1017,6 +1169,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Cosa hai ordinato?",
+      "Ci torneresti?"
     ]
   },
   {
@@ -1041,6 +1197,10 @@
       "Hai dato tutte le informazioni richieste.",
       "Hai collegato le idee con perché, e, ma o quindi.",
       "Hai iniziato e concluso il messaggio con cortesia."
+    ],
+    "follow_ups": [
+      "Quanto tempo a piedi?",
+      "Cosa c'è accanto alla stazione?"
     ]
   },
   {
@@ -1065,6 +1225,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale obiezione rispondi?",
+      "Quale club sceglieresti?"
     ]
   },
   {
@@ -1089,6 +1253,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale punto conta di più?",
+      "Cosa hai lasciato fuori?"
     ]
   },
   {
@@ -1113,6 +1281,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale risultato vuoi?",
+      "Come ti ha toccato il ritardo?"
     ]
   },
   {
@@ -1137,6 +1309,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quale senso ti riporta là?",
+      "Quando ci sei stato l'ultima volta?"
     ]
   },
   {
@@ -1160,6 +1336,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Qual è il contrario più forte?",
+      "Chi sarà toccato di più?"
     ]
   },
   {
@@ -1183,6 +1363,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Cosa hai tagliato prima?",
+      "Quale prova deve restare?"
     ]
   },
   {
@@ -1206,6 +1390,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Di cosa parlano davvero?",
+      "Come finisce la scena?"
     ]
   },
   {
@@ -1229,6 +1417,10 @@
       "La tua posizione è chiara nell'introduzione e nella conclusione.",
       "Hai affrontato un argomento contrario.",
       "Registro e tono restano coerenti."
+    ],
+    "follow_ups": [
+      "Dove si vede meglio il partito preso?",
+      "Quale prova manca?"
     ]
   },
   {
@@ -1253,6 +1445,10 @@
       "Ogni paragrafo sviluppa una sola idea.",
       "Hai dato una ragione e un esempio per la tua opinione.",
       "Hai usato connettivi come tuttavia, quindi e inoltre."
+    ],
+    "follow_ups": [
+      "Quando comincia il cambiamento?",
+      "Cosa devono fare gli abitanti?"
     ]
   }
 ]

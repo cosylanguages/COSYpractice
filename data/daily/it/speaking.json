@@ -1541,5 +1541,445 @@
       "Dove traccerebbe il limite?",
       "La risposta cambia per scuole o ospedali?"
     ]
+  },
+  {
+    "id": "it:speaking:c41",
+    "prompt": "Sei in un negozio. Vuoi comprare un regalo per un amico. Saluta il commerciante, di' cosa cerchi e chiedi il prezzo.",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A1",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Dialogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Quanto vuoi spendere?",
+      "Quale regalo scegli?"
+    ]
+  },
+  {
+    "id": "it:speaking:c42",
+    "prompt": "Parla della tua giornata. A che ora ti alzi? Cosa fai la mattina? Cosa fai la sera?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI Impatto",
+    "part": "Prova orale · Monologo",
+    "task": "Monologo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cosa ti piace di più della tua giornata?",
+      "Cosa fai nel fine settimana?"
+    ]
+  },
+  {
+    "id": "it:speaking:c43",
+    "prompt": "Presenta la tua città. Dove si trova? È grande o piccola? Cosa si può visitare?",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A1",
+    "part": "Parte 2 · Monologo",
+    "task": "Monologo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 15,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Qual è il tuo posto preferito in città?",
+      "Come vai al lavoro o a scuola?"
+    ]
+  },
+  {
+    "id": "it:speaking:c44",
+    "prompt": "Racconta le tue ultime vacanze. Dove sei andato? Con chi? Cosa hai fatto e cosa ti è piaciuto?",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A2",
+    "part": "Parte 2 · Monologo",
+    "task": "Monologo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa non ti è piaciuto?",
+      "Dove vuoi andare l'anno prossimo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c45",
+    "prompt": "Vuoi organizzare una gita con un amico sabato. Proponi due attività, chiedi la sua opinione e scegliete insieme.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 1",
+    "part": "Prova orale · Dialogo",
+    "task": "Dialogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "A che ora vi incontrate?",
+      "Chi paga i biglietti?"
+    ]
+  },
+  {
+    "id": "it:speaking:c46",
+    "prompt": "Sei al ristorante. Il piatto che hai ricevuto non è quello che hai ordinato. Spiega il problema al cameriere e proponi una soluzione.",
+    "level": "A2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS A2",
+    "part": "Parte 1 · Dialogo con l'esaminatore",
+    "task": "Dialogo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa dici per prima cosa?",
+      "Cosa fai se il cameriere rifiuta?"
+    ]
+  },
+  {
+    "id": "it:speaking:c47",
+    "prompt": "Alcuni pensano che i bambini dovrebbero imparare una seconda lingua molto presto. Cosa ne pensi? Porta esempi.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS B1",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentazione",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Qual è l'età migliore per iniziare?",
+      "Come può aiutare la scuola?"
+    ]
+  },
+  {
+    "id": "it:speaking:c48",
+    "prompt": "Vuoi convincere il tuo vicino a partecipare a un orto condiviso. Presenta il progetto, rispondi ai suoi dubbi e trova un accordo.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS B2",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentazione",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi si occupa della manutenzione?",
+      "Come dividete il raccolto?"
+    ]
+  },
+  {
+    "id": "it:speaking:c49",
+    "prompt": "Il lavoro da remoto è un'opportunità per tutti i lavoratori? Rispondi in modo articolato con esempi concreti.",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 2",
+    "part": "Prova orale · Monologo",
+    "task": "Monologo",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 60,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Quali lavori non possono farlo?",
+      "Come si mantiene il contatto con il gruppo?"
+    ]
+  },
+  {
+    "id": "it:speaking:c50",
+    "prompt": "Rifletti sul ruolo della lettura in una società dominata dalle immagini. Usa esempi precisi.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS C1",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentazione",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "La lettura è un lusso?",
+      "Quale ruolo ha la scuola?"
+    ]
+  },
+  {
+    "id": "it:speaking:c51",
+    "prompt": "«Proteggere una lingua significa proteggere un modo di pensare.» Discuti questa affermazione e difendi una posizione argomentata.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CILS C2",
+    "part": "Parte 3 · Argomentazione",
+    "task": "Argomentazione",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Quali lingue sono più minacciate?",
+      "Cosa può fare uno Stato senza imporre?"
+    ]
+  },
+  {
+    "id": "it:speaking:c52",
+    "prompt": "Una città può essere aperta al turismo e allo stesso tempo piacevole per chi ci vive? Analizza questa tensione e prendi posizione.",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "CELI 5",
+    "part": "Prova orale · Argomentazione critica",
+    "task": "Argomentazione critica",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 90,
+    "speak_seconds": 150,
+    "follow_ups": [
+      "Chi deve decidere i limiti?",
+      "Quale esempio ti convince?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx5",
+    "prompt": "Guarda i tuoi vestiti di oggi. Nomina cinque cose che indossi. Di che colore è ognuna? Qual è la tua preferita?",
+    "topic": "Nominare e descrivere",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Nominare e descrivere",
+    "activity": "identify",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cosa indossi d'inverno?",
+      "Chi ha scelto questi vestiti?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx6",
+    "prompt": "Cosa hai mangiato ieri? Nomina tre cose. Qual era la migliore? Chi ha cucinato?",
+    "topic": "Parlare del cibo",
+    "level": "A0-A1",
+    "curated": true,
+    "track": "general",
+    "task": "Parlare del cibo",
+    "activity": "describe",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 10,
+    "speak_seconds": 45,
+    "follow_ups": [
+      "Cucini a casa?",
+      "Qual è la tua bevanda preferita?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx7",
+    "prompt": "Confronta la tua città di oggi con quella di dieci anni fa. Cosa è cambiato? Cosa è rimasto uguale? Quale cambiamento è il migliore?",
+    "topic": "Confrontare due cose",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Confrontare due cose",
+    "activity": "compare",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Cosa cambieresti?",
+      "Ti piacerebbe vivere altrove?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx8",
+    "prompt": "Hai un appuntamento con un amico alle 18, ma l'autobus è in ritardo e il telefono è scarico. Cosa fai? Cosa dici quando arrivi?",
+    "topic": "Risolvere un piccolo problema",
+    "level": "A2",
+    "curated": true,
+    "track": "general",
+    "task": "Risolvere un piccolo problema",
+    "activity": "problem-solving",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 20,
+    "speak_seconds": 60,
+    "follow_ups": [
+      "Come organizzi il tuo tempo?",
+      "Cosa fai quando sei in ritardo?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx9",
+    "prompt": "Spiega passo dopo passo come fare qualcosa che sai fare bene. Quali sono gli errori più comuni? Come lo insegneresti a un principiante?",
+    "topic": "Spiegare un processo",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Spiegare un processo",
+    "activity": "present",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Quanto tempo hai impiegato a imparare?",
+      "Quale consiglio daresti per primo?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx10",
+    "prompt": "I negozi dovrebbero essere aperti la domenica? Presenta le due posizioni, poi di' cosa pensi e perché.",
+    "topic": "Discutere una questione quotidiana",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "general",
+    "task": "Discutere una questione quotidiana",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 30,
+    "speak_seconds": 90,
+    "follow_ups": [
+      "Chi lavora di più in questo dibattito?",
+      "Come funziona in altri paesi?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx11",
+    "prompt": "«La città appartiene a chi la cammina.» Cosa significa questa affermazione e quanto sei d'accordo?",
+    "topic": "Analizzare un'idea",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Analizzare un'idea",
+    "activity": "analyse",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Chi è escluso da questa affermazione?",
+      "Cosa risponderebbe un urbanista?"
+    ]
+  },
+  {
+    "id": "it:speaking:gx12",
+    "prompt": "È meglio essere specialisti o generalisti nel mercato del lavoro di oggi? Difendi una posizione e rispondi all'obiezione più forte.",
+    "topic": "Prendere posizione",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "general",
+    "task": "Prendere posizione",
+    "activity": "discuss",
+    "audience": [
+      "young",
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 45,
+    "speak_seconds": 120,
+    "follow_ups": [
+      "Come cambierà la risposta con l'automazione?",
+      "Quale scelta è più rischiosa?"
+    ]
   }
 ]
