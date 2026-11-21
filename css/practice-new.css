@@ -417,6 +417,17 @@
   display: block;
 }
 
+.field-hint {
+  display: none;
+  margin-top: .4rem;
+  font-size: .72rem;
+  line-height: 1.35;
+  color: var(--ink-faint);
+}
+.field-hint[data-state="empty"] {
+  color: var(--coral);
+}
+
 /* Language pills */
 .lang-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .lang-pill {

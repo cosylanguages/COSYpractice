@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosypractice-v1';
+const CACHE_NAME = 'cosypractice-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -6,11 +6,13 @@ const ASSETS_TO_CACHE = [
   './progress-dashboard.html',
   './manifest.json',
   './css/core.css',
+  './css/practice-new.css',
   './css/practice-modern.css',
   './css/daily.css',
   './css/shell.css',
   './js/theme-init.js',
   './js/languages.js',
+  './js/theme-aliases.js',
   './js/shared.js',
   './js/shell.js',
   './hub.js',

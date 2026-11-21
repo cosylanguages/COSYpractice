@@ -373,10 +373,10 @@
         window.speakingData[lang] = Object.assign(window.speakingData[lang] || {}, { fluency: out });
     }
 
-    async function ensureDataLoaded(lang, level, cat, theme) {
+    async function ensureDataLoaded(lang, level, cat, theme, subTheme) {
         const targetLang = (lang || 'en').toLowerCase();
         if (window.COSY && window.COSY.loadLanguageData) {
-            await window.COSY.loadLanguageData(targetLang, level, theme);
+            await window.COSY.loadLanguageData(targetLang, level, theme, subTheme);
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
         }
@@ -393,7 +393,7 @@
                             (level === 'advanced' || level === 'c1') ? 'c1' :
                             (level === 'proficiency' || level === 'c2') ? 'c2' : 'a1';
 
-            if (cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary') {
+            if ((cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary') && !String(theme).includes('/') && theme !== 'uncategorized') {
                 const scriptId = `cosy-vocab-script-${normLvl}-${theme}`;
                 if (typeof document !== 'undefined' && !document.getElementById(scriptId)) {
                     await new Promise((resolve) => {
@@ -562,13 +562,12 @@
 
         if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary') {
             const uiCat = (cat === 'vocab' || cat === 'Vocabulary' || cat === 'vocabulary') ? 'Vocabulary' : 'Grammar';
-            const isStrict = uiCat === 'Vocabulary';
 
             pool = window.gameUtils.getVocabPool(l, level, theme, subTheme || 'all', { excludeExtra: true });
 
             // Apply category filtering to ensures consistent results between getVocabPool and fallback
             if (pool.length > 0) {
-                pool = window.gameUtils.filterVocabulary(pool, { lang: l, level, theme, subTheme, category: uiCat, strict: isStrict });
+                pool = window.gameUtils.filterVocabulary(pool, { lang: l, level, theme, subTheme, category: uiCat });
             }
 
             console.log('[COSY Practice] getVocabPool result count:', pool.length);
@@ -582,11 +581,12 @@
                 });
 
                 if (aggregatedPool.length > 0) {
-                    pool = window.gameUtils.filterVocabulary(aggregatedPool, { lang: l, level, theme, subTheme, category: uiCat, strict: isStrict });
+                    pool = window.gameUtils.filterVocabulary(aggregatedPool, { lang: l, level, theme, subTheme, category: uiCat });
                     console.log('[COSY Practice] fallback filterVocabulary count:', pool.length);
 
-                    // SECOND FALLBACK: If still empty, try to get ALL vocab for this language regardless of form filter
-                    if (pool.length === 0) {
+                    // Never silently drop a chosen category: only relax the form filter
+                    // when the user asked for "all categories".
+                    if (pool.length === 0 && (!theme || theme === 'all')) {
                         pool = aggregatedPool.filter(item => {
                             const itemLevel = norm(item.level || 'starter');
                             return (normalizedLevel === 'all' || itemLevel === normalizedLevel);
@@ -601,7 +601,7 @@
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
                     phrases.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                 });
-                pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat, strict: isStrict }));
+                pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat }));
             }
 
             // Append dynamic morphology dataset items for Grammar practice

@@ -10,6 +10,157 @@
     let selectedLang = 'en';
     let selectedCat = 'vocab';
 
+    function formatCategoryLabel(value) {
+        return String(value || '').replace(/[_-]+/g, ' ').trim().replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function updateThemeLabel() {
+        const label = document.getElementById('theme-filter-label');
+        if (!label) return;
+        const isVocab = selectedCat === 'vocab' || selectedCat === 'vocabulary';
+        const key = isVocab ? 'select_vocabulary_category' : 'select_theme';
+        label.setAttribute('data-translate-key', key);
+        label.textContent = (window.t && window.t(key)) || (isVocab ? 'Vocabulary category' : 'Theme');
+    }
+
+    const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
+    const categoryCountsCache = new Map();
+    let lastCategoryCounts = null;
+    let categoryCountsToken = 0;
+
+    async function fetchJson(url, ms) {
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), ms);
+        try {
+            const res = await fetch(url, { signal: controller.signal });
+            return res.ok ? await res.json() : null;
+        } catch (e) {
+            return null;
+        } finally {
+            clearTimeout(timer);
+        }
+    }
+
+    async function fetchCategoryCounts(lang, level) {
+        if (!window.COSY_THEME_HELPERS || !window.COSY_THEME_HELPERS.computeCounts) return null;
+        const [indexData, themesIndex] = await Promise.all([
+            fetchJson(`${COSYDATA_BASE}vocabulary/${lang}/index.json`, 12000),
+            fetchJson(`${COSYDATA_BASE}vocabulary/${lang}/themes-index.json`, 12000)
+        ]);
+        if (!indexData) return null;
+        return window.COSY_THEME_HELPERS.computeCounts(indexData, themesIndex || {}, level);
+    }
+
+    function setOptionCount(option, base, count) {
+        if (!option) return;
+        option.dataset.baseLabel = base;
+        if (count == null) {
+            option.textContent = base;
+            option.disabled = false;
+            return;
+        }
+        option.textContent = `${base} (${count.toLocaleString()})`;
+        option.disabled = count === 0;
+    }
+
+    function updateCategoryHint(counts) {
+        const hint = document.getElementById('theme-filter-hint');
+        if (!hint) return;
+        if (!counts) {
+            hint.style.display = 'none';
+            return;
+        }
+
+        const select = document.getElementById('theme-filter');
+        const value = select ? select.value : 'all';
+        let count = 0;
+        if (value === 'all') {
+            count = counts.total;
+        } else if (value === 'uncategorized') {
+            count = counts.uncategorized;
+        } else if (value.includes('/')) {
+            count = counts.subThemes[window.COSY_THEME_HELPERS.slug(value)] || 0;
+        } else {
+            count = counts.themes[value] || 0;
+        }
+
+        if (count === 0) {
+            hint.textContent = (window.t && window.t('category_empty_hint')) || 'No words in this category for the selected language and level.';
+            hint.dataset.state = 'empty';
+        } else {
+            const words = (window.t && window.t('category_words')) || 'words';
+            hint.textContent = `${count.toLocaleString()} ${words}`;
+            hint.dataset.state = 'ok';
+        }
+        hint.style.display = '';
+    }
+
+    function applyCategoryCounts(counts) {
+        if (!(selectedCat === 'vocab' || selectedCat === 'vocabulary')) return;
+        const themeSelect = document.getElementById('theme-filter');
+        if (!themeSelect) return;
+
+        Array.from(themeSelect.options).forEach(option => {
+            const base = option.dataset.baseLabel || option.textContent.replace(/\s*\(\d[\d,]*\)$/, '');
+            let count = null;
+            if (counts) {
+                if (option.value === 'all') count = counts.total;
+                else if (option.value === 'uncategorized') count = counts.uncategorized;
+                else if (option.value.includes('/')) count = counts.subThemes[window.COSY_THEME_HELPERS.slug(option.value)] || 0;
+                else count = counts.themes[option.value] || 0;
+            }
+            setOptionCount(option, base, count);
+        });
+
+        Array.from(themeSelect.querySelectorAll('optgroup')).forEach(group => {
+            const base = group.dataset.baseLabel || group.label.replace(/\s*\(\d[\d,]*\)$/, '');
+            group.dataset.baseLabel = base;
+            const themeOption = Array.from(group.querySelectorAll('option')).find(option => !option.value.includes('/'));
+            const count = counts && themeOption ? (counts.themes[themeOption.value] || 0) : null;
+            group.label = count == null ? base : `${base} (${count.toLocaleString()})`;
+            group.disabled = count === 0;
+        });
+
+        updateCategoryHint(counts);
+    }
+
+    async function refreshCategoryCounts() {
+        if (!(selectedCat === 'vocab' || selectedCat === 'vocabulary')) {
+            categoryCountsToken += 1;
+            lastCategoryCounts = null;
+            applyCategoryCounts(null);
+            return;
+        }
+
+        const levelSelect = document.getElementById('level-filter');
+        const level = levelSelect ? levelSelect.value : 'all';
+        const lang = selectedLang || 'en';
+        const key = `${lang}|${level}`;
+        const token = ++categoryCountsToken;
+
+        let promise = categoryCountsCache.get(key);
+        if (!promise) {
+            lastCategoryCounts = null;
+            updateCategoryHint(null);
+            promise = fetchCategoryCounts(lang, level)
+                .then(counts => {
+                    if (!counts) categoryCountsCache.delete(key);
+                    return counts;
+                })
+                .catch(err => {
+                    console.warn('[Practice Hub] Failed to load category counts:', err);
+                    categoryCountsCache.delete(key);
+                    return null;
+                });
+            categoryCountsCache.set(key, promise);
+        }
+
+        const counts = await promise;
+        if (token !== categoryCountsToken) return;
+        lastCategoryCounts = counts;
+        applyCategoryCounts(counts);
+    }
+
     /* ══════════════════════════════════════
        SETUP UI STATE
     ══════════════════════════════════════ */
@@ -104,6 +255,7 @@
     function updateThemes() {
         const themeSelect = document.getElementById('theme-filter');
         if (!themeSelect) return;
+        updateThemeLabel();
 
         if (selectedCat === 'concept-check' || selectedCat === 'concept_check') {
             themeSelect.innerHTML = `
@@ -183,30 +335,61 @@
         }
 
         if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
-            themeSelect.innerHTML = '<option value="all">' + ((window.t && window.t('theme_all')) || 'All Themes') + '</option>';
+            const currentVal = themeSelect.value;
+            const allLabel = (window.t && (window.t('category_all') || window.t('theme_all'))) || 'All categories';
+            themeSelect.innerHTML = '<option value="all">' + allLabel + '</option>';
+            themeSelect.options[0].dataset.baseLabel = allLabel;
 
             if (window.COSY_THEMES_SCHEMA && window.COSY_THEMES_SCHEMA.themes) {
                 Object.keys(window.COSY_THEMES_SCHEMA.themes).sort().forEach(t => {
-                    const opt = document.createElement('option');
-                    opt.value = t;
-                    opt.textContent = t.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-                    themeSelect.appendChild(opt);
+                    const group = document.createElement('optgroup');
+                    group.label = formatCategoryLabel(t);
+                    group.dataset.baseLabel = group.label;
+
+                    const allInTheme = document.createElement('option');
+                    allInTheme.value = t;
+                    allInTheme.textContent = 'All ' + formatCategoryLabel(t);
+                    allInTheme.dataset.baseLabel = allInTheme.textContent;
+                    group.appendChild(allInTheme);
+
+                    (window.COSY_THEMES_SCHEMA.themes[t] || []).slice().sort().forEach(st => {
+                        const opt = document.createElement('option');
+                        opt.value = `${t}/${st}`;
+                        opt.textContent = formatCategoryLabel(st);
+                        opt.dataset.baseLabel = opt.textContent;
+                        group.appendChild(opt);
+                    });
+
+                    themeSelect.appendChild(group);
                 });
             } else if (window.COSY_THEME_TREE) {
                 Object.keys(window.COSY_THEME_TREE).forEach(t => {
                     const opt = document.createElement('option');
                     opt.value = t;
                     opt.textContent = (window.t && window.t('theme_' + t)) || t.replace(/_/g, ' ');
+                    opt.dataset.baseLabel = opt.textContent;
                     themeSelect.appendChild(opt);
                 });
             }
 
+            const uncategorized = document.createElement('option');
+            uncategorized.value = 'uncategorized';
+            uncategorized.textContent = (window.t && window.t('category_uncategorized')) || 'Uncategorised';
+            uncategorized.dataset.baseLabel = uncategorized.textContent;
+            themeSelect.appendChild(uncategorized);
+
+            if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) themeSelect.value = currentVal;
             updateSubThemes();
             updateHandoffLinks();
+            refreshCategoryCounts();
             return;
         }
 
         themeSelect.innerHTML = '<option value="all">' + ((window.t && window.t('theme_all')) || 'All Themes') + '</option>';
+        themeSelect.options[0].dataset.baseLabel = themeSelect.options[0].textContent;
+        categoryCountsToken += 1;
+        lastCategoryCounts = null;
+        updateCategoryHint(null);
         if (window.COSY_THEME_TREE) {
             Object.keys(window.COSY_THEME_TREE).forEach(t => {
                 const opt = document.createElement('option');
@@ -226,6 +409,14 @@
         const subSelect = document.getElementById('subtheme-filter');
         if (!themeSelect || !subWrap || !subSelect) return;
 
+        if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
+            subWrap.style.display = 'none';
+            subSelect.value = '';
+            updateRoomsFilter();
+            updateCategoryHint(lastCategoryCounts);
+            return;
+        }
+
         const theme = themeSelect.value;
         let subThemes = null;
 
@@ -242,13 +433,11 @@
             return;
         }
 
-        const themeLabel = themeSelect.options[themeSelect.selectedIndex].textContent;
-
-        subSelect.innerHTML = `<option value="">All ${themeLabel}</option>`;
+        subSelect.innerHTML = `<option value="">All ${formatCategoryLabel(theme)}</option>`;
         subThemes.forEach(st => {
             const opt = document.createElement('option');
             opt.value = st;
-            opt.textContent = st.replace(/_/g, ' ').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+            opt.textContent = formatCategoryLabel(st);
             subSelect.appendChild(opt);
         });
 
@@ -466,7 +655,7 @@
 
             try {
                 if (window.ensureDataLoaded) {
-                    await window.ensureDataLoaded(selectedLang, level, selectedCat, theme);
+                    await window.ensureDataLoaded(selectedLang, level, selectedCat, theme, subTheme);
                 }
             } catch (err) {
                 console.warn('[Practice Hub] Error preloading data:', err);
@@ -489,8 +678,9 @@
          *   - lang: Language code (e.g. 'en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br')
          *   - cat: Category ('Vocabulary', 'Grammar', 'Speaking', 'Pronunciation' or 'vocab', 'grammar', etc.)
          *   - level: Level ID ('starter', 'elementary', 'intermediate', 'upper_intermediate', 'advanced', 'proficiency', 'all') or short code ('A1'-'C2')
-         *   - theme: Theme identifier (e.g. 'all', 'to_be', 'prepositions_place', 'contrast_pairs', 'food_drink', etc.)
-         *   - subtheme (optional): Sub-theme identifier (e.g. 'pets', 'prepositions_place', etc.)
+         *   - theme: Theme or COSYdata vocabulary category (e.g. 'all', 'work', 'work/professions_jobs',
+         *     'actions', 'to_be', 'prepositions_place')
+         *   - subtheme (optional): Sub-theme identifier (e.g. 'professions_jobs', 'pets')
          *
          * Example URL:
          *   practice/index.html?lang=en&cat=Grammar&level=starter&theme=to_be
@@ -529,7 +719,10 @@
 
             const themeSelect = document.getElementById('theme-filter');
             if (themeSelect && theme) {
-                themeSelect.value = theme;
+                const combined = (subTheme && theme !== 'all' && !String(theme).includes('/'))
+                    ? `${theme}/${subTheme}`
+                    : theme;
+                themeSelect.value = Array.from(themeSelect.options).some(opt => opt.value === combined) ? combined : theme;
                 updateSubThemes();
             }
 
@@ -542,7 +735,7 @@
             const targetTheme = theme || 'all';
             const targetSubTheme = subTheme || '';
 
-            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, targetLevel, cat, targetTheme);
+            if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, targetLevel, cat, targetTheme, targetSubTheme);
             if (window.beginSession) window.beginSession(lang, selectedCat, targetLevel, targetTheme, false, null, targetSubTheme);
         },
 
@@ -807,6 +1000,7 @@
         const lower = t.toLowerCase().trim();
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
+        if (lower === 'uncategorized' || lower === 'uncategorised') return true;
         if (lower === 'to_be' || lower === 'to-be') return true;
 
         if (window.COSY_VOCAB_CONFUSION_PAIRS) {
@@ -822,6 +1016,19 @@
         if (window.COSY_GRAMMAR_TOPICS) {
             const allGrammarSlugs = Object.values(window.COSY_GRAMMAR_TOPICS).flat().map(s => s.toLowerCase());
             if (allGrammarSlugs.includes(lower) || allGrammarSlugs.includes(normHyphen) || allGrammarSlugs.includes(normUnderscore)) return true;
+        }
+
+        if (window.COSY_THEMES_SCHEMA && window.COSY_THEMES_SCHEMA.themes) {
+            const schemaThemes = window.COSY_THEMES_SCHEMA.themes;
+            const [parent, child] = lower.split('/');
+            if (child) {
+                const match = Object.keys(schemaThemes).find(k => k.toLowerCase() === parent || k.toLowerCase() === parent.replace(/-/g, '_'));
+                if (match && (schemaThemes[match] || []).some(st => st.toLowerCase() === child || st.toLowerCase() === child.replace(/-/g, '_'))) return true;
+            }
+            if (schemaThemes[lower] || schemaThemes[normUnderscore]) return true;
+            if (Object.keys(schemaThemes).some(k => k.toLowerCase() === lower || k.toLowerCase() === normUnderscore)) return true;
+            const allSubthemes = Object.values(schemaThemes).flat().map(s => s.toLowerCase());
+            if (allSubthemes.includes(lower) || allSubthemes.includes(normUnderscore)) return true;
         }
 
         if (window.COSY_THEME_TREE) {
@@ -847,6 +1054,39 @@
         if (knownThemes.includes(lower) || knownThemes.includes(normUnderscore)) return true;
 
         return false;
+    }
+
+    function splitCategoryParam(value) {
+        const raw = String(value || '').trim();
+        if (!raw || raw === 'all') return { theme: 'all', subtheme: '' };
+
+        const schema = window.COSY_THEMES_SCHEMA && window.COSY_THEMES_SCHEMA.themes;
+        const norm = raw.replace(/-/g, '_');
+        const parts = norm.split('/');
+
+        if (norm === 'uncategorized' || norm === 'uncategorised') {
+            return { theme: 'uncategorized', subtheme: '' };
+        }
+
+        if (schema) {
+            const findKey = (value) => Object.keys(schema).find(k => k.toLowerCase() === value.toLowerCase());
+            const findSub = (parent, value) => (schema[parent] || []).find(s => s.toLowerCase() === value.toLowerCase());
+
+            if (parts.length > 1) {
+                const parent = findKey(parts[0]);
+                const sub = parent && findSub(parent, parts[1]);
+                if (parent && sub) return { theme: parent, subtheme: sub };
+            } else {
+                const parent = findKey(norm);
+                if (parent) return { theme: parent, subtheme: '' };
+                for (const key of Object.keys(schema)) {
+                    const sub = findSub(key, norm);
+                    if (sub) return { theme: key, subtheme: sub };
+                }
+            }
+        }
+
+        return { theme: parts[0] || 'all', subtheme: parts[1] || '' };
     }
 
     function handleUrlParams() {
@@ -928,8 +1168,25 @@
         const lang = langParam ? (window.getLangCode ? window.getLangCode(langParam) : langParam) : selectedLang;
         const cat = catParam || selectedCat;
         const level = levelParam ? (window.getLevelCode ? window.getLevelCode(levelParam, 'id') : levelParam) : 'all';
-        const theme = themeParam || 'all';
-        const subtheme = subthemeParam || '';
+
+        const isVocabCat = /^(vocab|vocabulary)$/i.test(cat || '');
+        let theme = themeParam || 'all';
+        let subtheme = subthemeParam || '';
+
+        if (isVocabCat) {
+            const resolvedTheme = splitCategoryParam(theme);
+            theme = resolvedTheme.theme;
+            subtheme = resolvedTheme.subtheme;
+            if (subthemeParam) {
+                const resolvedSub = splitCategoryParam(subthemeParam);
+                if (resolvedSub.subtheme) {
+                    theme = resolvedSub.theme;
+                    subtheme = resolvedSub.subtheme;
+                } else if (resolvedSub.theme !== 'all') {
+                    subtheme = resolvedSub.theme;
+                }
+            }
+        }
 
         window.cosyPractice.quickStart(lang, cat, level, theme, subtheme);
     }
@@ -940,6 +1197,8 @@
             const res = await fetch(COSYDATA_THEMES_URL);
             if (res.ok) {
                 window.COSY_THEMES_SCHEMA = await res.json();
+                categoryCountsCache.clear();
+                lastCategoryCounts = null;
                 updateThemes();
             }
         } catch (e) {
@@ -947,9 +1206,9 @@
         }
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
         initSetupUI();
-        loadCosydataThemes();
+        await loadCosydataThemes();
         handleUrlParams();
     });
 })();
