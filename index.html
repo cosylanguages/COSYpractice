@@ -173,10 +173,11 @@
           </select>
         </div>
         <div>
-          <label class="field-label" for="theme-filter" data-translate-key="select_theme">Theme</label>
+          <label id="theme-filter-label" class="field-label" for="theme-filter" data-translate-key="select_theme">Theme</label>
           <select id="theme-filter" onchange="window.cosyPractice.updateSubThemes()" class="styled-select">
             <option value="all" data-translate-key="theme_all">All themes</option>
           </select>
+          <div id="theme-filter-hint" class="field-hint" aria-live="polite"></div>
         </div>
         <div id="subtheme-filter-wrap" class="subtheme-wrap-hidden">
           <label class="field-label" for="subtheme-filter" data-i18n="ui.sub_theme_8eb5">Sub-theme</label>
@@ -356,6 +357,7 @@
 <script src="js/languages.js"></script>
 <script src="js/phonology_data.js"></script>
 <script src="js/theme-data.js"></script>
+<script src="js/theme-aliases.js"></script>
 <script src="js/shared.js"></script>
 <script src="js/cosy-core.js"></script>
 <script src="js/practice-i18n.js"></script>

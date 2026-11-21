@@ -37,8 +37,11 @@
       COSY._toastTimer = setTimeout(function () { el.classList.remove('show'); }, 2800);
     },
 
-    async loadLanguageData(lang, levelId, theme) {
+    async loadLanguageData(lang, levelId, theme, subTheme) {
         const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
+        const category = (theme && theme !== 'all')
+            ? (String(theme).includes('/') || !subTheme || subTheme === 'all' ? String(theme) : `${theme}/${subTheme}`)
+            : (subTheme && subTheme !== 'all' ? String(subTheme) : 'all');
         let levelsToLoad = (levelId === 'all')
             ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
             : [levelId];
@@ -62,7 +65,10 @@
             } catch (e) { return null; } finally { clearTimeout(timer); }
         }
         const asObj = (x) => (typeof x === 'string' ? { text: x } : x);
-        function normalizeItem(item) {
+        function normalizeItem(item, filePath) {
+            if (window.COSY_THEME_HELPERS && window.COSY_THEME_HELPERS.normalizeEntry) {
+                window.COSY_THEME_HELPERS.normalizeEntry(item, filePath);
+            }
             if (Array.isArray(item.definitions)) item.definitions = item.definitions.map(asObj);
             if (Array.isArray(item.examples)) item.examples = item.examples.map(asObj);
             return item;
@@ -78,23 +84,36 @@
                 } else {
                     themeFiles.sort(() => Math.random() - 0.5);
                 }
-                // A chosen theme only needs the files that actually hold its entries (themes-index.json maps theme -> entry ids)
-                if (theme && theme !== 'all') {
+                // A chosen category only needs the files that actually hold its entries
+                // (themes-index.json maps theme and theme/sub_theme -> entry ids).
+                if (category !== 'all') {
                     const tIdx = await getJSON(`${COSYDATA_BASE}vocabulary/${lang}/themes-index.json`, 10000);
                     if (tIdx) {
-                        const key = String(theme).replace(/^group:/, '').toLowerCase();
+                        const key = String(category).replace(/^group:/, '').toLowerCase().replace(/-/g, '_');
                         const ids = new Set();
-                        Object.keys(tIdx).forEach(k => {
-                            const kl = k.toLowerCase();
-                            if (kl === key || kl.startsWith(key + '/') || kl === key.replace(/-/g, '_') || kl === key.replace(/_/g, '-')) (tIdx[k] || []).forEach(id => ids.add(id));
-                        });
+
+                        if (key === 'uncategorized' || key === 'uncategorised') {
+                            const categorized = new Set();
+                            Object.values(tIdx).forEach(list => (list || []).forEach(id => categorized.add(id)));
+                            Object.keys(indexData).forEach(id => { if (!categorized.has(id)) ids.add(id); });
+                        } else if (window.COSY_THEME_HELPERS && window.COSY_THEME_HELPERS.rawKeysForCategory) {
+                            window.COSY_THEME_HELPERS.rawKeysForCategory(category, tIdx)
+                                .forEach(rawKey => (tIdx[rawKey] || []).forEach(id => ids.add(id)));
+                        } else {
+                            const isBareSubTheme = !key.includes('/') &&
+                                !Object.keys(tIdx).some(k => k.toLowerCase().replace(/-/g, '_') === key);
+                            Object.keys(tIdx).forEach(k => {
+                                const kl = k.toLowerCase().replace(/-/g, '_');
+                                if (kl === key || kl.startsWith(key + '/') || (isBareSubTheme && kl.endsWith('/' + key))) (tIdx[k] || []).forEach(id => ids.add(id));
+                            });
+                        }
+
                         const files = new Set();
                         ids.forEach(id => { if (indexData[id]) files.add(indexData[id]); });
-                        const narrowed = themeFiles.filter(f => files.has(f));
-                        if (narrowed.length) themeFiles = narrowed;
+                        themeFiles = themeFiles.filter(f => files.has(f));
                     }
                 }
-                const TARGET_ITEMS = ((levelId && levelId !== 'all') || (theme && theme !== 'all')) ? Infinity : 900;
+                const TARGET_ITEMS = ((levelId && levelId !== 'all') || category !== 'all') ? Infinity : 900;
                 const BATCH = 16;
                 const themeResults = [];
                 let loadedCount = 0;
@@ -129,16 +148,16 @@
                             }
                         }
 
-                        normalizeItem(item);
+                        normalizeItem(item, indexData[item.id] || '');
                         window.vocabularyData[lang].push(item);
                         loadedEntries.push(item);
 
                         if (item.form === 'verb' || item.pos === 'verb') window.verbsData[lang].push(item);
                         if (item.form === 'adjective' || item.pos === 'adjective') window.adjectivesData[lang].push(item);
-                        if (item.theme === 'locations' || item.pos_section === 'locations') window.locationsData[lang].push(item);
-                        if (item.theme === 'people' || item.pos_section === 'people') window.peopleData[lang].push(item);
-                        if (item.theme === 'nationalities') window.nationalitiesData[lang].push(item);
-                        if (item.theme === 'dishes') window.dishesData[lang].push(item);
+                        if (item._raw_theme === 'locations' || item.theme === 'locations' || item.pos_section === 'locations') window.locationsData[lang].push(item);
+                        if (item._raw_theme === 'people' || item.theme === 'people' || item.pos_section === 'people') window.peopleData[lang].push(item);
+                        if (item._raw_theme === 'nationalities' || item.theme === 'nationalities') window.nationalitiesData[lang].push(item);
+                        if (item._raw_theme === 'dishes' || item.theme === 'dishes') window.dishesData[lang].push(item);
                     }
                 }
 

@@ -547,12 +547,39 @@
         if (Array.from(themeSelect.options).some(opt => opt.value === currentVal)) themeSelect.value = currentVal;
     };
 
+    const normCategorySlug = (value) => {
+        if (window.COSY_THEME_HELPERS && window.COSY_THEME_HELPERS.slug) return window.COSY_THEME_HELPERS.slug(value);
+        return String(value || '').toLowerCase().trim().replace(/-/g, '_');
+    };
+
+    const normalizeCategory = (value) => {
+        if (window.COSY_THEME_HELPERS && window.COSY_THEME_HELPERS.normalizeCategoryKey) {
+            return window.COSY_THEME_HELPERS.normalizeCategoryKey(value);
+        }
+        const slug = normCategorySlug(value);
+        const parts = slug.split('/');
+        return { theme: parts[0] || '', subTheme: parts[1] || '' };
+    };
+
+    const isUncategorizedValue = (value) => {
+        const slug = normCategorySlug(value);
+        return slug === 'uncategorized' || slug === 'uncategorised';
+    };
+
+    const categoryCandidates = (item, itemTheme) => {
+        const out = [];
+        if (itemTheme) out.push(itemTheme);
+        if (item) {
+            if (item.theme) out.push(item.theme);
+            if (item.theme && item.sub_theme) out.push(`${item.theme}/${item.sub_theme}`);
+            if (item.secondary_themes && Array.isArray(item.secondary_themes)) out.push(...item.secondary_themes);
+            if (item.themes && Array.isArray(item.themes)) out.push(...item.themes);
+        }
+        return out;
+    };
+
     const isThemeMatch = (itemTheme, selectedTheme, item) => {
         if (!selectedTheme || selectedTheme === 'all') return true;
-
-        const sel = selectedTheme.toLowerCase().trim();
-        const selHyphen = sel.replace(/_/g, '-');
-        const selUnderscore = sel.replace(/-/g, '_');
 
         if (selectedTheme.startsWith('group:')) {
             const parentTheme = selectedTheme.replace('group:', '');
@@ -560,32 +587,37 @@
             return itemTheme === parentTheme || children.includes(itemTheme);
         }
 
-        if (itemTheme) {
-            const itemT = itemTheme.toLowerCase().trim();
-            if (itemT === sel || itemT === selHyphen || itemT === selUnderscore) return true;
+        const sel = normCategorySlug(selectedTheme);
+        if (isUncategorizedValue(sel)) {
+            return !itemTheme || isUncategorizedValue(itemTheme) || (item && !item.theme);
+        }
+
+        const target = normalizeCategory(selectedTheme);
+        if (!target.theme) return false;
+
+        for (const candidate of categoryCandidates(item, itemTheme)) {
+            const normal = normalizeCategory(candidate);
+            if (!normal.theme || normal.theme !== target.theme) continue;
+            // A top-level theme covers all its sub-categories; a full
+            // theme/sub-theme selection only matches that exact pair.
+            if (target.subTheme && normal.subTheme !== target.subTheme) continue;
+            return true;
         }
 
         if (item) {
-            if (item.theme && item.theme.toLowerCase().trim() === sel) return true;
-            if (item.secondary_themes && Array.isArray(item.secondary_themes)) {
-                if (item.secondary_themes.some(st => String(st).toLowerCase().trim() === sel || String(st).toLowerCase().trim().endsWith('/' + sel))) return true;
-            }
-            if (item.themes && Array.isArray(item.themes)) {
-                if (item.themes.some(st => String(st).toLowerCase().trim() === sel || String(st).toLowerCase().trim().endsWith('/' + sel))) return true;
-            }
             if (item.id) {
-                const itemId = String(item.id).toLowerCase().trim();
-                if (itemId === sel || itemId === selHyphen || itemId === selUnderscore) return true;
+                const itemId = normCategorySlug(item.id);
+                if (itemId === sel) return true;
             }
             if (item.group) {
-                const group = String(item.group).toLowerCase().trim();
-                if (group === sel || group === selHyphen || group === selUnderscore) return true;
+                const group = normCategorySlug(item.group);
+                if (group === sel) return true;
             }
             if (item.practice_links && Array.isArray(item.practice_links)) {
                 for (const link of item.practice_links) {
                     if (typeof link === 'string') {
-                        const filename = link.split('/').pop().replace(/\.html$/, '').toLowerCase();
-                        if (filename === sel || filename === selHyphen || filename === selUnderscore) return true;
+                        const filename = normCategorySlug(link.split('/').pop().replace(/\.html$/, ''));
+                        if (filename === sel) return true;
                     }
                 }
             }
@@ -594,10 +626,31 @@
         return false;
     };
 
-    function filterVocabulary(entries, { lang, level, theme, subTheme, category, strict, room }) {
+    const isSubThemeMatch = (item, selectedSubTheme) => {
+        if (!selectedSubTheme || selectedSubTheme === 'all') return true;
+
+        const sel = normCategorySlug(selectedSubTheme);
+        const parts = sel.split('/');
+        const targetTheme = parts.length > 1 ? parts[0] : '';
+        const targetSubTheme = parts.length > 1 ? parts[1] : parts[0];
+        if (!targetSubTheme) return true;
+
+        const candidates = [];
+        if (item.sub_theme) candidates.push(item.sub_theme);
+        if (item.theme && item.sub_theme) candidates.push(`${item.theme}/${item.sub_theme}`);
+        if (item.secondary_themes && Array.isArray(item.secondary_themes)) candidates.push(...item.secondary_themes);
+
+        return candidates.some(candidate => {
+            const normal = normalizeCategory(candidate);
+            if (!normal.subTheme || normal.subTheme !== targetSubTheme) return false;
+            return !targetTheme || normal.theme === targetTheme;
+        });
+    };
+
+    function filterVocabulary(entries, { lang, level, theme, subTheme, category, room }) {
         const categoryToForm = {
-            'Vocabulary': (strict && category === 'Vocabulary') ? ['noun', 'adjective'] : ['noun', 'adjective', 'other'],
-            'Grammar': ['verb', 'preposition', 'conjunction', 'determiner', 'pronoun', 'adverb'],
+            'Vocabulary': ['noun', 'adjective', 'verb', 'adverb', 'phrase', 'idiom', 'preposition', 'postposition', 'particle', 'pronoun', 'determiner', 'number', 'conjunction', 'article', 'other'],
+            'Grammar': ['verb', 'preposition', 'postposition', 'particle', 'conjunction', 'determiner', 'pronoun', 'adverb', 'article'],
             'Speaking': ['speaking'],
             'Pronunciation': ['pronunciation']
         };
@@ -611,7 +664,7 @@
             }
             if (category && targetForms && entry.form && !targetForms.includes(entry.form)) return false;
             if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme, entry)) return false;
-            if (subTheme && subTheme !== 'all' && (entry.sub_theme || '') !== subTheme) return false;
+            if (!isSubThemeMatch(entry, subTheme)) return false;
             if (room && room !== 'all') {
                 const itemRooms = (entry.rooms || (entry.room ? [entry.room] : [])).map(r => String(r).toLowerCase().trim());
                 if (!itemRooms.includes(room.toLowerCase().trim())) return false;
@@ -631,7 +684,7 @@
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
         const levelMatch = normalizedLevel === 'all' || (item.level && window.getLevelCode(item.level) === normalizedLevel);
         const themeMatch = isThemeMatch(item.theme, theme, item);
-        const subThemeMatch = !subTheme || subTheme === 'all' || (item.sub_theme && item.sub_theme === subTheme);
+        const subThemeMatch = isSubThemeMatch(item, subTheme);
         if (options.room && options.room !== 'all') {
             const itemRooms = (item.rooms || (item.room ? [item.room] : [])).map(r => String(r).toLowerCase().trim());
             if (!itemRooms.includes(options.room.toLowerCase().trim())) return false;
