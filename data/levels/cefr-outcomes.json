@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "generated_from": "curriculum/en/**/*.json",
+  "generated_from": "curriculums/en/**/*.json",
   "homework_multiplier": 1.5,
   "cefr_benchmark_source": "Skyeng-published CEFR hour targets (engblog.ru/skyeng-review)",
   "courses": {
@@ -988,5 +988,6 @@
         ]
       }
     ]
-  }
+  },
+  "_regeneration_note": "Lesson and unit counts are a snapshot of the curriculum at generation time. Regenerate after changing COSYplatform curriculums; each level keeps one can-do statement per lesson."
 }
