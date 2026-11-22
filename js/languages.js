@@ -1,6 +1,7 @@
 /**
- * js/languages.js
- * Language and CEFR level registry for the practice hub.
+ * Vendored copy of COSYlanguages/js/data/languages.js.
+ * Kept local so the practice hub works offline; scripts/check-shared-languages.js
+ * fails CI when the two registries drift.
  */
 
 // Practice UI languages. The exercise data itself covers 14 languages in COSYdata;

@@ -73,6 +73,17 @@ jobs:
           COSYMANUALS_DIR: ${{ github.workspace }}/.cosy/COSYmanuals
         run: node scripts/check-practice-links.js
 
+      - name: Check out the shared COSYlanguages registry
+        uses: actions/checkout@v4
+        with:
+          repository: cosylanguages/COSYlanguages
+          path: .cosy/COSYlanguages
+
+      - name: Check shared language registry
+        env:
+          COSYLANGUAGES_DIR: ${{ github.workspace }}/.cosy/COSYlanguages
+        run: node scripts/check-shared-languages.js
+
       - name: Check out the canonical COSYplatform curriculum
         uses: actions/checkout@v4
         with:
