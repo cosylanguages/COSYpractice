@@ -20,7 +20,7 @@ const window = {
   vocabularyData: {
     en: [
       { word: 'arrive', form: 'verb', level: 'a1' },
-      { word: 'leave', form: 'verb', level: 'a1' },
+      { word: 'leave', form: 'verb', level: 'a2' },
       { word: 'go', form: 'verb', level: 'a1' },
       { word: 'get up', form: 'phrase', level: 'a1' }
     ]
@@ -59,7 +59,20 @@ const filtered = filterVocabulary(window.vocabularyData.en, {
 });
 assert.deepStrictEqual(Array.from(filtered, item => item.word), ['arrive', 'leave']);
 
+// The pair's level must not drop a term that sits at another CEFR level.
+const filteredAtPairLevel = filterVocabulary(window.vocabularyData.en, {
+  lang: 'en',
+  level: 'a1',
+  theme: 'pair:arrive-vs-leave',
+  subTheme: '',
+  category: 'Vocabulary'
+});
+assert.deepStrictEqual(Array.from(filteredAtPairLevel, item => item.word), ['arrive', 'leave']);
+
 const pool = getVocabPool('en', 'all', 'pair:get-up-vs-stand-up', '');
 assert.deepStrictEqual(Array.from(pool, item => item.word), ['get up']);
+
+const poolAtPairLevel = getVocabPool('en', 'a1', 'pair:arrive-vs-leave', '');
+assert.deepStrictEqual(Array.from(poolAtPairLevel, item => item.word), ['arrive', 'leave']);
 
 console.log('Vocabulary pair matching tests passed.');

@@ -181,8 +181,10 @@
             'Pronunciation': ['pronunciation']
         };
         const targetForms = categoryToForm[category];
-        const levelId = (level && level !== "all") ? window.getLevelCode(level) : "all";
         const pair = pairForTheme(theme) || pairForTheme(subTheme);
+        // Pair terms can sit at different CEFR levels; the pair's level is a
+        // recommendation, not a filter, so both sides stay in the pool.
+        const levelId = (pair || !level || level === "all") ? "all" : window.getLevelCode(level);
         const seen = new Set();
 
         return entries.filter(entry => {
@@ -211,8 +213,8 @@
       if (!options.excludeExtra) keys.push('locationsData', 'peopleData');
       let pool = [];
       keys.forEach(key => { if (window[key] && window[key][lang]) pool = pool.concat(window[key][lang]); });
-      const normalizedLevel = (level && level !== 'all') ? window.getLevelCode(level) : 'all';
       const pair = pairForTheme(theme) || pairForTheme(subTheme);
+      const normalizedLevel = pair ? 'all' : ((level && level !== 'all') ? window.getLevelCode(level) : 'all');
       const seen = new Set();
 
       return pool.filter(item => {
