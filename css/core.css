@@ -1,6 +1,7 @@
-/* Shared COSY design foundation (from the COSYlanguages hub). */
-@import "fonts.css";
-@import "shared-tokens.css";
-@import "base.css";
+/* Shared COSY design foundation. Fonts, tokens, base and layout are owned by
+   COSYlanguages (the public shared-asset repo); practice keeps only its own components. */
+@import url("https://cosylanguages.github.io/COSYlanguages/css/fonts.css");
+@import url("https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css");
+@import url("https://cosylanguages.github.io/COSYlanguages/css/base.css");
 @import "components.css";
-@import "layout.css";
+@import url("https://cosylanguages.github.io/COSYlanguages/css/layout.css");

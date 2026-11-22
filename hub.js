@@ -73,6 +73,10 @@
 
         const select = document.getElementById('theme-filter');
         const value = select ? select.value : 'all';
+        if (String(value).startsWith('pair:')) {
+            hint.style.display = 'none';
+            return;
+        }
         let count = 0;
         if (value === 'all') {
             count = counts.total;
@@ -102,6 +106,10 @@
 
         Array.from(themeSelect.options).forEach(option => {
             const base = option.dataset.baseLabel || option.textContent.replace(/\s*\(\d[\d,]*\)$/, '');
+            if (option.value.startsWith('pair:')) {
+                setOptionCount(option, base, null);
+                return;
+            }
             let count = null;
             if (counts) {
                 if (option.value === 'all') count = counts.total;
@@ -115,6 +123,12 @@
         Array.from(themeSelect.querySelectorAll('optgroup')).forEach(group => {
             const base = group.dataset.baseLabel || group.label.replace(/\s*\(\d[\d,]*\)$/, '');
             group.dataset.baseLabel = base;
+            const firstOption = group.querySelector('option');
+            if (firstOption && firstOption.value.startsWith('pair:')) {
+                group.label = base;
+                group.disabled = false;
+                return;
+            }
             const themeOption = Array.from(group.querySelectorAll('option')).find(option => !option.value.includes('/'));
             const count = counts && themeOption ? (counts.themes[themeOption.value] || 0) : null;
             group.label = count == null ? base : `${base} (${count.toLocaleString()})`;
@@ -372,6 +386,24 @@
                 });
             }
 
+            // Only pairs whose two terms exist in COSYdata can produce a session.
+            const allPairs = selectedLang === 'en'
+                ? Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat().filter(p => p.covered !== false)
+                : [];
+            if (allPairs.length) {
+                const pairGroup = document.createElement('optgroup');
+                pairGroup.label = (window.t && window.t('confusion_pairs')) || 'Confusion pairs';
+                pairGroup.dataset.baseLabel = pairGroup.label;
+                allPairs.slice().sort((a, b) => a.label.localeCompare(b.label)).forEach(pair => {
+                    const opt = document.createElement('option');
+                    opt.value = `pair:${pair.id}`;
+                    opt.textContent = pair.group ? `${pair.group}: ${pair.label}` : pair.label;
+                    opt.dataset.baseLabel = opt.textContent;
+                    pairGroup.appendChild(opt);
+                });
+                themeSelect.appendChild(pairGroup);
+            }
+
             const uncategorized = document.createElement('option');
             uncategorized.value = 'uncategorized';
             uncategorized.textContent = (window.t && window.t('category_uncategorized')) || 'Uncategorised';
@@ -408,6 +440,22 @@
         const subWrap = document.getElementById('subtheme-filter-wrap');
         const subSelect = document.getElementById('subtheme-filter');
         if (!themeSelect || !subWrap || !subSelect) return;
+
+        const pair = window.gameUtils && window.gameUtils.pairForTheme
+            ? window.gameUtils.pairForTheme(themeSelect.value)
+            : null;
+        if (pair) {
+            const levelSelect = document.getElementById('level-filter');
+            if (levelSelect && pair.level) {
+                const levelId = window.levelShortToId ? window.levelShortToId(pair.level) : pair.level;
+                if (Array.from(levelSelect.options).some(opt => opt.value === levelId)) {
+                    levelSelect.value = levelId;
+                }
+            }
+            subWrap.style.display = 'none';
+            subSelect.value = '';
+            return;
+        }
 
         if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
             subWrap.style.display = 'none';
@@ -692,6 +740,7 @@
          * @param {string} [subTheme] - Optional sub-theme name
          */
         quickStart: async (lang, cat, level, theme, subTheme) => {
+            if (window.cosyLoadVocabConfusionPairs) await window.cosyLoadVocabConfusionPairs();
             const l = (lang || 'en').toLowerCase();
             const lp = document.querySelector(`.lang-pill[data-value="${l}"]`);
             if (lp) selectLang(lp);
@@ -835,14 +884,7 @@
 
         let categoryItems = [];
 
-        if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
-            const vocabPairs = window.COSY_VOCAB_CONFUSION_PAIRS || {};
-            if (normLvl !== 'all' && vocabPairs[normLvl]) {
-                categoryItems = vocabPairs[normLvl];
-            } else {
-                Object.values(vocabPairs).forEach(arr => categoryItems.push(...arr));
-            }
-        } else if (selectedCat === 'grammar') {
+        if (selectedCat === 'grammar') {
             const grammarPairs = window.COSY_GRAMMAR_CONFUSION_PAIRS || {};
             if (normLvl !== 'all' && grammarPairs[normLvl]) {
                 categoryItems = grammarPairs[normLvl];
@@ -883,7 +925,9 @@
             return;
         }
 
-        const themes = window.COSY_THEME_TREE ? Object.keys(window.COSY_THEME_TREE) : [
+        const themeSource = (window.COSY_THEMES_SCHEMA && window.COSY_THEMES_SCHEMA.themes)
+            || window.COSY_THEME_TREE || {};
+        const themes = Object.keys(themeSource).length ? Object.keys(themeSource) : [
             'Psychology_&_Mind', 'Society_&_Politics', 'Influences_&_Biases',
             'Habits_&_Addiction', 'Food,_Drink_&_Health', 'Science_&_Technology',
             'Philosophy_&_Ethics', 'Art,_Culture_&_Entertainment',
@@ -998,15 +1042,15 @@
     function isValidTheme(t) {
         if (!t || t === 'all') return true;
         const lower = t.toLowerCase().trim();
+        if (String(t).startsWith('pair:')) {
+            const id = String(t).slice(5);
+            const pairs = Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat();
+            if (pairs.some(p => p.id === id && p.covered !== false)) return true;
+        }
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
         if (lower === 'uncategorized' || lower === 'uncategorised') return true;
         if (lower === 'to_be' || lower === 'to-be') return true;
-
-        if (window.COSY_VOCAB_CONFUSION_PAIRS) {
-            const allVocabPairs = Object.values(window.COSY_VOCAB_CONFUSION_PAIRS).flat().map(p => p.id.toLowerCase());
-            if (allVocabPairs.includes(lower) || allVocabPairs.includes(normHyphen) || allVocabPairs.includes(normUnderscore)) return true;
-        }
 
         if (window.COSY_GRAMMAR_CONFUSION_PAIRS) {
             const allPairs = Object.values(window.COSY_GRAMMAR_CONFUSION_PAIRS).flat().map(p => p.id.toLowerCase());
@@ -1170,6 +1214,7 @@
         const level = levelParam ? (window.getLevelCode ? window.getLevelCode(levelParam, 'id') : levelParam) : 'all';
 
         const isVocabCat = /^(vocab|vocabulary)$/i.test(cat || '');
+        const isGrammarCat = /^grammar$/i.test(cat || '');
         let theme = themeParam || 'all';
         let subtheme = subthemeParam || '';
 
@@ -1186,6 +1231,14 @@
                     subtheme = resolvedSub.theme;
                 }
             }
+        } else if (isGrammarCat && theme !== 'all') {
+            const bank = (lang === 'fr') ? window.COSY_FRENCH_GRAMMAR_CONFUSION_PAIRS : window.COSY_GRAMMAR_CONFUSION_PAIRS;
+            const norm = v => String(v || '').toLowerCase().replace(/-/g, '_');
+            const wanted = norm(theme);
+            const match = Object.values(bank || {}).flat().find(p => norm(p.id) === wanted || norm(p.label) === wanted);
+            // A theme from another language's bank must not produce an empty session.
+            theme = match ? match.id : 'all';
+            subtheme = '';
         }
 
         window.cosyPractice.quickStart(lang, cat, level, theme, subtheme);
@@ -1208,7 +1261,11 @@
 
     document.addEventListener('DOMContentLoaded', async () => {
         initSetupUI();
-        await loadCosydataThemes();
+        await Promise.all([
+            loadCosydataThemes(),
+            window.cosyLoadVocabConfusionPairs ? window.cosyLoadVocabConfusionPairs() : Promise.resolve(null)
+        ]);
+        updateThemes();
         handleUrlParams();
     });
 })();

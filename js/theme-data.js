@@ -1,42 +1,13 @@
 /**
- * js/core/ui.js
- * Shared UI helpers including toasts, modals, FAQ toggles, and scroll effects.
- * Consolidated with mobile handlers and theme configuration.
+ * js/theme-data.js
+ * Practice theme tree and grammar-topic fallbacks used by the setup filters.
+ * The canonical taxonomy is COSYdata/schemas/themes.json, loaded at runtime;
+ * these maps only cover offline use and legacy URL parameters.
  */
 (function() {
     'use strict';
 
     window.COSY = window.COSY || {};
-
-    /* ─── THEME CONFIGURATION ────────────────────────────────────── */
-    window.COMMON_THEMES = [
-        { id: "numbers_math", label: "common_theme_numbers_math" },
-        { id: "time", label: "common_theme_time" },
-        { id: "personal_identity", label: "common_theme_personal_identity" },
-        { id: "family_relationships", label: "common_theme_family_relationships" },
-        { id: "home_living", label: "common_theme_home_living" },
-        { id: "food_drink", label: "common_theme_food_drink" },
-        { id: "health_body", label: "common_theme_health_body" },
-        { id: "work_employment", label: "common_theme_work_employment" },
-        { id: "education_learning", label: "common_theme_education_learning" },
-        { id: "transport_travel", label: "common_theme_transport_travel" },
-        { id: "shopping_money", label: "common_theme_shopping_money" },
-        { id: "technology_media", label: "common_theme_technology_media" },
-        { id: "environment_nature", label: "common_theme_environment_nature" },
-        { id: "society_politics", label: "common_theme_society_politics" },
-        { id: "culture_arts", label: "common_theme_culture_arts" },
-        { id: "science_tech", label: "common_theme_science_tech" },
-        { id: "language_communication", label: "common_theme_language_communication" },
-        { id: "sport_leisure", label: "common_theme_sport_leisure" },
-        { id: "feelings_emotions", label: "common_theme_feelings_emotions" },
-        { id: "places_geography", label: "common_theme_places_geography" },
-        { id: "describing_things", label: "common_theme_describing_things" },
-        { id: "clothes_appearance", label: "common_theme_clothes_appearance" },
-        { id: "prepositions_grammar", label: "common_theme_prepositions_grammar" },
-        { id: "modifiers_intensifiers", label: "common_theme_modifiers_intensifiers" },
-        { id: "ethics_philosophy", label: "common_theme_ethics_philosophy" },
-        { id: "opinion_debate", label: "common_theme_opinion_debate" }
-    ];
 
     window.COSY_THEME_TREE = {
       animals:             ['pets','farm','wild','insects','birds','sea','mammals','reptiles_amphibians','animal_groups','crustaceans_mollusks','fishes'],

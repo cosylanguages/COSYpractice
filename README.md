@@ -5,18 +5,31 @@ Live at https://cosylanguages.github.io/COSYpractice/
 
 ## What is here
 - `index.html` + `hub.js`: start a session, quick start, daily challenge, SRS memory review, weak spots, wheel, projector mode.
-- `_engine/`: the exercise engine (sessions, scoring, feedback, renderers). `types/`: vocabulary, writing (daily challenge) and concept check.
+- `_engine/`: the exercise engine (sessions, scoring, feedback, renderers) and the cross-course SRS store (`progress.js`). `types/`: vocabulary, writing (daily challenge) and concept check.
 - `progress-dashboard.html`: cross-course CEFR progress, stored in the browser.
-- `css/`: `core.css` (tokens, fonts, base) + `practice-new.css`, `daily.css`, `shell.css`, `practice-modern.css` (design layer, light and dark).
+- `cognitive-immersion.html`: planning tools for immersion, spacing and retrieval practice.
+- `css/`: `core.css` pulls the shared foundation (fonts, tokens, base, layout) from COSYlanguages and keeps only practice components locally; `practice-new.css`, `daily.css`, `shell.css`, `practice-modern.css` are the design layer.
 - `js/shell.js`: top bar and footer shared with the other COSY sites. Theme and language live in localStorage and follow the reader across COSY sites.
 - `i18n/`: interface strings for the same 5 languages.
 
 ## Data & Content Integration
-Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
+Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
 - `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
-- Spaced repetition (SRS) algorithms and practice tools shared with **COSYtools**
-- Grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
-- `data/vocabulary/<level>/<theme>.js` and `data/grammar/<level>/<theme>.js` are bundled here (about 38 MB) and loaded on demand per session.
+- `taxonomy/vocab-confusion-pairs.json`, `taxonomy/grammar-confusion-pairs.json` and `taxonomy/french-grammar-confusion-pairs.json` from **COSYdata**. `js/taxonomy.js` loads them at start-up. The vocabulary file supplies the 273 pair options in the category picker; a pair is selected as `pair:<id>` and `js/shared.js` filters the COSYdata vocabulary pool to the two terms.
+- Grammar lessons and curriculum from **COSYplatform**; CCQ and phonology reference from **COSYmanuals** (loaded at runtime from `https://cosylanguages.github.io/COSYmanuals/data/grammar/reference/`)
+- The exercise engine and SRS store live in `_engine/`; shared practice helpers (speech, vocabulary filtering, theme matching) live in `js/shared.js`. They depend on practice runtime globals (`vocabularyData`, `getLevelCode`, theme helpers), so they stay practice-owned until COSYtools exposes a shared JS module.
+- There are no bundled per-level drill datasets. Vocabulary and grammar sessions are generated at runtime from COSYdata entries, plus the curated grammar banks in `data/grammar_confusion_pairs.js` and `data/french_grammar_confusion_pairs.js`.
+
+### Repository boundaries
+| Content | Owner |
+|---|---|
+| Vocabulary, themes, word/verb of the day | COSYdata |
+| Vocabulary and grammar confusion-pair taxonomy | COSYdata (`taxonomy/*-confusion-pairs.json`) |
+| Curriculum, grammar lessons | COSYplatform |
+| CCQ, phonology reference | COSYmanuals |
+| Daily speaking and writing prompts, practice engine, SRS store | COSYpractice |
+| Shared fonts, design tokens, base CSS, logo | COSYlanguages |
+| Practice data and speech helpers | COSYpractice (`js/shared.js`); COSYtools has no shared JS package yet |
 
 ## DELF/DALF theme catalogue
 `data/exam/fr/delf-dalf-themes.json` is the canonical list of French exam themes supplied for
@@ -52,6 +65,9 @@ Never commit tokens or keys. Keep the site free of tracking. Prefer editing `pra
 
 ## Notes
 - Vocabulary is loaded from COSYdata per request (own timeouts). A chosen level only loads that level's files; "all levels + all themes" loads a random sample of about 900 entries, so a session starts in a second or two instead of pulling every theme file.
+- Confusion-pair sessions use a `pair:<id>` theme. The picker shows the COSYdata taxonomy; selecting a pair sets the level to the pair's level and filters the loaded pool to `termA`/`termB`, so no per-pair drill file is needed. Only pairs marked `covered` (both terms present in COSYdata) are offered; the taxonomy keeps uncovered pairs for future vocabulary work.
+- Phonology and CCQ reference files are fetched from COSYmanuals GitHub Pages; no local copy is bundled.
 - COSYdata stores definitions and examples as plain strings; the loader converts them to `{ text }` objects the engine expects.
 - Interface language (`i18n/`): static text uses `data-i18n` / `data-translate-key`; engine text (session header, feedback, buttons) is translated at run time from `_phrases` and `_patterns` in each language file. To add a string, add it to all five files.
-- `growing-thread.html` stays in the old hub (it depends on hub curriculum files).
+- Exercise data covers 14 languages in COSYdata. The interface, setup pills and i18n cover five (en, fr, it, ru, el); the wheel and `quickStart` can still launch the other nine from a URL or the wheel.
+- The SRS store in `_engine/progress.js` keeps one record per course item in `localStorage`, with intervals of 0, 1, 3, 7, 14 and 30 days. The progress dashboard reads it; no account or backend is involved.

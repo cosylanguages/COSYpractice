@@ -39,9 +39,21 @@
 
     async loadLanguageData(lang, levelId, theme, subTheme) {
         const COSYDATA_BASE = 'https://cosylanguages.github.io/COSYdata/';
-        const category = (theme && theme !== 'all')
-            ? (String(theme).includes('/') || !subTheme || subTheme === 'all' ? String(theme) : `${theme}/${subTheme}`)
-            : (subTheme && subTheme !== 'all' ? String(subTheme) : 'all');
+        const pairTheme = typeof theme === 'string' && theme.startsWith('pair:');
+        let pair = null;
+        if (pairTheme) {
+            const id = theme.slice(5);
+            const registry = window.COSY_VOCAB_CONFUSION_PAIRS || {};
+            for (const entries of Object.values(registry)) {
+                pair = (entries || []).find(p => p.id === id);
+                if (pair) break;
+            }
+            if (pair && pair.level && (!levelId || levelId === 'all')) levelId = pair.level;
+        }
+        const themeForCategory = pairTheme ? 'all' : theme;
+        const category = (themeForCategory && themeForCategory !== 'all')
+            ? (String(themeForCategory).includes('/') || !subTheme || subTheme === 'all' ? String(themeForCategory) : `${themeForCategory}/${subTheme}`)
+            : (subTheme && subTheme !== 'all' && !String(subTheme).startsWith('pair:') ? String(subTheme) : 'all');
         let levelsToLoad = (levelId === 'all')
             ? (window.COSY_LEVELS ? window.COSY_LEVELS.map(l => l.id) : ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'])
             : [levelId];
@@ -83,6 +95,23 @@
                     if (matching.length) themeFiles = matching;
                 } else {
                     themeFiles.sort(() => Math.random() - 0.5);
+                }
+                if (pair) {
+                    const terms = [pair.termA, pair.termB, ...(pair.terms || [])]
+                        .filter(Boolean)
+                        .map(term => String(term).toLowerCase().trim());
+                    const flatIndex = await getJSON(`${COSYDATA_BASE}vocabulary/${lang}/flat-index.json`, 10000);
+                    const ids = new Set();
+                    if (flatIndex) {
+                        for (const term of terms) {
+                            (flatIndex[term] || []).forEach(entry => {
+                                if (entry && entry.id) ids.add(entry.id);
+                            });
+                        }
+                    }
+                    const files = new Set();
+                    ids.forEach(id => { if (indexData[id]) files.add(indexData[id]); });
+                    if (files.size) themeFiles = [...files];
                 }
                 // A chosen category only needs the files that actually hold its entries
                 // (themes-index.json maps theme and theme/sub_theme -> entry ids).

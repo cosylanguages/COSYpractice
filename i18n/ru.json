@@ -13,6 +13,7 @@
  "category_empty_hint": "В этой категории нет слов для выбранного языка и уровня.",
  "category_uncategorized": "Без категории",
  "category_words": "слов",
+ "confusion_pairs": "Пары похожих слов",
  "course_exam": "Подготовка к экзаменам 📝",
  "course_general": "Общий курс 📖",
  "course_professional": "Профессиональный курс 💼",
@@ -219,5 +220,10 @@
  "daily.micro.vocabulary.instruction": "Напишите своё предложение со словом дня.",
  "daily.micro.grammar.title": "Найдите закономерность",
  "daily.micro.grammar.instruction": "Найдите, что идёт после глагола в примере, и напишите своё предложение по той же схеме.",
- "daily.example": "Пример"
+ "daily.example": "Пример",
+ "ui.more_ways_to_practise": "Другие способы практики",
+ "ui.progress_dashboard": "Панель прогресса 📊",
+ "ui.progress_dashboard_desc": "Смотрите освоение и сроки интервального повторения по всем курсам.",
+ "ui.memory_tools": "Инструменты памяти и погружения 🧠",
+ "ui.memory_tools_desc": "Планируйте погружение, интервалы и активное вспоминание."
 }
