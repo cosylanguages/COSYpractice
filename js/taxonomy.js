@@ -1,5 +1,5 @@
 /**
- * Loads canonical confusion-pair taxonomies from COSYdata.
+ * Loads the canonical vocabulary confusion-pair taxonomy from COSYdata.
  * The taxonomy holds metadata only; practice questions are generated from
  * COSYdata vocabulary entries at session time.
  */
@@ -30,6 +30,4 @@
     }
 
     window.cosyLoadVocabConfusionPairs = () => load('vocab-confusion-pairs.json', 'COSY_VOCAB_CONFUSION_PAIRS');
-    window.cosyLoadGrammarConfusionPairs = () => load('grammar-confusion-pairs.json', 'COSY_GRAMMAR_CONFUSION_PAIRS_TAXONOMY');
-    window.cosyLoadFrenchGrammarConfusionPairs = () => load('french-grammar-confusion-pairs.json', 'COSY_FRENCH_GRAMMAR_CONFUSION_PAIRS_TAXONOMY');
 })();
