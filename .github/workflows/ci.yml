@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Check external references
+        run: node scripts/check-external-refs.js
+
       - name: Validate the daily speaking and writing prompts
         run: node scripts/validate-daily-prompts.js
 
@@ -51,6 +54,11 @@ jobs:
         with:
           repository: cosylanguages/COSYdata
           path: .cosy/COSYdata
+
+      - name: Check shared theme schema
+        env:
+          COSYDATA_DIR: ${{ github.workspace }}/.cosy/COSYdata
+        run: node scripts/check-shared-themes.js
 
       - name: Audit practice theme coverage against COSYdata
         env:

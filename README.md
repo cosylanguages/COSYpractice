@@ -14,7 +14,7 @@ Live at https://cosylanguages.github.io/COSYpractice/
 
 ## Data & Content Integration
 Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
-- `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
+- `data/schemas/themes.json` is a vendored copy of **COSYdata** `schemas/themes.json`; `hub.js` loads it locally and falls back to a pinned COSYdata commit. `scripts/check-shared-themes.js` fails CI when the copy drifts. `vocabulary/<lang>/index.json` is still loaded from COSYdata at runtime.
 - `taxonomy/vocab-confusion-pairs.json`, `taxonomy/grammar-confusion-pairs.json` and `taxonomy/french-grammar-confusion-pairs.json` from **COSYdata**. `js/taxonomy.js` loads the vocabulary taxonomy at start-up; the grammar taxonomies are metadata for data tooling and future content, while the curated grammar banks in `data/` supply the questions. The vocabulary file supplies the 273 pair options in the category picker; a pair is selected as `pair:<id>` and `js/shared.js` filters the COSYdata vocabulary pool to the two terms.
 - Grammar lessons and curriculum from **COSYplatform**; CCQ and phonology reference from **COSYmanuals** (loaded at runtime from `https://cosylanguages.github.io/COSYmanuals/data/grammar/reference/`)
 - The exercise engine and SRS store live in `_engine/`; shared practice helpers (speech, vocabulary filtering, theme matching) live in `js/shared.js`. They depend on practice runtime globals (`vocabularyData`, `getLevelCode`, theme helpers), so they stay practice-owned until COSYtools exposes a shared JS module.

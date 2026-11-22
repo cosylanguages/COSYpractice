@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosypractice-v11';
+const CACHE_NAME = 'cosypractice-v12';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -31,6 +31,7 @@ const ASSETS_TO_CACHE = [
   './data/french_grammar_confusion_pairs.js',
   './data/levels/curriculum-stats.json',
   './data/levels/cefr-outcomes.json',
+  './data/schemas/themes.json',
   './i18n/en.json',
   './i18n/fr.json',
   './i18n/it.json',
