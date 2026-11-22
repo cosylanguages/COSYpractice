@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosypractice-v9';
+const CACHE_NAME = 'cosypractice-v10';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -10,7 +10,6 @@ const ASSETS_TO_CACHE = [
   './css/practice-modern.css',
   './css/daily.css',
   './css/shell.css',
-  './js/theme-init.js',
   './js/languages.js',
   './js/theme-data.js',
   './js/theme-aliases.js',

@@ -71,16 +71,6 @@
       .then(function (d) { dict = flatten(d, '', {}); done(); });
   }
 
-  /* ── Theme ────────────────────────────────────────────────────── */
-  function isDark() { return root.getAttribute('data-theme') === 'dark'; }
-  function setTheme(dark) {
-    root.setAttribute('data-theme', dark ? 'dark' : 'light');
-    document.body.classList.toggle('theme-dark', dark);
-    store('cosy.theme', dark ? 'dark' : 'light'); store('cosy_theme', dark ? 'dark' : 'light');
-    var b = document.getElementById('bn-theme');
-    if (b) { b.textContent = dark ? '☀️' : '🌙'; b.setAttribute('aria-pressed', String(dark)); }
-  }
-
   /* ── Top bar ──────────────────────────────────────────────────── */
   function buildNav() {
     var host = document.getElementById('cosy-nav');
@@ -103,13 +93,11 @@
           '<a href="' + ECO.events + '">' + L.events + '</a>' +
         '</nav>' +
         '<div class="bn-actions">' + langSelect +
-          '<button type="button" id="bn-theme" class="bn-icon" aria-label="' + L.theme + '" aria-pressed="false">🌙</button>' +
+          '<button type="button" id="bn-theme" class="bn-icon" data-cosy-theme-toggle aria-label="' + L.theme + '" aria-pressed="' + (root.getAttribute('data-theme') === 'dark') + '">' + (root.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙') + '</button>' +
         '</div>' +
       '</div>';
     var sel = document.getElementById('bn-lang');
     if (sel) sel.addEventListener('change', function () { store('cosy_ui_lang', sel.value); store('cosy_last_language', sel.value); location.reload(); });
-    document.getElementById('bn-theme').addEventListener('click', function () { setTheme(!isDark()); });
-    setTheme(isDark());
   }
 
   /* ── Footer ───────────────────────────────────────────────────── */
