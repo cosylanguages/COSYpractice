@@ -84,7 +84,7 @@ jobs:
           COSYPLATFORM_DIR: ${{ github.workspace }}/.cosy/COSYplatform
         run: node scripts/check-curriculum-stats.js
 
-      - name: Audit lesson can-do coverage (report only)
+      - name: Check authored lesson can-do coverage
         env:
           COSYPLATFORM_DIR: ${{ github.workspace }}/.cosy/COSYplatform
         run: node scripts/audit-cando-coverage.js
