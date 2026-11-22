@@ -23,6 +23,9 @@ jobs:
       - name: Test the DELF/DALF theme coverage
         run: node scripts/test-exam-themes.js
 
+      - name: Test the daily challenge source
+        run: node scripts/test-daily-source.js
+
       - name: Test speaking and writing coverage
         run: |
           node scripts/test-speaking-coverage.js
@@ -30,3 +33,14 @@ jobs:
 
       - name: Test the theme normaliser
         run: node scripts/test-theme-aliases.js
+
+      - name: Check out the canonical COSYdata taxonomy
+        uses: actions/checkout@v4
+        with:
+          repository: cosylanguages/COSYdata
+          path: .cosy/COSYdata
+
+      - name: Audit practice theme coverage against COSYdata
+        env:
+          COSYDATA_DIR: ${{ github.workspace }}/.cosy/COSYdata
+        run: node scripts/audit-theme-coverage.js

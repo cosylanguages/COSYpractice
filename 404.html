@@ -5,8 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
   <title>Page not found | COSYpractice</title>
-  <base href="/COSYpractice/">
-  <link rel="icon" href="images/logo.png">
+  <script>
+    // GitHub Pages serves this page for missing paths; keep relative assets working
+    // both at /COSYpractice/ and in a local preview at the server root.
+    (function () {
+      var base = document.createElement('base');
+      base.href = location.pathname.indexOf('/COSYpractice/') === 0 ? '/COSYpractice/' : './';
+      document.head.appendChild(base);
+    })();
+  </script>
+  <link rel="icon" href="https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png">
   <script src="js/theme-init.js"></script>
   <link rel="stylesheet" href="css/core.css">
   <link rel="stylesheet" href="css/shell.css">

@@ -216,55 +216,6 @@
                   : catInput || 'Vocabulary';
         let pool = (QUESTIONS[langKey] && QUESTIONS[langKey][cat]) ? [...QUESTIONS[langKey][cat]] : [];
 
-        if (cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary') {
-            const normLvl = (level === 'starter' || level === 'a1') ? 'a1' :
-                            (level === 'elementary' || level === 'a2') ? 'a2' :
-                            (level === 'intermediate' || level === 'b1') ? 'b1' :
-                            (level === 'upper_intermediate' || level === 'b2') ? 'b2' :
-                            (level === 'advanced' || level === 'c1') ? 'c1' :
-                            (level === 'proficiency' || level === 'c2') ? 'c2' : 'all';
-
-            let modularItems = [];
-
-            if (window.COSY_VOCAB_DATA) {
-                const dataKey = `${normLvl}_${theme}`;
-                if (window.COSY_VOCAB_DATA[dataKey] && window.COSY_VOCAB_DATA[dataKey].sentences) {
-                    modularItems = window.COSY_VOCAB_DATA[dataKey].sentences;
-                } else if (theme === 'all') {
-                    Object.keys(window.COSY_VOCAB_DATA).forEach(k => {
-                        if (normLvl === 'all' || k.startsWith(`${normLvl}_`)) {
-                            modularItems.push(...(window.COSY_VOCAB_DATA[k].sentences || []));
-                        }
-                    });
-                }
-            }
-
-            if (modularItems.length > 0) {
-                const formattedItems = modularItems.map(item => ({
-                    form: item.type || 'cloze',
-                    type: item.type || 'cloze',
-                    q: item.q,
-                    sentence: item.sentence || item.q,
-                    wrongSentence: item.wrongSentence,
-                    correctSentence: item.correctSentence,
-                    errorExplanation: item.errorExplanation,
-                    opts: item.opts,
-                    ans: item.ans,
-                    level: item.level || normLvl,
-                    theme: item.id ? item.id.split('-r-')[0].split('-w-')[0] : theme,
-                    ruleHint: item.ruleHint || item.errorExplanation,
-                    practice_links: item.practice_links,
-                    item: {
-                        word: item.id || item.label || theme,
-                        ruleHint: item.ruleHint || item.errorExplanation,
-                        practice_links: item.practice_links
-                    }
-                }));
-
-                pool = [...formattedItems, ...pool];
-            }
-        }
-
         if (cat === 'Grammar' || cat === 'grammar') {
             const normLvl = (level === 'starter' || level === 'a1') ? 'a1' :
                             (level === 'elementary' || level === 'a2') ? 'a2' :
@@ -275,22 +226,7 @@
 
             let modularItems = [];
 
-            // 1. Check window.COSY_GRAMMAR_DATA (standalone 150-sentence topic files)
-            if (window.COSY_GRAMMAR_DATA) {
-                const dataKey = `${normLvl}_${theme}`;
-                if (window.COSY_GRAMMAR_DATA[dataKey] && window.COSY_GRAMMAR_DATA[dataKey].sentences) {
-                    modularItems = window.COSY_GRAMMAR_DATA[dataKey].sentences;
-                } else {
-                    // Collect all available topic sentences for the level
-                    Object.keys(window.COSY_GRAMMAR_DATA).forEach(k => {
-                        if (k.startsWith(`${normLvl}_`)) {
-                            modularItems.push(...(window.COSY_GRAMMAR_DATA[k].sentences || []));
-                        }
-                    });
-                }
-            }
-
-            // 2. Fallback to language-specific COSY_GRAMMAR_CONFUSION_PAIRS
+            // Curated grammar items: English and French confusion-pair banks bundled with practice.
             const isFrench = (langKey === 'FR' || (lang || '').toLowerCase() === 'fr');
             const pairsData = isFrench ? window.COSY_FRENCH_GRAMMAR_CONFUSION_PAIRS : window.COSY_GRAMMAR_CONFUSION_PAIRS;
 
@@ -383,44 +319,6 @@
 
         // Speaking prompts come from COSYdata/functional-phrases (situational phrases by level)
         if (/^speaking$/i.test(cat || '')) await loadSpeakingPhrases(targetLang);
-
-        // Dynamically load standalone topic datasets if requested
-        if (theme && theme !== 'all') {
-            const normLvl = (level === 'starter' || level === 'a1') ? 'a1' :
-                            (level === 'elementary' || level === 'a2') ? 'a2' :
-                            (level === 'intermediate' || level === 'b1') ? 'b1' :
-                            (level === 'upper_intermediate' || level === 'b2') ? 'b2' :
-                            (level === 'advanced' || level === 'c1') ? 'c1' :
-                            (level === 'proficiency' || level === 'c2') ? 'c2' : 'a1';
-
-            if ((cat === 'Vocabulary' || cat === 'vocab' || cat === 'vocabulary') && !String(theme).includes('/') && theme !== 'uncategorized') {
-                const scriptId = `cosy-vocab-script-${normLvl}-${theme}`;
-                if (typeof document !== 'undefined' && !document.getElementById(scriptId)) {
-                    await new Promise((resolve) => {
-                        const script = document.createElement('script');
-                        script.id = scriptId;
-                        script.src = `data/vocabulary/${normLvl}/${theme}.js`;
-                        script.onload = resolve;
-                        script.onerror = resolve;
-                        document.head.appendChild(script);
-                    });
-                }
-            }
-
-            if (cat === 'Grammar' || cat === 'grammar') {
-                const scriptId = `cosy-grammar-script-${normLvl}-${theme}`;
-                if (typeof document !== 'undefined' && !document.getElementById(scriptId)) {
-                    await new Promise((resolve) => {
-                        const script = document.createElement('script');
-                        script.id = scriptId;
-                        script.src = `data/grammar/${normLvl}/${theme}.js`;
-                        script.onload = resolve;
-                        script.onerror = resolve;
-                        document.head.appendChild(script);
-                    });
-                }
-            }
-        }
 
         // Load standalone app morphological datasets via adapter bridge
         if (window.COSY && window.COSY.loadAppData) {

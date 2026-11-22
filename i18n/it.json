@@ -219,5 +219,10 @@
  "daily.micro.vocabulary.instruction": "Scrivi una frase tua con la parola del giorno.",
  "daily.micro.grammar.title": "Individua lo schema",
  "daily.micro.grammar.instruction": "Trova cosa segue il verbo nell'esempio, poi scrivi una tua frase con lo stesso schema.",
- "daily.example": "Esempio"
+ "daily.example": "Esempio",
+ "ui.more_ways_to_practise": "Altri modi per esercitarsi",
+ "ui.progress_dashboard": "Dashboard dei progressi 📊",
+ "ui.progress_dashboard_desc": "Vedi la padronanza e le scadenze del ripasso dilazionato di tutti i corsi.",
+ "ui.memory_tools": "Strumenti di memoria e immersione 🧠",
+ "ui.memory_tools_desc": "Pianifica immersione, spaziatura e recupero attivo."
 }

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosypractice-v3';
+const CACHE_NAME = 'cosypractice-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -12,13 +12,28 @@ const ASSETS_TO_CACHE = [
   './css/shell.css',
   './js/theme-init.js',
   './js/languages.js',
+  './js/theme-data.js',
   './js/theme-aliases.js',
+  './js/phonology_data.js',
   './js/shared.js',
+  './js/cosy-core.js',
+  './js/practice-i18n.js',
   './js/shell.js',
   './hub.js',
   './_engine/core.js',
   './_engine/renderers.js',
-  './_engine/progress.js'
+  './_engine/progress.js',
+  './types/vocabulary/vocabulary.js',
+  './types/writing/daily_data.js',
+  './types/writing/daily_source.js',
+  './types/writing/writing.js',
+  './data/grammar_confusion_pairs.js',
+  './data/french_grammar_confusion_pairs.js',
+  './i18n/en.json',
+  './i18n/fr.json',
+  './i18n/it.json',
+  './i18n/ru.json',
+  './i18n/el.json'
 ];
 
 self.addEventListener('install', (event) => {

@@ -93,7 +93,7 @@
     host.className = 'bn';
     host.innerHTML =
       '<div class="bn-inner">' +
-        '<a class="bn-brand" href="' + ECO.hub + '"><img src="' + ROOT + 'images/logo.png" alt="" width="30" height="30"><span>COSY<b>languages</b></span></a>' +
+        '<a class="bn-brand" href="' + ECO.hub + '"><img src="' + ECO.hub + 'images/logos/cosylanguages.png" alt="" width="30" height="30"><span>COSY<b>languages</b></span></a>' +
         '<nav class="bn-links" aria-label="' + L.sites + '">' +
           '<a href="' + ECO.courses + '">' + L.courses + '</a>' +
           '<a href="' + ECO.practice + '" aria-current="page">' + L.practice + '</a>' +
@@ -120,7 +120,7 @@
     host.className = 'bf';
     host.innerHTML =
       '<div class="bf-inner">' +
-        '<div class="bf-brand"><a class="bn-brand" href="' + ECO.hub + '"><img src="' + ROOT + 'images/logo.png" alt="" width="30" height="30"><span>COSY<b>languages</b></span></a>' +
+        '<div class="bf-brand"><a class="bn-brand" href="' + ECO.hub + '"><img src="' + ECO.hub + 'images/logos/cosylanguages.png" alt="" width="30" height="30"><span>COSY<b>languages</b></span></a>' +
           '<p>' + L.tag + '</p></div>' +
         '<nav class="bf-col" aria-label="' + L.explore + '"><h2>' + L.explore + '</h2>' +
           '<a href="' + ECO.practice + '">' + L.free + '</a><a href="' + ECO.blog + '">' + L.mag + '</a>' +

@@ -219,5 +219,10 @@
  "daily.micro.vocabulary.instruction": "Écrivez une phrase de votre cru avec le mot du jour.",
  "daily.micro.grammar.title": "Repérez la structure",
  "daily.micro.grammar.instruction": "Trouvez ce qui suit le verbe dans l'exemple, puis écrivez votre propre phrase sur le même modèle.",
- "daily.example": "Exemple"
+ "daily.example": "Exemple",
+ "ui.more_ways_to_practise": "D'autres façons de s'entraîner",
+ "ui.progress_dashboard": "Tableau de progression 📊",
+ "ui.progress_dashboard_desc": "Voyez votre maîtrise et les dates de révision espacée de tous les cours.",
+ "ui.memory_tools": "Outils de mémoire et d'immersion 🧠",
+ "ui.memory_tools_desc": "Planifiez l'immersion, l'espacement et la récupération active."
 }

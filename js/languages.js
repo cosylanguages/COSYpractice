@@ -1,22 +1,10 @@
 /**
- * js/data/languages.js
- * Master single-source-of-truth language registry for COSYlanguages.
+ * js/languages.js
+ * Language and CEFR level registry for the practice hub.
  */
 
-window.TRANSLATION_MAP = {
-    'en': 'js/data/germanic/en/translations.js',
-    'fr': 'js/data/romance/fr/translations.js',
-    'it': 'js/data/romance/it/translations.js',
-    'ru': 'js/data/slavic/ru/translations.js',
-    'el': 'js/data/hellenic/el/translations.js',
-};
-
-// Master language registry (5 official languages).
-// status: 'active' (lessons offered) | 'coming-soon' (lessons coming soon)
-// groupLessons: true (group lessons offered ONLY in en, fr, it, ru)
-// hasFreeVocabulary: true (free vocabulary available in vocabulary/manifest.json)
-// icon: national flag emoji OR rounded neutral badge for languages without a national flag
-
+// Practice UI languages. The exercise data itself covers 14 languages in COSYdata;
+// the wheel and quickStart can reach those codes even though only five have UI strings.
 window.COSY_LANGUAGES = [
   { code: 'en', name: 'English',    native: 'English',     status: 'active',      icon: '🇬🇧', flag: '🇬🇧', groupLessons: true,  hasFreeVocabulary: true, family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true },
   { code: 'fr', name: 'French',     native: 'Français',    status: 'active',      icon: '🇫🇷', flag: '🇫🇷', groupLessons: true,  hasFreeVocabulary: true, family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true },
