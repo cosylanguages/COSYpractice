@@ -3,5 +3,5 @@
 @import url("https://cosylanguages.github.io/COSYlanguages/css/fonts.css");
 @import url("https://cosylanguages.github.io/COSYlanguages/shared/css/tokens.css");
 @import url("https://cosylanguages.github.io/COSYlanguages/css/base.css");
-@import "components.css";
+@import url("https://cosylanguages.github.io/COSYlanguages/css/components.css");
 @import url("https://cosylanguages.github.io/COSYlanguages/css/layout.css");

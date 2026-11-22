@@ -57,6 +57,11 @@ jobs:
           COSYDATA_DIR: ${{ github.workspace }}/.cosy/COSYdata
         run: node scripts/audit-theme-coverage.js
 
+      - name: Check grammar confusion-pair coverage
+        env:
+          COSYDATA_DIR: ${{ github.workspace }}/.cosy/COSYdata
+        run: node scripts/check-grammar-coverage.js
+
       - name: Check out the canonical COSYmanuals pages
         uses: actions/checkout@v4
         with:
