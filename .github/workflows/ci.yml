@@ -20,6 +20,9 @@ jobs:
       - name: Validate the daily speaking and writing prompts
         run: node scripts/validate-daily-prompts.js
 
+      - name: Check CEFR outcome counts
+        run: node scripts/check-cefr-outcomes.js
+
       - name: Test the DELF/DALF theme coverage
         run: node scripts/test-exam-themes.js
 
