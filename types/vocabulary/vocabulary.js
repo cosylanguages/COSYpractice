@@ -57,8 +57,8 @@
                 // Nouns, Articles & Plurals
                 { type:'mc', q:'I bought ___ apple and a banana.', opts:['an','a','the','some'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "an" before words starting with a vowel sound.' },
                 { type:'mc', q:'We need ___ bread and cheese.', opts:['some','a','an','many'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "some" with uncountable nouns.' },
-                { type:'mc', q:'How ___ milk do we have in the fridge?', opts:['much','many','few','a few'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how much" with uncountable nouns like milk.', practice_links:['manuals/en/grammar/a1/topics/countables-uncountables.html'] },
-                { type:'mc', q:'How ___ apples did you buy at the market?', opts:['many','much','little','a little'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how many" with countable plural nouns like apples.', practice_links:['manuals/en/grammar/a1/topics/countables-uncountables.html'] },
+                { type:'mc', q:'How ___ milk do we have in the fridge?', opts:['much','many','few','a few'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how much" with uncountable nouns like milk.', practice_links:['manuals/en/grammar/a1/topics/countable-uncountable.html'] },
+                { type:'mc', q:'How ___ apples did you buy at the market?', opts:['many','much','little','a little'], ans:0, level:'starter', theme:'articles_gender', ruleHint:'Use "how many" with countable plural nouns like apples.', practice_links:['manuals/en/grammar/a1/topics/countable-uncountable.html'] },
                 { type:'mc', q:'One child, two ___ .', opts:['children','childs','childes','childrens'], ans:0, level:'starter', theme:'cases_declensions', ruleHint:'Irregular plural: child ➔ children.' },
 
                 // Sentence Syntax & Connectors
@@ -107,9 +107,9 @@
                 { type:'mc', q:'Nous sommes sortis ___ la pluie.', opts:['malgré','bien que','parce que','afin que'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Malgré" est suivi directement d\'un groupe nominal.' },
 
                 // Exercices interactifs : Scramble, Cloze & Saisie
-                { type:'sc', q:'🧩 Réordonnez la phrase :', ans:'Elle n’aime pas le café le matin.', level:'starter', theme:'syntax_word_order', item:{ word:'Ordre des mots' }, practice_links:['grammaire-francaise/topics/negation.html'] },
-                { type:'cloze', q:'Complétez : Le livre est [ ___ ] la table.', sentence:'Le livre est [ ___ ] la table.', opts:['sur','dans','à','sous'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'"Sur" indique la position sur une surface.', practice_links:['grammaire-francaise/topics/prepositions.html'] },
-                { type:'type', q:'"Passé composé du verbe : être (il)" = ?', ans:'a été', level:'starter', theme:'tenses_aspect', ruleHint:'Passé composé avec l\'auxiliaire avoir : il a été.', item:{ word:'a été' }, practice_links:['grammaire-francaise/topics/passe-compose.html'] },
+                { type:'sc', q:'🧩 Réordonnez la phrase :', ans:'Elle n’aime pas le café le matin.', level:'starter', theme:'syntax_word_order', item:{ word:'Ordre des mots' }, practice_links:['manuals/fr/grammar/a1/topics/negation.html'] },
+                { type:'cloze', q:'Complétez : Le livre est [ ___ ] la table.', sentence:'Le livre est [ ___ ] la table.', opts:['sur','dans','à','sous'], ans:0, level:'starter', theme:'prepositions_place', ruleHint:'"Sur" indique la position sur une surface.', practice_links:['manuals/fr/grammar/a1/topics/prepositions-lieu-1.html'] },
+                { type:'type', q:'"Passé composé du verbe : être (il)" = ?', ans:'a été', level:'starter', theme:'tenses_aspect', ruleHint:'Passé composé avec l\'auxiliaire avoir : il a été.', item:{ word:'a été' }, practice_links:['manuals/fr/grammar/a1/topics/passe-compose-avoir.html'] },
 
                 // Temps & Subjonctif
                 { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'La négation entoure le verbe : ne + verbe + pas (avec élision n\').' },
