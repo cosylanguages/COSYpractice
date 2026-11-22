@@ -56,3 +56,14 @@ jobs:
         env:
           COSYDATA_DIR: ${{ github.workspace }}/.cosy/COSYdata
         run: node scripts/audit-theme-coverage.js
+
+      - name: Check out the canonical COSYmanuals pages
+        uses: actions/checkout@v4
+        with:
+          repository: cosylanguages/COSYmanuals
+          path: .cosy/COSYmanuals
+
+      - name: Check practice manual links
+        env:
+          COSYMANUALS_DIR: ${{ github.workspace }}/.cosy/COSYmanuals
+        run: node scripts/check-practice-links.js
