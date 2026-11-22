@@ -16,10 +16,16 @@ const rows = new Map();
 const failures = [];
 let total = 0;
 let authoredCovered = 0;
+let draftCovered = 0;
+let drafts = 0;
 let placeholders = 0;
 
 function isPlaceholder(lesson) {
   return lesson.status === 'needs_review' && lesson.source === 'ported-from-legacy';
+}
+
+function isDraft(lesson) {
+  return lesson.status === 'draft' && lesson.source === 'generated-from-title';
 }
 
 function walk(dir) {
@@ -33,7 +39,7 @@ function walk(dir) {
 function audit(file) {
   const data = JSON.parse(fs.readFileSync(file, 'utf8'));
   const key = `${data.course_type}/${data.level}`;
-  const row = rows.get(key) || { total: 0, authored: 0, authoredCovered: 0, placeholders: 0 };
+  const row = rows.get(key) || { total: 0, authored: 0, authoredCovered: 0, draft: 0, draftCovered: 0, placeholders: 0 };
   for (const unit of data.units || []) {
     for (const lesson of unit.lessons || []) {
       total += 1;
@@ -44,6 +50,15 @@ function audit(file) {
       if (isPlaceholder(lesson)) {
         placeholders += 1;
         row.placeholders += 1;
+      } else if (isDraft(lesson)) {
+        drafts += 1;
+        row.draft += 1;
+        if (hasCanDo) {
+          draftCovered += 1;
+          row.draftCovered += 1;
+        } else {
+          failures.push(`${key} draft lesson ${lesson.lesson}: ${lesson.title}`);
+        }
       } else {
         row.authored += 1;
         if (hasCanDo) {
@@ -60,17 +75,20 @@ function audit(file) {
 
 walk(curriculumDir);
 
-console.log('Can-do coverage by course/level (authored lessons):');
+console.log('Can-do coverage by course/level (authored and draft lessons):');
 for (const [key, row] of [...rows].sort()) {
   const missing = row.authored - row.authoredCovered;
-  const suffix = row.placeholders ? `, ${row.placeholders} placeholders` : '';
-  console.log(`  ${key}: ${row.authoredCovered}/${row.authored} authored (${missing} missing${suffix})`);
+  const parts = [`${row.authoredCovered}/${row.authored} authored (${missing} missing)`];
+  if (row.draft) parts.push(`${row.draftCovered}/${row.draft} draft`);
+  if (row.placeholders) parts.push(`${row.placeholders} placeholders`);
+  console.log(`  ${key}: ${parts.join(', ')}`);
 }
-console.log(`Authored lessons: ${authoredCovered}/${total - placeholders} have a can-do statement.`);
+console.log(`Authored lessons: ${authoredCovered}/${total - placeholders - drafts} have a can-do statement.`);
+console.log(`Draft lessons: ${draftCovered}/${drafts} have a generated can-do statement.`);
 console.log(`Placeholder lessons: ${placeholders}/${total} (no lesson content yet).`);
 
 if (failures.length) {
-  console.error('Authored lessons without a can-do statement:');
+  console.error('Lessons without a can-do statement:');
   for (const failure of failures) console.error(`  ${failure}`);
   process.exit(1);
 }

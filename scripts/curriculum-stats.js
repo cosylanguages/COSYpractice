@@ -20,16 +20,23 @@ function build(platformDir) {
       }
       const data = JSON.parse(fs.readFileSync(file, 'utf8'));
       const units = Array.isArray(data.units) ? data.units : [];
-      const lessons = units.reduce((sum, unit) => sum + (Array.isArray(unit.lessons) ? unit.lessons.length : 0), 0);
-      const authoredLessons = units.reduce((sum, unit) => sum + (unit.lessons || []).filter(
-        lesson => !(lesson.status === 'needs_review' && lesson.source === 'ported-from-legacy')
-      ).length, 0);
+      const allLessons = units.flatMap(unit => unit.lessons || []);
+      const lessons = allLessons.length;
+      const placeholderLessons = allLessons.filter(
+        lesson => lesson.status === 'needs_review' && lesson.source === 'ported-from-legacy'
+      ).length;
+      const draftLessons = allLessons.filter(
+        lesson => lesson.status === 'draft' && lesson.source === 'generated-from-title'
+      ).length;
+      const authoredLessons = lessons - placeholderLessons - draftLessons;
       levels.push({
         level: entry.level,
         units: units.length,
         lessons,
         authored_lessons: authoredLessons,
-        placeholder_lessons: lessons - authoredLessons
+        draft_lessons: draftLessons,
+        placeholder_lessons: placeholderLessons,
+        available_lessons: authoredLessons + draftLessons
       });
     }
     courses[course] = levels;

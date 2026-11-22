@@ -8,28 +8,36 @@
         "units": 5,
         "lessons": 25,
         "authored_lessons": 25,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 25
       },
       {
         "level": "B2",
         "units": 5,
         "lessons": 25,
         "authored_lessons": 25,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 25
       },
       {
         "level": "C1",
         "units": 5,
         "lessons": 25,
         "authored_lessons": 25,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 25
       },
       {
         "level": "C2",
         "units": 5,
         "lessons": 25,
         "authored_lessons": 25,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 25
       }
     ],
     "general": [
@@ -38,42 +46,54 @@
         "units": 23,
         "lessons": 257,
         "authored_lessons": 128,
-        "placeholder_lessons": 129
+        "draft_lessons": 129,
+        "placeholder_lessons": 0,
+        "available_lessons": 257
       },
       {
         "level": "A2",
         "units": 11,
         "lessons": 141,
         "authored_lessons": 20,
-        "placeholder_lessons": 121
+        "draft_lessons": 121,
+        "placeholder_lessons": 0,
+        "available_lessons": 141
       },
       {
         "level": "B1",
         "units": 11,
         "lessons": 120,
         "authored_lessons": 20,
-        "placeholder_lessons": 100
+        "draft_lessons": 100,
+        "placeholder_lessons": 0,
+        "available_lessons": 120
       },
       {
         "level": "B2",
         "units": 11,
         "lessons": 121,
         "authored_lessons": 20,
-        "placeholder_lessons": 101
+        "draft_lessons": 101,
+        "placeholder_lessons": 0,
+        "available_lessons": 121
       },
       {
         "level": "C1",
         "units": 8,
         "lessons": 94,
         "authored_lessons": 21,
-        "placeholder_lessons": 73
+        "draft_lessons": 73,
+        "placeholder_lessons": 0,
+        "available_lessons": 94
       },
       {
         "level": "C2",
         "units": 10,
         "lessons": 20,
         "authored_lessons": 20,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 20
       }
     ],
     "professional": [
@@ -82,28 +102,36 @@
         "units": 8,
         "lessons": 32,
         "authored_lessons": 32,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 32
       },
       {
         "level": "B2",
         "units": 8,
         "lessons": 32,
         "authored_lessons": 32,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 32
       },
       {
         "level": "C1",
         "units": 6,
         "lessons": 24,
         "authored_lessons": 24,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 24
       },
       {
         "level": "C2",
         "units": 6,
         "lessons": 24,
         "authored_lessons": 24,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 24
       }
     ],
     "relocation": [
@@ -112,28 +140,36 @@
         "units": 1,
         "lessons": 2,
         "authored_lessons": 2,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 2
       },
       {
         "level": "B1",
         "units": 1,
         "lessons": 2,
         "authored_lessons": 2,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 2
       },
       {
         "level": "B2",
         "units": 1,
         "lessons": 2,
         "authored_lessons": 2,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 2
       },
       {
         "level": "C1",
         "units": 1,
         "lessons": 1,
         "authored_lessons": 1,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 1
       }
     ],
     "spoken": [
@@ -142,42 +178,54 @@
         "units": 7,
         "lessons": 52,
         "authored_lessons": 30,
-        "placeholder_lessons": 22
+        "draft_lessons": 22,
+        "placeholder_lessons": 0,
+        "available_lessons": 52
       },
       {
         "level": "A2",
         "units": 7,
         "lessons": 98,
         "authored_lessons": 30,
-        "placeholder_lessons": 68
+        "draft_lessons": 68,
+        "placeholder_lessons": 0,
+        "available_lessons": 98
       },
       {
         "level": "B1",
         "units": 7,
         "lessons": 109,
         "authored_lessons": 30,
-        "placeholder_lessons": 79
+        "draft_lessons": 79,
+        "placeholder_lessons": 0,
+        "available_lessons": 109
       },
       {
         "level": "B2",
         "units": 7,
         "lessons": 63,
         "authored_lessons": 30,
-        "placeholder_lessons": 33
+        "draft_lessons": 33,
+        "placeholder_lessons": 0,
+        "available_lessons": 63
       },
       {
         "level": "C1",
         "units": 7,
         "lessons": 60,
         "authored_lessons": 30,
-        "placeholder_lessons": 30
+        "draft_lessons": 30,
+        "placeholder_lessons": 0,
+        "available_lessons": 60
       },
       {
         "level": "C2",
         "units": 6,
         "lessons": 30,
         "authored_lessons": 30,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 30
       }
     ],
     "travelling": [
@@ -186,21 +234,27 @@
         "units": 5,
         "lessons": 20,
         "authored_lessons": 20,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 20
       },
       {
         "level": "A2",
         "units": 5,
         "lessons": 20,
         "authored_lessons": 20,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 20
       },
       {
         "level": "B1",
         "units": 5,
         "lessons": 20,
         "authored_lessons": 20,
-        "placeholder_lessons": 0
+        "draft_lessons": 0,
+        "placeholder_lessons": 0,
+        "available_lessons": 20
       }
     ]
   }
