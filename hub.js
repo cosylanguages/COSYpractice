@@ -386,8 +386,9 @@
                 });
             }
 
+            // Only pairs whose two terms exist in COSYdata can produce a session.
             const allPairs = selectedLang === 'en'
-                ? Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat()
+                ? Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat().filter(p => p.covered !== false)
                 : [];
             if (allPairs.length) {
                 const pairGroup = document.createElement('optgroup');
@@ -1044,7 +1045,7 @@
         if (String(t).startsWith('pair:')) {
             const id = String(t).slice(5);
             const pairs = Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat();
-            if (pairs.some(p => p.id === id)) return true;
+            if (pairs.some(p => p.id === id && p.covered !== false)) return true;
         }
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
