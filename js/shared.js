@@ -86,16 +86,76 @@
         .filter(Boolean)
         .map(term => String(term).toLowerCase().trim());
 
+    const pairSurfaceForms = (item) => {
+        if (!item) return [];
+        return [
+            ['word', 'base form', item.word || item.term || item.label],
+            ['plural_form', 'plural', item.plural_form],
+            ['past_tense', 'past tense', item.past_tense],
+            ['past_participle', 'past participle', item.past_participle],
+            ['present_participle', 'present participle', item.present_participle],
+            ['comparative', 'comparative', item.comparative],
+            ['superlative', 'superlative', item.superlative]
+        ]
+            .filter(([, , value]) => typeof value === 'string' && value.trim())
+            .map(([field, label, value]) => ({ field, label, value: value.toLowerCase().trim() }));
+    };
+
+    const surfaceMatches = (raw, term) => {
+        if (raw === term) return true;
+        if (term.includes(' ')) return raw.includes(term);
+        return raw.split(/\s+/).includes(term);
+    };
+
     const pairMatchesItem = (item, pair) => {
         if (!item || !pair) return false;
-        const raw = String(item.word || item.term || item.label || item.id || '').toLowerCase().trim();
-        if (!raw) return false;
-        const words = raw.split(/\s+/);
-        return pairTerms(pair).some(term => {
-            if (raw === term) return true;
-            if (term.includes(' ')) return raw.includes(term);
-            return words.includes(term);
-        });
+        const forms = pairSurfaceForms(item);
+        return forms.length > 0 && pairTerms(pair).some(term => forms.some(form => surfaceMatches(form.value, term)));
+    };
+
+    // A pair can contrast a base form with an inflected form (person/people,
+    // relative/relatives). Keep the surface form the pair names so the
+    // session can quiz it, without duplicating entries in COSYdata.
+    const expandPairEntries = (entries, pair) => {
+        if (!pair) return entries;
+        const terms = pairTerms(pair);
+        const out = [];
+        const emitted = new Set();
+        const push = (entry) => {
+            const key = entry.id || entry.word;
+            if (emitted.has(key)) return;
+            emitted.add(key);
+            out.push(entry);
+        };
+        for (const entry of entries) {
+            if (entry.pair_surface) {
+                push(entry);
+                continue;
+            }
+            const forms = pairSurfaceForms(entry);
+            const matched = terms
+                .map(term => ({ term, form: forms.find(form => surfaceMatches(form.value, term)) }))
+                .filter(match => match.form);
+            if (!matched.length) {
+                push(entry);
+                continue;
+            }
+            for (const { term, form } of matched) {
+                if (form.field === 'word') {
+                    push(entry);
+                    continue;
+                }
+                push({
+                    ...entry,
+                    id: `${entry.id}#${term}`,
+                    word: term,
+                    definitions: [`${form.label} of ${entry.word}`],
+                    examples: [],
+                    pair_surface: true
+                });
+            }
+        }
+        return out;
     };
 
     const isThemeMatch = (itemTheme, selectedTheme, item) => {
@@ -181,11 +241,13 @@
             'Pronunciation': ['pronunciation']
         };
         const targetForms = categoryToForm[category];
-        const levelId = (level && level !== "all") ? window.getLevelCode(level) : "all";
         const pair = pairForTheme(theme) || pairForTheme(subTheme);
+        // Pair terms can sit at different CEFR levels; the pair's level is a
+        // recommendation, not a filter, so both sides stay in the pool.
+        const levelId = (pair || !level || level === "all") ? "all" : window.getLevelCode(level);
         const seen = new Set();
 
-        return entries.filter(entry => {
+        const filtered = entries.filter(entry => {
             if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) if (!entry.lang || entry.lang.toLowerCase() !== lang.toLowerCase()) return false;
             if (levelId && levelId !== 'all') {
                 if (!entry.level || window.getLevelCode(entry.level) !== levelId) return false;
@@ -204,6 +266,7 @@
             }
             return true;
         });
+        return pair ? expandPairEntries(filtered, pair) : filtered;
     }
 
     const getVocabPool = (lang, level, theme, subTheme, options = {}) => {
@@ -211,11 +274,11 @@
       if (!options.excludeExtra) keys.push('locationsData', 'peopleData');
       let pool = [];
       keys.forEach(key => { if (window[key] && window[key][lang]) pool = pool.concat(window[key][lang]); });
-      const normalizedLevel = (level && level !== 'all') ? window.getLevelCode(level) : 'all';
       const pair = pairForTheme(theme) || pairForTheme(subTheme);
+      const normalizedLevel = pair ? 'all' : ((level && level !== 'all') ? window.getLevelCode(level) : 'all');
       const seen = new Set();
 
-      return pool.filter(item => {
+      const filtered = pool.filter(item => {
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
         const levelMatch = normalizedLevel === 'all' || (item.level && window.getLevelCode(item.level) === normalizedLevel);
         const themeMatch = isThemeMatch(item.theme, theme, item);
@@ -231,6 +294,7 @@
         }
         return levelMatch && themeMatch && subThemeMatch;
       });
+      return pair ? expandPairEntries(filtered, pair) : filtered;
     };
 
     window.gameUtils = { getVocabPool, filterVocabulary, isThemeMatch, speak, pairForTheme, pairMatchesItem };
