@@ -21,7 +21,16 @@ function build(platformDir) {
       const data = JSON.parse(fs.readFileSync(file, 'utf8'));
       const units = Array.isArray(data.units) ? data.units : [];
       const lessons = units.reduce((sum, unit) => sum + (Array.isArray(unit.lessons) ? unit.lessons.length : 0), 0);
-      levels.push({ level: entry.level, units: units.length, lessons });
+      const authoredLessons = units.reduce((sum, unit) => sum + (unit.lessons || []).filter(
+        lesson => !(lesson.status === 'needs_review' && lesson.source === 'ported-from-legacy')
+      ).length, 0);
+      levels.push({
+        level: entry.level,
+        units: units.length,
+        lessons,
+        authored_lessons: authoredLessons,
+        placeholder_lessons: lessons - authoredLessons
+      });
     }
     courses[course] = levels;
   }

@@ -91,14 +91,15 @@
         }
 
         function render(data) {
-            subEl.textContent = 'Level-up rule: ≥80% of lessons reviewed AND average mastery ≥3 (mature).';
+            subEl.textContent = 'Level-up rule: ≥80% of authored lessons reviewed AND average mastery ≥3 (mature).';
             coursesEl.innerHTML = '';
             var courses = (data && data.courses) ? data.courses : {};
             Object.keys(courses).forEach(function (course) {
                 var wrap = document.createElement('section'); wrap.className = 'pg-course';
                 var h = document.createElement('h2'); h.textContent = course + ' course'; wrap.appendChild(h);
                 courses[course].forEach(function (lv) {
-                    var st = store.getLevelStatus(course, lv.level, lv.lessons || 0);
+                    var total = lv.authored_lessons || lv.lessons || 0;
+                    var st = store.getLevelStatus(course, lv.level, total);
                     var row = document.createElement('div'); row.className = 'pg-level';
                     var top = document.createElement('div'); top.className = 'pg-level-row';
                     var name = document.createElement('span'); name.className = 'pg-level-name';
@@ -109,9 +110,10 @@
                     else { badge.className = 'pg-badge locked'; badge.textContent = 'Not started'; }
                     top.appendChild(name); top.appendChild(badge);
                     var bar = document.createElement('div'); bar.className = 'pg-bar';
-                    var fill = document.createElement('span'); fill.style.width = st.reviewPct + '%'; bar.appendChild(fill);
+                    var fill = document.createElement('span'); fill.style.width = Math.min(100, st.reviewPct) + '%'; bar.appendChild(fill);
                     var meta = document.createElement('div'); meta.className = 'pg-meta';
-                    meta.textContent = st.reviewed + ' / ' + st.total + ' lessons reviewed · mastery ' + st.masteryAvg + '/5 · ' + st.mature + ' mature';
+                    var planned = lv.placeholder_lessons ? ' · ' + lv.placeholder_lessons + ' planned' : '';
+                    meta.textContent = Math.min(st.reviewed, st.total) + ' / ' + st.total + ' authored lessons reviewed' + planned + ' · mastery ' + st.masteryAvg + '/5 · ' + st.mature + ' mature';
                     row.appendChild(top); row.appendChild(bar); row.appendChild(meta);
                     wrap.appendChild(row);
                 });
@@ -143,13 +145,13 @@
             loadData().then(function (data) {
                 var c = data.courses || {};
                 // fully-mastered level -> 'ready to level up'
-                if (c.general && c.general[0]) store.seedDemo('general', c.general[0].level, c.general[0].lessons, 0.95, 4);
+                if (c.general && c.general[0]) store.seedDemo('general', c.general[0].level, c.general[0].authored_lessons || c.general[0].lessons, 0.95, 4);
                 // in-progress level (60% reviewed, mastery 2)
-                if (c.general && c.general[1]) store.seedDemo('general', c.general[1].level, Math.round(c.general[1].lessons * 0.6), 0.8, 2);
+                if (c.general && c.general[1]) store.seedDemo('general', c.general[1].level, Math.round((c.general[1].authored_lessons || c.general[1].lessons) * 0.6), 0.8, 2);
                 // professional: 85% reviewed, mastery 3 -> ready to level up
-                if (c.professional && c.professional[0]) store.seedDemo('professional', c.professional[0].level, Math.round(c.professional[0].lessons * 0.85), 0.9, 3);
+                if (c.professional && c.professional[0]) store.seedDemo('professional', c.professional[0].level, Math.round((c.professional[0].authored_lessons || c.professional[0].lessons) * 0.85), 0.9, 3);
                 // barely started
-                if (c.spoken && c.spoken[0]) store.seedDemo('spoken', c.spoken[0].level, Math.max(2, Math.round(c.spoken[0].lessons * 0.2)), 0.6, 1);
+                if (c.spoken && c.spoken[0]) store.seedDemo('spoken', c.spoken[0].level, Math.max(2, Math.round((c.spoken[0].authored_lessons || c.spoken[0].lessons) * 0.2)), 0.6, 1);
                 store.recordSessionCompletion();
                 load();
             }).catch(function () { load(); });
