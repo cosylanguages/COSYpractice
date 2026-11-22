@@ -34,6 +34,12 @@ jobs:
       - name: Test the theme normaliser
         run: node scripts/test-theme-aliases.js
 
+      - name: Test vocabulary confusion-pair matching
+        run: node scripts/test-vocab-pairs.js
+
+      - name: Test confusion-pair data loading
+        run: node scripts/test-pair-loader.js
+
       - name: Check local asset references
         run: node scripts/check-local-refs.js
 

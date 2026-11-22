@@ -71,8 +71,38 @@
         return out;
     };
 
+    const pairForTheme = (theme) => {
+        if (!theme || !String(theme).startsWith('pair:')) return null;
+        const id = String(theme).slice(5);
+        const registry = window.COSY_VOCAB_CONFUSION_PAIRS || {};
+        for (const entries of Object.values(registry)) {
+            const pair = (entries || []).find(p => p.id === id);
+            if (pair) return pair;
+        }
+        return null;
+    };
+
+    const pairTerms = (pair) => [pair.termA, pair.termB, ...(pair.terms || [])]
+        .filter(Boolean)
+        .map(term => String(term).toLowerCase().trim());
+
+    const pairMatchesItem = (item, pair) => {
+        if (!item || !pair) return false;
+        const raw = String(item.word || item.term || item.label || item.id || '').toLowerCase().trim();
+        if (!raw) return false;
+        const words = raw.split(/\s+/);
+        return pairTerms(pair).some(term => {
+            if (raw === term) return true;
+            if (term.includes(' ')) return raw.includes(term);
+            return words.includes(term);
+        });
+    };
+
     const isThemeMatch = (itemTheme, selectedTheme, item) => {
         if (!selectedTheme || selectedTheme === 'all') return true;
+
+        const pair = pairForTheme(selectedTheme);
+        if (pair) return pairMatchesItem(item, pair);
 
         if (selectedTheme.startsWith('group:')) {
             const parentTheme = selectedTheme.replace('group:', '');
@@ -122,6 +152,9 @@
     const isSubThemeMatch = (item, selectedSubTheme) => {
         if (!selectedSubTheme || selectedSubTheme === 'all') return true;
 
+        const pair = pairForTheme(selectedSubTheme);
+        if (pair) return pairMatchesItem(item, pair);
+
         const sel = normCategorySlug(selectedSubTheme);
         const parts = sel.split('/');
         const targetTheme = parts.length > 1 ? parts[0] : '';
@@ -149,6 +182,8 @@
         };
         const targetForms = categoryToForm[category];
         const levelId = (level && level !== "all") ? window.getLevelCode(level) : "all";
+        const pair = pairForTheme(theme) || pairForTheme(subTheme);
+        const seen = new Set();
 
         return entries.filter(entry => {
             if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) if (!entry.lang || entry.lang.toLowerCase() !== lang.toLowerCase()) return false;
@@ -162,6 +197,11 @@
                 const itemRooms = (entry.rooms || (entry.room ? [entry.room] : [])).map(r => String(r).toLowerCase().trim());
                 if (!itemRooms.includes(room.toLowerCase().trim())) return false;
             }
+            if (pair) {
+                const key = entry.id || entry.word;
+                if (seen.has(key)) return false;
+                seen.add(key);
+            }
             return true;
         });
     }
@@ -172,6 +212,8 @@
       let pool = [];
       keys.forEach(key => { if (window[key] && window[key][lang]) pool = pool.concat(window[key][lang]); });
       const normalizedLevel = (level && level !== 'all') ? window.getLevelCode(level) : 'all';
+      const pair = pairForTheme(theme) || pairForTheme(subTheme);
+      const seen = new Set();
 
       return pool.filter(item => {
         if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
@@ -182,9 +224,14 @@
             const itemRooms = (item.rooms || (item.room ? [item.room] : [])).map(r => String(r).toLowerCase().trim());
             if (!itemRooms.includes(options.room.toLowerCase().trim())) return false;
         }
+        if (pair) {
+            const key = item.id || item.word;
+            if (seen.has(key)) return false;
+            seen.add(key);
+        }
         return levelMatch && themeMatch && subThemeMatch;
       });
     };
 
-    window.gameUtils = { getVocabPool, filterVocabulary, isThemeMatch, speak };
+    window.gameUtils = { getVocabPool, filterVocabulary, isThemeMatch, speak, pairForTheme, pairMatchesItem };
 })();

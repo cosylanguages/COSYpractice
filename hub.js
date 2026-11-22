@@ -73,6 +73,10 @@
 
         const select = document.getElementById('theme-filter');
         const value = select ? select.value : 'all';
+        if (String(value).startsWith('pair:')) {
+            hint.style.display = 'none';
+            return;
+        }
         let count = 0;
         if (value === 'all') {
             count = counts.total;
@@ -102,6 +106,10 @@
 
         Array.from(themeSelect.options).forEach(option => {
             const base = option.dataset.baseLabel || option.textContent.replace(/\s*\(\d[\d,]*\)$/, '');
+            if (option.value.startsWith('pair:')) {
+                setOptionCount(option, base, null);
+                return;
+            }
             let count = null;
             if (counts) {
                 if (option.value === 'all') count = counts.total;
@@ -115,6 +123,12 @@
         Array.from(themeSelect.querySelectorAll('optgroup')).forEach(group => {
             const base = group.dataset.baseLabel || group.label.replace(/\s*\(\d[\d,]*\)$/, '');
             group.dataset.baseLabel = base;
+            const firstOption = group.querySelector('option');
+            if (firstOption && firstOption.value.startsWith('pair:')) {
+                group.label = base;
+                group.disabled = false;
+                return;
+            }
             const themeOption = Array.from(group.querySelectorAll('option')).find(option => !option.value.includes('/'));
             const count = counts && themeOption ? (counts.themes[themeOption.value] || 0) : null;
             group.label = count == null ? base : `${base} (${count.toLocaleString()})`;
@@ -372,6 +386,23 @@
                 });
             }
 
+            const allPairs = selectedLang === 'en'
+                ? Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat()
+                : [];
+            if (allPairs.length) {
+                const pairGroup = document.createElement('optgroup');
+                pairGroup.label = (window.t && window.t('confusion_pairs')) || 'Confusion pairs';
+                pairGroup.dataset.baseLabel = pairGroup.label;
+                allPairs.slice().sort((a, b) => a.label.localeCompare(b.label)).forEach(pair => {
+                    const opt = document.createElement('option');
+                    opt.value = `pair:${pair.id}`;
+                    opt.textContent = pair.group ? `${pair.group}: ${pair.label}` : pair.label;
+                    opt.dataset.baseLabel = opt.textContent;
+                    pairGroup.appendChild(opt);
+                });
+                themeSelect.appendChild(pairGroup);
+            }
+
             const uncategorized = document.createElement('option');
             uncategorized.value = 'uncategorized';
             uncategorized.textContent = (window.t && window.t('category_uncategorized')) || 'Uncategorised';
@@ -408,6 +439,17 @@
         const subWrap = document.getElementById('subtheme-filter-wrap');
         const subSelect = document.getElementById('subtheme-filter');
         if (!themeSelect || !subWrap || !subSelect) return;
+
+        const pair = window.gameUtils && window.gameUtils.pairForTheme
+            ? window.gameUtils.pairForTheme(themeSelect.value)
+            : null;
+        if (pair) {
+            const levelSelect = document.getElementById('level-filter');
+            if (levelSelect && pair.level) levelSelect.value = pair.level;
+            subWrap.style.display = 'none';
+            subSelect.value = '';
+            return;
+        }
 
         if (selectedCat === 'vocab' || selectedCat === 'vocabulary') {
             subWrap.style.display = 'none';
@@ -692,6 +734,7 @@
          * @param {string} [subTheme] - Optional sub-theme name
          */
         quickStart: async (lang, cat, level, theme, subTheme) => {
+            if (window.cosyLoadVocabConfusionPairs) await window.cosyLoadVocabConfusionPairs();
             const l = (lang || 'en').toLowerCase();
             const lp = document.querySelector(`.lang-pill[data-value="${l}"]`);
             if (lp) selectLang(lp);
@@ -993,6 +1036,11 @@
     function isValidTheme(t) {
         if (!t || t === 'all') return true;
         const lower = t.toLowerCase().trim();
+        if (String(t).startsWith('pair:')) {
+            const id = String(t).slice(5);
+            const pairs = Object.values(window.COSY_VOCAB_CONFUSION_PAIRS || {}).flat();
+            if (pairs.some(p => p.id === id)) return true;
+        }
         const normHyphen = lower.replace(/_/g, '-');
         const normUnderscore = lower.replace(/-/g, '_');
         if (lower === 'uncategorized' || lower === 'uncategorised') return true;
@@ -1207,7 +1255,11 @@
 
     document.addEventListener('DOMContentLoaded', async () => {
         initSetupUI();
-        await loadCosydataThemes();
+        await Promise.all([
+            loadCosydataThemes(),
+            window.cosyLoadVocabConfusionPairs ? window.cosyLoadVocabConfusionPairs() : Promise.resolve(null)
+        ]);
+        updateThemes();
         handleUrlParams();
     });
 })();

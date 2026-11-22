@@ -15,6 +15,7 @@ Live at https://cosylanguages.github.io/COSYpractice/
 ## Data & Content Integration
 Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
 - `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
+- `taxonomy/vocab-confusion-pairs.json`, `taxonomy/grammar-confusion-pairs.json` and `taxonomy/french-grammar-confusion-pairs.json` from **COSYdata**. `js/taxonomy.js` loads them at start-up. The vocabulary file supplies the 273 pair options in the category picker; a pair is selected as `pair:<id>` and `js/shared.js` filters the COSYdata vocabulary pool to the two terms.
 - Grammar lessons and curriculum from **COSYplatform**; CCQ and phonology reference from **COSYmanuals**
 - The exercise engine and SRS store live in `_engine/`; shared practice helpers (speech, vocabulary filtering, theme matching) live in `js/shared.js`. They depend on practice runtime globals (`vocabularyData`, `getLevelCode`, theme helpers), so they stay practice-owned until COSYtools exposes a shared JS module.
 - There are no bundled per-level drill datasets. Vocabulary and grammar sessions are generated at runtime from COSYdata entries, plus the curated grammar banks in `data/grammar_confusion_pairs.js` and `data/french_grammar_confusion_pairs.js`.
@@ -23,6 +24,7 @@ Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
 | Content | Owner |
 |---|---|
 | Vocabulary, themes, word/verb of the day | COSYdata |
+| Vocabulary and grammar confusion-pair taxonomy | COSYdata (`taxonomy/*-confusion-pairs.json`) |
 | Curriculum, grammar lessons | COSYplatform |
 | CCQ, phonology reference | COSYmanuals |
 | Daily speaking and writing prompts, practice engine, SRS store | COSYpractice |
@@ -63,6 +65,7 @@ Never commit tokens or keys. Keep the site free of tracking. Prefer editing `pra
 
 ## Notes
 - Vocabulary is loaded from COSYdata per request (own timeouts). A chosen level only loads that level's files; "all levels + all themes" loads a random sample of about 900 entries, so a session starts in a second or two instead of pulling every theme file.
+- Confusion-pair sessions use a `pair:<id>` theme. The picker shows the COSYdata taxonomy; selecting a pair sets the level to the pair's level and filters the loaded pool to `termA`/`termB`, so no per-pair drill file is needed.
 - COSYdata stores definitions and examples as plain strings; the loader converts them to `{ text }` objects the engine expects.
 - Interface language (`i18n/`): static text uses `data-i18n` / `data-translate-key`; engine text (session header, feedback, buttons) is translated at run time from `_phrases` and `_patterns` in each language file. To add a string, add it to all five files.
 - Exercise data covers 14 languages in COSYdata. The interface, setup pills and i18n cover five (en, fr, it, ru, el); the wheel and `quickStart` can still launch the other nine from a URL or the wheel.
