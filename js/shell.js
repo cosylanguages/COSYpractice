@@ -74,7 +74,7 @@
   /* ── Theme ────────────────────────────────────────────────────── */
   function isDark() { return root.getAttribute('data-theme') === 'dark'; }
   function setTheme(dark) {
-    if (dark) root.setAttribute('data-theme', 'dark'); else root.removeAttribute('data-theme');
+    root.setAttribute('data-theme', dark ? 'dark' : 'light');
     document.body.classList.toggle('theme-dark', dark);
     store('cosy.theme', dark ? 'dark' : 'light'); store('cosy_theme', dark ? 'dark' : 'light');
     var b = document.getElementById('bn-theme');
