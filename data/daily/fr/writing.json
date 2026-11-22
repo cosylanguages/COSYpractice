@@ -271,21 +271,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Réflexion critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Réflexion critique",
     "genre": "Essai",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelles langues sont les plus menacées ?",
@@ -886,21 +887,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelle objection est la plus forte ?",
@@ -915,21 +917,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Rapport",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelles limites relevez-vous ?",
@@ -973,21 +976,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Essai critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Essai critique",
     "genre": "Essai",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Qu'est-ce qu'une œuvre authentique ?",
@@ -2558,21 +2562,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-ecole",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2583,21 +2588,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-vie-sociale-familiale",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2608,21 +2614,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-travail",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2633,21 +2640,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Compte rendu",
     "theme": "c2-medias-numerique",
-    "word_min": 240,
-    "word_max": 260,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
-      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
-      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2658,21 +2666,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-environnement",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2683,21 +2692,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Compte rendu",
     "theme": "c2-sante",
-    "word_min": 240,
-    "word_max": 260,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
-      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
-      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2708,21 +2718,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-culture-loisirs",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2733,21 +2744,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Compte rendu",
     "theme": "c2-consommation",
-    "word_min": 240,
-    "word_max": 260,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
-      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
-      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2758,21 +2770,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-urbanisme",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2783,21 +2796,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-science",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2808,21 +2822,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Compte rendu",
     "theme": "c2-economie",
-    "word_min": 240,
-    "word_max": 260,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
-      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
-      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2833,21 +2848,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
     "theme": "c2-tourisme",
-    "word_min": 280,
-    "word_max": 320,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "J'ai dégagé la thèse, les arguments et les limites des documents.",
-      "Ma position personnelle est distincte de celle des auteurs et clairement argumentée.",
-      "Le style est maîtrisé, précis et sans répétitions."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   },
   {
@@ -2858,21 +2874,22 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Compte rendu",
     "theme": "c2-langues-francophonie",
-    "word_min": 240,
-    "word_max": 260,
-    "write_minutes": 90,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "adult",
       "senior"
     ],
     "checklist": [
-      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
-      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
-      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   }
 ]

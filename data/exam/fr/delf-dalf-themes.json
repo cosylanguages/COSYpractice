@@ -27,6 +27,32 @@
             "task": "Donner et justifier son opinion sur un document",
             "minutes": "5–6"
           }
+        ],
+        "method": {
+          "errors": [
+            "Parler trop peu et ne pas développer ses idées.",
+            "Répéter seulement le document sans donner son opinion.",
+            "Faire des phrases très courtes sans lien logique."
+          ],
+          "tips": [
+            "Suivre une structure simple : introduction, deux ou trois idées, conclusion.",
+            "Parler de façon compréhensible, cohérente et assez fluide.",
+            "Illustrer chaque idée par un exemple concret."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Hôtel complet",
+            "type": "Exercice en interaction",
+            "task": "Vous avez réservé une chambre d'hôtel pour une nuit. À votre arrivée, le réceptionniste annonce qu'il n'y a plus de chambre. Vous demandez une solution ; il n'en propose aucune. Vous insistez.",
+            "theme": "b1-voyages"
+          },
+          {
+            "title": "Acheter moins, mais mieux ?",
+            "type": "Expression d'un point de vue",
+            "task": "À partir d'un court document sur la consommation responsable, présentez le sujet puis donnez votre opinion avec des arguments et des exemples simples.",
+            "theme": "b1-consommation"
+          }
         ]
       },
       "writing": {
@@ -42,6 +68,26 @@
             "part": "Production écrite · Exercice 2 · Article ou essai",
             "task": "Texte argumentatif court",
             "words": "120"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Écrire un texte trop court ou insuffisamment développé.",
+            "Répondre partiellement à la consigne ou ne pas respecter la situation de départ.",
+            "Organiser mal son texte ou faire des fautes sur les temps, les accords et les connecteurs."
+          ],
+          "tips": [
+            "Écrire un texte clair, structuré et adapté à la situation.",
+            "Organiser le texte en trois parties simples.",
+            "Utiliser des connecteurs : d'abord, ensuite, puis, enfin, parce que, mais, alors."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Conseils à une amie qui commence un nouveau travail",
+            "type": "Message / lettre amicale",
+            "task": "Vous répondez à Nora : parlez de votre expérience professionnelle et donnez des conseils pour réussir son intégration. 160 mots minimum.",
+            "theme": "b1-vie-professionnelle"
           }
         ]
       },
@@ -219,7 +265,54 @@
             "les règles de politesse dans les transports en commun"
           ]
         }
-      ]
+      ],
+      "formatNotes": [
+        "Quatre épreuves : compréhension de l'oral (25 min), compréhension de l'écrit (45 min), production écrite (45 min, 160–180 mots) et production orale (15 min, 10 min de préparation).",
+        "Compréhension de l'oral : 3 exercices ; une conversation de la vie quotidienne, puis deux extraits d'émission radio, chaque document écouté deux fois.",
+        "Compréhension de l'écrit : 3 exercices ; comparer des documents, puis lire deux articles de presse et répondre à des questions à choix multiple.",
+        "Production orale : entretien dirigé, exercice en interaction, expression d'un point de vue à partir d'un document déclencheur."
+      ],
+      "listening": {
+        "format": "3 exercices : une conversation quotidienne et deux extraits d'émission radio, écoutés deux fois chacun.",
+        "method": {
+          "errors": [
+            "Vouloir comprendre tous les mots et se bloquer sur un mot inconnu.",
+            "Ne pas repérer les mots-clés et les informations essentielles.",
+            "Mal comprendre le vocabulaire des documents ou des questions."
+          ],
+          "tips": [
+            "Lire les questions avant l'écoute.",
+            "Repérer les éléments concrets et les mots-clés.",
+            "Confirmer les réponses pendant la seconde écoute."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "45 min",
+        "examples": [
+          {
+            "title": "Le port de l'uniforme à l'école n'a jamais été une garantie d'égalité",
+            "source": "Nouvel Obs",
+            "task": "Lire l'extrait (300–400 mots) et répondre à des questions à choix multiple.",
+            "questions": [
+              "À Provins, la plupart des parents d'élèves sont contre le port de l'uniforme. Vrai ou faux ?",
+              "Le ministre pense que les marques de vêtements… A. réduisent les inégalités ; B. ont une grande influence sur les enfants ; C. aident les élèves à s'intégrer."
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Lire trop vite sans repérer les informations importantes.",
+            "Rester bloqué sur une seule question.",
+            "Mal interpréter certaines expressions courantes."
+          ],
+          "tips": [
+            "Lire attentivement et repérer les mots-clés.",
+            "Vérifier chaque réponse dans le texte.",
+            "Ne pas rester bloqué : passer à la question suivante."
+          ]
+        }
+      }
     },
     "B2": {
       "exam": "DELF B2",
@@ -238,6 +331,26 @@
             "task": "Défendre une position et négocier avec l'examinateur",
             "minutes": "6–8"
           }
+        ],
+        "method": {
+          "errors": [
+            "Résumer le document sans donner son opinion.",
+            "Donner son avis sans présenter le document ni organiser ses idées.",
+            "Ne pas s'appuyer sur des exemples concrets."
+          ],
+          "tips": [
+            "Structurer l'exposé : introduction, développement, conclusion.",
+            "Présenter le problème posé par le document avant de défendre une position.",
+            "Parler clairement et fluidement, sans chercher des structures trop complexes."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Aller au travail à vélo, une solution d'avenir ?",
+            "type": "Exposé + débat",
+            "task": "À partir du document sur le vélotaf, présentez le problème posé puis donnez votre opinion de manière claire et argumentée.",
+            "theme": "b2-transports"
+          }
         ]
       },
       "writing": {
@@ -253,6 +366,26 @@
             "part": "Production écrite · Essai argumenté",
             "task": "Article, tribune ou essai structuré",
             "words": "250"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Donner son opinion sans construire une argumentation.",
+            "Écrire un texte trop général, sans exemples concrets.",
+            "Répondre partiellement à la consigne ou ne pas structurer son texte."
+          ],
+          "tips": [
+            "Faire un plan : introduction, développement, conclusion.",
+            "Développer chaque argument avec un exemple concret.",
+            "Respecter la situation et le type de texte demandé."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Panneaux solaires sur les bâtiments publics",
+            "type": "Lettre formelle",
+            "task": "Vous écrivez à votre mairie pour suggérer l'installation de panneaux solaires sur les bâtiments publics et expliquer les bénéfices. 250 mots minimum.",
+            "theme": "b2-environnement"
           }
         ]
       },
@@ -498,7 +631,65 @@
             "la préservation du patrimoine"
           ]
         }
-      ]
+      ],
+      "formatNotes": [
+        "Quatre parties : compréhension de l'oral (30 min), compréhension de l'écrit (1 h), production écrite (60 min, 250 mots) et production orale (20 min, 30 min de préparation).",
+        "Production orale : tirage de deux sujets, choix d'un sujet, exposé argumenté à partir d'un document déclencheur, puis débat avec l'examinateur.",
+        "Compréhension de l'écrit : 3 exercices ; deux textes informatifs ou argumentatifs, puis trois opinions à associer.",
+        "Compréhension de l'oral : 3 exercices ; deux extraits d'émission radio écoutés deux fois, puis trois documents courts écoutés une fois."
+      ],
+      "listening": {
+        "format": "3 exercices : deux extraits d'émission radio écoutés deux fois, puis trois documents courts écoutés une fois.",
+        "method": {
+          "errors": [
+            "Avoir du mal à comprendre certains mots ou expressions à l'oral.",
+            "Perdre des informations dès la première écoute.",
+            "Confondre des idées proches ou mal interpréter le sens global."
+          ],
+          "tips": [
+            "Rester concentré et repérer les informations clés dès la première écoute.",
+            "Confirmer les réponses lors de la seconde écoute.",
+            "Ne pas se bloquer sur un mot inconnu."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "1 h",
+        "examples": [
+          {
+            "title": "Ramener du travail chez soi",
+            "source": "Marie Claire",
+            "task": "Lire l'extrait (400–500 mots) et répondre à des questions à choix multiple.",
+            "questions": [
+              "D'après ce document, rapporter du travail à la maison est une pratique… A. très réglementée ; B. en pleine expansion ; C. relativement ancienne.",
+              "Sophie travaille à la maison… A. parce que son responsable l'exige ; B. parce qu'elle a trop de travail ; C. parce que les conditions y sont meilleures."
+            ]
+          },
+          {
+            "title": "Exercice 3 · Trois opinions à associer",
+            "type": "Association",
+            "topics": [
+              "Les séries remplacent-elles le cinéma ?",
+              "Faut-il limiter l'usage des smartphones chez les jeunes ?",
+              "Les gestes individuels suffisent-ils pour protéger l'environnement ?",
+              "Faut-il supprimer les devoirs à la maison ?",
+              "Les jeunes sont-ils moins engagés qu'avant ?"
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas distinguer les idées principales des informations secondaires.",
+            "Mal interpréter certaines formulations ou nuances.",
+            "Répondre trop vite sans vérifier les détails."
+          ],
+          "tips": [
+            "Lire attentivement et repérer les informations clés.",
+            "Comprendre l'intention générale du texte.",
+            "Vérifier les détails avant de répondre."
+          ]
+        }
+      }
     },
     "C1": {
       "exam": "DALF C1",
@@ -517,6 +708,47 @@
             "task": "Défendre et nuancer sa position face aux examinateurs",
             "minutes": "15–20"
           }
+        ],
+        "method": {
+          "errors": [
+            "Commenter les documents sans apporter de réflexion personnelle.",
+            "Donner une opinion tranchée sans arguments ni nuances.",
+            "Mélanger les idées sans structure claire et hiérarchisée."
+          ],
+          "tips": [
+            "Formuler une problématique dès l'introduction.",
+            "Organiser l'exposé selon une structure claire et cohérente.",
+            "S'appuyer sur les documents sans se limiter à un résumé."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Travailler moins pour vivre mieux : utopie ou nécessité ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "La semaine de quatre jours : une révolution du travail",
+              "Quand la réduction du temps de travail devient un frein à la croissance"
+            ],
+            "theme": "c1-travail"
+          },
+          {
+            "title": "La culture doit-elle être gratuite pour tous ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "Démocratiser l'accès à la culture : un enjeu social majeur",
+              "La gratuité culturelle, une menace pour la création artistique ?"
+            ],
+            "theme": "c1-loisirs-culture"
+          },
+          {
+            "title": "Faut-il toujours chercher à se dépasser ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "Le culte de la performance : moteur ou pression sociale ?",
+              "Apprendre à ralentir : une nouvelle philosophie de vie"
+            ],
+            "theme": "c1-vie-societe"
+          }
         ]
       },
       "writing": {
@@ -532,6 +764,38 @@
             "part": "Production écrite · Essai argumenté",
             "task": "Essai argumenté à partir des documents",
             "words": "250"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Coller bout à bout des résumés des documents (synthèse).",
+            "Ne pas respecter la situation définie dans la consigne (essai).",
+            "Écrire sans structure claire et logique."
+          ],
+          "tips": [
+            "Reformuler avec précision sans reprendre les phrases des documents.",
+            "Illustrer chaque argument avec un exemple concret.",
+            "Construire un plan clair et logique avant de rédiger."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Le rôle de la publicité",
+            "type": "Message de blog",
+            "task": "Sur un blog, réagissez à un billet sur l'influence de la publicité et proposez des moyens de mieux réguler son influence sur les consommateurs.",
+            "theme": "c1-consommation"
+          },
+          {
+            "title": "Réduire les déchets dans l'entreprise",
+            "type": "Courrier professionnel",
+            "task": "Vous écrivez à vos collègues pour présenter une initiative de réduction des déchets, ses avantages environnementaux et économiques, et des solutions de mise en œuvre.",
+            "theme": "c1-environnement"
+          },
+          {
+            "title": "Tourisme de masse : réagir à un article",
+            "type": "Lettre au rédacteur en chef",
+            "task": "Vous reconnaissez les problèmes du tourisme de masse, mais vous défendez ses bénéfices et proposez des solutions pour concilier économie et préservation.",
+            "theme": "c1-tourisme"
           }
         ]
       },
@@ -813,7 +1077,71 @@
             "le bilinguisme"
           ]
         }
-      ]
+      ],
+      "formatNotes": [
+        "Quatre épreuves : compréhension de l'oral (40 min), compréhension de l'écrit (50 min), production écrite (2 h 30) et production orale (30 min, 1 h de préparation).",
+        "Compréhension de l'oral : un document long de 7–8 min écouté deux fois, puis deux ou trois documents courts écoutés une fois.",
+        "Compréhension de l'écrit : un texte argumentatif d'environ 1 000 mots, avec questions à choix multiple et questions ouvertes.",
+        "Production écrite : synthèse de 220 mots + essai argumenté de 250 mots.",
+        "Production orale : exposé de 8–10 min à partir d'un dossier de deux documents, puis entretien de 15–20 min."
+      ],
+      "listening": {
+        "format": "1 document long (7–8 min) écouté deux fois + 2–3 documents courts écoutés une fois ; questions à choix multiple et questions ouvertes.",
+        "method": {
+          "errors": [
+            "Vouloir comprendre tous les mots au lieu de repérer les idées principales.",
+            "Perdre le fil lorsqu'un passage est mal compris.",
+            "Ne pas distinguer les arguments principaux des exemples secondaires."
+          ],
+          "tips": [
+            "Lire les questions avant l'écoute.",
+            "Se concentrer sur le thème général et les points de vue.",
+            "Repérer les mots-clés sans chercher à tout noter."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "50 min",
+        "examples": [
+          {
+            "title": "Quand les citoyens prennent les choses en main",
+            "source": "Sciences Humaines",
+            "task": "Face à l'inaction des institutions, des initiatives citoyennes se développent. Peuvent-elles changer la donne ?"
+          },
+          {
+            "title": "Faut-il abolir l'héritage ?",
+            "source": "Sciences Humaines",
+            "task": "L'héritage est contesté comme facteur d'inégalités, mais son abolition ne fait pas l'unanimité."
+          },
+          {
+            "title": "L'IA est-elle un bon psy ?",
+            "source": "Sciences Humaines",
+            "task": "Les chatbots séduisent par leur disponibilité ; que valent réellement ces confidents numériques ?"
+          },
+          {
+            "title": "« C'est à moi ! » : à l'école de la propriété",
+            "source": "Sciences Humaines",
+            "task": "Le rapport à la propriété s'apprend dès l'école maternelle."
+          },
+          {
+            "title": "L'esprit d'aventure, une question de culture ?",
+            "source": "Sciences Humaines",
+            "task": "La recherche en économie comportementale interroge les présupposés sur l'audace et la culture."
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas identifier clairement la thèse de l'auteur.",
+            "Confondre arguments, exemples et nuances.",
+            "Bloquer sur quelques mots inconnus au lieu de suivre la logique globale."
+          ],
+          "tips": [
+            "Lire les questions avant le texte.",
+            "Repérer la logique et la structure du texte.",
+            "Comprendre l'implicite, les nuances et l'ironie."
+          ]
+        }
+      }
     },
     "C2": {
       "exam": "DALF C2",
@@ -824,29 +1152,108 @@
         "parts": [
           {
             "part": "Part 1 · Compte rendu",
-            "task": "Rendre compte d'un document audio et en dégager les enjeux",
-            "minutes": "10–15"
+            "task": "Présenter le contenu du document audio de façon structurée",
+            "minutes": "5"
           },
           {
             "part": "Part 2 · Développement argumenté",
-            "task": "Développer une argumentation personnelle et la défendre en entretien",
-            "minutes": "10–15"
+            "task": "Défendre un point de vue argumenté puis débattre avec le jury, préciser et nuancer",
+            "minutes": "20"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Présenter le document audio de façon désordonnée et confuse.",
+            "Simplifier ou déformer les positions défendues.",
+            "Donner son opinion trop tôt, sans organiser son raisonnement.",
+            "Manquer de précision lexicale ou employer un registre approximatif."
+          ],
+          "tips": [
+            "Identifier rapidement le thème, la problématique et les idées essentielles.",
+            "Organiser l'exposé autour d'une vraie ligne directrice.",
+            "Apporter des arguments extérieurs et des exemples précis.",
+            "Défendre son point de vue avec souplesse pendant l'échange."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Interdire les vols courts",
+            "type": "Point de vue argumenté",
+            "task": "En tant que militant écologiste, intervenez dans un débat public sur les alternatives à l'avion pour les trajets intérieurs ; défendez l'interdiction des vols courts lorsqu'une alternative ferroviaire existe, avec des données environnementales et des mesures complémentaires.",
+            "theme": "c2-environnement"
+          },
+          {
+            "title": "Redonner le goût de la lecture",
+            "type": "Point de vue argumenté",
+            "task": "Bibliothécaire, participez à une émission de radio sur l'évolution des pratiques culturelles ; analysez la baisse de la lecture chez les jeunes et proposez des pistes pour lui redonner une place dans les loisirs quotidiens.",
+            "theme": "c2-culture-loisirs"
+          },
+          {
+            "title": "La durée de vie des produits",
+            "type": "Point de vue argumenté",
+            "task": "Responsable d'une entreprise technologique, défendez l'idée que le renouvellement régulier des appareils stimule l'innovation, tout en répondant aux critiques environnementales et en proposant une gestion responsable des ressources.",
+            "theme": "c2-consommation"
           }
         ]
       },
       "writing": {
-        "duration": "3 h",
-        "words": "compte rendu 250 + texte argumenté 300",
+        "duration": "3 h 30",
+        "words": "700 minimum",
         "parts": [
           {
-            "part": "Production écrite · Compte rendu",
-            "task": "Compte rendu critique d'un dossier de documents",
-            "words": "250"
+            "part": "Production écrite · Texte structuré",
+            "task": "Texte structuré à partir d'un dossier de documents, avec prise de position claire et solutions concrètes",
+            "words": "700 minimum"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas respecter la position définie dans le sujet.",
+            "Juxtaposer des idées sans logique d'ensemble.",
+            "Reprendre trop directement les formulations des documents.",
+            "Écrire un texte correct mais pauvre sur le plan de l'analyse."
+          ],
+          "tips": [
+            "Repérer les points communs et les différences entre les documents.",
+            "Construire un plan avec une progression claire et logique.",
+            "Reformuler avec précision et apporter des arguments personnels illustrés.",
+            "Soigner la cohérence d'ensemble : l'argumentation compte autant que la langue."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Tourisme : quel équilibre entre développement et préservation ?",
+            "type": "Article pour un magazine régional",
+            "documents": [
+              "Le tourisme de masse menace-t-il certaines destinations ?",
+              "Le tourisme durable : une alternative crédible ?",
+              "Quand les habitants de Barcelone se révoltent",
+              "Voyager autrement, c'est possible ?"
+            ],
+            "task": "Vous rédigez un article pour un numéro spécial du magazine de votre région. Reconnaissez le rôle économique du tourisme, analysez ses conséquences négatives et proposez des solutions pour concilier attractivité et préservation.",
+            "theme": "c2-tourisme"
           },
           {
-            "part": "Production écrite · Texte argumenté",
-            "task": "Texte argumenté à partir du dossier",
-            "words": "300"
+            "title": "Vers une consommation plus responsable ?",
+            "type": "Article pour une association de consommateurs",
+            "documents": [
+              "Je consomme donc je suis : la fin d'un modèle dépassé",
+              "Seconde main : pourquoi vendre quand on peut donner",
+              "Publicitaires et influenceurs : quels impacts sur nos choix ?"
+            ],
+            "task": "Vous rédigez un article pour le site d'une association de consommateurs. Défendez l'idée que nos choix ont un impact réel, en prenant en compte les limites et contradictions de la consommation responsable.",
+            "theme": "c2-consommation"
+          },
+          {
+            "title": "Repenser nos déplacements",
+            "type": "Appel à contributions",
+            "documents": [
+              "Réduire l'usage de la voiture sans braquer les usagers : un casse-tête loin d'être résolu",
+              "Le train, souvent plus rapide que l'avion",
+              "La mobilité douce, un modèle bientôt incontournable ?"
+            ],
+            "task": "Vous répondez à un appel à contributions pour un dossier « Se déplacer autrement ». Reconnaissez la nécessité de réduire la voiture, mais critiquez les alternatives qui ne répondent pas aux besoins des usagers, et proposez des solutions.",
+            "theme": "c2-urbanisme"
           }
         ]
       },
@@ -1035,7 +1442,83 @@
             "le pronom « iel »"
           ]
         }
-      ]
+      ],
+      "formatNotes": [
+        "Épreuve orale : écoute deux fois d'un document audio authentique d'environ 15 min, 1 h de préparation, exposé d'environ 15 min (5 min de présentation + 10 min d'argumentation), débat d'environ 10 min.",
+        "Épreuve écrite : dossier d'environ 2 000 mots, 3 h 30, texte structuré de 700 mots minimum.",
+        "Depuis janvier 2026, les dossiers ne contiennent plus de documents iconographiques : uniquement des textes informatifs ou argumentatifs.",
+        "L'usage d'un dictionnaire monolingue français est autorisé à l'écrit."
+      ],
+      "reading": {
+        "duration": "3 h 30 (avec la production écrite)",
+        "examples": [
+          {
+            "title": "Tourisme : quel équilibre entre développement et préservation ?",
+            "documents": [
+              "Le tourisme de masse menace-t-il certaines destinations ?",
+              "Le tourisme durable : une alternative crédible ?",
+              "Quand les habitants de Barcelone se révoltent",
+              "Voyager autrement, c'est possible ?"
+            ]
+          },
+          {
+            "title": "Vers une consommation plus responsable ?",
+            "documents": [
+              "Je consomme donc je suis : la fin d'un modèle dépassé",
+              "Seconde main : pourquoi vendre quand on peut donner",
+              "Publicitaires et influenceurs : quels impacts sur nos choix ?"
+            ]
+          },
+          {
+            "title": "Repenser nos déplacements",
+            "documents": [
+              "Réduire l'usage de la voiture sans braquer les usagers : un casse-tête loin d'être résolu",
+              "Le train, souvent plus rapide que l'avion",
+              "La mobilité douce, un modèle bientôt incontournable ?"
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Reprendre les documents sans les confronter.",
+            "Négliger les points communs et les différences.",
+            "Confondre faits et interprétations."
+          ],
+          "tips": [
+            "Repérer les points communs et les différences entre les documents.",
+            "Distinguer les faits, les arguments et les présupposés.",
+            "Construire une problématique avant de rédiger."
+          ]
+        }
+      },
+      "listening": {
+        "format": "Document audio authentique d'environ 15 min (interview radio France Culture, RFI, France Inter), écouté deux fois.",
+        "method": {
+          "errors": [
+            "Vouloir tout comprendre au lieu de saisir la problématique et les positions.",
+            "Confondre le point de vue du journaliste et celui de l'invité.",
+            "Négliger les nuances et les réserves exprimées."
+          ],
+          "tips": [
+            "Identifier le thème, la problématique et les idées essentielles.",
+            "Noter les positions et les arguments, pas les mots isolés.",
+            "Repérer les nuances, les réserves et les exemples."
+          ]
+        }
+      }
     }
-  }
+  },
+  "sources": [
+    {
+      "name": "Français avec Pierre",
+      "pages": [
+        "Exemples DELF B1 : sujets et conseils pour chaque partie",
+        "Exemples DELF B2 : sujets et conseils pour chaque partie",
+        "Exemple DALF C1 : sujets, thèmes et conseils pour réussir",
+        "Exemple DALF C2 : sujets, thèmes et conseils pour réussir"
+      ],
+      "accessed": "2026-11-22"
+    }
+  ],
+  "deduplication": "Les thèmes généraux des pages source (travail, éducation, environnement, consommation, médias, société, tourisme, technologies, santé) recoupent les catégories déjà présentes : ils n'ont pas été ajoutés en double. Les pages ont servi à ajouter le format détaillé, la méthode et des exemples de sujets absents du catalogue."
 }

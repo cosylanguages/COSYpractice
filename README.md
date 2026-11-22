@@ -21,11 +21,12 @@ Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
 ## DELF/DALF theme catalogue
 `data/exam/fr/delf-dalf-themes.json` is the canonical list of French exam themes supplied for
 DELF B1, DELF B2, DALF C1 and DALF C2: 55 categories and 545 themes, with the official speaking
-and writing parts, timings and word targets for each level. French daily cards carry a `theme`
-field pointing at a category, so a prompt can be traced back to the exam theme it practises.
+and writing parts, timings and word targets for each level. It also records exam-format notes,
+method advice and example subjects for speaking, writing and reading. French daily cards carry a
+`theme` field pointing at a category, so a prompt can be traced back to the exam theme it practises.
 COSYlanguages renders the catalogue on its Exam Preparation course page; COSYplatform and
-COSYmanuals build their French exam track from the same category ids. Check it with
-`node scripts/test-exam-themes.js`.
+COSYmanuals build their French exam track from the same category ids. DALF C2 writing is a single
+structured text of 700 words minimum in 3 h 30. Check it with `node scripts/test-exam-themes.js`.
 
 ## Daily elements
 This repository owns the daily speaking and writing prompts (`data/daily/<lang>/speaking.json`,

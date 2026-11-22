@@ -36,6 +36,25 @@ for (const [level, expected] of Object.entries(EXPECTED)) {
   if (!Array.isArray(data.categories) || data.categories.length !== expected.categories) {
     errors.push(`catalogue: ${level} must have ${expected.categories} categories, found ${data.categories ? data.categories.length : 0}`);
   }
+  if (!Array.isArray(data.formatNotes) || !data.formatNotes.length) {
+    errors.push(`catalogue: ${level} must describe the exam format`);
+  }
+  for (const skill of ['speaking', 'writing']) {
+    const part = data[skill];
+    if (!part || !Array.isArray(part.parts) || !part.parts.length) {
+      errors.push(`catalogue: ${level} ${skill} parts missing`);
+    }
+    if (!part || !part.method || !Array.isArray(part.method.errors) || !part.method.errors.length ||
+        !Array.isArray(part.method.tips) || !part.method.tips.length) {
+      errors.push(`catalogue: ${level} ${skill} method errors/tips missing`);
+    }
+    if (!part || !Array.isArray(part.examples) || !part.examples.length) {
+      errors.push(`catalogue: ${level} ${skill} examples missing`);
+    }
+  }
+  if (!data.reading || !Array.isArray(data.reading.examples) || !data.reading.examples.length) {
+    errors.push(`catalogue: ${level} reading examples missing`);
+  }
   let themes = 0;
   for (const category of data.categories || []) {
     if (!category.id || known.has(category.id)) errors.push(`catalogue: ${level} category id missing or duplicated: ${category.id}`);
@@ -47,6 +66,12 @@ for (const [level, expected] of Object.entries(EXPECTED)) {
     known.add(category.id);
   }
   if (themes !== expected.themes) errors.push(`catalogue: ${level} must list ${expected.themes} themes, found ${themes}`);
+}
+
+const c2 = catalogue.levels && catalogue.levels.C2;
+if (c2) {
+  if (!/3\s*h\s*30/.test(c2.writing.duration || '')) errors.push('catalogue: DALF C2 writing duration must be 3 h 30');
+  if (!/700/.test(c2.writing.words || '')) errors.push('catalogue: DALF C2 writing must require 700 words minimum');
 }
 
 function checkCards(cards, type) {
@@ -65,6 +90,15 @@ function checkCards(cards, type) {
 
 checkCards(speaking, 'speaking');
 checkCards(writing, 'writing');
+
+for (const card of writing.filter((c) => c.exam === 'DALF C2')) {
+  if (!Number.isInteger(card.word_min) || card.word_min < 700) {
+    errors.push(`data/daily/fr/writing.json: ${card.id} DALF C2 cards need 700 words minimum`);
+  }
+  if (card.write_minutes !== 210) {
+    errors.push(`data/daily/fr/writing.json: ${card.id} DALF C2 cards need 210 minutes`);
+  }
+}
 
 if (errors.length) {
   console.error(errors.join('\n'));
