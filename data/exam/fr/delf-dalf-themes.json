@@ -1,0 +1,1524 @@
+{
+  "lang": "fr",
+  "title": "Thèmes du DELF et du DALF — catalogue de référence",
+  "source": "Thèmes relevés dans les manuels de préparation et les sessions d'examen DELF B1, DELF B2, DALF C1 et DALF C2, fournis par COSYlanguages.",
+  "updated": "2026-11-22",
+  "note": "Catalogue canonique consommé par la page Exam Preparation de COSYlanguages et par les cartes quotidiennes de COSYpractice. Les identifiants de catégorie servent de valeur au champ theme des cartes speaking/writing.",
+  "levels": {
+    "B1": {
+      "exam": "DELF B1",
+      "cefr": "B1",
+      "speaking": {
+        "duration": "15 min",
+        "preparation": "10 min",
+        "parts": [
+          {
+            "part": "Part 1 · Entretien dirigé",
+            "task": "Parler de soi et de son environnement",
+            "minutes": "2–3"
+          },
+          {
+            "part": "Part 2 · Exercice en interaction",
+            "task": "Résoudre une situation de la vie quotidienne",
+            "minutes": "3–4"
+          },
+          {
+            "part": "Part 3 · Expression d'un point de vue",
+            "task": "Donner et justifier son opinion sur un document",
+            "minutes": "5–6"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Parler trop peu et ne pas développer ses idées.",
+            "Répéter seulement le document sans donner son opinion.",
+            "Faire des phrases très courtes sans lien logique."
+          ],
+          "tips": [
+            "Suivre une structure simple : introduction, deux ou trois idées, conclusion.",
+            "Parler de façon compréhensible, cohérente et assez fluide.",
+            "Illustrer chaque idée par un exemple concret."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Hôtel complet",
+            "type": "Exercice en interaction",
+            "task": "Vous avez réservé une chambre d'hôtel pour une nuit. À votre arrivée, le réceptionniste annonce qu'il n'y a plus de chambre. Vous demandez une solution ; il n'en propose aucune. Vous insistez.",
+            "theme": "b1-voyages"
+          },
+          {
+            "title": "Acheter moins, mais mieux ?",
+            "type": "Expression d'un point de vue",
+            "task": "À partir d'un court document sur la consommation responsable, présentez le sujet puis donnez votre opinion avec des arguments et des exemples simples.",
+            "theme": "b1-consommation"
+          }
+        ]
+      },
+      "writing": {
+        "duration": "45 min",
+        "words": "160–180",
+        "parts": [
+          {
+            "part": "Production écrite · Exercice 1 · Message",
+            "task": "Message personnel ou courriel court",
+            "words": "80"
+          },
+          {
+            "part": "Production écrite · Exercice 2 · Article ou essai",
+            "task": "Texte argumentatif court",
+            "words": "120"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Écrire un texte trop court ou insuffisamment développé.",
+            "Répondre partiellement à la consigne ou ne pas respecter la situation de départ.",
+            "Organiser mal son texte ou faire des fautes sur les temps, les accords et les connecteurs."
+          ],
+          "tips": [
+            "Écrire un texte clair, structuré et adapté à la situation.",
+            "Organiser le texte en trois parties simples.",
+            "Utiliser des connecteurs : d'abord, ensuite, puis, enfin, parce que, mais, alors."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Conseils à une amie qui commence un nouveau travail",
+            "type": "Message / lettre amicale",
+            "task": "Vous répondez à Nora : parlez de votre expérience professionnelle et donnez des conseils pour réussir son intégration. 160 mots minimum.",
+            "theme": "b1-vie-professionnelle"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "id": "b1-apprentissage-francais",
+          "label": "L'apprentissage du français",
+          "themes": [
+            "les centres de langue",
+            "les séjours linguistiques en France",
+            "l'apprentissage du français sur Internet",
+            "les accents régionaux",
+            "le bilinguisme",
+            "les examens de français",
+            "décrire son centre de langue"
+          ]
+        },
+        {
+          "id": "b1-vie-sociale",
+          "label": "La vie sociale",
+          "themes": [
+            "les fêtes entre amis",
+            "la délinquance",
+            "les nouveaux lieux de rencontre",
+            "les problèmes de voisinage",
+            "la vie en colocation",
+            "la colocation entre jeunes et personnes âgées",
+            "s'engager dans une association",
+            "les actions humanitaires et solidaires",
+            "les incivilités dans les lieux publics"
+          ]
+        },
+        {
+          "id": "b1-vie-professionnelle",
+          "label": "La vie professionnelle",
+          "themes": [
+            "les projets de carrière",
+            "la recherche d'emploi",
+            "les nouveaux métiers",
+            "les handicaps au travail",
+            "le stress des employés",
+            "les événements importants d'une entreprise",
+            "le télétravail",
+            "les inégalités entre les femmes et les hommes",
+            "demander un congé"
+          ]
+        },
+        {
+          "id": "b1-vie-scolaire",
+          "label": "La vie scolaire et étudiante",
+          "themes": [
+            "les projets d'études",
+            "les études à l'étranger",
+            "les jobs d'été",
+            "l'emploi du temps des élèves",
+            "le téléphone portable à l'école",
+            "les problèmes de discipline",
+            "le harcèlement",
+            "les relations élèves/professeurs",
+            "les repas végétariens à la cantine",
+            "le logement pour les étudiants",
+            "l'uniforme à l'école",
+            "l'évaluation des professeurs à l'université",
+            "les échanges universitaires"
+          ]
+        },
+        {
+          "id": "b1-vie-familiale",
+          "label": "La vie familiale",
+          "themes": [
+            "les membres de la famille",
+            "la famille recomposée",
+            "la communication entre les générations",
+            "les méthodes d'éducation",
+            "le partage des tâches ménagères",
+            "les conflits entre vie familiale et vie professionnelle",
+            "les repas de famille",
+            "les voyages en famille"
+          ]
+        },
+        {
+          "id": "b1-loisirs-culture",
+          "label": "Les loisirs et les pratiques culturelles",
+          "themes": [
+            "les centres d'intérêts",
+            "les activités du week-end",
+            "les idées de sorties",
+            "les visites de lieux culturels",
+            "les repas au restaurant",
+            "faire la cuisine",
+            "choisir un film au cinéma",
+            "les usages d'Internet",
+            "parler de son livre préféré",
+            "la pratique d'un sport",
+            "les nouveaux sports",
+            "les jeux vidéo",
+            "parler de son film préféré"
+          ]
+        },
+        {
+          "id": "b1-consommation",
+          "label": "La consommation",
+          "themes": [
+            "les réclamations dans les commerces et services",
+            "les nouveaux commerces et services",
+            "les soldes dans les magasins",
+            "les achats sur Internet",
+            "les produits écologiques",
+            "les vols et arnaques",
+            "les idées de cadeaux pour les fêtes",
+            "l'influence de la publicité sur les enfants",
+            "le gaspillage",
+            "la restauration rapide à midi",
+            "la revente des vêtements sur Internet"
+          ]
+        },
+        {
+          "id": "b1-voyages",
+          "label": "Les voyages",
+          "themes": [
+            "les idées de destinations",
+            "les lieux à visiter",
+            "les récits de voyages",
+            "les incidents rencontrés en voyage",
+            "les choix de locations (hôtels, maisons d'hôtes…)",
+            "les réservations à l'hôtel",
+            "les échanges de logements",
+            "les voyages solidaires",
+            "les voyages insolites",
+            "la vie dans un pays étranger",
+            "les coutumes locales"
+          ]
+        },
+        {
+          "id": "b1-sante",
+          "label": "La santé",
+          "themes": [
+            "la consultation chez le médecin",
+            "les produits bio",
+            "la malbouffe",
+            "l'obésité",
+            "la méditation",
+            "la cigarette électronique",
+            "l'automédication",
+            "le manque de sommeil",
+            "le manque d'activité physique",
+            "la mauvaise alimentation des ados"
+          ]
+        },
+        {
+          "id": "b1-environnement",
+          "label": "L'environnement",
+          "themes": [
+            "le tri des déchets",
+            "les moyens de transport écologiques",
+            "la pollution des mers par le plastique",
+            "la pollution urbaine",
+            "le changement climatique",
+            "la fête de la nature",
+            "la protection des animaux",
+            "les produits recyclables"
+          ]
+        },
+        {
+          "id": "b1-transports",
+          "label": "Les transports",
+          "themes": [
+            "la gratuité des transports en commun",
+            "les mauvais comportements des conducteurs ou des piétons",
+            "la sécurité routière",
+            "les contraventions",
+            "le covoiturage",
+            "les trottinettes en ville",
+            "la fraude dans les transports en commun",
+            "les règles de politesse dans les transports en commun"
+          ]
+        }
+      ],
+      "formatNotes": [
+        "Quatre épreuves : compréhension de l'oral (25 min), compréhension de l'écrit (45 min), production écrite (45 min, 160–180 mots) et production orale (15 min, 10 min de préparation).",
+        "Compréhension de l'oral : 3 exercices ; une conversation de la vie quotidienne, puis deux extraits d'émission radio, chaque document écouté deux fois.",
+        "Compréhension de l'écrit : 3 exercices ; comparer des documents, puis lire deux articles de presse et répondre à des questions à choix multiple.",
+        "Production orale : entretien dirigé, exercice en interaction, expression d'un point de vue à partir d'un document déclencheur."
+      ],
+      "listening": {
+        "format": "3 exercices : une conversation quotidienne et deux extraits d'émission radio, écoutés deux fois chacun.",
+        "method": {
+          "errors": [
+            "Vouloir comprendre tous les mots et se bloquer sur un mot inconnu.",
+            "Ne pas repérer les mots-clés et les informations essentielles.",
+            "Mal comprendre le vocabulaire des documents ou des questions."
+          ],
+          "tips": [
+            "Lire les questions avant l'écoute.",
+            "Repérer les éléments concrets et les mots-clés.",
+            "Confirmer les réponses pendant la seconde écoute."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "45 min",
+        "examples": [
+          {
+            "title": "Le port de l'uniforme à l'école n'a jamais été une garantie d'égalité",
+            "source": "Nouvel Obs",
+            "task": "Lire l'extrait (300–400 mots) et répondre à des questions à choix multiple.",
+            "questions": [
+              "À Provins, la plupart des parents d'élèves sont contre le port de l'uniforme. Vrai ou faux ?",
+              "Le ministre pense que les marques de vêtements… A. réduisent les inégalités ; B. ont une grande influence sur les enfants ; C. aident les élèves à s'intégrer."
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Lire trop vite sans repérer les informations importantes.",
+            "Rester bloqué sur une seule question.",
+            "Mal interpréter certaines expressions courantes."
+          ],
+          "tips": [
+            "Lire attentivement et repérer les mots-clés.",
+            "Vérifier chaque réponse dans le texte.",
+            "Ne pas rester bloqué : passer à la question suivante."
+          ]
+        }
+      }
+    },
+    "B2": {
+      "exam": "DELF B2",
+      "cefr": "B2",
+      "speaking": {
+        "duration": "20 min",
+        "preparation": "30 min",
+        "parts": [
+          {
+            "part": "Part 1 · Monologue suivi",
+            "task": "Présenter et défendre un point de vue à partir d'un document",
+            "minutes": "5–7"
+          },
+          {
+            "part": "Part 2 · Exercice en interaction",
+            "task": "Défendre une position et négocier avec l'examinateur",
+            "minutes": "6–8"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Résumer le document sans donner son opinion.",
+            "Donner son avis sans présenter le document ni organiser ses idées.",
+            "Ne pas s'appuyer sur des exemples concrets."
+          ],
+          "tips": [
+            "Structurer l'exposé : introduction, développement, conclusion.",
+            "Présenter le problème posé par le document avant de défendre une position.",
+            "Parler clairement et fluidement, sans chercher des structures trop complexes."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Aller au travail à vélo, une solution d'avenir ?",
+            "type": "Exposé + débat",
+            "task": "À partir du document sur le vélotaf, présentez le problème posé puis donnez votre opinion de manière claire et argumentée.",
+            "theme": "b2-transports"
+          }
+        ]
+      },
+      "writing": {
+        "duration": "60 min",
+        "words": "250",
+        "parts": [
+          {
+            "part": "Production écrite · Lettre formelle",
+            "task": "Lettre de réclamation, de demande ou d'opinion",
+            "words": "250"
+          },
+          {
+            "part": "Production écrite · Essai argumenté",
+            "task": "Article, tribune ou essai structuré",
+            "words": "250"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Donner son opinion sans construire une argumentation.",
+            "Écrire un texte trop général, sans exemples concrets.",
+            "Répondre partiellement à la consigne ou ne pas structurer son texte."
+          ],
+          "tips": [
+            "Faire un plan : introduction, développement, conclusion.",
+            "Développer chaque argument avec un exemple concret.",
+            "Respecter la situation et le type de texte demandé."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Panneaux solaires sur les bâtiments publics",
+            "type": "Lettre formelle",
+            "task": "Vous écrivez à votre mairie pour suggérer l'installation de panneaux solaires sur les bâtiments publics et expliquer les bénéfices. 250 mots minimum.",
+            "theme": "b2-environnement"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "id": "b2-etudes",
+          "label": "Les études",
+          "themes": [
+            "les punitions à l'école",
+            "les ordinateurs portables à l'université",
+            "les MOOC",
+            "créer une émission de radio à l'école",
+            "l'école à la maison",
+            "la suppression des notes",
+            "l'éducation musicale des enfants",
+            "l'éducation globale",
+            "le téléphone portable à l'école",
+            "la sécurité à l'école",
+            "le handicap à l'école",
+            "la précarité des étudiants",
+            "les problèmes de concentration en classe",
+            "les stages en entreprise",
+            "les rythmes scolaires",
+            "la formation aux premiers secours à l'école",
+            "le redoublement",
+            "les devoirs pendant le week-end",
+            "l'école à partir de 2 ans",
+            "l'accompagnement personnalisé",
+            "la formation professionnelle à l'université",
+            "le port de l'uniforme",
+            "la mode du « gongbang »",
+            "l'apprentissage des langues étrangères dès l'école maternelle",
+            "la classe flexible (aménagement flexible)",
+            "les cours sur YouTube",
+            "la vidéosurveillance dans les établissements scolaires"
+          ]
+        },
+        {
+          "id": "b2-travail",
+          "label": "Le monde du travail",
+          "themes": [
+            "le bien-être au travail",
+            "le télétravail",
+            "le travail hybride",
+            "la robotisation",
+            "les réseaux sociaux",
+            "la génération Y",
+            "les fêtes dans l'entreprise",
+            "le travail des séniors",
+            "la messagerie professionnelle pendant les congés",
+            "la maîtrise de l'orthographe",
+            "le temps de travail",
+            "les discriminations à l'embauche",
+            "les CV anonymes",
+            "les logiciels pour surveiller les ordinateurs",
+            "les emplois non rémunérés",
+            "le recrutement par le jeu",
+            "la semaine de 4 jours",
+            "les cours de sport dans l'entreprise",
+            "la baisse de productivité liée aux smartphones"
+          ]
+        },
+        {
+          "id": "b2-sante",
+          "label": "La santé",
+          "themes": [
+            "la télémédecine",
+            "la cigarette électronique",
+            "les régimes détox",
+            "l'impact des écrans sur la santé mentale et physique des enfants",
+            "l'obésité",
+            "le traitement de maladies par les jeux vidéos",
+            "le sommeil",
+            "la lutte contre le vieillissement",
+            "la sédentarité",
+            "le mois sans alcool"
+          ]
+        },
+        {
+          "id": "b2-loisirs-culture",
+          "label": "Les loisirs et la culture",
+          "themes": [
+            "le jeu vidéo",
+            "le pass culture",
+            "les bienfaits de la lecture",
+            "les événements culturels en ville",
+            "les prix littéraires",
+            "les jeux de société",
+            "l'audiolivre (le livre audio)",
+            "la fréquentation des musées",
+            "le livre numérique",
+            "l'autoédition",
+            "les cirques sans animaux",
+            "la fermeture des cinémas",
+            "la gratuité des musées et des monuments",
+            "convaincre le maire de ne pas fermer le cinéma de la ville",
+            "la cuisine comme loisir",
+            "les séries télé"
+          ]
+        },
+        {
+          "id": "b2-consommation",
+          "label": "Les habitudes de consommation",
+          "themes": [
+            "les nouvelles tendances",
+            "les achats en ligne",
+            "l'obsolescence programmée",
+            "les repair cafés",
+            "la récupération",
+            "l'achat de musique sur Internet",
+            "le téléchargement illégal",
+            "les séries télévisées",
+            "l'argent liquide",
+            "l'autoproduction"
+          ]
+        },
+        {
+          "id": "b2-alimentation",
+          "label": "Les comportements alimentaires",
+          "themes": [
+            "le gaspillage alimentaire",
+            "le véganisme",
+            "les produits locaux (le locavorisme)",
+            "les plats végétariens à l'école",
+            "la malbouffe",
+            "la gastronomie",
+            "le gaspillage alimentaire dans les restaurants à Paris"
+          ]
+        },
+        {
+          "id": "b2-relations-sociales",
+          "label": "Les relations sociales",
+          "themes": [
+            "la colocation",
+            "la solidarité entre générations",
+            "les associations",
+            "organiser une course en faveur des personnes âgées",
+            "l'action humanitaire à l'étranger"
+          ]
+        },
+        {
+          "id": "b2-egalite",
+          "label": "L'égalité homme/femme",
+          "themes": [
+            "le congé paternité",
+            "les inégalités salariales",
+            "les carrières des femmes",
+            "les femmes célèbres",
+            "le sport féminin",
+            "la femme dans les métiers du bâtiment"
+          ]
+        },
+        {
+          "id": "b2-relations-familiales",
+          "label": "Les relations familiales",
+          "themes": [
+            "les punitions corporelles",
+            "la répartition des tâches ménagères",
+            "la surveillance des ados sur Internet",
+            "les repas en famille",
+            "les animaux domestiques",
+            "les jeux vidéo en famille",
+            "la génération « boomerang »"
+          ]
+        },
+        {
+          "id": "b2-environnement",
+          "label": "L'environnement",
+          "themes": [
+            "le réchauffement climatique",
+            "le lundi sans viande",
+            "la dépendance à la voiture",
+            "les énergies propres",
+            "les espaces verts en ville",
+            "la biodiversité",
+            "les sacs plastiques",
+            "la création d'une réserve protégée",
+            "les économies d'énergie",
+            "le tri sélectif",
+            "le développement durable",
+            "le recyclage des déchets",
+            "la permaculture",
+            "la journée sans voiture",
+            "le biomimétisme",
+            "la pollution dans les jardins publics"
+          ]
+        },
+        {
+          "id": "b2-medias-internet",
+          "label": "Les médias & Internet",
+          "themes": [
+            "vivre sans Internet",
+            "la journée sans portable",
+            "les fausses informations",
+            "les radios amateurs",
+            "les jeunes et la presse",
+            "les jeunes et les réseaux sociaux",
+            "la protection des données personnelles",
+            "l'impact d'Internet sur l'intelligence",
+            "la publicité",
+            "les impacts d'Internet sur l'économie",
+            "l'interdiction des smartphones dans les restaurants",
+            "les textos"
+          ]
+        },
+        {
+          "id": "b2-transports",
+          "label": "Les transports",
+          "themes": [
+            "la sécurité routière",
+            "le vélo électrique",
+            "l'interdiction des voitures en ville",
+            "les taxis partagés",
+            "le covoiturage",
+            "la voiture autonome",
+            "la gratuité des transports publics",
+            "la voiture en libre service",
+            "les rues scolaires",
+            "les péages urbains"
+          ]
+        },
+        {
+          "id": "b2-francophonie",
+          "label": "Le français et la francophonie",
+          "themes": [
+            "la place du français dans le monde",
+            "la féminisation des noms de métiers",
+            "la simplification de l'orthographe",
+            "le français standard",
+            "les bienfaits de l'apprentissage d'une langue",
+            "les anglicismes"
+          ]
+        },
+        {
+          "id": "b2-tourisme",
+          "label": "Le tourisme",
+          "themes": [
+            "l'influence d'Instagram",
+            "les nuisances du tourisme",
+            "l'écotourisme",
+            "le tourisme solidaire",
+            "les nouveaux modes de voyage",
+            "la préservation du patrimoine"
+          ]
+        }
+      ],
+      "formatNotes": [
+        "Quatre parties : compréhension de l'oral (30 min), compréhension de l'écrit (1 h), production écrite (60 min, 250 mots) et production orale (20 min, 30 min de préparation).",
+        "Production orale : tirage de deux sujets, choix d'un sujet, exposé argumenté à partir d'un document déclencheur, puis débat avec l'examinateur.",
+        "Compréhension de l'écrit : 3 exercices ; deux textes informatifs ou argumentatifs, puis trois opinions à associer.",
+        "Compréhension de l'oral : 3 exercices ; deux extraits d'émission radio écoutés deux fois, puis trois documents courts écoutés une fois."
+      ],
+      "listening": {
+        "format": "3 exercices : deux extraits d'émission radio écoutés deux fois, puis trois documents courts écoutés une fois.",
+        "method": {
+          "errors": [
+            "Avoir du mal à comprendre certains mots ou expressions à l'oral.",
+            "Perdre des informations dès la première écoute.",
+            "Confondre des idées proches ou mal interpréter le sens global."
+          ],
+          "tips": [
+            "Rester concentré et repérer les informations clés dès la première écoute.",
+            "Confirmer les réponses lors de la seconde écoute.",
+            "Ne pas se bloquer sur un mot inconnu."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "1 h",
+        "examples": [
+          {
+            "title": "Ramener du travail chez soi",
+            "source": "Marie Claire",
+            "task": "Lire l'extrait (400–500 mots) et répondre à des questions à choix multiple.",
+            "questions": [
+              "D'après ce document, rapporter du travail à la maison est une pratique… A. très réglementée ; B. en pleine expansion ; C. relativement ancienne.",
+              "Sophie travaille à la maison… A. parce que son responsable l'exige ; B. parce qu'elle a trop de travail ; C. parce que les conditions y sont meilleures."
+            ]
+          },
+          {
+            "title": "Exercice 3 · Trois opinions à associer",
+            "type": "Association",
+            "topics": [
+              "Les séries remplacent-elles le cinéma ?",
+              "Faut-il limiter l'usage des smartphones chez les jeunes ?",
+              "Les gestes individuels suffisent-ils pour protéger l'environnement ?",
+              "Faut-il supprimer les devoirs à la maison ?",
+              "Les jeunes sont-ils moins engagés qu'avant ?"
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas distinguer les idées principales des informations secondaires.",
+            "Mal interpréter certaines formulations ou nuances.",
+            "Répondre trop vite sans vérifier les détails."
+          ],
+          "tips": [
+            "Lire attentivement et repérer les informations clés.",
+            "Comprendre l'intention générale du texte.",
+            "Vérifier les détails avant de répondre."
+          ]
+        }
+      }
+    },
+    "C1": {
+      "exam": "DALF C1",
+      "cefr": "C1",
+      "speaking": {
+        "duration": "30 min",
+        "preparation": "1 h",
+        "parts": [
+          {
+            "part": "Part 1 · Exposé",
+            "task": "Présenter et analyser un document, puis exposer une problématique",
+            "minutes": "8–10"
+          },
+          {
+            "part": "Part 2 · Entretien",
+            "task": "Défendre et nuancer sa position face aux examinateurs",
+            "minutes": "15–20"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Commenter les documents sans apporter de réflexion personnelle.",
+            "Donner une opinion tranchée sans arguments ni nuances.",
+            "Mélanger les idées sans structure claire et hiérarchisée."
+          ],
+          "tips": [
+            "Formuler une problématique dès l'introduction.",
+            "Organiser l'exposé selon une structure claire et cohérente.",
+            "S'appuyer sur les documents sans se limiter à un résumé."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Travailler moins pour vivre mieux : utopie ou nécessité ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "La semaine de quatre jours : une révolution du travail",
+              "Quand la réduction du temps de travail devient un frein à la croissance"
+            ],
+            "theme": "c1-travail"
+          },
+          {
+            "title": "La culture doit-elle être gratuite pour tous ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "Démocratiser l'accès à la culture : un enjeu social majeur",
+              "La gratuité culturelle, une menace pour la création artistique ?"
+            ],
+            "theme": "c1-loisirs-culture"
+          },
+          {
+            "title": "Faut-il toujours chercher à se dépasser ?",
+            "type": "Exposé à partir d'un dossier",
+            "documents": [
+              "Le culte de la performance : moteur ou pression sociale ?",
+              "Apprendre à ralentir : une nouvelle philosophie de vie"
+            ],
+            "theme": "c1-vie-societe"
+          }
+        ]
+      },
+      "writing": {
+        "duration": "2 h 30",
+        "words": "synthèse 220 + essai 250",
+        "parts": [
+          {
+            "part": "Production écrite · Synthèse",
+            "task": "Synthèse de plusieurs documents",
+            "words": "220"
+          },
+          {
+            "part": "Production écrite · Essai argumenté",
+            "task": "Essai argumenté à partir des documents",
+            "words": "250"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Coller bout à bout des résumés des documents (synthèse).",
+            "Ne pas respecter la situation définie dans la consigne (essai).",
+            "Écrire sans structure claire et logique."
+          ],
+          "tips": [
+            "Reformuler avec précision sans reprendre les phrases des documents.",
+            "Illustrer chaque argument avec un exemple concret.",
+            "Construire un plan clair et logique avant de rédiger."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Le rôle de la publicité",
+            "type": "Message de blog",
+            "task": "Sur un blog, réagissez à un billet sur l'influence de la publicité et proposez des moyens de mieux réguler son influence sur les consommateurs.",
+            "theme": "c1-consommation"
+          },
+          {
+            "title": "Réduire les déchets dans l'entreprise",
+            "type": "Courrier professionnel",
+            "task": "Vous écrivez à vos collègues pour présenter une initiative de réduction des déchets, ses avantages environnementaux et économiques, et des solutions de mise en œuvre.",
+            "theme": "c1-environnement"
+          },
+          {
+            "title": "Tourisme de masse : réagir à un article",
+            "type": "Lettre au rédacteur en chef",
+            "task": "Vous reconnaissez les problèmes du tourisme de masse, mais vous défendez ses bénéfices et proposez des solutions pour concilier économie et préservation.",
+            "theme": "c1-tourisme"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "id": "c1-famille",
+          "label": "La famille",
+          "themes": [
+            "l'éducation moderne",
+            "la garde des enfants",
+            "la génération « boomerang »",
+            "l'entraide familiale",
+            "l'éducation bienveillante",
+            "le congé paternité",
+            "le rôle des grands-parents"
+          ]
+        },
+        {
+          "id": "c1-vie-societe",
+          "label": "La vie en société",
+          "themes": [
+            "le bonheur",
+            "le handicap",
+            "les problèmes de logement",
+            "les différences entre générations (baby-boom, génération Y, génération Z…)",
+            "la citoyenneté",
+            "le vote des jeunes",
+            "l'altruisme",
+            "le féminisme",
+            "la colocation entre retraités",
+            "le changement de prénom",
+            "mémoire individuelle et mémoire collective"
+          ]
+        },
+        {
+          "id": "c1-ecole",
+          "label": "L'école",
+          "themes": [
+            "l'apprentissage par le jeu vidéo",
+            "l'évaluation des professeurs",
+            "l'égalité des chances",
+            "le soutien scolaire",
+            "la créativité",
+            "la réforme du bac",
+            "la réforme des rythmes scolaires",
+            "les cours à distance",
+            "la classe inversée",
+            "les usages du numérique en classe",
+            "le cartable numérique",
+            "l'école à la maison",
+            "les systèmes de notation",
+            "la mixité filles-garçons à l'école",
+            "les devoirs à la maison",
+            "ChatGPT à l'école"
+          ]
+        },
+        {
+          "id": "c1-travail",
+          "label": "Le monde du travail",
+          "themes": [
+            "les bureaux partagés",
+            "la robotisation",
+            "les nouvelles valeurs du travail",
+            "la dégradation des conditions de travail",
+            "l'organisation du temps de travail",
+            "la reconversion professionnelle",
+            "les travailleurs indépendants",
+            "le droit à la déconnexion",
+            "le télétravail",
+            "la semaine de 4 jours",
+            "les animaux au bureau",
+            "le bonheur au travail"
+          ]
+        },
+        {
+          "id": "c1-urbanisme",
+          "label": "L'urbanisme",
+          "themes": [
+            "les potagers collectifs urbains",
+            "les nouveaux modes de transport",
+            "les nouveaux espaces verts",
+            "l'urbanisme éthique",
+            "les péages urbains",
+            "la désertification des centres-villes",
+            "l'aménagement des villes",
+            "l'habitat participatif",
+            "l'art urbain"
+          ]
+        },
+        {
+          "id": "c1-environnement",
+          "label": "L'environnement",
+          "themes": [
+            "le changement climatique",
+            "la voiture électrique",
+            "la déforestation",
+            "les énergies renouvelables",
+            "l'énergie nucléaire",
+            "les biocarburants",
+            "le droit des animaux",
+            "l'alimentation et la préservation de la planète",
+            "la disparition des abeilles",
+            "l'élevage intensif",
+            "la transition énergétique",
+            "le bien-être animal",
+            "l'impact du publipostage",
+            "l'agriculture biologique",
+            "l'accès des véhicules au centre-ville",
+            "l'égalité entre l'homme et l'animal"
+          ]
+        },
+        {
+          "id": "c1-numerique",
+          "label": "Le numérique",
+          "themes": [
+            "la fracture numérique",
+            "l'identité numérique",
+            "les ados et les réseaux sociaux",
+            "l'hyperconnexion",
+            "la protection des données personnelles",
+            "les bibliothèques numériques",
+            "la nomophobie",
+            "l'anonymat sur Internet",
+            "l'éducation des enfants aux réseaux sociaux",
+            "la lecture sur papier versus sur support numérique"
+          ]
+        },
+        {
+          "id": "c1-consommation",
+          "label": "La consommation",
+          "themes": [
+            "l'obsolescence programmée",
+            "les jeux d'argent",
+            "les cyberachats",
+            "le black friday",
+            "les jeunes et les marques",
+            "les magasins sans vendeurs",
+            "la chirurgie esthétique",
+            "le visionnage de films en streaming",
+            "le marché de l'occasion",
+            "la notation des produits et des services",
+            "la consommation responsable"
+          ]
+        },
+        {
+          "id": "c1-alimentation",
+          "label": "L'alimentation",
+          "themes": [
+            "le véganisme",
+            "le steak végétal",
+            "les aliments de synthèse",
+            "la malbouffe",
+            "les aliments bio",
+            "la consommation de viande",
+            "les nouveaux restaurants",
+            "les applications de régime alimentaire",
+            "la sécurité alimentaire",
+            "les circuits courts",
+            "la nourriture crue"
+          ]
+        },
+        {
+          "id": "c1-medias",
+          "label": "Les médias",
+          "themes": [
+            "la domination d'Internet",
+            "la surcharge informationnelle (infobésité)",
+            "les fausses informations",
+            "l'éducation aux médias",
+            "les théories du complot",
+            "les effets des écrans sur les enfants"
+          ]
+        },
+        {
+          "id": "c1-loisirs-culture",
+          "label": "Les loisirs et la culture",
+          "themes": [
+            "la littérature de jeunesse",
+            "le piratage des livres",
+            "les parcs de loisirs",
+            "les festivals",
+            "les jeux hybrides",
+            "les adultes et les jeux vidéo",
+            "la défense des librairies",
+            "le pass culture"
+          ]
+        },
+        {
+          "id": "c1-tourisme",
+          "label": "Le tourisme",
+          "themes": [
+            "l'écotourisme",
+            "le tourisme vert",
+            "les vacances humanitaires",
+            "la découverte du patrimoine",
+            "l'hyperfréquentation touristique",
+            "le tourisme durable",
+            "le tourisme de masse",
+            "le marketing du tourisme"
+          ]
+        },
+        {
+          "id": "c1-economie",
+          "label": "L'économie",
+          "themes": [
+            "l'ubérisation",
+            "le revenu universel",
+            "les monnaies virtuelles",
+            "la gratuité des services",
+            "la lutte contre la pauvreté",
+            "le neuromarketing",
+            "la précarité des étudiants",
+            "les publicités intrusives"
+          ]
+        },
+        {
+          "id": "c1-sante",
+          "label": "La santé",
+          "themes": [
+            "les médecines alternatives",
+            "la vaccination obligatoire",
+            "la lutte contre la douleur",
+            "l'obésité",
+            "les allergies",
+            "les addictions",
+            "les médicaments génériques",
+            "les antibiotiques",
+            "les maladies dégénératives",
+            "l'automédication",
+            "les dangers du wi-fi",
+            "l'autisme",
+            "la méditation"
+          ]
+        },
+        {
+          "id": "c1-recherche-spatiale",
+          "label": "La recherche spatiale",
+          "themes": [
+            "la recherche de la vie extraterrestre",
+            "la colonisation de Mars",
+            "l'influence de la lune",
+            "les femmes astronautes",
+            "le tourisme spatial",
+            "les trous noirs",
+            "les sondes spatiales",
+            "vivre dans l'espace"
+          ]
+        },
+        {
+          "id": "c1-science",
+          "label": "Les progrès & dangers de la science",
+          "themes": [
+            "le transhumanisme",
+            "les voitures de l'avenir",
+            "l'intelligence artificielle",
+            "le clonage",
+            "la génétique",
+            "les greffes",
+            "les neurosciences",
+            "les robots et l'homme",
+            "le choix du sexe de son enfant",
+            "la reconnaissance faciale",
+            "la communication des sciences",
+            "les intelligences artificielles génératives"
+          ]
+        },
+        {
+          "id": "c1-langues-francophonie",
+          "label": "Les langues et la francophonie",
+          "themes": [
+            "la disparition des langues",
+            "la réforme de l'orthographe",
+            "la diversité linguistique",
+            "les normes linguistiques",
+            "l'enseignement des langues régionales",
+            "les discriminations linguistiques (glottophobie)",
+            "la maîtrise de l'orthographe au travail",
+            "langue et sexisme",
+            "le bilinguisme"
+          ]
+        }
+      ],
+      "formatNotes": [
+        "Quatre épreuves : compréhension de l'oral (40 min), compréhension de l'écrit (50 min), production écrite (2 h 30) et production orale (30 min, 1 h de préparation).",
+        "Compréhension de l'oral : un document long de 7–8 min écouté deux fois, puis deux ou trois documents courts écoutés une fois.",
+        "Compréhension de l'écrit : un texte argumentatif d'environ 1 000 mots, avec questions à choix multiple et questions ouvertes.",
+        "Production écrite : synthèse de 220 mots + essai argumenté de 250 mots.",
+        "Production orale : exposé de 8–10 min à partir d'un dossier de deux documents, puis entretien de 15–20 min."
+      ],
+      "listening": {
+        "format": "1 document long (7–8 min) écouté deux fois + 2–3 documents courts écoutés une fois ; questions à choix multiple et questions ouvertes.",
+        "method": {
+          "errors": [
+            "Vouloir comprendre tous les mots au lieu de repérer les idées principales.",
+            "Perdre le fil lorsqu'un passage est mal compris.",
+            "Ne pas distinguer les arguments principaux des exemples secondaires."
+          ],
+          "tips": [
+            "Lire les questions avant l'écoute.",
+            "Se concentrer sur le thème général et les points de vue.",
+            "Repérer les mots-clés sans chercher à tout noter."
+          ]
+        }
+      },
+      "reading": {
+        "duration": "50 min",
+        "examples": [
+          {
+            "title": "Quand les citoyens prennent les choses en main",
+            "source": "Sciences Humaines",
+            "task": "Face à l'inaction des institutions, des initiatives citoyennes se développent. Peuvent-elles changer la donne ?"
+          },
+          {
+            "title": "Faut-il abolir l'héritage ?",
+            "source": "Sciences Humaines",
+            "task": "L'héritage est contesté comme facteur d'inégalités, mais son abolition ne fait pas l'unanimité."
+          },
+          {
+            "title": "L'IA est-elle un bon psy ?",
+            "source": "Sciences Humaines",
+            "task": "Les chatbots séduisent par leur disponibilité ; que valent réellement ces confidents numériques ?"
+          },
+          {
+            "title": "« C'est à moi ! » : à l'école de la propriété",
+            "source": "Sciences Humaines",
+            "task": "Le rapport à la propriété s'apprend dès l'école maternelle."
+          },
+          {
+            "title": "L'esprit d'aventure, une question de culture ?",
+            "source": "Sciences Humaines",
+            "task": "La recherche en économie comportementale interroge les présupposés sur l'audace et la culture."
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas identifier clairement la thèse de l'auteur.",
+            "Confondre arguments, exemples et nuances.",
+            "Bloquer sur quelques mots inconnus au lieu de suivre la logique globale."
+          ],
+          "tips": [
+            "Lire les questions avant le texte.",
+            "Repérer la logique et la structure du texte.",
+            "Comprendre l'implicite, les nuances et l'ironie."
+          ]
+        }
+      }
+    },
+    "C2": {
+      "exam": "DALF C2",
+      "cefr": "C2",
+      "speaking": {
+        "duration": "1 h",
+        "preparation": "1 h",
+        "parts": [
+          {
+            "part": "Part 1 · Compte rendu",
+            "task": "Présenter le contenu du document audio de façon structurée",
+            "minutes": "5"
+          },
+          {
+            "part": "Part 2 · Développement argumenté",
+            "task": "Défendre un point de vue argumenté puis débattre avec le jury, préciser et nuancer",
+            "minutes": "20"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Présenter le document audio de façon désordonnée et confuse.",
+            "Simplifier ou déformer les positions défendues.",
+            "Donner son opinion trop tôt, sans organiser son raisonnement.",
+            "Manquer de précision lexicale ou employer un registre approximatif."
+          ],
+          "tips": [
+            "Identifier rapidement le thème, la problématique et les idées essentielles.",
+            "Organiser l'exposé autour d'une vraie ligne directrice.",
+            "Apporter des arguments extérieurs et des exemples précis.",
+            "Défendre son point de vue avec souplesse pendant l'échange."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Interdire les vols courts",
+            "type": "Point de vue argumenté",
+            "task": "En tant que militant écologiste, intervenez dans un débat public sur les alternatives à l'avion pour les trajets intérieurs ; défendez l'interdiction des vols courts lorsqu'une alternative ferroviaire existe, avec des données environnementales et des mesures complémentaires.",
+            "theme": "c2-environnement"
+          },
+          {
+            "title": "Redonner le goût de la lecture",
+            "type": "Point de vue argumenté",
+            "task": "Bibliothécaire, participez à une émission de radio sur l'évolution des pratiques culturelles ; analysez la baisse de la lecture chez les jeunes et proposez des pistes pour lui redonner une place dans les loisirs quotidiens.",
+            "theme": "c2-culture-loisirs"
+          },
+          {
+            "title": "La durée de vie des produits",
+            "type": "Point de vue argumenté",
+            "task": "Responsable d'une entreprise technologique, défendez l'idée que le renouvellement régulier des appareils stimule l'innovation, tout en répondant aux critiques environnementales et en proposant une gestion responsable des ressources.",
+            "theme": "c2-consommation"
+          }
+        ]
+      },
+      "writing": {
+        "duration": "3 h 30",
+        "words": "700 minimum",
+        "parts": [
+          {
+            "part": "Production écrite · Texte structuré",
+            "task": "Texte structuré à partir d'un dossier de documents, avec prise de position claire et solutions concrètes",
+            "words": "700 minimum"
+          }
+        ],
+        "method": {
+          "errors": [
+            "Ne pas respecter la position définie dans le sujet.",
+            "Juxtaposer des idées sans logique d'ensemble.",
+            "Reprendre trop directement les formulations des documents.",
+            "Écrire un texte correct mais pauvre sur le plan de l'analyse."
+          ],
+          "tips": [
+            "Repérer les points communs et les différences entre les documents.",
+            "Construire un plan avec une progression claire et logique.",
+            "Reformuler avec précision et apporter des arguments personnels illustrés.",
+            "Soigner la cohérence d'ensemble : l'argumentation compte autant que la langue."
+          ]
+        },
+        "examples": [
+          {
+            "title": "Tourisme : quel équilibre entre développement et préservation ?",
+            "type": "Article pour un magazine régional",
+            "documents": [
+              "Le tourisme de masse menace-t-il certaines destinations ?",
+              "Le tourisme durable : une alternative crédible ?",
+              "Quand les habitants de Barcelone se révoltent",
+              "Voyager autrement, c'est possible ?"
+            ],
+            "task": "Vous rédigez un article pour un numéro spécial du magazine de votre région. Reconnaissez le rôle économique du tourisme, analysez ses conséquences négatives et proposez des solutions pour concilier attractivité et préservation.",
+            "theme": "c2-tourisme"
+          },
+          {
+            "title": "Vers une consommation plus responsable ?",
+            "type": "Article pour une association de consommateurs",
+            "documents": [
+              "Je consomme donc je suis : la fin d'un modèle dépassé",
+              "Seconde main : pourquoi vendre quand on peut donner",
+              "Publicitaires et influenceurs : quels impacts sur nos choix ?"
+            ],
+            "task": "Vous rédigez un article pour le site d'une association de consommateurs. Défendez l'idée que nos choix ont un impact réel, en prenant en compte les limites et contradictions de la consommation responsable.",
+            "theme": "c2-consommation"
+          },
+          {
+            "title": "Repenser nos déplacements",
+            "type": "Appel à contributions",
+            "documents": [
+              "Réduire l'usage de la voiture sans braquer les usagers : un casse-tête loin d'être résolu",
+              "Le train, souvent plus rapide que l'avion",
+              "La mobilité douce, un modèle bientôt incontournable ?"
+            ],
+            "task": "Vous répondez à un appel à contributions pour un dossier « Se déplacer autrement ». Reconnaissez la nécessité de réduire la voiture, mais critiquez les alternatives qui ne répondent pas aux besoins des usagers, et proposez des solutions.",
+            "theme": "c2-urbanisme"
+          }
+        ]
+      },
+      "categories": [
+        {
+          "id": "c2-ecole",
+          "label": "L'école",
+          "themes": [
+            "la classe inversée",
+            "l'école numérique",
+            "l'avenir du métier d'enseignant",
+            "les devoirs de vacances",
+            "les jeux vidéo en classe",
+            "les rythmes scolaires",
+            "l'enseignement de la littérature",
+            "l'enseignement des langues mortes",
+            "la suppression des notes",
+            "la sélection des étudiants à l'université",
+            "les inégalités à l'école"
+          ]
+        },
+        {
+          "id": "c2-vie-sociale-familiale",
+          "label": "La vie sociale et familiale",
+          "themes": [
+            "l'enfant roi",
+            "les pères au foyer",
+            "la place de l'animal",
+            "l'intelligence émotionnelle",
+            "l'éducation positive",
+            "le vieillissement de la population",
+            "les contreparties aux aides sociales",
+            "les applications de rencontre"
+          ]
+        },
+        {
+          "id": "c2-travail",
+          "label": "Le monde du travail",
+          "themes": [
+            "la relation âge/emploi",
+            "le revenu universel",
+            "le télétravail",
+            "le droit à la déconnexion",
+            "le bien-être au travail",
+            "la retraite",
+            "le chômage",
+            "les femmes dirigeantes",
+            "l'ubérisation"
+          ]
+        },
+        {
+          "id": "c2-medias-numerique",
+          "label": "Les médias et le numérique",
+          "themes": [
+            "les jeunes et les réseaux sociaux",
+            "la méfiance à l'égard des médias",
+            "l'invasion du numérique chez les enfants",
+            "le pouvoir des médias",
+            "l'avenir de la presse",
+            "la protection des données personnelles",
+            "la pollution numérique",
+            "le métavers",
+            "la culture générale dans un monde connecté",
+            "la fracture numérique"
+          ]
+        },
+        {
+          "id": "c2-environnement",
+          "label": "L'environnement",
+          "themes": [
+            "l'avenir de l'écologie",
+            "la relation homme/animal",
+            "la crise de l'eau",
+            "l'éco-criminalité",
+            "les déchets radioactifs",
+            "la décroissance",
+            "vivre sans pétrole",
+            "vivre sans énergie nucléaire",
+            "la protection des espèces menacées",
+            "le bien-être des animaux"
+          ]
+        },
+        {
+          "id": "c2-sante",
+          "label": "La santé",
+          "themes": [
+            "l'évolution des relations patient/médecin",
+            "la médecine préventive",
+            "les médecines alternatives",
+            "les antivaccins",
+            "la médecine prédictive",
+            "la chirurgie esthétique",
+            "les implants"
+          ]
+        },
+        {
+          "id": "c2-culture-loisirs",
+          "label": "La culture et les loisirs",
+          "themes": [
+            "l'art contemporain",
+            "vivre sans télévision",
+            "la littérature de jeunesse",
+            "les adaptations d'ouvrages au cinéma",
+            "les superstitions",
+            "le dopage dans le sport",
+            "les compétitions sportives internationales",
+            "l'e-sport"
+          ]
+        },
+        {
+          "id": "c2-consommation",
+          "label": "La consommation",
+          "themes": [
+            "les nouvelles tendances alimentaires",
+            "les faux avis sur les plateformes de vente",
+            "la sobriété numérique",
+            "manger local",
+            "les banques en ligne",
+            "la sécurité alimentaire"
+          ]
+        },
+        {
+          "id": "c2-urbanisme",
+          "label": "L'urbanisme",
+          "themes": [
+            "la ville intelligente",
+            "les caméras de surveillance",
+            "les rythmes de vie",
+            "les jardins collectifs",
+            "la domotique",
+            "l'étalement urbain",
+            "l'art urbain",
+            "les bâtiments résidentiels végétalisés"
+          ]
+        },
+        {
+          "id": "c2-science",
+          "label": "Les progrès et dangers de la science",
+          "themes": [
+            "les risques de la robotique",
+            "les expériences scientifiques sur les animaux",
+            "les documentaires scientifiques",
+            "l'homme augmenté",
+            "les pseudosciences",
+            "les neurosciences",
+            "l'anthropocène",
+            "le tourisme spatial"
+          ]
+        },
+        {
+          "id": "c2-economie",
+          "label": "L'économie",
+          "themes": [
+            "la mondialisation",
+            "le financement participatif",
+            "l'expatriation",
+            "le neuromarketing",
+            "le commerce équitable",
+            "les cryptomonnaies",
+            "le salaire étudiant",
+            "la domination des GAFAM"
+          ]
+        },
+        {
+          "id": "c2-tourisme",
+          "label": "Le tourisme",
+          "themes": [
+            "le volontourisme",
+            "le tourisme de l'extrême",
+            "le surtourisme",
+            "le tourisme durable",
+            "le tourisme équitable",
+            "le tourisme de proximité"
+          ]
+        },
+        {
+          "id": "c2-langues-francophonie",
+          "label": "Les langues et la francophonie",
+          "themes": [
+            "l'évolution des langues",
+            "la littérature francophone",
+            "les pratiques langagières des jeunes",
+            "le langage épicène",
+            "l'invasion de l'anglais dans l'espace public",
+            "le bilinguisme",
+            "le pronom « iel »"
+          ]
+        }
+      ],
+      "formatNotes": [
+        "Épreuve orale : écoute deux fois d'un document audio authentique d'environ 15 min, 1 h de préparation, exposé d'environ 15 min (5 min de présentation + 10 min d'argumentation), débat d'environ 10 min.",
+        "Épreuve écrite : dossier d'environ 2 000 mots, 3 h 30, texte structuré de 700 mots minimum.",
+        "Depuis janvier 2026, les dossiers ne contiennent plus de documents iconographiques : uniquement des textes informatifs ou argumentatifs.",
+        "L'usage d'un dictionnaire monolingue français est autorisé à l'écrit."
+      ],
+      "reading": {
+        "duration": "3 h 30 (avec la production écrite)",
+        "examples": [
+          {
+            "title": "Tourisme : quel équilibre entre développement et préservation ?",
+            "documents": [
+              "Le tourisme de masse menace-t-il certaines destinations ?",
+              "Le tourisme durable : une alternative crédible ?",
+              "Quand les habitants de Barcelone se révoltent",
+              "Voyager autrement, c'est possible ?"
+            ]
+          },
+          {
+            "title": "Vers une consommation plus responsable ?",
+            "documents": [
+              "Je consomme donc je suis : la fin d'un modèle dépassé",
+              "Seconde main : pourquoi vendre quand on peut donner",
+              "Publicitaires et influenceurs : quels impacts sur nos choix ?"
+            ]
+          },
+          {
+            "title": "Repenser nos déplacements",
+            "documents": [
+              "Réduire l'usage de la voiture sans braquer les usagers : un casse-tête loin d'être résolu",
+              "Le train, souvent plus rapide que l'avion",
+              "La mobilité douce, un modèle bientôt incontournable ?"
+            ]
+          }
+        ],
+        "method": {
+          "errors": [
+            "Reprendre les documents sans les confronter.",
+            "Négliger les points communs et les différences.",
+            "Confondre faits et interprétations."
+          ],
+          "tips": [
+            "Repérer les points communs et les différences entre les documents.",
+            "Distinguer les faits, les arguments et les présupposés.",
+            "Construire une problématique avant de rédiger."
+          ]
+        }
+      },
+      "listening": {
+        "format": "Document audio authentique d'environ 15 min (interview radio France Culture, RFI, France Inter), écouté deux fois.",
+        "method": {
+          "errors": [
+            "Vouloir tout comprendre au lieu de saisir la problématique et les positions.",
+            "Confondre le point de vue du journaliste et celui de l'invité.",
+            "Négliger les nuances et les réserves exprimées."
+          ],
+          "tips": [
+            "Identifier le thème, la problématique et les idées essentielles.",
+            "Noter les positions et les arguments, pas les mots isolés.",
+            "Repérer les nuances, les réserves et les exemples."
+          ]
+        }
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "Français avec Pierre",
+      "pages": [
+        "Exemples DELF B1 : sujets et conseils pour chaque partie",
+        "Exemples DELF B2 : sujets et conseils pour chaque partie",
+        "Exemple DALF C1 : sujets, thèmes et conseils pour réussir",
+        "Exemple DALF C2 : sujets, thèmes et conseils pour réussir"
+      ],
+      "accessed": "2026-11-22"
+    }
+  ],
+  "deduplication": "Les thèmes généraux des pages source (travail, éducation, environnement, consommation, médias, société, tourisme, technologies, santé) recoupent les catégories déjà présentes : ils n'ont pas été ajoutés en double. Les pages ont servi à ajouter le format détaillé, la méthode et des exemples de sujets absents du catalogue."
+}

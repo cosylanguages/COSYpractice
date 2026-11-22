@@ -5,10 +5,13 @@ These files were initialised with 10 placeholder prompts per language (30 for En
 ---
 
 ### 1. French (`fr`)
-- [ ] Review `data/daily/fr/speaking.json` prompts for natural phrasing across CEFR levels A2–B2.
-- [ ] Review `data/daily/fr/writing.json` prompts for situational accuracy and variety.
-- [ ] Review the added curated speaking prompts (4 bands, exam-style tasks) for natural phrasing and level fit.
-- [ ] Expand writing from 10 to 30 prompts per file, with curated prompts for every CEFR band.
+- [x] Review `data/daily/fr/speaking.json` prompts for natural phrasing across CEFR levels A2–B2.
+- [x] Review `data/daily/fr/writing.json` prompts for situational accuracy and variety.
+- [x] Review the added curated speaking prompts (4 bands, exam-style tasks) for natural phrasing and level fit.
+- [x] Expand writing from 10 to 30 prompts per file, with curated prompts for every CEFR band.
+- [x] Map every DELF B1, DELF B2, DALF C1 and DALF C2 theme category to at least one speaking card and one writing
+  card, using `data/exam/fr/delf-dalf-themes.json` and the `theme` field (55 categories, 545 themes).
+- [ ] Native-speaker proofread of the 55 new theme-mapped speaking cards and 55 new theme-mapped writing cards.
 
 ### 2. Italian (`it`)
 - [ ] Review `data/daily/it/speaking.json` prompts for natural conversational style.

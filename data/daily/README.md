@@ -30,6 +30,7 @@ Curated speaking prompts carry the exam-style scaffolding the daily strip render
 | `track` | `"exam"` (default) or `"general"` — a general-course card has no exam and no part |
 | `activity` | For general cards, the speaking activity: `brainstorm`, `analyse`, `describe`, `compare`, `discuss`, `narrate`, `role-play`, `problem-solving`, `interview`, `plan`, `present`, `identify` |
 | `audience` | Who the card suits: any of `young`, `teen`, `adult`, `senior`. Empty means everyone |
+| `theme` | Optional. On French exam cards, the DELF/DALF category id from `data/exam/fr/delf-dalf-themes.json` that the prompt practises (for example `b2-environnement`). The catalogue holds the full theme list and the official task shapes for B1, B2, C1 and C2. |
 
 `exam` and `part` are required: a learner always sees which real exam task they are practising. Part names follow each
 exam's own structure — IELTS Part 1/2/3; Cambridge Pre A1 Starters (4 parts), A1 Movers (4), A2 Key (2), B1
@@ -105,10 +106,11 @@ expects" guide describes the card actually shown, not the band the learner click
 
 - `"curated": true` marks hand-written prompts that were written for one level band (`A0-A1`, `A2`, `B1-B2`, `C1-C2`). When any curated
   prompt matches the learner's band, the strip chooses among those only; otherwise it chooses among all matching entries.
-  Coverage per band: every language carries at least 8 curated exam prompts per band (English 13-19, French, Italian,
-  Russian and Greek 10-12, German, Spanish and Portuguese 8-11, Armenian, Georgian, Tatar, Bashkir, Breton and
-  Chuvash 8). The general track adds at least 4 cards per band per language. Writing follows the same shape with a
-  floor of 6 curated exam cards and 4 general cards per band.
+  Coverage per band: every language carries at least 8 curated exam prompts per band. French adds the full
+  DELF/DALF theme bank: all 55 categories in `data/exam/fr/delf-dalf-themes.json` have at least one speaking card
+  and one writing card at the matching exam (DELF B1, DELF B2, DALF C1, DALF C2), and every French exam card names
+  its category in `theme`. The general track adds at least 4 cards per band per language. Writing follows the same
+  shape with a floor of 6 curated exam cards and 4 general cards per band.
 - Exam models in use: IELTS, TOEFL iBT, Cambridge (Pre A1 Starters, Movers, Key, Preliminary, First, Advanced,
   Proficiency), Trinity ISE, ECPE, DELF/DALF, TCF, DELE, SIELE, Goethe-Zertifikat, ÖSD, telc, CILS, CELI, CAPLE,
   Celpe-Bras, ТРКИ (ТЭУ/ТБУ/ТРКИ-1–4), Ελληνομάθεια, the Armenian, Georgian, Tatar, Bashkir and Chuvash state language

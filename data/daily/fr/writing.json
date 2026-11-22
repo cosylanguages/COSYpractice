@@ -187,7 +187,7 @@
     "genre": "Critique",
     "word_min": 150,
     "word_max": 180,
-    "write_minutes": 35,
+    "write_minutes": 45,
     "audience": [
       "young",
       "teen",
@@ -202,7 +202,8 @@
     "follow_ups": [
       "Qu'est-ce qui vous a le plus marqué ?",
       "Le recommanderiez-vous ?"
-    ]
+    ],
+    "theme": "b1-loisirs-culture"
   },
   {
     "id": "fr:writing:c6",
@@ -216,7 +217,7 @@
     "genre": "Texte",
     "word_min": 150,
     "word_max": 180,
-    "write_minutes": 35,
+    "write_minutes": 45,
     "audience": [
       "young",
       "teen",
@@ -231,7 +232,8 @@
     "follow_ups": [
       "Quelle habitude voulez-vous garder ?",
       "Combien de temps y consacrez-vous ?"
-    ]
+    ],
+    "theme": "b1-sante"
   },
   {
     "id": "fr:writing:c7",
@@ -243,9 +245,9 @@
     "part": "Production écrite · Essai",
     "task": "Essai",
     "genre": "Essai",
-    "word_min": 220,
+    "word_min": 240,
     "word_max": 260,
-    "write_minutes": 45,
+    "write_minutes": 75,
     "audience": [
       "teen",
       "adult",
@@ -259,7 +261,8 @@
     "follow_ups": [
       "Comment garder le lien avec les collègues ?",
       "Quels métiers souffrent le plus ?"
-    ]
+    ],
+    "theme": "c1-travail"
   },
   {
     "id": "fr:writing:c8",
@@ -268,26 +271,28 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Réflexion critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Réflexion critique",
     "genre": "Essai",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 60,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelles langues sont les plus menacées ?",
       "Que peuvent faire les écoles ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:writing:wx1",
@@ -649,7 +654,7 @@
     "genre": "Essai",
     "word_min": 160,
     "word_max": 180,
-    "write_minutes": 35,
+    "write_minutes": 45,
     "audience": [
       "young",
       "teen",
@@ -664,7 +669,8 @@
     "follow_ups": [
       "Quels exemples donnez-vous ?",
       "Quel réseau utilisez-vous le plus ?"
-    ]
+    ],
+    "theme": "b2-medias-internet"
   },
   {
     "id": "fr:writing:wx14",
@@ -678,7 +684,7 @@
     "genre": "Courriel",
     "word_min": 160,
     "word_max": 180,
-    "write_minutes": 35,
+    "write_minutes": 45,
     "audience": [
       "young",
       "teen",
@@ -693,7 +699,8 @@
     "follow_ups": [
       "Quelles dates vous conviennent ?",
       "Quel est votre niveau actuel ?"
-    ]
+    ],
+    "theme": "b1-apprentissage-francais"
   },
   {
     "id": "fr:writing:wx15",
@@ -705,9 +712,9 @@
     "part": "Production écrite · Lettre formelle",
     "task": "Lettre formelle",
     "genre": "Lettre",
-    "word_min": 220,
-    "word_max": 250,
-    "write_minutes": 45,
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
     "audience": [
       "young",
       "teen",
@@ -722,7 +729,8 @@
     "follow_ups": [
       "Quel emplacement proposez-vous ?",
       "Qui doit décider ?"
-    ]
+    ],
+    "theme": "c1-urbanisme"
   },
   {
     "id": "fr:writing:wx16",
@@ -734,9 +742,9 @@
     "part": "Production écrite · Essai argumentatif",
     "task": "Essai",
     "genre": "Essai",
-    "word_min": 220,
-    "word_max": 250,
-    "write_minutes": 45,
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
     "audience": [
       "young",
       "teen",
@@ -751,7 +759,8 @@
     "follow_ups": [
       "Quels risques voyez-vous ?",
       "Quel équilibre proposez-vous ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:writing:wx17",
@@ -763,9 +772,9 @@
     "part": "Production écrite · Article de presse",
     "task": "Article",
     "genre": "Article",
-    "word_min": 220,
-    "word_max": 250,
-    "write_minutes": 45,
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
     "audience": [
       "young",
       "teen",
@@ -780,7 +789,8 @@
     "follow_ups": [
       "Que lisent les jeunes autour de vous ?",
       "Quel exemple donnez-vous ?"
-    ]
+    ],
+    "theme": "b2-loisirs-culture"
   },
   {
     "id": "fr:writing:wx18",
@@ -789,12 +799,12 @@
     "curated": true,
     "track": "exam",
     "exam": "DELF B2",
-    "part": "Production écrite · Compte rendu",
+    "part": "Production écrite · Article",
     "task": "Compte rendu",
-    "genre": "Rapport",
-    "word_min": 220,
-    "word_max": 250,
-    "write_minutes": 45,
+    "genre": "Article",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
     "audience": [
       "young",
       "teen",
@@ -809,7 +819,8 @@
     "follow_ups": [
       "Quelles positions s'opposent ?",
       "Quelle synthèse proposez-vous ?"
-    ]
+    ],
+    "theme": "b2-transports"
   },
   {
     "id": "fr:writing:wx19",
@@ -823,7 +834,7 @@
     "genre": "Synthèse",
     "word_min": 200,
     "word_max": 240,
-    "write_minutes": 45,
+    "write_minutes": 75,
     "audience": [
       "teen",
       "adult",
@@ -837,7 +848,8 @@
     "follow_ups": [
       "Quel texte est le plus solide ?",
       "Où sont-ils d'accord ?"
-    ]
+    ],
+    "theme": "c1-numerique"
   },
   {
     "id": "fr:writing:wx20",
@@ -851,7 +863,7 @@
     "genre": "Essai",
     "word_min": 240,
     "word_max": 280,
-    "write_minutes": 45,
+    "write_minutes": 75,
     "audience": [
       "teen",
       "adult",
@@ -865,7 +877,8 @@
     "follow_ups": [
       "Quel rôle pour les parents ?",
       "Quelle limite fixer ?"
-    ]
+    ],
+    "theme": "c1-ecole"
   },
   {
     "id": "fr:writing:wx21",
@@ -874,26 +887,28 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Texte argumenté",
+    "part": "Production écrite · Texte structuré",
     "task": "Texte argumenté",
     "genre": "Essai",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 60,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelle objection est la plus forte ?",
       "Comment y répondez-vous ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:writing:wx22",
@@ -902,26 +917,28 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Compte rendu critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Compte rendu critique",
     "genre": "Rapport",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 60,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Quelles limites relevez-vous ?",
       "Quelle thèse est la plus faible ?"
-    ]
+    ],
+    "theme": "c1-ecole"
   },
   {
     "id": "fr:writing:wx23",
@@ -935,7 +952,7 @@
     "genre": "Article",
     "word_min": 240,
     "word_max": 280,
-    "write_minutes": 45,
+    "write_minutes": 75,
     "audience": [
       "teen",
       "adult",
@@ -949,7 +966,8 @@
     "follow_ups": [
       "Quel point de vue défendez-vous ?",
       "Quels risques pour les langues minoritaires ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:writing:wx24",
@@ -958,26 +976,28 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Production écrite · Essai critique",
+    "part": "Production écrite · Texte structuré",
     "task": "Essai critique",
     "genre": "Essai",
-    "word_min": 250,
-    "word_max": 300,
-    "write_minutes": 60,
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
     "audience": [
       "teen",
       "adult",
       "senior"
     ],
     "checklist": [
-      "Votre position est claire dans l'introduction et la conclusion.",
-      "Vous avez traité un argument contraire.",
-      "Le registre et le ton restent constants."
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ],
     "follow_ups": [
       "Qu'est-ce qu'une œuvre authentique ?",
       "Quel rôle pour l'artiste ?"
-    ]
+    ],
+    "theme": "c1-science"
   },
   {
     "id": "fr:writing:wgx1",
@@ -1229,7 +1249,8 @@
     "follow_ups": [
       "Quelle objection traitez-vous ?",
       "Quel club choisiriez-vous ?"
-    ]
+    ],
+    "theme": "b1-vie-scolaire"
   },
   {
     "id": "fr:writing:wgx10",
@@ -1257,7 +1278,8 @@
     "follow_ups": [
       "Quel point est le plus important ?",
       "Qu'avez-vous laissé de côté ?"
-    ]
+    ],
+    "theme": "b1-sante"
   },
   {
     "id": "fr:writing:wgx11",
@@ -1285,7 +1307,8 @@
     "follow_ups": [
       "Quel dédommagement attendez-vous ?",
       "Comment la gêne s'est-elle manifestée ?"
-    ]
+    ],
+    "theme": "b2-consommation"
   },
   {
     "id": "fr:writing:wgx12",
@@ -1340,7 +1363,8 @@
     "follow_ups": [
       "Quel est l'argument contraire le plus fort ?",
       "Qui serait touché le plus ?"
-    ]
+    ],
+    "theme": "c1-urbanisme"
   },
   {
     "id": "fr:writing:wgx14",
@@ -1367,7 +1391,8 @@
     "follow_ups": [
       "Qu'avez-vous supprimé d'abord ?",
       "Quelle preuve doit rester ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:writing:wgx15",
@@ -1394,7 +1419,8 @@
     "follow_ups": [
       "De quoi parlent-ils vraiment ?",
       "Comment la scène se termine-t-elle ?"
-    ]
+    ],
+    "theme": "c1-loisirs-culture"
   },
   {
     "id": "fr:writing:wgx16",
@@ -1421,7 +1447,8 @@
     "follow_ups": [
       "Où le parti pris est-il le plus net ?",
       "Quelle preuve manque ?"
-    ]
+    ],
+    "theme": "c1-medias"
   },
   {
     "id": "fr:writing:wgx17",
@@ -1449,6 +1476,1420 @@
     "follow_ups": [
       "Quand le changement commence-t-il ?",
       "Que doivent faire les habitants ?"
+    ],
+    "theme": "b1-environnement"
+  },
+  {
+    "id": "fr:writing:x1",
+    "prompt": "Vous écrivez à un ami pour lui raconter votre première semaine dans un centre de langue français. Dites comment se passent les cours, ce que vous aimez et ce qui est difficile.",
+    "topic": "L'apprentissage du français",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message",
+    "genre": "Message",
+    "theme": "b1-apprentissage-francais",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x2",
+    "prompt": "Votre immeuble organise une fête des voisins. Écrivez un message aux habitants pour présenter l'événement et les inviter.",
+    "topic": "La vie sociale",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message",
+    "genre": "Message",
+    "theme": "b1-vie-sociale",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x3",
+    "prompt": "Vous avez vu une offre de stage. Écrivez un courriel de motivation court : présentez-vous, expliquez pourquoi ce stage vous intéresse et joignez votre CV.",
+    "topic": "La vie professionnelle",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Courriel",
+    "theme": "b1-vie-professionnelle",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x4",
+    "prompt": "Le journal de votre école vous demande un article sur les avantages et les inconvénients du téléphone portable à l'école. Rédigez cet article.",
+    "topic": "La vie scolaire et étudiante",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Article",
+    "theme": "b1-vie-scolaire",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x5",
+    "prompt": "Vous organisez un repas de famille. Écrivez à un cousin pour l'inviter, donner la date, le lieu et lui demander d'apporter un plat.",
+    "topic": "La vie familiale",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message",
+    "genre": "Message",
+    "theme": "b1-vie-familiale",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x6",
+    "prompt": "Écrivez une critique d'un film ou d'un livre que vous avez aimé. Résumez l'histoire en quelques lignes et donnez votre opinion.",
+    "topic": "Les loisirs et les pratiques culturelles",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Critique",
+    "theme": "b1-loisirs-culture",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x7",
+    "prompt": "Vous avez commandé un produit qui est arrivé abîmé. Écrivez au service client : décrivez le problème et demandez un remboursement.",
+    "topic": "La consommation",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Lettre formelle",
+    "theme": "b1-consommation",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x8",
+    "prompt": "Vous avez passé un week-end dans une ville française. Écrivez une carte postale à un ami : décrivez le lieu, ce que vous avez visité et votre impression.",
+    "topic": "Les voyages",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message",
+    "genre": "Carte postale",
+    "theme": "b1-voyages",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x9",
+    "prompt": "Le magazine de votre quartier vous demande un texte sur les bienfaits du sommeil pour les jeunes. Rédigez ce texte avec des conseils pratiques.",
+    "topic": "La santé",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Article",
+    "theme": "b1-sante",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x10",
+    "prompt": "Votre classe lance une campagne de tri des déchets. Écrivez un message aux élèves pour expliquer les règles et les motiver.",
+    "topic": "L'environnement",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 1 · Message",
+    "task": "Message",
+    "genre": "Message",
+    "theme": "b1-environnement",
+    "word_min": 80,
+    "word_max": 100,
+    "write_minutes": 20,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x11",
+    "prompt": "Vous écrivez au journal local pour donner votre avis sur les trottinettes électriques en ville. Dites ce qui vous plaît et ce qui vous inquiète.",
+    "topic": "Les transports",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Production écrite · Exercice 2 · Article ou essai",
+    "task": "Article ou essai",
+    "genre": "Courrier des lecteurs",
+    "theme": "b1-transports",
+    "word_min": 120,
+    "word_max": 150,
+    "write_minutes": 25,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai répondu à toutes les parties de la consigne.",
+      "J'ai organisé mon texte en paragraphes et utilisé des connecteurs simples (d'abord, ensuite, cependant).",
+      "J'ai relu pour corriger les accords, les temps et l'orthographe."
+    ]
+  },
+  {
+    "id": "fr:writing:x12",
+    "prompt": "Le journal de votre université publie un dossier sur les cours à distance. Écrivez un article qui présente les avantages et les limites de cette formule.",
+    "topic": "Les études",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-etudes",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x13",
+    "prompt": "Vous écrivez une lettre formelle au directeur de votre entreprise pour proposer la mise en place du télétravail deux jours par semaine. Justifiez votre proposition.",
+    "topic": "Le monde du travail",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre formelle",
+    "theme": "b2-travail",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x14",
+    "prompt": "Un magazine de santé vous demande un texte sur les dangers de l'automédication. Rédigez un article argumenté avec des exemples.",
+    "topic": "La santé",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-sante",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x15",
+    "prompt": "Le maire de votre ville envisage de fermer le cinéma municipal. Écrivez-lui une lettre pour défendre son maintien.",
+    "topic": "Les loisirs et la culture",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre formelle",
+    "theme": "b2-loisirs-culture",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x16",
+    "prompt": "Vous avez acheté un appareil qui est tombé en panne après trois mois. Écrivez une lettre de réclamation au service client et demandez réparation ou remboursement.",
+    "topic": "Les habitudes de consommation",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre formelle",
+    "theme": "b2-consommation",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x17",
+    "prompt": "Le gaspillage alimentaire dans les restaurants est un problème. Écrivez un texte pour proposer des solutions concrètes aux restaurateurs.",
+    "topic": "Les comportements alimentaires",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-alimentation",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x18",
+    "prompt": "Votre ville lance un appel à projets pour lutter contre l'isolement des personnes âgées. Présentez votre projet dans une lettre argumentée.",
+    "topic": "Les relations sociales",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre formelle",
+    "theme": "b2-relations-sociales",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x19",
+    "prompt": "Une entreprise de votre région est critiquée pour ses inégalités salariales. Écrivez une tribune pour proposer des mesures concrètes.",
+    "topic": "L'égalité homme/femme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Tribune",
+    "theme": "b2-egalite",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x20",
+    "prompt": "Les repas en famille sont-ils encore importants aujourd'hui ? Rédigez un essai argumenté.",
+    "topic": "Les relations familiales",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-relations-familiales",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x21",
+    "prompt": "Votre commune veut créer une réserve naturelle protégée. Écrivez un article qui présente les arguments pour et contre.",
+    "topic": "L'environnement",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-environnement",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x22",
+    "prompt": "Faut-il interdire les smartphones dans les restaurants ? Écrivez un texte d'opinion argumenté.",
+    "topic": "Les médias & Internet",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-medias-internet",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x23",
+    "prompt": "Le conseil municipal veut rendre les transports publics gratuits. Écrivez une lettre pour défendre cette mesure.",
+    "topic": "Les transports",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Lettre formelle",
+    "task": "Lettre formelle",
+    "genre": "Lettre formelle",
+    "theme": "b2-transports",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x24",
+    "prompt": "La simplification de l'orthographe française est régulièrement proposée. Écrivez un essai qui pèse les arguments.",
+    "topic": "Le français et la francophonie",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-francophonie",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x25",
+    "prompt": "L'influence d'Instagram transforme les lieux touristiques. Rédigez un article critique et proposez des alternatives.",
+    "topic": "Le tourisme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "b2-tourisme",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 60,
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai clairement annoncé ma position et l'ai justifiée avec des exemples.",
+      "J'ai traité au moins une objection ou un point de vue contraire.",
+      "J'ai utilisé un registre adapté et des connecteurs variés (en revanche, par conséquent, bien que)."
+    ]
+  },
+  {
+    "id": "fr:writing:x26",
+    "prompt": "Une revue de société vous demande une synthèse de deux textes sur les pères au foyer et l'évolution des rôles parentaux. Rédigez la synthèse en 220 mots.",
+    "topic": "La famille",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-famille",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x27",
+    "prompt": "Rédigez un essai argumenté sur la place de l'animal dans la société contemporaine, en confrontant les droits des animaux et les pratiques culturelles.",
+    "topic": "La vie en société",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-vie-societe",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x28",
+    "prompt": "La suppression des notes à l'école primaire fait débat. Rédigez un essai argumenté qui pèse les bénéfices et les risques.",
+    "topic": "L'école",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-ecole",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x29",
+    "prompt": "Le bien-être au travail est devenu un argument de recrutement. Analysez cette évolution et ses limites dans un essai argumenté.",
+    "topic": "Le monde du travail",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-travail",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x30",
+    "prompt": "Les caméras de surveillance se multiplient dans les villes. Rédigez une synthèse de deux documents sur sécurité et libertés.",
+    "topic": "L'urbanisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-urbanisme",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x31",
+    "prompt": "La crise de l'eau est souvent présentée comme un problème de demain. Rédigez un essai argumenté sur les responsabilités actuelles.",
+    "topic": "L'environnement",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-environnement",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x32",
+    "prompt": "La protection des données personnelles à l'ère du métavers : rédigez une synthèse de deux textes aux positions opposées.",
+    "topic": "Le numérique",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-numerique",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x33",
+    "prompt": "La sobriété numérique est-elle une contrainte ou une opportunité pour les entreprises ? Rédigez un essai argumenté.",
+    "topic": "La consommation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-consommation",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x34",
+    "prompt": "La sécurité alimentaire mondiale face aux nouvelles tendances de consommation : synthétisez deux documents.",
+    "topic": "L'alimentation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-alimentation",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x35",
+    "prompt": "L'avenir de la presse payante à l'heure de l'information gratuite : rédigez une synthèse de deux articles.",
+    "topic": "Les médias",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-medias",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x36",
+    "prompt": "Les adaptations d'ouvrages au cinéma servent-elles la littérature ou la trahissent-elles ? Rédigez un essai argumenté.",
+    "topic": "Les loisirs et la culture",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-loisirs-culture",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x37",
+    "prompt": "Le tourisme durable est-il autre chose qu'un argument marketing ? Rédigez une synthèse de deux textes.",
+    "topic": "Le tourisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-tourisme",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x38",
+    "prompt": "La domination des GAFAM sur l'économie numérique : rédigez une synthèse de deux analyses.",
+    "topic": "L'économie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-economie",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x39",
+    "prompt": "Les médecines alternatives doivent-elles être encadrées par l'État ? Rédigez un essai argumenté.",
+    "topic": "La santé",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-sante",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x40",
+    "prompt": "Le tourisme spatial et la colonisation de Mars : rêve scientifique ou fuite en avant ? Rédigez un essai argumenté.",
+    "topic": "La recherche spatiale",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-recherche-spatiale",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x41",
+    "prompt": "Les neurosciences et le libre arbitre : rédigez une synthèse de deux textes sur les implications éthiques.",
+    "topic": "Les progrès & dangers de la science",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Synthèse",
+    "task": "Synthèse",
+    "genre": "Synthèse",
+    "theme": "c1-science",
+    "word_min": 200,
+    "word_max": 240,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Je n'ai pas ajouté d'opinion personnelle ni d'exemple extérieur aux documents.",
+      "J'ai confronté les documents au lieu de les résumer l'un après l'autre.",
+      "J'ai respecté le nombre de mots et reformulé avec mes propres termes."
+    ]
+  },
+  {
+    "id": "fr:writing:x42",
+    "prompt": "Le langage épicène et le pronom « iel » : rédigez un essai argumenté sur les usages et les résistances.",
+    "topic": "Les langues et la francophonie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Production écrite · Essai argumenté",
+    "task": "Essai argumenté",
+    "genre": "Essai",
+    "theme": "c1-langues-francophonie",
+    "word_min": 240,
+    "word_max": 260,
+    "write_minutes": 75,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "Ma problématique est explicite et ma démonstration progresse logiquement.",
+      "J'ai reformulé les documents sans les paraphraser et cité les idées avec précision.",
+      "J'ai nuancé ma position et soigné le registre soutenu."
+    ]
+  },
+  {
+    "id": "fr:writing:x43",
+    "prompt": "Rédigez le compte rendu critique d'un rapport sur la suppression des notes à l'université, puis évaluez ses recommandations.",
+    "topic": "L'école",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-ecole",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x44",
+    "prompt": "Rédigez un texte argumenté sur la place de l'animal dans la famille contemporaine, en confrontant plusieurs conceptions du bien-être animal.",
+    "topic": "La vie sociale et familiale",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-vie-sociale-familiale",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x45",
+    "prompt": "Le revenu universel et la fin du plein emploi : rédigez un texte argumenté qui anticipe les conséquences sociales.",
+    "topic": "Le monde du travail",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-travail",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x46",
+    "prompt": "Rédigez le compte rendu critique d'un essai sur la pollution numérique et la sobriété des usages.",
+    "topic": "Les médias et le numérique",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Compte rendu critique",
+    "genre": "Compte rendu",
+    "theme": "c2-medias-numerique",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x47",
+    "prompt": "L'éco-criminalité et les déchets radioactifs : rédigez un texte argumenté sur la responsabilité intergénérationnelle.",
+    "topic": "L'environnement",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-environnement",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x48",
+    "prompt": "Rédigez un compte rendu critique d'un article sur les antivaccins et la confiance dans la science.",
+    "topic": "La santé",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Compte rendu critique",
+    "genre": "Compte rendu",
+    "theme": "c2-sante",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x49",
+    "prompt": "Le dopage dans le sport et l'e-sport : rédigez un texte argumenté sur les frontières de l'équité.",
+    "topic": "La culture et les loisirs",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-culture-loisirs",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x50",
+    "prompt": "Les cryptomonnaies et les banques en ligne : rédigez un compte rendu critique de deux documents aux thèses opposées.",
+    "topic": "La consommation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Compte rendu critique",
+    "genre": "Compte rendu",
+    "theme": "c2-consommation",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x51",
+    "prompt": "Les bâtiments résidentiels végétalisés et les jardins collectifs : rédigez un texte argumenté sur l'urbanisme durable.",
+    "topic": "L'urbanisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-urbanisme",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x52",
+    "prompt": "L'anthropocène et le transhumanisme : rédigez un texte argumenté sur les limites de l'action humaine.",
+    "topic": "Les progrès et dangers de la science",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-science",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x53",
+    "prompt": "La domination des GAFAM et le financement participatif : rédigez un compte rendu critique de deux analyses.",
+    "topic": "L'économie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Compte rendu critique",
+    "genre": "Compte rendu",
+    "theme": "c2-economie",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x54",
+    "prompt": "Le surtourisme et le tourisme de proximité : rédigez un texte argumenté sur l'avenir du voyage.",
+    "topic": "Le tourisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Texte argumenté",
+    "genre": "Essai",
+    "theme": "c2-tourisme",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
+    ]
+  },
+  {
+    "id": "fr:writing:x55",
+    "prompt": "Rédigez un compte rendu critique d'un essai sur le langage épicène et l'évolution de la langue française.",
+    "topic": "Les langues et la francophonie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Production écrite · Texte structuré",
+    "task": "Compte rendu critique",
+    "genre": "Compte rendu",
+    "theme": "c2-langues-francophonie",
+    "word_min": 700,
+    "word_max": 800,
+    "write_minutes": 210,
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "checklist": [
+      "J'ai pris position clairement sur la question posée.",
+      "J'ai confronté les documents et reformulé leurs idées sans les recopier.",
+      "J'ai proposé des solutions concrètes et illustré mes arguments.",
+      "Mon texte fait au moins 700 mots et suit une progression logique."
     ]
   }
 ]
