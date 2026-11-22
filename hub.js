@@ -1245,17 +1245,22 @@
     }
 
     async function loadCosydataThemes() {
-        try {
-            const COSYDATA_THEMES_URL = 'https://raw.githubusercontent.com/cosylanguages/COSYdata/main/schemas/themes.json';
-            const res = await fetch(COSYDATA_THEMES_URL);
-            if (res.ok) {
+        const sources = [
+            'data/schemas/themes.json',
+            'https://raw.githubusercontent.com/cosylanguages/COSYdata/d7f14f823cc664cdf9986fa85c15e1c07d9c99ac/schemas/themes.json'
+        ];
+        for (const source of sources) {
+            try {
+                const res = await fetch(source);
+                if (!res.ok) continue;
                 window.COSY_THEMES_SCHEMA = await res.json();
                 categoryCountsCache.clear();
                 lastCategoryCounts = null;
                 updateThemes();
+                return;
+            } catch (e) {
+                console.warn(`[Practice Hub] Failed to load themes from ${source}:`, e);
             }
-        } catch (e) {
-            console.warn('[Practice Hub] Failed to load COSYdata themes.json:', e);
         }
     }
 

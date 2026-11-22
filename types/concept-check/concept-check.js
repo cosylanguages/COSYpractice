@@ -2,12 +2,12 @@
  * practice/types/concept-check/concept-check.js
  *
  * Interactive Concept Checking Questions (CCQs).
- * Loads a lesson-stage unit (https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/{lang}/lessons/{unit}.json,
+ * Loads a lesson-stage unit (https://raw.githubusercontent.com/cosylanguages/COSYplatform/72e2ca02a0753527a95fe26014e68b9bd80555d7/reference/grammar/{lang}/lessons/{unit}.json,
  * schema/lesson-stage.schema.json) and renders its `meaningCheck` CCQs as
  * yes/no or short-factual checks with immediate feedback.
  *
  * URL params:
- *   ?lang=en&unit=to-be   -> https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/en/lessons/to-be.json
+ *   ?lang=en&unit=to-be   -> https://raw.githubusercontent.com/cosylanguages/COSYplatform/72e2ca02a0753527a95fe26014e68b9bd80555d7/reference/grammar/en/lessons/to-be.json
  *
  * A meaningCheck item may be:
  *   - an inline CCQ object {targetItem, language, ccq, answer, distractor?}
@@ -214,7 +214,7 @@
     }
 
     function load() {
-        var url = 'https://raw.githubusercontent.com/cosylanguages/COSYplatform/main/reference/grammar/' + lang + '/lessons/' + unit + '.json';
+        var url = 'https://raw.githubusercontent.com/cosylanguages/COSYplatform/72e2ca02a0753527a95fe26014e68b9bd80555d7/reference/grammar/' + lang + '/lessons/' + unit + '.json';
         fetch(url).then(function (r) {
             if (!r.ok) throw new Error('Lesson not found: ' + url);
             return r.json();
