@@ -62,7 +62,7 @@
         <a href="#main" class="skip-link">Skip to Content</a>
         <a href="index.html" class="pg-back">← Back to Practice</a>
         <h1>📊 Cross-Course Progress</h1>
-        <p class="pg-sub" id="pg-sub">Loading CEFR outcomes…</p>
+        <p class="pg-sub" id="pg-sub">Loading course progress…</p>
 
         <div class="pg-toolbar">
             <span class="pg-streak" id="pg-streak">🔥 0 day streak</span>
@@ -83,7 +83,7 @@
         var errEl = document.getElementById('pg-error');
         var streakEl = document.getElementById('pg-streak');
 
-        function fail(msg) { errEl.textContent = msg; errEl.hidden = false; subEl.textContent = 'Could not load outcomes'; }
+        function fail(msg) { errEl.textContent = msg; errEl.hidden = false; subEl.textContent = 'Could not load curriculum stats'; }
 
         function renderStreak() {
             var s = store.getStreakInfo();
@@ -120,17 +120,27 @@
             renderStreak();
         }
 
-        function load() {
-            fetch('data/levels/cefr-outcomes.json').then(function (r) {
-                if (!r.ok) throw new Error('outcomes not found');
+        function fetchJson(url) {
+            return fetch(url).then(function (r) {
+                if (!r.ok) throw new Error(url + ' not found');
                 return r.json();
-            }).then(render).catch(function (e) { fail(e.message); });
+            });
+        }
+
+        function loadData() {
+            return fetchJson('data/levels/curriculum-stats.json').catch(function () {
+                return fetchJson('data/levels/cefr-outcomes.json');
+            });
+        }
+
+        function load() {
+            loadData().then(render).catch(function (e) { fail(e.message); });
         }
 
         document.getElementById('pg-seed').addEventListener('click', function () {
             // seed plausible progress so the dashboard is demonstrable
             store.reset();
-            fetch('data/levels/cefr-outcomes.json').then(function (r) { return r.json(); }).then(function (data) {
+            loadData().then(function (data) {
                 var c = data.courses || {};
                 // fully-mastered level -> 'ready to level up'
                 if (c.general && c.general[0]) store.seedDemo('general', c.general[0].level, c.general[0].lessons, 0.95, 4);

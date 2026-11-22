@@ -67,3 +67,14 @@ jobs:
         env:
           COSYMANUALS_DIR: ${{ github.workspace }}/.cosy/COSYmanuals
         run: node scripts/check-practice-links.js
+
+      - name: Check out the canonical COSYplatform curriculum
+        uses: actions/checkout@v4
+        with:
+          repository: cosylanguages/COSYplatform
+          path: .cosy/COSYplatform
+
+      - name: Check curriculum stats
+        env:
+          COSYPLATFORM_DIR: ${{ github.workspace }}/.cosy/COSYplatform
+        run: node scripts/check-curriculum-stats.js

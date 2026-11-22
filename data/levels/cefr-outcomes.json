@@ -1,6 +1,7 @@
 {
   "language": "en",
   "generated_from": "curriculums/en/**/*.json",
+  "_counts_note": "Historical snapshot retained for can-do statements. progress-dashboard.html uses data/levels/curriculum-stats.json for current unit and lesson counts.",
   "homework_multiplier": 1.5,
   "cefr_benchmark_source": "Skyeng-published CEFR hour targets (engblog.ru/skyeng-review)",
   "courses": {

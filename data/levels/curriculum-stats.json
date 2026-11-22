@@ -1,0 +1,153 @@
+{
+  "language": "en",
+  "generated_from": "COSYplatform curriculums/en/**/*.json",
+  "courses": {
+    "exam": [
+      {
+        "level": "B1",
+        "units": 5,
+        "lessons": 25
+      },
+      {
+        "level": "B2",
+        "units": 5,
+        "lessons": 25
+      },
+      {
+        "level": "C1",
+        "units": 5,
+        "lessons": 25
+      },
+      {
+        "level": "C2",
+        "units": 5,
+        "lessons": 25
+      }
+    ],
+    "general": [
+      {
+        "level": "A1",
+        "units": 23,
+        "lessons": 257
+      },
+      {
+        "level": "A2",
+        "units": 11,
+        "lessons": 141
+      },
+      {
+        "level": "B1",
+        "units": 11,
+        "lessons": 120
+      },
+      {
+        "level": "B2",
+        "units": 11,
+        "lessons": 121
+      },
+      {
+        "level": "C1",
+        "units": 8,
+        "lessons": 94
+      },
+      {
+        "level": "C2",
+        "units": 10,
+        "lessons": 20
+      }
+    ],
+    "professional": [
+      {
+        "level": "B1",
+        "units": 8,
+        "lessons": 32
+      },
+      {
+        "level": "B2",
+        "units": 8,
+        "lessons": 32
+      },
+      {
+        "level": "C1",
+        "units": 6,
+        "lessons": 24
+      },
+      {
+        "level": "C2",
+        "units": 6,
+        "lessons": 24
+      }
+    ],
+    "relocation": [
+      {
+        "level": "A2",
+        "units": 1,
+        "lessons": 2
+      },
+      {
+        "level": "B1",
+        "units": 1,
+        "lessons": 2
+      },
+      {
+        "level": "B2",
+        "units": 1,
+        "lessons": 2
+      },
+      {
+        "level": "C1",
+        "units": 1,
+        "lessons": 1
+      }
+    ],
+    "spoken": [
+      {
+        "level": "A1",
+        "units": 7,
+        "lessons": 52
+      },
+      {
+        "level": "A2",
+        "units": 7,
+        "lessons": 98
+      },
+      {
+        "level": "B1",
+        "units": 7,
+        "lessons": 109
+      },
+      {
+        "level": "B2",
+        "units": 7,
+        "lessons": 63
+      },
+      {
+        "level": "C1",
+        "units": 7,
+        "lessons": 60
+      },
+      {
+        "level": "C2",
+        "units": 6,
+        "lessons": 30
+      }
+    ],
+    "travelling": [
+      {
+        "level": "A1",
+        "units": 5,
+        "lessons": 20
+      },
+      {
+        "level": "A2",
+        "units": 5,
+        "lessons": 20
+      },
+      {
+        "level": "B1",
+        "units": 5,
+        "lessons": 20
+      }
+    ]
+  }
+}

@@ -128,7 +128,7 @@
     /**
      * Summarise a single CEFR level within a course.
      * @param totalLessons total lesson count for this course+level
-     *   (from data/levels/cefr-outcomes.json). If unknown, uses the count
+     *   (from data/levels/curriculum-stats.json). If unknown, uses the count
      *   of distinct reviewed items.
      */
     CrossCourseProgress.prototype.getLevelStatus = function (course, level, totalLessons) {
