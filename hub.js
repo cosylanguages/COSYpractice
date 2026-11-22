@@ -445,7 +445,12 @@
             : null;
         if (pair) {
             const levelSelect = document.getElementById('level-filter');
-            if (levelSelect && pair.level) levelSelect.value = pair.level;
+            if (levelSelect && pair.level) {
+                const levelId = window.levelShortToId ? window.levelShortToId(pair.level) : pair.level;
+                if (Array.from(levelSelect.options).some(opt => opt.value === levelId)) {
+                    levelSelect.value = levelId;
+                }
+            }
             subWrap.style.display = 'none';
             subSelect.value = '';
             return;
