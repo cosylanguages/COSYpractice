@@ -18,6 +18,15 @@ Lesson content is dynamically integrated from **COSYdata** and **COSYtools**:
 - Grammar lessons from **COSYplatform**, CCQ files from **COSYmanuals**
 - `data/vocabulary/<level>/<theme>.js` and `data/grammar/<level>/<theme>.js` are bundled here (about 38 MB) and loaded on demand per session.
 
+## DELF/DALF theme catalogue
+`data/exam/fr/delf-dalf-themes.json` is the canonical list of French exam themes supplied for
+DELF B1, DELF B2, DALF C1 and DALF C2: 55 categories and 545 themes, with the official speaking
+and writing parts, timings and word targets for each level. French daily cards carry a `theme`
+field pointing at a category, so a prompt can be traced back to the exam theme it practises.
+COSYlanguages renders the catalogue on its Exam Preparation course page; COSYplatform and
+COSYmanuals build their French exam track from the same category ids. Check it with
+`node scripts/test-exam-themes.js`.
+
 ## Daily elements
 This repository owns the daily speaking and writing prompts (`data/daily/<lang>/speaking.json`,
 `writing.json`) and the rotating Daily Challenge. The other daily elements live where they belong;

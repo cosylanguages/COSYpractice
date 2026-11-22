@@ -20,5 +20,13 @@ jobs:
       - name: Validate the daily speaking and writing prompts
         run: node scripts/validate-daily-prompts.js
 
+      - name: Test the DELF/DALF theme coverage
+        run: node scripts/test-exam-themes.js
+
+      - name: Test speaking and writing coverage
+        run: |
+          node scripts/test-speaking-coverage.js
+          node scripts/test-writing-coverage.js
+
       - name: Test the theme normaliser
         run: node scripts/test-theme-aliases.js

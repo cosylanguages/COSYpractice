@@ -166,7 +166,8 @@
     "follow_ups": [
       "Écoutez-vous de la musique en travaillant ?",
       "Quel art vous touche le plus, et pourquoi ?"
-    ]
+    ],
+    "theme": "b1-loisirs-culture"
   },
   {
     "id": "fr:speaking:c6",
@@ -187,7 +188,8 @@
     "follow_ups": [
       "Qu'est-ce qui est plus difficile à l'âge adulte ?",
       "Que conseilleriez-vous à un débutant ?"
-    ]
+    ],
+    "theme": "b1-apprentissage-francais"
   },
   {
     "id": "fr:speaking:c7",
@@ -207,7 +209,8 @@
     "follow_ups": [
       "Les outils numériques rapprochent-ils vraiment les gens ?",
       "Qu'avez-vous perdu avec ces changements ?"
-    ]
+    ],
+    "theme": "c1-numerique"
   },
   {
     "id": "fr:speaking:c8",
@@ -227,7 +230,8 @@
     "follow_ups": [
       "Une expression peut-elle mal vieillir ?",
       "Faut-il enseigner les idiomes aux débutants ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:speaking:c9",
@@ -617,7 +621,8 @@
     "follow_ups": [
       "A-t-elle été difficile à acquérir ?",
       "La recommanderiez-vous à quelqu'un de votre âge ?"
-    ]
+    ],
+    "theme": "b1-vie-professionnelle"
   },
   {
     "id": "fr:speaking:c26",
@@ -639,7 +644,8 @@
     "follow_ups": [
       "Par quoi remplaceriez-vous les examens ?",
       "Quel effet ont-ils sur la façon d'apprendre ?"
-    ]
+    ],
+    "theme": "b2-etudes"
   },
   {
     "id": "fr:speaking:c27",
@@ -661,7 +667,8 @@
     "follow_ups": [
       "Qu'est-ce qui fait échouer une équipe ?",
       "Avez-vous déjà dirigé un groupe ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:speaking:c28",
@@ -683,7 +690,8 @@
     "follow_ups": [
       "Qui pourrait s'y opposer, et pourquoi ?",
       "Qu'a déjà tenté votre ville ?"
-    ]
+    ],
+    "theme": "b1-transports"
   },
   {
     "id": "fr:speaking:c29",
@@ -705,7 +713,8 @@
     "follow_ups": [
       "Qu'en avez-vous appris ?",
       "Apprend-on plus de ses erreurs que de ses réussites ?"
-    ]
+    ],
+    "theme": "c1-vie-societe"
   },
   {
     "id": "fr:speaking:c30",
@@ -727,7 +736,8 @@
     "follow_ups": [
       "Que choisiriez-vous avec un budget limité ?",
       "Quel est le principal avantage de chaque méthode ?"
-    ]
+    ],
+    "theme": "b1-apprentissage-francais"
   },
   {
     "id": "fr:speaking:c31",
@@ -749,7 +759,8 @@
     "follow_ups": [
       "Convient-il à tous les métiers ?",
       "Que perdent les employeurs ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:speaking:c32",
@@ -771,7 +782,8 @@
     "follow_ups": [
       "Comment convaincre ceux qui ne sont pas d'accord ?",
       "Que gagne la commune dans chaque cas ?"
-    ]
+    ],
+    "theme": "b2-loisirs-culture"
   },
   {
     "id": "fr:speaking:c33",
@@ -792,7 +804,8 @@
     "follow_ups": [
       "Quelles langues sont les plus menacées ?",
       "Quel rôle pour l'école ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:speaking:c34",
@@ -813,7 +826,8 @@
     "follow_ups": [
       "Où s'arrête la persuasion et où commence la manipulation ?",
       "L'autorégulation serait-elle plus efficace ?"
-    ]
+    ],
+    "theme": "c2-langues-francophonie"
   },
   {
     "id": "fr:speaking:c35",
@@ -834,7 +848,8 @@
     "follow_ups": [
       "Comment répondez-vous à l'argument de la dispersion des collections ?",
       "Qu'est-ce qu'une propriété légitime ?"
-    ]
+    ],
+    "theme": "c1-loisirs-culture"
   },
   {
     "id": "fr:speaking:c36",
@@ -855,7 +870,8 @@
     "follow_ups": [
       "Que perd-on quand on ne lit une langue qu'à travers un logiciel ?",
       "Quels métiers seraient touchés en premier ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:speaking:c37",
@@ -865,7 +881,7 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C1",
-    "part": "Part 2 · Entretien",
+    "part": "Part 1 · Exposé",
     "task": "Débat académique",
     "audience": [
       "adult",
@@ -876,7 +892,8 @@
     "follow_ups": [
       "Quel effet sur l'évaluation des étudiants ?",
       "Que perd-on sans l'amphithéâtre ?"
-    ]
+    ],
+    "theme": "c1-ecole"
   },
   {
     "id": "fr:speaking:c38",
@@ -897,7 +914,8 @@
     "follow_ups": [
       "La protection peut-elle devenir exclusion ?",
       "Que nous apprend l'histoire des lois linguistiques ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:speaking:c39",
@@ -918,7 +936,8 @@
     "follow_ups": [
       "Qui doit financer l'entretien de ces centres ?",
       "Existe-t-il un nombre de visiteurs soutenable ?"
-    ]
+    ],
+    "theme": "c1-tourisme"
   },
   {
     "id": "fr:speaking:c40",
@@ -928,7 +947,7 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C2",
-    "part": "Part 1 · Compte rendu",
+    "part": "Part 2 · Développement argumenté",
     "task": "Discussion spéculative",
     "audience": [
       "adult",
@@ -939,7 +958,8 @@
     "follow_ups": [
       "Faut-il étiqueter les textes produits par une machine ?",
       "Qu'est-ce qu'une voix authentique ?"
-    ]
+    ],
+    "theme": "c1-science"
   },
   {
     "id": "fr:speaking:g1",
@@ -1227,7 +1247,8 @@
       "Quelle activité garderiez-vous si vous deviez en abandonner une ?",
       "Que rendrait votre semaine plus facile ?",
       "Le temps libre ou les devoirs servent-ils mieux l'apprentissage ?"
-    ]
+    ],
+    "theme": "b1-vie-scolaire"
   },
   {
     "id": "fr:speaking:g14",
@@ -1249,7 +1270,8 @@
       "Comment mesureriez-vous une bonne éducation ?",
       "Quelle matière est la plus difficile à noter justement ?",
       "Les employeurs seraient-ils d'accord avec vous ?"
-    ]
+    ],
+    "theme": "c1-ecole"
   },
   {
     "id": "fr:speaking:p1",
@@ -1294,7 +1316,8 @@
     "follow_ups": [
       "Qu'est-ce qui a été le plus difficile dans ce choix ?",
       "Referiez-vous le même parcours ?"
-    ]
+    ],
+    "theme": "b1-vie-professionnelle"
   },
   {
     "id": "fr:speaking:p3",
@@ -1337,7 +1360,8 @@
     "follow_ups": [
       "Comment mesurer la solidarité d'une équipe ?",
       "Que perd-on vraiment à distance ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:speaking:gx1",
@@ -1694,7 +1718,8 @@
     "follow_ups": [
       "Quel âge est le meilleur pour commencer ?",
       "Comment l'école peut-elle aider les familles ?"
-    ]
+    ],
+    "theme": "b1-vie-scolaire"
   },
   {
     "id": "fr:speaking:c48",
@@ -1716,7 +1741,8 @@
     "follow_ups": [
       "Qui s'occupe de l'entretien ?",
       "Comment partagez-vous les récoltes ?"
-    ]
+    ],
+    "theme": "b2-environnement"
   },
   {
     "id": "fr:speaking:c49",
@@ -1738,7 +1764,8 @@
     "follow_ups": [
       "Quels métiers ne peuvent pas le faire ?",
       "Comment garder le lien avec l'équipe ?"
-    ]
+    ],
+    "theme": "b2-travail"
   },
   {
     "id": "fr:speaking:c50",
@@ -1760,7 +1787,8 @@
     "follow_ups": [
       "La lecture est-elle un luxe ?",
       "Quel rôle pour l'école ?"
-    ]
+    ],
+    "theme": "c1-loisirs-culture"
   },
   {
     "id": "fr:speaking:c51",
@@ -1782,7 +1810,8 @@
     "follow_ups": [
       "Quelles langues sont les plus menacées ?",
       "Que peut faire un État sans contraindre ?"
-    ]
+    ],
+    "theme": "c1-langues-francophonie"
   },
   {
     "id": "fr:speaking:c52",
@@ -1791,7 +1820,7 @@
     "curated": true,
     "track": "exam",
     "exam": "DALF C1",
-    "part": "Part 2 · Entretien",
+    "part": "Part 1 · Exposé",
     "task": "Entretien",
     "audience": [
       "young",
@@ -1804,7 +1833,8 @@
     "follow_ups": [
       "Qui doit décider des limites ?",
       "Quel exemple vous convainc ?"
-    ]
+    ],
+    "theme": "c1-tourisme"
   },
   {
     "id": "fr:speaking:gx5",
@@ -2091,7 +2121,8 @@
     "follow_ups": [
       "Avec qui l'avez-vous regardé ?",
       "Le regarderiez-vous encore ?"
-    ]
+    ],
+    "theme": "b2-loisirs-culture"
   },
   {
     "id": "fr:speaking:c57",
@@ -2135,7 +2166,8 @@
     "follow_ups": [
       "Vous y allez souvent ?",
       "Quelle est la meilleure période pour visiter ?"
-    ]
+    ],
+    "theme": "b1-voyages"
   },
   {
     "id": "fr:speaking:g21",
@@ -2179,7 +2211,8 @@
     "follow_ups": [
       "Aimeriez-vous être dans cette situation ?",
       "Que s'est-il passé juste avant la photo ?"
-    ]
+    ],
+    "theme": "b2-loisirs-culture"
   },
   {
     "id": "fr:speaking:c60",
@@ -2200,7 +2233,8 @@
     "follow_ups": [
       "Quels métiers seraient les plus utiles ?",
       "Cela laisserait-il moins de temps aux autres matières ?"
-    ]
+    ],
+    "theme": "b1-vie-scolaire"
   },
   {
     "id": "fr:speaking:c61",
@@ -2221,7 +2255,8 @@
     "follow_ups": [
       "Les villes devraient-elles protéger leurs commerces ?",
       "Achetez-vous en ligne plus qu'avant ?"
-    ]
+    ],
+    "theme": "b2-consommation"
   },
   {
     "id": "fr:speaking:g22",
@@ -2285,7 +2320,8 @@
     "follow_ups": [
       "Lequel de ces trois aspects compte le plus ?",
       "Une taxe sur la congestion serait-elle juste ?"
-    ]
+    ],
+    "theme": "c1-urbanisme"
   },
   {
     "id": "fr:speaking:c63",
@@ -2305,7 +2341,8 @@
     "follow_ups": [
       "Qui profite le plus de ce changement ?",
       "Les pouvoirs publics doivent-ils intervenir, et comment ?"
-    ]
+    ],
+    "theme": "c1-travail"
   },
   {
     "id": "fr:speaking:c64",
@@ -2325,7 +2362,8 @@
     "follow_ups": [
       "Où se situe la frontière entre régulation et censure ?",
       "Les utilisateurs peuvent-ils se protéger seuls ?"
-    ]
+    ],
+    "theme": "c1-numerique"
   },
   {
     "id": "fr:speaking:g24",
@@ -2346,7 +2384,8 @@
       "Qui devrait payer, sinon l'étudiant ?",
       "La gratuité dévaloriserait-elle le diplôme ?",
       "Que fait votre pays ?"
-    ]
+    ],
+    "theme": "c1-ecole"
   },
   {
     "id": "fr:speaking:g25",
@@ -2367,6 +2406,1242 @@
       "L'équilibre consiste-t-il à donner la parole aux deux camps ?",
       "Comment un lecteur peut-il juger la fiabilité ?",
       "Votre avis a-t-il changé ?"
+    ],
+    "theme": "c1-medias"
+  },
+  {
+    "id": "fr:speaking:x1",
+    "prompt": "Vous suivez des cours de français dans un centre de langue. Présentez votre centre, expliquez pourquoi vous l'avez choisi et dites ce que vous aimeriez améliorer.",
+    "topic": "L'apprentissage du français",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-apprentissage-francais",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Préférez-vous apprendre en classe ou sur Internet ?",
+      "Quel conseil donneriez-vous à un débutant ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x2",
+    "prompt": "Vous voulez créer une association de quartier pour organiser des fêtes entre voisins. Expliquez votre projet à un ami et répondez à ses questions.",
+    "topic": "La vie sociale",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b1-vie-sociale",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 300,
+    "follow_ups": [
+      "Qui pourrait participer ?",
+      "Comment trouver un local ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x3",
+    "prompt": "Le télétravail est de plus en plus courant. Selon vous, quels sont ses avantages et ses inconvénients pour les employés ?",
+    "topic": "La vie professionnelle",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-vie-professionnelle",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Voudriez-vous travailler à distance ?",
+      "Comment garder le contact avec ses collègues ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x4",
+    "prompt": "Un lycée veut interdire le téléphone portable pendant les cours. Êtes-vous d'accord ? Donnez votre avis et des exemples.",
+    "topic": "La vie scolaire et étudiante",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-vie-scolaire",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Quelle règle serait facile à appliquer ?",
+      "Que font les élèves pendant les pauses ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x5",
+    "prompt": "Comment partager les tâches ménagères dans une famille ? Expliquez comment cela se passe chez vous et proposez une organisation plus juste.",
+    "topic": "La vie familiale",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-vie-familiale",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Qui fait quoi chez vous ?",
+      "Faut-il payer les enfants pour certaines tâches ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x6",
+    "prompt": "Racontez une sortie culturelle que vous avez aimée. Où êtes-vous allé, avec qui, et qu'avez-vous découvert ?",
+    "topic": "Les loisirs et les pratiques culturelles",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 1 · Entretien dirigé",
+    "task": "Parler de soi",
+    "theme": "b1-loisirs-culture",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "Y retourneriez-vous ?",
+      "Quelle sortie conseilleriez-vous à un ami ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x7",
+    "prompt": "Vous avez acheté un vêtement en ligne et il ne correspond pas à la description. Expliquez le problème au vendeur et demandez une solution.",
+    "topic": "La consommation",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b1-consommation",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 300,
+    "follow_ups": [
+      "Le vendeur propose un échange. Acceptez-vous ?",
+      "Comment rester poli quand on n'est pas content ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x8",
+    "prompt": "Vous revenez d'un séjour linguistique à l'étranger. Racontez votre expérience à un ami : le logement, les cours et les rencontres.",
+    "topic": "Les voyages",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 1 · Entretien dirigé",
+    "task": "Parler de soi",
+    "theme": "b1-voyages",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 180,
+    "follow_ups": [
+      "Qu'est-ce qui vous a le plus surpris ?",
+      "Partiriez-vous une deuxième fois ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x9",
+    "prompt": "Les adolescents dorment de moins en moins. Quelles en sont les causes et que faudrait-il faire ?",
+    "topic": "La santé",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-sante",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Combien d'heures dormez-vous ?",
+      "Que changeriez-vous dans votre routine ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x10",
+    "prompt": "Votre ville veut réduire les déchets plastiques. Proposez deux mesures et expliquez comment convaincre les habitants.",
+    "topic": "L'environnement",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-environnement",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Quelle mesure serait la plus facile à accepter ?",
+      "Que faites-vous déjà pour réduire vos déchets ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x11",
+    "prompt": "Faut-il rendre les transports en commun gratuits dans les grandes villes ? Donnez votre point de vue et des exemples.",
+    "topic": "Les transports",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B1",
+    "part": "Part 3 · Expression d'un point de vue",
+    "task": "Expression d'un point de vue",
+    "theme": "b1-transports",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 600,
+    "speak_seconds": 360,
+    "follow_ups": [
+      "Comment financer cette gratuité ?",
+      "Quels problèmes cela pourrait-il créer ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x12",
+    "prompt": "Les étudiants sont de plus en plus nombreux à suivre des MOOC. Quels avantages et quels risques présente cette forme d'apprentissage ?",
+    "topic": "Les études",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-etudes",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Un diplôme en ligne a-t-il la même valeur qu'un diplôme en présentiel ?",
+      "Comment rester motivé sans professeur ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x13",
+    "prompt": "La semaine de quatre jours est expérimentée dans plusieurs entreprises. Analysez ses effets possibles sur la productivité et la qualité de vie.",
+    "topic": "Le monde du travail",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-travail",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Tous les métiers peuvent-ils l'appliquer ?",
+      "Quels sont les risques pour les petites entreprises ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x14",
+    "prompt": "Faut-il interdire la cigarette électronique dans les lieux publics ? Défendez votre position en tenant compte des arguments contraires.",
+    "topic": "La santé",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b2-sante",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 480,
+    "follow_ups": [
+      "Faut-il traiter le vapotage comme le tabac ?",
+      "Quelle mesure protégerait le mieux les jeunes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x15",
+    "prompt": "Les prix littéraires influencent-ils vraiment nos lectures ? Discutez à partir d'exemples.",
+    "topic": "Les loisirs et la culture",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-loisirs-culture",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Achetez-vous un livre parce qu'il a reçu un prix ?",
+      "Quel rôle jouent les librairies indépendantes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x16",
+    "prompt": "Le marché de l'occasion séduit de plus en plus de jeunes. Expliquez ce phénomène et ses conséquences.",
+    "topic": "Les habitudes de consommation",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-consommation",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Est-ce une mode ou un vrai changement de mentalité ?",
+      "Quels risques pour les acheteurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x17",
+    "prompt": "Certaines écoles servent des repas végétariens plusieurs fois par semaine. Qu'en pensez-vous ?",
+    "topic": "Les comportements alimentaires",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b2-alimentation",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 480,
+    "follow_ups": [
+      "Faut-il imposer ces repas ou laisser le choix ?",
+      "Comment éviter le gaspillage à la cantine ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x18",
+    "prompt": "La colocation entre jeunes et personnes âgées peut-elle réduire la solitude ? Présentez les avantages et les limites.",
+    "topic": "Les relations sociales",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-relations-sociales",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Quelles règles faudrait-il fixer ?",
+      "Le feriez-vous vous-même ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x19",
+    "prompt": "Les inégalités salariales entre femmes et hommes persistent. Proposez des solutions et discutez leur efficacité.",
+    "topic": "L'égalité homme/femme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-egalite",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Faut-il rendre les salaires publics ?",
+      "Quel rôle pour les entreprises ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x20",
+    "prompt": "La surveillance des adolescents sur Internet par leurs parents est-elle nécessaire ou excessive ?",
+    "topic": "Les relations familiales",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b2-relations-familiales",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 480,
+    "follow_ups": [
+      "Où se situe la frontière entre protection et contrôle ?",
+      "Que pensent les adolescents eux-mêmes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x21",
+    "prompt": "Le lundi sans viande dans les cantines : mesure symbolique ou véritable levier écologique ?",
+    "topic": "L'environnement",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-environnement",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Faut-il aussi changer les menus des restaurants ?",
+      "Comment convaincre les familles ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x22",
+    "prompt": "Les jeunes s'informent surtout sur les réseaux sociaux. Quels risques cela représente-t-il pour leur compréhension du monde ?",
+    "topic": "Les médias & Internet",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-medias-internet",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Comment vérifier une information ?",
+      "Quel rôle pour l'école ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x23",
+    "prompt": "Les villes doivent-elles interdire les voitures dans leur centre ? Défendez une position nuancée.",
+    "topic": "Les transports",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 2 · Exercice en interaction",
+    "task": "Exercice en interaction",
+    "theme": "b2-transports",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 480,
+    "follow_ups": [
+      "Quelles alternatives proposer aux habitants ?",
+      "Qui serait le plus pénalisé ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x24",
+    "prompt": "La féminisation des noms de métiers est-elle une évolution nécessaire ? Discutez.",
+    "topic": "Le français et la francophonie",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-francophonie",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Quels mots posent problème ?",
+      "Faut-il imposer une forme unique ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x25",
+    "prompt": "Le tourisme de masse détruit-il les lieux qu'il fait vivre ? Analysez et proposez des solutions.",
+    "topic": "Le tourisme",
+    "level": "B1-B2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DELF B2",
+    "part": "Part 1 · Monologue suivi",
+    "task": "Monologue suivi",
+    "theme": "b2-tourisme",
+    "audience": [
+      "teen",
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 1800,
+    "speak_seconds": 420,
+    "follow_ups": [
+      "Faut-il limiter le nombre de visiteurs ?",
+      "Quel tourisme voudriez-vous pour votre région ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x26",
+    "prompt": "La génération « boomerang » — ces jeunes adultes qui retournent vivre chez leurs parents — est-elle un symptôme de crise ou une nouvelle solidarité familiale ?",
+    "topic": "La famille",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-famille",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Quelles conséquences pour l'autonomie des jeunes ?",
+      "Faut-il encourager ou décourager ce retour ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x27",
+    "prompt": "Le vote des jeunes est en baisse dans de nombreuses démocraties. Analysez les causes et proposez des remèdes.",
+    "topic": "La vie en société",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-vie-societe",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Faut-il rendre le vote obligatoire ?",
+      "Comment intéresser les jeunes à la vie publique ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x28",
+    "prompt": "La classe inversée et l'école numérique transforment le métier d'enseignant. Dans quelle mesure ces innovations changent-elles son rôle ?",
+    "topic": "L'école",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-ecole",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Le professeur risque-t-il de devenir un simple accompagnateur ?",
+      "Quelles inégalités ces méthodes peuvent-elles créer ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x29",
+    "prompt": "Le droit à la déconnexion est-il compatible avec les nouvelles attentes de disponibilité des entreprises ?",
+    "topic": "Le monde du travail",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "theme": "c1-travail",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 900,
+    "follow_ups": [
+      "Faut-il légiférer ou laisser les entreprises négocier ?",
+      "Comment protéger les salariés les plus vulnérables ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x30",
+    "prompt": "La ville intelligente promet plus d'efficacité mais collecte toujours plus de données. Faut-il y voir un progrès ou une menace ?",
+    "topic": "L'urbanisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-urbanisme",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Qui doit contrôler les données urbaines ?",
+      "La technologie peut-elle remplacer la concertation citoyenne ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x31",
+    "prompt": "La décroissance est-elle une réponse réaliste à la crise écologique ou un renoncement au développement ?",
+    "topic": "L'environnement",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-environnement",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Comment financer la transition sans croissance ?",
+      "Les pays les plus pauvres peuvent-ils suivre ce modèle ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x32",
+    "prompt": "La pollution numérique est souvent invisible. Comment sensibiliser les usagers à l'empreinte de leurs usages ?",
+    "topic": "Le numérique",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "theme": "c1-numerique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 900,
+    "follow_ups": [
+      "Faut-il taxer les services les plus gourmands ?",
+      "Les entreprises sont-elles plus responsables que les particuliers ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x33",
+    "prompt": "Les faux avis sur les plateformes de vente minent la confiance. Quelles régulations seraient efficaces ?",
+    "topic": "La consommation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-consommation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Les plateformes peuvent-elles s'autoréguler ?",
+      "Comment protéger les petits commerçants ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x34",
+    "prompt": "Manger local suffit-il à rendre notre alimentation durable ? Analysez les limites de cette promesse.",
+    "topic": "L'alimentation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "theme": "c1-alimentation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 900,
+    "follow_ups": [
+      "Le local est-il toujours plus écologique ?",
+      "Quel rôle pour les circuits courts dans les villes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x35",
+    "prompt": "La méfiance à l'égard des médias traditionnels profite aux sources alternatives. Comment rétablir la confiance ?",
+    "topic": "Les médias",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-medias",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "L'éducation aux médias doit-elle commencer à l'école primaire ?",
+      "Les plateformes doivent-elles être responsables des contenus ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x36",
+    "prompt": "L'e-sport est-il un sport comme les autres ? Discutez sa reconnaissance institutionnelle.",
+    "topic": "Les loisirs et la culture",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "theme": "c1-loisirs-culture",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 900,
+    "follow_ups": [
+      "Faut-il l'inscrire aux Jeux olympiques ?",
+      "Quels risques pour la santé des joueurs ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x37",
+    "prompt": "Le surtourisme vide les centres historiques de leurs habitants. Faut-il limiter le nombre de visiteurs ?",
+    "topic": "Le tourisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-tourisme",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Qui doit décider des limites ?",
+      "Comment concilier économie touristique et vie locale ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x38",
+    "prompt": "Le revenu universel est-il une protection nécessaire face à la précarité ou un frein au travail ?",
+    "topic": "L'économie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-economie",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Comment le financer ?",
+      "Faut-il le réserver aux plus modestes ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x39",
+    "prompt": "La médecine prédictive pose des questions éthiques. Jusqu'où faut-il anticiper les maladies ?",
+    "topic": "La santé",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-sante",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Faut-il informer les patients de tous les risques ?",
+      "Quel rôle pour les assurances ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x40",
+    "prompt": "Le tourisme spatial peut-il être justifié alors que la Terre fait face à une crise climatique ?",
+    "topic": "La recherche spatiale",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 2 · Entretien",
+    "task": "Entretien",
+    "theme": "c1-recherche-spatiale",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 900,
+    "follow_ups": [
+      "La recherche spatiale détourne-t-elle des ressources utiles ?",
+      "Quel avenir pour les vols habités ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x41",
+    "prompt": "L'homme augmenté repousse les limites du corps humain. Où s'arrête le soin et où commence l'inégalité ?",
+    "topic": "Les progrès & dangers de la science",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-science",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Faut-il autoriser les implants à des fins non médicales ?",
+      "Qui pourra accéder à ces technologies ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x42",
+    "prompt": "L'invasion de l'anglais dans l'espace public menace-t-elle la place du français ? Analysez et nuancez.",
+    "topic": "Les langues et la francophonie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C1",
+    "part": "Part 1 · Exposé",
+    "task": "Exposé",
+    "theme": "c1-langues-francophonie",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 540,
+    "follow_ups": [
+      "Faut-il protéger la langue par la loi ?",
+      "Le français peut-il rester une langue de création ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x43",
+    "prompt": "Choisissez un article récent sur l'école numérique ou la classe inversée. Faites-en un compte rendu en dégageant la thèse, les arguments et les limites, puis répondez aux questions de l'examinateur.",
+    "topic": "L'école",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 1 · Compte rendu",
+    "task": "Compte rendu",
+    "theme": "c2-ecole",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "L'article surestime-t-il le rôle de la technologie ?",
+      "Quelle expérience personnelle pourriez-vous opposer ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x44",
+    "prompt": "L'enfant roi et l'éducation positive : jusqu'où l'autonomie de l'enfant doit-elle primer sur l'autorité parentale ?",
+    "topic": "La vie sociale et familiale",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-vie-sociale-familiale",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "L'éducation bienveillante a-t-elle des limites ?",
+      "Comment transmettre des règles sans autoritarisme ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x45",
+    "prompt": "L'ubérisation du travail est-elle une libération ou une précarisation déguisée ?",
+    "topic": "Le monde du travail",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-travail",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il un statut protecteur pour les travailleurs des plateformes ?",
+      "Quel avenir pour le salariat ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x46",
+    "prompt": "Choisissez un essai ou un article sur la pollution numérique. Présentez-en le compte rendu critique, puis discutez la responsabilité des usagers et des entreprises.",
+    "topic": "Les médias et le numérique",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 1 · Compte rendu",
+    "task": "Compte rendu",
+    "theme": "c2-medias-numerique",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "La sobriété numérique est-elle une contrainte réaliste ?",
+      "Qui doit payer la transition ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x47",
+    "prompt": "La protection des espèces menacées peut-elle être conciliée avec les intérêts économiques locaux ?",
+    "topic": "L'environnement",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-environnement",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il indemniser les agriculteurs qui protègent la faune ?",
+      "Quel rôle pour les associations ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x48",
+    "prompt": "La médecine prédictive et les implants transforment le corps humain. Où placer la limite entre soin et augmentation ?",
+    "topic": "La santé",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-sante",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il interdire les implants non médicaux ?",
+      "Quelles inégalités ces technologies créent-elles ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x49",
+    "prompt": "L'art contemporain est-il encore accessible au grand public ou s'est-il enfermé dans un cercle d'initiés ?",
+    "topic": "La culture et les loisirs",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-culture-loisirs",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il réformer les institutions culturelles ?",
+      "Le marché de l'art fausse-t-il notre regard ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x50",
+    "prompt": "La sobriété numérique est-elle compatible avec l'économie de l'attention ?",
+    "topic": "La consommation",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-consommation",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Les plateformes peuvent-elles renoncer à capter notre temps ?",
+      "Faut-il réguler la publicité en ligne ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x51",
+    "prompt": "La domotique et la ville intelligente nous rendent-elles plus libres ou plus dépendants ?",
+    "topic": "L'urbanisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-urbanisme",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Que faire des habitants qui refusent ces technologies ?",
+      "La ville doit-elle rester un espace imprévisible ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x52",
+    "prompt": "Les pseudosciences prolifèrent sur les réseaux. Comment distinguer la vulgarisation de la désinformation ?",
+    "topic": "Les progrès et dangers de la science",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-science",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il réguler les contenus scientifiques en ligne ?",
+      "Quel rôle pour les scientifiques dans le débat public ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x53",
+    "prompt": "Les cryptomonnaies incarnent-elles une finance plus démocratique ou une nouvelle spéculation ?",
+    "topic": "L'économie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-economie",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Faut-il encadrer les monnaies virtuelles ?",
+      "Quels risques pour les épargnants ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x54",
+    "prompt": "Le volontourisme aide-t-il vraiment les communautés locales ou sert-il d'abord le confort moral des touristes ?",
+    "topic": "Le tourisme",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-tourisme",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Quelles conditions rendraient le volontourisme utile ?",
+      "Faut-il le réglementer ?"
+    ]
+  },
+  {
+    "id": "fr:speaking:x55",
+    "prompt": "La francophonie peut-elle être un espace de diversité linguistique plutôt qu'un instrument de domination culturelle ?",
+    "topic": "Les langues et la francophonie",
+    "level": "C1-C2",
+    "curated": true,
+    "track": "exam",
+    "exam": "DALF C2",
+    "part": "Part 2 · Développement argumenté",
+    "task": "Développement argumenté",
+    "theme": "c2-langues-francophonie",
+    "audience": [
+      "adult",
+      "senior"
+    ],
+    "prep_seconds": 3600,
+    "speak_seconds": 600,
+    "follow_ups": [
+      "Que faire de la place de l'anglais ?",
+      "Les institutions francophones sont-elles représentatives ?"
     ]
   }
 ]
