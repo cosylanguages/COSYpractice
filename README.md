@@ -16,7 +16,7 @@ Live at https://cosylanguages.github.io/COSYpractice/
 Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
 - `schemas/themes.json` and `vocabulary/<lang>/index.json` from **COSYdata** (https://cosylanguages.github.io/COSYdata/ and raw.githubusercontent.com/cosylanguages/COSYdata/main/)
 - Grammar lessons and curriculum from **COSYplatform**; CCQ and phonology reference from **COSYmanuals**
-- The exercise engine and SRS store live in `_engine/`; shared practice helpers (speech, vocabulary filtering, theme matching) live in `js/shared.js`. Cross-repo engine consolidation into **COSYtools** remains a future goal.
+- The exercise engine and SRS store live in `_engine/`; shared practice helpers (speech, vocabulary filtering, theme matching) live in `js/shared.js`. They depend on practice runtime globals (`vocabularyData`, `getLevelCode`, theme helpers), so they stay practice-owned until COSYtools exposes a shared JS module.
 - There are no bundled per-level drill datasets. Vocabulary and grammar sessions are generated at runtime from COSYdata entries, plus the curated grammar banks in `data/grammar_confusion_pairs.js` and `data/french_grammar_confusion_pairs.js`.
 
 ### Repository boundaries
@@ -27,7 +27,7 @@ Lesson content is dynamically integrated from **COSYdata** and **COSYplatform**:
 | CCQ, phonology reference | COSYmanuals |
 | Daily speaking and writing prompts, practice engine, SRS store | COSYpractice |
 | Shared fonts, design tokens, base CSS, logo | COSYlanguages |
-| Shared game/practice utilities | COSYpractice (`js/shared.js`) for now; future COSYtools consolidation |
+| Practice data and speech helpers | COSYpractice (`js/shared.js`); COSYtools has no shared JS package yet |
 
 ## DELF/DALF theme catalogue
 `data/exam/fr/delf-dalf-themes.json` is the canonical list of French exam themes supplied for

@@ -34,6 +34,9 @@ jobs:
       - name: Test the theme normaliser
         run: node scripts/test-theme-aliases.js
 
+      - name: Check local asset references
+        run: node scripts/check-local-refs.js
+
       - name: Check out the canonical COSYdata taxonomy
         uses: actions/checkout@v4
         with:
