@@ -166,8 +166,8 @@
   margin-bottom: 2rem;
 }
 .cognitive-hub-banner-inner {
-  background: linear-gradient(135deg, var(--sage-deep), #2a3a2d);
-  color: white;
+  background: linear-gradient(135deg, var(--cosy-fill-sage, #375742), #2a3a2d);
+  color: var(--cosy-on-brand, #ffffff);
   padding: 2.5rem;
   border-radius: 24px;
   position: relative;
@@ -179,8 +179,8 @@
   z-index: 2;
 }
 .how-learning-sticks-badge {
-  background: var(--honey);
-  color: #fff;
+  background: var(--cosy-ink-honey, #945E05);
+  color: var(--cosy-on-brand, #ffffff);
   font-weight: 800;
   font-size: 0.75rem;
   text-transform: uppercase;
