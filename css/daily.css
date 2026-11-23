@@ -79,15 +79,15 @@
 }
 
 .streak-pill {
-    background: #FAEEE8;
-    color: #A03C15;
-    border: 1px solid rgba(196,82,42,.15);
+    background: var(--cosy-color-coral-light, #FAEEE8);
+    color: var(--coral-ink);
+    border: 1px solid color-mix(in srgb, var(--coral-ink) 25%, transparent);
 }
 
 .today-pill {
-    background: #E6F4F1;
-    color: #247064;
-    border: 1px solid rgba(45,125,111,.15);
+    background: color-mix(in srgb, var(--sage-ink) 12%, var(--cosy-color-surface, #fff));
+    color: var(--sage-ink);
+    border: 1px solid color-mix(in srgb, var(--sage-ink) 25%, transparent);
 }
 
 /* Week Grid */

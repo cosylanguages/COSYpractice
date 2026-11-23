@@ -16,7 +16,7 @@
 }
 html[data-theme="dark"], body.theme-dark {
   --coral-ink: #F08968;
-  --sage-ink: #8A9E8B;
+  --sage-ink: #A8BCA9;
 }
 
 /* Placeholder text must clear 4.5:1 in both themes */
