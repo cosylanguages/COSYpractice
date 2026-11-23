@@ -1,3 +1,17 @@
+:root {
+  --ccq-ok-ink: #1E5E36;
+  --ccq-ok-surface: #E6F4EC;
+  --ccq-bad-ink: #7E3318;
+  --ccq-bad-surface: #FBE9DF;
+  --ccq-bad-line: #9C4520;
+}
+html[data-theme="dark"], body.theme-dark {
+  --ccq-ok-ink: #9ED8B4;
+  --ccq-ok-surface: #1D3226;
+  --ccq-bad-ink: #F0A184;
+  --ccq-bad-surface: #3A2A22;
+  --ccq-bad-line: #F0A184;
+}
 /* practice/types/concept-check/concept-check.css */
 .ccq-app {
     max-width: 760px;
@@ -26,7 +40,7 @@
 .ccq-back {
     display: inline-block;
     margin-bottom: 12px;
-    color: var(--teal,#26695e);
+    color: var(--sage-ink, var(--cosy-ink-teal, #26695e));
     text-decoration: none;
     font-weight: 700;
     font-size: 0.95rem;
@@ -91,17 +105,17 @@
     transition: transform .08s ease, background .15s ease, border-color .15s ease;
 }
 .ccq-btn:hover { transform: translateY(-1px); }
-.ccq-btn[data-pick="yes"] { border-color: #3a8a5b; color: #1e5e36; }
-.ccq-btn[data-pick="no"]  { border-color: #b5562f; color: #7e3318; }
+.ccq-btn[data-pick="yes"] { border-color: var(--ccq-ok-ink); color: var(--ccq-ok-ink); }
+.ccq-btn[data-pick="no"]  { border-color: var(--ccq-bad-line); color: var(--ccq-bad-ink); }
 
 .ccq-card.is-correct .ccq-btn[data-pick="yes"],
 .ccq-card.is-correct .ccq-btn[data-pick="no"] {
-    border-color: #3a8a5b;
-    background: #e6f4ec;
+    border-color: var(--ccq-ok-ink);
+    background: var(--ccq-ok-surface);
 }
 .ccq-card.is-wrong .ccq-btn.is-chosen {
-    border-color: #b5562f;
-    background: #fbe9df;
+    border-color: var(--ccq-bad-line);
+    background: var(--ccq-bad-surface);
 }
 .ccq-btn:disabled { cursor: default; opacity: 0.85; }
 
@@ -112,8 +126,8 @@
     font-size: 0.95rem;
     line-height: 1.4;
 }
-.ccq-feedback.ok { background: #e6f4ec; color: #1e5e36; }
-.ccq-feedback.no { background: #fbe9df; color: #7e3318; }
+.ccq-feedback.ok { background: var(--ccq-ok-surface); color: var(--ccq-ok-ink); }
+.ccq-feedback.no { background: var(--ccq-bad-surface); color: var(--ccq-bad-ink); }
 .ccq-feedback b { font-weight: 800; }
 
 .ccq-progress {
@@ -126,7 +140,7 @@
     font-weight: 700;
 }
 .ccq-error {
-    color: #b5562f;
+    color: var(--ccq-bad-line);
     font-weight: 700;
     margin-top: 16px;
 }

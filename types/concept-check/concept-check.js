@@ -41,7 +41,7 @@
         if (unitLabel) unitLabel.textContent = 'Could not load lesson';
         if (deck) {
             deck.innerHTML = '<div class="ccq-error-card" style="padding:1.5rem; text-align:center; background:rgba(196,82,42,0.08); border:1px solid rgba(196,82,42,0.3); border-radius:12px; margin-top:1rem;">' +
-                '<p style="margin:0 0 1rem 0; color:#c4522a; font-weight:600;">⚠️ Concept Check Unavailable</p>' +
+                '<p style="margin:0 0 1rem 0; color:var(--ccq-bad-line,#c4522a); font-weight:600;">⚠️ Concept Check Unavailable</p>' +
                 '<p style="font-size:0.9rem; margin-bottom:1rem;">' + (msg || 'Unable to retrieve lesson questions.') + '</p>' +
                 '<button type="button" onclick="location.reload()" class="ccq-btn" style="cursor:pointer; padding:8px 16px;">Retry Loading 🔄</button>' +
                 '</div>';

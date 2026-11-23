@@ -33,13 +33,13 @@
         .cognitive-hero h1 {
             font-family: var(--font-serif);
             font-size: 2.8rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             margin-bottom: 0.5rem;
         }
         .cognitive-hero .hero-badge {
             display: inline-block;
             background: var(--coral-light);
-            color: var(--coral);
+            color: var(--coral-ink, var(--coral));
             font-weight: 700;
             padding: 0.25rem 0.75rem;
             border-radius: 50px;
@@ -64,7 +64,7 @@
         .cog-section-title {
             font-family: var(--font-serif);
             font-size: 1.8rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
@@ -99,7 +99,7 @@
             transition: all 0.2s;
         }
         .checklist-item:hover {
-            border-color: var(--sage);
+            border-color: var(--sage-ink, var(--sage));
             background: var(--sage-pale);
         }
         .checklist-item input[type="checkbox"] {
@@ -114,7 +114,7 @@
             font-family: var(--font-sans);
             font-weight: 700;
             font-size: 1.05rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
         }
         .checklist-content p {
             margin: 0;
@@ -161,13 +161,13 @@
             font-family: var(--font-sans);
             font-size: 1.6rem;
             font-weight: 800;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
         }
         .progress-status-title {
             font-family: var(--font-serif);
             font-size: 1.25rem;
             margin-bottom: 0.5rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
         }
         .progress-status-desc {
             font-size: 0.85rem;
@@ -230,7 +230,7 @@
             font-family: var(--font-serif);
             font-size: 2.2rem;
             font-weight: 700;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             margin-bottom: 1.5rem;
             animation: pulse-word 1.5s infinite;
         }
@@ -252,7 +252,7 @@
             position: relative;
         }
         .sim-track.active-track {
-            border-color: var(--coral);
+            border-color: var(--coral-ink, var(--coral));
             box-shadow: 0 0 10px rgba(196, 82, 42, 0.1);
         }
         html[data-theme="dark"] .cog-section {
@@ -337,7 +337,7 @@
             transition: all 0.2s;
         }
         .brain-tab-btn:hover {
-            color: var(--sage);
+            color: var(--sage-ink, var(--sage));
         }
         .brain-tab-btn.active-tab {
             color: var(--sage-dark);
@@ -368,7 +368,7 @@
         .vac-word {
             font-family: var(--font-serif);
             font-size: 1.5rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             font-weight: 700;
             margin-bottom: 0.25rem;
             display: flex;
@@ -376,7 +376,7 @@
             justify-content: space-between;
         }
         .vac-translation {
-            color: var(--coral);
+            color: var(--coral-ink, var(--coral));
             font-weight: 700;
             font-size: 0.9rem;
             margin-bottom: 0.75rem;
@@ -420,8 +420,8 @@
         }
         .flow-node.highlight {
             background: var(--sage-pale);
-            border-color: var(--sage);
-            color: var(--sage-deep);
+            border-color: var(--sage-ink, var(--sage));
+            color: var(--sage-ink, var(--sage-deep));
         }
         .flow-arrow {
             font-size: 1.25rem;
@@ -488,7 +488,7 @@
         }
         .tfc-front {
             background: var(--cream);
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
         }
         .tfc-back {
             background: var(--sage-dark);
@@ -556,7 +556,7 @@
         }
         .cognate-table th {
             background: var(--cream-dark);
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             font-family: var(--font-sans);
             font-weight: 800;
         }
@@ -565,7 +565,7 @@
         }
         .cognate-root {
             font-weight: 700;
-            color: var(--coral);
+            color: var(--coral-ink, var(--coral));
         }
 
         /* ── Progression Matrix ── */
@@ -590,7 +590,7 @@
             right: -1rem;
             top: 50%;
             transform: translateY(-50%);
-            color: var(--sage);
+            color: var(--sage-ink, var(--sage));
             font-size: 1.5rem;
             z-index: 10;
         }
@@ -644,7 +644,7 @@
             font-family: var(--font-sans);
             font-weight: 700;
             font-size: 1rem;
-            color: var(--sage-deep);
+            color: var(--sage-ink, var(--sage-deep));
             margin-bottom: 0.5rem;
         }
         .tm-desc {

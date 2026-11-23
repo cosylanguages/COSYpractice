@@ -5,3 +5,16 @@
 @import url("https://cosylanguages.github.io/COSYlanguages/css/base.css");
 @import url("https://cosylanguages.github.io/COSYlanguages/css/components.css");
 @import url("https://cosylanguages.github.io/COSYlanguages/css/layout.css");
+
+/* Brand colours as text need a lighter twin in dark mode: the shared
+   --coral / --sage-deep values are fills (dark) or ink that flips to a
+   near-white tint, so neither is safe as body text in both themes. */
+:root {
+  --coral-ink: #B84318;
+  --sage-ink: #375742;
+  --on-brand: #FFFFFF;
+}
+html[data-theme="dark"], body.theme-dark {
+  --coral-ink: #F08968;
+  --sage-ink: #8A9E8B;
+}
