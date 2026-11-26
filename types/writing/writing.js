@@ -8,6 +8,10 @@
  */
 
 (function() {
+    function localDateKey(d) {
+        const x = d || new Date();
+        return x.getFullYear() + '-' + String(x.getMonth() + 1).padStart(2, '0') + '-' + String(x.getDate()).padStart(2, '0');
+    }
     let currentLevel = 'b';
     let currentChallenge = null;
     let timerInterval = null;
@@ -37,7 +41,6 @@
     function init() {
         const today = new Date();
         const dayOfWeek = today.getDay();
-        const dateStr = today.toISOString().split('T')[0];
 
         // Update header info
         const paintDate = () => {
@@ -49,6 +52,8 @@
         paintDate();
         document.addEventListener('cosyI18nReady', paintDate);
         document.addEventListener('cosyLanguageChanged', paintDate);
+        document.addEventListener('cosyI18nReady', updateUI);
+        document.addEventListener('cosyLanguageChanged', updateUI);
 
         // Load Challenge
         const category = window.DAILY_SCHEDULE[dayOfWeek];
@@ -75,6 +80,8 @@
 
     let loadSeq = 0;
     function loadDaily() {
+        const loadingEl = document.getElementById('speakingPrompt');
+        if (loadingEl) loadingEl.textContent = label('ui.loading_prompt', 'Loading prompt...');
         const source = window.COSY_DailySource;
         if (!source || !dailyCtx) { renderChallenge(); return Promise.resolve(); }
         const lang = (window.COSY_I18N && window.COSY_I18N.currentLang) || 'en';
@@ -115,7 +122,7 @@
         if (flat) { renderFlatChallenge(flat); return; }
 
         if (!currentChallenge || !currentChallenge.levels || !currentChallenge.levels[currentLevel]) {
-            if (promptEl) promptEl.textContent = "Today's prompt is unavailable right now. Try again in a moment.";
+            if (promptEl) promptEl.textContent = label('daily.prompt_unavailable', "Today's prompt is unavailable right now. Try again in a moment.");
             return;
         }
 
@@ -125,28 +132,28 @@
         document.getElementById('challengeSubtitle').textContent = currentChallenge.subtitle;
 
         const levelData = currentChallenge.levels[currentLevel];
-        if (promptEl) promptEl.textContent = levelData?.prompt || "Today's prompt is unavailable right now. Try again in a moment.";
-        document.getElementById('speakingTip').textContent = '💡 Tip: ' + (levelData?.tip || 'Focus on practice and consistency.');
+        if (promptEl) promptEl.textContent = levelData?.prompt || label('daily.prompt_unavailable', "Today's prompt is unavailable right now. Try again in a moment.");
+        document.getElementById('speakingTip').textContent = '💡 ' + label('daily.tip.label', 'Tip') + ': ' + (levelData?.tip || 'Focus on practice and consistency.');
 
-        document.getElementById('microLabel').textContent = 'Micro-task';
-        document.getElementById('microTitle').textContent = levelData?.micro?.title || 'Quick Drill';
+        document.getElementById('microLabel').textContent = label('ui.micro_task_4917', 'Micro-task');
+        document.getElementById('microTitle').textContent = levelData?.micro?.title || label('ui.quick_drill', 'Quick Drill');
         document.getElementById('microInstruction').textContent = levelData?.micro?.instruction || '';
-        document.getElementById('microExample').textContent = levelData?.micro?.example ? ('Example: ' + levelData.micro.example) : '';
+        document.getElementById('microExample').textContent = levelData?.micro?.example ? (label('daily.example', 'Example') + ': ' + levelData.micro.example) : '';
     }
 
     function updateUI() {
         const state = loadState();
-        const todayStr = new Date().toISOString().split('T')[0];
+        const todayStr = localDateKey();
 
         document.getElementById('streakCount').textContent = state.streak;
 
         const todayPill = document.getElementById('todayPill');
         if (state.lastCompleted === todayStr) {
-            todayPill.textContent = '✓ Challenge complete';
+            todayPill.textContent = label('daily.challenge_complete', '✓ Challenge complete');
             document.getElementById('btnComplete').disabled = true;
-            document.getElementById('btnComplete').textContent = '✓ Challenge completed for today';
+            document.getElementById('btnComplete').textContent = label('daily.challenge_complete_today', '✓ Challenge completed for today');
         } else {
-            todayPill.textContent = '⏳ Today\'s task pending';
+            todayPill.textContent = label('ui.today_s_task_pending_46ff', "⏳ Today's task pending");
         }
     }
 
@@ -165,7 +172,7 @@
         for (let i = 0; i < 7; i++) {
             const date = new Date(startOfWeek);
             date.setDate(startOfWeek.getDate() + i);
-            const dateStr = date.toISOString().split('T')[0];
+            const dateStr = localDateKey(date);
             const isDone = state.weeklyProgress.includes(dateStr);
             const isToday = i === currentDay;
 
@@ -214,7 +221,7 @@
         clearInterval(timerInterval);
         timerInterval = null;
         document.getElementById('startBtn').disabled = false;
-        document.getElementById('startBtn').textContent = '▶ Resume';
+        document.getElementById('startBtn').textContent = label('daily.resume', '▶ Resume');
         document.getElementById('stopBtn').disabled = true;
     };
 
@@ -229,14 +236,14 @@
 
     window.markComplete = function() {
         const state = loadState();
-        const todayStr = new Date().toISOString().split('T')[0];
+        const todayStr = localDateKey();
 
         if (state.lastCompleted === todayStr) return;
 
         // Update streak
         const yesterday = new Date();
         yesterday.setDate(yesterday.getDate() - 1);
-        const yesterdayStr = yesterday.toISOString().split('T')[0];
+        const yesterdayStr = localDateKey(yesterday);
 
         if (state.lastCompleted === yesterdayStr) {
             state.streak += 1;
@@ -255,7 +262,7 @@
 
         // Success feedback
         const btn = document.getElementById('btnComplete');
-        btn.textContent = '🎉 Awesome! Challenge completed';
+        btn.textContent = label('daily.challenge_done', '🎉 Awesome! Challenge completed');
         btn.disabled = true;
 
         // Dispatch event for any listeners (like nav)

@@ -4,7 +4,7 @@ Free vocabulary, grammar and speaking practice in 5 languages (English, French, 
 Live at https://cosylanguages.github.io/COSYpractice/
 
 ## What is here
-- `index.html` + `hub.js`: start a session, quick start, daily challenge, SRS memory review, weak spots, wheel, projector mode.
+- `index.html` + `hub.js`: start a session, quick start, daily challenge, weak spots, projector mode.
 - `_engine/`: the exercise engine (sessions, scoring, feedback, renderers) and the cross-course SRS store (`progress.js`). `types/`: vocabulary, writing (daily challenge) and concept check.
 - `progress-dashboard.html`: cross-course CEFR progress, stored in the browser.
 - `cognitive-immersion.html`: planning tools for immersion, spacing and retrieval practice.
@@ -69,5 +69,5 @@ Never commit tokens or keys. Keep the site free of tracking. Prefer editing `pra
 - Phonology and CCQ reference files are fetched from COSYmanuals GitHub Pages; no local copy is bundled.
 - COSYdata stores definitions and examples as plain strings; the loader converts them to `{ text }` objects the engine expects.
 - Interface language (`i18n/`): static text uses `data-i18n` / `data-translate-key`; engine text (session header, feedback, buttons) is translated at run time from `_phrases` and `_patterns` in each language file. To add a string, add it to all five files.
-- Exercise data covers 14 languages in COSYdata. The interface, setup pills and i18n cover five (en, fr, it, ru, el); the wheel and `quickStart` can still launch the other nine from a URL or the wheel.
+- Exercise data covers 14 languages in COSYdata. The interface, setup pills and i18n cover five (en, fr, it, ru, el); `quickStart` can still launch the other nine from a URL.
 - The SRS store in `_engine/progress.js` keeps one record per course item in `localStorage`, with intervals of 0, 1, 3, 7, 14 and 30 days. The progress dashboard reads it; no account or backend is involved.

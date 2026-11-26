@@ -6,6 +6,10 @@
 
 (function() {
     'use strict';
+    function localDateKey(d) {
+        const x = d || new Date();
+        return x.getFullYear() + '-' + String(x.getMonth() + 1).padStart(2, '0') + '-' + String(x.getDate()).padStart(2, '0');
+    }
 
     function playPracticeSound(type) {
         try {
@@ -96,6 +100,9 @@
                     osc.stop(ctx.currentTime + i * 0.08 + 0.4);
                 });
             }
+            // Release the context once the longest sound has finished so repeated
+            // answers do not exhaust the browser's AudioContext limit.
+            setTimeout(function () { try { ctx.close(); } catch (e) {} }, 800);
         } catch (e) {
             console.warn("AudioContext not supported or blocked", e);
         }
@@ -256,6 +263,34 @@
         }
     }
 
+    // Cross-course progress for progress-dashboard.html. Items come from the
+    // COSYdata dictionary, so each answer is recorded under every `domain`
+    // track it belongs to (general/professional/spoken/exam/travelling/
+    // relocation) at its CEFR level.
+    function getProgressStore() {
+        if (!window.COSYProgress) return null;
+        if (!window.__cosyProgressStore) window.__cosyProgressStore = new window.COSYProgress();
+        return window.__cosyProgressStore;
+    }
+
+    function recordCrossCourseProgress(item, isCorrect, langKey) {
+        if (!item || !item.level) return;
+        const store = getProgressStore();
+        if (!store) return;
+        const id = item.id || item.word;
+        if (!id) return;
+        const level = String(window.getLevelCode ? window.getLevelCode(item.level, 'short') : item.level).toUpperCase();
+        if (!/^[ABC][12]$/.test(level)) return;
+        const lang = String(langKey || 'en').toLowerCase();
+        const domains = String(item.domain || 'general').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
+        const courses = domains.map(d => d === 'travel' ? 'travelling' : d);
+        try {
+            courses.forEach(course => {
+                store.recordAnswer(`${lang}:${id}:${course}`, isCorrect, { course, level });
+            });
+        } catch (e) { /* progress is best-effort */ }
+    }
+
     function updateItemSRS(item, isCorrect, langKey) {
         if (!item || !item.word) return;
         const l = langKey || 'en';
@@ -302,6 +337,7 @@
         };
 
         saveSRSMap(map);
+        recordCrossCourseProgress(item, isCorrect, l);
     }
 
     function saveState(s) {
@@ -384,11 +420,11 @@
             if (!s.mistakes) s.mistakes = [];
             if (!s.history) s.history = [];
 
-            const todayStr = new Date().toISOString().split('T')[0];
+            const todayStr = localDateKey();
             if (s.lastDate !== todayStr) {
                 const yesterday = new Date();
                 yesterday.setDate(yesterday.getDate() - 1);
-                const yStr = yesterday.toISOString().split('T')[0];
+                const yStr = localDateKey(yesterday);
                 if (s.lastDate !== yStr && s.lastDate !== '') {
                     // Broke the streak
                     s.streak = 0;
@@ -431,20 +467,7 @@
                     return;
                 }
 
-                // 2. If Spinning Wheel is open, Enter spins it
-                const wheelContainer = document.getElementById('wheel-container');
-                if (wheelContainer && wheelContainer.style.display === 'block') {
-                    if (e.key === 'Enter') {
-                        e.preventDefault();
-                        const spinBtn = document.getElementById('spin-btn');
-                        if (spinBtn && !spinBtn.disabled) {
-                            spinBtn.click();
-                        }
-                    }
-                    return;
-                }
-
-                // 3. If Practice Section is active
+                // 2. If Practice Section is active
                 const practiceSec = document.getElementById('practice-section');
                 const isPracticeActive = practiceSec && practiceSec.classList.contains('active');
                 if (isPracticeActive) {
@@ -536,7 +559,7 @@
                     return;
                 }
 
-                // 4. If Setup panel is visible and active, Enter starts the practice
+                // 3. If Setup panel is visible and active, Enter starts the practice
                 const setupSec = document.getElementById('setup-section');
                 const isSetupVisible = setupSec && setupSec.style.display !== 'none' && !setupSec.classList.contains('hidden');
                 if (isSetupVisible && e.key === 'Enter') {
@@ -703,7 +726,7 @@
         },
 
         updateStreak() {
-            const todayStr = new Date().toISOString().split('T')[0];
+            const todayStr = localDateKey();
             const lastDateStr = this.state.lastDate;
 
             if (lastDateStr === todayStr) return;
@@ -1048,6 +1071,14 @@
         },
 
         endSession() {
+            if (this.session) {
+                const sess = this.session;
+                const didWork = (sess.correctCount || 0) > 0 || (sess.currentIndex || 0) > 0;
+                if (didWork) {
+                    const store = getProgressStore();
+                    if (store) { try { store.recordSessionCompletion(); } catch (e) {} }
+                }
+            }
             this.session = null;
 
             if (window.cosyCleanupAudio) {
@@ -1753,6 +1784,7 @@
                         osc.frequency.setValueAtTime(659.25, ctx.currentTime);
                         gain.gain.setValueAtTime(0.05, ctx.currentTime);
                         gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.15);
+                        osc.onended = function () { try { ctx.close(); } catch (e) {} };
                         osc.connect(gain);
                         gain.connect(ctx.destination);
                         osc.start();

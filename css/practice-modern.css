@@ -24,8 +24,6 @@
 .stats-empty-banner { border-radius: 16px; }
 .btn-retry-sm { border-radius: 999px; }
 
-.quickstart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: .9rem; }
-
 html[data-theme="dark"] .pm-title { color: #e8f0e9; }
 html[data-theme="dark"] .pm-lede, html[data-theme="dark"] .pm-kicker { color: #b8c7bb; }
 html[data-theme="dark"] .pm-streak, html[data-theme="dark"] .pm-details { background: #1a241d; border-color: rgba(255,255,255,.12); }
@@ -44,7 +42,7 @@ html[data-theme="dark"] {
 }
 html[data-theme="dark"] body, html[data-theme="dark"] .page { background: var(--cream); color: var(--ink); }
 /* Surfaces that use --ink as a dark fill must stay dark when --ink turns light. */
-html[data-theme="dark"] :is(.btn-start, .pe-topbar, .lang-pill.active, .fpill.active, #toast, .nav-cta, .cta-section, .course-card.dark, .daily-challenge, .pe-btn-next, .wheel-btn, .pe-bb-action-btn, .lang-more-wrap.active .lang-more-select) { background: #0b110d; color: #e8f0e9; border-color: rgba(255,255,255,.2); }
+html[data-theme="dark"] :is(.btn-start, .pe-topbar, .lang-pill.active, .fpill.active, #toast, .nav-cta, .cta-section, .course-card.dark, .daily-challenge, .pe-btn-next, .pe-bb-action-btn, .lang-more-wrap.active .lang-more-select) { background: #0b110d; color: #e8f0e9; border-color: rgba(255,255,255,.2); }
 html[data-theme="dark"] .btn-start { background: #f3c969; color: #1c1917; border-color: #f3c969; font-weight: 700; }
 html[data-theme="dark"] .lang-pill.active { background: #e8f0e9; color: #101712; }
 html[data-theme="dark"] .dc-btn { background: #f3c969; color: #1c1917; font-weight: 700; }
@@ -53,10 +51,7 @@ html[data-theme="dark"] :is(#microTaskSelect, .micro-task, .micro-task-select, .
 html[data-theme="dark"] .micro-block { background: #2d2036; border-color: rgba(255,255,255,.12); } html[data-theme="dark"] .micro-title { color: #e8d2f2; }
 
 /* ── HUB CARDS & CONTAINERS DARK MODE OVERRIDES ── */
-html[data-theme="dark"] .dash-hero {
-  background: linear-gradient(135deg, #18221b 0%, #121813 100%);
-  border-color: rgba(255, 255, 255, 0.12);
-}
+
 html[data-theme="dark"] .dash-stat {
   background: #1e2a21;
   border-color: rgba(255, 255, 255, 0.12);
@@ -71,21 +66,7 @@ html[data-theme="dark"] .setup-panel {
   border-color: rgba(255, 255, 255, 0.12);
   color: #e8f0e9;
 }
-html[data-theme="dark"] .qs-card {
-  background: linear-gradient(135deg, #1b261e 0%, #141c16 100%);
-  border-color: rgba(255, 255, 255, 0.12);
-  color: #e8f0e9;
-}
-html[data-theme="dark"] .qs-card:hover {
-  border-color: rgba(255, 255, 255, 0.28);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
-}
-html[data-theme="dark"] .qs-name {
-  color: #e8f0e9;
-}
-html[data-theme="dark"] .qs-sub {
-  color: #a8baa9;
-}
+
 html[data-theme="dark"] .info-card {
   background: #18221b;
   border-color: rgba(255, 255, 255, 0.12);

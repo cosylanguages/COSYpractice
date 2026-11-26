@@ -1,7 +1,7 @@
 /**
  * practice/hub.js
  * Main UI manager for the practice hub.
- * Handles setup, category/language selection, and games like Spin the Wheel.
+ * Handles setup, category/language selection and launching sessions.
  */
 
 (function() {
@@ -531,127 +531,6 @@
     }
 
     /* ══════════════════════════════════════
-       SPINNING WHEEL LOGIC
-    ══════════════════════════════════════ */
-    let wheelAngle = 0;
-    const wheelLangs = ['en', 'fr', 'it', 'ru', 'el', 'es', 'de', 'pt', 'hy', 'ka', 'tt', 'ba', 'br', 'cv'];
-    const wheelCats = ['vocab', 'grammar', 'speaking', 'pronunciation'];
-    const wheelItems = [];
-    wheelLangs.forEach(l => wheelCats.forEach(c => wheelItems.push({ lang: l, cat: c })));
-
-    function drawWheel() {
-        const canvas = document.getElementById('wheel-canvas');
-        if (!canvas) return;
-        const ctx = canvas.getContext('2d');
-        const radius = canvas.width / 2;
-        const slice = (Math.PI * 2) / wheelItems.length;
-
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.save();
-        ctx.translate(radius, radius);
-        ctx.rotate(wheelAngle);
-
-        wheelItems.forEach((item, i) => {
-            const angle = i * slice;
-            ctx.beginPath();
-            ctx.fillStyle = i % 2 === 0 ? '#6b8f71' : '#e8a838';
-            ctx.moveTo(0, 0);
-            ctx.arc(0, 0, radius, angle, angle + slice);
-            ctx.fill();
-
-            ctx.save();
-            ctx.rotate(angle + slice / 2);
-            ctx.fillStyle = '#fff';
-            ctx.font = 'bold 14px Nunito, sans-serif';
-            ctx.textAlign = 'right';
-            ctx.fillText(item.lang.toUpperCase(), radius - 15, 5);
-            ctx.restore();
-        });
-        ctx.restore();
-    }
-
-    function spinWheel() {
-        const btn = document.getElementById('spin-btn');
-        if (btn) btn.disabled = true;
-
-        // If prefers reduced motion, trigger instant state change
-        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-            const totalSpins = 5 + Math.random() * 5;
-            wheelAngle += totalSpins * (Math.PI * 2) + Math.random() * (Math.PI * 2);
-            drawWheel();
-            if (btn) btn.disabled = false;
-            const slice = (Math.PI * 2) / wheelItems.length;
-            const normalizedAngle = (Math.PI * 2) - (wheelAngle % (Math.PI * 2));
-            const index = Math.floor(normalizedAngle / slice) % wheelItems.length;
-            const result = wheelItems[index];
-
-            const resEl = document.getElementById('wheel-result');
-            if (resEl) {
-                const langNameMap = (window.COSY_LANGUAGES || []).reduce((acc, l) => { acc[l.code] = l.name; return acc; }, {
-                    en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton', cv:'Chuvash'
-                });
-                resEl.innerHTML = `Landed on: <strong>${langNameMap[result.lang] || result.lang} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
-                setTimeout(() => {
-                    window.cosyPractice.closeWheel();
-                    window.cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
-                }, 100);
-            }
-            return;
-        }
-
-        let velocity = 0.3 + Math.random() * 0.2;
-        const friction = 0.985;
-
-        function animate() {
-            wheelAngle += velocity;
-            velocity *= friction;
-            drawWheel();
-
-            if (velocity > 0.002) {
-                requestAnimationFrame(animate);
-            } else {
-                if (btn) btn.disabled = false;
-                const slice = (Math.PI * 2) / wheelItems.length;
-                const normalizedAngle = (Math.PI * 2) - (wheelAngle % (Math.PI * 2));
-                const index = Math.floor(normalizedAngle / slice) % wheelItems.length;
-                const result = wheelItems[index];
-
-                const resEl = document.getElementById('wheel-result');
-                if (resEl) {
-                    const langNameMap = (window.COSY_LANGUAGES || []).reduce((acc, l) => { acc[l.code] = l.name; return acc; }, {
-                        en:'English', fr:'French', it:'Italian', ru:'Russian', el:'Greek', es:'Spanish', de:'German', pt:'Portuguese', hy:'Armenian', ka:'Georgian', tt:'Tatar', ba:'Bashkir', br:'Breton', cv:'Chuvash'
-                    });
-                    resEl.innerHTML = `Landed on: <strong>${langNameMap[result.lang] || result.lang} · ${result.cat}</strong>!<br>Starting practice... 🚀`;
-                    setTimeout(() => {
-                        window.cosyPractice.closeWheel();
-                        window.cosyPractice.quickStart(result.lang, result.cat, 'all', 'all');
-                    }, 1500);
-                }
-            }
-        }
-        animate();
-    }
-
-    function generateDailyChallenge() {
-        const seeds = [
-            { lang: 'en', cat: 'Vocabulary', theme: 'Food', title: "English Food Master 🍎", sub: "Learn essential food items in English." },
-            { lang: 'fr', cat: 'Vocabulary', theme: 'Greetings', title: "French Politeness 🇫🇷", sub: "Master basic greetings and etiquette." },
-            { lang: 'it', cat: 'Grammar', theme: 'prepositions', title: "Italian Prepositions 🇮🇹", sub: "Master 'in', 'on', and 'at' in Italian." },
-            { lang: 'ru', cat: 'Vocabulary', theme: 'Numbers', title: "Russian Numbers 🇷🇺", sub: "Count like a pro from 0 to 100." },
-            { lang: 'el', cat: 'Vocabulary', theme: 'Home', title: "Greek Home Life 🇬🇷", sub: "Learn words for rooms and furniture." }
-        ];
-        const dayOfYear = Math.floor((new Date() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
-        const challenge = seeds[dayOfYear % seeds.length];
-
-        const titleEl = document.getElementById('dc-title');
-        const subEl = document.getElementById('dc-sub');
-        if (titleEl) titleEl.textContent = challenge.title;
-        if (subEl) subEl.textContent = challenge.sub;
-
-        return challenge;
-    }
-
-    /* ══════════════════════════════════════
        PUBLIC HUB API
     ══════════════════════════════════════ */
     window.cosyPractice = {
@@ -663,19 +542,6 @@
         selectCat,
         updateThemes,
         updateSubThemes,
-
-        openWheel() {
-            document.getElementById('setup-section').style.display = 'none';
-            document.getElementById('wheel-container').style.display = 'block';
-            setTimeout(drawWheel, 50);
-        },
-
-        closeWheel() {
-            document.getElementById('wheel-container').style.display = 'none';
-            document.getElementById('setup-section').style.display = 'block';
-        },
-
-        spinWheel,
 
         async startPractice() {
             const level = document.getElementById('level-filter')?.value || 'all';
@@ -788,11 +654,6 @@
             if (window.beginSession) window.beginSession(lang, selectedCat, targetLevel, targetTheme, false, null, targetSubTheme);
         },
 
-        startDailyChallenge: async () => {
-            const challenge = generateDailyChallenge();
-            window.cosyPractice.quickStart(challenge.lang, challenge.cat, 'all', challenge.theme);
-        },
-
         startMistakeReview() {
             const engine = window.cosyPracticeEngine;
             if (!engine || !engine.state.mistakes || engine.state.mistakes.length === 0) {
@@ -810,33 +671,6 @@
             }));
 
             window.beginSession('multi', 'Remediation', 'mixed', 'all', false, qs.slice(0, 10));
-        },
-
-        startSRSReview(lang) {
-            const engine = window.cosyPracticeEngine;
-            if (!engine || !engine.getSRSDueItems) return alert("SRS engine unavailable.");
-            const targetLang = lang || selectedLang || 'en';
-            const dueSRS = engine.getSRSDueItems(targetLang);
-
-            if (!dueSRS || dueSRS.length === 0) {
-                const msg = "No SRS items due for review right now! Practice new themes to build your memory bank. 🧠";
-                if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, false);
-                else alert(msg);
-                return;
-            }
-
-            const qs = dueSRS.map(srs => {
-                const item = srs.item || { word: srs.word, level: srs.level, theme: srs.theme };
-                return {
-                    type: 'mc',
-                    q: `🧠 SRS Memory Review: "${srs.word}" = ?`,
-                    item: item,
-                    ans: 0,
-                    opts: [srs.word, 'Option B', 'Option C', 'Option D']
-                };
-            });
-
-            window.beginSession(targetLang, 'SRS Review', 'mixed', 'all', false, qs.slice(0, 10));
         },
 
         // Session Navigation delegate to core engine
@@ -1030,9 +864,7 @@
         }
 
         document.querySelectorAll('.cat-pill').forEach(p => p.addEventListener('click', () => selectCat(p)));
-        document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
         updateThemes();
-        generateDailyChallenge();
         updateHandoffLinks();
     }
 

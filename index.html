@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-translate-key="practice_title">Free practice | COSYlanguages</title>
+  <title data-translate-key="practice_title">Free practice | COSYpractice</title>
   <meta name="description" content="Vocabulary, grammar and speaking exercises in 5 languages. A daily challenge, COSY points and streaks. Free, no account needed.">
   <link rel="canonical" href="https://cosylanguages.github.io/COSYpractice/">
-  <meta property="og:title" content="Free practice | COSYlanguages">
+  <meta property="og:title" content="Free practice | COSYpractice">
   <meta property="og:description" content="Vocabulary, grammar and speaking exercises in 5 languages. A daily challenge, COSY points and streaks.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cosylanguages.github.io/COSYpractice/">
@@ -234,7 +234,7 @@
       <div class="pe-counters pe-counters-rel">
         <div class="pe-counter combo-wrap-hidden" id="combo-wrap">
           <div id="combo-count" class="pec-val text-amber">0</div>
-          <div class="pec-lbl text-amber">Combo 🔥</div>
+          <div class="pec-lbl text-amber" data-i18n="ui.combo">Combo 🔥</div>
         </div>
         <div class="pe-counter">
           <div id="score-count" class="pec-val">0</div>
@@ -266,21 +266,6 @@
       </div>
     </div>
   </div>
-
-
-
-  <!-- Wheel Container -->
-  <div id="wheel-container" class="wheel-section wheel-section-hidden">
-    <h2 class="sec-title" data-i18n="ui.spin_the_wheel_5778">Spin the Wheel 🎡</h2>
-    <div class="wheel-wrap">
-      <div class="wheel-pointer">▼</div>
-      <canvas id="wheel-canvas" width="200" height="200" class="wheel-canvas"></canvas>
-    </div>
-    <button type="button" id="spin-btn" class="wheel-btn" data-i18n="ui.spin_b820">SPIN! 🚀</button>
-    <div id="wheel-result" class="wheel-result"></div>
-    <button type="button" onclick="cosyPractice.closeWheel()" class="btn-outline btn-outline-top-spaced" data-i18n="ui.close_d3d2">Close</button>
-  </div>
-
 
   <!-- Stats + Mistakes Grid -->
   <div id="activity-section" class="two-col">
@@ -378,6 +363,7 @@
 <script src="js/cosy-core.js"></script>
 <script src="js/practice-i18n.js"></script>
 <script src="js/shell.js"></script>
+<script src="_engine/progress.js"></script>
 <script src="_engine/core.js"></script>
 <script src="_engine/renderers.js"></script>
 <script src="data/grammar_confusion_pairs.js"></script>

@@ -19,6 +19,10 @@
  */
 (function () {
     'use strict';
+    function localDateKey(d) {
+        var x = d || new Date();
+        return x.getFullYear() + '-' + String(x.getMonth() + 1).padStart(2, '0') + '-' + String(x.getDate()).padStart(2, '0');
+    }
 
     var MASTERY_MAX = 5;
     var INTERVALS = [0, 1, 3, 7, 14, 30]; // days, indexed by mastery level
@@ -98,12 +102,12 @@
 
     // ---- Streaks (reused) ----
     CrossCourseProgress.prototype.recordSessionCompletion = function () {
-        var today = new Date().toISOString().split('T')[0];
+        var today = localDateKey();
         if (this.streak.lastDate === today) {
             this.streak.todayCount += 1;
         } else {
             var yest = new Date(); yest.setDate(yest.getDate() - 1);
-            var yestStr = yest.toISOString().split('T')[0];
+            var yestStr = localDateKey(yest);
             this.streak.streakDays = (this.streak.lastDate === yestStr)
                 ? this.streak.streakDays + 1 : 1;
             this.streak.lastDate = today;
@@ -113,10 +117,10 @@
     };
 
     CrossCourseProgress.prototype.getStreakInfo = function () {
-        var today = new Date().toISOString().split('T')[0];
+        var today = localDateKey();
         if (this.streak.lastDate && this.streak.lastDate !== today) {
             var yest = new Date(); yest.setDate(yest.getDate() - 1);
-            if (this.streak.lastDate !== yest.toISOString().split('T')[0]) {
+            if (this.streak.lastDate !== localDateKey(yest)) {
                 this.streak.streakDays = 0;
             }
             this.streak.todayCount = 0;
@@ -127,9 +131,9 @@
     // ---- Cross-course aggregation + level-up rule ----
     /**
      * Summarise a single CEFR level within a course.
-     * @param totalLessons total lesson count for this course+level
-     *   (from data/levels/curriculum-stats.json). If unknown, uses the count
-     *   of distinct reviewed items.
+     * @param totalItems target practice-item count for this course+level
+     *   (vocabulary_items + grammar_items from data/levels/cefr-outcomes.json).
+     *   If unknown, uses the count of distinct reviewed items.
      */
     CrossCourseProgress.prototype.getLevelStatus = function (course, level, totalLessons) {
         var reviewed = [];
@@ -143,7 +147,7 @@
         var masterySum = reviewed.reduce(function (s, it) { return s + (it.masteryLevel || 0); }, 0);
         var masteryAvg = reviewedCount ? masterySum / reviewedCount : 0;
         var matureCount = reviewed.filter(function (it) { return (it.masteryLevel || 0) >= LEVEL_UP_MIN_MASTERY; }).length;
-        var reviewPct = denom ? reviewedCount / denom : 0;
+        var reviewPct = denom ? Math.min(1, reviewedCount / denom) : 0;
         var readyToLevelUp = reviewedCount > 0
             && reviewPct >= LEVEL_UP_REVIEW_PCT
             && masteryAvg >= LEVEL_UP_MIN_MASTERY;
@@ -162,21 +166,6 @@
         return (levels || []).map(function (lv) {
             return self.getLevelStatus(course, lv.level, lv.totalLessons);
         });
-    };
-
-    // ---- Seed/demo helper ----
-    // Seeds `count` items, each reviewed up to `masteryTarget` times (correct),
-    // so a level can be demoed as mature/ready-to-level-up.
-    CrossCourseProgress.prototype.seedDemo = function (course, level, count, correctRatio, masteryTarget) {
-        masteryTarget = masteryTarget || 1;
-        for (var i = 1; i <= count; i++) {
-            var id = course + ':' + level + ':L' + i;
-            var ok = Math.random() < correctRatio;
-            var reps = ok ? Math.max(1, masteryTarget) : 1;
-            for (var r = 0; r < reps; r++) {
-                this.recordAnswer(id, r < reps - 1 ? true : ok, { course: course, level: level });
-            }
-        }
     };
 
     CrossCourseProgress.prototype.reset = function () {

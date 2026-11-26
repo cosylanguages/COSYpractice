@@ -119,7 +119,7 @@
                     if (links && links.length > 0 && isAuthenticated) {
                         const rawLink = links[0];
                         const finalHref = (rawLink.startsWith('http://') || rawLink.startsWith('https://') || rawLink.startsWith('/')) ? rawLink : `https://cosylanguages.github.io/COSYmanuals/${rawLink}`;
-                        html += `<div style="margin-top:10px;"><a href="${finalHref}" target="_blank" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
+                        html += `<div style="margin-top:10px;"><a href="${finalHref}" target="_blank" rel="noopener noreferrer" class="btn-outline" style="text-decoration:none; display:inline-block; padding: 6px 12px; font-size: 0.85rem;">📖 Open Lesson Manual 🚀</a></div>`;
                     }
 
                     html += `</div>`;

@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="css/core.css">
     <link rel="stylesheet" href="css/shell.css">
     <style>
+    .skip-link { position: absolute; left: -9999px; top: 0; z-index: 100; }
+    .skip-link:focus { left: 8px; top: 8px; background: var(--teal, #26695e); color: #fff; padding: 8px 12px; border-radius: 8px; }
         .cognitive-hero {
             padding: 6rem 2rem 3rem;
             background: linear-gradient(135deg, var(--cream), var(--cream-dark));
@@ -673,6 +675,7 @@
   <link rel="stylesheet" href="https://cosylanguages.github.io/COSYlanguages/css/ecosystem-strip.css">
 </head>
 <body class="pm">
+<a href="#main" class="skip-link">Skip to Content</a>
 <div data-ecosystem-strip data-self="practice"></div>
 <nav id="cosy-nav" aria-label="COSY sites"></nav>
 
@@ -691,7 +694,7 @@
     </p>
 </header>
 
-<main class="cognitive-container">
+<main class="cognitive-container" id="main" tabindex="-1">
 
     <!-- Section 1: Full Monolingual Immersion -->
     <section class="cog-section">

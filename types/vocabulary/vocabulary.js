@@ -72,11 +72,11 @@
                 { type:'type', q:'"Past simple of verb: go" = ?', ans:'went', level:'starter', theme:'tenses_aspect', ruleHint:'Irregular verb: go ➔ went.', item:{ word:'went' }, practice_links:['manuals/en/grammar/a1/topics/past-simple-irregular.html'] },
 
                 // Tenses & Conditionals
-                { type:'mc', q:'✓ ?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Present simple third person singular uses "doesn\'t".' },
+                { type:'mc', q:'Which sentence is correct?', opts:['She doesn\'t like coffee.','She don\'t like coffee.','She not like coffee.','She isn\'t like coffee.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Present simple third person singular uses "doesn\'t".' },
                 { type:'mc', q:'I ___ Paris twice in my life.', opts:['have visited','visited','was visiting','had visit'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'Use Present Perfect for life experience without a specified past time.' },
                 { type:'mc', q:'Yesterday at 8 PM, I ___ dinner when you called.', opts:['was cooking','cooked','have cooked','had cook'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'Past Continuous describes an ongoing action interrupted by a Past Simple event.' },
                 { type:'tf', q:'"I have been living here for 3 years" = present perfect continuous', ans:true, level:'intermediate', theme:'tenses_aspect' },
-                { type:'mc', q:'✓ ?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'conditionals_moods', ruleHint:'Third conditional formula: If + Past Perfect, Subject + would have + Past Participle.' },
+                { type:'mc', q:'Which sentence is correct?', opts:['If I had known, I would have called you.','If I knew, I would call you yesterday.','If I have known, I called you.','If I had knew, I will call you.'], ans:0, level:'upper_intermediate', theme:'conditionals_moods', ruleHint:'Third conditional formula: If + Past Perfect, Subject + would have + Past Participle.' },
                 { type:'mc', q:'If I ___ more time, I would learn another language.', opts:['had','have','would have','had had'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Second conditional uses Past Simple in the "if" clause for unreal present situations.' }
             ]
         },
@@ -112,9 +112,9 @@
                 { type:'type', q:'"Passé composé du verbe : être (il)" = ?', ans:'a été', level:'starter', theme:'tenses_aspect', ruleHint:'Passé composé avec l\'auxiliaire avoir : il a été.', item:{ word:'a été' }, practice_links:['manuals/fr/grammar/a1/topics/passe-compose-avoir.html'] },
 
                 // Temps & Subjonctif
-                { type:'mc', q:'✓ ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'La négation entoure le verbe : ne + verbe + pas (avec élision n\').' },
+                { type:'mc', q:'Quelle phrase est correcte ?', opts:['Elle n’aime pas le café.','Elle ne aime pas le café.','Elle pas aime le café.','Elle aime pas le café.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'La négation entoure le verbe : ne + verbe + pas (avec élision n\').' },
                 { type:'mc', q:'Pendant que je lisais, le téléphone ___ .', opts:['a sonné','sonnait','a sonner','sonne'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'L\'imparfait décrit une action en cours, interrompue par le passé composé.' },
-                { type:'mc', q:'✓ ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'L\'expression "il faut que" nécessite le subjonctif présent.' },
+                { type:'mc', q:'Quelle phrase est correcte ?', opts:['Il faut que tu fasses attention.','Il faut que tu fais attention.','Il faut que tu faire attention.','Il faut tu fais attention.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'L\'expression "il faut que" nécessite le subjonctif présent.' },
                 { type:'mc', q:'Si j\'avais su, je ___ plus tôt.', opts:['serais venu','venais','viendrai','suis venu'], ans:0, level:'upper_intermediate', theme:'conditionals_moods', ruleHint:'Si + plus-que-parfait est suivi du conditionnel passé.' }
             ]
         },
@@ -143,9 +143,9 @@
                 { type:'mc', q:'Siamo usciti ___ la pioggia.', opts:['nonostante','perché','affinché','poiché'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Nonostante" è seguito da un sostantivo.' },
 
                 // Tempi & Congiuntivo
-                { type:'mc', q:'✓ ?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Il verbo piacere concorda con l\'oggetto (il caffè).' },
+                { type:'mc', q:'Quale frase è corretta?', opts:['A lei non piace il caffè.','Lei non piace il caffè.','Lei no piace il caffè.','A lei non piacciono il caffè.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Il verbo piacere concorda con l\'oggetto (il caffè).' },
                 { type:'mc', q:'Mentre studiavo, Marco ___ a casa.', opts:['è arrivato','arrivava','arriva','era arrivato'], ans:0, level:'intermediate', theme:'tenses_aspect', ruleHint:'L\'imperfetto indica l\'azione continuata, il passato prossimo l\'evento puntuale.' },
-                { type:'mc', q:'✓ ?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'I verbi di opinione (pensare) richiedono il congiuntivo.' }
+                { type:'mc', q:'Quale frase è corretta?', opts:['Penso che sia una buona idea.','Penso che è una buona idea.','Penso che sara una buona idea.','Penso che fose una buona idea.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'I verbi di opinione (pensare) richiedono il congiuntivo.' }
             ]
         },
         RU: {
@@ -174,10 +174,10 @@
                 { type:'mc', q:'Мы остались дома ___ дождя.', opts:['из-за','потому что','хотя','для'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'Предлог "из-за" используется с существительным в родительном падеже.' },
 
                 // Время & Сослагательное наклонение
-                { type:'mc', q:'✓ ?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Отрицание "не" ставится перед глаголом.' },
+                { type:'mc', q:'Какое предложение правильное?', opts:['Она не любит кофе.','Она нет любит кофе.','Она не любить кофе.','Она кофе не любит.'], ans:0, level:'starter', theme:'tenses_aspect', ruleHint:'Отрицание "не" ставится перед глаголом.' },
                 { type:'mc', q:'Вчера я весь вечер ___ книгу.', opts:['читал','прочитал','прочитаю','буду читать'], ans:0, level:'elementary', theme:'tenses_aspect', ruleHint:'НСВ (читал) обозначает длительный процесс (весь вечер).' },
                 { type:'mc', q:'Я ___ эту статью за один час.', opts:['прочитал','читал','дочитал','прочитаю'], ans:0, level:'elementary', theme:'tenses_aspect', ruleHint:'СВ (прочитал) обозначает завершенный результат за определенное время.' },
-                { type:'mc', q:'✓ ?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Сослагательное наклонение использует частицу "бы" с глаголом прошедшего времени.' }
+                { type:'mc', q:'Какое предложение правильное?', opts:['Если бы я знал, я бы пришел.','Если я знал, я пришел бы.','Если бы я знаю, я приду.','Если я бы знал, пришел.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Сослагательное наклонение использует частицу "бы" с глаголом прошедшего времени.' }
             ]
         },
         EL: {
@@ -203,8 +203,8 @@
                 { type:'mc', q:'Βγήκαμε έξω ___ έβρεχε.', opts:['αν και','εξαιτίας','για να','επειδή'], ans:0, level:'intermediate', theme:'syntax_word_order', ruleHint:'"Αν και" εισάγει εναντιωματική πρόταση.' },
 
                 // Χρόνοι & Υποθετικοί λόγοι
-                { type:'mc', q:'✓ ?', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'tenses_aspect' },
-                { type:'mc', q:'✓ ?', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Υποθετικός λόγος 2ου είδους: Αν + παρατατικός, θα + παρατατικός.' }
+                { type:'mc', q:'Ποια πρόταση είναι σωστή;', opts:['Δεν της αρέσει ο καφές.','Δεν αρέσει ο καφές αυτής.','Δεν την αρέσει ο καφές.','Δεν της αρέσουν ο καφές.'], ans:0, level:'starter', theme:'tenses_aspect' },
+                { type:'mc', q:'Ποια πρόταση είναι σωστή;', opts:['Αν είχα χρόνο, θα ερχόμουν.','Αν έχω χρόνο, θα ερχόμουν.','Αν είχα χρόνο, θα έρθω.','Αν είχα χρόνο, ερχόμουν.'], ans:0, level:'intermediate', theme:'conditionals_moods', ruleHint:'Υποθετικός λόγος 2ου είδους: Αν + παρατατικός, θα + παρατατικός.' }
             ]
         }
     };
