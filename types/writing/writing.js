@@ -240,15 +240,15 @@
 
         if (state.lastCompleted === todayStr) return;
 
-        // Update streak
+        // Update the canonical streak day shared with the practice engine.
         const yesterday = new Date();
         yesterday.setDate(yesterday.getDate() - 1);
         const yesterdayStr = localDateKey(yesterday);
+        const lastStreakDay = localStorage.getItem('last_practice_date') || '';
 
-        if (state.lastCompleted === yesterdayStr) {
-            state.streak += 1;
-        } else if (state.lastCompleted !== todayStr) {
-            state.streak = 1;
+        if (lastStreakDay !== todayStr) {
+            state.streak = lastStreakDay === yesterdayStr ? state.streak + 1 : 1;
+            localStorage.setItem('last_practice_date', todayStr);
         }
 
         state.lastCompleted = todayStr;

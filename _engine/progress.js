@@ -40,9 +40,9 @@
     function CrossCourseProgress(opts) {
         opts = opts || {};
         this.progressKey = opts.progressKey || 'cosy-progress-v1';
-        this.streakKey = opts.streakKey || 'cosy-progress-streak-v1';
         this.progress = this._load(this.progressKey, {});
-        this.streak = this._load(this.streakKey, { streakDays: 0, lastDate: null, todayCount: 0 });
+        // Retire the old duplicate streak key; the streak lives in practice_streak.
+        try { localStorage.removeItem('cosy-progress-streak-v1'); } catch (e) {}
     }
 
     CrossCourseProgress.prototype._load = function (key, fallback) {
@@ -100,32 +100,25 @@
         return this.progress[id];
     };
 
-    // ---- Streaks (reused) ----
-    CrossCourseProgress.prototype.recordSessionCompletion = function () {
-        var today = localDateKey();
-        if (this.streak.lastDate === today) {
-            this.streak.todayCount += 1;
-        } else {
-            var yest = new Date(); yest.setDate(yest.getDate() - 1);
-            var yestStr = localDateKey(yest);
-            this.streak.streakDays = (this.streak.lastDate === yestStr)
-                ? this.streak.streakDays + 1 : 1;
-            this.streak.lastDate = today;
-            this.streak.todayCount = 1;
-        }
-        this._save(this.streakKey, this.streak);
-    };
-
+    // ---- Streak (read-only) ----
+    // The practice engine owns the streak (practice_streak + last_practice_date);
+    // read it here so the dashboard and the practice page never disagree.
     CrossCourseProgress.prototype.getStreakInfo = function () {
         var today = localDateKey();
-        if (this.streak.lastDate && this.streak.lastDate !== today) {
+        var streak = parseInt(_storage.getItem('practice_streak') || '0', 10) || 0;
+        var last = _storage.getItem('last_practice_date') || '';
+        if (last && last !== today) {
             var yest = new Date(); yest.setDate(yest.getDate() - 1);
-            if (this.streak.lastDate !== localDateKey(yest)) {
-                this.streak.streakDays = 0;
-            }
-            this.streak.todayCount = 0;
+            if (last !== localDateKey(yest)) streak = 0;
         }
-        return { streakDays: this.streak.streakDays || 0, todayCount: this.streak.todayCount || 0 };
+        var todayCount = 0;
+        for (var id in this.progress) {
+            var seen = this.progress[id] && this.progress[id].lastSeen;
+            if (!seen) continue;
+            var d = new Date(seen);
+            if (!isNaN(d) && localDateKey(d) === today) todayCount++;
+        }
+        return { streakDays: streak, todayCount: todayCount };
     };
 
     // ---- Cross-course aggregation + level-up rule ----
@@ -170,9 +163,7 @@
 
     CrossCourseProgress.prototype.reset = function () {
         this.progress = {};
-        this.streak = { streakDays: 0, lastDate: null, todayCount: 0 };
         this._save(this.progressKey, this.progress);
-        this._save(this.streakKey, this.streak);
     };
 
     window.COSYProgress = CrossCourseProgress;

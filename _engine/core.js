@@ -992,7 +992,7 @@
 
             s.totalPts += sess.sessionPoints;
             s.todayCorrect += sess.correctCount;
-            this.updateStreak();
+            if ((sess.correctCount || 0) > 0 || (sess.currentIndex || 0) > 0) this.updateStreak();
             s.sessions++;
 
             // Track practice session complete
@@ -1071,14 +1071,6 @@
         },
 
         endSession() {
-            if (this.session) {
-                const sess = this.session;
-                const didWork = (sess.correctCount || 0) > 0 || (sess.currentIndex || 0) > 0;
-                if (didWork) {
-                    const store = getProgressStore();
-                    if (store) { try { store.recordSessionCompletion(); } catch (e) {} }
-                }
-            }
             this.session = null;
 
             if (window.cosyCleanupAudio) {
@@ -1506,12 +1498,20 @@
     // Expose engine
     window.cosyPracticeEngine = engine;
 
-    // Bridge functions
-    window.beginSession = (lang, cat, level, theme, isChallenge, qs) => engine.startSession(lang, cat, level, theme, isChallenge, qs);
+    // Keep in-memory state in sync when the daily-challenge writer updates the
+    // shared points/streak keys, so the next save does not clobber them.
+    document.addEventListener('cosyPointsUpdated', () => {
+        const s = loadState();
+        engine.state.totalPts = s.totalPts;
+        engine.state.streak = s.streak;
+        engine.state.lastDate = s.lastDate;
+        if (engine.updateUI) engine.updateUI();
+    });
+
+    // Bridge functions (window.beginSession is provided by types/vocabulary/vocabulary.js)
     window.nextQuestion = () => engine.nextQuestion();
     window.showSummary = () => engine.showSummary();
     window.exitPractice = () => engine.endSession();
-    window.endSession = () => engine.endSession();
     window.showHint = () => engine.showHint();
 
     window.checkMC = (i) => {

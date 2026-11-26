@@ -951,5 +951,4 @@
     // Export functions to global scope
     window.ensureDataLoaded = ensureDataLoaded;
     window.beginSession = beginSession;
-    window.getQuestions = getQuestions;
 })();

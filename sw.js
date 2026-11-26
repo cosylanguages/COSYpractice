@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cosypractice-v12';
+const CACHE_NAME = 'cosypractice-v13';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
