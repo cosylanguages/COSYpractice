@@ -311,13 +311,4 @@
       ]
     };
 
-    window.flashAnswer = function(correct) {
-      const flash = document.getElementById('answer-flash');
-      if (!flash) return;
-      flash.className = 'answer-flash ' + (correct ? 'correct-flash' : 'incorrect-flash') + ' show';
-      flash.textContent = correct ? '✅' : '❌';
-      if (navigator.vibrate) navigator.vibrate(correct ? [50] : [80, 40, 80]);
-      setTimeout(() => flash.classList.remove('show'), 400);
-    };
-
 })();

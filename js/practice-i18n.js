@@ -85,12 +85,6 @@
       .then(function (d) { dict = d; current = lang; document.documentElement.lang = lang; apply(); watch(); done && done(); });
   }
 
-  window.setLanguage = function (lang) {
-    lang = (lang || '').slice(0, 2).toLowerCase();
-    if (SUPPORTED.indexOf(lang) < 0) return;
-    store('cosy_last_language', lang);
-    load(lang, function () { document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: lang } })); });
-  };
   window.COSY_I18N = { get currentLang() { return current; } };
 
   function init() { load(detect(), function () { document.dispatchEvent(new CustomEvent('cosyI18nReady', { detail: { lang: current } })); }); }

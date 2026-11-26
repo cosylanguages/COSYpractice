@@ -125,7 +125,7 @@
 
   function init() {
     buildNav(); buildFooter();
-    if (isListing) loadDict(function () { applyTranslations(); window.__cosyI18nReady = true; document.dispatchEvent(new Event('cosy:i18nready')); });
+    if (isListing) loadDict(function () { applyTranslations(); document.dispatchEvent(new Event('cosy:i18nready')); });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

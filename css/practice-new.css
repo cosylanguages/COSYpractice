@@ -1671,21 +1671,10 @@ body.projector-mode .pe-bb-action-btn {
 .styled-select,
 .tbtn,
 #projector-setup-toggle,
-.theme-toggle-btn,
-.cosy-lang-lock-wrap select,
-#cosy-lang-lock-btn,
-.nav-logo {
-  min-height: 32px;
-}
-
 @media (max-width: 768px) {
   .styled-select,
   .tbtn,
   #projector-setup-toggle,
-  .theme-toggle-btn,
-  .cosy-lang-lock-wrap select,
-  #cosy-lang-lock-btn,
-  .nav-logo,
   .skip-link {
     min-height: 44px;
     display: inline-flex;
