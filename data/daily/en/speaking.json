@@ -505,7 +505,7 @@
   },
   {
     "id": "en:speaking:c16",
-    "prompt": "What do you eat and drink for breakfast? Tell me about three things.",
+    "prompt": "What do you eat and drink for breakfast? Talk about three things.",
     "topic": "food",
     "level": "A0-A1",
     "curated": true,
@@ -597,7 +597,7 @@
   },
   {
     "id": "en:speaking:c20",
-    "prompt": "Say the numbers 1 to 10, then tell me the price of three things you bought this week.",
+    "prompt": "Say the numbers 1 to 10, then talk about the price of three things you bought this week.",
     "topic": "numbers and prices",
     "level": "A0-A1",
     "curated": true,
@@ -1458,7 +1458,7 @@
   },
   {
     "id": "en:speaking:c45",
-    "prompt": "Look at a picture of a table. Tell me what is on it, and say where each thing is: on the table, under the table, next to the cup.",
+    "prompt": "Look at a picture of a table. Talk about what is on it, and say where each thing is: on the table, under the table, next to the cup.",
     "topic": "say what an object is and where it is",
     "level": "A0-A1",
     "curated": true,
@@ -1550,7 +1550,7 @@
   },
   {
     "id": "en:speaking:c49",
-    "prompt": "Tell me about your favourite way to spend a free evening. What do you usually do, who are you with, and why do you enjoy it?",
+    "prompt": "Talk about your favourite way to spend a free evening. What do you usually do, who are you with, and why do you enjoy it?",
     "topic": "talking about habits and preferences",
     "level": "A2",
     "curated": true,
@@ -1704,7 +1704,7 @@
   },
   {
     "id": "en:speaking:c56",
-    "prompt": "Tell me about a project or piece of work you are proud of. What was your role, what did you have to negotiate, and what would you do differently now?",
+    "prompt": "Talk about a project or piece of work you are proud of. What was your role, what did you have to negotiate, and what would you do differently now?",
     "topic": "personal interview",
     "level": "C1-C2",
     "curated": true,
@@ -1940,7 +1940,7 @@
   },
   {
     "id": "en:speaking:g15",
-    "prompt": "Tell me about your morning. What time do you get up? What do you eat? What do you do first?",
+    "prompt": "Talk about your morning. What time do you get up? What do you eat? What do you do first?",
     "level": "A0-A1",
     "curated": true,
     "track": "general",
@@ -2054,7 +2054,7 @@
   },
   {
     "id": "en:speaking:c63",
-    "prompt": "Look at a picture of a family in a garden. Tell me who you can see, what they are doing and what the weather is like.",
+    "prompt": "Look at a picture of a family in a garden. Talk about who you can see, what they are doing and what the weather is like.",
     "level": "A0-A1",
     "curated": true,
     "track": "exam",
@@ -2098,7 +2098,7 @@
   },
   {
     "id": "en:speaking:c65",
-    "prompt": "Tell me about your home. How many rooms are there? Which room do you use most? What do you do there?",
+    "prompt": "Talk about your home. How many rooms are there? Which room do you use most? What do you do there?",
     "level": "A0-A1",
     "curated": true,
     "track": "exam",
@@ -2494,7 +2494,7 @@
   },
   {
     "id": "en:speaking:c75",
-    "prompt": "Here is a picture of a bedroom. Tell me five things you can see in it, and say where each thing is.",
+    "prompt": "Here is a picture of a bedroom. Talk about five things you can see in it, and say where each thing is.",
     "level": "A0-A1",
     "curated": true,
     "track": "exam",
@@ -2516,7 +2516,7 @@
   },
   {
     "id": "en:speaking:c76",
-    "prompt": "Look at these two pictures of a park. Tell me three things that are different.",
+    "prompt": "Look at these two pictures of a park. Talk about three things that are different.",
     "level": "A0-A1",
     "curated": true,
     "track": "exam",
@@ -2538,7 +2538,7 @@
   },
   {
     "id": "en:speaking:c77",
-    "prompt": "Tell me about your best friend. What is their name, how old are they, and what do you do together?",
+    "prompt": "Talk about your best friend. What is their name, how old are they, and what do you do together?",
     "level": "A0-A1",
     "curated": true,
     "track": "exam",
@@ -2560,7 +2560,7 @@
   },
   {
     "id": "en:speaking:g20",
-    "prompt": "Tell me about your last birthday. What did you do? Who was there? What did you eat?",
+    "prompt": "Talk about your last birthday. What did you do? Who was there? What did you eat?",
     "topic": "Tell a story",
     "level": "A0-A1",
     "curated": true,
@@ -2583,7 +2583,7 @@
   },
   {
     "id": "en:speaking:c78",
-    "prompt": "Tell me about the last film or programme you watched. What was it about, and did you like it?",
+    "prompt": "Talk about the last film or programme you watched. What was it about, and did you like it?",
     "level": "A2",
     "curated": true,
     "track": "exam",
